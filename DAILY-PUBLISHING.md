@@ -66,6 +66,9 @@ If any answer is no, the lesson is not ready.
 - Materials without affiliate links until the business chooses to add them
 - Useful alt text that describes the actual drawing
 - Related lessons only when those pages really exist
+- Add interactions only when they help someone complete or understand the
+  lesson. Avoid confetti, completion celebrations, or other novelty effects
+  that do not add instructional value.
 
 ## Automation QA
 

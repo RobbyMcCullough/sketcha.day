@@ -46,20 +46,12 @@
   <a class="skip-link" href="#lesson">Skip to today's lesson</a>
 
   <header class="site-header">
-    <a class="brand" href="#" aria-label="Sketcha.day home">
-      <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 72 72" role="img">
-          <path d="m12 58 8-20L48 9l12 12-29 29-19 8Z" fill="#f3b63c" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
-          <path d="m20 38 11 12M25 32l12 12M31 26l12 12M37 20l12 12" fill="none" stroke="#d69320" stroke-width="1.7" opacity=".8"/>
-          <path d="M20 38 9 62l22-12Z" fill="#e8c89b" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
-          <path d="m9 62 4-9 6 6Z" fill="#34312c"/>
-          <path d="m48 9 6-6 12 12-6 6Z" fill="#dd5b43" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
-          <path d="M22 39 50 11M28 46 56 17" fill="none" stroke="#fff1b8" stroke-width="2" stroke-linecap="round" opacity=".9"/>
-          <path d="M13 64c8 2 17 1 25-3" fill="none" stroke="#43899a" stroke-width="2.2" stroke-linecap="round"/>
-        </svg>
-      </span>
-      <span class="brand-name">sketcha<span>.day</span></span>
-    </a>
+    <div class="brand">
+      <img class="brand-mark" src="assets/logo-pencil.svg" alt="" width="72" height="72">
+      <a class="brand-wordmark" href="#" aria-label="Sketcha.day home">
+        <span class="brand-name">sketcha<span>.day</span></span>
+      </a>
+    </div>
 
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
       <span></span><span></span><span></span>
@@ -77,9 +69,6 @@
   <main>
     <section class="hero" aria-labelledby="hero-title">
       <div class="doodle doodle-star" aria-hidden="true">✦</div>
-      <div class="doodle doodle-loop" aria-hidden="true">
-        <svg viewBox="0 0 170 90"><path d="M7 63c37-57 130-64 151-21 18 38-83 49-96 11-8-25 67-41 97 14"/></svg>
-      </div>
 
       <div class="hero-copy">
         <p class="eyebrow"><span>Day 001</span> Monday, June 15</p>
@@ -90,8 +79,8 @@
           <span><strong>Easy</strong> going</span>
           <span><strong>6</strong> steps</span>
         </div>
-        <a class="primary-button" href="#lesson">
-          Start sketching
+        <a class="nav-button hero-button" href="#lesson">
+          Start drawing
           <svg viewBox="0 0 30 15" aria-hidden="true"><path d="M1 7.5h26M20 1l7 6.5-7 6.5"/></svg>
         </a>
       </div>
@@ -100,13 +89,7 @@
         <div class="tape tape-top" aria-hidden="true"></div>
         <img src="assets/fox-finished-v2.jpg" alt="Loose graphite and orange-pencil sketch of a seated fox with visible construction lines" width="1100" height="1100">
         <figcaption>Today's finished sketch <span>About 25 minutes</span></figcaption>
-        <svg class="scribble-circle" viewBox="0 0 420 420" aria-hidden="true"><path d="M202 12C93 16 19 80 11 196c-9 131 95 211 206 211 123 0 194-92 190-200C402 85 322 8 202 12Z"/></svg>
       </figure>
-    </section>
-
-    <section class="encouragement" aria-label="Drawing encouragement">
-      <p>There are no bad lines here.</p>
-      <span>Draw lightly · Stay curious · Make it yours</span>
     </section>
 
     <article class="lesson" id="lesson">
@@ -285,15 +268,6 @@
         </ol>
       </div>
 
-      <div class="finish-line">
-        <span aria-hidden="true">★</span>
-        <div>
-          <p class="hand-note">Look what you made!</p>
-          <h2>Your fox has found its feet.</h2>
-          <p>Sign your drawing, add today's date, and resist the urge to overwork it.</p>
-        </div>
-        <button class="secondary-button" id="celebrate-button" type="button">I finished it!</button>
-      </div>
     </article>
 
     <section class="library" id="library" aria-labelledby="library-title">
@@ -345,12 +319,8 @@
     </section>
 
     <section class="about" id="about">
-      <div class="about-drawing" aria-hidden="true">
-        <svg viewBox="0 0 400 300">
-          <path d="M68 235c59-41 110-128 157-181 27-31 65-11 56 24-18 66-95 155-143 188"/>
-          <path d="m225 54 56 24M68 235l70 31-86 16zM52 282l16-47"/>
-          <path d="M130 170c34-8 68-4 103 13M107 204c28-3 56 1 84 14"/>
-        </svg>
+      <div class="about-drawing">
+        <img src="assets/daily-sketchbook.svg" alt="An open sketchbook filled with four simple daily drawing studies" width="560" height="430">
       </div>
       <div class="about-copy">
         <p class="kicker">One small drawing, every day</p>
@@ -393,7 +363,6 @@
     <small>© 2026 Sketcha.day</small>
   </footer>
 
-  <div class="confetti" aria-hidden="true"></div>
   <script src="script.js"></script>
 </body>
 </html>

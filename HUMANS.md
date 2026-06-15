@@ -15,6 +15,9 @@
 - Open `index.html` through a local server to review the first draft.
 - Main work is in `index.html`, `styles.css`, and `script.js`.
 - Revised loose fox artwork is stored at `assets/fox-finished-v2.jpg`.
+- The header pencil and wordmark are independent; the pencil artwork lives at
+  `assets/logo-pencil.svg`.
+- The daily-practice section uses `assets/daily-sketchbook.svg`.
 - The current lesson demonstrates a future SEO page for “how to draw a fox.”
 - Daily automation requirements and anti-slop quality gates live in
   `DAILY-PUBLISHING.md`.

@@ -115,7 +115,14 @@ a {
 
 .brand-mark {
   width: 48px;
+  height: 48px;
   transform: rotate(-4deg);
+}
+
+.brand-wordmark {
+  display: inline-flex;
+  color: inherit;
+  text-decoration: none;
 }
 
 .brand-name {
@@ -160,10 +167,17 @@ a {
 }
 
 .nav-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
   padding: .7rem 1rem;
   border: 2px solid var(--ink);
+  color: var(--ink);
   background: var(--yellow);
   box-shadow: 4px 4px 0 var(--ink);
+  font-weight: 700;
+  text-decoration: none;
   transform: rotate(1deg);
   transition: .18s ease;
 }
@@ -281,34 +295,20 @@ a {
   font-size: 1rem;
 }
 
-.primary-button,
-.secondary-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.2rem;
+.hero-button {
   padding: .9rem 1.35rem;
-  border: 2px solid var(--ink);
-  color: var(--paper-light);
-  background: var(--ink);
-  box-shadow: 5px 5px 0 var(--orange);
-  font-weight: 700;
-  text-decoration: none;
-  transition: .18s ease;
-  cursor: pointer;
+  transform: rotate(-1deg);
 }
 
-.primary-button svg {
+.hero-button svg {
   width: 30px;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
 }
 
-.primary-button:hover,
-.secondary-button:hover {
-  box-shadow: 1px 1px 0 var(--orange);
-  transform: translate(4px, 4px);
+.hero-button:hover {
+  transform: translate(3px, 3px) rotate(-1deg);
 }
 
 .hero-art {
@@ -361,21 +361,6 @@ a {
   transform: translateX(-50%) rotate(-4deg);
 }
 
-.scribble-circle {
-  position: absolute;
-  inset: -28px;
-  z-index: -1;
-  max-width: none;
-  width: calc(100% + 56px);
-  height: calc(100% + 56px);
-  fill: none;
-  stroke: var(--blue);
-  stroke-width: 2.5;
-  stroke-dasharray: 3 5;
-  opacity: .75;
-  transform: rotate(-4deg);
-}
-
 .doodle {
   position: absolute;
   pointer-events: none;
@@ -387,44 +372,6 @@ a {
   color: var(--yellow);
   font-size: 4rem;
   transform: rotate(12deg);
-}
-
-.doodle-loop {
-  right: -6%;
-  bottom: 1%;
-  width: 190px;
-  opacity: .4;
-}
-
-.doodle-loop path {
-  fill: none;
-  stroke: var(--orange);
-  stroke-width: 3;
-  stroke-linecap: round;
-}
-
-.encouragement {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: clamp(2rem, 8vw, 7rem);
-  padding: 22px 5vw;
-  color: white;
-  background: var(--blue);
-  transform: rotate(-.5deg) scale(1.01);
-}
-
-.encouragement p {
-  margin: 0;
-  font-family: var(--display);
-  font-size: clamp(1.8rem, 4vw, 3rem);
-}
-
-.encouragement span {
-  font-size: .75rem;
-  font-weight: 700;
-  letter-spacing: .12em;
-  text-transform: uppercase;
 }
 
 .lesson {
@@ -440,7 +387,6 @@ a {
 }
 
 .section-heading h2,
-.finish-line h2,
 .about h2,
 .newsletter h2 {
   margin: 0;
@@ -757,13 +703,37 @@ a {
 }
 
 .artist-tip {
-  margin-top: 1.3rem !important;
-  padding: 12px 15px;
+  position: relative;
+  margin: 1.35rem 4px 0 7px !important;
+  padding: 14px 17px 13px 44px;
   color: var(--ink) !important;
-  background: rgba(242, 184, 61, .2);
-  border-left: 4px solid var(--yellow);
-  font-size: .8rem;
-  transform: rotate(-.3deg);
+  background: #f8df93;
+  box-shadow: 3px 4px 0 rgba(40, 37, 31, .12);
+  clip-path: polygon(1% 4%, 98% 0, 100% 93%, 84% 97%, 65% 94%, 46% 100%, 27% 95%, 0 98%);
+  font-family: var(--display);
+  font-size: 1.08rem;
+  line-height: 1.15;
+  transform: rotate(-.8deg);
+}
+
+.artist-tip::before {
+  position: absolute;
+  top: 10px;
+  left: 13px;
+  content: "✎";
+  color: var(--orange);
+  font-size: 1.55rem;
+  transform: rotate(-12deg);
+}
+
+.artist-tip strong {
+  color: var(--orange);
+  font-weight: 400;
+}
+
+.step-card:nth-child(even) .artist-tip {
+  background: #f4e6b7;
+  transform: rotate(.6deg);
 }
 
 .final-step {
@@ -780,39 +750,6 @@ a {
   height: 250px;
   object-fit: contain;
   mix-blend-mode: multiply;
-}
-
-.finish-line {
-  position: relative;
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  gap: 2rem;
-  margin-top: 75px;
-  padding: 38px 48px;
-  border: 3px solid var(--ink);
-  background: var(--yellow);
-  box-shadow: 10px 10px 0 var(--orange);
-  transform: rotate(-.6deg);
-}
-
-.finish-line > span {
-  color: var(--orange);
-  font-size: 4rem;
-  -webkit-text-stroke: 2px var(--ink);
-}
-
-.finish-line h2 {
-  font-size: clamp(2.4rem, 5vw, 4rem);
-}
-
-.finish-line p:not(.hand-note) {
-  margin: .4rem 0 0;
-  font-size: .85rem;
-}
-
-.secondary-button {
-  white-space: nowrap;
 }
 
 .library {
@@ -933,22 +870,13 @@ a {
   padding: 130px 0;
 }
 
-.about-drawing svg {
-  overflow: visible;
-}
-
-.about-drawing path {
-  fill: none;
-  stroke: var(--ink);
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
 .about-drawing {
-  padding: 25px;
-  background: rgba(67, 137, 154, .13);
   transform: rotate(-3deg);
+}
+
+.about-drawing img {
+  width: 100%;
+  filter: drop-shadow(8px 10px 0 rgba(67, 137, 154, .14));
 }
 
 .about-copy > p:not(.kicker) {
@@ -1103,28 +1031,6 @@ a {
   font-weight: 700;
 }
 
-.confetti {
-  position: fixed;
-  inset: 0;
-  z-index: 50;
-  pointer-events: none;
-  overflow: hidden;
-}
-
-.confetti i {
-  position: absolute;
-  top: -20px;
-  width: 9px;
-  height: 19px;
-  animation: confetti-fall 1.6s ease-in forwards;
-}
-
-@keyframes confetti-fall {
-  to {
-    transform: translate3d(var(--drift), 105vh, 0) rotate(720deg);
-  }
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .hero-copy > * {
     animation: rise-in .65s ease forwards;
@@ -1260,12 +1166,6 @@ a {
     display: none;
   }
 
-  .encouragement {
-    flex-direction: column;
-    gap: .4rem;
-    text-align: center;
-  }
-
   .lesson {
     width: min(100% - 28px, 620px);
     padding: 90px 0;
@@ -1291,16 +1191,6 @@ a {
 
   .step-art {
     min-height: 210px;
-  }
-
-  .finish-line {
-    grid-template-columns: 1fr;
-    padding: 35px 28px;
-    text-align: center;
-  }
-
-  .finish-line > span {
-    display: none;
   }
 
   .library {
