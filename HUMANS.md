@@ -28,3 +28,5 @@
   seed, and sleepy cat.
 - Future finished lesson art should be generated or human-made raster artwork;
   SVG is reserved mainly for guides and interface details.
+- The June 12-14 backdated lessons were rebuilt with generated raster master
+  sketches and generated raster step frames.

@@ -14,7 +14,7 @@ const lessons = [
     time: 20,
     difficulty: "Easy",
     accent: "#43899a",
-    finished: "sleepy-cat-finished.svg",
+    finished: "sleepy-cat-finished-v2.jpg",
     finishedAlt: "Loose graphite and blue-pencil sketch of a sleepy cat curled around its tail",
     materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blue pencil"],
     steps: [
@@ -63,7 +63,7 @@ const lessons = [
     time: 15,
     difficulty: "Easy",
     accent: "#6d8763",
-    finished: "sprouting-seed-finished.svg",
+    finished: "sprouting-seed-finished-v2.jpg",
     finishedAlt: "Loose graphite and green-pencil sketch of a four-leaf sprout",
     materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional green pencil"],
     steps: [
@@ -112,7 +112,7 @@ const lessons = [
     time: 25,
     difficulty: "Medium",
     accent: "#d88c91",
-    finished: "cozy-mushroom-finished.svg",
+    finished: "cozy-mushroom-finished-v2.jpg",
     finishedAlt: "Loose graphite and pink-pencil sketch of a rounded mushroom",
     materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional pink pencil"],
     steps: [
@@ -197,8 +197,8 @@ const page = (lesson) => {
             <div class="step-number">${String(index + 1).padStart(2, "0")}</div>
             <div class="step-art${step.image ? " finished-mini" : ""}">
               ${step.image
-                ? `<img src="../assets/${lesson.finished}" alt="${lesson.finishedAlt}" width="720" height="720" loading="lazy">`
-                : `<svg viewBox="0 0 720 720" role="img" aria-label="${step.name}">${step.art}</svg>`}
+                ? `<img src="../assets/${lesson.finished}" alt="${lesson.finishedAlt}" width="1254" height="1254" loading="lazy">`
+                : `<img src="../assets/${lesson.slug}-step-${index + 1}.jpg" alt="${step.name} stage for how to draw ${lesson.shortSubject}" width="627" height="627" loading="lazy">`}
             </div>
             <div class="step-copy">
               <h3>${step.name}</h3>
@@ -255,7 +255,7 @@ const page = (lesson) => {
       </div>
       <figure class="hero-art">
         <div class="tape tape-top" aria-hidden="true"></div>
-        <img src="../assets/${lesson.finished}" alt="${lesson.finishedAlt}" width="720" height="720">
+        <img src="../assets/${lesson.finished}" alt="${lesson.finishedAlt}" width="1254" height="1254">
         <figcaption>Finished sketch <span>About ${lesson.time} minutes</span></figcaption>
       </figure>
     </section>
