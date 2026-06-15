@@ -16,9 +16,16 @@ python3 -m http.server 4173
 
 Then open `http://localhost:4173`.
 
+Archive tutorial pages are generated from `scripts/build-tutorials.mjs`:
+
+```sh
+node scripts/build-tutorials.mjs
+```
+
 ## Conventions
 
 - Read `DAILY-PUBLISHING.md` before creating or changing a daily lesson.
+- Rebuild generated archive pages after changing their lesson data.
 - Keep daily tutorial pages useful without JavaScript.
 - Treat accessibility, responsive layout, and semantic HTML as requirements.
 - Use descriptive tutorial titles and copy suitable for search results.

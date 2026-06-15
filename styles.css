@@ -826,6 +826,13 @@ a {
   stroke-linejoin: round;
 }
 
+.card-art img {
+  width: 82%;
+  height: 100%;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
 .card-blue .card-art {
   background: rgba(67, 137, 154, .26);
 }
@@ -927,6 +934,26 @@ a {
   text-align: center;
   box-shadow: 12px 12px 0 var(--yellow);
   transform: rotate(.5deg);
+}
+
+.archive-tutorial .hero h1 em,
+.archive-tutorial .eyebrow,
+.archive-tutorial .kicker,
+.archive-tutorial .hand-note {
+  color: var(--lesson-accent);
+}
+
+.archive-tutorial .hero h1 em::after {
+  filter: hue-rotate(28deg);
+}
+
+.archive-tutorial .hero-art img,
+.archive-tutorial .finished-mini img {
+  mix-blend-mode: multiply;
+}
+
+.related-library .library-grid {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .newsletter::before,
@@ -1211,6 +1238,10 @@ a {
     grid-template-columns: 1fr;
     max-width: 480px;
     margin: 0 auto;
+  }
+
+  .related-library .library-grid {
+    grid-template-columns: 1fr;
   }
 
   .sketch-card:nth-child(n) {
