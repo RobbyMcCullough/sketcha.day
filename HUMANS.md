@@ -32,3 +32,7 @@
   sketches and generated raster step frames.
 - `lab.html` is an experimental sketch board for finished-result-only tutorial
   ideas before they are promoted into full lessons.
+- Lab is intentionally unlinked from public navigation and carries a noindex
+  robots meta tag.
+- Added the rainy-day frog as a real backdated tutorial for June 11, 2026 and
+  renumbered the initial sequence so June 15 is Day 005.

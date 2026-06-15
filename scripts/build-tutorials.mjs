@@ -3,7 +3,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 const lessons = [
   {
     slug: "sleepy-cat",
-    day: "003",
+    day: "004",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -52,7 +52,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "002",
+    day: "003",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -101,7 +101,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "001",
+    day: "002",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -147,12 +147,57 @@ const lessons = [
         image: true
       }
     ]
+  },
+  {
+    slug: "rainy-day-frog",
+    day: "001",
+    date: "Thursday, June 11",
+    isoDate: "2026-06-11",
+    subject: "a rainy-day frog",
+    shortSubject: "a rainy-day frog",
+    lessonTitle: "Let's draw a rainy-day frog",
+    description: "Learn how to draw a cartoon frog in rain boots holding an umbrella with five friendly sketching steps.",
+    intro: "Build a cheerful frog from rounded shapes, then give it boots, an umbrella, and a splash of rainy-day color.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#6d8763",
+    finished: "rainy-day-frog-finished-v1.jpg",
+    finishedAlt: "Loose graphite and colored-pencil sketch of a cartoon frog in yellow rain boots holding a blue umbrella",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional colored pencils"],
+    steps: [
+      {
+        name: "Block in the big shapes",
+        text: "Use light circles for the eyes, a wide rounded head, an oval body, two boot blocks, and a broad umbrella arc above.",
+        tip: "Make the umbrella wider than the frog. That big curve is what sells the rainy-day pose."
+      },
+      {
+        name: "Draw the face and umbrella",
+        text: "Round out the frog's head, add the eye rings, a simple smile, cheek spots, and the umbrella ribs.",
+        tip: "Keep the face low and wide. A tiny smile under big eyes makes the character feel playful."
+      },
+      {
+        name: "Add arms and the handle",
+        text: "Sketch the body, then wrap two simple arms and little hands around the umbrella handle.",
+        tip: "Let the handle tilt through the frog's body. The hands only need a few curved fingers."
+      },
+      {
+        name: "Finish the boots",
+        text: "Turn the boot blocks into oversized rain boots with soft openings, rounded toes, and dark sole lines.",
+        tip: "Big boots make the cartoon work. Keep them wider than the frog's legs."
+      },
+      {
+        name: "Color the rainy details",
+        text: "Darken the useful contours, then add loose green, yellow, and blue colored-pencil strokes.",
+        tip: "Leave white paper in the belly, umbrella, and boots so the drawing still feels quick and sketchy.",
+        image: true
+      }
+    ]
   }
 ];
 
 const currentLesson = {
   slug: "",
-  day: "004",
+  day: "005",
   date: "Monday, June 15",
   isoDate: "2026-06-15",
   subject: "a curious fox",
@@ -166,6 +211,7 @@ const archiveLessons = [currentLesson, ...lessons];
 
 const relatedCards = (currentSlug) => lessons
   .filter(({ slug }) => slug !== currentSlug)
+  .slice(0, 2)
   .map((lesson) => `
     <a class="sketch-card" href="${lesson.slug}.html">
       <div class="card-art"><img src="../assets/${lesson.finished}" alt="" loading="lazy"></div>
@@ -239,7 +285,6 @@ const page = (lesson) => {
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
       <a href="../index.html">Today's sketch</a>
       <a href="../library.html">Sketch library</a>
-      <a href="../lab.html">Lab</a>
       <a href="../index.html#about">How it works</a>
       <a class="nav-button" href="#lesson">Start drawing</a>
     </nav>
@@ -283,7 +328,7 @@ const page = (lesson) => {
       <div class="library-grid">${relatedCards(lesson.slug)}
         <a class="sketch-card" href="../index.html">
           <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt="" loading="lazy"></div>
-          <p><span>Day 004</span> 25 min · Easy</p>
+          <p><span>Day ${currentLesson.day}</span> ${currentLesson.time} min · ${currentLesson.difficulty}</p>
           <h3>How to draw a curious fox</h3>
         </a>
       </div>
@@ -292,7 +337,7 @@ const page = (lesson) => {
   <footer class="site-footer">
     <a class="brand footer-brand" href="../index.html"><span class="brand-name">sketcha<span>.day</span></span></a>
     <p>Make a mark. See what happens.</p>
-    <nav aria-label="Footer navigation"><a href="../index.html">Today</a><a href="../library.html">Library</a><a href="../lab.html">Lab</a><a href="../index.html#about">About</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
+    <nav aria-label="Footer navigation"><a href="../index.html">Today</a><a href="../library.html">Library</a><a href="../index.html#about">About</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
     <small>© 2026 Sketcha.day</small>
   </footer>
   <script src="../script.js"></script>
@@ -363,7 +408,6 @@ const archivePage = () => {
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
       <a href="index.html">Today's sketch</a>
       <a href="library.html" aria-current="page">Sketch library</a>
-      <a href="lab.html">Lab</a>
       <a href="index.html#about">How it works</a>
       <a class="nav-button" href="index.html#lesson">Start drawing</a>
     </nav>
@@ -396,7 +440,7 @@ const archivePage = () => {
   <footer class="site-footer">
     <a class="brand footer-brand" href="index.html"><span class="brand-name">sketcha<span>.day</span></span></a>
     <p>Make a mark. See what happens.</p>
-    <nav aria-label="Footer navigation"><a href="index.html">Today</a><a href="library.html" aria-current="page">Library</a><a href="lab.html">Lab</a><a href="index.html#about">About</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
+    <nav aria-label="Footer navigation"><a href="index.html">Today</a><a href="library.html" aria-current="page">Library</a><a href="index.html#about">About</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
     <small>© 2026 Sketcha.day</small>
   </footer>
   <script src="script.js"></script>
