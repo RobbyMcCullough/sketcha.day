@@ -14,5 +14,7 @@
 ## Return Notes
 - Open `index.html` through a local server to review the first draft.
 - Main work is in `index.html`, `styles.css`, and `script.js`.
-- Generated fox artwork is stored at `assets/fox-finished.jpg`.
+- Revised loose fox artwork is stored at `assets/fox-finished-v2.jpg`.
 - The current lesson demonstrates a future SEO page for “how to draw a fox.”
+- Daily automation requirements and anti-slop quality gates live in
+  `DAILY-PUBLISHING.md`.

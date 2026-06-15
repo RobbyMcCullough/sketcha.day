@@ -114,8 +114,8 @@ a {
 }
 
 .brand-mark {
-  width: 44px;
-  transform: rotate(-6deg);
+  width: 48px;
+  transform: rotate(-4deg);
 }
 
 .brand-name {
@@ -194,13 +194,13 @@ a {
 .hero {
   position: relative;
   display: grid;
-  grid-template-columns: .9fr 1.1fr;
+  grid-template-columns: 1.15fr .85fr;
   align-items: center;
-  gap: clamp(2rem, 6vw, 7rem);
-  min-height: 720px;
+  gap: clamp(2rem, 6vw, 6rem);
+  min-height: 565px;
   width: min(1180px, calc(100% - 40px));
   margin: 0 auto;
-  padding: 70px 0 90px;
+  padding: 45px 0 58px;
 }
 
 .hero-copy {
@@ -232,7 +232,7 @@ a {
   max-width: 650px;
   margin: 0;
   font-family: var(--display);
-  font-size: clamp(4.7rem, 9vw, 8.4rem);
+  font-size: clamp(4.5rem, 7.5vw, 7.2rem);
   font-weight: 400;
   line-height: .75;
   letter-spacing: -.055em;
@@ -314,6 +314,10 @@ a {
 .hero-art {
   position: relative;
   z-index: 1;
+  align-self: center;
+  justify-self: center;
+  width: min(100%, 410px);
+  height: auto;
   margin: 0;
   padding: 22px 22px 52px;
   background: #fffaf0;
@@ -323,6 +327,7 @@ a {
 
 .hero-art img {
   width: 100%;
+  height: auto;
   aspect-ratio: 1;
   object-fit: cover;
   filter: saturate(.93) contrast(1.02);
@@ -377,7 +382,7 @@ a {
 }
 
 .doodle-star {
-  top: 13%;
+  top: 9%;
   left: -1%;
   color: var(--yellow);
   font-size: 4rem;
@@ -385,9 +390,9 @@ a {
 }
 
 .doodle-loop {
-  right: -10%;
-  bottom: 5%;
-  width: 230px;
+  right: -6%;
+  bottom: 1%;
+  width: 190px;
   opacity: .4;
 }
 
@@ -711,6 +716,10 @@ a {
   stroke-dasharray: 6 6;
   stroke-linecap: round;
   opacity: .78;
+}
+
+.faint-construction {
+  opacity: .42;
 }
 
 .drawing {
@@ -1175,7 +1184,7 @@ a {
   }
 
   .hero {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.08fr .92fr;
     gap: 2rem;
   }
 
@@ -1243,7 +1252,7 @@ a {
   }
 
   .hero-art {
-    width: 90%;
+    width: 74%;
     margin: 25px auto 0;
   }
 

@@ -18,6 +18,7 @@ Then open `http://localhost:4173`.
 
 ## Conventions
 
+- Read `DAILY-PUBLISHING.md` before creating or changing a daily lesson.
 - Keep daily tutorial pages useful without JavaScript.
 - Treat accessibility, responsive layout, and semantic HTML as requirements.
 - Use descriptive tutorial titles and copy suitable for search results.
@@ -35,4 +36,3 @@ Each daily lesson should eventually include:
 - Materials list with no affiliate links at launch
 - Difficulty, estimated time, and useful drawing tips
 - Links to related lessons and the archive
-
