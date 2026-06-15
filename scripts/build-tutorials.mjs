@@ -150,6 +150,20 @@ const lessons = [
   }
 ];
 
+const currentLesson = {
+  slug: "",
+  day: "004",
+  date: "Monday, June 15",
+  isoDate: "2026-06-15",
+  subject: "a curious fox",
+  time: 25,
+  difficulty: "Easy",
+  finished: "fox-finished-v2.jpg",
+  finishedAlt: "Loose graphite and orange-pencil sketch of a seated fox"
+};
+
+const archiveLessons = [currentLesson, ...lessons];
+
 const relatedCards = (currentSlug) => lessons
   .filter(({ slug }) => slug !== currentSlug)
   .map((lesson) => `
@@ -224,7 +238,7 @@ const page = (lesson) => {
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
       <a href="../index.html">Today's sketch</a>
-      <a href="#related">Sketch library</a>
+      <a href="../library.html">Sketch library</a>
       <a href="../index.html#about">How it works</a>
       <a class="nav-button" href="#lesson">Start drawing</a>
     </nav>
@@ -264,7 +278,7 @@ const page = (lesson) => {
       </div>
     </article>
     <section class="library related-library" id="related" aria-labelledby="related-title">
-      <header class="section-heading library-heading"><div><p class="kicker">Keep the page moving</p><h2 id="related-title">More daily sketches</h2></div><a href="../index.html#library">Back to today <span aria-hidden="true">→</span></a></header>
+      <header class="section-heading library-heading"><div><p class="kicker">Keep the page moving</p><h2 id="related-title">More daily sketches</h2></div><a href="../library.html">Browse the full library <span aria-hidden="true">→</span></a></header>
       <div class="library-grid">${relatedCards(lesson.slug)}
         <a class="sketch-card" href="../index.html">
           <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt="" loading="lazy"></div>
@@ -277,10 +291,113 @@ const page = (lesson) => {
   <footer class="site-footer">
     <a class="brand footer-brand" href="../index.html"><span class="brand-name">sketcha<span>.day</span></span></a>
     <p>Make a mark. See what happens.</p>
-    <nav aria-label="Footer navigation"><a href="../index.html">Today</a><a href="#related">Library</a><a href="../index.html#about">About</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
+    <nav aria-label="Footer navigation"><a href="../index.html">Today</a><a href="../library.html">Library</a><a href="../index.html#about">About</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
     <small>© 2026 Sketcha.day</small>
   </footer>
   <script src="../script.js"></script>
+</body>
+</html>`;
+};
+
+const archiveCard = (lesson, index) => {
+  const cardColors = ["card-orange", "card-blue", "card-yellow", "card-red"];
+  const href = lesson.slug ? `tutorials/${lesson.slug}.html` : "index.html";
+
+  return `
+        <a class="sketch-card ${cardColors[index % cardColors.length]}" href="${href}">
+          <div class="card-art">
+            <img src="assets/${lesson.finished}" alt="${lesson.finishedAlt}" loading="${index === 0 ? "eager" : "lazy"}">
+          </div>
+          <p><span>Day ${lesson.day}</span> <time datetime="${lesson.isoDate}">${lesson.date.replace(/^[^,]+, /, "")}</time> · ${lesson.time} min · ${lesson.difficulty}</p>
+          <h2>How to draw ${lesson.subject}</h2>
+          <span class="card-link">Open tutorial <span aria-hidden="true">→</span></span>
+        </a>`;
+};
+
+const archivePage = () => {
+  const itemList = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Sketcha.day Drawing Tutorial Library",
+    numberOfItems: archiveLessons.length,
+    itemListElement: archiveLessons.map((lesson, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: `How to draw ${lesson.subject}`,
+      url: lesson.slug
+        ? `https://sketcha.day/tutorials/${lesson.slug}.html`
+        : "https://sketcha.day/"
+    }))
+  };
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drawing Tutorial Library | Easy Step-by-Step Sketches | Sketcha.day</title>
+  <meta name="description" content="Browse every Sketcha.day drawing tutorial. Find approachable step-by-step lessons for sketching animals, plants, mushrooms, and more.">
+  <link rel="canonical" href="https://sketcha.day/library.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The Sketcha.day Drawing Tutorial Library">
+  <meta property="og:description" content="A growing collection of practical, playful step-by-step drawing lessons.">
+  <meta property="og:url" content="https://sketcha.day/library.html">
+  <meta property="og:image" content="https://sketcha.day/assets/fox-finished-v2.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#f3b63c">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">${JSON.stringify(itemList, null, 2)}</script>
+</head>
+<body class="library-page">
+  <a class="skip-link" href="#tutorial-library">Skip to the tutorial library</a>
+  <header class="site-header">
+    <div class="brand">
+      <img class="brand-mark" src="assets/logo-pencil.svg" alt="" width="72" height="72">
+      <a class="brand-wordmark" href="index.html" aria-label="Sketcha.day home"><span class="brand-name">sketcha<span>.day</span></span></a>
+    </div>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="index.html">Today's sketch</a>
+      <a href="library.html" aria-current="page">Sketch library</a>
+      <a href="index.html#about">How it works</a>
+      <a class="nav-button" href="index.html#lesson">Start drawing</a>
+    </nav>
+  </header>
+  <main>
+    <section class="archive-hero" aria-labelledby="archive-title">
+      <div class="archive-intro">
+        <p class="eyebrow"><span>${archiveLessons.length} tutorials</span> One new page every day</p>
+        <h1 id="archive-title">The sketch<br><em>library</em></h1>
+        <p>Missed a day? Start anywhere. Every lesson uses a short materials list, cumulative steps, and a finished drawing you can reasonably make in one sitting.</p>
+        <a class="nav-button hero-button" href="#tutorial-library">Choose a tutorial <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="archive-stack" aria-hidden="true">
+        ${archiveLessons.slice(0, 3).map((lesson) => `<div class="archive-sheet"><img src="assets/${lesson.finished}" alt=""></div>`).join("")}
+      </div>
+    </section>
+    <section class="library archive-library" id="tutorial-library" aria-labelledby="tutorial-library-title">
+      <header class="section-heading library-heading">
+        <div>
+          <p class="kicker">Pick a page</p>
+          <h2 id="tutorial-library-title">Draw your way through the days</h2>
+        </div>
+        <p class="archive-count">Newest first · ${archiveLessons.length} lessons</p>
+      </header>
+      <div class="library-grid archive-grid">
+        ${archiveLessons.map(archiveCard).join("")}
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="index.html"><span class="brand-name">sketcha<span>.day</span></span></a>
+    <p>Make a mark. See what happens.</p>
+    <nav aria-label="Footer navigation"><a href="index.html">Today</a><a href="library.html" aria-current="page">Library</a><a href="index.html#about">About</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
+    <small>© 2026 Sketcha.day</small>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>`;
 };
@@ -289,5 +406,6 @@ await mkdir(new URL("../tutorials/", import.meta.url), { recursive: true });
 for (const lesson of lessons) {
   await writeFile(new URL(`../tutorials/${lesson.slug}.html`, import.meta.url), page(lesson));
 }
+await writeFile(new URL("../library.html", import.meta.url), archivePage());
 
-console.log(`Built ${lessons.length} tutorial pages.`);
+console.log(`Built ${lessons.length} tutorial pages and the tutorial library.`);

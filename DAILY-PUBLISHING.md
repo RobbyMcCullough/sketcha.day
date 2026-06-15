@@ -31,6 +31,22 @@ pose, marking, and color choice in the finish must appear in a prior step.
   gradients, cinematic lighting, and generic beige AI-image grading.
 - The finished drawing should feel attainable immediately after step five.
 
+## Artwork Pipeline
+
+- Use image generation or image editing for the finished raster sketch unless a
+  human artist supplies the final drawing.
+- Treat generated art as a directed master reference, not as an independent
+  decorative image. Regenerate it until the pose, materials, detail level, and
+  looseness match the lesson.
+- Derive every tutorial frame from that same master drawing. Prefer image
+  editing, layer removal, or traced construction overlays over separately
+  prompting each step, which causes pose and proportion drift.
+- SVG is appropriate for construction guides, arrows, annotations, UI marks,
+  and simple overlays. Do not use clean SVG line art as the default finished
+  sketch unless that vector look is the deliberate subject of the lesson.
+- Export visible tutorial frames as textured raster images when bare vector
+  geometry makes the lesson feel diagrammatic or sterile.
+
 ## Tutorial Standards
 
 - Use 5-8 cumulative steps.

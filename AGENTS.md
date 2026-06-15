@@ -16,7 +16,8 @@ python3 -m http.server 4173
 
 Then open `http://localhost:4173`.
 
-Archive tutorial pages are generated from `scripts/build-tutorials.mjs`:
+Archive tutorial pages and `library.html` are generated from
+`scripts/build-tutorials.mjs`:
 
 ```sh
 node scripts/build-tutorials.mjs
@@ -30,7 +31,9 @@ node scripts/build-tutorials.mjs
 - Treat accessibility, responsive layout, and semantic HTML as requirements.
 - Use descriptive tutorial titles and copy suitable for search results.
 - Include `HowTo` structured data on tutorial pages.
-- Prefer hand-drawn SVG/CSS details and project-owned artwork over generic icons.
+- Prefer generated or human-made raster sketches for finished lesson art.
+- Reserve hand-drawn SVG/CSS for construction guides, annotations, and UI
+  details unless a vector finish is an intentional art direction.
 - Do not add affiliate links until the project is ready for them.
 
 ## Content Model
