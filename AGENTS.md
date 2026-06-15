@@ -23,6 +23,18 @@ Archive tutorial pages and `library.html` are generated from
 node scripts/build-tutorials.mjs
 ```
 
+## Daily Automation Entry Point
+
+For daily lesson work, read these files in order:
+
+1. `AGENTS.md`
+2. `HUMANS.md`
+3. `DAILY-PUBLISHING.md`
+
+Then update the lesson data in `scripts/build-tutorials.mjs`, create any new
+assets under `assets/`, run the generator, QA the changed pages, and commit the
+work only after the lesson passes the quality gates in `DAILY-PUBLISHING.md`.
+
 ## Conventions
 
 - Read `DAILY-PUBLISHING.md` before creating or changing a daily lesson.
@@ -35,6 +47,14 @@ node scripts/build-tutorials.mjs
 - Reserve hand-drawn SVG/CSS for construction guides, annotations, and UI
   details unless a vector finish is an intentional art direction.
 - Do not add affiliate links until the project is ready for them.
+- Keep `lab.html` unlinked from public navigation and marked `noindex` unless
+  the project owner explicitly changes that strategy.
+- Keep the launch archive honest on the page itself: backdated tutorials are
+  allowed, but do not invent fake user activity, comments, popularity, or
+  unsupported claims.
+- Use the same labels consistently across the site: difficulty, estimated time,
+  and practical category tags such as cartoon-like, detailed study, scene, and
+  place.
 
 ## Content Model
 

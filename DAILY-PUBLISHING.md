@@ -22,6 +22,28 @@ pose, marking, and color choice in the finish must appear in a prior step.
 5. Reject and regenerate any finish that upgrades the anatomy, detail, pose, or
    rendering beyond what the tutorial teaches.
 
+## Daily Automation Routine
+
+When this guide is used by a scheduled Codex automation, the job should:
+
+1. Read `AGENTS.md`, `HUMANS.md`, and this file before editing.
+2. Pick one specific lesson subject with a clear search phrase, such as
+   "how to draw a rainy-day frog" or "how to draw a cozy mushroom."
+3. Create or update generated raster art for the finished sketch and tutorial
+   steps. Prefer one master reference and derived step frames over unrelated
+   one-off images.
+4. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
+   number and the intended publish date.
+5. Run `node scripts/build-tutorials.mjs`.
+6. QA the homepage, `library.html`, and the new tutorial page at desktop and
+   mobile widths.
+7. Commit the work with a concise message only when the page passes the
+   anti-slop review and validation checks.
+
+For pre-launch backfilling, backdated tutorial pages are acceptable. Keep that
+implementation detail out of public copy: do not imply real historical traffic,
+community participation, comments, or popularity.
+
 ## Finished Art Direction
 
 - Aim for a believable 15-30 minute sketch, not a polished illustration.
@@ -46,6 +68,11 @@ pose, marking, and color choice in the finish must appear in a prior step.
   sketch unless that vector look is the deliberate subject of the lesson.
 - Export visible tutorial frames as textured raster images when bare vector
   geometry makes the lesson feel diagrammatic or sterile.
+- Store lesson art in `assets/` with predictable names:
+  `{slug}-finished-v{n}.jpg` and `{slug}-step-1.jpg`,
+  `{slug}-step-2.jpg`, and so on.
+- Do not publish a step frame that contradicts the final sketch's pose,
+  silhouette, props, or major proportions.
 
 ## Tutorial Standards
 
@@ -85,6 +112,8 @@ If any answer is no, the lesson is not ready.
 - Add interactions only when they help someone complete or understand the
   lesson. Avoid confetti, completion celebrations, or other novelty effects
   that do not add instructional value.
+- Keep `lab.html` private for experiments: no public nav links, no library
+  cards, and a `noindex, nofollow` robots meta tag.
 
 ## Automation QA
 
@@ -92,3 +121,22 @@ The automation must render desktop and mobile screenshots before publishing.
 Check the hero, every tutorial frame, the finish, materials, navigation, and
 structured data. Do not publish when assets are missing, text overflows, links
 are placeholders, or the finished image fails the draw-through test.
+
+Minimum validation commands:
+
+```sh
+node scripts/build-tutorials.mjs
+python3 -m http.server 4173
+```
+
+Then inspect:
+
+- `http://localhost:4173/`
+- `http://localhost:4173/library.html`
+- `http://localhost:4173/tutorials/{slug}.html`
+
+Also run:
+
+```sh
+git diff --check
+```
