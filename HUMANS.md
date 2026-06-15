@@ -30,3 +30,5 @@
   SVG is reserved mainly for guides and interface details.
 - The June 12-14 backdated lessons were rebuilt with generated raster master
   sketches and generated raster step frames.
+- `lab.html` is an experimental sketch board for finished-result-only tutorial
+  ideas before they are promoted into full lessons.

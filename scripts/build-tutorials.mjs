@@ -239,6 +239,7 @@ const page = (lesson) => {
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
       <a href="../index.html">Today's sketch</a>
       <a href="../library.html">Sketch library</a>
+      <a href="../lab.html">Lab</a>
       <a href="../index.html#about">How it works</a>
       <a class="nav-button" href="#lesson">Start drawing</a>
     </nav>
@@ -291,7 +292,7 @@ const page = (lesson) => {
   <footer class="site-footer">
     <a class="brand footer-brand" href="../index.html"><span class="brand-name">sketcha<span>.day</span></span></a>
     <p>Make a mark. See what happens.</p>
-    <nav aria-label="Footer navigation"><a href="../index.html">Today</a><a href="../library.html">Library</a><a href="../index.html#about">About</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
+    <nav aria-label="Footer navigation"><a href="../index.html">Today</a><a href="../library.html">Library</a><a href="../lab.html">Lab</a><a href="../index.html#about">About</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
     <small>© 2026 Sketcha.day</small>
   </footer>
   <script src="../script.js"></script>
@@ -362,6 +363,7 @@ const archivePage = () => {
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
       <a href="index.html">Today's sketch</a>
       <a href="library.html" aria-current="page">Sketch library</a>
+      <a href="lab.html">Lab</a>
       <a href="index.html#about">How it works</a>
       <a class="nav-button" href="index.html#lesson">Start drawing</a>
     </nav>
@@ -394,7 +396,7 @@ const archivePage = () => {
   <footer class="site-footer">
     <a class="brand footer-brand" href="index.html"><span class="brand-name">sketcha<span>.day</span></span></a>
     <p>Make a mark. See what happens.</p>
-    <nav aria-label="Footer navigation"><a href="index.html">Today</a><a href="library.html" aria-current="page">Library</a><a href="index.html#about">About</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
+    <nav aria-label="Footer navigation"><a href="index.html">Today</a><a href="library.html" aria-current="page">Library</a><a href="lab.html">Lab</a><a href="index.html#about">About</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
     <small>© 2026 Sketcha.day</small>
   </footer>
   <script src="script.js"></script>
