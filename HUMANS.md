@@ -61,3 +61,9 @@
 - Expanded the pinecone tutorial to 8 steps after a second review so it covers
   connecting the scale flaps, darkening pockets, and adding grain/shadow before
   the final image.
+- Pulled the pinecone from the public daily sequence after review because the
+  process still did not convincingly lead to the final sketch. Its HTML and
+  assets are preserved under `drafts/detailed-pinecone/`.
+- Promoted the lab farmhouse/farm-lane sketch into the June 17, 2026 / Day 007
+  draft as "how to draw a quiet farm lane" with a longer scene-construction
+  process.
