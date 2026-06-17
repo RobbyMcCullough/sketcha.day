@@ -255,17 +255,19 @@ a {
   font-family: var(--display);
   font-size: clamp(4.5rem, 7.5vw, 7.2rem);
   font-weight: 400;
-  line-height: .75;
-  letter-spacing: -.055em;
+  line-height: .88;
+  letter-spacing: 0;
+  text-wrap: balance;
 }
 
 .hero h1 em {
   position: relative;
   display: inline-block;
-  margin-top: .22em;
+  margin-top: .08em;
   color: var(--orange);
   font-style: normal;
-  white-space: nowrap;
+  line-height: .84;
+  white-space: normal;
   transform: rotate(-2deg);
 }
 
@@ -918,14 +920,17 @@ a {
   font-family: var(--display);
   font-size: clamp(5rem, 9vw, 8.5rem);
   font-weight: 400;
-  line-height: .82;
-  letter-spacing: -.04em;
+  line-height: .9;
+  letter-spacing: 0;
+  text-wrap: balance;
 }
 
 .archive-intro h1 em {
   position: relative;
+  display: inline-block;
   color: var(--orange);
   font-style: normal;
+  line-height: .86;
 }
 
 .archive-intro h1 em::after {
@@ -1041,14 +1046,17 @@ a {
   font-family: var(--display);
   font-size: clamp(4.8rem, 9vw, 8.4rem);
   font-weight: 400;
-  line-height: .84;
-  letter-spacing: -.04em;
+  line-height: .9;
+  letter-spacing: 0;
+  text-wrap: balance;
 }
 
 .lab-copy h1 em {
   position: relative;
+  display: inline-block;
   color: var(--blue);
   font-style: normal;
+  line-height: .86;
 }
 
 .lab-copy h1 em::after {
