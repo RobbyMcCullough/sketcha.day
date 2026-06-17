@@ -47,3 +47,6 @@
 - `scripts/build-tutorials.mjs` now also regenerates `index.html` from the
   newest lesson. The old fox homepage is preserved as
   `tutorials/curious-fox.html` so Day 005 remains available in the library.
+- Daily lesson runs must rate the finished image at 8/10 or higher before
+  committing. Rainy-day frog is the current benchmark for the desired balance of
+  readable, playful, detailed, and attainable.

@@ -32,12 +32,14 @@ When this guide is used by a scheduled Codex automation, the job should:
 3. Create or update generated raster art for the finished sketch and tutorial
    steps. Prefer one master reference and derived step frames over unrelated
    one-off images.
-4. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
+4. Rate the final image using the 10-point gate below. Regenerate until the
+   finished image is at least 8/10.
+5. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
    number and the intended publish date.
-5. Run `node scripts/build-tutorials.mjs`.
-6. QA the homepage, `library.html`, and the new tutorial page at desktop and
+6. Run `node scripts/build-tutorials.mjs`.
+7. QA the homepage, `library.html`, and the new tutorial page at desktop and
    mobile widths.
-7. Commit the work with a concise message only when the page passes the
+8. Commit the work with a concise message only when the page passes the
    anti-slop review and validation checks.
 
 For pre-launch backfilling, backdated tutorial pages are acceptable. Keep that
@@ -52,6 +54,34 @@ community participation, comments, or popularity.
 - Avoid photographic anatomy, glossy eyes, digital airbrushing, smooth
   gradients, cinematic lighting, and generic beige AI-image grading.
 - The finished drawing should feel attainable immediately after step five.
+- Use the rainy-day frog lesson as the current quality benchmark: playful,
+  readable at thumbnail size, detailed enough to have character, but still
+  attainable for a casual sketcher.
+
+## Final Image Rating Gate
+
+Before a lesson can be committed or published, rate the finished image on a
+10-point scale. The image must score at least 8/10. If it scores below 8,
+regenerate or redesign the finish before continuing.
+
+Score the image against these criteria:
+
+- Subject readability: the subject is immediately recognizable, even at card
+  size.
+- Character and appeal: the drawing has a clear pose, mood, and visual charm.
+- Sketch quality: lines look intentionally handmade, not scratchy, noisy,
+  traced, or mechanically jittered.
+- Tutorial fit: the finish looks achievable from the visible steps and written
+  instructions.
+- Composition: props, ground shapes, leaves, backgrounds, and supporting
+  elements help the subject instead of adding clutter.
+- Difficulty balance: the result feels fun and substantial, not too empty and
+  not so detailed that the lesson becomes discouraging.
+
+Reject images with unclear silhouettes, chicken-scratch texture, warped anatomy,
+weak supporting objects, muddy color, fake paper texture pasted over digital
+line art, or any finish that looks worse than the rainy-day frog benchmark.
+Do not rationalize a 6/10 or 7/10 image because the page is otherwise useful.
 
 ## Artwork Pipeline
 

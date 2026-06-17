@@ -426,6 +426,7 @@ const homePage = (lesson) => {
 `;
 
   let html = page(lesson)
+    .replace('<body class="archive-tutorial"', '<body class="home-page archive-tutorial"')
     .replaceAll(`https://sketcha.day/tutorials/${lesson.slug}.html`, "https://sketcha.day/")
     .replaceAll('href="../styles.css"', 'href="styles.css"')
     .replaceAll('src="../script.js"', 'src="script.js"')
