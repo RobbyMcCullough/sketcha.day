@@ -260,6 +260,18 @@ a {
   text-wrap: balance;
 }
 
+.hero h1 .headline-lead,
+.archive-intro h1 .headline-lead,
+.lab-copy h1 .headline-lead {
+  display: block;
+}
+
+.hero h1 em span,
+.archive-intro h1 em span,
+.lab-copy h1 em span {
+  display: block;
+}
+
 .hero h1 em {
   position: relative;
   display: inline-block;

@@ -65,6 +65,13 @@ community participation, comments, or popularity.
 - Use the rainy-day frog lesson as the current quality benchmark: playful,
   readable at thumbnail size, detailed enough to have character, but still
   attainable for a casual sketcher.
+- Process alignment is not enough by itself. The published finish must still
+  look like the reviewed artwork at hero size and card size: confident contours,
+  visible restrained color when color is promised, and enough rendering to feel
+  complete.
+- Reject placeholder-looking finals even when their steps line up. A rough local
+  construction sketch, jagged tracing, or barely colored process frame is not a
+  substitute for a finished raster sketch.
 
 ## Final Image Rating Gate
 
@@ -106,6 +113,13 @@ Do not rationalize a 6/10 or 7/10 image because the page is otherwise useful.
   prompting each step, which causes pose and proportion drift.
 - If image generation or image editing is unavailable during an automation run,
   stop and report that blocker instead of substituting synthetic vector art.
+- If the image tool produces only an inline preview and no image file can be
+  moved or copied into `assets/`, treat image generation as unavailable. Do not
+  recreate the preview manually with PIL, canvas, SVG, or other programmatic
+  drawing just to finish the run.
+- The file committed under `assets/` must be the reviewed master artwork or a
+  faithful edited derivative. Score the actual saved asset, not a nicer preview
+  that is not in the repository.
 - SVG is appropriate for construction guides, arrows, annotations, UI marks,
   and simple overlays. Do not use clean SVG line art as the default finished
   sketch unless that vector look is the deliberate subject of the lesson.
@@ -136,7 +150,11 @@ Before publishing, check:
   category, and drawing problem?
 - Does the page contain real instruction rather than encouragement alone?
 - Does the finish visibly match the steps?
+- Does the actual saved finish match the approved/reference preview in quality,
+  line confidence, color, and completeness?
 - Is the copy specific to this subject and pose?
+- Does the finish visibly contain the color, props, markings, and mood promised
+  by the title, alt text, materials, and step copy?
 - Are visual imperfections varied and purposeful rather than decorative effects
   repeated by formula?
 - Is there any invented archive depth, fake activity, or unsupported claim?

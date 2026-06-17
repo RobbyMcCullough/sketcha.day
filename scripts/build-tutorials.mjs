@@ -2,62 +2,6 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const lessons = [
   {
-    slug: "cozy-teacup",
-    day: "007",
-    date: "Wednesday, June 17",
-    isoDate: "2026-06-17",
-    subject: "a cozy teacup",
-    headlineSubject: "a cozy<br>teacup",
-    shortSubject: "a cozy teacup",
-    lessonTitle: "Let's draw a cozy teacup",
-    description: "Learn how to draw a cozy teacup with a saucer, handle, tea surface, steam, and a tiny heart on the cup.",
-    intro: "Build the cup from two ovals, add the handle and saucer, then finish with steam, a tiny heart, and soft sketch shading.",
-    time: 25,
-    difficulty: "Easy",
-    accent: "#c7775d",
-    finished: "cozy-teacup-finished-v1.jpg",
-    finishedAlt: "Loose graphite and colored-pencil sketch of a cozy teacup on a saucer with steam and a small heart on the cup",
-    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional coral and blue pencils"],
-    steps: [
-      {
-        name: "Place two ovals",
-        text: "Draw a small oval for the cup opening and a wider oval below it for the saucer. Add a light center line through both.",
-        tip: "Keep the two ovals centered on the same guide line so the cup does not lean."
-      },
-      {
-        name: "Shape the cup bowl",
-        text: "Use the top oval as the rim, then pull two gently slanted sides down to a small curved base.",
-        tip: "Make both sides lean inward by the same amount before darkening them."
-      },
-      {
-        name: "Add the handle",
-        text: "Draw a large C-shaped handle on the right side, then echo it inside with a smaller curve.",
-        tip: "Attach the handle near the rim and lower cup wall so it feels connected, not floating."
-      },
-      {
-        name: "Build the saucer and tea",
-        text: "Darken the saucer oval, add a smaller inner oval, and draw a light tea surface inside the cup rim.",
-        tip: "Keep these ovals flatter than circles. Flat ovals make the cup feel level."
-      },
-      {
-        name: "Add steam and a heart",
-        text: "Sketch three soft steam wisps above the rim, then add a tiny heart centered on the cup.",
-        tip: "Steam lines should stay lighter than the cup outline. They are atmosphere, not structure."
-      },
-      {
-        name: "Shade the cup and saucer",
-        text: "Darken the cup sides, saucer edge, and handle, then add loose graphite shading under the cup and across the saucer.",
-        tip: "Stop shading before the paper gets gray everywhere. The white gaps keep it sketchy."
-      },
-      {
-        name: "Finish the cozy details",
-        text: "Add restrained color to the cup, saucer, and tea surface, then choose the keeper lines around the rim, heart, and handle.",
-        tip: "Use color as short strokes over the graphite rather than filling the whole cup solid.",
-        image: true
-      }
-    ]
-  },
-  {
     slug: "garden-snail",
     day: "006",
     date: "Tuesday, June 16",
@@ -326,6 +270,10 @@ const relatedCards = (currentSlug) => lessons
 
 const materialIcon = (index) => ["pencil-icon", "paper-icon", "eraser-icon", "colors-icon"][index];
 const titleCase = (value) => value.replace(/\b\w/g, (character) => character.toUpperCase());
+const headlineHtml = (value) => String(value)
+  .split(/<br\s*\/?>/i)
+  .map((line) => `<span>${line.trim()}</span>`)
+  .join(" ");
 
 const page = (lesson) => {
   const titleSubject = titleCase(lesson.shortSubject.replace(/^a /, ""));
@@ -398,7 +346,7 @@ const page = (lesson) => {
       <div class="doodle doodle-star" aria-hidden="true">✦</div>
       <div class="hero-copy">
         <p class="eyebrow"><span>Day ${lesson.day}</span> ${lesson.date}</p>
-        <h1 id="hero-title">How to draw<br><em>${lesson.headlineSubject ?? lesson.subject}</em></h1>
+        <h1 id="hero-title" aria-label="How to draw ${lesson.subject}"><span class="headline-lead">How to draw</span> <em aria-hidden="true">${headlineHtml(lesson.headlineSubject ?? lesson.subject)}</em></h1>
         <p class="hero-intro">${lesson.intro}</p>
         <div class="hero-meta" aria-label="Lesson details"><span><strong>${lesson.time}</strong> min</span><span><strong>${lesson.difficulty}</strong></span><span><strong>${lesson.steps.length}</strong> steps</span></div>
         <a class="nav-button hero-button" href="#lesson">Start drawing <svg viewBox="0 0 30 15" aria-hidden="true"><path d="M1 7.5h26M20 1l7 6.5-7 6.5"/></svg></a>
@@ -576,7 +524,7 @@ const archivePage = () => {
     <section class="archive-hero" aria-labelledby="archive-title">
       <div class="archive-intro">
         <p class="eyebrow"><span>${archiveLessons.length} tutorials</span> One new page every day</p>
-        <h1 id="archive-title">The sketch<br><em>library</em></h1>
+        <h1 id="archive-title" aria-label="The sketch library"><span class="headline-lead">The sketch</span> <em aria-hidden="true"><span>library</span></em></h1>
         <p>Missed a day? Start anywhere. Every lesson uses a short materials list, cumulative steps, and a finished drawing you can reasonably make in one sitting.</p>
         <a class="nav-button hero-button" href="#tutorial-library">Choose a tutorial <span aria-hidden="true">↓</span></a>
       </div>

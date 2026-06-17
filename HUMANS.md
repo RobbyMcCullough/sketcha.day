@@ -82,3 +82,10 @@
 - Replaced Day 007 with a process-first "how to draw a cozy teacup" lesson so
   the visible cup, saucer, handle, steam, tea surface, and heart all appear in
   the step frames before the finish.
+- Pulled the cozy teacup from the public daily sequence after review because the
+  saved final asset was a rough local construction sketch, not the cleaner
+  red-heart teacup preview approved in chat. The draft is preserved under
+  `drafts/cozy-teacup/`.
+- `DAILY-PUBLISHING.md` now explicitly rejects unsaved-preview substitutions:
+  score the actual `assets/` file, and stop if image generation/editing cannot
+  provide a repository-saveable raster master.
