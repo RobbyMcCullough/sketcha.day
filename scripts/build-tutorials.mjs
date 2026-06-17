@@ -7,6 +7,7 @@ const lessons = [
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
+    headlineSubject: "a garden snail<br>on a leaf",
     shortSubject: "a garden snail",
     lessonTitle: "Let's draw a garden snail",
     description: "Learn how to draw a garden snail on a leaf with five cumulative sketching steps.",
@@ -14,8 +15,8 @@ const lessons = [
     time: 25,
     difficulty: "Easy-medium",
     accent: "#7d9460",
-    finished: "garden-snail-finished-v1.jpg",
-    finishedAlt: "Loose graphite sketch of a garden snail with a brown shell and green body crawling on a leaf",
+    finished: "garden-snail-finished-v2.jpg",
+    finishedAlt: "Loose graphite and colored-pencil sketch of a friendly garden snail with a tan spiral shell crawling on a green leaf",
     materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional green and brown pencils"],
     steps: [
       {
@@ -35,12 +36,12 @@ const lessons = [
       },
       {
         name: "Add eyes and the leaf",
-        text: "Lift two curved eyestalks from the head, add tiny eye ovals, then draw a pointed leaf underneath the foot.",
+        text: "Lift two curved eyestalks from the head, add tiny eye ovals, then draw the pointed leaf underneath the foot.",
         tip: "Aim the eyestalks in different directions so the snail feels curious instead of stiff."
       },
       {
         name: "Shade the shell and leaf",
-        text: "Choose the contours you want to keep, add loose brown strokes to the shell, and shade the body and leaf with green pencil.",
+        text: "Choose the contours you want to keep, add loose tan strokes to the shell, then shade the body and leaf with green pencil.",
         tip: "Stop before the color becomes solid. The paper gaps help the sketch feel quick and handmade.",
         image: true
       }
@@ -341,7 +342,7 @@ const page = (lesson) => {
       <div class="doodle doodle-star" aria-hidden="true">✦</div>
       <div class="hero-copy">
         <p class="eyebrow"><span>Day ${lesson.day}</span> ${lesson.date}</p>
-        <h1 id="hero-title">How to draw<br><em>${lesson.subject}</em></h1>
+        <h1 id="hero-title">How to draw<br><em>${lesson.headlineSubject ?? lesson.subject}</em></h1>
         <p class="hero-intro">${lesson.intro}</p>
         <div class="hero-meta" aria-label="Lesson details"><span><strong>${lesson.time}</strong> min</span><span><strong>${lesson.difficulty}</strong></span><span><strong>${lesson.steps.length}</strong> steps</span></div>
         <a class="nav-button hero-button" href="#lesson">Start drawing <svg viewBox="0 0 30 15" aria-hidden="true"><path d="M1 7.5h26M20 1l7 6.5-7 6.5"/></svg></a>

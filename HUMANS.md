@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-16
+- Date: 2026-06-17
 - Agent harness: Codex
 - Harness project/session name: Sketcha.day homepage prototype
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
@@ -50,3 +50,6 @@
 - Daily lesson runs must rate the finished image at 8/10 or higher before
   committing. Rainy-day frog is the current benchmark for the desired balance of
   readable, playful, detailed, and attainable.
+- Replaced the garden snail final and step art with v2 raster images after
+  rating the new final sketch 8.5/10. The garden-snail hero headline now uses a
+  `headlineSubject` line break so "on a leaf" clears the hero image.
