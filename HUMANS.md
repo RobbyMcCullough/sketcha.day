@@ -58,3 +58,6 @@
   step frames from the same drawing. Finished image rating: 8.2/10.
 - Replaced the first pinecone step-frame set after review because the original
   frames read like a gradual reveal of the finish, not a real drawing process.
+- Expanded the pinecone tutorial to 8 steps after a second review so it covers
+  connecting the scale flaps, darkening pockets, and adding grain/shadow before
+  the final image.

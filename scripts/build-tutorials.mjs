@@ -10,8 +10,8 @@ const lessons = [
     headlineSubject: "a detailed<br>pinecone",
     shortSubject: "a detailed pinecone",
     lessonTitle: "Let's draw a detailed pinecone",
-    description: "Learn how to draw a detailed pinecone with layered scales, graphite shading, and five practical sketching steps.",
-    intro: "Build the pinecone from one tilted egg shape, then stack simple scale blocks until the sketch feels full and textured.",
+    description: "Learn how to draw a detailed pinecone with layered scales, graphite shading, and eight practical sketching steps.",
+    intro: "Build the pinecone from one tilted egg shape, then connect simple scale blocks into layered flaps with shadow and texture.",
     time: 30,
     difficulty: "Medium",
     accent: "#9b7654",
@@ -31,18 +31,33 @@ const lessons = [
       },
       {
         name: "Stack the middle scales",
-        text: "Add a second row through the center, placing each new scale between two lower scales so the pattern climbs upward.",
+        text: "Add two staggered rows through the center, placing each new scale between two lower scales so the pattern climbs upward.",
         tip: "Leave pale diamond-shaped tops on the scales. Those light planes help the pinecone read before you add shading."
       },
       {
-        name: "Fill the top and sides",
-        text: "Work outward with smaller curled scales near the top and left edge, then sketch a soft shadow under the pinecone.",
+        name: "Place the small edge scales",
+        text: "Work outward with smaller scale faces near the top, left edge, and right edge so the guide shape starts to disappear.",
         tip: "Use fewer details at the far edges. Too many tiny scales can make the silhouette noisy."
       },
       {
-        name: "Shade between the scales",
-        text: "Darken the gaps between scale layers, add brown pencil on a few front planes, and leave the highlighted tips mostly paper-white.",
+        name: "Connect the scale flaps",
+        text: "Pull short back edges from each scale face and link neighboring rows with shallow underside curves.",
+        tip: "Think of each scale as a little flap, not a flat tile. The back edge is what makes it overlap."
+      },
+      {
+        name: "Darken the pockets",
+        text: "Shade the tucked spaces between rows, especially under the front edges of the larger middle scales.",
         tip: "Push the darkest graphite into the spaces behind the scales. That contrast gives the drawing its depth.",
+      },
+      {
+        name: "Add grain and cast shadow",
+        text: "Use short directional pencil strokes across the scales, then sketch a loose shadow underneath the pinecone.",
+        tip: "Keep your texture strokes angled with the scale, not straight across the page."
+      },
+      {
+        name: "Finish with brown pencil",
+        text: "Add brown pencil to a few front planes, deepen selected outlines, and leave the highlighted scale tips mostly paper-white.",
+        tip: "Stop before every scale is colored. Uneven color keeps the sketch quick and handmade.",
         image: true
       }
     ]
