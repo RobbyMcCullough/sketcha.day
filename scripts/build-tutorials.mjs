@@ -2,6 +2,67 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const lessons = [
   {
+    slug: "cozy-teacup",
+    day: "007",
+    date: "Wednesday, June 17",
+    isoDate: "2026-06-17",
+    subject: "a cozy teacup",
+    headlineSubject: "a cozy<br>teacup",
+    shortSubject: "a cozy teacup",
+    lessonTitle: "Let's draw a cozy teacup",
+    description: "Learn how to draw a cozy teacup with an oval rim, curved handle, saucer, steam, warm tea, and a red heart on the cup.",
+    intro: "Start with two light ovals, build the cup and saucer in layers, then finish with steam, warm tea, a red heart, and soft blue-gray shading.",
+    time: 25,
+    difficulty: "Easy",
+    accent: "#c7775d",
+    finished: "cozy-teacup-finished-v2.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a cozy teacup on a saucer with warm tea, steam, and a red heart on the cup",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional red, tan, and blue-gray pencils"],
+    steps: [
+      {
+        name: "Place the guide ovals",
+        text: "Draw a wide saucer oval near the bottom, then place a smaller cup-rim oval above it. Add a faint center line and light slanted cup sides.",
+        tip: "Keep every guide pale. These first lines are only there to keep the cup level."
+      },
+      {
+        name: "Shape the cup bowl",
+        text: "Darken the front and back curves of the rim, then pull the cup sides down toward a small curved base.",
+        tip: "Check that the left and right sides lean inward by about the same amount before you press harder."
+      },
+      {
+        name: "Attach the handle",
+        text: "Add a large C-shaped handle on the right side. Echo the curve inside it, then connect both ends to the cup wall.",
+        tip: "The handle should touch near the rim and near the lower cup, not float beside the cup."
+      },
+      {
+        name: "Build the saucer",
+        text: "Darken the outside saucer oval, then add a smaller inner curve under the cup to show where the cup sits.",
+        tip: "Let the saucer stay flatter than the cup rim. A round saucer makes the cup look tilted."
+      },
+      {
+        name: "Add tea and steam",
+        text: "Fill the inside of the rim with a warm tea oval, then sketch three loose steam wisps rising above the cup.",
+        tip: "Steam should be lighter and softer than the cup outline, almost like a line you might erase."
+      },
+      {
+        name: "Draw the heart and rim stripe",
+        text: "Place a small red heart on the front of the cup, then add a thin warm stripe following the front rim curve.",
+        tip: "Center the heart on the cup face, not on the whole page. It should sit below the rim and above the foot."
+      },
+      {
+        name: "Shade the cup and saucer",
+        text: "Add pale graphite on the cup sides, blue-gray shadow across the saucer, and a soft cast shadow below the plate.",
+        tip: "Stop before the paper turns gray everywhere. The light spaces keep the sketch friendly."
+      },
+      {
+        name: "Finish the keeper lines",
+        text: "Choose the strongest rim, handle, saucer, steam, and heart lines, then add a few short colored-pencil strokes to tie the drawing together.",
+        tip: "The final pass should clarify the drawing, not redraw every line.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "garden-snail",
     day: "006",
     date: "Tuesday, June 16",

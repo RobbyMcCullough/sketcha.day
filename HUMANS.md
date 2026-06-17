@@ -89,3 +89,7 @@
 - `DAILY-PUBLISHING.md` now explicitly rejects unsaved-preview substitutions:
   score the actual `assets/` file, and stop if image generation/editing cannot
   provide a repository-saveable raster master.
+- Restored the June 17, 2026 / Day 007 cozy teacup lesson using a saved v2
+  generated raster master with a red heart, warm tea, steam, and clean pencil
+  texture. The new public assets are `assets/cozy-teacup-finished-v2.jpg` and
+  `assets/cozy-teacup-step-1.jpg` through `assets/cozy-teacup-step-7.jpg`.
