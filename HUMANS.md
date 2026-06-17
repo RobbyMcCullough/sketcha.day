@@ -73,3 +73,12 @@
 - Replaced Day 007 with a tighter "how to draw a red barn and silo" lesson
   cropped from the same farmhouse lab art, so the process can account for the
   visible barn, silo, fence, lane, and field shapes.
+- Pulled the red barn and silo from the public daily sequence after review
+  because the final still outpaced the process frames. Its HTML and assets are
+  preserved under `drafts/red-barn-silo/`.
+- Rejected a process-first flower-bud replacement because it duplicated the
+  existing sprouting-seed lesson too closely. `DAILY-PUBLISHING.md` now requires
+  a recent-subject back-check before making daily lesson art.
+- Replaced Day 007 with a process-first "how to draw a cozy teacup" lesson so
+  the visible cup, saucer, handle, steam, tea surface, and heart all appear in
+  the step frames before the finish.

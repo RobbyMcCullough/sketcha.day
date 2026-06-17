@@ -2,62 +2,57 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const lessons = [
   {
-    slug: "red-barn-silo",
+    slug: "cozy-teacup",
     day: "007",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
-    subject: "a red barn and silo",
-    headlineSubject: "a red barn<br>and silo",
-    shortSubject: "a red barn and silo",
-    lessonTitle: "Let's draw a red barn and silo",
-    description: "Learn how to draw a red barn and silo with a simple fence, lane, and rolling field background.",
-    intro: "Start with blocky building shapes, then add the roof, doors, fence, lane, and soft farm-field texture.",
-    time: 30,
-    difficulty: "Medium",
+    subject: "a cozy teacup",
+    headlineSubject: "a cozy<br>teacup",
+    shortSubject: "a cozy teacup",
+    lessonTitle: "Let's draw a cozy teacup",
+    description: "Learn how to draw a cozy teacup with a saucer, handle, tea surface, steam, and a tiny heart on the cup.",
+    intro: "Build the cup from two ovals, add the handle and saucer, then finish with steam, a tiny heart, and soft sketch shading.",
+    time: 25,
+    difficulty: "Easy",
     accent: "#c7775d",
-    finished: "red-barn-silo-finished-v1.jpg",
-    finishedAlt: "Loose graphite and colored-pencil sketch of a red barn and silo with a fence, dirt lane, and rolling fields",
-    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional red, green, and brown pencils"],
+    finished: "cozy-teacup-finished-v1.jpg",
+    finishedAlt: "Loose graphite and colored-pencil sketch of a cozy teacup on a saucer with steam and a small heart on the cup",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional coral and blue pencils"],
     steps: [
       {
-        name: "Place the big blocks",
-        text: "Draw a tall silo block on the left, a wide barn block on the right, and two light rolling field lines behind them.",
-        tip: "Keep the barn and silo on the same ground line so the buildings feel planted."
+        name: "Place two ovals",
+        text: "Draw a small oval for the cup opening and a wider oval below it for the saucer. Add a light center line through both.",
+        tip: "Keep the two ovals centered on the same guide line so the cup does not lean."
       },
       {
-        name: "Build the roof shapes",
-        text: "Round the silo top, add the barn's front gable, then pull a slanted side roof back to the right.",
-        tip: "Put the roof peak over the front barn block before drawing the side roof."
+        name: "Shape the cup bowl",
+        text: "Use the top oval as the rim, then pull two gently slanted sides down to a small curved base.",
+        tip: "Make both sides lean inward by the same amount before darkening them."
       },
       {
-        name: "Add doors and windows",
-        text: "Place a big double barn door, cross its panels with an X, then add a small upper window and a side shed door.",
-        tip: "Use rectangles first. The X braces only work if the door frame is already square."
+        name: "Add the handle",
+        text: "Draw a large C-shaped handle on the right side, then echo it inside with a smaller curve.",
+        tip: "Attach the handle near the rim and lower cup wall so it feels connected, not floating."
       },
       {
-        name: "Draw siding and roof lines",
-        text: "Add vertical siding to the barn, light grid lines to the silo, and darker edges along the roof.",
-        tip: "Keep these texture lines lighter than the outside contours so the forms stay readable."
+        name: "Build the saucer and tea",
+        text: "Darken the saucer oval, add a smaller inner oval, and draw a light tea surface inside the cup rim.",
+        tip: "Keep these ovals flatter than circles. Flat ovals make the cup feel level."
       },
       {
-        name: "Set the fence and lane",
-        text: "March fence posts from the foreground toward the barn, connect them with rails, then pull two lane edges from the door.",
-        tip: "Make the nearest fence posts taller and darker. The smaller posts create depth."
+        name: "Add steam and a heart",
+        text: "Sketch three soft steam wisps above the rim, then add a tiny heart centered on the cup.",
+        tip: "Steam lines should stay lighter than the cup outline. They are atmosphere, not structure."
       },
       {
-        name: "Add shrubs and road texture",
-        text: "Draw low shrub clumps around the buildings, then add short broken strokes and pebble marks through the lane.",
-        tip: "Let the lane marks get smaller as they approach the barn door."
+        name: "Shade the cup and saucer",
+        text: "Darken the cup sides, saucer edge, and handle, then add loose graphite shading under the cup and across the saucer.",
+        tip: "Stop shading before the paper gets gray everywhere. The white gaps keep it sketchy."
       },
       {
-        name: "Shade the main forms",
-        text: "Deepen the barn door, roof edge, silo side, and foreground fence, then add a few field strokes behind the buildings.",
-        tip: "The darkest values belong in the door, under roof edges, and on the nearest fence posts."
-      },
-      {
-        name: "Finish with farm color",
-        text: "Add loose red pencil to the barn, green to the shrubs and fields, and warm brown strokes through the dirt lane.",
-        tip: "Do not color every space. Leaving paper gaps keeps the farm sketch light and handmade.",
+        name: "Finish the cozy details",
+        text: "Add restrained color to the cup, saucer, and tea surface, then choose the keeper lines around the rim, heart, and handle.",
+        tip: "Use color as short strokes over the graphite rather than filling the whole cup solid.",
         image: true
       }
     ]
@@ -323,7 +318,7 @@ const relatedCards = (currentSlug) => lessons
   .slice(0, 2)
   .map((lesson) => `
     <a class="sketch-card" href="${lesson.slug}.html">
-      <div class="card-art"><img src="../assets/${lesson.finished}" alt="" loading="lazy"></div>
+      <div class="card-art"><img src="../assets/${lesson.finished}" alt=""></div>
       <p><span>Day ${lesson.day}</span> ${lesson.time} min · ${lesson.difficulty}</p>
       <h3>How to draw ${lesson.shortSubject}</h3>
     </a>`)

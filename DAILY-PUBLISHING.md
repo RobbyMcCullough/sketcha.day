@@ -14,12 +14,17 @@ pose, marking, and color choice in the finish must appear in a prior step.
 ## Required Workflow
 
 1. Choose one clear pose and make a simple master construction drawing.
-2. Build each tutorial frame by progressively revealing that same drawing.
-3. Create the finished sketch from the master construction, preserving its pose
+2. Back-check the candidate against the existing archive before making art.
+   Reject near-duplicates in subject, silhouette, and drawing problem, even when
+   the wording is technically different. For example, a flower bud is too close
+   to the existing sprouting seed lesson unless the new lesson teaches a clearly
+   different form, pose, or skill.
+3. Build each tutorial frame by progressively revealing that same drawing.
+4. Create the finished sketch from the master construction, preserving its pose
    and proportions.
-4. Perform a draw-through test: follow only the written steps and confirm that a
+5. Perform a draw-through test: follow only the written steps and confirm that a
    person could reasonably arrive at the published finish.
-5. Reject and regenerate any finish that upgrades the anatomy, detail, pose, or
+6. Reject and regenerate any finish that upgrades the anatomy, detail, pose, or
    rendering beyond what the tutorial teaches.
 
 ## Daily Automation Routine
@@ -29,17 +34,20 @@ When this guide is used by a scheduled Codex automation, the job should:
 1. Read `AGENTS.md`, `HUMANS.md`, and this file before editing.
 2. Pick one specific lesson subject with a clear search phrase, such as
    "how to draw a rainy-day frog" or "how to draw a cozy mushroom."
-3. Create or update generated raster art for the finished sketch and tutorial
+3. Compare the candidate with existing lessons in `scripts/build-tutorials.mjs`
+   and `library.html`; choose a different subject if it repeats a recent lesson's
+   core shape, category, or drawing skill.
+4. Create or update generated raster art for the finished sketch and tutorial
    steps. Prefer one master reference and derived step frames over unrelated
    one-off images.
-4. Rate the final image using the 10-point gate below. Regenerate until the
+5. Rate the final image using the 10-point gate below. Regenerate until the
    finished image is at least 8/10.
-5. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
+6. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
    number and the intended publish date.
-6. Run `node scripts/build-tutorials.mjs`.
-7. QA the homepage, `library.html`, and the new tutorial page at desktop and
+7. Run `node scripts/build-tutorials.mjs`.
+8. QA the homepage, `library.html`, and the new tutorial page at desktop and
    mobile widths.
-8. Commit the work with a concise message only when the page passes the
+9. Commit the work with a concise message only when the page passes the
    anti-slop review and validation checks.
 
 For pre-launch backfilling, backdated tutorial pages are acceptable. Keep that
@@ -124,6 +132,8 @@ Do not rationalize a 6/10 or 7/10 image because the page is otherwise useful.
 
 Before publishing, check:
 
+- Is this subject meaningfully different from recent archive lessons in shape,
+  category, and drawing problem?
 - Does the page contain real instruction rather than encouragement alone?
 - Does the finish visibly match the steps?
 - Is the copy specific to this subject and pose?
