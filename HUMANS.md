@@ -56,3 +56,5 @@
 - Added the detailed pinecone as the June 17, 2026 / Day 007 tutorial draft
   using the private lab raster sketch as the finished source and derived raster
   step frames from the same drawing. Finished image rating: 8.2/10.
+- Replaced the first pinecone step-frame set after review because the original
+  frames read like a gradual reveal of the finish, not a real drawing process.
