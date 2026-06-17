@@ -53,3 +53,6 @@
 - Replaced the garden snail final and step art with v2 raster images after
   rating the new final sketch 8.5/10. The garden-snail hero headline now uses a
   `headlineSubject` line break so "on a leaf" clears the hero image.
+- Added the detailed pinecone as the June 17, 2026 / Day 007 tutorial draft
+  using the private lab raster sketch as the finished source and derived raster
+  step frames from the same drawing. Finished image rating: 8.2/10.

@@ -2,6 +2,52 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const lessons = [
   {
+    slug: "detailed-pinecone",
+    day: "007",
+    date: "Wednesday, June 17",
+    isoDate: "2026-06-17",
+    subject: "a detailed pinecone",
+    headlineSubject: "a detailed<br>pinecone",
+    shortSubject: "a detailed pinecone",
+    lessonTitle: "Let's draw a detailed pinecone",
+    description: "Learn how to draw a detailed pinecone with layered scales, graphite shading, and five practical sketching steps.",
+    intro: "Build the pinecone from one tilted egg shape, then stack simple scale blocks until the sketch feels full and textured.",
+    time: 30,
+    difficulty: "Medium",
+    accent: "#9b7654",
+    finished: "detailed-pinecone-finished-v1.jpg",
+    finishedAlt: "Loose graphite and brown colored-pencil sketch of a detailed pinecone with layered scales and a soft cast shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional brown pencil"],
+    steps: [
+      {
+        name: "Place the tilted egg",
+        text: "Draw one light egg shape leaning slightly right, then add a curved center line and a low guide line for the bottom row of scales.",
+        tip: "Keep the guide shape wider near the bottom. A pinecone feels sturdier when the base has more weight."
+      },
+      {
+        name: "Block the lower scales",
+        text: "Start at the bottom edge and draw three to five chunky scale blocks, each shaped like a small folded shield.",
+        tip: "Let the blocks overlap instead of lining them up evenly. The staggered edges make the cone look natural."
+      },
+      {
+        name: "Stack the middle scales",
+        text: "Add a second row through the center, placing each new scale between two lower scales so the pattern climbs upward.",
+        tip: "Leave pale diamond-shaped tops on the scales. Those light planes help the pinecone read before you add shading."
+      },
+      {
+        name: "Fill the top and sides",
+        text: "Work outward with smaller curled scales near the top and left edge, then sketch a soft shadow under the pinecone.",
+        tip: "Use fewer details at the far edges. Too many tiny scales can make the silhouette noisy."
+      },
+      {
+        name: "Shade between the scales",
+        text: "Darken the gaps between scale layers, add brown pencil on a few front planes, and leave the highlighted tips mostly paper-white.",
+        tip: "Push the darkest graphite into the spaces behind the scales. That contrast gives the drawing its depth.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "garden-snail",
     day: "006",
     date: "Tuesday, June 16",
