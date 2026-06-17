@@ -1617,8 +1617,18 @@ a {
   }
 
   .archive-stack {
+    width: min(100%, 340px);
     min-height: 360px;
-    margin-top: 15px;
+    margin: 15px auto 0;
+  }
+
+  .archive-sheet {
+    width: min(270px, 66vw);
+    padding: 15px 15px 36px;
+  }
+
+  .archive-sheet:nth-child(3) {
+    transform: translate(-36%, -55%) rotate(11deg);
   }
 
   .archive-library {

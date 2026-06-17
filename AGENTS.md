@@ -8,13 +8,20 @@ playful and handmade, but clear and useful enough for adults.
 
 ## Local Development
 
-This prototype is dependency-free.
+This prototype is dependency-free. The local site is normally served by Cove at:
+
+```text
+https://sketcha.localhost/
+```
+
+Use that URL for browser QA when it is available. Do not start a separate server
+unless `https://sketcha.localhost/` is unreachable.
 
 ```sh
 python3 -m http.server 4173
 ```
 
-Then open `http://localhost:4173`.
+Then open `http://localhost:4173` as the fallback preview URL.
 
 Archive tutorial pages and `library.html` are generated from
 `scripts/build-tutorials.mjs`:

@@ -131,6 +131,18 @@ Minimum validation commands:
 
 ```sh
 node scripts/build-tutorials.mjs
+```
+
+Then inspect the Cove-served local site:
+
+- `https://sketcha.localhost/`
+- `https://sketcha.localhost/library.html`
+- `https://sketcha.localhost/tutorials/{slug}.html`
+
+If Cove is not running or `https://sketcha.localhost/` is unreachable, use this
+fallback:
+
+```sh
 python3 -m http.server 4173
 ```
 

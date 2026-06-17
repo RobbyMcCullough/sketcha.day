@@ -39,3 +39,8 @@
 - The daily Codex automation is `sketcha-day-daily-lesson-draft`. It should run
   in the real project folder, not a worktree, and must stop rather than
   substituting rasterized SVG/canvas art when image generation is unavailable.
+- Added the garden snail on a leaf as the June 16, 2026 / Day 006 tutorial
+  draft with raster step frames derived from the same master sketch.
+- `scripts/build-tutorials.mjs` now sorts the library by publish date so the
+  generated archive stays in newest-first order even while the fox homepage
+  remains a separate current-page prototype.

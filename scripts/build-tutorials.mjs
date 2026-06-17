@@ -2,6 +2,51 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const lessons = [
   {
+    slug: "garden-snail",
+    day: "006",
+    date: "Tuesday, June 16",
+    isoDate: "2026-06-16",
+    subject: "a garden snail on a leaf",
+    shortSubject: "a garden snail",
+    lessonTitle: "Let's draw a garden snail",
+    description: "Learn how to draw a garden snail on a leaf with five cumulative sketching steps.",
+    intro: "Build a low crawling body, a tilted spiral shell, and a simple leaf so the snail feels small and garden-ready.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#7d9460",
+    finished: "garden-snail-finished-v1.jpg",
+    finishedAlt: "Loose graphite sketch of a garden snail with a brown shell and green body crawling on a leaf",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional green and brown pencils"],
+    steps: [
+      {
+        name: "Place the big guide shapes",
+        text: "Draw a tilted circle for the shell, a low curved belly line underneath, and a small oval where the head will sit.",
+        tip: "Keep the shell sitting slightly left of center. The head needs room to stretch forward."
+      },
+      {
+        name: "Turn the circle into a shell",
+        text: "Darken the outside of the shell, then start a spiral near the center and wind it outward without touching the edge.",
+        tip: "Leave breathing room between spiral rings. Crowded rings make the shell harder to read."
+      },
+      {
+        name: "Stretch the soft body",
+        text: "Draw the top of the body under the shell, round the head, and pull a flat foot line back under the whole snail.",
+        tip: "The body should stay lower than the shell. That contrast is what makes the shell feel heavy."
+      },
+      {
+        name: "Add eyes and the leaf",
+        text: "Lift two curved eyestalks from the head, add tiny eye ovals, then draw a pointed leaf underneath the foot.",
+        tip: "Aim the eyestalks in different directions so the snail feels curious instead of stiff."
+      },
+      {
+        name: "Shade the shell and leaf",
+        text: "Choose the contours you want to keep, add loose brown strokes to the shell, and shade the body and leaf with green pencil.",
+        tip: "Stop before the color becomes solid. The paper gaps help the sketch feel quick and handmade.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "sleepy-cat",
     day: "004",
     date: "Sunday, June 14",
@@ -207,7 +252,8 @@ const currentLesson = {
   finishedAlt: "Loose graphite and orange-pencil sketch of a seated fox"
 };
 
-const archiveLessons = [currentLesson, ...lessons];
+const archiveLessons = [...lessons, currentLesson]
+  .sort((first, second) => new Date(second.isoDate) - new Date(first.isoDate));
 
 const relatedCards = (currentSlug) => lessons
   .filter(({ slug }) => slug !== currentSlug)
