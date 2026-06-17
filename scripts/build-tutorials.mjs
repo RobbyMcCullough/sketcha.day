@@ -2,62 +2,62 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const lessons = [
   {
-    slug: "quiet-farm-lane",
+    slug: "red-barn-silo",
     day: "007",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
-    subject: "a quiet farm lane",
-    headlineSubject: "a quiet<br>farm lane",
-    shortSubject: "a quiet farm lane",
-    lessonTitle: "Let's draw a quiet farm lane",
-    description: "Learn how to draw a quiet farm lane with a barn, silo, fence posts, and gentle countryside perspective.",
-    intro: "Use a simple horizon, lane edges, and blocky building shapes to turn a blank page into a small countryside scene.",
-    time: 35,
-    difficulty: "Medium-hard",
+    subject: "a red barn and silo",
+    headlineSubject: "a red barn<br>and silo",
+    shortSubject: "a red barn and silo",
+    lessonTitle: "Let's draw a red barn and silo",
+    description: "Learn how to draw a red barn and silo with a simple fence, lane, and rolling field background.",
+    intro: "Start with blocky building shapes, then add the roof, doors, fence, lane, and soft farm-field texture.",
+    time: 30,
+    difficulty: "Medium",
     accent: "#c7775d",
-    finished: "quiet-farm-lane-finished-v1.jpg",
-    finishedAlt: "Loose graphite and colored-pencil sketch of a quiet farm lane leading past fence posts toward a red barn and silo",
+    finished: "red-barn-silo-finished-v1.jpg",
+    finishedAlt: "Loose graphite and colored-pencil sketch of a red barn and silo with a fence, dirt lane, and rolling fields",
     materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional red, green, and brown pencils"],
     steps: [
       {
-        name: "Place the horizon and lane",
-        text: "Draw a low rolling horizon, then pull two lane edges from the barn area down toward the bottom of the page.",
-        tip: "Let the lane get wider as it comes forward. That widening is the simplest way to show depth."
+        name: "Place the big blocks",
+        text: "Draw a tall silo block on the left, a wide barn block on the right, and two light rolling field lines behind them.",
+        tip: "Keep the barn and silo on the same ground line so the buildings feel planted."
       },
       {
-        name: "Block the barn and silo",
-        text: "Add a tall silo rectangle on the left and a wide barn block on the right, keeping both sitting on the same ground line.",
-        tip: "Use boxy shapes first. The scene will feel calmer if the big pieces are placed before the details."
+        name: "Build the roof shapes",
+        text: "Round the silo top, add the barn's front gable, then pull a slanted side roof back to the right.",
+        tip: "Put the roof peak over the front barn block before drawing the side roof."
       },
       {
-        name: "Build the roof and doors",
-        text: "Turn the barn block into a gable roof, round the top of the silo, and add the big barn door and small upper window.",
-        tip: "Keep the roof peak above the door center. That vertical alignment keeps the barn from leaning."
+        name: "Add doors and windows",
+        text: "Place a big double barn door, cross its panels with an X, then add a small upper window and a side shed door.",
+        tip: "Use rectangles first. The X braces only work if the door frame is already square."
       },
       {
-        name: "Add the fence posts",
-        text: "March fence posts from the foreground toward the barn, making each post smaller as it gets farther away.",
-        tip: "The rails should angle toward the lane's vanishing area, not run straight across the page."
+        name: "Draw siding and roof lines",
+        text: "Add vertical siding to the barn, light grid lines to the silo, and darker edges along the roof.",
+        tip: "Keep these texture lines lighter than the outside contours so the forms stay readable."
       },
       {
-        name: "Texture the dirt lane",
-        text: "Add short broken strokes across the road and a few pebbly marks that get smaller near the barn.",
-        tip: "Use fewer marks in the distance. Tiny repeated texture can flatten the perspective."
+        name: "Set the fence and lane",
+        text: "March fence posts from the foreground toward the barn, connect them with rails, then pull two lane edges from the door.",
+        tip: "Make the nearest fence posts taller and darker. The smaller posts create depth."
       },
       {
-        name: "Add shrubs and field edges",
-        text: "Sketch low shrubs around the barn, soft grass along the lane, and curved field lines that follow the hills.",
-        tip: "Keep the background lines lighter than the fence and barn so the scene keeps its depth."
+        name: "Add shrubs and road texture",
+        text: "Draw low shrub clumps around the buildings, then add short broken strokes and pebble marks through the lane.",
+        tip: "Let the lane marks get smaller as they approach the barn door."
       },
       {
-        name: "Shade the buildings",
-        text: "Add vertical siding on the barn, light grid marks on the silo, and darker strokes under the roof edges.",
-        tip: "Save your darkest lines for the barn door, roof edge, and foreground fence posts."
+        name: "Shade the main forms",
+        text: "Deepen the barn door, roof edge, silo side, and foreground fence, then add a few field strokes behind the buildings.",
+        tip: "The darkest values belong in the door, under roof edges, and on the nearest fence posts."
       },
       {
-        name: "Finish with soft color",
-        text: "Add loose red pencil to the barn, green to the grass and hills, and warm brown strokes through the dirt lane.",
-        tip: "Leave plenty of paper showing. A quiet scene feels better with restrained color than full coverage.",
+        name: "Finish with farm color",
+        text: "Add loose red pencil to the barn, green to the shrubs and fields, and warm brown strokes through the dirt lane.",
+        tip: "Do not color every space. Leaving paper gaps keeps the farm sketch light and handmade.",
         image: true
       }
     ]

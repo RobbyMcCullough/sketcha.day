@@ -67,3 +67,9 @@
 - Promoted the lab farmhouse/farm-lane sketch into the June 17, 2026 / Day 007
   draft as "how to draw a quiet farm lane" with a longer scene-construction
   process.
+- Pulled the quiet farm lane from the public daily sequence after review
+  because the process frames still did not match the final fence, lane, bushes,
+  and hills. Its HTML and assets are preserved under `drafts/quiet-farm-lane/`.
+- Replaced Day 007 with a tighter "how to draw a red barn and silo" lesson
+  cropped from the same farmhouse lab art, so the process can account for the
+  visible barn, silo, fence, lane, and field shapes.

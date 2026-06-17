@@ -255,7 +255,7 @@ a {
   font-family: var(--display);
   font-size: clamp(4.5rem, 7.5vw, 7.2rem);
   font-weight: 400;
-  line-height: .88;
+  line-height: .82;
   letter-spacing: 0;
   text-wrap: balance;
 }
@@ -263,10 +263,10 @@ a {
 .hero h1 em {
   position: relative;
   display: inline-block;
-  margin-top: .08em;
+  margin-top: .02em;
   color: var(--orange);
   font-style: normal;
-  line-height: .84;
+  line-height: .8;
   white-space: normal;
   transform: rotate(-2deg);
 }
@@ -1559,7 +1559,7 @@ a {
   }
 
   .hero h1 {
-    font-size: clamp(4.2rem, 20vw, 6.5rem);
+    font-size: clamp(3.8rem, 17.5vw, 5.65rem);
   }
 
   .hero-art {
