@@ -57,12 +57,17 @@ community participation, comments, or popularity.
 
 - Use image generation or image editing for the finished raster sketch unless a
   human artist supplies the final drawing.
+- A `.jpg` or `.png` file is not enough by itself. Do not create "raster"
+  lesson art by drawing clean SVG, canvas, or other programmatic vector shapes
+  and exporting them as image files.
 - Treat generated art as a directed master reference, not as an independent
   decorative image. Regenerate it until the pose, materials, detail level, and
   looseness match the lesson.
 - Derive every tutorial frame from that same master drawing. Prefer image
   editing, layer removal, or traced construction overlays over separately
   prompting each step, which causes pose and proportion drift.
+- If image generation or image editing is unavailable during an automation run,
+  stop and report that blocker instead of substituting synthetic vector art.
 - SVG is appropriate for construction guides, arrows, annotations, UI marks,
   and simple overlays. Do not use clean SVG line art as the default finished
   sketch unless that vector look is the deliberate subject of the lesson.

@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-15
+- Date: 2026-06-16
 - Agent harness: Codex
 - Harness project/session name: Sketcha.day homepage prototype
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
@@ -36,3 +36,6 @@
   robots meta tag.
 - Added the rainy-day frog as a real backdated tutorial for June 11, 2026 and
   renumbered the initial sequence so June 15 is Day 005.
+- The daily Codex automation is `sketcha-day-daily-lesson-draft`. It should run
+  in the real project folder, not a worktree, and must stop rather than
+  substituting rasterized SVG/canvas art when image generation is unavailable.
