@@ -23,7 +23,7 @@ python3 -m http.server 4173
 
 Then open `http://localhost:4173` as the fallback preview URL.
 
-Archive tutorial pages and `library.html` are generated from
+The homepage, archive tutorial pages, and `library.html` are generated from
 `scripts/build-tutorials.mjs`:
 
 ```sh
@@ -39,8 +39,9 @@ For daily lesson work, read these files in order:
 3. `DAILY-PUBLISHING.md`
 
 Then update the lesson data in `scripts/build-tutorials.mjs`, create any new
-assets under `assets/`, run the generator, QA the changed pages, and commit the
-work only after the lesson passes the quality gates in `DAILY-PUBLISHING.md`.
+assets under `assets/`, run the generator, QA the homepage plus changed pages,
+and commit the work only after the lesson passes the quality gates in
+`DAILY-PUBLISHING.md`.
 
 ## Conventions
 

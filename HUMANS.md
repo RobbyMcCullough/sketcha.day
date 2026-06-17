@@ -44,3 +44,6 @@
 - `scripts/build-tutorials.mjs` now sorts the library by publish date so the
   generated archive stays in newest-first order even while the fox homepage
   remains a separate current-page prototype.
+- `scripts/build-tutorials.mjs` now also regenerates `index.html` from the
+  newest lesson. The old fox homepage is preserved as
+  `tutorials/curious-fox.html` so Day 005 remains available in the library.

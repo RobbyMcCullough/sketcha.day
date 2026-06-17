@@ -241,7 +241,7 @@ const lessons = [
 ];
 
 const currentLesson = {
-  slug: "",
+  slug: "curious-fox",
   day: "005",
   date: "Monday, June 15",
   isoDate: "2026-06-15",
@@ -254,6 +254,7 @@ const currentLesson = {
 
 const archiveLessons = [...lessons, currentLesson]
   .sort((first, second) => new Date(second.isoDate) - new Date(first.isoDate));
+const latestLesson = archiveLessons[0];
 
 const relatedCards = (currentSlug) => lessons
   .filter(({ slug }) => slug !== currentSlug)
@@ -372,7 +373,7 @@ const page = (lesson) => {
     <section class="library related-library" id="related" aria-labelledby="related-title">
       <header class="section-heading library-heading"><div><p class="kicker">Keep the page moving</p><h2 id="related-title">More daily sketches</h2></div><a href="../library.html">Browse the full library <span aria-hidden="true">→</span></a></header>
       <div class="library-grid">${relatedCards(lesson.slug)}
-        <a class="sketch-card" href="../index.html">
+        <a class="sketch-card" href="curious-fox.html">
           <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt="" loading="lazy"></div>
           <p><span>Day ${currentLesson.day}</span> ${currentLesson.time} min · ${currentLesson.difficulty}</p>
           <h3>How to draw a curious fox</h3>
@@ -389,6 +390,61 @@ const page = (lesson) => {
   <script src="../script.js"></script>
 </body>
 </html>`;
+};
+
+const homePage = (lesson) => {
+  const homeOnlySections = `
+    <section class="about" id="about">
+      <div class="about-drawing">
+        <img src="assets/daily-sketchbook.svg" alt="An open sketchbook filled with four simple daily drawing studies" width="560" height="430">
+      </div>
+      <div class="about-copy">
+        <p class="kicker">One small drawing, every day</p>
+        <h2>A daily practice for curious hands.</h2>
+        <p>Sketcha.day turns a blank page into an approachable ritual. Every lesson starts with simple shapes, explains the useful bits, and leaves room for your own style.</p>
+        <div class="about-points">
+          <p><strong>Made for real life</strong><span>Most lessons take 15-30 minutes.</span></p>
+          <p><strong>Useful at any age</strong><span>Friendly enough for kids, substantial enough for grown-ups.</span></p>
+          <p><strong>A growing library</strong><span>Miss a day? Every sketch stays available.</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter" id="newsletter" aria-labelledby="newsletter-title">
+      <div class="newsletter-pencil" aria-hidden="true"></div>
+      <p class="hand-note">A tiny creative nudge</p>
+      <h2 id="newsletter-title">A fresh sketch in your inbox.</h2>
+      <p>One prompt. One practical tutorial. Zero pressure.</p>
+      <form class="signup-form">
+        <label class="sr-only" for="email">Email address</label>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+        <button type="submit">Send me tomorrow's sketch</button>
+      </form>
+      <small>Free forever. Unsubscribe whenever your sketchbook is full.</small>
+      <p class="form-message" role="status" aria-live="polite"></p>
+    </section>
+`;
+
+  let html = page(lesson)
+    .replaceAll(`https://sketcha.day/tutorials/${lesson.slug}.html`, "https://sketcha.day/")
+    .replaceAll('href="../styles.css"', 'href="styles.css"')
+    .replaceAll('src="../script.js"', 'src="script.js"')
+    .replaceAll("../assets/", "assets/")
+    .replaceAll("../library.html", "library.html")
+    .replaceAll("../index.html#about", "#about")
+    .replaceAll("../index.html", "index.html")
+    .replaceAll("Skip to the lesson", "Skip to today's lesson")
+    .replaceAll("Finished sketch <span>", "Today's finished sketch <span>")
+    .replaceAll("From the archive", "Pencil ready?")
+    .replace("  </main>", `${homeOnlySections}  </main>`);
+
+  for (const item of archiveLessons) {
+    if (item.slug) {
+      html = html.replaceAll(`href="${item.slug}.html"`, `href="tutorials/${item.slug}.html"`);
+    }
+  }
+
+  return html;
 };
 
 const archiveCard = (lesson, index) => {
@@ -498,6 +554,7 @@ await mkdir(new URL("../tutorials/", import.meta.url), { recursive: true });
 for (const lesson of lessons) {
   await writeFile(new URL(`../tutorials/${lesson.slug}.html`, import.meta.url), page(lesson));
 }
+await writeFile(new URL("../index.html", import.meta.url), homePage(latestLesson));
 await writeFile(new URL("../library.html", import.meta.url), archivePage());
 
-console.log(`Built ${lessons.length} tutorial pages and the tutorial library.`);
+console.log(`Built ${lessons.length} tutorial pages, the homepage, and the tutorial library.`);
