@@ -220,10 +220,12 @@ are placeholders, or the finished image fails the draw-through test.
 Minimum validation commands:
 
 ```sh
-node scripts/build-tutorials.mjs
-python3 scripts/check-process-plan.py {slug}
-python3 scripts/check-step-deltas.py {slug} --contact-sheet /tmp/{slug}-steps.jpg
+python3 scripts/check-tutorial-readiness.py {slug}
 ```
+
+That command rebuilds generated pages, checks the process plan, writes a
+step-frame contact sheet, checks adjacent step deltas, validates JSON-LD and lab
+privacy, probes local internal links/assets, and runs `git diff --check`.
 
 Then inspect the Cove-served local site:
 

@@ -101,3 +101,7 @@
   `scripts/check-process-plan.py` so daily lessons have an explicit process
   source before publish QA. The process-plan check verifies that written step
   names, frame assets, visible jobs, and the final image stay in sync.
+- Added `scripts/check-tutorial-readiness.py` as the single pre-publish command
+  for daily lessons. It rebuilds pages, checks the process plan, writes the
+  step-delta contact sheet, validates generated HTML/lab privacy, probes local
+  Cove links/assets, and runs `git diff --check`.

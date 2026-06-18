@@ -26,6 +26,13 @@ Validate a plan with:
 python3 scripts/check-process-plan.py {slug}
 ```
 
-Run the process-plan check before the step-delta contact sheet. The plan proves
-the sequence is intentional; the step-delta check proves adjacent frames are not
-near-duplicates.
+For full pre-publish QA, run:
+
+```sh
+python3 scripts/check-tutorial-readiness.py {slug}
+```
+
+The readiness command runs the process-plan check, writes the step-delta contact
+sheet, verifies generated HTML, probes local links/assets, and runs the
+whitespace diff check. The plan proves the sequence is intentional; the
+step-delta check proves adjacent frames are not near-duplicates.
