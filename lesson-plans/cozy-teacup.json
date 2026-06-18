@@ -7,48 +7,126 @@
     "notes": "The rejected v1 process study remains in drafts/cozy-teacup/ and should not be used as the public finished source."
   },
   "process_strategy": "Derive each process frame from the same saved v2 master. Reveal larger drawing decisions rather than isolated tiny marks: construction, cup/handle, saucer, tea/steam, heart/rim color, shading, then final keeper lines.",
+  "final_elements": [
+    {
+      "name": "cup rim oval",
+      "introduced_by_step": 1,
+      "description": "The level oval that defines the cup opening."
+    },
+    {
+      "name": "saucer guide oval",
+      "introduced_by_step": 1,
+      "description": "The wide lower oval that anchors the cup."
+    },
+    {
+      "name": "cup bowl and foot",
+      "introduced_by_step": 2,
+      "description": "The sloped cup sides and small base curve."
+    },
+    {
+      "name": "C-shaped handle",
+      "introduced_by_step": 2,
+      "description": "The right-side handle attached near rim and lower cup."
+    },
+    {
+      "name": "saucer keeper ellipse",
+      "introduced_by_step": 3,
+      "description": "The darkened saucer edge and inner seat curve."
+    },
+    {
+      "name": "warm tea surface",
+      "introduced_by_step": 4,
+      "description": "The tan liquid oval inside the rim."
+    },
+    {
+      "name": "steam wisps",
+      "introduced_by_step": 4,
+      "description": "Three light vertical steam lines above the cup."
+    },
+    {
+      "name": "red heart",
+      "introduced_by_step": 5,
+      "description": "The small red heart centered on the cup front."
+    },
+    {
+      "name": "warm rim stripe",
+      "introduced_by_step": 5,
+      "description": "The thin warm stripe following the front rim."
+    },
+    {
+      "name": "cup and saucer shadows",
+      "introduced_by_step": 6,
+      "description": "The pale side shading, saucer tone, and cast shadow."
+    }
+  ],
   "frames": [
     {
       "step": 1,
       "asset": "assets/cozy-teacup-step-1.jpg",
       "step_name": "Place the guide ovals",
-      "visible_job": "Places the saucer oval, cup rim oval, faint center line, and light slanted cup-side guides before any keeper lines."
+      "visible_job": "Places the saucer oval, cup rim oval, faint center line, and light slanted cup-side guides before any keeper lines.",
+      "introduces": [
+        "cup rim oval",
+        "saucer guide oval"
+      ]
     },
     {
       "step": 2,
       "asset": "assets/cozy-teacup-step-2.jpg",
       "step_name": "Shape the cup and handle",
-      "visible_job": "Adds the cup rim keeper lines, cup bowl sides, small foot curve, and C-shaped handle as one readable construction move."
+      "visible_job": "Adds the cup rim keeper lines, cup bowl sides, small foot curve, and C-shaped handle as one readable construction move.",
+      "introduces": [
+        "cup bowl and foot",
+        "C-shaped handle"
+      ]
     },
     {
       "step": 3,
       "asset": "assets/cozy-teacup-step-3.jpg",
       "step_name": "Build the saucer",
-      "visible_job": "Darkens the saucer ellipse and adds the smaller inner curve under the cup."
+      "visible_job": "Darkens the saucer ellipse and adds the smaller inner curve under the cup.",
+      "introduces": [
+        "saucer keeper ellipse"
+      ]
     },
     {
       "step": 4,
       "asset": "assets/cozy-teacup-step-4.jpg",
       "step_name": "Add tea and steam",
-      "visible_job": "Adds the warm tea oval and three light steam wisps while keeping the decorative heart absent."
+      "visible_job": "Adds the warm tea oval and three light steam wisps while keeping the decorative heart absent.",
+      "introduces": [
+        "warm tea surface",
+        "steam wisps"
+      ]
     },
     {
       "step": 5,
       "asset": "assets/cozy-teacup-step-5.jpg",
       "step_name": "Draw the heart and rim stripe",
-      "visible_job": "Adds the red heart and warm rim stripe after the cup structure is already established."
+      "visible_job": "Adds the red heart and warm rim stripe after the cup structure is already established.",
+      "introduces": [
+        "red heart",
+        "warm rim stripe"
+      ]
     },
     {
       "step": 6,
       "asset": "assets/cozy-teacup-step-6.jpg",
       "step_name": "Shade the cup and saucer",
-      "visible_job": "Adds pale cup shading, blue-gray saucer shading, and a soft cast shadow while leaving the final line pass unfinished."
+      "visible_job": "Adds pale cup shading, blue-gray saucer shading, and a soft cast shadow while leaving the final line pass unfinished.",
+      "introduces": [
+        "cup and saucer shadows"
+      ]
     }
   ],
   "final_step": {
     "step_name": "Finish the keeper lines",
     "asset": "assets/cozy-teacup-finished-v2.jpg",
-    "visible_job": "Strengthens the rim, handle, saucer, steam, heart, and final colored-pencil accents without changing the pose."
+    "visible_job": "Strengthens the rim, handle, saucer, steam, heart, and final colored-pencil accents without changing the pose.",
+    "allowed_changes": [
+      "keeper-line darkening",
+      "final colored-pencil accents"
+    ]
   },
   "rejection_checks": [
     "No adjacent frame should look unchanged at card size.",

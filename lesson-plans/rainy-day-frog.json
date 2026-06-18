@@ -7,36 +7,111 @@
     "notes": "The process frames use the same frog pose, umbrella arc, boots, and color placement as the finished image."
   },
   "process_strategy": "Build the frog from large guide shapes, then add the face, umbrella, arms, handle, boots, and final rainy-day color without changing the pose.",
+  "final_elements": [
+    {
+      "name": "wide umbrella arc",
+      "introduced_by_step": 1,
+      "description": "The broad umbrella canopy above the frog."
+    },
+    {
+      "name": "rounded frog head",
+      "introduced_by_step": 1,
+      "description": "The wide head shape under the eyes."
+    },
+    {
+      "name": "eye circles",
+      "introduced_by_step": 1,
+      "description": "The two large eye circles on top of the head."
+    },
+    {
+      "name": "oval frog body",
+      "introduced_by_step": 1,
+      "description": "The centered body oval beneath the head."
+    },
+    {
+      "name": "boot blocks",
+      "introduced_by_step": 1,
+      "description": "The two blocky lower shapes for rain boots."
+    },
+    {
+      "name": "smiling frog face",
+      "introduced_by_step": 2,
+      "description": "The eye rings, smile, and cheek spots."
+    },
+    {
+      "name": "umbrella ribs",
+      "introduced_by_step": 2,
+      "description": "The curved rib lines dividing the umbrella canopy."
+    },
+    {
+      "name": "arms and hands",
+      "introduced_by_step": 3,
+      "description": "The small arms wrapping around the handle."
+    },
+    {
+      "name": "tilted umbrella handle",
+      "introduced_by_step": 3,
+      "description": "The handle running through the frog pose."
+    },
+    {
+      "name": "finished rain boots",
+      "introduced_by_step": 4,
+      "description": "The boot openings, rounded toes, and dark sole lines."
+    }
+  ],
   "frames": [
     {
       "step": 1,
       "asset": "assets/rainy-day-frog-step-1.jpg",
       "step_name": "Block in the big shapes",
-      "visible_job": "Places the frog head, eye circles, oval body, boot blocks, and umbrella arc before adding expression or detail."
+      "visible_job": "Places the frog head, eye circles, oval body, boot blocks, and umbrella arc before adding expression or detail.",
+      "introduces": [
+        "wide umbrella arc",
+        "rounded frog head",
+        "eye circles",
+        "oval frog body",
+        "boot blocks"
+      ]
     },
     {
       "step": 2,
       "asset": "assets/rainy-day-frog-step-2.jpg",
       "step_name": "Draw the face and umbrella",
-      "visible_job": "Turns the head and eyes into a readable frog face while adding the umbrella ribs above the same body guides."
+      "visible_job": "Turns the head and eyes into a readable frog face while adding the umbrella ribs above the same body guides.",
+      "introduces": [
+        "smiling frog face",
+        "umbrella ribs"
+      ]
     },
     {
       "step": 3,
       "asset": "assets/rainy-day-frog-step-3.jpg",
       "step_name": "Add arms and the handle",
-      "visible_job": "Adds the frog body contour, arms, hands, and tilted umbrella handle through the pose."
+      "visible_job": "Adds the frog body contour, arms, hands, and tilted umbrella handle through the pose.",
+      "introduces": [
+        "arms and hands",
+        "tilted umbrella handle"
+      ]
     },
     {
       "step": 4,
       "asset": "assets/rainy-day-frog-step-4.jpg",
       "step_name": "Finish the boots",
-      "visible_job": "Converts the blocky feet into oversized rain boots with openings, toes, and sole lines."
+      "visible_job": "Converts the blocky feet into oversized rain boots with openings, toes, and sole lines.",
+      "introduces": [
+        "finished rain boots"
+      ]
     }
   ],
   "final_step": {
     "step_name": "Color the rainy details",
     "asset": "assets/rainy-day-frog-finished-v1.jpg",
-    "visible_job": "Adds the final green frog, yellow boots, blue umbrella, rain details, and keeper contours without changing the silhouette."
+    "visible_job": "Adds the final green frog, yellow boots, blue umbrella, rain details, and keeper contours without changing the silhouette.",
+    "allowed_changes": [
+      "loose rainy-day color",
+      "keeper contour darkening",
+      "small rain accents"
+    ]
   },
   "rejection_checks": [
     "The umbrella must stay wider than the frog in every frame.",

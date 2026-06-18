@@ -38,8 +38,10 @@ When this guide is used by a scheduled Codex automation, the job should:
    and `library.html`; choose a different subject if it repeats a recent lesson's
    core shape, category, or drawing skill.
 4. Write or update `lesson-plans/{slug}.json` before creating final page data.
-   The plan must name each process frame's visible job and the finished asset it
-   is building toward.
+   Start from `lesson-plans/TEMPLATE.json`. The plan must name the finished
+   asset, each major finished element, the non-final frame where that element
+   first appears, each process frame's visible job, and the final step's allowed
+   finishing-only changes.
 5. Create or update generated raster art for the finished sketch and tutorial
    steps. Prefer one master reference and derived step frames over unrelated
    one-off images.
@@ -166,6 +168,13 @@ The process-plan check verifies that `lesson-plans/{slug}.json`, generated page
 step names, step image files, and the finished asset agree. It catches a common
 failure mode where the text says one thing, the image sequence does another, and
 the final drawing comes from a third source.
+
+It also checks element coverage: every major visible finished element listed in
+`final_elements` must first appear in a non-final frame's `introduces` list. The
+final image step must be limited to `final_step.allowed_changes`, such as
+keeper-line darkening or restrained shading. If the final step introduces a new
+prop, contour, marking, setting detail, or core color decision, the lesson is
+not ready.
 
 Missing plans or missing step frames are failures unless the tutorial is a
 documented legacy exception in `lesson-plans/exceptions.json`. Do not add new

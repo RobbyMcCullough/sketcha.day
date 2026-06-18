@@ -7,36 +7,98 @@
     "notes": "The final should not be reused as the basis for a flower-bud lesson because the drawing problem is too similar."
   },
   "process_strategy": "Keep one leaning stem path fixed, then add the top bud, left leaf, right leaf, roots, and green pencil in the same small sprout silhouette.",
+  "final_elements": [
+    {
+      "name": "leaning stem",
+      "introduced_by_step": 1,
+      "description": "The gently curved vertical stem path."
+    },
+    {
+      "name": "soil arc",
+      "introduced_by_step": 1,
+      "description": "The shallow ground line below the sprout."
+    },
+    {
+      "name": "root marks",
+      "introduced_by_step": 1,
+      "description": "The tiny curved roots under the stem."
+    },
+    {
+      "name": "top bud",
+      "introduced_by_step": 2,
+      "description": "The pointed bud shape at the top."
+    },
+    {
+      "name": "left leaf",
+      "introduced_by_step": 3,
+      "description": "The broad pointed leaf branching left."
+    },
+    {
+      "name": "left leaf vein",
+      "introduced_by_step": 3,
+      "description": "The central vein returning to the stem."
+    },
+    {
+      "name": "right leaf",
+      "introduced_by_step": 4,
+      "description": "The matching pointed leaf branching right."
+    },
+    {
+      "name": "right leaf vein",
+      "introduced_by_step": 4,
+      "description": "The central vein inside the right leaf."
+    }
+  ],
   "frames": [
     {
       "step": 1,
       "asset": "assets/sprouting-seed-step-1.jpg",
       "step_name": "Draw the stem's path",
-      "visible_job": "Places the light leaning stem curve and shallow soil arc before any leaves are added."
+      "visible_job": "Places the light leaning stem curve and shallow soil arc before any leaves are added.",
+      "introduces": [
+        "leaning stem",
+        "soil arc",
+        "root marks"
+      ]
     },
     {
       "step": 2,
       "asset": "assets/sprouting-seed-step-2.jpg",
       "step_name": "Open the top bud",
-      "visible_job": "Adds the pointed top bud centered over the stem while keeping the soil and stem guides visible."
+      "visible_job": "Adds the pointed top bud centered over the stem while keeping the soil and stem guides visible.",
+      "introduces": [
+        "top bud"
+      ]
     },
     {
       "step": 3,
       "asset": "assets/sprouting-seed-step-3.jpg",
       "step_name": "Grow the left leaf",
-      "visible_job": "Branches a broad pointed leaf to the left and connects its center vein back to the stem."
+      "visible_job": "Branches a broad pointed leaf to the left and connects its center vein back to the stem.",
+      "introduces": [
+        "left leaf",
+        "left leaf vein"
+      ]
     },
     {
       "step": 4,
       "asset": "assets/sprouting-seed-step-4.jpg",
       "step_name": "Balance it with a right leaf",
-      "visible_job": "Adds the right-side leaf slightly higher so the sprout has the same balanced four-leaf silhouette as the finish."
+      "visible_job": "Adds the right-side leaf slightly higher so the sprout has the same balanced four-leaf silhouette as the finish.",
+      "introduces": [
+        "right leaf",
+        "right leaf vein"
+      ]
     }
   ],
   "final_step": {
     "step_name": "Add roots and green",
     "asset": "assets/sprouting-seed-finished-v2.jpg",
-    "visible_job": "Adds tiny roots below the soil line and loose green pencil strokes along each leaf direction."
+    "visible_job": "Adds tiny roots below the soil line and loose green pencil strokes along each leaf direction.",
+    "allowed_changes": [
+      "loose green shading",
+      "keeper contour darkening"
+    ]
   },
   "rejection_checks": [
     "The stem lean must stay consistent from the first frame through the finish.",

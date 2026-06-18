@@ -109,3 +109,8 @@
   missing plans/step frames fail validation unless listed in
   `lesson-plans/exceptions.json`. `curious-fox` is currently the only documented
   legacy exception because it preserves the original homepage prototype.
+- Strengthened lesson plans with an element-coverage contract:
+  `final_elements`, per-frame `introduces`, and
+  `final_step.allowed_changes`. This makes `scripts/check-process-plan.py`
+  fail when a final drawing adds major structure that was not introduced before
+  the final frame.

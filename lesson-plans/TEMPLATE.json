@@ -1,0 +1,42 @@
+{
+  "slug": "example-slug",
+  "finished": "assets/example-slug-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "How the saved raster master was obtained.",
+    "notes": "Any rejected previews, drafts, or source constraints."
+  },
+  "process_strategy": "One sentence explaining how the frames are derived from the same drawing and why the final will not outpace the process.",
+  "final_elements": [
+    {
+      "name": "major visible element",
+      "introduced_by_step": 1,
+      "description": "What this element looks like in the finished sketch."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/example-slug-step-1.jpg",
+      "step_name": "Visible step name",
+      "visible_job": "The concrete drawing job this frame performs.",
+      "introduces": [
+        "major visible element"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the sketch",
+    "asset": "assets/example-slug-finished-v1.jpg",
+    "visible_job": "Only strengthens, shades, colors, or clarifies elements that were already introduced.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained colored-pencil shading"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

@@ -7,36 +7,92 @@
     "notes": "The step frames preserve the same curled body, low head, wrapped tail, closed eyes, and blue pencil accent."
   },
   "process_strategy": "Hold the curled body and head placement steady, then add ears, face, outer body contour, wrapped tail, and final blue shading in order.",
+  "final_elements": [
+    {
+      "name": "curled body oval",
+      "introduced_by_step": 1,
+      "description": "The wide oval that carries the curled pose."
+    },
+    {
+      "name": "low head circle",
+      "introduced_by_step": 1,
+      "description": "The smaller head circle resting low."
+    },
+    {
+      "name": "cat ears",
+      "introduced_by_step": 2,
+      "description": "The two triangular ears on the head."
+    },
+    {
+      "name": "sleepy face",
+      "introduced_by_step": 2,
+      "description": "The closed eyes, tiny nose, and relaxed mouth."
+    },
+    {
+      "name": "curled outer outline",
+      "introduced_by_step": 3,
+      "description": "The connected back, belly, and cheek outline."
+    },
+    {
+      "name": "tucked paw bump",
+      "introduced_by_step": 3,
+      "description": "The small bump under the sleepy face."
+    },
+    {
+      "name": "wrapped tail",
+      "introduced_by_step": 4,
+      "description": "The thick tail loop around the front."
+    }
+  ],
   "frames": [
     {
       "step": 1,
       "asset": "assets/sleepy-cat-step-1.jpg",
       "step_name": "Place two soft shapes",
-      "visible_job": "Places the wide curled-body oval and smaller low head circle that define the sleepy pose."
+      "visible_job": "Places the wide curled-body oval and smaller low head circle that define the sleepy pose.",
+      "introduces": [
+        "curled body oval",
+        "low head circle"
+      ]
     },
     {
       "step": 2,
       "asset": "assets/sleepy-cat-step-2.jpg",
       "step_name": "Add the ears and face",
-      "visible_job": "Adds the two ears, closed eyes, small nose, and relaxed mouth while keeping the guide shapes readable."
+      "visible_job": "Adds the two ears, closed eyes, small nose, and relaxed mouth while keeping the guide shapes readable.",
+      "introduces": [
+        "cat ears",
+        "sleepy face"
+      ]
     },
     {
       "step": 3,
       "asset": "assets/sleepy-cat-step-3.jpg",
       "step_name": "Find the curled outline",
-      "visible_job": "Connects the head, cheeks, back, belly, and tucked paw bump into one curled cat outline."
+      "visible_job": "Connects the head, cheeks, back, belly, and tucked paw bump into one curled cat outline.",
+      "introduces": [
+        "curled outer outline",
+        "tucked paw bump"
+      ]
     },
     {
       "step": 4,
       "asset": "assets/sleepy-cat-step-4.jpg",
       "step_name": "Wrap the tail around",
-      "visible_job": "Loops the tail around the front of the curled body and crosses it near the tucked paws."
+      "visible_job": "Loops the tail around the front of the curled body and crosses it near the tucked paws.",
+      "introduces": [
+        "wrapped tail"
+      ]
     }
   ],
   "final_step": {
     "step_name": "Darken and add blue",
     "asset": "assets/sleepy-cat-finished-v2.jpg",
-    "visible_job": "Chooses keeper contours and adds sparse blue pencil strokes along the curled body and wrapped tail."
+    "visible_job": "Chooses keeper contours and adds sparse blue pencil strokes along the curled body and wrapped tail.",
+    "allowed_changes": [
+      "sparse blue shading",
+      "keeper contour darkening"
+    ]
   },
   "rejection_checks": [
     "The cat must remain curled rather than turning into a sitting or standing pose.",

@@ -7,36 +7,98 @@
     "notes": "The step frames keep the same cap, stem, spots, folds, and rosy shading path as the finished image."
   },
   "process_strategy": "Use the oval cap and rounded stem as fixed construction, then progressively define the dome, flare the stem, place spots and folds, and finish with restrained rosy shading.",
+  "final_elements": [
+    {
+      "name": "wide cap placement",
+      "introduced_by_step": 1,
+      "description": "The broad oval placement for the mushroom cap."
+    },
+    {
+      "name": "centered stem placement",
+      "introduced_by_step": 1,
+      "description": "The tall rounded stem block under the cap."
+    },
+    {
+      "name": "rounded cap silhouette",
+      "introduced_by_step": 2,
+      "description": "The dark dome contour of the mushroom cap."
+    },
+    {
+      "name": "lower cap curve",
+      "introduced_by_step": 2,
+      "description": "The shallow underside curve across the cap."
+    },
+    {
+      "name": "flared stem and base",
+      "introduced_by_step": 3,
+      "description": "The outward stem sides and low ground mound."
+    },
+    {
+      "name": "cap spots",
+      "introduced_by_step": 4,
+      "description": "The uneven oval spots on the cap."
+    },
+    {
+      "name": "underside folds",
+      "introduced_by_step": 4,
+      "description": "The short fold marks under the cap edge."
+    },
+    {
+      "name": "stem marks",
+      "introduced_by_step": 4,
+      "description": "The light curved marks across the stem."
+    }
+  ],
   "frames": [
     {
       "step": 1,
       "asset": "assets/cozy-mushroom-step-1.jpg",
       "step_name": "Set the cap and stem",
-      "visible_job": "Places the wide cap oval, tall rounded stem block, and center guides before any dark contour is chosen."
+      "visible_job": "Places the wide cap oval, tall rounded stem block, and center guides before any dark contour is chosen.",
+      "introduces": [
+        "wide cap placement",
+        "centered stem placement"
+      ]
     },
     {
       "step": 2,
       "asset": "assets/cozy-mushroom-step-2.jpg",
       "step_name": "Shape the cap",
-      "visible_job": "Turns the guide oval into the finished broad dome and shallow lower cap curve."
+      "visible_job": "Turns the guide oval into the finished broad dome and shallow lower cap curve.",
+      "introduces": [
+        "rounded cap silhouette",
+        "lower cap curve"
+      ]
     },
     {
       "step": 3,
       "asset": "assets/cozy-mushroom-step-3.jpg",
       "step_name": "Flare the stem",
-      "visible_job": "Adds the outward-curving stem sides, base mound, and cap overlap that support the final mushroom."
+      "visible_job": "Adds the outward-curving stem sides, base mound, and cap overlap that support the final mushroom.",
+      "introduces": [
+        "flared stem and base"
+      ]
     },
     {
       "step": 4,
       "asset": "assets/cozy-mushroom-step-4.jpg",
       "step_name": "Add spots and folds",
-      "visible_job": "Places the cap spots, short underside folds, and stem marks before the final color is applied."
+      "visible_job": "Places the cap spots, short underside folds, and stem marks before the final color is applied.",
+      "introduces": [
+        "cap spots",
+        "underside folds",
+        "stem marks"
+      ]
     }
   ],
   "final_step": {
     "step_name": "Shade the rosy cap",
     "asset": "assets/cozy-mushroom-finished-v2.jpg",
-    "visible_job": "Darkens the selected contour and adds loose pink cap shading while preserving the cap, stem, spots, and folds."
+    "visible_job": "Darkens the selected contour and adds loose pink cap shading while preserving the cap, stem, spots, and folds.",
+    "allowed_changes": [
+      "loose rosy shading",
+      "keeper contour darkening"
+    ]
   },
   "rejection_checks": [
     "The cap spots must not appear before the spots-and-folds step.",

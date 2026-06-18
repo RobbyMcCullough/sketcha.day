@@ -7,36 +7,99 @@
     "notes": "The v1 finished image remains in assets for history, but the public page and plan use the v2 master."
   },
   "process_strategy": "Keep the shell circle, low body, head, eyestalks, and leaf aligned across every frame, then finish with tan shell and green leaf shading.",
+  "final_elements": [
+    {
+      "name": "tilted shell circle",
+      "introduced_by_step": 1,
+      "description": "The large tilted circle holding the shell."
+    },
+    {
+      "name": "low body guide",
+      "introduced_by_step": 1,
+      "description": "The long low guide under the shell."
+    },
+    {
+      "name": "small head oval",
+      "introduced_by_step": 1,
+      "description": "The small head shape in front."
+    },
+    {
+      "name": "leaf guide",
+      "introduced_by_step": 1,
+      "description": "The pointed leaf placement beneath the snail."
+    },
+    {
+      "name": "shell spiral",
+      "introduced_by_step": 2,
+      "description": "The spiral rings inside the shell."
+    },
+    {
+      "name": "soft crawling body",
+      "introduced_by_step": 3,
+      "description": "The rounded head, back, and flat foot."
+    },
+    {
+      "name": "eyestalks and eyes",
+      "introduced_by_step": 4,
+      "description": "The two raised eyestalks with small eye ovals."
+    },
+    {
+      "name": "leaf veins",
+      "introduced_by_step": 4,
+      "description": "The interior vein marks on the leaf."
+    }
+  ],
   "frames": [
     {
       "step": 1,
       "asset": "assets/garden-snail-step-1.jpg",
       "step_name": "Place the big guide shapes",
-      "visible_job": "Places the tilted shell circle, low belly curve, and small head oval before adding the spiral."
+      "visible_job": "Places the tilted shell circle, low belly curve, and small head oval before adding the spiral.",
+      "introduces": [
+        "tilted shell circle",
+        "low body guide",
+        "small head oval",
+        "leaf guide"
+      ]
     },
     {
       "step": 2,
       "asset": "assets/garden-snail-step-2.jpg",
       "step_name": "Turn the circle into a shell",
-      "visible_job": "Darkens the shell edge and adds the central spiral rings inside the same tilted circle."
+      "visible_job": "Darkens the shell edge and adds the central spiral rings inside the same tilted circle.",
+      "introduces": [
+        "shell spiral"
+      ]
     },
     {
       "step": 3,
       "asset": "assets/garden-snail-step-3.jpg",
       "step_name": "Stretch the soft body",
-      "visible_job": "Builds the low body, rounded head, and flat crawling foot under the finished shell placement."
+      "visible_job": "Builds the low body, rounded head, and flat crawling foot under the finished shell placement.",
+      "introduces": [
+        "soft crawling body"
+      ]
     },
     {
       "step": 4,
       "asset": "assets/garden-snail-step-4.jpg",
       "step_name": "Add eyes and the leaf",
-      "visible_job": "Adds the two eyestalks, tiny eye ovals, and the pointed leaf under the same crawling foot."
+      "visible_job": "Adds the two eyestalks, tiny eye ovals, and the pointed leaf under the same crawling foot.",
+      "introduces": [
+        "eyestalks and eyes",
+        "leaf veins"
+      ]
     }
   ],
   "final_step": {
     "step_name": "Shade the shell and leaf",
     "asset": "assets/garden-snail-finished-v2.jpg",
-    "visible_job": "Adds tan shell strokes, soft body shading, green leaf color, and final keeper contours without moving the snail."
+    "visible_job": "Adds tan shell strokes, soft body shading, green leaf color, and final keeper contours without moving the snail.",
+    "allowed_changes": [
+      "tan shell shading",
+      "green leaf shading",
+      "keeper contour darkening"
+    ]
   },
   "rejection_checks": [
     "The shell spiral must stay inside the tilted circle established in step two.",
