@@ -37,19 +37,23 @@ When this guide is used by a scheduled Codex automation, the job should:
 3. Compare the candidate with existing lessons in `scripts/build-tutorials.mjs`
    and `library.html`; choose a different subject if it repeats a recent lesson's
    core shape, category, or drawing skill.
-4. Create or update generated raster art for the finished sketch and tutorial
+4. Write or update `lesson-plans/{slug}.json` before creating final page data.
+   The plan must name each process frame's visible job and the finished asset it
+   is building toward.
+5. Create or update generated raster art for the finished sketch and tutorial
    steps. Prefer one master reference and derived step frames over unrelated
    one-off images.
-5. Run the step-delta gate for the lesson slug and inspect the contact sheet so
-   repeated or barely changed frames are caught before page QA.
-6. Rate the final image using the 10-point gate below. Regenerate until the
+6. Run the process-plan and step-delta gates for the lesson slug, then inspect
+   the contact sheet so repeated or barely changed frames are caught before page
+   QA.
+7. Rate the final image using the 10-point gate below. Regenerate until the
    finished image is at least 8/10.
-7. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
+8. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
    number and the intended publish date.
-8. Run `node scripts/build-tutorials.mjs`.
-9. QA the homepage, `library.html`, and the new tutorial page at desktop and
+9. Run `node scripts/build-tutorials.mjs`.
+10. QA the homepage, `library.html`, and the new tutorial page at desktop and
    mobile widths.
-10. Commit the work with a concise message only when the page passes the
+11. Commit the work with a concise message only when the page passes the
    anti-slop review and validation checks.
 
 For pre-launch backfilling, backdated tutorial pages are acceptable. Keep that
@@ -154,8 +158,14 @@ Do not rationalize a 6/10 or 7/10 image because the page is otherwise useful.
 Every published lesson with step images must pass a visible-progress check:
 
 ```sh
+python3 scripts/check-process-plan.py {slug}
 python3 scripts/check-step-deltas.py {slug} --contact-sheet /tmp/{slug}-steps.jpg
 ```
+
+The process-plan check verifies that `lesson-plans/{slug}.json`, generated page
+step names, step image files, and the finished asset agree. It catches a common
+failure mode where the text says one thing, the image sequence does another, and
+the final drawing comes from a third source.
 
 Review the generated contact sheet at the same time. The script fails exact or
 near-duplicate frames by measuring adjacent image differences, but it is only a
@@ -211,6 +221,7 @@ Minimum validation commands:
 
 ```sh
 node scripts/build-tutorials.mjs
+python3 scripts/check-process-plan.py {slug}
 python3 scripts/check-step-deltas.py {slug} --contact-sheet /tmp/{slug}-steps.jpg
 ```
 

@@ -1,0 +1,59 @@
+{
+  "slug": "cozy-teacup",
+  "finished": "assets/cozy-teacup-finished-v2.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Built-in image generation output extracted from the session log and saved as a raster master.",
+    "notes": "The rejected v1 process study remains in drafts/cozy-teacup/ and should not be used as the public finished source."
+  },
+  "process_strategy": "Derive each process frame from the same saved v2 master. Reveal larger drawing decisions rather than isolated tiny marks: construction, cup/handle, saucer, tea/steam, heart/rim color, shading, then final keeper lines.",
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cozy-teacup-step-1.jpg",
+      "step_name": "Place the guide ovals",
+      "visible_job": "Places the saucer oval, cup rim oval, faint center line, and light slanted cup-side guides before any keeper lines."
+    },
+    {
+      "step": 2,
+      "asset": "assets/cozy-teacup-step-2.jpg",
+      "step_name": "Shape the cup and handle",
+      "visible_job": "Adds the cup rim keeper lines, cup bowl sides, small foot curve, and C-shaped handle as one readable construction move."
+    },
+    {
+      "step": 3,
+      "asset": "assets/cozy-teacup-step-3.jpg",
+      "step_name": "Build the saucer",
+      "visible_job": "Darkens the saucer ellipse and adds the smaller inner curve under the cup."
+    },
+    {
+      "step": 4,
+      "asset": "assets/cozy-teacup-step-4.jpg",
+      "step_name": "Add tea and steam",
+      "visible_job": "Adds the warm tea oval and three light steam wisps while keeping the decorative heart absent."
+    },
+    {
+      "step": 5,
+      "asset": "assets/cozy-teacup-step-5.jpg",
+      "step_name": "Draw the heart and rim stripe",
+      "visible_job": "Adds the red heart and warm rim stripe after the cup structure is already established."
+    },
+    {
+      "step": 6,
+      "asset": "assets/cozy-teacup-step-6.jpg",
+      "step_name": "Shade the cup and saucer",
+      "visible_job": "Adds pale cup shading, blue-gray saucer shading, and a soft cast shadow while leaving the final line pass unfinished."
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the keeper lines",
+    "asset": "assets/cozy-teacup-finished-v2.jpg",
+    "visible_job": "Strengthens the rim, handle, saucer, steam, heart, and final colored-pencil accents without changing the pose."
+  },
+  "rejection_checks": [
+    "No adjacent frame should look unchanged at card size.",
+    "The heart must not appear before the heart-and-rim-stripe step.",
+    "The final image must keep the same cup, handle, saucer, steam, tea oval, and red heart as the step frames.",
+    "Do not reintroduce the rough v1 draft as public art."
+  ]
+}

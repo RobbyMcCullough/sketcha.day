@@ -97,3 +97,7 @@
   changes into six stronger step frames plus the final. Added
   `scripts/check-step-deltas.py` and the `DAILY-PUBLISHING.md` step-delta gate
   so future lessons must pass a visible-change check and contact-sheet review.
+- Added `lesson-plans/cozy-teacup.json`, `lesson-plans/README.md`, and
+  `scripts/check-process-plan.py` so daily lessons have an explicit process
+  source before publish QA. The process-plan check verifies that written step
+  names, frame assets, visible jobs, and the final image stay in sync.

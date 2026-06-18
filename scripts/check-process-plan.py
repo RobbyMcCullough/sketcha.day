@@ -1,0 +1,266 @@
+#!/usr/bin/env python3
+"""Validate that a lesson process plan matches generated tutorial assets."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import sys
+from html.parser import HTMLParser
+from pathlib import Path
+from typing import Any
+
+
+ROOT = Path(__file__).resolve().parents[1]
+PLANS = ROOT / "lesson-plans"
+TUTORIALS = ROOT / "tutorials"
+ASSETS = ROOT / "assets"
+
+
+class StepParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.in_step = False
+        self.in_h3 = False
+        self.current_name: list[str] = []
+        self.steps: list[dict[str, str]] = []
+        self.images: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        values = dict(attrs)
+        classes = set((values.get("class") or "").split())
+        if tag == "li" and "step-card" in classes:
+            self.in_step = True
+            self.current_name = []
+            self.steps.append({"name": "", "image": ""})
+            return
+        if self.in_step:
+            if tag == "h3":
+                self.in_h3 = True
+            if tag == "img" and values.get("src"):
+                src = normalize_src(values["src"] or "")
+                self.steps[-1]["image"] = src
+                self.images.append(src)
+        elif tag == "img" and values.get("src"):
+            src = normalize_src(values["src"] or "")
+            self.images.append(src)
+
+    def handle_data(self, data: str) -> None:
+        if self.in_step and self.in_h3:
+            self.current_name.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if not self.in_step:
+            return
+        if tag == "h3":
+            self.in_h3 = False
+        if tag == "li":
+            self.steps[-1]["name"] = normalize_text("".join(self.current_name))
+            self.in_step = False
+
+
+def normalize_src(src: str) -> str:
+    return re.sub(r"^\.\./", "", src.strip())
+
+
+def normalize_text(value: str) -> str:
+    return re.sub(r"\s+", " ", value).strip()
+
+
+def tutorial_slugs() -> list[str]:
+    return sorted(path.stem for path in TUTORIALS.glob("*.html"))
+
+
+def load_plan(slug: str) -> dict[str, Any]:
+    path = PLANS / f"{slug}.json"
+    if not path.exists():
+        raise ValueError(f"{slug}: missing lesson plan {path.relative_to(ROOT)}")
+    with path.open(encoding="utf-8") as file:
+        try:
+            plan = json.load(file)
+        except json.JSONDecodeError as error:
+            raise ValueError(f"{slug}: invalid JSON in {path}: {error}") from error
+    if not isinstance(plan, dict):
+        raise ValueError(f"{slug}: plan root must be a JSON object")
+    return plan
+
+
+def parse_page(slug: str) -> StepParser:
+    page = TUTORIALS / f"{slug}.html"
+    if not page.exists():
+        raise ValueError(f"{slug}: missing generated tutorial page {page}")
+    parser = StepParser()
+    parser.feed(page.read_text(encoding="utf-8"))
+    return parser
+
+
+def require_text(plan: dict[str, Any], field: str, slug: str) -> str:
+    value = plan.get(field)
+    if not isinstance(value, str) or not value.strip():
+        raise ValueError(f"{slug}: `{field}` must be a non-empty string")
+    return value.strip()
+
+
+def require_asset(path_value: str, slug: str, label: str) -> str:
+    path = ROOT / path_value
+    if not path.exists():
+        raise ValueError(f"{slug}: missing {label} asset {path_value}")
+    if not path.is_file():
+        raise ValueError(f"{slug}: {label} asset is not a file: {path_value}")
+    return path_value
+
+
+def numeric_step(path: Path) -> int:
+    match = re.search(r"-step-(\d+)\.jpe?g$", path.name)
+    if not match:
+        raise ValueError(f"Cannot read step number from {path}")
+    return int(match.group(1))
+
+
+def validate_plan(slug: str, strict_missing: bool) -> bool:
+    try:
+        plan = load_plan(slug)
+    except ValueError as error:
+        if strict_missing:
+            print(f"FAIL {error}")
+            return False
+        print(f"SKIP {error}")
+        return True
+
+    failures: list[str] = []
+    page = parse_page(slug)
+    try:
+        if plan.get("slug") != slug:
+            failures.append(f"`slug` must be {slug!r}")
+
+        finished = require_text(plan, "finished", slug)
+        require_asset(finished, slug, "finished")
+        if finished not in page.images:
+            failures.append(
+                f"finished asset {finished} is not used by the generated page"
+            )
+
+        require_text(plan, "process_strategy", slug)
+        source = plan.get("source")
+        if not isinstance(source, dict) or not source.get("type"):
+            failures.append("`source.type` is required")
+
+        frames = plan.get("frames")
+        if not isinstance(frames, list) or not frames:
+            failures.append("`frames` must be a non-empty array")
+            frames = []
+
+        final_step = plan.get("final_step")
+        if not isinstance(final_step, dict):
+            failures.append("`final_step` must be an object")
+            final_step = {}
+
+        expected_step_count = len(frames) + 1
+        if len(page.steps) != expected_step_count:
+            failures.append(
+                f"generated page has {len(page.steps)} steps, "
+                f"plan expects {expected_step_count}"
+            )
+
+        planned_assets: list[str] = []
+
+        for index, frame in enumerate(frames, start=1):
+            if not isinstance(frame, dict):
+                failures.append(f"frame {index} must be an object")
+                continue
+            if frame.get("step") != index:
+                failures.append(f"frame {index} has incorrect `step` value")
+            asset = require_text(frame, "asset", slug)
+            require_asset(asset, slug, f"frame {index}")
+            planned_assets.append(asset)
+            expected_asset = f"assets/{slug}-step-{index}.jpg"
+            if asset != expected_asset:
+                failures.append(
+                    f"frame {index} asset should be {expected_asset}, got {asset}"
+                )
+            step_name = require_text(frame, "step_name", slug)
+            visible_job = require_text(frame, "visible_job", slug)
+            if len(visible_job.split()) < 8:
+                failures.append(f"frame {index} visible_job is too vague")
+            if index <= len(page.steps):
+                page_step = page.steps[index - 1]
+                if page_step["name"] != step_name:
+                    failures.append(
+                        f"frame {index} name mismatch: plan {step_name!r}, "
+                        f"page {page_step['name']!r}"
+                    )
+                if page_step["image"] != asset:
+                    failures.append(
+                        f"frame {index} image mismatch: plan {asset}, "
+                        f"page {page_step['image']}"
+                    )
+
+        actual_assets = [
+            f"assets/{path.name}"
+            for path in sorted(ASSETS.glob(f"{slug}-step-*.jpg"), key=numeric_step)
+        ]
+        if actual_assets != planned_assets:
+            failures.append(
+                "step asset files do not match planned frames: "
+                f"actual {actual_assets}, planned {planned_assets}"
+            )
+
+        final_name = require_text(final_step, "step_name", slug)
+        final_asset = require_text(final_step, "asset", slug)
+        require_asset(final_asset, slug, "final step")
+        if final_asset != finished:
+            failures.append("`final_step.asset` must match `finished`")
+        final_job = require_text(final_step, "visible_job", slug)
+        if len(final_job.split()) < 8:
+            failures.append("final_step visible_job is too vague")
+        if page.steps:
+            page_final = page.steps[-1]
+            if page_final["name"] != final_name:
+                failures.append(
+                    f"final step name mismatch: plan {final_name!r}, "
+                    f"page {page_final['name']!r}"
+                )
+            if page_final["image"] != final_asset:
+                failures.append(
+                    f"final step image mismatch: plan {final_asset}, "
+                    f"page {page_final['image']}"
+                )
+
+        rejection_checks = plan.get("rejection_checks")
+        if not isinstance(rejection_checks, list) or len(rejection_checks) < 3:
+            failures.append("`rejection_checks` must contain at least 3 items")
+        elif any(
+            not isinstance(item, str) or not item.strip()
+            for item in rejection_checks
+        ):
+            failures.append("all rejection_checks must be non-empty strings")
+    except ValueError as error:
+        failures.append(str(error))
+
+    if failures:
+        print(f"FAIL {slug}: process plan does not match tutorial")
+        for failure in failures:
+            print(f"  - {failure}")
+        return False
+
+    print(f"OK {slug}: process plan matches generated tutorial and assets")
+    return True
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(
+        description="Validate lesson-plans/{slug}.json against generated tutorial assets."
+    )
+    parser.add_argument("slugs", nargs="*", help="Tutorial slug(s) to check")
+    parser.add_argument("--strict-missing", action="store_true")
+    args = parser.parse_args()
+    slugs = args.slugs or tutorial_slugs()
+    ok = True
+    for slug in slugs:
+        ok = validate_plan(slug, args.strict_missing) and ok
+    return 0 if ok else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())
