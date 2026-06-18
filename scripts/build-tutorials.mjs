@@ -2,6 +2,57 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const lessons = [
   {
+    slug: "patchwork-kite",
+    day: "008",
+    date: "Thursday, June 18",
+    isoDate: "2026-06-18",
+    subject: "a patchwork kite in the wind",
+    headlineSubject: "a patchwork kite<br>in the wind",
+    shortSubject: "a patchwork kite",
+    lessonTitle: "Let's draw a patchwork kite",
+    description: "Learn how to draw a patchwork kite in the wind with a diamond body, fabric panels, a curving string, tail bows, clouds, and breeze lines.",
+    intro: "Build a bright kite from one diamond, divide it into fabric patches, then add a loose string, bow ties, clouds, and windy motion.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#d8a33f",
+    finished: "patchwork-kite-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a patchwork diamond kite with red, teal, blue, and yellow panels, a curving string, three tail bows, clouds, and wind swirls",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional red, teal, blue, and yellow pencils"],
+    steps: [
+      {
+        name: "Place the diamond and spars",
+        text: "Draw a tall diamond for the kite body, then add one vertical line from top point to bottom point and one gentle cross line from side point to side point.",
+        tip: "Keep the top half a little taller than the bottom half. That makes the kite feel like it is lifting upward."
+      },
+      {
+        name: "Divide the patchwork panels",
+        text: "Add a few short seam lines inside the diamond: one angled seam near the top, a smaller rectangle-like patch in the middle, and two lower triangle seams.",
+        tip: "Let the seams follow the kite's tilt. Straight ruler-perfect lines will make the handmade fabric feel stiff."
+      },
+      {
+        name: "Add the string and bows",
+        text: "Pull a loose S-curve string from the bottom point, then place three bow ties along the string with tiny knots and triangle wings.",
+        tip: "Draw the string first, then center each bow on it. The bows should get smaller as they travel down the tail."
+      },
+      {
+        name: "Sketch the breeze",
+        text: "Add two light wind swirls around the kite and a couple of small puffy clouds, keeping them softer than the kite outline.",
+        tip: "Use very light pressure for the wind. These marks show motion, but they should not compete with the kite."
+      },
+      {
+        name: "Color the kite and tail",
+        text: "Shade each fabric panel with loose colored-pencil strokes, then add red, blue, and yellow to the bow ties on the string.",
+        tip: "Change stroke direction from panel to panel, and keep the bow color lighter than the kite body so the tail decorates the drawing."
+      },
+      {
+        name: "Finish the keeper lines",
+        text: "Choose the strongest kite edges, seam lines, bow knots, wind swirls, and cloud curves, then add a final pass of pencil texture.",
+        tip: "The last pass should clarify what is already there. Avoid adding new panels or changing the tail curve.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "cozy-teacup",
     day: "007",
     date: "Wednesday, June 17",

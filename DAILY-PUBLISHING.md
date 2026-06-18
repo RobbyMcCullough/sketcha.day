@@ -121,10 +121,15 @@ Do not rationalize a 6/10 or 7/10 image because the page is otherwise useful.
   prompting each step, which causes pose and proportion drift.
 - If image generation or image editing is unavailable during an automation run,
   stop and report that blocker instead of substituting synthetic vector art.
-- If the image tool produces only an inline preview and no image file can be
-  moved or copied into `assets/`, treat image generation as unavailable. Do not
-  recreate the preview manually with PIL, canvas, SVG, or other programmatic
-  drawing just to finish the run.
+- If the image tool produces only an inline preview and no file appears under
+  `~/.codex/generated_images`, first try to extract the same built-in image
+  output from the Codex session transcript:
+  `python3 scripts/extract-codex-imagegen.py --list`, then
+  `python3 scripts/extract-codex-imagegen.py --prompt-contains "{subject phrase}" --out assets/{slug}-finished-v{n}.png`.
+  This is still the generated raster output from the built-in tool. If session
+  extraction fails too, treat image generation as unavailable. Do not recreate
+  the preview manually with PIL, canvas, SVG, or other programmatic drawing just
+  to finish the run.
 - The file committed under `assets/` must be the reviewed master artwork or a
   faithful edited derivative. Score the actual saved asset, not a nicer preview
   that is not in the repository.

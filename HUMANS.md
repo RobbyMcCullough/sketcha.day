@@ -114,3 +114,10 @@
   `final_step.allowed_changes`. This makes `scripts/check-process-plan.py`
   fail when a final drawing adds major structure that was not introduced before
   the final frame.
+- Added `scripts/extract-codex-imagegen.py` after confirming built-in Codex
+  image generation stores saveable raster output in the session transcript as
+  an `image_generation_end` payload when no file appears under
+  `~/.codex/generated_images`.
+- Added the June 18, 2026 / Day 008 "how to draw a patchwork kite in the wind"
+  lesson using a saved built-in image generation raster master and derived
+  step frames from that same drawing. Finished image rating: 8.4/10.

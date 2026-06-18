@@ -1,0 +1,118 @@
+{
+  "slug": "patchwork-kite",
+  "finished": "assets/patchwork-kite-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Built-in image generation output extracted from the Codex session transcript and saved as the raster master.",
+    "notes": "Step frames are raster derivatives of the same master image, using masked reveals of the master drawing rather than separately prompted artwork."
+  },
+  "process_strategy": "Reveal the same kite drawing in larger drawing decisions: diamond and spars, patchwork divisions, string and bow outlines, wind details, color, then final keeper-line strength.",
+  "final_elements": [
+    {
+      "name": "diamond kite body",
+      "introduced_by_step": 1,
+      "description": "The tall diamond outline that makes the kite silhouette."
+    },
+    {
+      "name": "center and cross spars",
+      "introduced_by_step": 1,
+      "description": "The vertical and horizontal support lines inside the kite."
+    },
+    {
+      "name": "patchwork panel seams",
+      "introduced_by_step": 2,
+      "description": "The extra diagonal, vertical, and horizontal seams dividing the kite into fabric patches."
+    },
+    {
+      "name": "curving kite string",
+      "introduced_by_step": 3,
+      "description": "The loose S-curve string hanging from the bottom point."
+    },
+    {
+      "name": "three bow ties",
+      "introduced_by_step": 3,
+      "description": "The three small bow shapes attached along the lower string."
+    },
+    {
+      "name": "wind swirls and clouds",
+      "introduced_by_step": 4,
+      "description": "The light breeze lines and small clouds surrounding the kite."
+    },
+    {
+      "name": "colored kite patches",
+      "introduced_by_step": 5,
+      "description": "The red, teal, blue, yellow, striped, and dotted colored-pencil fabric panels."
+    },
+    {
+      "name": "colored tail bows",
+      "introduced_by_step": 5,
+      "description": "The red, blue, and yellow colored-pencil bow ties on the tail."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/patchwork-kite-step-1.jpg",
+      "step_name": "Place the diamond and spars",
+      "visible_job": "Reveals the kite's diamond outline plus the vertical and horizontal support lines before adding small panels.",
+      "introduces": [
+        "diamond kite body",
+        "center and cross spars"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/patchwork-kite-step-2.jpg",
+      "step_name": "Divide the patchwork panels",
+      "visible_job": "Adds the extra seam lines that turn the simple diamond into patchwork fabric sections.",
+      "introduces": [
+        "patchwork panel seams"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/patchwork-kite-step-3.jpg",
+      "step_name": "Add the string and bows",
+      "visible_job": "Adds the curving string below the kite and three small bow outlines along it.",
+      "introduces": [
+        "curving kite string",
+        "three bow ties"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/patchwork-kite-step-4.jpg",
+      "step_name": "Sketch the breeze",
+      "visible_job": "Adds light wind swirls and small clouds around the kite without moving the kite body.",
+      "introduces": [
+        "wind swirls and clouds"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/patchwork-kite-step-5.jpg",
+      "step_name": "Color the kite and tail",
+      "visible_job": "Adds the red, teal, blue, yellow, striped, and dotted kite patches plus the colored tail bows.",
+      "introduces": [
+        "colored kite patches",
+        "colored tail bows"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the keeper lines",
+    "asset": "assets/patchwork-kite-finished-v1.jpg",
+    "visible_job": "Strengthens the kite outline, seams, bow knots, wind lines, clouds, and colored-pencil texture without changing the drawing.",
+    "allowed_changes": [
+      "keeper-line darkening",
+      "final colored-pencil texture",
+      "paper texture from the saved master"
+    ]
+  },
+  "rejection_checks": [
+    "No panel, string, bow, wind swirl, cloud, or core color choice should first appear in the final image.",
+    "The kite must keep the same centered diamond pose and curving tail in every frame.",
+    "The bow colors must not appear before the color step.",
+    "Do not use separately prompted step images that drift from this master drawing."
+  ]
+}
