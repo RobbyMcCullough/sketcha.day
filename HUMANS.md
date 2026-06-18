@@ -92,4 +92,8 @@
 - Restored the June 17, 2026 / Day 007 cozy teacup lesson using a saved v2
   generated raster master with a red heart, warm tea, steam, and clean pencil
   texture. The new public assets are `assets/cozy-teacup-finished-v2.jpg` and
-  `assets/cozy-teacup-step-1.jpg` through `assets/cozy-teacup-step-7.jpg`.
+  `assets/cozy-teacup-step-1.jpg` through `assets/cozy-teacup-step-6.jpg`.
+- Tightened the cozy teacup process after review by collapsing tiny adjacent
+  changes into six stronger step frames plus the final. Added
+  `scripts/check-step-deltas.py` and the `DAILY-PUBLISHING.md` step-delta gate
+  so future lessons must pass a visible-change check and contact-sheet review.

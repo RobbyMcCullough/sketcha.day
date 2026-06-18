@@ -40,14 +40,16 @@ When this guide is used by a scheduled Codex automation, the job should:
 4. Create or update generated raster art for the finished sketch and tutorial
    steps. Prefer one master reference and derived step frames over unrelated
    one-off images.
-5. Rate the final image using the 10-point gate below. Regenerate until the
+5. Run the step-delta gate for the lesson slug and inspect the contact sheet so
+   repeated or barely changed frames are caught before page QA.
+6. Rate the final image using the 10-point gate below. Regenerate until the
    finished image is at least 8/10.
-6. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
+7. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
    number and the intended publish date.
-7. Run `node scripts/build-tutorials.mjs`.
-8. QA the homepage, `library.html`, and the new tutorial page at desktop and
+8. Run `node scripts/build-tutorials.mjs`.
+9. QA the homepage, `library.html`, and the new tutorial page at desktop and
    mobile widths.
-9. Commit the work with a concise message only when the page passes the
+10. Commit the work with a concise message only when the page passes the
    anti-slop review and validation checks.
 
 For pre-launch backfilling, backdated tutorial pages are acceptable. Keep that
@@ -133,14 +135,33 @@ Do not rationalize a 6/10 or 7/10 image because the page is otherwise useful.
 
 ## Tutorial Standards
 
-- Use 5-8 cumulative steps.
+- Use the number of cumulative steps the subject needs. Five to eight is a
+  normal range, but fewer stronger frames are better than over-splitting a
+  simple drawing into nearly identical images.
 - Keep the subject in the same position and scale in every frame.
 - Each step must make one visible, describable change.
+- Do not publish adjacent frames where the only difference is a faint line,
+  tiny handle, or low-contrast texture that a visitor will miss at card size.
+  Combine small actions into one clearer step when needed.
 - Write specific spatial instructions: where a line starts, where it ends, and
   what existing shape guides it.
 - Include practical checks for proportion, alignment, pressure, or stopping.
 - Do not hide a major difficulty inside phrases such as "add details" or
   "refine the drawing."
+
+## Step-Delta Gate
+
+Every published lesson with step images must pass a visible-progress check:
+
+```sh
+python3 scripts/check-step-deltas.py {slug} --contact-sheet /tmp/{slug}-steps.jpg
+```
+
+Review the generated contact sheet at the same time. The script fails exact or
+near-duplicate frames by measuring adjacent image differences, but it is only a
+guardrail. A passing number does not override visual judgment: reject any frame
+that reads unchanged, jumps too far ahead, or shows a detail before the written
+step introduces it.
 
 ## Anti-Slop Review
 
@@ -150,6 +171,7 @@ Before publishing, check:
   category, and drawing problem?
 - Does the page contain real instruction rather than encouragement alone?
 - Does the finish visibly match the steps?
+- Does each adjacent step frame visibly change at thumbnail size?
 - Does the actual saved finish match the approved/reference preview in quality,
   line confidence, color, and completeness?
 - Is the copy specific to this subject and pose?
@@ -189,6 +211,7 @@ Minimum validation commands:
 
 ```sh
 node scripts/build-tutorials.mjs
+python3 scripts/check-step-deltas.py {slug} --contact-sheet /tmp/{slug}-steps.jpg
 ```
 
 Then inspect the Cove-served local site:

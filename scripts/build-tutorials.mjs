@@ -25,14 +25,9 @@ const lessons = [
         tip: "Keep every guide pale. These first lines are only there to keep the cup level."
       },
       {
-        name: "Shape the cup bowl",
-        text: "Darken the front and back curves of the rim, then pull the cup sides down toward a small curved base.",
-        tip: "Check that the left and right sides lean inward by about the same amount before you press harder."
-      },
-      {
-        name: "Attach the handle",
-        text: "Add a large C-shaped handle on the right side. Echo the curve inside it, then connect both ends to the cup wall.",
-        tip: "The handle should touch near the rim and near the lower cup, not float beside the cup."
+        name: "Shape the cup and handle",
+        text: "Darken the front and back curves of the rim, pull the cup sides down toward a small base, then add a C-shaped handle on the right.",
+        tip: "Check both cup sides before you press harder. The handle should touch near the rim and near the lower cup."
       },
       {
         name: "Build the saucer",
