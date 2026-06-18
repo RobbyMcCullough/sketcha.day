@@ -1,0 +1,47 @@
+{
+  "slug": "sleepy-cat",
+  "finished": "assets/sleepy-cat-finished-v2.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Backdated launch lesson raster sketch rebuilt from the curled-cat master pose.",
+    "notes": "The step frames preserve the same curled body, low head, wrapped tail, closed eyes, and blue pencil accent."
+  },
+  "process_strategy": "Hold the curled body and head placement steady, then add ears, face, outer body contour, wrapped tail, and final blue shading in order.",
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/sleepy-cat-step-1.jpg",
+      "step_name": "Place two soft shapes",
+      "visible_job": "Places the wide curled-body oval and smaller low head circle that define the sleepy pose."
+    },
+    {
+      "step": 2,
+      "asset": "assets/sleepy-cat-step-2.jpg",
+      "step_name": "Add the ears and face",
+      "visible_job": "Adds the two ears, closed eyes, small nose, and relaxed mouth while keeping the guide shapes readable."
+    },
+    {
+      "step": 3,
+      "asset": "assets/sleepy-cat-step-3.jpg",
+      "step_name": "Find the curled outline",
+      "visible_job": "Connects the head, cheeks, back, belly, and tucked paw bump into one curled cat outline."
+    },
+    {
+      "step": 4,
+      "asset": "assets/sleepy-cat-step-4.jpg",
+      "step_name": "Wrap the tail around",
+      "visible_job": "Loops the tail around the front of the curled body and crosses it near the tucked paws."
+    }
+  ],
+  "final_step": {
+    "step_name": "Darken and add blue",
+    "asset": "assets/sleepy-cat-finished-v2.jpg",
+    "visible_job": "Chooses keeper contours and adds sparse blue pencil strokes along the curled body and wrapped tail."
+  },
+  "rejection_checks": [
+    "The cat must remain curled rather than turning into a sitting or standing pose.",
+    "The tail must not appear before the wrap-the-tail step.",
+    "The closed eyes and low head must match the final sleepy expression.",
+    "The final blue color should stay sparse and should not hide the graphite structure."
+  ]
+}

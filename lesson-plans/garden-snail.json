@@ -1,0 +1,47 @@
+{
+  "slug": "garden-snail",
+  "finished": "assets/garden-snail-finished-v2.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Generated raster lesson rebuilt after review so the snail, shell, and leaf read clearly.",
+    "notes": "The v1 finished image remains in assets for history, but the public page and plan use the v2 master."
+  },
+  "process_strategy": "Keep the shell circle, low body, head, eyestalks, and leaf aligned across every frame, then finish with tan shell and green leaf shading.",
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/garden-snail-step-1.jpg",
+      "step_name": "Place the big guide shapes",
+      "visible_job": "Places the tilted shell circle, low belly curve, and small head oval before adding the spiral."
+    },
+    {
+      "step": 2,
+      "asset": "assets/garden-snail-step-2.jpg",
+      "step_name": "Turn the circle into a shell",
+      "visible_job": "Darkens the shell edge and adds the central spiral rings inside the same tilted circle."
+    },
+    {
+      "step": 3,
+      "asset": "assets/garden-snail-step-3.jpg",
+      "step_name": "Stretch the soft body",
+      "visible_job": "Builds the low body, rounded head, and flat crawling foot under the finished shell placement."
+    },
+    {
+      "step": 4,
+      "asset": "assets/garden-snail-step-4.jpg",
+      "step_name": "Add eyes and the leaf",
+      "visible_job": "Adds the two eyestalks, tiny eye ovals, and the pointed leaf under the same crawling foot."
+    }
+  ],
+  "final_step": {
+    "step_name": "Shade the shell and leaf",
+    "asset": "assets/garden-snail-finished-v2.jpg",
+    "visible_job": "Adds tan shell strokes, soft body shading, green leaf color, and final keeper contours without moving the snail."
+  },
+  "rejection_checks": [
+    "The shell spiral must stay inside the tilted circle established in step two.",
+    "The leaf must sit under the same foot line introduced before the final step.",
+    "The eyestalks must remain visible and curious in the finished image.",
+    "Do not use the archived v1 final as the public finished asset."
+  ]
+}

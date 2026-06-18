@@ -167,6 +167,10 @@ step names, step image files, and the finished asset agree. It catches a common
 failure mode where the text says one thing, the image sequence does another, and
 the final drawing comes from a third source.
 
+Missing plans or missing step frames are failures unless the tutorial is a
+documented legacy exception in `lesson-plans/exceptions.json`. Do not add new
+daily lessons to that exception file; rebuild the lesson instead.
+
 Review the generated contact sheet at the same time. The script fails exact or
 near-duplicate frames by measuring adjacent image differences, but it is only a
 guardrail. A passing number does not override visual judgment: reject any frame

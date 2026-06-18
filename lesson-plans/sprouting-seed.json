@@ -1,0 +1,47 @@
+{
+  "slug": "sprouting-seed",
+  "finished": "assets/sprouting-seed-finished-v2.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Backdated launch lesson raster sketch rebuilt around a small sprout with four leaves.",
+    "notes": "The final should not be reused as the basis for a flower-bud lesson because the drawing problem is too similar."
+  },
+  "process_strategy": "Keep one leaning stem path fixed, then add the top bud, left leaf, right leaf, roots, and green pencil in the same small sprout silhouette.",
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/sprouting-seed-step-1.jpg",
+      "step_name": "Draw the stem's path",
+      "visible_job": "Places the light leaning stem curve and shallow soil arc before any leaves are added."
+    },
+    {
+      "step": 2,
+      "asset": "assets/sprouting-seed-step-2.jpg",
+      "step_name": "Open the top bud",
+      "visible_job": "Adds the pointed top bud centered over the stem while keeping the soil and stem guides visible."
+    },
+    {
+      "step": 3,
+      "asset": "assets/sprouting-seed-step-3.jpg",
+      "step_name": "Grow the left leaf",
+      "visible_job": "Branches a broad pointed leaf to the left and connects its center vein back to the stem."
+    },
+    {
+      "step": 4,
+      "asset": "assets/sprouting-seed-step-4.jpg",
+      "step_name": "Balance it with a right leaf",
+      "visible_job": "Adds the right-side leaf slightly higher so the sprout has the same balanced four-leaf silhouette as the finish."
+    }
+  ],
+  "final_step": {
+    "step_name": "Add roots and green",
+    "asset": "assets/sprouting-seed-finished-v2.jpg",
+    "visible_job": "Adds tiny roots below the soil line and loose green pencil strokes along each leaf direction."
+  },
+  "rejection_checks": [
+    "The stem lean must stay consistent from the first frame through the finish.",
+    "The right leaf must not appear before its written step.",
+    "The final roots and green color must remain small finishing details.",
+    "Do not treat a flower bud or similar seedling as a meaningfully new daily subject."
+  ]
+}

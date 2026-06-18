@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-17
+- Date: 2026-06-18
 - Agent harness: Codex
 - Harness project/session name: Sketcha.day homepage prototype
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
@@ -105,3 +105,7 @@
   for daily lessons. It rebuilds pages, checks the process plan, writes the
   step-delta contact sheet, validates generated HTML/lab privacy, probes local
   Cove links/assets, and runs `git diff --check`.
+- Backfilled `lesson-plans/` coverage for the raster archive lessons and made
+  missing plans/step frames fail validation unless listed in
+  `lesson-plans/exceptions.json`. `curious-fox` is currently the only documented
+  legacy exception because it preserves the original homepage prototype.

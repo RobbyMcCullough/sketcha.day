@@ -36,3 +36,8 @@ The readiness command runs the process-plan check, writes the step-delta contact
 sheet, verifies generated HTML, probes local links/assets, and runs the
 whitespace diff check. The plan proves the sequence is intentional; the
 step-delta check proves adjacent frames are not near-duplicates.
+
+Every public tutorial should either have a matching `lesson-plans/{slug}.json`
+or be listed in `lesson-plans/exceptions.json` with a concrete reason. New daily
+lessons should not use exceptions; an exception is only for preserving a legacy
+prototype page until it can be rebuilt with raster process frames.

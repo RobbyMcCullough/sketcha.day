@@ -1,0 +1,47 @@
+{
+  "slug": "rainy-day-frog",
+  "finished": "assets/rainy-day-frog-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Backdated launch lesson raster sketch created as the benchmark daily tutorial.",
+    "notes": "The process frames use the same frog pose, umbrella arc, boots, and color placement as the finished image."
+  },
+  "process_strategy": "Build the frog from large guide shapes, then add the face, umbrella, arms, handle, boots, and final rainy-day color without changing the pose.",
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/rainy-day-frog-step-1.jpg",
+      "step_name": "Block in the big shapes",
+      "visible_job": "Places the frog head, eye circles, oval body, boot blocks, and umbrella arc before adding expression or detail."
+    },
+    {
+      "step": 2,
+      "asset": "assets/rainy-day-frog-step-2.jpg",
+      "step_name": "Draw the face and umbrella",
+      "visible_job": "Turns the head and eyes into a readable frog face while adding the umbrella ribs above the same body guides."
+    },
+    {
+      "step": 3,
+      "asset": "assets/rainy-day-frog-step-3.jpg",
+      "step_name": "Add arms and the handle",
+      "visible_job": "Adds the frog body contour, arms, hands, and tilted umbrella handle through the pose."
+    },
+    {
+      "step": 4,
+      "asset": "assets/rainy-day-frog-step-4.jpg",
+      "step_name": "Finish the boots",
+      "visible_job": "Converts the blocky feet into oversized rain boots with openings, toes, and sole lines."
+    }
+  ],
+  "final_step": {
+    "step_name": "Color the rainy details",
+    "asset": "assets/rainy-day-frog-finished-v1.jpg",
+    "visible_job": "Adds the final green frog, yellow boots, blue umbrella, rain details, and keeper contours without changing the silhouette."
+  },
+  "rejection_checks": [
+    "The umbrella must stay wider than the frog in every frame.",
+    "The boot shapes must be introduced before the final color step.",
+    "The face, handle, and hands must line up with the finished pose.",
+    "The final color should remain loose colored pencil, not a polished fill."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "cozy-mushroom",
+  "finished": "assets/cozy-mushroom-finished-v2.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Backdated launch lesson raster sketch rebuilt from a generated mushroom master.",
+    "notes": "The step frames keep the same cap, stem, spots, folds, and rosy shading path as the finished image."
+  },
+  "process_strategy": "Use the oval cap and rounded stem as fixed construction, then progressively define the dome, flare the stem, place spots and folds, and finish with restrained rosy shading.",
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cozy-mushroom-step-1.jpg",
+      "step_name": "Set the cap and stem",
+      "visible_job": "Places the wide cap oval, tall rounded stem block, and center guides before any dark contour is chosen."
+    },
+    {
+      "step": 2,
+      "asset": "assets/cozy-mushroom-step-2.jpg",
+      "step_name": "Shape the cap",
+      "visible_job": "Turns the guide oval into the finished broad dome and shallow lower cap curve."
+    },
+    {
+      "step": 3,
+      "asset": "assets/cozy-mushroom-step-3.jpg",
+      "step_name": "Flare the stem",
+      "visible_job": "Adds the outward-curving stem sides, base mound, and cap overlap that support the final mushroom."
+    },
+    {
+      "step": 4,
+      "asset": "assets/cozy-mushroom-step-4.jpg",
+      "step_name": "Add spots and folds",
+      "visible_job": "Places the cap spots, short underside folds, and stem marks before the final color is applied."
+    }
+  ],
+  "final_step": {
+    "step_name": "Shade the rosy cap",
+    "asset": "assets/cozy-mushroom-finished-v2.jpg",
+    "visible_job": "Darkens the selected contour and adds loose pink cap shading while preserving the cap, stem, spots, and folds."
+  },
+  "rejection_checks": [
+    "The cap spots must not appear before the spots-and-folds step.",
+    "The stem must keep the same flare and base mound in the final.",
+    "The final cap color should stay patchy enough to feel hand-sketched.",
+    "Do not replace the rounded cap silhouette with a flatter toadstool shape."
+  ]
+}

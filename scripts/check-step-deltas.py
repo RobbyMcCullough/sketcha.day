@@ -9,6 +9,7 @@ committed.
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sys
 from dataclasses import dataclass
@@ -27,6 +28,7 @@ except ModuleNotFoundError as error:  # pragma: no cover - environment message
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 TUTORIALS = ROOT / "tutorials"
+EXCEPTIONS = ROOT / "lesson-plans" / "exceptions.json"
 
 
 @dataclass
@@ -54,6 +56,21 @@ class ImageParser(HTMLParser):
 
 def tutorial_slugs() -> list[str]:
     return sorted(path.stem for path in TUTORIALS.glob("*.html"))
+
+
+def legacy_exception(slug: str) -> str | None:
+    if not EXCEPTIONS.exists():
+        return None
+    with EXCEPTIONS.open(encoding="utf-8") as file:
+        try:
+            data = json.load(file)
+        except json.JSONDecodeError as error:
+            raise ValueError(f"invalid JSON in {EXCEPTIONS.relative_to(ROOT)}: {error}") from error
+    for item in data.get("legacy_without_steps", []):
+        if isinstance(item, dict) and item.get("slug") == slug:
+            reason = item.get("reason")
+            return reason.strip() if isinstance(reason, str) and reason.strip() else "legacy exception"
+    return None
 
 
 def numeric_step(path: Path) -> int:
@@ -131,11 +148,12 @@ def check_slug(slug: str, args: argparse.Namespace) -> bool:
     steps, final = lesson_images(slug)
     if not steps:
         message = f"{slug}: no step images found"
-        if args.strict_missing:
-            print(f"FAIL {message}")
-            return False
-        print(f"SKIP {message}")
-        return True
+        reason = legacy_exception(slug)
+        if reason:
+            print(f"SKIP {message} - documented legacy exception: {reason}")
+            return True
+        print(f"FAIL {message}")
+        return False
     if final is None or not final.exists():
         print(f"FAIL {slug}: referenced finished image is missing")
         return False

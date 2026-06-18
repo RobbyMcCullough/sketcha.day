@@ -1,0 +1,9 @@
+{
+  "legacy_without_steps": [
+    {
+      "slug": "curious-fox",
+      "reason": "Initial homepage prototype preserved as an archive page; it has inline construction diagrams and one raster finish, not slug-matched raster step frames.",
+      "next_action": "Replace with a full raster process plan before treating this page as a daily lesson benchmark."
+    }
+  ]
+}

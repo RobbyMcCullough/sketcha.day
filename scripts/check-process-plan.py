@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PLANS = ROOT / "lesson-plans"
 TUTORIALS = ROOT / "tutorials"
 ASSETS = ROOT / "assets"
+EXCEPTIONS = PLANS / "exceptions.json"
 
 
 class StepParser(HTMLParser):
@@ -72,6 +73,21 @@ def tutorial_slugs() -> list[str]:
     return sorted(path.stem for path in TUTORIALS.glob("*.html"))
 
 
+def legacy_exception(slug: str) -> str | None:
+    if not EXCEPTIONS.exists():
+        return None
+    with EXCEPTIONS.open(encoding="utf-8") as file:
+        try:
+            data = json.load(file)
+        except json.JSONDecodeError as error:
+            raise ValueError(f"invalid JSON in {EXCEPTIONS.relative_to(ROOT)}: {error}") from error
+    for item in data.get("legacy_without_steps", []):
+        if isinstance(item, dict) and item.get("slug") == slug:
+            reason = item.get("reason")
+            return reason.strip() if isinstance(reason, str) and reason.strip() else "legacy exception"
+    return None
+
+
 def load_plan(slug: str) -> dict[str, Any]:
     path = PLANS / f"{slug}.json"
     if not path.exists():
@@ -122,11 +138,12 @@ def validate_plan(slug: str, strict_missing: bool) -> bool:
     try:
         plan = load_plan(slug)
     except ValueError as error:
-        if strict_missing:
-            print(f"FAIL {error}")
-            return False
-        print(f"SKIP {error}")
-        return True
+        reason = legacy_exception(slug)
+        if reason:
+            print(f"SKIP {slug}: documented legacy exception - {reason}")
+            return True
+        print(f"FAIL {error}")
+        return False
 
     failures: list[str] = []
     page = parse_page(slug)
