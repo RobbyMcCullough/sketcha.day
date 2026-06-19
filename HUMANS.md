@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-18
+- Date: 2026-06-19
 - Agent harness: Codex
 - Harness project/session name: Sketcha.day homepage prototype
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
@@ -121,3 +121,9 @@
 - Added the June 18, 2026 / Day 008 "how to draw a patchwork kite in the wind"
   lesson using a saved built-in image generation raster master and derived
   step frames from that same drawing. Finished image rating: 8.4/10.
+- Added the June 19, 2026 / Day 009 "how to draw a camping lantern" lesson with
+  a saved generated raster master and five derived raster step frames. Finished
+  image rating: 8.6/10.
+- Day 009 QA used `python3 scripts/check-tutorial-readiness.py
+  camping-lantern`, a contact-sheet review at `/tmp/camping-lantern-steps.jpg`,
+  and desktop/mobile screenshots saved as `/tmp/sketcha-day009-*.png`.

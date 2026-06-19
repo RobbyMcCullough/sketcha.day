@@ -2,6 +2,57 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const lessons = [
   {
+    slug: "camping-lantern",
+    day: "009",
+    date: "Friday, June 19",
+    isoDate: "2026-06-19",
+    subject: "a camping lantern",
+    headlineSubject: "a camping<br>lantern",
+    shortSubject: "a camping lantern",
+    lessonTitle: "Let's draw a camping lantern",
+    description: "Learn how to draw a camping lantern with a rounded base, glass globe, crossed wire guard, vent cap, side supports, handle, and warm glow.",
+    intro: "Build the lantern from a sturdy base, a rounded glass globe, and a simple frame, then add a cozy colored-pencil glow.",
+    time: 30,
+    difficulty: "Easy-medium",
+    accent: "#d7a94b",
+    finished: "camping-lantern-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of an old-fashioned teal camping lantern with a glass globe, crossed wire guard, arched handle, and warm yellow glow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional teal, gray, and yellow pencils"],
+    steps: [
+      {
+        name: "Block in the base",
+        text: "Draw a wide rounded cylinder near the bottom, then add a small shelf on top, one round control knob in front, and a smaller cap on the right.",
+        tip: "Keep the base wider than the glass will be. That heavy bottom is what makes the lantern feel stable."
+      },
+      {
+        name: "Add the globe and wire guard",
+        text: "Place a tall rounded globe above the base, set a small candle cup inside it, then cross two gentle diagonal guard wires in front.",
+        tip: "Let the glass sides bow outward slightly. The crossed wires should meet below the center, not exactly in the middle."
+      },
+      {
+        name: "Build the vent cap",
+        text: "Stack a shallow band and a domed cap above the globe, then add a row of small vent holes and a tiny knob on top.",
+        tip: "Use the globe as your width guide. The cap can overhang a little, but it should not become wider than the base."
+      },
+      {
+        name: "Raise the side supports",
+        text: "Draw dark side rails from the base up toward the cap, adding small ring joints where the rails connect.",
+        tip: "Sketch both rails lightly before darkening either one. They should lean outward in a matching pair."
+      },
+      {
+        name: "Curve the handle and add color",
+        text: "Loop a tall carrying handle over the lantern, add tiny spark marks, then shade the metal with teal and the glass with pale yellow.",
+        tip: "Color with light pressure. The glow should feel warm, but the pencil lines still need to show through."
+      },
+      {
+        name: "Finish the keeper lines",
+        text: "Choose the strongest edges on the base, cap, rails, handle, and wire guard, then deepen only the shadows already in place.",
+        tip: "Do not add new parts in the final pass. Clarify the lantern you already built.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "patchwork-kite",
     day: "008",
     date: "Thursday, June 18",

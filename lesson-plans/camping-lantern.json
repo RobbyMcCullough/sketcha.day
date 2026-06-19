@@ -1,0 +1,131 @@
+{
+  "slug": "camping-lantern",
+  "finished": "assets/camping-lantern-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Built-in image generation output extracted from the Codex session transcript, converted to JPEG, and saved as the raster master.",
+    "notes": "Step frames are raster derivatives of the same saved master image, using masked reveals of the generated drawing rather than separately prompted artwork."
+  },
+  "process_strategy": "Reveal the same lantern drawing in large construction decisions: base, glass globe and wire guard, top cap, side supports, handle with small details and color, then final keeper-line strength.",
+  "final_elements": [
+    {
+      "name": "rounded lantern base",
+      "introduced_by_step": 1,
+      "description": "The wide teal cylinder and lower rim that anchor the lantern."
+    },
+    {
+      "name": "front knobs and lower burner plate",
+      "introduced_by_step": 1,
+      "description": "The center control knob, side cap, and small shelf above the base."
+    },
+    {
+      "name": "glass globe",
+      "introduced_by_step": 2,
+      "description": "The rounded transparent chamber sitting above the base."
+    },
+    {
+      "name": "crossed wire guard",
+      "introduced_by_step": 2,
+      "description": "The two diagonal wires crossing in front of the glass."
+    },
+    {
+      "name": "candle and warm glow",
+      "introduced_by_step": 2,
+      "description": "The small candle cup and pale yellow glow inside the globe."
+    },
+    {
+      "name": "vent cap and top lid",
+      "introduced_by_step": 3,
+      "description": "The domed teal top, vent band, holes, and small knob above the globe."
+    },
+    {
+      "name": "side supports",
+      "introduced_by_step": 4,
+      "description": "The two dark side rails and ring joints that hold the lantern frame."
+    },
+    {
+      "name": "arched carrying handle",
+      "introduced_by_step": 5,
+      "description": "The tall curved handle looping over the top of the lantern."
+    },
+    {
+      "name": "spark marks and small accents",
+      "introduced_by_step": 5,
+      "description": "The tiny star marks, vent holes, and lower oval accents that finish the cozy glow."
+    },
+    {
+      "name": "teal and yellow colored-pencil shading",
+      "introduced_by_step": 5,
+      "description": "The restrained teal metal shading and warm yellow light that complete the drawing."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/camping-lantern-step-1.jpg",
+      "step_name": "Block in the base",
+      "visible_job": "Reveals the lower base, front control knob, side cap, and burner plate before the tall frame is added.",
+      "introduces": [
+        "rounded lantern base",
+        "front knobs and lower burner plate"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/camping-lantern-step-2.jpg",
+      "step_name": "Add the globe and wire guard",
+      "visible_job": "Adds the rounded glass chamber, crossed front guard wires, and small candle cup above the base.",
+      "introduces": [
+        "glass globe",
+        "crossed wire guard",
+        "candle and warm glow"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/camping-lantern-step-3.jpg",
+      "step_name": "Build the vent cap",
+      "visible_job": "Adds the domed top cap, vent band, little holes, and top knob without changing the base or globe.",
+      "introduces": [
+        "vent cap and top lid"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/camping-lantern-step-4.jpg",
+      "step_name": "Raise the side supports",
+      "visible_job": "Adds the two side support rails and ring joints that connect the base to the top.",
+      "introduces": [
+        "side supports"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/camping-lantern-step-5.jpg",
+      "step_name": "Curve the handle and add color",
+      "visible_job": "Adds the arched handle, small spark marks, accent details, teal metal shading, and warm yellow glow already visible in the finished sketch.",
+      "introduces": [
+        "arched carrying handle",
+        "spark marks and small accents",
+        "teal and yellow colored-pencil shading"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the keeper lines",
+    "asset": "assets/camping-lantern-finished-v1.jpg",
+    "visible_job": "Only strengthens existing contours, glow texture, metal shading, and paper grain without adding new lantern parts.",
+    "allowed_changes": [
+      "keeper-line darkening",
+      "final graphite texture",
+      "restrained colored-pencil shading",
+      "paper texture from the saved master"
+    ]
+  },
+  "rejection_checks": [
+    "No base, globe, wire, support, handle, spark mark, or core color choice should first appear in the final image.",
+    "The lantern must keep the same upright centered pose and proportions in every frame.",
+    "The final image must not add mechanical complexity that is absent from the process frames.",
+    "Do not use separately prompted step images that drift from this master drawing."
+  ]
+}
