@@ -1,0 +1,125 @@
+{
+  "slug": "potted-cactus-flowers",
+  "finished": "assets/potted-cactus-flowers-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Built-in image generation output copied from the Codex generated_images folder, converted to JPEG, and saved as the raster master.",
+    "notes": "Step frames are raster derivatives of the same saved master image, using masked reveals and muted drawing passes rather than separately prompted artwork."
+  },
+  "process_strategy": "Reveal one construction group at a time: pot, gravel, central cactus, side arms, flowers and color, then final keeper-line strength.",
+  "final_elements": [
+    {
+      "name": "rounded clay pot",
+      "introduced_by_step": 1,
+      "description": "The terracotta pot with a rounded wall, lower curve, and thick rim."
+    },
+    {
+      "name": "gravel and soil oval",
+      "introduced_by_step": 2,
+      "description": "The dark pebbles and inner oval sitting inside the pot rim."
+    },
+    {
+      "name": "tall central cactus",
+      "introduced_by_step": 3,
+      "description": "The upright oval cactus body rising from the pot."
+    },
+    {
+      "name": "vertical rib lines",
+      "introduced_by_step": 3,
+      "description": "The curved green ribs that follow the central cactus form."
+    },
+    {
+      "name": "two side cactus arms",
+      "introduced_by_step": 4,
+      "description": "The shorter curved arms growing from the left and right sides."
+    },
+    {
+      "name": "pink cactus flowers",
+      "introduced_by_step": 5,
+      "description": "The open flower on top and two smaller side buds."
+    },
+    {
+      "name": "cactus spines",
+      "introduced_by_step": 5,
+      "description": "The small star-like spine marks placed along ribs and arm edges."
+    },
+    {
+      "name": "green and terracotta colored-pencil shading",
+      "introduced_by_step": 5,
+      "description": "The restrained green cactus color, pink flowers, and warm clay pot shading."
+    },
+    {
+      "name": "soft cast shadow",
+      "introduced_by_step": 5,
+      "description": "The pale graphite shadow beneath and behind the pot."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/potted-cactus-flowers-step-1.jpg",
+      "step_name": "Block in the clay pot",
+      "visible_job": "Reveals the pot wall and rim before any cactus body is added.",
+      "introduces": [
+        "rounded clay pot"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/potted-cactus-flowers-step-2.jpg",
+      "step_name": "Add the soil and gravel",
+      "visible_job": "Adds the inner soil oval and dark pebble shapes inside the pot rim.",
+      "introduces": [
+        "gravel and soil oval"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/potted-cactus-flowers-step-3.jpg",
+      "step_name": "Grow the main cactus",
+      "visible_job": "Adds the tall central cactus body with its curved vertical rib guides.",
+      "introduces": [
+        "tall central cactus",
+        "vertical rib lines"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/potted-cactus-flowers-step-4.jpg",
+      "step_name": "Attach the cactus arms",
+      "visible_job": "Adds the two smaller side arms while keeping the central body and pot unchanged.",
+      "introduces": [
+        "two side cactus arms"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/potted-cactus-flowers-step-5.jpg",
+      "step_name": "Place flowers, spines, and color",
+      "visible_job": "Adds the top flower, side flower buds, spine marks, restrained colored-pencil shading, and cast shadow.",
+      "introduces": [
+        "pink cactus flowers",
+        "cactus spines",
+        "green and terracotta colored-pencil shading",
+        "soft cast shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the keeper lines",
+    "asset": "assets/potted-cactus-flowers-finished-v1.jpg",
+    "visible_job": "Only strengthens existing contours, pencil texture, color, and shadow without adding new cactus parts.",
+    "allowed_changes": [
+      "keeper-line darkening",
+      "final graphite texture",
+      "restrained colored-pencil shading",
+      "paper texture from the saved master"
+    ]
+  },
+  "rejection_checks": [
+    "No pot, gravel, cactus body, arm, flower, spine, or core color choice should first appear in the final image.",
+    "The cactus must keep the same centered pose and proportions in every frame.",
+    "The final image must not add extra botanical detail that is absent from the process frames.",
+    "Do not use separately prompted step images that drift from this master drawing."
+  ]
+}

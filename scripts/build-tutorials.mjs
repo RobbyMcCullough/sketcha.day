@@ -2,6 +2,57 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const lessons = [
   {
+    slug: "potted-cactus-flowers",
+    day: "010",
+    date: "Saturday, June 20",
+    isoDate: "2026-06-20",
+    subject: "a potted cactus with flowers",
+    headlineSubject: "a potted cactus<br>with flowers",
+    shortSubject: "a flowering cactus",
+    lessonTitle: "Let's draw a potted cactus",
+    description: "Learn how to draw a potted cactus with a rounded clay pot, gravel, a ribbed cactus body, side arms, pink flowers, spines, and colored-pencil shading.",
+    intro: "Build a sturdy clay pot first, grow the cactus from simple rounded shapes, then finish with flowers, spine marks, and restrained colored pencil.",
+    time: 30,
+    difficulty: "Easy-medium",
+    accent: "#c97950",
+    finished: "potted-cactus-flowers-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a ribbed green cactus with side arms, pink flowers, gravel, and a rounded terracotta pot",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional green, terracotta, pink, and yellow pencils"],
+    steps: [
+      {
+        name: "Block in the clay pot",
+        text: "Draw a wide U-shaped pot wall, then add a thick oval rim across the top and a shallow curve along the bottom edge.",
+        tip: "Keep the pot wider than the cactus will be. That stable base makes the tall plant feel balanced."
+      },
+      {
+        name: "Add the soil and gravel",
+        text: "Place a smaller oval inside the rim, then scatter uneven pebble shapes along that soil line.",
+        tip: "Vary the pebble sizes and leave gaps. A few dark stones read better than a row of identical circles."
+      },
+      {
+        name: "Grow the main cactus",
+        text: "Rise from the center of the pot with a tall rounded cactus body, then curve several vertical rib lines from top to bottom.",
+        tip: "Let the ribs follow the cactus sides. Straight stripes can flatten the rounded form."
+      },
+      {
+        name: "Attach the cactus arms",
+        text: "Add one shorter arm on each side, curving them upward from behind the main body and giving each arm its own rib lines.",
+        tip: "Start the arms low and keep them smaller than the center cactus so the silhouette stays clear."
+      },
+      {
+        name: "Place flowers, spines, and color",
+        text: "Set an open flower on top, add two small side buds, mark tiny star spines along the ribs, then shade the cactus green and the pot terracotta.",
+        tip: "Use light colored-pencil pressure first. The spines should stay sharp, so do not bury them under heavy color."
+      },
+      {
+        name: "Finish the keeper lines",
+        text: "Deepen the pot rim, cactus edges, flower petals, gravel, and cast shadow, clarifying only the shapes already in place.",
+        tip: "Stop before every rib is equally dark. A few strong lines and a few soft lines make the cactus feel handmade.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "camping-lantern",
     day: "009",
     date: "Friday, June 19",
