@@ -127,3 +127,10 @@
 - Day 009 QA used `python3 scripts/check-tutorial-readiness.py
   camping-lantern`, a contact-sheet review at `/tmp/camping-lantern-steps.jpg`,
   and desktop/mobile screenshots saved as `/tmp/sketcha-day009-*.png`.
+- Added the birdhouse on a post as the June 21, 2026 / Day 011 tutorial draft
+  from a reviewed six-panel generated contact sheet. Finished image rating:
+  8.5/10.
+- Day 011 QA used `python3 scripts/check-tutorial-readiness.py
+  birdhouse-on-a-post --base-url http://localhost:4173/`, a step contact-sheet
+  review at `/tmp/birdhouse-on-a-post-steps.jpg`, and desktop/mobile screenshots
+  saved as `/tmp/sketcha-birdhouse-*.png`.

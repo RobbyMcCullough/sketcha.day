@@ -1,0 +1,131 @@
+{
+  "slug": "birdhouse-on-a-post",
+  "finished": "assets/birdhouse-on-a-post-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation contact sheet reviewed before cropping; approved panel 6 is saved as the finished raster artwork.",
+    "notes": "All step frames are cropped from the same generated contact sheet so the birdhouse pose, post, roof, doorway, perch, and wood details stay consistent."
+  },
+  "process_strategy": "Use one six-panel contact sheet that builds the birdhouse from guide shapes to contour, roof, doorway, perch, wood grain, leaves, color, and final keeper-line strength.",
+  "final_elements": [
+    {
+      "name": "vertical post",
+      "introduced_by_step": 1,
+      "description": "The narrow wooden support post centered under the birdhouse."
+    },
+    {
+      "name": "simple house body",
+      "introduced_by_step": 1,
+      "description": "The front-facing rectangular birdhouse body sitting above the post."
+    },
+    {
+      "name": "pitched roof",
+      "introduced_by_step": 2,
+      "description": "The triangular roof cap with a slightly thicker lower edge."
+    },
+    {
+      "name": "round doorway",
+      "introduced_by_step": 3,
+      "description": "The circular bird entrance centered on the house front."
+    },
+    {
+      "name": "small perch peg",
+      "introduced_by_step": 3,
+      "description": "The short peg placed below the round doorway."
+    },
+    {
+      "name": "wood plank seams",
+      "introduced_by_step": 4,
+      "description": "Subtle vertical plank lines on the birdhouse front."
+    },
+    {
+      "name": "wood grain and nail dots",
+      "introduced_by_step": 5,
+      "description": "Small handmade grain marks and nail dots on the roof, body, and post."
+    },
+    {
+      "name": "leaf sprigs",
+      "introduced_by_step": 5,
+      "description": "A few small leaves near the post that ground the birdhouse without clutter."
+    },
+    {
+      "name": "blue, brown, and green colored-pencil shading",
+      "introduced_by_step": 5,
+      "description": "Restrained blue paint on the house, brown wood on the roof and post, and green leaves."
+    },
+    {
+      "name": "soft cast shadow",
+      "introduced_by_step": 5,
+      "description": "A pale graphite shadow beneath the post."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/birdhouse-on-a-post-step-1.jpg",
+      "step_name": "Block in the post and house",
+      "visible_job": "Places the vertical support post and the front rectangle of the birdhouse with light construction marks.",
+      "introduces": [
+        "vertical post",
+        "simple house body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/birdhouse-on-a-post-step-2.jpg",
+      "step_name": "Add the pitched roof",
+      "visible_job": "Adds the triangular roof and a thicker roof lip while keeping the post and house body unchanged.",
+      "introduces": [
+        "pitched roof"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/birdhouse-on-a-post-step-3.jpg",
+      "step_name": "Place the doorway and perch",
+      "visible_job": "Adds the round entrance hole and short perch peg on the birdhouse front.",
+      "introduces": [
+        "round doorway",
+        "small perch peg"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/birdhouse-on-a-post-step-4.jpg",
+      "step_name": "Divide the front planks",
+      "visible_job": "Adds subtle plank seams to the house front without changing the silhouette.",
+      "introduces": [
+        "wood plank seams"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/birdhouse-on-a-post-step-5.jpg",
+      "step_name": "Add grain, leaves, and color",
+      "visible_job": "Adds wood grain, nail dots, small leaf sprigs, restrained colored-pencil shading, and the cast shadow.",
+      "introduces": [
+        "wood grain and nail dots",
+        "leaf sprigs",
+        "blue, brown, and green colored-pencil shading",
+        "soft cast shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the keeper lines",
+    "asset": "assets/birdhouse-on-a-post-finished-v1.jpg",
+    "visible_job": "Only strengthens existing roof, body, doorway, perch, post, plank, grain, leaf, color, and shadow marks without adding new parts.",
+    "allowed_changes": [
+      "keeper-line darkening",
+      "final graphite texture",
+      "restrained colored-pencil shading",
+      "paper texture from the saved contact sheet"
+    ]
+  },
+  "rejection_checks": [
+    "No post, house body, roof, doorway, perch, plank seam, leaf, grain mark, or core color choice should first appear in the final image.",
+    "The birdhouse must keep the same centered front-facing pose and proportions in every frame.",
+    "The final image must not add birds, extra flowers, background scenery, or decorative trim absent from the process frames.",
+    "Do not use separately prompted step images that drift from this contact sheet."
+  ]
+}

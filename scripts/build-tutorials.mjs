@@ -2,6 +2,57 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const lessons = [
   {
+    slug: "birdhouse-on-a-post",
+    day: "011",
+    date: "Sunday, June 21",
+    isoDate: "2026-06-21",
+    subject: "a birdhouse on a post",
+    headlineSubject: "a birdhouse<br>on a post",
+    shortSubject: "a birdhouse on a post",
+    lessonTitle: "Let's draw a birdhouse",
+    description: "Learn how to draw a birdhouse on a post with a simple house body, pitched roof, round doorway, perch, wood planks, leaves, and colored-pencil shading.",
+    intro: "Build a friendly birdhouse from a rectangle, roof, and post, then add the doorway, perch, plank seams, wood grain, and a little garden color.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#6f9fba",
+    finished: "birdhouse-on-a-post-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a blue wooden birdhouse on a brown post with a pitched roof, round doorway, perch, leaf sprigs, and soft shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blue, brown, and green pencils"],
+    steps: [
+      {
+        name: "Block in the post and house",
+        text: "Draw a light vertical guide, place a narrow post on it, then set a simple upright rectangle on top for the birdhouse front.",
+        tip: "Keep the post centered under the house. If the post leans, the whole birdhouse will feel like it is tipping."
+      },
+      {
+        name: "Add the pitched roof",
+        text: "Cap the rectangle with a triangle, then draw a thick horizontal roof lip where the roof meets the house front.",
+        tip: "Let the roof overhang just a little on both sides. That small overhang makes the box feel sheltered."
+      },
+      {
+        name: "Place the doorway and perch",
+        text: "Add a round entrance near the upper center of the front, then draw a short peg directly below it.",
+        tip: "Draw the doorway lightly as a circle before darkening the inside. A centered door keeps the simple design readable."
+      },
+      {
+        name: "Divide the front planks",
+        text: "Pull a few subtle vertical seams down the birdhouse front and into the roof triangle, stopping at the roof lip and bottom edge.",
+        tip: "Do not make every plank the same width. Slightly uneven boards feel more hand-built."
+      },
+      {
+        name: "Add grain, leaves, and color",
+        text: "Mark small nail dots and wood-grain strokes, grow a few leaf sprigs near the post, then add light blue, brown, and green pencil.",
+        tip: "Use color like a sketch, not paint. Leave paper gaps so the plank seams and pencil texture stay visible."
+      },
+      {
+        name: "Finish the keeper lines",
+        text: "Deepen the roof, doorway, perch, post, plank seams, leaves, and cast shadow, clarifying only the shapes already in place.",
+        tip: "Avoid adding birds, flowers, or extra trim at the end. The last pass should make the existing birdhouse confident.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "potted-cactus-flowers",
     day: "010",
     date: "Saturday, June 20",
