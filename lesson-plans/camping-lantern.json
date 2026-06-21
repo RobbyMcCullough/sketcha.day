@@ -1,12 +1,12 @@
 {
   "slug": "camping-lantern",
-  "finished": "assets/camping-lantern-finished-v1.jpg",
+  "finished": "assets/camping-lantern-finished-v2.jpg",
   "source": {
-    "type": "generated-raster-master",
-    "description": "Built-in image generation output extracted from the Codex session transcript, converted to JPEG, and saved as the raster master.",
-    "notes": "Step frames are raster derivatives of the same saved master image, using masked reveals of the generated drawing rather than separately prompted artwork."
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation contact sheet reviewed before cropping; approved panel 6 is saved as the finished raster artwork.",
+    "notes": "The earlier v1 master-derived assets are preserved, but the public lesson should use the contact-sheet crop sequence after this backfill."
   },
-  "process_strategy": "Reveal the same lantern drawing in large construction decisions: base, glass globe and wire guard, top cap, side supports, handle with small details and color, then final keeper-line strength.",
+  "process_strategy": "Use one approved six-panel contact sheet that builds the lantern from base to globe/wire guard, cap, side supports, handle/color, and final keeper-line strength.",
   "final_elements": [
     {
       "name": "rounded lantern base",
@@ -113,19 +113,19 @@
   ],
   "final_step": {
     "step_name": "Finish the keeper lines",
-    "asset": "assets/camping-lantern-finished-v1.jpg",
+    "asset": "assets/camping-lantern-finished-v2.jpg",
     "visible_job": "Only strengthens existing contours, glow texture, metal shading, and paper grain without adding new lantern parts.",
     "allowed_changes": [
       "keeper-line darkening",
       "final graphite texture",
       "restrained colored-pencil shading",
-      "paper texture from the saved master"
+      "paper texture from the saved contact sheet"
     ]
   },
   "rejection_checks": [
     "No base, globe, wire, support, handle, spark mark, or core color choice should first appear in the final image.",
     "The lantern must keep the same upright centered pose and proportions in every frame.",
     "The final image must not add mechanical complexity that is absent from the process frames.",
-    "Do not use separately prompted step images that drift from this master drawing."
+    "Do not use separately prompted step images that drift from this approved contact sheet."
   ]
 }

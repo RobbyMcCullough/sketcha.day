@@ -1,12 +1,12 @@
 {
   "slug": "cozy-teacup",
-  "finished": "assets/cozy-teacup-finished-v2.jpg",
+  "finished": "assets/cozy-teacup-finished-v3.jpg",
   "source": {
-    "type": "generated-raster-master",
-    "description": "Built-in image generation output extracted from the session log and saved as a raster master.",
-    "notes": "The rejected v1 process study remains in drafts/cozy-teacup/ and should not be used as the public finished source."
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation contact sheet reviewed before cropping; approved panel 7 is saved as the finished raster artwork.",
+    "notes": "The rejected v1 process study remains in drafts/cozy-teacup/ and should not be used as the public finished source. The v2 master-derived assets are preserved, but the public lesson should use the contact-sheet crop sequence after this backfill."
   },
-  "process_strategy": "Derive each process frame from the same saved v2 master. Reveal larger drawing decisions rather than isolated tiny marks: construction, cup/handle, saucer, tea/steam, heart/rim color, shading, then final keeper lines.",
+  "process_strategy": "Use one approved seven-panel contact sheet that builds the teacup from guide ovals to cup/handle, saucer, tea/steam, heart/rim stripe, shading, and final keeper-line strength.",
   "final_elements": [
     {
       "name": "cup rim oval",
@@ -121,17 +121,19 @@
   ],
   "final_step": {
     "step_name": "Finish the keeper lines",
-    "asset": "assets/cozy-teacup-finished-v2.jpg",
+    "asset": "assets/cozy-teacup-finished-v3.jpg",
     "visible_job": "Strengthens the rim, handle, saucer, steam, heart, and final colored-pencil accents without changing the pose.",
     "allowed_changes": [
       "keeper-line darkening",
-      "final colored-pencil accents"
+      "final colored-pencil accents",
+      "paper texture from the saved contact sheet"
     ]
   },
   "rejection_checks": [
     "No adjacent frame should look unchanged at card size.",
     "The heart must not appear before the heart-and-rim-stripe step.",
     "The final image must keep the same cup, handle, saucer, steam, tea oval, and red heart as the step frames.",
-    "Do not reintroduce the rough v1 draft as public art."
+    "Do not reintroduce the rough v1 draft as public art.",
+    "Do not use separately prompted step images that drift from this approved contact sheet."
   ]
 }

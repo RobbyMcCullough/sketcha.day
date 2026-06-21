@@ -1,12 +1,12 @@
 {
   "slug": "potted-cactus-flowers",
-  "finished": "assets/potted-cactus-flowers-finished-v1.jpg",
+  "finished": "assets/potted-cactus-flowers-finished-v2.jpg",
   "source": {
-    "type": "generated-raster-master",
-    "description": "Built-in image generation output copied from the Codex generated_images folder, converted to JPEG, and saved as the raster master.",
-    "notes": "Step frames are raster derivatives of the same saved master image, using masked reveals and muted drawing passes rather than separately prompted artwork."
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation contact sheet reviewed before cropping; approved panel 6 is saved as the finished raster artwork.",
+    "notes": "The earlier v1 master-derived assets are preserved, but the public lesson should use the contact-sheet crop sequence after this backfill."
   },
-  "process_strategy": "Reveal one construction group at a time: pot, gravel, central cactus, side arms, flowers and color, then final keeper-line strength.",
+  "process_strategy": "Use one approved six-panel contact sheet that builds the cactus from pot to gravel, central body, arms, flowers/spines/color, and final keeper-line strength.",
   "final_elements": [
     {
       "name": "rounded clay pot",
@@ -107,19 +107,19 @@
   ],
   "final_step": {
     "step_name": "Finish the keeper lines",
-    "asset": "assets/potted-cactus-flowers-finished-v1.jpg",
+    "asset": "assets/potted-cactus-flowers-finished-v2.jpg",
     "visible_job": "Only strengthens existing contours, pencil texture, color, and shadow without adding new cactus parts.",
     "allowed_changes": [
       "keeper-line darkening",
       "final graphite texture",
       "restrained colored-pencil shading",
-      "paper texture from the saved master"
+      "paper texture from the saved contact sheet"
     ]
   },
   "rejection_checks": [
     "No pot, gravel, cactus body, arm, flower, spine, or core color choice should first appear in the final image.",
     "The cactus must keep the same centered pose and proportions in every frame.",
     "The final image must not add extra botanical detail that is absent from the process frames.",
-    "Do not use separately prompted step images that drift from this master drawing."
+    "Do not use separately prompted step images that drift from this approved contact sheet."
   ]
 }

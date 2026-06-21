@@ -134,3 +134,11 @@
   birdhouse-on-a-post --base-url http://localhost:4173/`, a step contact-sheet
   review at `/tmp/birdhouse-on-a-post-steps.jpg`, and desktop/mobile screenshots
   saved as `/tmp/sketcha-birdhouse-*.png`.
+- Backfilled the potted cactus, camping lantern, patchwork kite, and cozy teacup
+  tutorials with reviewed generated contact sheets and cropped process frames.
+  New public finals are cactus/lantern/kite `finished-v2` and teacup
+  `finished-v3`.
+- Backfill QA on 2026-06-21 used `python3 scripts/check-tutorial-readiness.py
+  {slug} --base-url http://localhost:4173/` for all four updated slugs, reviewed
+  step sheets at `/tmp/{slug}-steps.jpg`, and saved browser screenshots as
+  `/tmp/sketcha-backfill-*.png`.

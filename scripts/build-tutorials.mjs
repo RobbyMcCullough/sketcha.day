@@ -66,7 +66,7 @@ const lessons = [
     time: 30,
     difficulty: "Easy-medium",
     accent: "#c97950",
-    finished: "potted-cactus-flowers-finished-v1.jpg",
+    finished: "potted-cactus-flowers-finished-v2.jpg",
     finishedAlt: "Graphite and colored-pencil sketch of a ribbed green cactus with side arms, pink flowers, gravel, and a rounded terracotta pot",
     materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional green, terracotta, pink, and yellow pencils"],
     steps: [
@@ -117,7 +117,7 @@ const lessons = [
     time: 30,
     difficulty: "Easy-medium",
     accent: "#d7a94b",
-    finished: "camping-lantern-finished-v1.jpg",
+    finished: "camping-lantern-finished-v2.jpg",
     finishedAlt: "Graphite and colored-pencil sketch of an old-fashioned teal camping lantern with a glass globe, crossed wire guard, arched handle, and warm yellow glow",
     materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional teal, gray, and yellow pencils"],
     steps: [
@@ -168,7 +168,7 @@ const lessons = [
     time: 25,
     difficulty: "Easy-medium",
     accent: "#d8a33f",
-    finished: "patchwork-kite-finished-v1.jpg",
+    finished: "patchwork-kite-finished-v2.jpg",
     finishedAlt: "Graphite and colored-pencil sketch of a patchwork diamond kite with red, teal, blue, and yellow panels, a curving string, three tail bows, clouds, and wind swirls",
     materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional red, teal, blue, and yellow pencils"],
     steps: [
@@ -219,7 +219,7 @@ const lessons = [
     time: 25,
     difficulty: "Easy",
     accent: "#c7775d",
-    finished: "cozy-teacup-finished-v2.jpg",
+    finished: "cozy-teacup-finished-v3.jpg",
     finishedAlt: "Graphite and colored-pencil sketch of a cozy teacup on a saucer with warm tea, steam, and a red heart on the cup",
     materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional red, tan, and blue-gray pencils"],
     steps: [
