@@ -2,6 +2,57 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const lessons = [
   {
+    slug: "stack-of-pancakes",
+    day: "012",
+    date: "Monday, June 22",
+    isoDate: "2026-06-22",
+    subject: "a stack of pancakes",
+    headlineSubject: "a stack<br>of pancakes",
+    shortSubject: "a pancake stack",
+    lessonTitle: "Let's draw pancakes",
+    description: "Learn how to draw a stack of pancakes with three soft layers, a plate, butter, syrup drips, berries, crumb texture, and warm colored-pencil shading.",
+    intro: "Build the pancakes from simple ellipses, then layer in the plate, butter, syrup, berries, and a few warm breakfast details.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#c98135",
+    finished: "stack-of-pancakes-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a stack of three pancakes on a plate with butter, golden syrup drips, blueberries, crumb texture, and a soft shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional tan, golden yellow, brown, and blue-purple pencils"],
+    steps: [
+      {
+        name: "Place the pancake guides",
+        text: "Draw three light horizontal ellipses stacked close together, then add a faint center line to keep the pancakes lined up.",
+        tip: "Let the ellipses get only a little wider toward the bottom. Too much change can make the stack look like a cone."
+      },
+      {
+        name: "Shape the cakes and plate",
+        text: "Turn each guide into an uneven pancake edge, then add a shallow plate oval underneath the bottom layer.",
+        tip: "Keep the pancake edges a little wobbly. Pancakes look friendlier when they are not perfect cylinders."
+      },
+      {
+        name: "Add butter and syrup",
+        text: "Set a small tilted square on the top pancake, draw a loose syrup puddle around it, then pull two drips down the front.",
+        tip: "Make the syrup cross over the pancake edges. That overlap is what sells the sticky topping."
+      },
+      {
+        name: "Scatter a few berries",
+        text: "Place a small group of round berries on each side of the plate, keeping them tucked low so the pancake stack stays dominant.",
+        tip: "Vary the berry sizes and overlap one or two circles. A row of identical dots will look flat."
+      },
+      {
+        name: "Add spots, color, and shadow",
+        text: "Dot the pancakes with freckles and crumb marks, add warm tan and golden pencil, color the berries, and shade lightly under the plate.",
+        tip: "Leave gaps in the color. The paper showing through keeps the pancakes soft instead of heavy."
+      },
+      {
+        name: "Finish the keeper lines",
+        text: "Deepen the strongest pancake edges, plate rim, butter, syrup drips, berries, texture marks, and cast shadow without adding new toppings.",
+        tip: "Stop before every crumb is dark. A few confident marks read better than covering the pancakes with dots.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "birdhouse-on-a-post",
     day: "011",
     date: "Sunday, June 21",

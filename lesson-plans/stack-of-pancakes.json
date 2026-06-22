@@ -1,0 +1,125 @@
+{
+  "slug": "stack-of-pancakes",
+  "finished": "assets/stack-of-pancakes-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation contact sheet reviewed before cropping; approved final panel is saved as the finished raster artwork.",
+    "notes": "All step frames should be cropped from the same generated contact sheet so the pancake stack, plate, butter pat, syrup drips, berries, color, and shadow stay consistent."
+  },
+  "process_strategy": "Use one six-panel contact sheet that builds the pancake stack from guide ellipses to layered cakes, plate, butter, syrup, berries, restrained color, and final keeper-line strength.",
+  "final_elements": [
+    {
+      "name": "stacked pancake ellipses",
+      "introduced_by_step": 1,
+      "description": "Three slightly uneven pancake layers built from soft horizontal ellipses."
+    },
+    {
+      "name": "plate oval",
+      "introduced_by_step": 2,
+      "description": "A shallow oval plate underneath the pancake stack."
+    },
+    {
+      "name": "uneven pancake edges",
+      "introduced_by_step": 2,
+      "description": "Wobbly handmade edges that separate the three pancake layers."
+    },
+    {
+      "name": "butter pat",
+      "introduced_by_step": 3,
+      "description": "A small tilted square of butter sitting on the top pancake."
+    },
+    {
+      "name": "syrup puddle and drips",
+      "introduced_by_step": 3,
+      "description": "A loose syrup shape around the butter with two visible drips running down the pancake sides."
+    },
+    {
+      "name": "small berries",
+      "introduced_by_step": 4,
+      "description": "A few simple round berries placed near the pancakes and on the plate."
+    },
+    {
+      "name": "pancake spots and crumb texture",
+      "introduced_by_step": 5,
+      "description": "Small freckles, browned spots, and short crumb marks on the pancake surfaces."
+    },
+    {
+      "name": "warm tan, golden, and berry color",
+      "introduced_by_step": 5,
+      "description": "Restrained colored-pencil tan pancakes, golden syrup and butter, and blue-purple berries."
+    },
+    {
+      "name": "soft cast shadow",
+      "introduced_by_step": 5,
+      "description": "A pale graphite shadow grounding the plate."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/stack-of-pancakes-step-1.jpg",
+      "step_name": "Place the pancake guides",
+      "visible_job": "Stacks three light horizontal ellipses to set the pancake height and tilt.",
+      "introduces": [
+        "stacked pancake ellipses"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/stack-of-pancakes-step-2.jpg",
+      "step_name": "Shape the cakes and plate",
+      "visible_job": "Turns the guide ellipses into uneven pancake layers and adds the shallow plate oval below.",
+      "introduces": [
+        "plate oval",
+        "uneven pancake edges"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/stack-of-pancakes-step-3.jpg",
+      "step_name": "Add butter and syrup",
+      "visible_job": "Places the butter pat on top, draws a syrup puddle around it, and pulls two syrup drips down the stack.",
+      "introduces": [
+        "butter pat",
+        "syrup puddle and drips"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/stack-of-pancakes-step-4.jpg",
+      "step_name": "Scatter a few berries",
+      "visible_job": "Adds simple round berries on the plate and near the pancake stack without changing the main silhouette.",
+      "introduces": [
+        "small berries"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/stack-of-pancakes-step-5.jpg",
+      "step_name": "Add spots, color, and shadow",
+      "visible_job": "Adds pancake freckles and crumb texture, light tan and golden color, berry color, and a soft cast shadow.",
+      "introduces": [
+        "pancake spots and crumb texture",
+        "warm tan, golden, and berry color",
+        "soft cast shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the keeper lines",
+    "asset": "assets/stack-of-pancakes-finished-v1.jpg",
+    "visible_job": "Only strengthens existing pancake, plate, butter, syrup, berry, texture, color, and shadow marks without adding new parts.",
+    "allowed_changes": [
+      "keeper-line darkening",
+      "final graphite texture",
+      "restrained colored-pencil shading",
+      "paper texture from the saved contact sheet"
+    ]
+  },
+  "rejection_checks": [
+    "No pancake layer, plate, butter pat, syrup drip, berry, texture mark, shadow, or core color choice should first appear in the final image.",
+    "The pancake stack must keep the same centered three-quarter plate pose and proportions in every frame.",
+    "The final image must not add utensils, faces, hands, background scenery, or extra toppings absent from the process frames.",
+    "Do not use separately prompted step images that drift from this contact sheet."
+  ]
+}

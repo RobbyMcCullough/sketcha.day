@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-19
+- Date: 2026-06-22
 - Agent harness: Codex
 - Harness project/session name: Sketcha.day homepage prototype
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
@@ -142,3 +142,11 @@
   {slug} --base-url http://localhost:4173/` for all four updated slugs, reviewed
   step sheets at `/tmp/{slug}-steps.jpg`, and saved browser screenshots as
   `/tmp/sketcha-backfill-*.png`.
+- Added the stack of pancakes as the June 22, 2026 / Day 012 tutorial draft
+  from a reviewed six-panel generated contact sheet. Finished image rating:
+  8.6/10.
+- Day 012 QA used `python3 scripts/check-tutorial-readiness.py
+  stack-of-pancakes`, a step contact-sheet review at
+  `/tmp/stack-of-pancakes-steps.jpg`, Cove desktop/mobile screenshots saved as
+  `/tmp/sketcha-stack-of-pancakes-*.png`, and a direct mobile library
+  image-by-image load check saved as `/tmp/sketcha-library-mobile-image-by-image.png`.
