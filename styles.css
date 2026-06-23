@@ -1249,6 +1249,7 @@ a {
 
 .about-drawing img {
   width: 100%;
+  height: auto;
   filter: drop-shadow(8px 10px 0 rgba(67, 137, 154, .14));
 }
 
