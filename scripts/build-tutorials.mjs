@@ -2,6 +2,57 @@ import { mkdir, writeFile } from "node:fs/promises";
 
 const lessons = [
   {
+    slug: "paint-palette-and-brush",
+    day: "013",
+    date: "Tuesday, June 23",
+    isoDate: "2026-06-23",
+    subject: "a paint palette and brush",
+    headlineSubject: "a paint palette<br>and brush",
+    shortSubject: "a paint palette and brush",
+    lessonTitle: "Let's draw a paint palette",
+    description: "Learn how to draw a paint palette and brush with a tilted palette shape, thumb hole, diagonal brush, paint dabs, soft color, and sketchy shadow.",
+    intro: "Build the palette from one tilted oval, lay a brush across it, then add uneven paint dabs and a few restrained colored-pencil accents.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#d8944c",
+    finished: "paint-palette-and-brush-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a tilted paint palette with a thumb hole, colorful paint dabs, a diagonal brush, and a soft shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional yellow, orange, green, blue, red, and brown pencils"],
+    steps: [
+      {
+        name: "Place the big guides",
+        text: "Draw a light tilted oval for the palette, then pull one diagonal guide line across it where the brush will sit.",
+        tip: "Keep the oval roomy. The paint dabs and thumb hole need space around the brush."
+      },
+      {
+        name: "Shape the palette",
+        text: "Turn the oval into a handmade palette outline with a small inward bite on one side, then add a rounded thumb hole near the upper area.",
+        tip: "Draw the thumb hole as its own little oval before darkening it. That keeps it from becoming a random dent."
+      },
+      {
+        name: "Lay in the brush",
+        text: "Build the brush along the diagonal guide with a narrow handle, a short metal ferrule, and a pointed bristle shape at the lower end.",
+        tip: "Let the brush overlap the palette cleanly. One confident diagonal makes the still life feel organized."
+      },
+      {
+        name: "Add the paint dabs",
+        text: "Place several uneven paint blobs around the palette, keeping them clear of the thumb hole and leaving the brush on top.",
+        tip: "Make the dabs different sizes and shapes. Matching circles look more like buttons than paint."
+      },
+      {
+        name: "Add color and shadow",
+        text: "Shade the paint dabs with loose colored pencil, warm the brush tip, and add a pale graphite shadow under the palette.",
+        tip: "Use light pressure so the pencil texture stays visible. The colors should decorate the sketch, not cover it."
+      },
+      {
+        name: "Finish the keeper lines",
+        text: "Deepen the strongest palette edge, thumb hole, brush, paint dab outlines, color texture, and cast shadow without adding new tools or props.",
+        tip: "Stop while the palette still has open paper. A few lively paint spots are clearer than filling every blank space.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "stack-of-pancakes",
     day: "012",
     date: "Monday, June 22",

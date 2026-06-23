@@ -150,3 +150,11 @@
   `/tmp/stack-of-pancakes-steps.jpg`, Cove desktop/mobile screenshots saved as
   `/tmp/sketcha-stack-of-pancakes-*.png`, and a direct mobile library
   image-by-image load check saved as `/tmp/sketcha-library-mobile-image-by-image.png`.
+- Added the paint palette and brush as the June 23, 2026 / Day 013 tutorial
+  draft from a reviewed six-panel generated contact sheet. Finished image
+  rating: 8.6/10.
+- Day 013 QA used `python3 scripts/check-tutorial-readiness.py
+  paint-palette-and-brush --base-url http://localhost:4173/` after Cove was
+  unreachable, a step contact-sheet review at
+  `/tmp/paint-palette-and-brush-steps.jpg`, and desktop/mobile screenshots saved
+  as `/tmp/sketcha-palette-*-qa.png`.

@@ -1,0 +1,113 @@
+{
+  "slug": "paint-palette-and-brush",
+  "finished": "assets/paint-palette-and-brush-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation contact sheet reviewed before cropping; approved final panel is saved as the finished raster artwork.",
+    "notes": "All step frames should be cropped from the same generated contact sheet so the palette shape, thumb hole, brush, paint dabs, color, and shadow stay consistent."
+  },
+  "process_strategy": "Use one six-panel contact sheet that builds the palette and brush from guide shapes to a shaped oval palette, diagonal brush, paint dabs, restrained color, and final keeper-line strength.",
+  "final_elements": [
+    {
+      "name": "oval palette body",
+      "introduced_by_step": 1,
+      "description": "A rounded painter's palette tilted slightly on the page."
+    },
+    {
+      "name": "thumb hole",
+      "introduced_by_step": 2,
+      "description": "A small rounded thumb hole near the upper side of the palette."
+    },
+    {
+      "name": "diagonal brush handle",
+      "introduced_by_step": 3,
+      "description": "A slim brush lying diagonally across the palette."
+    },
+    {
+      "name": "metal ferrule and bristles",
+      "introduced_by_step": 3,
+      "description": "A short metal band and pointed bristle shape at the lower end of the brush."
+    },
+    {
+      "name": "paint dabs",
+      "introduced_by_step": 4,
+      "description": "Several uneven paint blobs arranged around the palette surface."
+    },
+    {
+      "name": "restrained paint color",
+      "introduced_by_step": 5,
+      "description": "Loose colored-pencil accents on the paint dabs and brush tip."
+    },
+    {
+      "name": "soft cast shadow",
+      "introduced_by_step": 5,
+      "description": "A pale graphite shadow grounding the palette and brush."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/paint-palette-and-brush-step-1.jpg",
+      "step_name": "Place the big guides",
+      "visible_job": "Sets a light tilted oval for the palette body plus a diagonal guide line for the brush.",
+      "introduces": [
+        "oval palette body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/paint-palette-and-brush-step-2.jpg",
+      "step_name": "Shape the palette",
+      "visible_job": "Turns the guide oval into a handmade palette outline and cuts in the thumb hole.",
+      "introduces": [
+        "thumb hole"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/paint-palette-and-brush-step-3.jpg",
+      "step_name": "Lay in the brush",
+      "visible_job": "Builds the diagonal brush with a narrow handle, metal ferrule, and pointed bristles.",
+      "introduces": [
+        "diagonal brush handle",
+        "metal ferrule and bristles"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/paint-palette-and-brush-step-4.jpg",
+      "step_name": "Add the paint dabs",
+      "visible_job": "Places uneven paint blobs around the palette while keeping them clear of the thumb hole and brush.",
+      "introduces": [
+        "paint dabs"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/paint-palette-and-brush-step-5.jpg",
+      "step_name": "Add color and shadow",
+      "visible_job": "Adds restrained color to the paint dabs and brush tip, plus a light shadow under the palette.",
+      "introduces": [
+        "restrained paint color",
+        "soft cast shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the keeper lines",
+    "asset": "assets/paint-palette-and-brush-finished-v1.jpg",
+    "visible_job": "Only strengthens existing palette, thumb hole, brush, paint dab, color, and shadow marks without adding new parts.",
+    "allowed_changes": [
+      "keeper-line darkening",
+      "final graphite texture",
+      "restrained colored-pencil shading",
+      "paper texture from the saved contact sheet"
+    ]
+  },
+  "rejection_checks": [
+    "No palette contour, thumb hole, brush part, paint dab, shadow, or core color choice should first appear in the final image.",
+    "The palette and brush must keep the same tilted pose and proportions in every frame.",
+    "The final image must not add jars, hands, lettering, table props, extra brushes, or background scenery absent from the process frames.",
+    "Do not use separately prompted step images that drift from this contact sheet."
+  ]
+}
