@@ -687,6 +687,7 @@ const page = (lesson) => {
   <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css">
   <script type="application/ld+json">${JSON.stringify(schema, null, 2)}</script>
+  <script defer data-domain="sketcha.day" src="https://analytics.robbymccullough.com/js/script.js"></script>
 </head>
 <body class="archive-tutorial" style="--lesson-accent: ${lesson.accent}">
   <a class="skip-link" href="#lesson">Skip to the lesson</a>
@@ -866,6 +867,7 @@ const archivePage = () => {
   <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">${JSON.stringify(itemList, null, 2)}</script>
+  <script defer data-domain="sketcha.day" src="https://analytics.robbymccullough.com/js/script.js"></script>
 </head>
 <body class="library-page">
   <a class="skip-link" href="#tutorial-library">Skip to the tutorial library</a>
