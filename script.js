@@ -27,7 +27,5 @@ stepButtons.forEach((button) => {
 
 signupForm?.addEventListener("submit", (event) => {
   event.preventDefault();
-  const email = new FormData(signupForm).get("email");
-  formMessage.textContent = `Nice. The next prompt will find ${email}.`;
-  signupForm.reset();
+  formMessage.textContent = "The daily email list is coming soon.";
 });

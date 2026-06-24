@@ -250,12 +250,14 @@ a {
 }
 
 .hero h1 {
+  display: grid;
+  gap: .1em;
   max-width: 650px;
   margin: 0;
   font-family: var(--display);
   font-size: clamp(4.5rem, 7.5vw, 7.2rem);
   font-weight: 400;
-  line-height: .82;
+  line-height: .92;
   letter-spacing: 0;
   text-wrap: balance;
 }
@@ -274,11 +276,13 @@ a {
 
 .hero h1 em {
   position: relative;
-  display: inline-block;
+  display: grid;
+  gap: .04em;
+  justify-items: start;
   margin-top: .02em;
   color: var(--orange);
   font-style: normal;
-  line-height: .8;
+  line-height: .92;
   white-space: normal;
   transform: rotate(-2deg);
 }
@@ -388,10 +392,10 @@ a {
 }
 
 .doodle-star {
-  top: 9%;
-  left: -1%;
+  top: 12%;
+  left: -4.5%;
   color: var(--yellow);
-  font-size: 4rem;
+  font-size: 3.35rem;
   transform: rotate(12deg);
 }
 
@@ -568,7 +572,7 @@ a {
 }
 
 .materials-note {
-  margin: 18px -6px 0;
+  margin: 18px -6px clamp(1rem, 2.5vw, 1.6rem);
   padding: 13px;
   color: #4e5140;
   background: rgba(242, 184, 61, .28);

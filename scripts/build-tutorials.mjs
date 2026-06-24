@@ -1,5 +1,12 @@
 import { mkdir, writeFile } from "node:fs/promises";
 
+const siteUrl = "https://sketcha.day";
+const iconLinks = `  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/site-icon.png">`;
+
 const lessons = [
   {
     slug: "paint-palette-and-brush",
@@ -609,6 +616,7 @@ const currentLesson = {
   date: "Monday, June 15",
   isoDate: "2026-06-15",
   subject: "a curious fox",
+  description: "Learn how to draw a curious fox with a seated pose, alert ears, fluffy tail, and simple pencil-and-color details.",
   time: 25,
   difficulty: "Easy",
   finished: "fox-finished-v2.jpg",
@@ -625,7 +633,7 @@ const relatedCards = (currentSlug) => lessons
   .map((lesson) => `
     <a class="sketch-card" href="${lesson.slug}.html">
       <div class="card-art"><img src="../assets/${lesson.finished}" alt=""></div>
-      <p><span>Day ${lesson.day}</span> ${lesson.time} min · ${lesson.difficulty}</p>
+      <p>${lesson.time} min · ${lesson.difficulty}</p>
       <h3>How to draw ${lesson.shortSubject}</h3>
     </a>`)
   .join("");
@@ -636,6 +644,15 @@ const headlineHtml = (value) => String(value)
   .split(/<br\s*\/?>/i)
   .map((line) => `<span>${line.trim()}</span>`)
   .join(" ");
+const escapeXml = (value) => String(value)
+  .replaceAll("&", "&amp;")
+  .replaceAll("<", "&lt;")
+  .replaceAll(">", "&gt;")
+  .replaceAll('"', "&quot;")
+  .replaceAll("'", "&apos;");
+const lessonUrl = (lesson) => `${siteUrl}/tutorials/${lesson.slug}.html`;
+const lessonImageUrl = (lesson) => `${siteUrl}/assets/${lesson.finished}`;
+const rssPubDate = (isoDate) => new Date(`${isoDate}T12:00:00-07:00`).toUTCString();
 
 const page = (lesson) => {
   const titleSubject = titleCase(lesson.shortSubject.replace(/^a /, ""));
@@ -682,6 +699,8 @@ const page = (lesson) => {
   <meta property="og:image" content="https://sketcha.day/assets/${lesson.finished}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="${lesson.accent}">
+${iconLinks}
+  <link rel="alternate" type="application/rss+xml" title="Sketcha.day daily sketch feed" href="${siteUrl}/feed.xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -708,10 +727,10 @@ const page = (lesson) => {
     <section class="hero" aria-labelledby="hero-title">
       <div class="doodle doodle-star" aria-hidden="true">✦</div>
       <div class="hero-copy">
-        <p class="eyebrow"><span>Day ${lesson.day}</span> ${lesson.date}</p>
+        <p class="eyebrow">${lesson.date}</p>
         <h1 id="hero-title" aria-label="How to draw ${lesson.subject}"><span class="headline-lead">How to draw</span> <em aria-hidden="true">${headlineHtml(lesson.headlineSubject ?? lesson.subject)}</em></h1>
         <p class="hero-intro">${lesson.intro}</p>
-        <div class="hero-meta" aria-label="Lesson details"><span><strong>${lesson.time}</strong> min</span><span><strong>${lesson.difficulty}</strong></span><span><strong>${lesson.steps.length}</strong> steps</span></div>
+        <div class="hero-meta" aria-label="Lesson details"><span><strong>${lesson.time}</strong> min</span><span><strong>${lesson.difficulty}</strong></span></div>
         <a class="nav-button hero-button" href="#lesson">Start drawing <svg viewBox="0 0 30 15" aria-hidden="true"><path d="M1 7.5h26M20 1l7 6.5-7 6.5"/></svg></a>
       </div>
       <figure class="hero-art">
@@ -743,7 +762,7 @@ const page = (lesson) => {
       <div class="library-grid">${relatedCards(lesson.slug)}
         <a class="sketch-card" href="curious-fox.html">
           <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt="" loading="lazy"></div>
-          <p><span>Day ${currentLesson.day}</span> ${currentLesson.time} min · ${currentLesson.difficulty}</p>
+          <p>${currentLesson.time} min · ${currentLesson.difficulty}</p>
           <h3>How to draw a curious fox</h3>
         </a>
       </div>
@@ -773,7 +792,7 @@ const homePage = (lesson) => {
         <div class="about-points">
           <p><strong>Made for real life</strong><span>Most lessons take 15-30 minutes.</span></p>
           <p><strong>Useful at any age</strong><span>Friendly enough for kids, substantial enough for grown-ups.</span></p>
-          <p><strong>A growing library</strong><span>Miss a day? Every sketch stays available.</span></p>
+          <p><strong>Easy drawing ideas</strong><span>Step-by-step sketch tutorials for animals, food, objects, and everyday practice.</span></p>
         </div>
       </div>
     </section>
@@ -782,13 +801,13 @@ const homePage = (lesson) => {
       <div class="newsletter-pencil" aria-hidden="true"></div>
       <p class="hand-note">A tiny creative nudge</p>
       <h2 id="newsletter-title">A fresh sketch in your inbox.</h2>
-      <p>One prompt. One practical tutorial. Zero pressure.</p>
+      <p>Coming soon: one prompt, one practical tutorial, zero pressure. Want it first? <a href="mailto:hello@sketcha.day?subject=Sketcha.day%20daily%20email%20interest">Email us to say you're interested</a>.</p>
       <form class="signup-form">
         <label class="sr-only" for="email">Email address</label>
-        <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
-        <button type="submit">Send me tomorrow's sketch</button>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="Newsletter coming soon" disabled>
+        <button type="submit" disabled>Coming soon</button>
       </form>
-      <small>Free forever. Unsubscribe whenever your sketchbook is full.</small>
+      <small>The daily email list is not open yet. A quick note helps us decide when to build it.</small>
       <p class="form-message" role="status" aria-live="polite"></p>
     </section>
 `;
@@ -825,7 +844,7 @@ const archiveCard = (lesson, index) => {
           <div class="card-art">
             <img src="assets/${lesson.finished}" alt="${lesson.finishedAlt}" loading="${index === 0 ? "eager" : "lazy"}">
           </div>
-          <p><span>Day ${lesson.day}</span> <time datetime="${lesson.isoDate}">${lesson.date.replace(/^[^,]+, /, "")}</time> · ${lesson.time} min · ${lesson.difficulty}</p>
+          <p><time datetime="${lesson.isoDate}">${lesson.date.replace(/^[^,]+, /, "")}</time> · ${lesson.time} min · ${lesson.difficulty}</p>
           <h2>How to draw ${lesson.subject}</h2>
           <span class="card-link">Open tutorial <span aria-hidden="true">→</span></span>
         </a>`;
@@ -862,6 +881,8 @@ const archivePage = () => {
   <meta property="og:image" content="https://sketcha.day/assets/fox-finished-v2.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#f3b63c">
+${iconLinks}
+  <link rel="alternate" type="application/rss+xml" title="Sketcha.day daily sketch feed" href="${siteUrl}/feed.xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -920,11 +941,33 @@ const archivePage = () => {
 </html>`;
 };
 
+const feed = () => `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Sketcha.day Daily Sketches</title>
+    <link>${siteUrl}/</link>
+    <atom:link href="${siteUrl}/feed.xml" rel="self" type="application/rss+xml" />
+    <description>One small drawing prompt and practical step-by-step sketch tutorial every day.</description>
+    <language>en-us</language>
+    <lastBuildDate>${rssPubDate(latestLesson.isoDate)}</lastBuildDate>
+${archiveLessons.map((lesson) => `    <item>
+      <title>${escapeXml(`How to draw ${lesson.subject}`)}</title>
+      <link>${lessonUrl(lesson)}</link>
+      <guid isPermaLink="true">${lessonUrl(lesson)}</guid>
+      <pubDate>${rssPubDate(lesson.isoDate)}</pubDate>
+      <description>${escapeXml(lesson.description)}</description>
+      <media:content url="${lessonImageUrl(lesson)}" medium="image" />
+    </item>`).join("\n")}
+  </channel>
+</rss>
+`;
+
 await mkdir(new URL("../tutorials/", import.meta.url), { recursive: true });
 for (const lesson of lessons) {
   await writeFile(new URL(`../tutorials/${lesson.slug}.html`, import.meta.url), page(lesson));
 }
 await writeFile(new URL("../index.html", import.meta.url), homePage(latestLesson));
 await writeFile(new URL("../library.html", import.meta.url), archivePage());
+await writeFile(new URL("../feed.xml", import.meta.url), feed());
 
-console.log(`Built ${lessons.length} tutorial pages, the homepage, and the tutorial library.`);
+console.log(`Built ${lessons.length} tutorial pages, the homepage, the tutorial library, and feed.xml.`);
