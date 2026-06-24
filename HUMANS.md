@@ -170,6 +170,10 @@
 - Restored `PROCESS-IMAGE-WORKFLOW.md` and `scripts/crop-contact-sheet.py` from
   the saved `seo/test-lock` stash because the daily automation prompt requires
   the contact-sheet-first workflow and cropper.
+- As of June 24, 2026, daily lesson automation may publish directly after the
+  automated quality gates pass. No separate editorial review is needed for normal
+  daily lessons, but failed image/process/readiness checks should still stop the
+  run instead of pushing.
 
 ### 2026-06-23 — SEO review & on-page fixes (Claude Cowork)
 

@@ -41,7 +41,8 @@ For daily lesson work, read these files in order:
 Then update the lesson data in `scripts/build-tutorials.mjs`, create any new
 assets under `assets/`, run the generator, QA the homepage plus changed pages,
 and commit the work only after the lesson passes the quality gates in
-`DAILY-PUBLISHING.md`.
+`DAILY-PUBLISHING.md`. Daily lesson automation may publish without a separate
+editorial review once those gates pass.
 
 ## Conventions
 
@@ -85,7 +86,7 @@ every tutorial page, `index.html`, `library.html`, `feed.xml`, `sitemap.xml`, an
 `robots.txt`. Rebuild and commit these together; never hand-edit generated files.
 
 ### Lessons data
-- The `lessons` array owns ALL tutorial pages (currently 13). The old separate
+- The `lessons` array owns ALL tutorial pages (currently 14). The old separate
   `currentLesson` stub was removed — it excluded `curious-fox` from the build and
   let that page drift out of sync (the old "built 12, but 13 exist" mismatch). Add
   new lessons to `lessons`; do not reintroduce one-off pages outside the array.
@@ -134,6 +135,9 @@ every tutorial page, `index.html`, `library.html`, `feed.xml`, `sitemap.xml`, an
 ### Deploy gotcha
 - `main` auto-deploys: a push triggers a server `git pull` into
   `/var/www/sketcha.day` (see `.github/workflows/deploy.yml`). There is no
-  staging — anything on `main` goes live. Work on a feature branch and QA locally
-  first. After deploy, submit `https://sketcha.day/sitemap.xml` in Google Search
-  Console.
+  staging — anything on `main` goes live. For daily lesson automation, pushing
+  to `main` is allowed after `DAILY-PUBLISHING.md` automated QA passes; no
+  separate editorial review is required. For broader design, SEO, or structural
+  changes, work on a feature branch and QA locally first. After deploy, submit
+  `https://sketcha.day/sitemap.xml` in Google Search Console when sitemap
+  changes need indexing.

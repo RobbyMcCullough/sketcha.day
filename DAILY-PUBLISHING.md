@@ -57,6 +57,9 @@ When this guide is used by a scheduled Codex automation, the job should:
    mobile widths.
 11. Commit the work with a concise message only when the page passes the
    anti-slop review and validation checks.
+12. For scheduled daily lesson automation, push the passing commit to `main` so
+    it publishes. No separate editorial review is required after the automated
+    quality gates pass.
 
 For pre-launch backfilling, backdated tutorial pages are acceptable. Keep that
 implementation detail out of public copy: do not imply real historical traffic,
@@ -234,6 +237,11 @@ The automation must render desktop and mobile screenshots before publishing.
 Check the hero, every tutorial frame, the finish, materials, navigation, and
 structured data. Do not publish when assets are missing, text overflows, links
 are placeholders, or the finished image fails the draw-through test.
+
+Daily lesson publishing is approval-free once this QA passes. The automation
+should still stop instead of publishing when image generation is unavailable, the
+contact sheet fails process review, the finished image scores below 8/10, or any
+validation command fails.
 
 Minimum validation commands:
 
