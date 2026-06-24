@@ -127,6 +127,57 @@ const lessons = [
     ]
   },
   {
+    slug: "garden-watering-can",
+    day: "014",
+    date: "Wednesday, June 24",
+    isoDate: "2026-06-24",
+    subject: "a garden watering can",
+    headlineSubject: "a garden<br>watering can",
+    shortSubject: "a garden watering can",
+    lessonTitle: "Let's draw a watering can",
+    description: "Learn how to draw a garden watering can with a rounded can body, oval top rim, curved handle, long spout, sprinkler rose, water drops, flower decal, and teal colored-pencil shading.",
+    intro: "Build the can from one rounded body, then attach the handle and spout before adding the rose, drops, flower decal, and soft teal color.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#6fa7a3",
+    finished: "garden-watering-can-finished-v1.jpg",
+    finishedAlt: "Graphite and teal colored-pencil sketch of a garden watering can with a rounded body, curved handle, long spout, sprinkler rose, falling water drops, flower decal, and soft shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional teal and pale blue pencils"],
+    steps: [
+      {
+        name: "Block in the can body",
+        text: "Draw a light squat oval for the watering can body, then add two soft side guides and a faint center line to keep the can balanced.",
+        tip: "Keep the body wider than it is tall. That rounded base gives the can its friendly, sturdy shape."
+      },
+      {
+        name: "Shape the rim and base",
+        text: "Darken the rounded body, add an oval opening and short neck on top, then place a shallow base curve along the bottom.",
+        tip: "Match the top and bottom curves. If the rim tilts too much, the can will look like it is spilling."
+      },
+      {
+        name: "Add the handle and spout",
+        text: "Attach a large C-shaped handle on the right, then taper a long spout from the left side of the can.",
+        tip: "Sketch both handle edges before pressing harder. The handle should feel hollow, not like one thick loop."
+      },
+      {
+        name: "Place the rose and drops",
+        text: "Cap the spout with a rounded sprinkler rose, dot in the small holes, and draw a few falling drops below it.",
+        tip: "Keep the rose angled with the spout. The drops can stagger downward instead of forming a straight line."
+      },
+      {
+        name: "Add the decal and color",
+        text: "Draw a simple flower on the front of the can, shade the metal lightly with teal pencil, and add a pale cast shadow underneath.",
+        tip: "Leave open paper inside the teal color. A watering can should feel sketched, not painted solid."
+      },
+      {
+        name: "Finish the keeper lines",
+        text: "Deepen the strongest body, rim, handle, spout, rose, drops, flower decal, color, and shadow marks without adding new garden props.",
+        tip: "Stop before the texture gets heavy. A few confident dark edges make the loose color look intentional.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "paint-palette-and-brush",
     day: "013",
     date: "Tuesday, June 23",

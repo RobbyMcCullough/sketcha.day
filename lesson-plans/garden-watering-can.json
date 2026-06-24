@@ -1,0 +1,125 @@
+{
+  "slug": "garden-watering-can",
+  "finished": "assets/garden-watering-can-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation contact sheet reviewed before cropping; approved final panel is saved as the finished raster artwork.",
+    "notes": "All step frames should be cropped from the same generated contact sheet so the can body, spout, handle, sprinkler rose, water drops, flower decal, and shadow stay consistent."
+  },
+  "process_strategy": "Use one six-panel contact sheet that builds the watering can from light ellipses and guides to the can body, handle, spout, rose, water drops, decal, restrained color, and final keeper-line strength.",
+  "final_elements": [
+    {
+      "name": "rounded can body",
+      "introduced_by_step": 1,
+      "description": "A squat rounded watering can body with an oval top opening."
+    },
+    {
+      "name": "top rim and neck",
+      "introduced_by_step": 2,
+      "description": "A small oval rim and short neck sitting on top of the can."
+    },
+    {
+      "name": "curved handle",
+      "introduced_by_step": 3,
+      "description": "A large C-shaped handle attached to the right side of the can."
+    },
+    {
+      "name": "long spout",
+      "introduced_by_step": 3,
+      "description": "A tapered spout reaching from the left side of the can."
+    },
+    {
+      "name": "sprinkler rose",
+      "introduced_by_step": 4,
+      "description": "A rounded sprinkler head with small holes at the end of the spout."
+    },
+    {
+      "name": "water drops",
+      "introduced_by_step": 4,
+      "description": "A few falling drops beneath the sprinkler rose."
+    },
+    {
+      "name": "flower decal",
+      "introduced_by_step": 5,
+      "description": "A simple flower mark on the front of the can."
+    },
+    {
+      "name": "restrained teal color",
+      "introduced_by_step": 5,
+      "description": "Loose teal colored-pencil shading on the can body, handle, and spout."
+    },
+    {
+      "name": "soft cast shadow",
+      "introduced_by_step": 5,
+      "description": "A pale graphite shadow grounding the watering can."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/garden-watering-can-step-1.jpg",
+      "step_name": "Block in the can body",
+      "visible_job": "Sets the rounded can body with a light squat oval and simple side guides.",
+      "introduces": [
+        "rounded can body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/garden-watering-can-step-2.jpg",
+      "step_name": "Shape the rim and base",
+      "visible_job": "Clarifies the can body, adds the top rim and neck, and places the lower base curve.",
+      "introduces": [
+        "top rim and neck"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/garden-watering-can-step-3.jpg",
+      "step_name": "Add the handle and spout",
+      "visible_job": "Adds the large curved handle on the right and the tapered spout on the left.",
+      "introduces": [
+        "curved handle",
+        "long spout"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/garden-watering-can-step-4.jpg",
+      "step_name": "Place the rose and drops",
+      "visible_job": "Adds the sprinkler rose, tiny holes, and a few falling water drops.",
+      "introduces": [
+        "sprinkler rose",
+        "water drops"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/garden-watering-can-step-5.jpg",
+      "step_name": "Add the decal and color",
+      "visible_job": "Adds a small flower decal, restrained teal pencil, and a light cast shadow.",
+      "introduces": [
+        "flower decal",
+        "restrained teal color",
+        "soft cast shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the keeper lines",
+    "asset": "assets/garden-watering-can-finished-v1.jpg",
+    "visible_job": "Only strengthens existing body, rim, handle, spout, rose, water drops, flower decal, color, and shadow marks without adding new parts.",
+    "allowed_changes": [
+      "keeper-line darkening",
+      "final graphite texture",
+      "restrained colored-pencil shading",
+      "paper texture from the saved contact sheet"
+    ]
+  },
+  "rejection_checks": [
+    "No can contour, rim, handle, spout, sprinkler rose, water drop, flower decal, shadow, or core color choice should first appear in the final image.",
+    "The watering can must keep the same side-view pose and proportions in every frame.",
+    "The final image must not add hands, plants, garden tools, lettering, background scenery, or extra props absent from the process frames.",
+    "Do not use separately prompted step images that drift from this contact sheet."
+  ]
+}

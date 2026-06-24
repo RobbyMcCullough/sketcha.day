@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>One small drawing prompt and practical step-by-step sketch tutorial every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a garden watering can</title>
+      <link>https://sketcha.day/tutorials/garden-watering-can.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/garden-watering-can.html</guid>
+      <pubDate>Wed, 24 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a garden watering can with a rounded can body, oval top rim, curved handle, long spout, sprinkler rose, water drops, flower decal, and teal colored-pencil shading.</description>
+      <media:content url="https://sketcha.day/assets/garden-watering-can-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a paint palette and brush</title>
       <link>https://sketcha.day/tutorials/paint-palette-and-brush.html</link>

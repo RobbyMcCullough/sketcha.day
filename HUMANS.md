@@ -159,6 +159,17 @@
   unreachable, a step contact-sheet review at
   `/tmp/paint-palette-and-brush-steps.jpg`, and desktop/mobile screenshots saved
   as `/tmp/sketcha-palette-*-qa.png`.
+- Added the garden watering can as the June 24, 2026 / Day 014 tutorial draft
+  from a reviewed six-panel generated contact sheet. Finished image rating:
+  8.7/10.
+- Day 014 QA used `python3 scripts/check-tutorial-readiness.py
+  garden-watering-can`, a step contact-sheet review at
+  `/tmp/garden-watering-can-steps.jpg`, Cove desktop/mobile screenshots saved as
+  `/tmp/sketcha-garden-watering-can-*.png`, and mobile image-by-image lazy-load
+  checks for the library and tutorial.
+- Restored `PROCESS-IMAGE-WORKFLOW.md` and `scripts/crop-contact-sheet.py` from
+  the saved `seo/test-lock` stash because the daily automation prompt requires
+  the contact-sheet-first workflow and cropper.
 
 ### 2026-06-23 — SEO review & on-page fixes (Claude Cowork)
 
