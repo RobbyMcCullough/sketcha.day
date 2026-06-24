@@ -1,10 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-22
-- Agent harness: Codex
-- Harness project/session name: Sketcha.day homepage prototype
+- Date: 2026-06-23
+- Agent harness: Claude Cowork
+- Harness project/session name: SEO review & on-page fixes
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
+- Previous: 2026-06-22 / Codex / Sketcha.day homepage prototype
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -158,3 +159,35 @@
   unreachable, a step contact-sheet review at
   `/tmp/paint-palette-and-brush-steps.jpg`, and desktop/mobile screenshots saved
   as `/tmp/sketcha-palette-*-qa.png`.
+
+### 2026-06-23 — SEO review & on-page fixes (Claude Cowork)
+
+- Ran an SEO review of the site; report saved outside the repo (not deployed).
+  See `AGENTS.md` → "Build Internals & SEO" for the durable agent-facing notes.
+- The generator (`scripts/build-tutorials.mjs`) now also emits `sitemap.xml` and
+  `robots.txt` on every build. After deploy, submit
+  `https://sketcha.day/sitemap.xml` in Google Search Console.
+- Fixed homepage duplication: the homepage kept today's full lesson but its
+  `canonical`/`og:url` now point to the tutorial URL (not `/`), and its HowTo
+  schema was swapped for WebSite + Organization, so the tutorial is the indexed
+  copy.
+- Upgraded JSON-LD to a single `@graph` per page (Organization + WebSite shared
+  by `@id`; tutorials add HowTo with author/publisher/dateModified +
+  BreadcrumbList; library adds ItemList + BreadcrumbList).
+- Promoted `curious-fox` into the `lessons` array as a full generated lesson and
+  removed the `currentLesson` stub, so the build now owns all 13 tutorial pages
+  (it previously built 12 and `curious-fox.html` drifted by hand). Its inline SVG
+  construction guides are preserved via a new per-step `svg` field in the
+  generator.
+- NOTE: `curious-fox` is still listed in `lesson-plans/exceptions.json` and that
+  exception is still correct — it has SVG guides, not raster step frames, and no
+  `lesson-plans/curious-fox.json`. The readiness checks still pass because of the
+  exception. To make it a raster benchmark lesson later, add a process plan +
+  raster step frames and remove the exception.
+- Open follow-ups (not done): clean up the dead per-step `art:` field on the 12
+  raster lessons; parameterize the hard-coded `1254×1254` finished-image
+  dimensions; normalize image `loading`/dimensions; add a visible breadcrumb
+  trail to match the schema.
+- All changes are uncommitted, intended for a feature branch (`main`
+  auto-deploys). Working tree also has a stray `.seo_probe` file (sandbox
+  couldn't delete it) — remove it locally before committing.

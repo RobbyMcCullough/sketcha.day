@@ -9,6 +9,124 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico" sizes="any">
 
 const lessons = [
   {
+    slug: "curious-fox",
+    day: "005",
+    date: "Monday, June 15",
+    isoDate: "2026-06-15",
+    subject: "a curious fox",
+    headlineSubject: "a curious fox",
+    shortSubject: "a fox",
+    lessonTitle: "Let's draw a fox",
+    description: "Learn how to draw a curious fox with a seated pose, alert ears, fluffy tail, and simple pencil-and-color details.",
+    intro: "Build this woodland friend from a few loose shapes, then bring it to life with warm, scribbly color.",
+    time: 25,
+    difficulty: "Easy",
+    accent: "#f3b63c",
+    finished: "fox-finished-v2.jpg",
+    finishedAlt: "Loose graphite and orange-pencil sketch of a seated fox",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Orange, cream, and dark brown colored pencils"],
+    steps: [
+      {
+        name: "Place the head and body",
+        text: "Draw a head circle, then tuck a tilted egg shape behind it for the seated body. Let the shapes overlap.",
+        tip: "Keep it light: These are measuring lines. Draw through the shapes instead of trying to make them perfect.",
+        svg: `<svg viewBox="0 0 720 720" role="img" aria-label="A circle for the fox head and a tilted egg shape for its seated body">
+                <g class="construction">
+                  <circle cx="389" cy="251" r="117"/>
+                  <ellipse cx="438" cy="434" rx="126" ry="160" transform="rotate(-12 438 434)"/>
+                  <path d="M389 134v233M272 251h234"/>
+                </g>
+              </svg>`
+      },
+      {
+        name: "Build the fox face",
+        text: "Add two tall ear triangles. From the lower-left side of the circle, pull out a long wedge for the muzzle.",
+        tip: "Check the angle: The nose lands slightly below the center of the head circle.",
+        svg: `<svg viewBox="0 0 720 720" role="img" aria-label="The same fox construction shapes with triangular ears and a long wedge-shaped muzzle">
+                <g class="construction">
+                  <circle cx="389" cy="251" r="117"/>
+                  <ellipse cx="438" cy="434" rx="126" ry="160" transform="rotate(-12 438 434)"/>
+                  <path d="M389 134v233M272 251h234"/>
+                </g>
+                <g class="drawing">
+                  <path d="M283 172 300 78l70 76M452 162l64-75-7 111"/>
+                  <path d="M288 342 191 346l79-74"/>
+                  <circle cx="198" cy="345" r="11" fill="currentColor"/>
+                </g>
+              </svg>`
+      },
+      {
+        name: "Connect the body",
+        text: "Curve the chest down from the jaw, add two straight front legs, then use the egg shape to guide the rounded back.",
+        tip: "Find the floor: End both front legs at the same height before adding the paws.",
+        svg: `<svg viewBox="0 0 720 720" role="img" aria-label="The same fox pose with a curved chest, two straight front legs, and a rounded back">
+                <g class="construction">
+                  <circle cx="389" cy="251" r="117"/>
+                  <ellipse cx="438" cy="434" rx="126" ry="160" transform="rotate(-12 438 434)"/>
+                  <path d="M389 134v233M272 251h234"/>
+                </g>
+                <g class="drawing">
+                  <path d="M283 172 300 78l70 76M452 162l64-75-7 111"/>
+                  <path d="M288 342 191 346l79-74"/>
+                  <circle cx="198" cy="345" r="11" fill="currentColor"/>
+                  <path d="M290 342c8 46 36 67 70 90 26 18 36 59 40 130"/>
+                  <path d="M433 373c-13 75-5 134 8 189M486 384c-10 70-2 126 13 178"/>
+                  <path d="M509 198c26 31 31 74 14 110-10 22-28 38-50 47"/>
+                  <path d="M511 344c69 19 113 69 111 124"/>
+                  <path d="M400 566h53M479 565h50"/>
+                </g>
+              </svg>`
+      },
+      {
+        name: "Wrap the tail forward",
+        text: "Start at the upper back, swing the line around the haunch, and bring the fluffy tail across both paws.",
+        tip: "Draw both edges: The second curve gives the tail its weight. Keep the tip broad rather than pointy.",
+        svg: `<svg viewBox="0 0 720 720" role="img" aria-label="The same seated fox with one large tail wrapped forward across its paws">
+                <g class="construction faint-construction">
+                  <circle cx="389" cy="251" r="117"/>
+                  <ellipse cx="438" cy="434" rx="126" ry="160" transform="rotate(-12 438 434)"/>
+                </g>
+                <g class="drawing">
+                  <path d="M283 172 300 78l70 76c28-8 56-5 82 8l64-75-7 111c26 31 31 74 14 110-19 40-61 59-105 53-45 1-93-3-130-19l-97 4 79-74c-4-38 1-70 13-100Z"/>
+                  <path d="M290 342c8 46 36 67 70 90 26 18 36 59 40 130"/>
+                  <path d="M433 373c-13 75-5 134 8 189M486 384c-10 70-2 126 13 178"/>
+                  <path class="bold-line" d="M511 344c104 27 144 139 69 194-70 52-255 47-362-6 67-10 154-29 209-59 34-19 31-85 84-129Z"/>
+                  <path d="M245 527c72 3 151-12 185-48M400 566h53M479 565h50"/>
+                  <circle cx="198" cy="345" r="11" fill="currentColor"/>
+                </g>
+              </svg>`
+      },
+      {
+        name: "Choose the lines to keep",
+        text: "Darken the useful contours, then add two simple eyes, the nose, and the white chest shape. Leave some pale guides behind.",
+        tip: "Don't trace everything: A broken, doubled line feels more like a sketch than one perfect outline.",
+        svg: `<svg viewBox="0 0 720 720" role="img" aria-label="The same fox with selected contours darkened and simple facial and chest details added">
+                <g class="construction faint-construction">
+                  <circle cx="389" cy="251" r="117"/>
+                  <ellipse cx="438" cy="434" rx="126" ry="160" transform="rotate(-12 438 434)"/>
+                  <path d="M389 134v233M272 251h234"/>
+                </g>
+                <g class="drawing refined">
+                  <path d="M283 172 300 78l70 76c28-8 56-5 82 8l64-75-7 111c26 31 31 74 14 110-19 40-61 59-105 53-45 1-93-3-130-19l-97 4 79-74c-4-38 1-70 13-100Z"/>
+                  <path d="M290 342c8 46 36 67 70 90 26 18 36 59 40 130M433 373c-13 75-5 134 8 189M486 384c-10 70-2 126 13 178"/>
+                  <path d="M511 344c104 27 144 139 69 194-70 52-255 47-362-6 67-10 154-29 209-59 34-19 31-85 84-129Z"/>
+                  <path d="M245 527c72 3 151-12 185-48M400 566h53M479 565h50"/>
+                  <path d="M405 352c9 17 22 29 43 38M308 262c22-10 43-9 63 2M414 258c21-9 40-6 55 7"/>
+                  <circle cx="337" cy="272" r="8" fill="currentColor"/><circle cx="441" cy="270" r="8" fill="currentColor"/>
+                  <circle cx="198" cy="345" r="11" fill="currentColor"/>
+                  <path class="fur" d="m300 78 18 37m17-20 20 41m99-10 28-35m-12 55 31-33M296 356l-17 16m34-4-13 18m110 18-13 20m118 48 22 8m-51 31 21 11m-91 18 13 18"/>
+                </g>
+              </svg>`
+      },
+      {
+        name: "Scribble in a little color",
+        text: "Loosely hatch orange over the ears, back, and tail. Leave the face, chest, and tail tip mostly paper-white.",
+        tip: "Stop early: White gaps and visible graphite are part of the finished sketch, not mistakes to cover.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "paint-palette-and-brush",
     day: "013",
     date: "Tuesday, June 23",
@@ -610,26 +728,13 @@ const lessons = [
   }
 ];
 
-const currentLesson = {
-  slug: "curious-fox",
-  day: "005",
-  date: "Monday, June 15",
-  isoDate: "2026-06-15",
-  subject: "a curious fox",
-  description: "Learn how to draw a curious fox with a seated pose, alert ears, fluffy tail, and simple pencil-and-color details.",
-  time: 25,
-  difficulty: "Easy",
-  finished: "fox-finished-v2.jpg",
-  finishedAlt: "Loose graphite and orange-pencil sketch of a seated fox"
-};
-
-const archiveLessons = [...lessons, currentLesson]
+const archiveLessons = [...lessons]
   .sort((first, second) => new Date(second.isoDate) - new Date(first.isoDate));
 const latestLesson = archiveLessons[0];
 
 const relatedCards = (currentSlug) => lessons
   .filter(({ slug }) => slug !== currentSlug)
-  .slice(0, 2)
+  .slice(0, 3)
   .map((lesson) => `
     <a class="sketch-card" href="${lesson.slug}.html">
       <div class="card-art"><img src="../assets/${lesson.finished}" alt=""></div>
@@ -654,18 +759,53 @@ const lessonUrl = (lesson) => `${siteUrl}/tutorials/${lesson.slug}.html`;
 const lessonImageUrl = (lesson) => `${siteUrl}/assets/${lesson.finished}`;
 const rssPubDate = (isoDate) => new Date(`${isoDate}T12:00:00-07:00`).toUTCString();
 
+// Shared entity nodes referenced by @id across every page's JSON-LD graph.
+const orgNode = {
+  "@type": "Organization",
+  "@id": `${siteUrl}/#organization`,
+  name: "Sketcha.day",
+  url: `${siteUrl}/`,
+  logo: `${siteUrl}/assets/site-icon.png`
+};
+const siteNode = {
+  "@type": "WebSite",
+  "@id": `${siteUrl}/#website`,
+  name: "Sketcha.day",
+  url: `${siteUrl}/`,
+  description: "One small drawing prompt and practical step-by-step sketch tutorial every day.",
+  publisher: { "@id": `${siteUrl}/#organization` }
+};
+
 const page = (lesson) => {
   const titleSubject = titleCase(lesson.shortSubject.replace(/^a /, ""));
   const schema = {
     "@context": "https://schema.org",
-    "@type": "HowTo",
-    name: `How to Draw a ${titleSubject}`,
-    description: lesson.description,
-    image: `https://sketcha.day/assets/${lesson.finished}`,
-    datePublished: lesson.isoDate,
-    totalTime: `PT${lesson.time}M`,
-    supply: lesson.materials.map((name) => ({ "@type": "HowToSupply", name })),
-    step: lesson.steps.map(({ name, text }) => ({ "@type": "HowToStep", name, text }))
+    "@graph": [
+      orgNode,
+      siteNode,
+      {
+        "@type": "HowTo",
+        "@id": `${lessonUrl(lesson)}#howto`,
+        name: `How to Draw a ${titleSubject}`,
+        description: lesson.description,
+        image: `${siteUrl}/assets/${lesson.finished}`,
+        datePublished: lesson.isoDate,
+        dateModified: lesson.updated || lesson.isoDate,
+        author: { "@id": `${siteUrl}/#organization` },
+        publisher: { "@id": `${siteUrl}/#organization` },
+        totalTime: `PT${lesson.time}M`,
+        supply: lesson.materials.map((name) => ({ "@type": "HowToSupply", name })),
+        step: lesson.steps.map(({ name, text }) => ({ "@type": "HowToStep", name, text }))
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/` },
+          { "@type": "ListItem", position: 2, name: "Sketch library", item: `${siteUrl}/library.html` },
+          { "@type": "ListItem", position: 3, name: `How to draw ${lesson.subject}`, item: lessonUrl(lesson) }
+        ]
+      }
+    ]
   };
 
   const steps = lesson.steps.map((step, index) => `
@@ -675,6 +815,8 @@ const page = (lesson) => {
             <div class="step-art${step.image ? " finished-mini" : ""}">
               ${step.image
                 ? `<img src="../assets/${lesson.finished}" alt="${lesson.finishedAlt}" width="1254" height="1254" loading="lazy">`
+                : step.svg
+                ? step.svg
                 : `<img src="../assets/${lesson.slug}-step-${index + 1}.jpg" alt="${step.name} stage for how to draw ${lesson.shortSubject}" width="627" height="627" loading="lazy">`}
             </div>
             <div class="step-copy">
@@ -760,11 +902,6 @@ ${iconLinks}
     <section class="library related-library" id="related" aria-labelledby="related-title">
       <header class="section-heading library-heading"><div><p class="kicker">Keep the page moving</p><h2 id="related-title">More daily sketches</h2></div><a href="../library.html">Browse the full library <span aria-hidden="true">→</span></a></header>
       <div class="library-grid">${relatedCards(lesson.slug)}
-        <a class="sketch-card" href="curious-fox.html">
-          <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt="" loading="lazy"></div>
-          <p>${currentLesson.time} min · ${currentLesson.difficulty}</p>
-          <h3>How to draw a curious fox</h3>
-        </a>
       </div>
     </section>
   </main>
@@ -812,9 +949,11 @@ const homePage = (lesson) => {
     </section>
 `;
 
+  // Approach B: the homepage keeps today's full lesson, but its canonical/og:url stay
+  // pointed at the tutorial URL (set in page()) so the tutorial is the indexed copy.
+  // We deliberately do NOT rewrite those absolute tutorial URLs to "/" here.
   let html = page(lesson)
     .replace('<body class="archive-tutorial"', '<body class="home-page archive-tutorial"')
-    .replaceAll(`https://sketcha.day/tutorials/${lesson.slug}.html`, "https://sketcha.day/")
     .replaceAll('href="../styles.css"', 'href="styles.css"')
     .replaceAll('src="../script.js"', 'src="script.js"')
     .replaceAll("../assets/", "assets/")
@@ -831,6 +970,17 @@ const homePage = (lesson) => {
       html = html.replaceAll(`href="${item.slug}.html"`, `href="tutorials/${item.slug}.html"`);
     }
   }
+
+  // Swap the inherited HowTo graph for a homepage WebSite + Organization graph.
+  // The HowTo lives on the canonical tutorial page, not the duplicated homepage.
+  const homeSchema = {
+    "@context": "https://schema.org",
+    "@graph": [orgNode, siteNode]
+  };
+  html = html.replace(
+    /<script type="application\/ld\+json">[\s\S]*?<\/script>/,
+    `<script type="application/ld+json">${JSON.stringify(homeSchema, null, 2)}</script>`
+  );
 
   return html;
 };
@@ -851,19 +1001,32 @@ const archiveCard = (lesson, index) => {
 };
 
 const archivePage = () => {
-  const itemList = {
+  const schema = {
     "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: "Sketcha.day Drawing Tutorial Library",
-    numberOfItems: archiveLessons.length,
-    itemListElement: archiveLessons.map((lesson, index) => ({
-      "@type": "ListItem",
-      position: index + 1,
-      name: `How to draw ${lesson.subject}`,
-      url: lesson.slug
-        ? `https://sketcha.day/tutorials/${lesson.slug}.html`
-        : "https://sketcha.day/"
-    }))
+    "@graph": [
+      orgNode,
+      siteNode,
+      {
+        "@type": "ItemList",
+        name: "Sketcha.day Drawing Tutorial Library",
+        numberOfItems: archiveLessons.length,
+        itemListElement: archiveLessons.map((lesson, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: `How to draw ${lesson.subject}`,
+          url: lesson.slug
+            ? `https://sketcha.day/tutorials/${lesson.slug}.html`
+            : "https://sketcha.day/"
+        }))
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/` },
+          { "@type": "ListItem", position: 2, name: "Sketch library", item: `${siteUrl}/library.html` }
+        ]
+      }
+    ]
   };
 
   return `<!doctype html>
@@ -887,7 +1050,7 @@ ${iconLinks}
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script type="application/ld+json">${JSON.stringify(itemList, null, 2)}</script>
+  <script type="application/ld+json">${JSON.stringify(schema, null, 2)}</script>
   <script defer data-domain="sketcha.day" src="https://analytics.robbymccullough.com/js/script.js"></script>
 </head>
 <body class="library-page">
@@ -962,6 +1125,36 @@ ${archiveLessons.map((lesson) => `    <item>
 </rss>
 `;
 
+const sitemapUrls = [
+  { loc: `${siteUrl}/`, lastmod: latestLesson.isoDate, changefreq: "daily", priority: "1.0" },
+  { loc: `${siteUrl}/library.html`, lastmod: latestLesson.isoDate, changefreq: "daily", priority: "0.8" },
+  ...archiveLessons.map((lesson) => ({
+    loc: lessonUrl(lesson),
+    lastmod: lesson.isoDate,
+    changefreq: "monthly",
+    priority: "0.7"
+  }))
+];
+
+const sitemap = () => `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${sitemapUrls.map((url) => `  <url>
+    <loc>${escapeXml(url.loc)}</loc>
+    <lastmod>${url.lastmod}</lastmod>
+    <changefreq>${url.changefreq}</changefreq>
+    <priority>${url.priority}</priority>
+  </url>`).join("\n")}
+</urlset>
+`;
+
+// lab.html stays crawlable so its noindex meta is honored; /drafts/ is unlinked scratch.
+const robots = () => `User-agent: *
+Allow: /
+Disallow: /drafts/
+
+Sitemap: ${siteUrl}/sitemap.xml
+`;
+
 await mkdir(new URL("../tutorials/", import.meta.url), { recursive: true });
 for (const lesson of lessons) {
   await writeFile(new URL(`../tutorials/${lesson.slug}.html`, import.meta.url), page(lesson));
@@ -969,5 +1162,7 @@ for (const lesson of lessons) {
 await writeFile(new URL("../index.html", import.meta.url), homePage(latestLesson));
 await writeFile(new URL("../library.html", import.meta.url), archivePage());
 await writeFile(new URL("../feed.xml", import.meta.url), feed());
+await writeFile(new URL("../sitemap.xml", import.meta.url), sitemap());
+await writeFile(new URL("../robots.txt", import.meta.url), robots());
 
-console.log(`Built ${lessons.length} tutorial pages, the homepage, the tutorial library, and feed.xml.`);
+console.log(`Built ${lessons.length} tutorial pages, the homepage, the tutorial library, feed.xml, sitemap.xml, and robots.txt.`);

@@ -25,60 +25,112 @@
   <link rel="stylesheet" href="../styles.css">
   <script type="application/ld+json">{
   "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Draw a Birdhouse On A Post",
-  "description": "Learn how to draw a birdhouse on a post with a simple house body, pitched roof, round doorway, perch, wood planks, leaves, and colored-pencil shading.",
-  "image": "https://sketcha.day/assets/birdhouse-on-a-post-finished-v1.jpg",
-  "datePublished": "2026-06-21",
-  "totalTime": "PT25M",
-  "supply": [
+  "@graph": [
     {
-      "@type": "HowToSupply",
-      "name": "Graphite pencil"
+      "@type": "Organization",
+      "@id": "https://sketcha.day/#organization",
+      "name": "Sketcha.day",
+      "url": "https://sketcha.day/",
+      "logo": "https://sketcha.day/assets/site-icon.png"
     },
     {
-      "@type": "HowToSupply",
-      "name": "Drawing paper"
+      "@type": "WebSite",
+      "@id": "https://sketcha.day/#website",
+      "name": "Sketcha.day",
+      "url": "https://sketcha.day/",
+      "description": "One small drawing prompt and practical step-by-step sketch tutorial every day.",
+      "publisher": {
+        "@id": "https://sketcha.day/#organization"
+      }
     },
     {
-      "@type": "HowToSupply",
-      "name": "Eraser"
+      "@type": "HowTo",
+      "@id": "https://sketcha.day/tutorials/birdhouse-on-a-post.html#howto",
+      "name": "How to Draw a Birdhouse On A Post",
+      "description": "Learn how to draw a birdhouse on a post with a simple house body, pitched roof, round doorway, perch, wood planks, leaves, and colored-pencil shading.",
+      "image": "https://sketcha.day/assets/birdhouse-on-a-post-finished-v1.jpg",
+      "datePublished": "2026-06-21",
+      "dateModified": "2026-06-21",
+      "author": {
+        "@id": "https://sketcha.day/#organization"
+      },
+      "publisher": {
+        "@id": "https://sketcha.day/#organization"
+      },
+      "totalTime": "PT25M",
+      "supply": [
+        {
+          "@type": "HowToSupply",
+          "name": "Graphite pencil"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Drawing paper"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Eraser"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Optional blue, brown, and green pencils"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Block in the post and house",
+          "text": "Draw a light vertical guide, place a narrow post on it, then set a simple upright rectangle on top for the birdhouse front."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Add the pitched roof",
+          "text": "Cap the rectangle with a triangle, then draw a thick horizontal roof lip where the roof meets the house front."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Place the doorway and perch",
+          "text": "Add a round entrance near the upper center of the front, then draw a short peg directly below it."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Divide the front planks",
+          "text": "Pull a few subtle vertical seams down the birdhouse front and into the roof triangle, stopping at the roof lip and bottom edge."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Add grain, leaves, and color",
+          "text": "Mark small nail dots and wood-grain strokes, grow a few leaf sprigs near the post, then add light blue, brown, and green pencil."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Finish the keeper lines",
+          "text": "Deepen the roof, doorway, perch, post, plank seams, leaves, and cast shadow, clarifying only the shapes already in place."
+        }
+      ]
     },
     {
-      "@type": "HowToSupply",
-      "name": "Optional blue, brown, and green pencils"
-    }
-  ],
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Block in the post and house",
-      "text": "Draw a light vertical guide, place a narrow post on it, then set a simple upright rectangle on top for the birdhouse front."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Add the pitched roof",
-      "text": "Cap the rectangle with a triangle, then draw a thick horizontal roof lip where the roof meets the house front."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Place the doorway and perch",
-      "text": "Add a round entrance near the upper center of the front, then draw a short peg directly below it."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Divide the front planks",
-      "text": "Pull a few subtle vertical seams down the birdhouse front and into the roof triangle, stopping at the roof lip and bottom edge."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Add grain, leaves, and color",
-      "text": "Mark small nail dots and wood-grain strokes, grow a few leaf sprigs near the post, then add light blue, brown, and green pencil."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Finish the keeper lines",
-      "text": "Deepen the roof, doorway, perch, post, plank seams, leaves, and cast shadow, clarifying only the shapes already in place."
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sketcha.day/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sketch library",
+          "item": "https://sketcha.day/library.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to draw a birdhouse on a post",
+          "item": "https://sketcha.day/tutorials/birdhouse-on-a-post.html"
+        }
+      ]
     }
   ]
 }</script>
@@ -208,6 +260,11 @@
     <section class="library related-library" id="related" aria-labelledby="related-title">
       <header class="section-heading library-heading"><div><p class="kicker">Keep the page moving</p><h2 id="related-title">More daily sketches</h2></div><a href="../library.html">Browse the full library <span aria-hidden="true">→</span></a></header>
       <div class="library-grid">
+    <a class="sketch-card" href="curious-fox.html">
+      <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt=""></div>
+      <p>25 min · Easy</p>
+      <h3>How to draw a fox</h3>
+    </a>
     <a class="sketch-card" href="paint-palette-and-brush.html">
       <div class="card-art"><img src="../assets/paint-palette-and-brush-finished-v1.jpg" alt=""></div>
       <p>25 min · Easy-medium</p>
@@ -218,11 +275,6 @@
       <p>25 min · Easy-medium</p>
       <h3>How to draw a pancake stack</h3>
     </a>
-        <a class="sketch-card" href="curious-fox.html">
-          <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt="" loading="lazy"></div>
-          <p>25 min · Easy</p>
-          <h3>How to draw a curious fox</h3>
-        </a>
       </div>
     </section>
   </main>

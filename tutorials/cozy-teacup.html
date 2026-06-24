@@ -25,65 +25,117 @@
   <link rel="stylesheet" href="../styles.css">
   <script type="application/ld+json">{
   "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Draw a Cozy Teacup",
-  "description": "Learn how to draw a cozy teacup with an oval rim, curved handle, saucer, steam, warm tea, and a red heart on the cup.",
-  "image": "https://sketcha.day/assets/cozy-teacup-finished-v3.jpg",
-  "datePublished": "2026-06-17",
-  "totalTime": "PT25M",
-  "supply": [
+  "@graph": [
     {
-      "@type": "HowToSupply",
-      "name": "Graphite pencil"
+      "@type": "Organization",
+      "@id": "https://sketcha.day/#organization",
+      "name": "Sketcha.day",
+      "url": "https://sketcha.day/",
+      "logo": "https://sketcha.day/assets/site-icon.png"
     },
     {
-      "@type": "HowToSupply",
-      "name": "Drawing paper"
+      "@type": "WebSite",
+      "@id": "https://sketcha.day/#website",
+      "name": "Sketcha.day",
+      "url": "https://sketcha.day/",
+      "description": "One small drawing prompt and practical step-by-step sketch tutorial every day.",
+      "publisher": {
+        "@id": "https://sketcha.day/#organization"
+      }
     },
     {
-      "@type": "HowToSupply",
-      "name": "Eraser"
+      "@type": "HowTo",
+      "@id": "https://sketcha.day/tutorials/cozy-teacup.html#howto",
+      "name": "How to Draw a Cozy Teacup",
+      "description": "Learn how to draw a cozy teacup with an oval rim, curved handle, saucer, steam, warm tea, and a red heart on the cup.",
+      "image": "https://sketcha.day/assets/cozy-teacup-finished-v3.jpg",
+      "datePublished": "2026-06-17",
+      "dateModified": "2026-06-17",
+      "author": {
+        "@id": "https://sketcha.day/#organization"
+      },
+      "publisher": {
+        "@id": "https://sketcha.day/#organization"
+      },
+      "totalTime": "PT25M",
+      "supply": [
+        {
+          "@type": "HowToSupply",
+          "name": "Graphite pencil"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Drawing paper"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Eraser"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Optional red, tan, and blue-gray pencils"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Place the guide ovals",
+          "text": "Draw a wide saucer oval near the bottom, then place a smaller cup-rim oval above it. Add a faint center line and light slanted cup sides."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Shape the cup and handle",
+          "text": "Darken the front and back curves of the rim, pull the cup sides down toward a small base, then add a C-shaped handle on the right."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Build the saucer",
+          "text": "Darken the outside saucer oval, then add a smaller inner curve under the cup to show where the cup sits."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Add tea and steam",
+          "text": "Fill the inside of the rim with a warm tea oval, then sketch three loose steam wisps rising above the cup."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Draw the heart and rim stripe",
+          "text": "Place a small red heart on the front of the cup, then add a thin warm stripe following the front rim curve."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Shade the cup and saucer",
+          "text": "Add pale graphite on the cup sides, blue-gray shadow across the saucer, and a soft cast shadow below the plate."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Finish the keeper lines",
+          "text": "Choose the strongest rim, handle, saucer, steam, and heart lines, then add a few short colored-pencil strokes to tie the drawing together."
+        }
+      ]
     },
     {
-      "@type": "HowToSupply",
-      "name": "Optional red, tan, and blue-gray pencils"
-    }
-  ],
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Place the guide ovals",
-      "text": "Draw a wide saucer oval near the bottom, then place a smaller cup-rim oval above it. Add a faint center line and light slanted cup sides."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Shape the cup and handle",
-      "text": "Darken the front and back curves of the rim, pull the cup sides down toward a small base, then add a C-shaped handle on the right."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Build the saucer",
-      "text": "Darken the outside saucer oval, then add a smaller inner curve under the cup to show where the cup sits."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Add tea and steam",
-      "text": "Fill the inside of the rim with a warm tea oval, then sketch three loose steam wisps rising above the cup."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Draw the heart and rim stripe",
-      "text": "Place a small red heart on the front of the cup, then add a thin warm stripe following the front rim curve."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Shade the cup and saucer",
-      "text": "Add pale graphite on the cup sides, blue-gray shadow across the saucer, and a soft cast shadow below the plate."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Finish the keeper lines",
-      "text": "Choose the strongest rim, handle, saucer, steam, and heart lines, then add a few short colored-pencil strokes to tie the drawing together."
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sketcha.day/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sketch library",
+          "item": "https://sketcha.day/library.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to draw a cozy teacup",
+          "item": "https://sketcha.day/tutorials/cozy-teacup.html"
+        }
+      ]
     }
   ]
 }</script>
@@ -225,6 +277,11 @@
     <section class="library related-library" id="related" aria-labelledby="related-title">
       <header class="section-heading library-heading"><div><p class="kicker">Keep the page moving</p><h2 id="related-title">More daily sketches</h2></div><a href="../library.html">Browse the full library <span aria-hidden="true">→</span></a></header>
       <div class="library-grid">
+    <a class="sketch-card" href="curious-fox.html">
+      <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt=""></div>
+      <p>25 min · Easy</p>
+      <h3>How to draw a fox</h3>
+    </a>
     <a class="sketch-card" href="paint-palette-and-brush.html">
       <div class="card-art"><img src="../assets/paint-palette-and-brush-finished-v1.jpg" alt=""></div>
       <p>25 min · Easy-medium</p>
@@ -235,11 +292,6 @@
       <p>25 min · Easy-medium</p>
       <h3>How to draw a pancake stack</h3>
     </a>
-        <a class="sketch-card" href="curious-fox.html">
-          <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt="" loading="lazy"></div>
-          <p>25 min · Easy</p>
-          <h3>How to draw a curious fox</h3>
-        </a>
       </div>
     </section>
   </main>

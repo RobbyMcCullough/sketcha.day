@@ -25,55 +25,107 @@
   <link rel="stylesheet" href="../styles.css">
   <script type="application/ld+json">{
   "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Draw a Sleepy Cat",
-  "description": "Learn how to draw a sleepy curled-up cat in five simple, cumulative sketching steps.",
-  "image": "https://sketcha.day/assets/sleepy-cat-finished-v2.jpg",
-  "datePublished": "2026-06-14",
-  "totalTime": "PT20M",
-  "supply": [
+  "@graph": [
     {
-      "@type": "HowToSupply",
-      "name": "Graphite pencil"
+      "@type": "Organization",
+      "@id": "https://sketcha.day/#organization",
+      "name": "Sketcha.day",
+      "url": "https://sketcha.day/",
+      "logo": "https://sketcha.day/assets/site-icon.png"
     },
     {
-      "@type": "HowToSupply",
-      "name": "Drawing paper"
+      "@type": "WebSite",
+      "@id": "https://sketcha.day/#website",
+      "name": "Sketcha.day",
+      "url": "https://sketcha.day/",
+      "description": "One small drawing prompt and practical step-by-step sketch tutorial every day.",
+      "publisher": {
+        "@id": "https://sketcha.day/#organization"
+      }
     },
     {
-      "@type": "HowToSupply",
-      "name": "Eraser"
+      "@type": "HowTo",
+      "@id": "https://sketcha.day/tutorials/sleepy-cat.html#howto",
+      "name": "How to Draw a Sleepy Cat",
+      "description": "Learn how to draw a sleepy curled-up cat in five simple, cumulative sketching steps.",
+      "image": "https://sketcha.day/assets/sleepy-cat-finished-v2.jpg",
+      "datePublished": "2026-06-14",
+      "dateModified": "2026-06-14",
+      "author": {
+        "@id": "https://sketcha.day/#organization"
+      },
+      "publisher": {
+        "@id": "https://sketcha.day/#organization"
+      },
+      "totalTime": "PT20M",
+      "supply": [
+        {
+          "@type": "HowToSupply",
+          "name": "Graphite pencil"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Drawing paper"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Eraser"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Optional blue pencil"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Place two soft shapes",
+          "text": "Draw a wide oval for the curled body and overlap it with a smaller circle for the head."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Add the ears and face",
+          "text": "Set two triangles on the head circle. Use two shallow curves for closed eyes and a tiny center line for the nose."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Find the curled outline",
+          "text": "Follow the oval around the back and belly. Join it to the cheeks, leaving a small tucked-paw bump underneath."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Wrap the tail around",
+          "text": "Start behind the body, loop the tail around the front, and let its top edge cross the tucked paws."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Darken and add blue",
+          "text": "Choose the contours you want to keep, then shade a few cool blue strokes along the body and tail."
+        }
+      ]
     },
     {
-      "@type": "HowToSupply",
-      "name": "Optional blue pencil"
-    }
-  ],
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Place two soft shapes",
-      "text": "Draw a wide oval for the curled body and overlap it with a smaller circle for the head."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Add the ears and face",
-      "text": "Set two triangles on the head circle. Use two shallow curves for closed eyes and a tiny center line for the nose."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Find the curled outline",
-      "text": "Follow the oval around the back and belly. Join it to the cheeks, leaving a small tucked-paw bump underneath."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Wrap the tail around",
-      "text": "Start behind the body, loop the tail around the front, and let its top edge cross the tucked paws."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Darken and add blue",
-      "text": "Choose the contours you want to keep, then shade a few cool blue strokes along the body and tail."
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sketcha.day/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sketch library",
+          "item": "https://sketcha.day/library.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to draw a sleepy cat",
+          "item": "https://sketcha.day/tutorials/sleepy-cat.html"
+        }
+      ]
     }
   ]
 }</script>
@@ -191,6 +243,11 @@
     <section class="library related-library" id="related" aria-labelledby="related-title">
       <header class="section-heading library-heading"><div><p class="kicker">Keep the page moving</p><h2 id="related-title">More daily sketches</h2></div><a href="../library.html">Browse the full library <span aria-hidden="true">→</span></a></header>
       <div class="library-grid">
+    <a class="sketch-card" href="curious-fox.html">
+      <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt=""></div>
+      <p>25 min · Easy</p>
+      <h3>How to draw a fox</h3>
+    </a>
     <a class="sketch-card" href="paint-palette-and-brush.html">
       <div class="card-art"><img src="../assets/paint-palette-and-brush-finished-v1.jpg" alt=""></div>
       <p>25 min · Easy-medium</p>
@@ -201,11 +258,6 @@
       <p>25 min · Easy-medium</p>
       <h3>How to draw a pancake stack</h3>
     </a>
-        <a class="sketch-card" href="curious-fox.html">
-          <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt="" loading="lazy"></div>
-          <p>25 min · Easy</p>
-          <h3>How to draw a curious fox</h3>
-        </a>
       </div>
     </section>
   </main>

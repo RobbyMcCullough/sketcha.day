@@ -25,60 +25,112 @@
   <link rel="stylesheet" href="../styles.css">
   <script type="application/ld+json">{
   "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Draw a Camping Lantern",
-  "description": "Learn how to draw a camping lantern with a rounded base, glass globe, crossed wire guard, vent cap, side supports, handle, and warm glow.",
-  "image": "https://sketcha.day/assets/camping-lantern-finished-v2.jpg",
-  "datePublished": "2026-06-19",
-  "totalTime": "PT30M",
-  "supply": [
+  "@graph": [
     {
-      "@type": "HowToSupply",
-      "name": "Graphite pencil"
+      "@type": "Organization",
+      "@id": "https://sketcha.day/#organization",
+      "name": "Sketcha.day",
+      "url": "https://sketcha.day/",
+      "logo": "https://sketcha.day/assets/site-icon.png"
     },
     {
-      "@type": "HowToSupply",
-      "name": "Drawing paper"
+      "@type": "WebSite",
+      "@id": "https://sketcha.day/#website",
+      "name": "Sketcha.day",
+      "url": "https://sketcha.day/",
+      "description": "One small drawing prompt and practical step-by-step sketch tutorial every day.",
+      "publisher": {
+        "@id": "https://sketcha.day/#organization"
+      }
     },
     {
-      "@type": "HowToSupply",
-      "name": "Eraser"
+      "@type": "HowTo",
+      "@id": "https://sketcha.day/tutorials/camping-lantern.html#howto",
+      "name": "How to Draw a Camping Lantern",
+      "description": "Learn how to draw a camping lantern with a rounded base, glass globe, crossed wire guard, vent cap, side supports, handle, and warm glow.",
+      "image": "https://sketcha.day/assets/camping-lantern-finished-v2.jpg",
+      "datePublished": "2026-06-19",
+      "dateModified": "2026-06-19",
+      "author": {
+        "@id": "https://sketcha.day/#organization"
+      },
+      "publisher": {
+        "@id": "https://sketcha.day/#organization"
+      },
+      "totalTime": "PT30M",
+      "supply": [
+        {
+          "@type": "HowToSupply",
+          "name": "Graphite pencil"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Drawing paper"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Eraser"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Optional teal, gray, and yellow pencils"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Block in the base",
+          "text": "Draw a wide rounded cylinder near the bottom, then add a small shelf on top, one round control knob in front, and a smaller cap on the right."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Add the globe and wire guard",
+          "text": "Place a tall rounded globe above the base, set a small candle cup inside it, then cross two gentle diagonal guard wires in front."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Build the vent cap",
+          "text": "Stack a shallow band and a domed cap above the globe, then add a row of small vent holes and a tiny knob on top."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Raise the side supports",
+          "text": "Draw dark side rails from the base up toward the cap, adding small ring joints where the rails connect."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Curve the handle and add color",
+          "text": "Loop a tall carrying handle over the lantern, add tiny spark marks, then shade the metal with teal and the glass with pale yellow."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Finish the keeper lines",
+          "text": "Choose the strongest edges on the base, cap, rails, handle, and wire guard, then deepen only the shadows already in place."
+        }
+      ]
     },
     {
-      "@type": "HowToSupply",
-      "name": "Optional teal, gray, and yellow pencils"
-    }
-  ],
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Block in the base",
-      "text": "Draw a wide rounded cylinder near the bottom, then add a small shelf on top, one round control knob in front, and a smaller cap on the right."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Add the globe and wire guard",
-      "text": "Place a tall rounded globe above the base, set a small candle cup inside it, then cross two gentle diagonal guard wires in front."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Build the vent cap",
-      "text": "Stack a shallow band and a domed cap above the globe, then add a row of small vent holes and a tiny knob on top."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Raise the side supports",
-      "text": "Draw dark side rails from the base up toward the cap, adding small ring joints where the rails connect."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Curve the handle and add color",
-      "text": "Loop a tall carrying handle over the lantern, add tiny spark marks, then shade the metal with teal and the glass with pale yellow."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Finish the keeper lines",
-      "text": "Choose the strongest edges on the base, cap, rails, handle, and wire guard, then deepen only the shadows already in place."
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sketcha.day/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sketch library",
+          "item": "https://sketcha.day/library.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to draw a camping lantern",
+          "item": "https://sketcha.day/tutorials/camping-lantern.html"
+        }
+      ]
     }
   ]
 }</script>
@@ -208,6 +260,11 @@
     <section class="library related-library" id="related" aria-labelledby="related-title">
       <header class="section-heading library-heading"><div><p class="kicker">Keep the page moving</p><h2 id="related-title">More daily sketches</h2></div><a href="../library.html">Browse the full library <span aria-hidden="true">→</span></a></header>
       <div class="library-grid">
+    <a class="sketch-card" href="curious-fox.html">
+      <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt=""></div>
+      <p>25 min · Easy</p>
+      <h3>How to draw a fox</h3>
+    </a>
     <a class="sketch-card" href="paint-palette-and-brush.html">
       <div class="card-art"><img src="../assets/paint-palette-and-brush-finished-v1.jpg" alt=""></div>
       <p>25 min · Easy-medium</p>
@@ -218,11 +275,6 @@
       <p>25 min · Easy-medium</p>
       <h3>How to draw a pancake stack</h3>
     </a>
-        <a class="sketch-card" href="curious-fox.html">
-          <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt="" loading="lazy"></div>
-          <p>25 min · Easy</p>
-          <h3>How to draw a curious fox</h3>
-        </a>
       </div>
     </section>
   </main>

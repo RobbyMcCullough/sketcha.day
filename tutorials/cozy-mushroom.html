@@ -25,55 +25,107 @@
   <link rel="stylesheet" href="../styles.css">
   <script type="application/ld+json">{
   "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Draw a Cozy Mushroom",
-  "description": "Learn how to draw a rounded mushroom with a sturdy stem in five approachable sketching steps.",
-  "image": "https://sketcha.day/assets/cozy-mushroom-finished-v2.jpg",
-  "datePublished": "2026-06-12",
-  "totalTime": "PT25M",
-  "supply": [
+  "@graph": [
     {
-      "@type": "HowToSupply",
-      "name": "Graphite pencil"
+      "@type": "Organization",
+      "@id": "https://sketcha.day/#organization",
+      "name": "Sketcha.day",
+      "url": "https://sketcha.day/",
+      "logo": "https://sketcha.day/assets/site-icon.png"
     },
     {
-      "@type": "HowToSupply",
-      "name": "Drawing paper"
+      "@type": "WebSite",
+      "@id": "https://sketcha.day/#website",
+      "name": "Sketcha.day",
+      "url": "https://sketcha.day/",
+      "description": "One small drawing prompt and practical step-by-step sketch tutorial every day.",
+      "publisher": {
+        "@id": "https://sketcha.day/#organization"
+      }
     },
     {
-      "@type": "HowToSupply",
-      "name": "Eraser"
+      "@type": "HowTo",
+      "@id": "https://sketcha.day/tutorials/cozy-mushroom.html#howto",
+      "name": "How to Draw a Cozy Mushroom",
+      "description": "Learn how to draw a rounded mushroom with a sturdy stem in five approachable sketching steps.",
+      "image": "https://sketcha.day/assets/cozy-mushroom-finished-v2.jpg",
+      "datePublished": "2026-06-12",
+      "dateModified": "2026-06-12",
+      "author": {
+        "@id": "https://sketcha.day/#organization"
+      },
+      "publisher": {
+        "@id": "https://sketcha.day/#organization"
+      },
+      "totalTime": "PT25M",
+      "supply": [
+        {
+          "@type": "HowToSupply",
+          "name": "Graphite pencil"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Drawing paper"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Eraser"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Optional pink pencil"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Set the cap and stem",
+          "text": "Draw a wide oval for the cap and a tall rounded rectangle underneath for the stem."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Shape the cap",
+          "text": "Use the top half of the oval to draw a broad dome. Add a shallow curve across the bottom edge."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Flare the stem",
+          "text": "Curve both sides of the stem outward near the bottom, then add a low mound where it meets the ground."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Add spots and folds",
+          "text": "Scatter three small cap spots, then draw a few short folds beneath the cap and across the stem."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Shade the rosy cap",
+          "text": "Darken the useful contour and add loose pink pencil across the cap, leaving uneven white gaps."
+        }
+      ]
     },
     {
-      "@type": "HowToSupply",
-      "name": "Optional pink pencil"
-    }
-  ],
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Set the cap and stem",
-      "text": "Draw a wide oval for the cap and a tall rounded rectangle underneath for the stem."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Shape the cap",
-      "text": "Use the top half of the oval to draw a broad dome. Add a shallow curve across the bottom edge."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Flare the stem",
-      "text": "Curve both sides of the stem outward near the bottom, then add a low mound where it meets the ground."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Add spots and folds",
-      "text": "Scatter three small cap spots, then draw a few short folds beneath the cap and across the stem."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Shade the rosy cap",
-      "text": "Darken the useful contour and add loose pink pencil across the cap, leaving uneven white gaps."
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sketcha.day/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sketch library",
+          "item": "https://sketcha.day/library.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to draw a cozy mushroom",
+          "item": "https://sketcha.day/tutorials/cozy-mushroom.html"
+        }
+      ]
     }
   ]
 }</script>
@@ -191,6 +243,11 @@
     <section class="library related-library" id="related" aria-labelledby="related-title">
       <header class="section-heading library-heading"><div><p class="kicker">Keep the page moving</p><h2 id="related-title">More daily sketches</h2></div><a href="../library.html">Browse the full library <span aria-hidden="true">→</span></a></header>
       <div class="library-grid">
+    <a class="sketch-card" href="curious-fox.html">
+      <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt=""></div>
+      <p>25 min · Easy</p>
+      <h3>How to draw a fox</h3>
+    </a>
     <a class="sketch-card" href="paint-palette-and-brush.html">
       <div class="card-art"><img src="../assets/paint-palette-and-brush-finished-v1.jpg" alt=""></div>
       <p>25 min · Easy-medium</p>
@@ -201,11 +258,6 @@
       <p>25 min · Easy-medium</p>
       <h3>How to draw a pancake stack</h3>
     </a>
-        <a class="sketch-card" href="curious-fox.html">
-          <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt="" loading="lazy"></div>
-          <p>25 min · Easy</p>
-          <h3>How to draw a curious fox</h3>
-        </a>
       </div>
     </section>
   </main>

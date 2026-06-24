@@ -25,60 +25,112 @@
   <link rel="stylesheet" href="../styles.css">
   <script type="application/ld+json">{
   "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Draw a Pancake Stack",
-  "description": "Learn how to draw a stack of pancakes with three soft layers, a plate, butter, syrup drips, berries, crumb texture, and warm colored-pencil shading.",
-  "image": "https://sketcha.day/assets/stack-of-pancakes-finished-v1.jpg",
-  "datePublished": "2026-06-22",
-  "totalTime": "PT25M",
-  "supply": [
+  "@graph": [
     {
-      "@type": "HowToSupply",
-      "name": "Graphite pencil"
+      "@type": "Organization",
+      "@id": "https://sketcha.day/#organization",
+      "name": "Sketcha.day",
+      "url": "https://sketcha.day/",
+      "logo": "https://sketcha.day/assets/site-icon.png"
     },
     {
-      "@type": "HowToSupply",
-      "name": "Drawing paper"
+      "@type": "WebSite",
+      "@id": "https://sketcha.day/#website",
+      "name": "Sketcha.day",
+      "url": "https://sketcha.day/",
+      "description": "One small drawing prompt and practical step-by-step sketch tutorial every day.",
+      "publisher": {
+        "@id": "https://sketcha.day/#organization"
+      }
     },
     {
-      "@type": "HowToSupply",
-      "name": "Eraser"
+      "@type": "HowTo",
+      "@id": "https://sketcha.day/tutorials/stack-of-pancakes.html#howto",
+      "name": "How to Draw a Pancake Stack",
+      "description": "Learn how to draw a stack of pancakes with three soft layers, a plate, butter, syrup drips, berries, crumb texture, and warm colored-pencil shading.",
+      "image": "https://sketcha.day/assets/stack-of-pancakes-finished-v1.jpg",
+      "datePublished": "2026-06-22",
+      "dateModified": "2026-06-22",
+      "author": {
+        "@id": "https://sketcha.day/#organization"
+      },
+      "publisher": {
+        "@id": "https://sketcha.day/#organization"
+      },
+      "totalTime": "PT25M",
+      "supply": [
+        {
+          "@type": "HowToSupply",
+          "name": "Graphite pencil"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Drawing paper"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Eraser"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Optional tan, golden yellow, brown, and blue-purple pencils"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Place the pancake guides",
+          "text": "Draw three light horizontal ellipses stacked close together, then add a faint center line to keep the pancakes lined up."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Shape the cakes and plate",
+          "text": "Turn each guide into an uneven pancake edge, then add a shallow plate oval underneath the bottom layer."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Add butter and syrup",
+          "text": "Set a small tilted square on the top pancake, draw a loose syrup puddle around it, then pull two drips down the front."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Scatter a few berries",
+          "text": "Place a small group of round berries on each side of the plate, keeping them tucked low so the pancake stack stays dominant."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Add spots, color, and shadow",
+          "text": "Dot the pancakes with freckles and crumb marks, add warm tan and golden pencil, color the berries, and shade lightly under the plate."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Finish the keeper lines",
+          "text": "Deepen the strongest pancake edges, plate rim, butter, syrup drips, berries, texture marks, and cast shadow without adding new toppings."
+        }
+      ]
     },
     {
-      "@type": "HowToSupply",
-      "name": "Optional tan, golden yellow, brown, and blue-purple pencils"
-    }
-  ],
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Place the pancake guides",
-      "text": "Draw three light horizontal ellipses stacked close together, then add a faint center line to keep the pancakes lined up."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Shape the cakes and plate",
-      "text": "Turn each guide into an uneven pancake edge, then add a shallow plate oval underneath the bottom layer."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Add butter and syrup",
-      "text": "Set a small tilted square on the top pancake, draw a loose syrup puddle around it, then pull two drips down the front."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Scatter a few berries",
-      "text": "Place a small group of round berries on each side of the plate, keeping them tucked low so the pancake stack stays dominant."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Add spots, color, and shadow",
-      "text": "Dot the pancakes with freckles and crumb marks, add warm tan and golden pencil, color the berries, and shade lightly under the plate."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Finish the keeper lines",
-      "text": "Deepen the strongest pancake edges, plate rim, butter, syrup drips, berries, texture marks, and cast shadow without adding new toppings."
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sketcha.day/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sketch library",
+          "item": "https://sketcha.day/library.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to draw a stack of pancakes",
+          "item": "https://sketcha.day/tutorials/stack-of-pancakes.html"
+        }
+      ]
     }
   ]
 }</script>
@@ -208,6 +260,11 @@
     <section class="library related-library" id="related" aria-labelledby="related-title">
       <header class="section-heading library-heading"><div><p class="kicker">Keep the page moving</p><h2 id="related-title">More daily sketches</h2></div><a href="../library.html">Browse the full library <span aria-hidden="true">→</span></a></header>
       <div class="library-grid">
+    <a class="sketch-card" href="curious-fox.html">
+      <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt=""></div>
+      <p>25 min · Easy</p>
+      <h3>How to draw a fox</h3>
+    </a>
     <a class="sketch-card" href="paint-palette-and-brush.html">
       <div class="card-art"><img src="../assets/paint-palette-and-brush-finished-v1.jpg" alt=""></div>
       <p>25 min · Easy-medium</p>
@@ -218,11 +275,6 @@
       <p>25 min · Easy-medium</p>
       <h3>How to draw a birdhouse on a post</h3>
     </a>
-        <a class="sketch-card" href="curious-fox.html">
-          <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt="" loading="lazy"></div>
-          <p>25 min · Easy</p>
-          <h3>How to draw a curious fox</h3>
-        </a>
       </div>
     </section>
   </main>

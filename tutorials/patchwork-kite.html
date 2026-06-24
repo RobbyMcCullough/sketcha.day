@@ -25,60 +25,112 @@
   <link rel="stylesheet" href="../styles.css">
   <script type="application/ld+json">{
   "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Draw a Patchwork Kite",
-  "description": "Learn how to draw a patchwork kite in the wind with a diamond body, fabric panels, a curving string, tail bows, clouds, and breeze lines.",
-  "image": "https://sketcha.day/assets/patchwork-kite-finished-v2.jpg",
-  "datePublished": "2026-06-18",
-  "totalTime": "PT25M",
-  "supply": [
+  "@graph": [
     {
-      "@type": "HowToSupply",
-      "name": "Graphite pencil"
+      "@type": "Organization",
+      "@id": "https://sketcha.day/#organization",
+      "name": "Sketcha.day",
+      "url": "https://sketcha.day/",
+      "logo": "https://sketcha.day/assets/site-icon.png"
     },
     {
-      "@type": "HowToSupply",
-      "name": "Drawing paper"
+      "@type": "WebSite",
+      "@id": "https://sketcha.day/#website",
+      "name": "Sketcha.day",
+      "url": "https://sketcha.day/",
+      "description": "One small drawing prompt and practical step-by-step sketch tutorial every day.",
+      "publisher": {
+        "@id": "https://sketcha.day/#organization"
+      }
     },
     {
-      "@type": "HowToSupply",
-      "name": "Eraser"
+      "@type": "HowTo",
+      "@id": "https://sketcha.day/tutorials/patchwork-kite.html#howto",
+      "name": "How to Draw a Patchwork Kite",
+      "description": "Learn how to draw a patchwork kite in the wind with a diamond body, fabric panels, a curving string, tail bows, clouds, and breeze lines.",
+      "image": "https://sketcha.day/assets/patchwork-kite-finished-v2.jpg",
+      "datePublished": "2026-06-18",
+      "dateModified": "2026-06-18",
+      "author": {
+        "@id": "https://sketcha.day/#organization"
+      },
+      "publisher": {
+        "@id": "https://sketcha.day/#organization"
+      },
+      "totalTime": "PT25M",
+      "supply": [
+        {
+          "@type": "HowToSupply",
+          "name": "Graphite pencil"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Drawing paper"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Eraser"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Optional red, teal, blue, and yellow pencils"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Place the diamond and spars",
+          "text": "Draw a tall diamond for the kite body, then add one vertical line from top point to bottom point and one gentle cross line from side point to side point."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Divide the patchwork panels",
+          "text": "Add a few short seam lines inside the diamond: one angled seam near the top, a smaller rectangle-like patch in the middle, and two lower triangle seams."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Add the string and bows",
+          "text": "Pull a loose S-curve string from the bottom point, then place three bow ties along the string with tiny knots and triangle wings."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Sketch the breeze",
+          "text": "Add two light wind swirls around the kite and a couple of small puffy clouds, keeping them softer than the kite outline."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Color the kite and tail",
+          "text": "Shade each fabric panel with loose colored-pencil strokes, then add red, blue, and yellow to the bow ties on the string."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Finish the keeper lines",
+          "text": "Choose the strongest kite edges, seam lines, bow knots, wind swirls, and cloud curves, then add a final pass of pencil texture."
+        }
+      ]
     },
     {
-      "@type": "HowToSupply",
-      "name": "Optional red, teal, blue, and yellow pencils"
-    }
-  ],
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Place the diamond and spars",
-      "text": "Draw a tall diamond for the kite body, then add one vertical line from top point to bottom point and one gentle cross line from side point to side point."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Divide the patchwork panels",
-      "text": "Add a few short seam lines inside the diamond: one angled seam near the top, a smaller rectangle-like patch in the middle, and two lower triangle seams."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Add the string and bows",
-      "text": "Pull a loose S-curve string from the bottom point, then place three bow ties along the string with tiny knots and triangle wings."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Sketch the breeze",
-      "text": "Add two light wind swirls around the kite and a couple of small puffy clouds, keeping them softer than the kite outline."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Color the kite and tail",
-      "text": "Shade each fabric panel with loose colored-pencil strokes, then add red, blue, and yellow to the bow ties on the string."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Finish the keeper lines",
-      "text": "Choose the strongest kite edges, seam lines, bow knots, wind swirls, and cloud curves, then add a final pass of pencil texture."
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sketcha.day/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sketch library",
+          "item": "https://sketcha.day/library.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to draw a patchwork kite in the wind",
+          "item": "https://sketcha.day/tutorials/patchwork-kite.html"
+        }
+      ]
     }
   ]
 }</script>
@@ -208,6 +260,11 @@
     <section class="library related-library" id="related" aria-labelledby="related-title">
       <header class="section-heading library-heading"><div><p class="kicker">Keep the page moving</p><h2 id="related-title">More daily sketches</h2></div><a href="../library.html">Browse the full library <span aria-hidden="true">→</span></a></header>
       <div class="library-grid">
+    <a class="sketch-card" href="curious-fox.html">
+      <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt=""></div>
+      <p>25 min · Easy</p>
+      <h3>How to draw a fox</h3>
+    </a>
     <a class="sketch-card" href="paint-palette-and-brush.html">
       <div class="card-art"><img src="../assets/paint-palette-and-brush-finished-v1.jpg" alt=""></div>
       <p>25 min · Easy-medium</p>
@@ -218,11 +275,6 @@
       <p>25 min · Easy-medium</p>
       <h3>How to draw a pancake stack</h3>
     </a>
-        <a class="sketch-card" href="curious-fox.html">
-          <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt="" loading="lazy"></div>
-          <p>25 min · Easy</p>
-          <h3>How to draw a curious fox</h3>
-        </a>
       </div>
     </section>
   </main>

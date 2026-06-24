@@ -25,60 +25,112 @@
   <link rel="stylesheet" href="../styles.css">
   <script type="application/ld+json">{
   "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Draw a Paint Palette And Brush",
-  "description": "Learn how to draw a paint palette and brush with a tilted palette shape, thumb hole, diagonal brush, paint dabs, soft color, and sketchy shadow.",
-  "image": "https://sketcha.day/assets/paint-palette-and-brush-finished-v1.jpg",
-  "datePublished": "2026-06-23",
-  "totalTime": "PT25M",
-  "supply": [
+  "@graph": [
     {
-      "@type": "HowToSupply",
-      "name": "Graphite pencil"
+      "@type": "Organization",
+      "@id": "https://sketcha.day/#organization",
+      "name": "Sketcha.day",
+      "url": "https://sketcha.day/",
+      "logo": "https://sketcha.day/assets/site-icon.png"
     },
     {
-      "@type": "HowToSupply",
-      "name": "Drawing paper"
+      "@type": "WebSite",
+      "@id": "https://sketcha.day/#website",
+      "name": "Sketcha.day",
+      "url": "https://sketcha.day/",
+      "description": "One small drawing prompt and practical step-by-step sketch tutorial every day.",
+      "publisher": {
+        "@id": "https://sketcha.day/#organization"
+      }
     },
     {
-      "@type": "HowToSupply",
-      "name": "Eraser"
+      "@type": "HowTo",
+      "@id": "https://sketcha.day/tutorials/paint-palette-and-brush.html#howto",
+      "name": "How to Draw a Paint Palette And Brush",
+      "description": "Learn how to draw a paint palette and brush with a tilted palette shape, thumb hole, diagonal brush, paint dabs, soft color, and sketchy shadow.",
+      "image": "https://sketcha.day/assets/paint-palette-and-brush-finished-v1.jpg",
+      "datePublished": "2026-06-23",
+      "dateModified": "2026-06-23",
+      "author": {
+        "@id": "https://sketcha.day/#organization"
+      },
+      "publisher": {
+        "@id": "https://sketcha.day/#organization"
+      },
+      "totalTime": "PT25M",
+      "supply": [
+        {
+          "@type": "HowToSupply",
+          "name": "Graphite pencil"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Drawing paper"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Eraser"
+        },
+        {
+          "@type": "HowToSupply",
+          "name": "Optional yellow, orange, green, blue, red, and brown pencils"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Place the big guides",
+          "text": "Draw a light tilted oval for the palette, then pull one diagonal guide line across it where the brush will sit."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Shape the palette",
+          "text": "Turn the oval into a handmade palette outline with a small inward bite on one side, then add a rounded thumb hole near the upper area."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Lay in the brush",
+          "text": "Build the brush along the diagonal guide with a narrow handle, a short metal ferrule, and a pointed bristle shape at the lower end."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Add the paint dabs",
+          "text": "Place several uneven paint blobs around the palette, keeping them clear of the thumb hole and leaving the brush on top."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Add color and shadow",
+          "text": "Shade the paint dabs with loose colored pencil, warm the brush tip, and add a pale graphite shadow under the palette."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Finish the keeper lines",
+          "text": "Deepen the strongest palette edge, thumb hole, brush, paint dab outlines, color texture, and cast shadow without adding new tools or props."
+        }
+      ]
     },
     {
-      "@type": "HowToSupply",
-      "name": "Optional yellow, orange, green, blue, red, and brown pencils"
-    }
-  ],
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Place the big guides",
-      "text": "Draw a light tilted oval for the palette, then pull one diagonal guide line across it where the brush will sit."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Shape the palette",
-      "text": "Turn the oval into a handmade palette outline with a small inward bite on one side, then add a rounded thumb hole near the upper area."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Lay in the brush",
-      "text": "Build the brush along the diagonal guide with a narrow handle, a short metal ferrule, and a pointed bristle shape at the lower end."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Add the paint dabs",
-      "text": "Place several uneven paint blobs around the palette, keeping them clear of the thumb hole and leaving the brush on top."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Add color and shadow",
-      "text": "Shade the paint dabs with loose colored pencil, warm the brush tip, and add a pale graphite shadow under the palette."
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Finish the keeper lines",
-      "text": "Deepen the strongest palette edge, thumb hole, brush, paint dab outlines, color texture, and cast shadow without adding new tools or props."
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://sketcha.day/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sketch library",
+          "item": "https://sketcha.day/library.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to draw a paint palette and brush",
+          "item": "https://sketcha.day/tutorials/paint-palette-and-brush.html"
+        }
+      ]
     }
   ]
 }</script>
@@ -208,6 +260,11 @@
     <section class="library related-library" id="related" aria-labelledby="related-title">
       <header class="section-heading library-heading"><div><p class="kicker">Keep the page moving</p><h2 id="related-title">More daily sketches</h2></div><a href="../library.html">Browse the full library <span aria-hidden="true">→</span></a></header>
       <div class="library-grid">
+    <a class="sketch-card" href="curious-fox.html">
+      <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt=""></div>
+      <p>25 min · Easy</p>
+      <h3>How to draw a fox</h3>
+    </a>
     <a class="sketch-card" href="stack-of-pancakes.html">
       <div class="card-art"><img src="../assets/stack-of-pancakes-finished-v1.jpg" alt=""></div>
       <p>25 min · Easy-medium</p>
@@ -218,11 +275,6 @@
       <p>25 min · Easy-medium</p>
       <h3>How to draw a birdhouse on a post</h3>
     </a>
-        <a class="sketch-card" href="curious-fox.html">
-          <div class="card-art"><img src="../assets/fox-finished-v2.jpg" alt="" loading="lazy"></div>
-          <p>25 min · Easy</p>
-          <h3>How to draw a curious fox</h3>
-        </a>
       </div>
     </section>
   </main>

@@ -66,6 +66,19 @@ def visible_step_count(path: Path) -> int:
     return text.count('<li class="step-card')
 
 
+def json_ld_nodes(items: list[dict]) -> list[dict]:
+    nodes: list[dict] = []
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        graph = item.get("@graph")
+        if isinstance(graph, list):
+            nodes.extend(node for node in graph if isinstance(node, dict))
+        else:
+            nodes.append(item)
+    return nodes
+
+
 def check_json_and_privacy(slug: str) -> bool:
     ok = True
     pages = [
@@ -80,18 +93,18 @@ def check_json_and_privacy(slug: str) -> bool:
         if missing_alt:
             ok = False
             print(f"FAIL {page.relative_to(ROOT)} missing alt attributes: {missing_alt}")
-        try:
-            types = [item.get("@type") for item in parser.json_ld]
-        except AttributeError:
+        nodes = json_ld_nodes(parser.json_ld)
+        if not nodes:
             ok = False
-            print(f"FAIL {page.relative_to(ROOT)} JSON-LD is not an object")
+            print(f"FAIL {page.relative_to(ROOT)} JSON-LD has no object nodes")
             continue
+        types = [item.get("@type") for item in nodes]
         print(f"{page.relative_to(ROOT)} JSON-LD types: {types}")
 
     tutorial = ROOT / "tutorials" / f"{slug}.html"
     tutorial_parser = parse_page(tutorial)
     howto = next(
-        (item for item in tutorial_parser.json_ld if item.get("@type") == "HowTo"),
+        (item for item in json_ld_nodes(tutorial_parser.json_ld) if item.get("@type") == "HowTo"),
         None,
     )
     if howto is None:
