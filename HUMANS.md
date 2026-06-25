@@ -183,9 +183,13 @@
   uses the same generator/readiness shape as Sketcha.day, but its daily lessons
   should be thicker-stroke, colorful, marker-first cartoons/comic doodles.
 - Seeded Doodle.day with the hot rod marker flames draft as
-  `hot-rod-marker-flames`, Day 001 / June 24, 2026. Doodle.day is a local-only
-  prototype for now; commit locally but do not push until it has a real remote
-  and deploy path.
+  `hot-rod-marker-flames`, Day 001 / June 24, 2026.
+- Doodle.day now has its own public GitHub repo:
+  `https://github.com/RobbyMcCullough/doodle.day`. The local Cove URL
+  `https://doodle.localhost/` is configured.
+- Doodle.day has a Cloudflare Pages-oriented deploy workflow in its repo, but
+  routine daily Doodle pushes should wait until the Cloudflare Pages project,
+  custom domain, and GitHub secrets are confirmed working.
 - The `sketcha-day-daily-lesson-draft` automation now covers two daily tracks:
   one Sketcha.day pencil/sketch lesson and one Doodle.day marker/comic doodle
   lesson, each in its own repository/context.
