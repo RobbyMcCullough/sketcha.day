@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-23
-- Agent harness: Claude Cowork
-- Harness project/session name: SEO review & on-page fixes
+- Date: 2026-06-24
+- Agent harness: Codex
+- Harness project/session name: Doodle.day sister-site setup
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-06-22 / Codex / Sketcha.day homepage prototype
+- Previous: 2026-06-23 / Claude Cowork / SEO review & on-page fixes
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -174,6 +174,21 @@
   automated quality gates pass. No separate editorial review is needed for normal
   daily lessons, but failed image/process/readiness checks should still stop the
   run instead of pushing.
+- Created a private marker-doodle style test at `drafts/marker-flames/` for "how
+  to draw hot rod marker flames." It uses generated raster contact-sheet art,
+  local draft step assets, a noindex draft page, and colored-marker materials
+  instead of the normal pencil/colored-pencil sketch direction.
+- Created a local sister site at
+  `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodle.day`. Doodle.day
+  uses the same generator/readiness shape as Sketcha.day, but its daily lessons
+  should be thicker-stroke, colorful, marker-first cartoons/comic doodles.
+- Seeded Doodle.day with the hot rod marker flames draft as
+  `hot-rod-marker-flames`, Day 001 / June 24, 2026. Doodle.day is a local-only
+  prototype for now; commit locally but do not push until it has a real remote
+  and deploy path.
+- The `sketcha-day-daily-lesson-draft` automation now covers two daily tracks:
+  one Sketcha.day pencil/sketch lesson and one Doodle.day marker/comic doodle
+  lesson, each in its own repository/context.
 
 ### 2026-06-23 — SEO review & on-page fixes (Claude Cowork)
 

@@ -1,0 +1,114 @@
+{
+  "slug": "marker-flames",
+  "status": "private style test",
+  "finished": "drafts/marker-flames/marker-flames-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation contact sheet reviewed before cropping; approved final panel is saved as the private draft finished artwork.",
+    "notes": "This is a doodle/marker direction test, not a public daily lesson. Keep it out of the generated library until the marker style is approved."
+  },
+  "process_strategy": "Use one six-panel marker contact sheet that builds the flames from loose gesture paths to a bold black outline, nested inner flames, marker color fills, and final line/color strength.",
+  "final_elements": [
+    {
+      "name": "three tall flame tongues",
+      "introduced_by_step": 1,
+      "description": "Three upward sweeping flame paths that define the main doodle rhythm."
+    },
+    {
+      "name": "outer black marker silhouette",
+      "introduced_by_step": 2,
+      "description": "One connected hot rod flame outline with rounded valleys and pointed tips."
+    },
+    {
+      "name": "bold marker outline",
+      "introduced_by_step": 3,
+      "description": "A heavier black felt-tip contour around the flame shape."
+    },
+    {
+      "name": "inner flame tongues",
+      "introduced_by_step": 4,
+      "description": "Two smaller nested flame shapes inside the main silhouette."
+    },
+    {
+      "name": "orange marker fill",
+      "introduced_by_step": 5,
+      "description": "Saturated orange marker fill across the outer flame area."
+    },
+    {
+      "name": "yellow inner fill",
+      "introduced_by_step": 5,
+      "description": "Yellow marker fill inside the nested flame shapes."
+    },
+    {
+      "name": "red accent edges",
+      "introduced_by_step": 5,
+      "description": "Small red marker accents along selected outer flame edges."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "drafts/marker-flames/marker-flames-step-1.jpg",
+      "step_name": "Sweep the flame paths",
+      "visible_job": "Sets a low baseline and three loose rising flame paths.",
+      "introduces": [
+        "three tall flame tongues"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "drafts/marker-flames/marker-flames-step-2.jpg",
+      "step_name": "Connect the outside shape",
+      "visible_job": "Connects the paths into one outer hot rod flame silhouette.",
+      "introduces": [
+        "outer black marker silhouette"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "drafts/marker-flames/marker-flames-step-3.jpg",
+      "step_name": "Thicken the outline",
+      "visible_job": "Strengthens the outer silhouette with a bold black marker contour.",
+      "introduces": [
+        "bold marker outline"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "drafts/marker-flames/marker-flames-step-4.jpg",
+      "step_name": "Add inner flames",
+      "visible_job": "Adds two nested inner flame tongues before any color appears.",
+      "introduces": [
+        "inner flame tongues"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "drafts/marker-flames/marker-flames-step-5.jpg",
+      "step_name": "Fill with marker color",
+      "visible_job": "Adds orange outer fill, yellow inner fill, and red edge accents with visible marker streaks.",
+      "introduces": [
+        "orange marker fill",
+        "yellow inner fill",
+        "red accent edges"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Punch up the doodle",
+    "asset": "drafts/marker-flames/marker-flames-finished-v1.jpg",
+    "visible_job": "Only deepens the existing black outline and marker color fills without adding new flame tongues.",
+    "allowed_changes": [
+      "black marker darkening",
+      "marker fill strengthening",
+      "small existing-edge cleanup",
+      "paper and marker texture from the saved contact sheet"
+    ]
+  },
+  "rejection_checks": [
+    "Do not treat this as a realistic fire lesson; the target is a bold marker doodle.",
+    "No extra flame tongues, stickers, lettering, cars, smoke, or background props should appear in the final only.",
+    "The color step should look like marker fill, not colored pencil, watercolor, or airbrush.",
+    "Keep this draft unlinked and noindex until the doodle direction is approved."
+  ]
+}
