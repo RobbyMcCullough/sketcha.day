@@ -1,0 +1,125 @@
+{
+  "slug": "little-tugboat",
+  "finished": "assets/little-tugboat-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation contact sheet reviewed before cropping; approved final panel is saved as the finished raster artwork.",
+    "notes": "All step frames should be cropped from the same generated contact sheet so the hull, cabin, smokestack, portholes, rail, waves, graphite texture, and restrained blue color stay consistent."
+  },
+  "process_strategy": "Use one six-panel contact sheet that builds the tugboat from simple hull and cabin construction to the side-view boat shape, cabin details, stack, rail, water ripples, restrained color, and final keeper-line strength.",
+  "final_elements": [
+    {
+      "name": "rounded tugboat hull",
+      "introduced_by_step": 1,
+      "description": "A small side-view tugboat hull with a curved bow and flatter stern."
+    },
+    {
+      "name": "cabin block",
+      "introduced_by_step": 2,
+      "description": "A simple boxy cabin sitting on top of the hull."
+    },
+    {
+      "name": "cabin roof",
+      "introduced_by_step": 2,
+      "description": "A slightly rounded roof cap above the cabin."
+    },
+    {
+      "name": "smokestack",
+      "introduced_by_step": 3,
+      "description": "A short stack rising behind the cabin roof."
+    },
+    {
+      "name": "round portholes",
+      "introduced_by_step": 4,
+      "description": "Two or three small round windows along the hull."
+    },
+    {
+      "name": "cabin windows",
+      "introduced_by_step": 4,
+      "description": "Small rectangular cabin windows facing forward and sideways."
+    },
+    {
+      "name": "deck rail and bumper line",
+      "introduced_by_step": 5,
+      "description": "A short deck rail and a dark bumper stripe following the hull."
+    },
+    {
+      "name": "water ripples",
+      "introduced_by_step": 5,
+      "description": "A few loose wave marks under the tugboat."
+    },
+    {
+      "name": "restrained blue color",
+      "introduced_by_step": 5,
+      "description": "Light blue colored-pencil touches on the hull, windows, and water."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/little-tugboat-step-1.jpg",
+      "step_name": "Block in the hull",
+      "visible_job": "Sets the side-view tugboat hull with a light curved guide and simple cabin placement marks.",
+      "introduces": [
+        "rounded tugboat hull"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/little-tugboat-step-2.jpg",
+      "step_name": "Stack the cabin",
+      "visible_job": "Adds the boxy cabin and rounded roof cap on top of the hull.",
+      "introduces": [
+        "cabin block",
+        "cabin roof"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/little-tugboat-step-3.jpg",
+      "step_name": "Refine the boat outline",
+      "visible_job": "Clarifies the bow, stern, deck edge, cabin silhouette, and short smokestack.",
+      "introduces": [
+        "smokestack"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/little-tugboat-step-4.jpg",
+      "step_name": "Add the windows",
+      "visible_job": "Adds round portholes along the hull and small cabin windows.",
+      "introduces": [
+        "round portholes",
+        "cabin windows"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/little-tugboat-step-5.jpg",
+      "step_name": "Place rails, ripples, and color",
+      "visible_job": "Adds the deck rail, bumper stripe, water ripples, and restrained blue colored-pencil touches.",
+      "introduces": [
+        "deck rail and bumper line",
+        "water ripples",
+        "restrained blue color"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the keeper lines",
+    "asset": "assets/little-tugboat-finished-v1.jpg",
+    "visible_job": "Only strengthens existing hull, cabin, roof, stack, windows, rail, bumper stripe, waves, color, and shadow marks without adding new boat parts or scenery.",
+    "allowed_changes": [
+      "keeper-line darkening",
+      "final graphite texture",
+      "restrained colored-pencil shading",
+      "paper texture from the saved contact sheet"
+    ]
+  },
+  "rejection_checks": [
+    "No hull contour, cabin, roof, stack, porthole, cabin window, rail, bumper stripe, water ripple, or core color choice should first appear in the final image.",
+    "The tugboat must keep the same side-view pose and proportions in every frame.",
+    "The final image must not add a harbor, sun, passengers, lettering, flags, extra boats, or background scenery absent from the process frames.",
+    "Do not use separately prompted step images that drift from this contact sheet."
+  ]
+}

@@ -127,6 +127,57 @@ const lessons = [
     ]
   },
   {
+    slug: "little-tugboat",
+    day: "015",
+    date: "Thursday, June 25",
+    isoDate: "2026-06-25",
+    subject: "a little tugboat",
+    headlineSubject: "a little<br>tugboat",
+    shortSubject: "a little tugboat",
+    lessonTitle: "Let's draw a tugboat",
+    description: "Learn how to draw a little tugboat with a rounded hull, boxy cabin, short smokestack, round portholes, cabin windows, deck rail, water ripples, and restrained blue colored-pencil accents.",
+    intro: "Build the boat from one long hull curve, then stack the cabin, windows, rails, and water marks before darkening the keeper lines.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#4f86a4",
+    finished: "little-tugboat-finished-v1.jpg",
+    finishedAlt: "Graphite and blue colored-pencil sketch of a little tugboat with a rounded hull, cabin, smokestack, portholes, rail, and water ripples",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blue and gray pencils"],
+    steps: [
+      {
+        name: "Block in the hull",
+        text: "Draw a long shallow boat curve, then add a second lower curve to make the rounded hull. Place a light box guide where the cabin will sit.",
+        tip: "Keep the bow and stern tips level. A calm, even hull makes the rest of the tugboat easier to stack."
+      },
+      {
+        name: "Stack the cabin",
+        text: "Set a boxy cabin on the deck line and cap it with a soft rounded roof. Let the roof overhang the cabin just a little.",
+        tip: "Use vertical cabin sides. If they lean too much, the tugboat starts to look like it is tipping."
+      },
+      {
+        name: "Refine the boat outline",
+        text: "Darken the bow, stern, deck edge, cabin sides, and roof, then add a short smokestack behind the cabin.",
+        tip: "The smokestack should be shorter than the cabin. That keeps the drawing friendly instead of top-heavy."
+      },
+      {
+        name: "Add the windows",
+        text: "Draw small round portholes along the hull and simple rectangular windows on the cabin.",
+        tip: "Space the portholes like beads on the hull curve. They do not need to be perfectly identical."
+      },
+      {
+        name: "Place rails, ripples, and color",
+        text: "Add a short deck rail, a dark bumper stripe, loose water ripples, and a few light blue pencil touches in the windows and waves.",
+        tip: "Save the darkest stripe for the bumper line. It helps the pale boat read clearly at card size."
+      },
+      {
+        name: "Finish the keeper lines",
+        text: "Deepen the hull, cabin, roof, stack, windows, portholes, rail, bumper stripe, ripples, and blue accents without adding a harbor or extra boats.",
+        tip: "Stop while the graphite still feels sketchy. A few broken water marks are more useful than a fully rendered sea.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "garden-watering-can",
     day: "014",
     date: "Wednesday, June 24",

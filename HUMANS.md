@@ -1,9 +1,9 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-24
+- Date: 2026-06-25
 - Agent harness: Codex
-- Harness project/session name: Doodle.day sister-site setup
+- Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
 - Previous: 2026-06-23 / Claude Cowork / SEO review & on-page fixes
 
@@ -193,6 +193,16 @@
 - The `sketcha-day-daily-lesson-draft` automation now covers two daily tracks:
   one Sketcha.day pencil/sketch lesson and one Doodle.day marker/comic doodle
   lesson, each in its own repository/context.
+- Added the little tugboat as the June 25, 2026 / Day 015 Sketcha.day tutorial
+  from a reviewed six-panel generated contact sheet. Finished image rating:
+  8.4/10.
+- Day 015 QA used `python3 scripts/check-tutorial-readiness.py little-tugboat`,
+  a step contact-sheet review at `/tmp/little-tugboat-steps.jpg`, Cove desktop
+  and mobile screenshots saved as `/tmp/sketcha-tugboat-*.png`, and a compact QA
+  sheet saved as `/tmp/sketcha-tugboat-qa-sheet.png`.
+- During the June 25 run, a separate rain-boot draft was generated but removed
+  after the tugboat lesson was confirmed as the active Day 015 lesson. Do not
+  assume rain-boot assets exist in the repo.
 
 ### 2026-06-23 — SEO review & on-page fixes (Claude Cowork)
 

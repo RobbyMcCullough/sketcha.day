@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>One small drawing prompt and practical step-by-step sketch tutorial every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a little tugboat</title>
+      <link>https://sketcha.day/tutorials/little-tugboat.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/little-tugboat.html</guid>
+      <pubDate>Thu, 25 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a little tugboat with a rounded hull, boxy cabin, short smokestack, round portholes, cabin windows, deck rail, water ripples, and restrained blue colored-pencil accents.</description>
+      <media:content url="https://sketcha.day/assets/little-tugboat-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a garden watering can</title>
       <link>https://sketcha.day/tutorials/garden-watering-can.html</link>
