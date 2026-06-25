@@ -10,7 +10,7 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico" sizes="any">
 const lessons = [
   {
     slug: "curious-fox",
-    day: "005",
+    day: "007",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -128,7 +128,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "015",
+    day: "017",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -179,7 +179,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "014",
+    day: "016",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -230,7 +230,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "013",
+    day: "015",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -281,7 +281,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "012",
+    day: "014",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -332,7 +332,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "011",
+    day: "013",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -383,7 +383,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "010",
+    day: "012",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -434,7 +434,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "009",
+    day: "011",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -485,7 +485,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "008",
+    day: "010",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -536,7 +536,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "007",
+    day: "009",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -592,7 +592,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "006",
+    day: "008",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -638,7 +638,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "004",
+    day: "006",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -687,7 +687,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "003",
+    day: "005",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -736,7 +736,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "002",
+    day: "004",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -785,7 +785,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "001",
+    day: "003",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -824,6 +824,108 @@ const lessons = [
         name: "Color the rainy details",
         text: "Darken the useful contours, then add loose green, yellow, and blue colored-pencil strokes.",
         tip: "Leave white paper in the belly, umbrella, and boots so the drawing still feels quick and sketchy.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "waving-flag-on-a-porch",
+    day: "002",
+    date: "Wednesday, June 10",
+    isoDate: "2026-06-10",
+    subject: "a waving flag on a porch",
+    headlineSubject: "a waving<br>flag",
+    shortSubject: "a waving flag",
+    lessonTitle: "Let's draw a porch flag",
+    description: "Learn how to draw a waving flag on a porch with a slanted pole, soft fabric curves, simple stripes, a star field, porch railing, and light colored-pencil accents.",
+    intro: "Use one angled pole and a few flowing curves to make a small porch flag feel festive without trying to draw every tiny detail.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#c24a3f",
+    finished: "waving-flag-on-a-porch-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a waving American flag mounted on a porch railing",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional red and blue colored pencils"],
+    steps: [
+      {
+        name: "Place the pole",
+        text: "Draw one long diagonal pole leaning up from the porch rail, then add a small wall bracket and round finial.",
+        tip: "Let the pole cross the page boldly. A strong diagonal keeps the simple flag from feeling stiff."
+      },
+      {
+        name: "Shape the waving flag",
+        text: "Attach a wavy rectangle near the top of the pole. Curve the top and bottom edges in the same direction so it feels like fabric.",
+        tip: "Keep the far edge slightly vertical. That little straight edge helps the flag stay readable."
+      },
+      {
+        name: "Divide the flag",
+        text: "Add a small corner field near the pole, then draw a few long stripe bands that follow the flag's wave.",
+        tip: "Do not count every stripe. Use enough bands to show the idea while leaving room for pencil texture."
+      },
+      {
+        name: "Add rail and star marks",
+        text: "Sketch the porch rail behind the pole, then scatter tiny star marks inside the corner field.",
+        tip: "Treat the stars like small bright marks, not perfect symbols. They only need to read at a glance."
+      },
+      {
+        name: "Add soft flag color",
+        text: "Shade the stripe bands with light red pencil, fill the corner field blue, and keep the white stripes mostly paper.",
+        tip: "Let the pencil strokes follow the fabric wave. Direction matters more than heavy color."
+      },
+      {
+        name: "Finish the porch flag",
+        text: "Darken the keeper lines on the pole, rail, stripes, and flag edge, then add a little graphite shadow to the porch boards.",
+        tip: "Stop before the flag gets too polished. The sketch should still look quick enough for one sitting.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "soccer-ball-on-grass",
+    day: "001",
+    date: "Tuesday, June 9",
+    isoDate: "2026-06-09",
+    subject: "a soccer ball on grass",
+    headlineSubject: "a soccer<br>ball",
+    shortSubject: "a soccer ball",
+    lessonTitle: "Let's draw a soccer ball",
+    description: "Learn how to draw a soccer ball on grass with a round outline, center pentagon, curved panel seams, dark patches, grass tufts, and simple pencil shading.",
+    intro: "Start with a clean circle, then use one center pentagon to organize the panels before adding grass and sketchy shadow.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#4f6f51",
+    finished: "soccer-ball-on-grass-finished-v1.jpg",
+    finishedAlt: "Graphite sketch of a soccer ball with pentagon panels resting in short grass",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blending stump or tissue"],
+    steps: [
+      {
+        name: "Start the ball circle",
+        text: "Draw a large light circle, then add a soft ground line where the ball will touch the grass.",
+        tip: "Turn the paper while drawing the circle. Several light passes are better than one heavy outline."
+      },
+      {
+        name: "Place the center pentagon",
+        text: "Put a five-sided patch just below the middle of the circle and angle its bottom point downward.",
+        tip: "This patch is the anchor. If it feels centered and upright, the rest of the seams are easier to place."
+      },
+      {
+        name: "Pull out the seams",
+        text: "Draw short seam lines from each corner of the pentagon, bending them slightly as they travel around the ball.",
+        tip: "Curve the seams with the round form. Straight ruler lines will flatten the ball."
+      },
+      {
+        name: "Complete the panels",
+        text: "Connect the seam lines into larger patch shapes around the circle and choose a few dark panels near the edge.",
+        tip: "The edge panels can be partial. Let them disappear behind the round outline instead of forcing full shapes."
+      },
+      {
+        name: "Add grass and shadow",
+        text: "Sketch tufts of grass around the lower edge, then add a soft cast shadow under the ball.",
+        tip: "Use short, uneven grass strokes. A little messiness makes the ball feel like it is sitting outside."
+      },
+      {
+        name: "Finish the match ball",
+        text: "Darken the keeper seams and black patches, then add gentle shading to the white panels so the ball stays round.",
+        tip: "Leave highlights on the upper panels. Too much shading everywhere will make the ball look muddy.",
         image: true
       }
     ]

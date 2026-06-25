@@ -203,6 +203,21 @@
 - During the June 25 run, a separate rain-boot draft was generated but removed
   after the tugboat lesson was confirmed as the active Day 015 lesson. Do not
   assume rain-boot assets exist in the repo.
+- Backfilled two older Sketcha.day lessons on June 25, 2026: `soccer-ball-on-grass`
+  as June 9 / Day 001, and `waving-flag-on-a-porch` as June 10 / Day 002.
+  Existing day labels shifted forward by two, so the June 25 tugboat is now
+  Day 017.
+- The backfill used a quick timely-event check: FIFA World Cup 2026 informed the
+  soccer ball subject, and upcoming Independence Day informed the porch flag.
+  `DAILY-PUBLISHING.md` now requires checking timely hooks before choosing a
+  daily subject, while avoiding weak trends and sister-site duplication.
+- Backfill QA used `python3 scripts/check-tutorial-readiness.py
+  soccer-ball-on-grass`, `python3 scripts/check-tutorial-readiness.py
+  waving-flag-on-a-porch`, step contact-sheet reviews at
+  `/tmp/soccer-ball-on-grass-steps.jpg` and
+  `/tmp/waving-flag-on-a-porch-steps.jpg`, Cove/Chrome desktop and mobile
+  screenshots saved under `/tmp/sketcha-doodle-backfill-qa/`, and a compact QA
+  sheet at `/tmp/sketcha-doodle-backfill-qa/qa-contact-sheet.jpg`.
 
 ### 2026-06-23 — SEO review & on-page fixes (Claude Cowork)
 

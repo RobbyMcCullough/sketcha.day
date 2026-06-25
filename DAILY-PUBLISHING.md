@@ -32,32 +32,37 @@ pose, marking, and color choice in the finish must appear in a prior step.
 When this guide is used by a scheduled Codex automation, the job should:
 
 1. Read `AGENTS.md`, `HUMANS.md`, and this file before editing.
-2. Pick one specific lesson subject with a clear search phrase, such as
+2. Do a quick source check for timely hooks before choosing the subject:
+   current news, major sports, holidays, seasons, cultural moments, and daily
+   observances. Use a timely subject only when it naturally fits Sketcha.day,
+   can be taught as an attainable sketch, and does not duplicate the sister
+   Doodle.day subject for the same run. Do not force a weak trend.
+3. Pick one specific lesson subject with a clear search phrase, such as
    "how to draw a rainy-day frog" or "how to draw a cozy mushroom."
-3. Compare the candidate with existing lessons in `scripts/build-tutorials.mjs`
+4. Compare the candidate with existing lessons in `scripts/build-tutorials.mjs`
    and `library.html`; choose a different subject if it repeats a recent lesson's
    core shape, category, or drawing skill.
-4. Write or update `lesson-plans/{slug}.json` before creating final page data.
+5. Write or update `lesson-plans/{slug}.json` before creating final page data.
    Start from `lesson-plans/TEMPLATE.json`. The plan must name the finished
    asset, each major finished element, the non-final frame where that element
    first appears, each process frame's visible job, and the final step's allowed
    finishing-only changes.
-5. Create or update generated raster art for the finished sketch and tutorial
+6. Create or update generated raster art for the finished sketch and tutorial
    steps. Prefer one master reference and derived step frames over unrelated
    one-off images.
-6. Run the process-plan and step-delta gates for the lesson slug, then inspect
+7. Run the process-plan and step-delta gates for the lesson slug, then inspect
    the contact sheet so repeated or barely changed frames are caught before page
    QA.
-7. Rate the final image using the 10-point gate below. Regenerate until the
+8. Rate the final image using the 10-point gate below. Regenerate until the
    finished image is at least 8/10.
-8. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
+9. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
    number and the intended publish date.
-9. Run `node scripts/build-tutorials.mjs`.
-10. QA the homepage, `library.html`, and the new tutorial page at desktop and
+10. Run `node scripts/build-tutorials.mjs`.
+11. QA the homepage, `library.html`, and the new tutorial page at desktop and
    mobile widths.
-11. Commit the work with a concise message only when the page passes the
+12. Commit the work with a concise message only when the page passes the
    anti-slop review and validation checks.
-12. For scheduled daily lesson automation, push the passing commit to `main` so
+13. For scheduled daily lesson automation, push the passing commit to `main` so
     it publishes. No separate editorial review is required after the automated
     quality gates pass.
 

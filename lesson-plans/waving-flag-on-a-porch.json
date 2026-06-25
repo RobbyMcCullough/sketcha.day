@@ -1,0 +1,112 @@
+{
+  "slug": "waving-flag-on-a-porch",
+  "finished": "assets/waving-flag-on-a-porch-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel contact sheet generated with the process-first workflow, then cropped into step frames and the finished image.",
+    "notes": "Chosen after a quick event check because Independence Day is approaching in early July 2026."
+  },
+  "process_strategy": "A six-panel process builds a small porch flag from pole and wave guides to stripes, star field, porch rail, and restrained red and blue pencil accents before the final keeper-line pass.",
+  "final_elements": [
+    {
+      "name": "angled flag pole",
+      "introduced_by_step": 1,
+      "description": "A short pole leaning slightly upward from a simple porch mount."
+    },
+    {
+      "name": "waving flag rectangle",
+      "introduced_by_step": 2,
+      "description": "A soft wavy rectangular flag attached to the pole."
+    },
+    {
+      "name": "stripe bands",
+      "introduced_by_step": 3,
+      "description": "Several curved horizontal bands following the flag wave."
+    },
+    {
+      "name": "star field block",
+      "introduced_by_step": 3,
+      "description": "A small blue canton block in the upper pole-side corner."
+    },
+    {
+      "name": "simple porch rail",
+      "introduced_by_step": 4,
+      "description": "A few straight rail boards behind and below the small flag."
+    },
+    {
+      "name": "small star dots",
+      "introduced_by_step": 4,
+      "description": "Tiny star-like dots inside the flag field, kept simple enough to draw."
+    },
+    {
+      "name": "red and blue shading",
+      "introduced_by_step": 5,
+      "description": "Restrained red and blue colored-pencil accents on the stripes and star field."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/waving-flag-on-a-porch-step-1.jpg",
+      "step_name": "Place the pole",
+      "visible_job": "Places the angled pole, small mount, and porch rail guide.",
+      "introduces": [
+        "angled flag pole"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/waving-flag-on-a-porch-step-2.jpg",
+      "step_name": "Shape the waving flag",
+      "visible_job": "Adds the wavy flag rectangle attached to the pole.",
+      "introduces": [
+        "waving flag rectangle"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/waving-flag-on-a-porch-step-3.jpg",
+      "step_name": "Divide the flag",
+      "visible_job": "Adds curved stripe bands and the star field block.",
+      "introduces": [
+        "stripe bands",
+        "star field block"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/waving-flag-on-a-porch-step-4.jpg",
+      "step_name": "Add rail and star marks",
+      "visible_job": "Adds the porch rail boards and tiny star dots inside the field.",
+      "introduces": [
+        "simple porch rail",
+        "small star dots"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/waving-flag-on-a-porch-step-5.jpg",
+      "step_name": "Add soft flag color",
+      "visible_job": "Adds restrained red and blue colored-pencil shading to the existing flag parts.",
+      "introduces": [
+        "red and blue shading"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the porch flag",
+    "asset": "assets/waving-flag-on-a-porch-finished-v1.jpg",
+    "visible_job": "Only strengthens the pole, flag edge, stripes, field, rail, star dots, and existing color accents.",
+    "allowed_changes": [
+      "keeper-line darkening",
+      "restrained colored-pencil shading",
+      "minor star-field cleanup",
+      "porch rail shadow emphasis"
+    ]
+  },
+  "rejection_checks": [
+    "No new flag part, rail board, star field, stripe system, or color choice should first appear in the final image.",
+    "The flag must keep the same pole angle, wave shape, scale, and porch placement in every frame.",
+    "The finish must stay a casual sketch, not a polished poster or exact flag diagram."
+  ]
+}

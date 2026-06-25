@@ -1,0 +1,112 @@
+{
+  "slug": "soccer-ball-on-grass",
+  "finished": "assets/soccer-ball-on-grass-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel contact sheet generated with the process-first workflow, then cropped into step frames and the finished image.",
+    "notes": "Chosen after a quick event check because the FIFA World Cup is active in June-July 2026."
+  },
+  "process_strategy": "A six-panel process builds one soccer ball from a circle guide to pentagon/hexagon panel marks, grass tufts, shadow, and restrained graphite shading before the final keeper-line pass.",
+  "final_elements": [
+    {
+      "name": "round soccer ball outline",
+      "introduced_by_step": 1,
+      "description": "A near-circle ball shape kept centered throughout the process."
+    },
+    {
+      "name": "center pentagon",
+      "introduced_by_step": 2,
+      "description": "A dark central pentagon that anchors the soccer panel pattern."
+    },
+    {
+      "name": "radiating seam lines",
+      "introduced_by_step": 3,
+      "description": "Curved seam lines reaching from the center pentagon toward the outer ball."
+    },
+    {
+      "name": "outer panel shapes",
+      "introduced_by_step": 4,
+      "description": "Surrounding pentagon and hexagon-like panels that complete the soccer ball pattern."
+    },
+    {
+      "name": "grass tufts",
+      "introduced_by_step": 5,
+      "description": "Short loose grass marks tucked under and around the ball."
+    },
+    {
+      "name": "soft cast shadow",
+      "introduced_by_step": 5,
+      "description": "A pale ground shadow that sits below the ball."
+    },
+    {
+      "name": "restrained graphite shading",
+      "introduced_by_step": 5,
+      "description": "Light pencil shading on selected dark panels and the underside of the ball."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/soccer-ball-on-grass-step-1.jpg",
+      "step_name": "Start the ball circle",
+      "visible_job": "Places a light ball circle, center guide, and ground line.",
+      "introduces": [
+        "round soccer ball outline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/soccer-ball-on-grass-step-2.jpg",
+      "step_name": "Place the center pentagon",
+      "visible_job": "Adds the central pentagon and lightly marks its five corners.",
+      "introduces": [
+        "center pentagon"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/soccer-ball-on-grass-step-3.jpg",
+      "step_name": "Pull out the seams",
+      "visible_job": "Draws curved seam lines from the pentagon toward the ball edge.",
+      "introduces": [
+        "radiating seam lines"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/soccer-ball-on-grass-step-4.jpg",
+      "step_name": "Complete the panels",
+      "visible_job": "Adds the outer panel shapes around the seam lines.",
+      "introduces": [
+        "outer panel shapes"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/soccer-ball-on-grass-step-5.jpg",
+      "step_name": "Add grass and shadow",
+      "visible_job": "Adds grass tufts, a soft cast shadow, and light graphite shading.",
+      "introduces": [
+        "grass tufts",
+        "soft cast shadow",
+        "restrained graphite shading"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the match ball",
+    "asset": "assets/soccer-ball-on-grass-finished-v1.jpg",
+    "visible_job": "Only darkens existing panels, seams, grass, shadow, and graphite tone without adding new objects.",
+    "allowed_changes": [
+      "keeper-line darkening",
+      "panel fill strengthening",
+      "minor graphite cleanup",
+      "grass and shadow emphasis"
+    ]
+  },
+  "rejection_checks": [
+    "No new panel system, grass cluster, prop, or color choice should first appear in the final image.",
+    "The ball must keep the same circle, scale, center pentagon, and seam layout in every frame.",
+    "The finish must read as a handmade pencil sketch, not a clean vector sports icon."
+  ]
+}
