@@ -829,52 +829,52 @@ const lessons = [
     ]
   },
   {
-    slug: "waving-flag-on-a-porch",
+    slug: "lemonade-glass",
     day: "002",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
-    subject: "a waving flag on a porch",
-    headlineSubject: "a waving<br>flag",
-    shortSubject: "a waving flag",
-    lessonTitle: "Let's draw a porch flag",
-    description: "Learn how to draw a waving flag on a porch with a slanted pole, soft fabric curves, simple stripes, a star field, porch railing, and light colored-pencil accents.",
-    intro: "Use one angled pole and a few flowing curves to make a small porch flag feel festive without trying to draw every tiny detail.",
+    subject: "a glass of lemonade",
+    headlineSubject: "a glass of<br>lemonade",
+    shortSubject: "a glass of lemonade",
+    lessonTitle: "Let's draw lemonade",
+    description: "Learn how to draw a glass of lemonade with a tapered clear glass, curved liquid line, bendy straw, lemon wheel, ice cubes, condensation dots, and soft yellow colored-pencil shading.",
+    intro: "Build a summer drink from ellipses and light transparent layers, then add the straw, lemon, ice, and just enough yellow pencil to make it refreshing.",
     time: 25,
     difficulty: "Easy-medium",
-    accent: "#c24a3f",
-    finished: "waving-flag-on-a-porch-finished-v1.jpg",
-    finishedAlt: "Graphite and colored-pencil sketch of a waving American flag mounted on a porch railing",
-    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional red and blue colored pencils"],
+    accent: "#d4a72f",
+    finished: "lemonade-glass-finished-v1.jpg",
+    finishedAlt: "Graphite and yellow colored-pencil sketch of a clear glass of lemonade with a bendy straw, lemon wheel, ice cubes, condensation dots, and table shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional yellow colored pencil"],
     steps: [
       {
-        name: "Place the pole",
-        text: "Draw one long diagonal pole leaning up from the porch rail, then add a small wall bracket and round finial.",
-        tip: "Let the pole cross the page boldly. A strong diagonal keeps the simple flag from feeling stiff."
+        name: "Place the glass shape",
+        text: "Draw a wide rim ellipse, two slightly tapered side lines, and a smaller base ellipse. Add a light center guide through the glass.",
+        tip: "Make the top ellipse wider than the bottom one. That taper is what makes the glass feel tall."
       },
       {
-        name: "Shape the waving flag",
-        text: "Attach a wavy rectangle near the top of the pole. Curve the top and bottom edges in the same direction so it feels like fabric.",
-        tip: "Keep the far edge slightly vertical. That little straight edge helps the flag stay readable."
+        name: "Set the lemonade level",
+        text: "Add a curved liquid line across the glass, then reinforce the lower rim and base so the glass still feels transparent.",
+        tip: "Let the liquid curve echo the rim ellipse. Matching those curves keeps the lemonade from looking flat."
       },
       {
-        name: "Divide the flag",
-        text: "Add a small corner field near the pole, then draw a few long stripe bands that follow the flag's wave.",
-        tip: "Do not count every stripe. Use enough bands to show the idea while leaving room for pencil texture."
+        name: "Add the straw",
+        text: "Draw a diagonal straw from the bottom of the glass up through the rim, then bend the top section outward.",
+        tip: "Keep both straw edges parallel. A narrow tube reads better than a single heavy line."
       },
       {
-        name: "Add rail and star marks",
-        text: "Sketch the porch rail behind the pole, then scatter tiny star marks inside the corner field.",
-        tip: "Treat the stars like small bright marks, not perfect symbols. They only need to read at a glance."
+        name: "Draw lemon and ice",
+        text: "Clip a lemon wheel onto the rim, divide it into wedge segments, and sketch a few tilted ice cubes inside the drink.",
+        tip: "Let the ice overlap the straw and liquid line lightly. Those overlaps sell the clear-glass effect."
       },
       {
-        name: "Add soft flag color",
-        text: "Shade the stripe bands with light red pencil, fill the corner field blue, and keep the white stripes mostly paper.",
-        tip: "Let the pencil strokes follow the fabric wave. Direction matters more than heavy color."
+        name: "Add droplets and color",
+        text: "Scatter tiny condensation dots on the glass, shade a soft table shadow, and add light yellow pencil to the lemonade and lemon slice.",
+        tip: "Leave white gaps around the ice and rim. Transparent drawings need untouched paper as much as color."
       },
       {
-        name: "Finish the porch flag",
-        text: "Darken the keeper lines on the pole, rail, stripes, and flag edge, then add a little graphite shadow to the porch boards.",
-        tip: "Stop before the flag gets too polished. The sketch should still look quick enough for one sitting.",
+        name: "Finish the lemonade sketch",
+        text: "Darken the keeper contours, clarify the straw and lemon overlaps, and strengthen only the yellow shading and soft table shadow already in place.",
+        tip: "Do not outline every droplet equally. A few dark marks plus many pale ones feel more natural.",
         image: true
       }
     ]

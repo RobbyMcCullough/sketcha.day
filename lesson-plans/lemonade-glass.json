@@ -1,0 +1,118 @@
+{
+  "slug": "lemonade-glass",
+  "finished": "assets/lemonade-glass-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel contact sheet generated with the built-in image tool, reviewed before cropping, then cropped with scripts/crop-contact-sheet.py.",
+    "notes": "Chosen as the June 10 replacement after the flag lesson was held for a July 4 release."
+  },
+  "process_strategy": "A single contact sheet keeps the glass, straw, lemon slice, ice cubes, liquid line, and cast shadow in the same position from construction through finish.",
+  "final_elements": [
+    {
+      "name": "tall glass outline",
+      "introduced_by_step": 1,
+      "description": "A slightly tapered drinking glass with elliptical rim and base."
+    },
+    {
+      "name": "lemonade liquid level",
+      "introduced_by_step": 2,
+      "description": "A curved horizontal liquid line inside the transparent glass."
+    },
+    {
+      "name": "bendy straw",
+      "introduced_by_step": 3,
+      "description": "A diagonal straw rising out of the glass with a small bend near the top."
+    },
+    {
+      "name": "lemon wheel garnish",
+      "introduced_by_step": 4,
+      "description": "A round lemon slice clipped to the rim with wedge segments."
+    },
+    {
+      "name": "ice cubes",
+      "introduced_by_step": 4,
+      "description": "A few small tilted cubes visible through the lemonade."
+    },
+    {
+      "name": "condensation dots",
+      "introduced_by_step": 5,
+      "description": "Tiny droplets and short marks on the outside of the glass."
+    },
+    {
+      "name": "table shadow",
+      "introduced_by_step": 5,
+      "description": "A soft oval graphite shadow beneath the glass."
+    },
+    {
+      "name": "yellow lemonade color",
+      "introduced_by_step": 5,
+      "description": "Restrained yellow colored-pencil fill inside the glass and lemon slice."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/lemonade-glass-step-1.jpg",
+      "step_name": "Place the glass shape",
+      "visible_job": "Draws the rim ellipse, tapered glass sides, base ellipse, and center guide.",
+      "introduces": [
+        "tall glass outline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/lemonade-glass-step-2.jpg",
+      "step_name": "Set the lemonade level",
+      "visible_job": "Adds the curved liquid line and lower glass thickness while preserving the transparent form.",
+      "introduces": [
+        "lemonade liquid level"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/lemonade-glass-step-3.jpg",
+      "step_name": "Add the straw",
+      "visible_job": "Adds the diagonal bendy straw rising from inside the glass.",
+      "introduces": [
+        "bendy straw"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/lemonade-glass-step-4.jpg",
+      "step_name": "Draw lemon and ice",
+      "visible_job": "Adds the lemon wheel garnish, wedge marks, and visible ice cubes.",
+      "introduces": [
+        "lemon wheel garnish",
+        "ice cubes"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/lemonade-glass-step-5.jpg",
+      "step_name": "Add droplets and color",
+      "visible_job": "Adds condensation marks, table shadow, and light yellow colored-pencil fill.",
+      "introduces": [
+        "condensation dots",
+        "table shadow",
+        "yellow lemonade color"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the lemonade sketch",
+    "asset": "assets/lemonade-glass-finished-v1.jpg",
+    "visible_job": "Darkens keeper contours, clarifies transparent overlaps, and strengthens existing yellow shading.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained colored-pencil shading",
+      "light graphite shadow reinforcement",
+      "minor cleanup of already introduced lemon, ice, straw, and droplet details"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}
