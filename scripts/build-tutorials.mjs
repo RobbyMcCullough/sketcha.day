@@ -11,7 +11,7 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico" sizes="any">
 const lessons = [
   {
     slug: "curious-fox",
-    day: "007",
+    day: "008",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -128,8 +128,59 @@ const lessons = [
     ]
   },
   {
+    slug: "canoe-on-a-lake",
+    day: "019",
+    date: "Friday, June 26",
+    isoDate: "2026-06-26",
+    subject: "a canoe on a lake",
+    headlineSubject: "a canoe<br>on a lake",
+    shortSubject: "a canoe on a lake",
+    lessonTitle: "Let's draw a canoe",
+    description: "Learn how to draw a canoe on a lake with a long lifted hull, inside rim, cross seats, resting paddle, calm water ripples, soft shore line, and restrained blue-brown pencil shading.",
+    intro: "Build the canoe from one long shallow curve, then add the open rim, seats, paddle, and calm lake marks before darkening the keeper lines.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#5d8ea4",
+    finished: "canoe-on-a-lake-finished-v1.jpg",
+    finishedAlt: "Graphite and blue colored-pencil sketch of a canoe on a lake with lifted bow and stern, inside seats, resting paddle, ripples, distant shore, and soft shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blue and warm brown pencils"],
+    steps: [
+      {
+        name: "Place the canoe guide",
+        text: "Draw a long shallow curve for the top of the canoe, then add tiny lifted end guides and a light water baseline underneath.",
+        tip: "Keep the guide low and wide. A canoe should feel stretched out before you add details."
+      },
+      {
+        name: "Shape the hull",
+        text: "Connect the raised bow and stern with a curved lower edge so the canoe becomes one narrow, open hull.",
+        tip: "Let both ends lift at about the same height. Matching those tips keeps the boat from looking twisted."
+      },
+      {
+        name: "Add rim and seats",
+        text: "Draw a second line inside the top edge for the rim, then place two short cross seats across the open canoe.",
+        tip: "Angle the seats slightly with the rim. They should sit inside the boat, not float on top of it."
+      },
+      {
+        name: "Rest the paddle",
+        text: "Lay a slim paddle diagonally across the canoe with a narrow handle and one simple oval blade near the water.",
+        tip: "Draw the handle first, then widen the blade. A heavy paddle can overpower the quiet canoe."
+      },
+      {
+        name: "Add lake marks",
+        text: "Sketch loose horizontal ripples around the hull, a pale shore line in the distance, and a soft shadow under the canoe.",
+        tip: "Keep the water marks flatter than the boat curves. Horizontal strokes make the lake feel calm."
+      },
+      {
+        name: "Finish the lake sketch",
+        text: "Darken the hull, rim, seats, paddle, ripples, shore, shadow, and restrained blue-brown pencil touches without adding people or extra boats.",
+        tip: "Stop while the shoreline is still pale. The canoe should stay the main read at thumbnail size.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "little-tugboat",
-    day: "017",
+    day: "018",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -180,7 +231,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "016",
+    day: "017",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -231,7 +282,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "015",
+    day: "016",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -282,7 +333,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "014",
+    day: "015",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -333,7 +384,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "013",
+    day: "014",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -384,7 +435,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "012",
+    day: "013",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -435,7 +486,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "011",
+    day: "012",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -486,7 +537,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "010",
+    day: "011",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -537,7 +588,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "009",
+    day: "010",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -593,7 +644,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "008",
+    day: "009",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -639,7 +690,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "006",
+    day: "007",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -688,7 +739,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "005",
+    day: "006",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -737,7 +788,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "004",
+    day: "005",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -786,7 +837,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "003",
+    day: "004",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -831,7 +882,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "002",
+    day: "003",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -881,8 +932,59 @@ const lessons = [
     ]
   },
   {
-    slug: "soccer-ball-on-grass",
+    slug: "seashell-on-sand",
     day: "001",
+    date: "Monday, June 8",
+    isoDate: "2026-06-08",
+    subject: "a seashell on sand",
+    headlineSubject: "a seashell<br>on sand",
+    shortSubject: "a seashell",
+    lessonTitle: "Let's draw a seashell",
+    description: "Learn how to draw a seashell on sand with a fan-shaped outline, scalloped outer edge, radiating ridges, small hinge, lower folds, pebbles, shadow, and restrained peach pencil shading.",
+    intro: "Start with one fan shape, then add scallops, ridges, hinge folds, and a few sandy marks to make the shell feel grounded.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#c89272",
+    finished: "seashell-on-sand-finished-v1.jpg",
+    finishedAlt: "Graphite and peach colored-pencil sketch of a fan-shaped seashell on sand with scalloped edge, radiating ridges, hinge folds, pebbles, and cast shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional peach and tan pencils"],
+    steps: [
+      {
+        name: "Block the shell fan",
+        text: "Draw a small hinge circle near the bottom, then open a wide fan shape above it with a light center guide.",
+        tip: "Make the shell wider than it is tall. That broad fan shape is the main read."
+      },
+      {
+        name: "Scallop the edge",
+        text: "Turn the outer arc into rounded bumps, keeping the left and right sides angled back toward the hinge.",
+        tip: "The scallops do not need to match perfectly. Slightly uneven bumps feel more natural."
+      },
+      {
+        name: "Pull the ridges",
+        text: "Draw curved ridge lines from the hinge toward the scalloped edge, spacing them wider as they fan outward.",
+        tip: "Aim each ridge at a scallop valley or bump. That makes the shell structure easier to follow."
+      },
+      {
+        name: "Define the hinge",
+        text: "Darken the small hinge area and add short lower fold marks where the ridges gather near the base.",
+        tip: "Keep this area compact. Too many dark folds at the bottom can make the shell look heavy."
+      },
+      {
+        name: "Set it in sand",
+        text: "Add a soft cast shadow, a few small pebbles, scattered sand dots, and light peach-tan shading across the shell.",
+        tip: "Put more shadow on one side. That simple choice helps the pale shell lift off the sand."
+      },
+      {
+        name: "Finish the shell sketch",
+        text: "Strengthen the shell outline, scallops, ridges, hinge, sand marks, shadow, and peach shading without adding waves or extra shells.",
+        tip: "Leave plenty of white paper on the ridges. The shell should feel sketched, not fully colored.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "soccer-ball-on-grass",
+    day: "002",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",

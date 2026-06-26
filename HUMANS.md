@@ -231,6 +231,23 @@
   scheduled run should create two tutorials per sister site: one current daily
   tutorial and one honest backdated archive tutorial for Sketcha.day, plus the
   same current/backdated pair for Doodlea.day.
+- Added two Sketcha.day lessons on June 26, 2026: `canoe-on-a-lake` as the
+  current June 26 / Day 019 tutorial, and `seashell-on-sand` as an honest
+  backdated June 8 / Day 001 archive tutorial. Existing day labels shifted
+  forward by one from the June 9 soccer ball onward.
+- Finished image ratings: canoe 8.6/10 for a readable lake scene with strong
+  process alignment; seashell 8.7/10 for clear fan structure, ridges, sand
+  setting, and attainable pencil texture.
+- June 26 QA used `python3 scripts/check-tutorial-readiness.py canoe-on-a-lake`
+  and `python3 scripts/check-tutorial-readiness.py seashell-on-sand`, reviewed
+  `/tmp/canoe-on-a-lake-steps.jpg` and `/tmp/seashell-on-sand-steps.jpg`, and
+  saved Cove desktop/mobile screenshots under
+  `/tmp/daily-sketch-doodle-qa-final/`.
+- During the June 26 run, unrelated untracked Sketcha draft files for
+  `desk-dog`, `scallop-shell-on-sand`, `chocolate-pudding-cup-doodle`, and
+  `sunny-beach-ball-doodle` were present or appeared locally. They were left
+  uncommitted and should not be assumed public lessons unless intentionally
+  promoted later.
 
 ### 2026-06-23 — SEO review & on-page fixes (Claude Cowork)
 

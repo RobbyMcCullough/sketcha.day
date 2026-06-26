@@ -1,0 +1,100 @@
+{
+  "slug": "canoe-on-a-lake",
+  "finished": "assets/canoe-on-a-lake-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel built-in image generation contact sheet saved under drafts/canoe-on-a-lake/ and cropped into raster tutorial assets.",
+    "notes": "Subject chosen after a recent-lesson back-check; it uses a boat silhouette, calm water, and simple outdoor setting distinct from the recent tugboat lesson."
+  },
+  "process_strategy": "A single six-panel contact sheet keeps the canoe at the same side angle while each frame adds hull, rim, seats, paddle, lake ripples, and restrained shading before the final darkening pass.",
+  "final_elements": [
+    {
+      "name": "long canoe hull",
+      "introduced_by_step": 1,
+      "description": "A narrow side-view canoe hull with lifted bow and stern."
+    },
+    {
+      "name": "inside rim and seats",
+      "introduced_by_step": 3,
+      "description": "A visible inner rim with two simple cross seats."
+    },
+    {
+      "name": "resting paddle",
+      "introduced_by_step": 4,
+      "description": "A slim paddle laid diagonally across the canoe."
+    },
+    {
+      "name": "lake ripples",
+      "introduced_by_step": 5,
+      "description": "Loose horizontal water marks placed under and around the canoe."
+    },
+    {
+      "name": "soft shore and shadow",
+      "introduced_by_step": 5,
+      "description": "A pale distant shore line and light contact shadow that support the canoe."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/canoe-on-a-lake-step-1.jpg",
+      "step_name": "Place the canoe guide",
+      "visible_job": "Blocks in the long shallow hull guide and light water baseline.",
+      "introduces": [
+        "long canoe hull"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/canoe-on-a-lake-step-2.jpg",
+      "step_name": "Shape the hull",
+      "visible_job": "Turns the guide into a lifted bow, lifted stern, and curved lower hull.",
+      "introduces": [
+        "long canoe hull"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/canoe-on-a-lake-step-3.jpg",
+      "step_name": "Add rim and seats",
+      "visible_job": "Adds the inside rim line and two cross seats across the open canoe.",
+      "introduces": [
+        "inside rim and seats"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/canoe-on-a-lake-step-4.jpg",
+      "step_name": "Rest the paddle",
+      "visible_job": "Places a diagonal paddle with a narrow handle and simple blade.",
+      "introduces": [
+        "resting paddle"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/canoe-on-a-lake-step-5.jpg",
+      "step_name": "Add lake marks",
+      "visible_job": "Adds water ripples, a pale shore line, and a soft shadow under the canoe.",
+      "introduces": [
+        "lake ripples",
+        "soft shore and shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the lake sketch",
+    "asset": "assets/canoe-on-a-lake-finished-v1.jpg",
+    "visible_job": "Only darkens keeper hull, rim, seat, paddle, ripple, shore, and shadow marks with restrained blue-brown pencil touches.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained colored-pencil shading",
+      "small line cleanup on established elements"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

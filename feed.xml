@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>One small drawing prompt and practical step-by-step sketch tutorial every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a canoe on a lake</title>
+      <link>https://sketcha.day/tutorials/canoe-on-a-lake.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/canoe-on-a-lake.html</guid>
+      <pubDate>Fri, 26 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a canoe on a lake with a long lifted hull, inside rim, cross seats, resting paddle, calm water ripples, soft shore line, and restrained blue-brown pencil shading.</description>
+      <media:content url="https://sketcha.day/assets/canoe-on-a-lake-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a little tugboat</title>
       <link>https://sketcha.day/tutorials/little-tugboat.html</link>
@@ -142,6 +150,14 @@
       <pubDate>Tue, 09 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a soccer ball on grass with a round outline, center pentagon, curved panel seams, dark patches, grass tufts, and simple pencil shading.</description>
       <media:content url="https://sketcha.day/assets/soccer-ball-on-grass-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a seashell on sand</title>
+      <link>https://sketcha.day/tutorials/seashell-on-sand.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/seashell-on-sand.html</guid>
+      <pubDate>Mon, 08 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a seashell on sand with a fan-shaped outline, scalloped outer edge, radiating ridges, small hinge, lower folds, pebbles, shadow, and restrained peach pencil shading.</description>
+      <media:content url="https://sketcha.day/assets/seashell-on-sand-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

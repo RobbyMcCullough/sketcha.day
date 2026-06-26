@@ -1,0 +1,99 @@
+{
+  "slug": "seashell-on-sand",
+  "finished": "assets/seashell-on-sand-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel built-in image generation contact sheet saved under drafts/seashell-on-sand/ and cropped into raster tutorial assets.",
+    "notes": "Backdated archive lesson kept honest in public copy; the subject teaches a fan-shaped natural object distinct from recent food, animal, and garden lessons."
+  },
+  "process_strategy": "A single six-panel contact sheet keeps one shell in the same three-quarter top view while the process adds fan shape, scalloped edge, ridges, hinge, sand marks, and restrained color before the final pass.",
+  "final_elements": [
+    {
+      "name": "fan shell outline",
+      "introduced_by_step": 1,
+      "description": "A broad fan-shaped seashell silhouette with a small hinge base."
+    },
+    {
+      "name": "scalloped outer edge",
+      "introduced_by_step": 2,
+      "description": "Rounded bumps along the wide top edge of the shell."
+    },
+    {
+      "name": "radiating ridges",
+      "introduced_by_step": 3,
+      "description": "Curved ridge lines that spread from the hinge toward the scallops."
+    },
+    {
+      "name": "hinge and lower folds",
+      "introduced_by_step": 4,
+      "description": "A small dark hinge area with short fold marks near the shell base."
+    },
+    {
+      "name": "sand shadow and pebbles",
+      "introduced_by_step": 5,
+      "description": "A light cast shadow, small sand dots, and tiny pebbles around the shell."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/seashell-on-sand-step-1.jpg",
+      "step_name": "Block the shell fan",
+      "visible_job": "Places the fan outline, hinge point, and light center guide.",
+      "introduces": [
+        "fan shell outline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/seashell-on-sand-step-2.jpg",
+      "step_name": "Scallop the edge",
+      "visible_job": "Adds rounded scallops across the wide outer edge.",
+      "introduces": [
+        "scalloped outer edge"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/seashell-on-sand-step-3.jpg",
+      "step_name": "Pull the ridges",
+      "visible_job": "Draws radiating ridge lines from the hinge toward each scallop.",
+      "introduces": [
+        "radiating ridges"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/seashell-on-sand-step-4.jpg",
+      "step_name": "Define the hinge",
+      "visible_job": "Clarifies the small hinge and lower fold marks.",
+      "introduces": [
+        "hinge and lower folds"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/seashell-on-sand-step-5.jpg",
+      "step_name": "Set it in sand",
+      "visible_job": "Adds a soft cast shadow, small pebbles, sand dots, and light peach shading.",
+      "introduces": [
+        "sand shadow and pebbles"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the shell sketch",
+    "asset": "assets/seashell-on-sand-finished-v1.jpg",
+    "visible_job": "Only strengthens the shell outline, ridges, hinge, sand marks, shadow, and restrained peach shading already established.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained colored-pencil shading",
+      "small line cleanup on established elements"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}
