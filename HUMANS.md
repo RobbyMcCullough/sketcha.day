@@ -179,19 +179,19 @@
   local draft step assets, a noindex draft page, and colored-marker materials
   instead of the normal pencil/colored-pencil sketch direction.
 - Created a local sister site at
-  `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodle.day`. Doodle.day
+  `/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day`. Doodlea.day
   uses the same generator/readiness shape as Sketcha.day, but its daily lessons
   should be thicker-stroke, colorful, marker-first cartoons/comic doodles.
-- Seeded Doodle.day with the hot rod marker flames draft as
+- Seeded Doodlea.day with the hot rod marker flames draft as
   `hot-rod-marker-flames`, Day 001 / June 24, 2026.
-- Doodle.day now has its own public GitHub repo:
-  `https://github.com/RobbyMcCullough/doodle.day`. The local Cove URL
-  `https://doodle.localhost/` is configured.
-- Doodle.day has a Cloudflare Pages-oriented deploy workflow in its repo, but
+- Doodlea.day now has its own public GitHub repo:
+  `https://github.com/RobbyMcCullough/doodlea.day`. The local Cove URL
+  `https://doodlea.localhost/` is configured.
+- Doodlea.day has a Cloudflare Pages-oriented deploy workflow in its repo, but
   routine daily Doodle pushes should wait until the Cloudflare Pages project,
   custom domain, and GitHub secrets are confirmed working.
 - The `sketcha-day-daily-lesson-draft` automation now covers two daily tracks:
-  one Sketcha.day pencil/sketch lesson and one Doodle.day marker/comic doodle
+  one Sketcha.day pencil/sketch lesson and one Doodlea.day marker/comic doodle
   lesson, each in its own repository/context.
 - Added the little tugboat as the June 25, 2026 / Day 015 Sketcha.day tutorial
   from a reviewed six-panel generated contact sheet. Finished image rating:
@@ -221,6 +221,16 @@
   Cove/Chrome desktop and mobile screenshots saved under
   `/tmp/sketcha-lemonade-qa/`, and a compact QA sheet at
   `/tmp/sketcha-lemonade-qa/qa-contact-sheet.jpg`.
+- Tested a matched two-color wordmark system with Doodlea.day: Sketcha now
+  renders `sketch` and `.day` in teal, with the final `a` in orange, while
+  keeping the pencil glyph.
+- Added a generated transparent raster pencil glyph at
+  `assets/logo-pencil-raster-v1.png`, changed site/home links to use `/`
+  instead of `index.html`, and added sister-site links to Doodlea.day.
+- Updated the daily automation guidance: until the owner says otherwise, each
+  scheduled run should create two tutorials per sister site: one current daily
+  tutorial and one honest backdated archive tutorial for Sketcha.day, plus the
+  same current/backdated pair for Doodlea.day.
 
 ### 2026-06-23 — SEO review & on-page fixes (Claude Cowork)
 

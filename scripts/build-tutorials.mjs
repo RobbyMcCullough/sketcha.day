@@ -1,6 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 
 const siteUrl = "https://sketcha.day";
+const brandWordmark = `sketch<span class="brand-accent">a</span><span class="brand-domain">.day</span>`;
 const iconLinks = `  <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
@@ -1058,14 +1059,14 @@ ${iconLinks}
   <a class="skip-link" href="#lesson">Skip to the lesson</a>
   <header class="site-header">
     <div class="brand">
-      <img class="brand-mark" src="../assets/logo-pencil.svg" alt="" width="72" height="72">
-      <a class="brand-wordmark" href="../index.html" aria-label="Sketcha.day home"><span class="brand-name">sketcha<span>.day</span></span></a>
+      <img class="brand-mark" src="../assets/logo-pencil-raster-v1.png" alt="" width="72" height="72">
+      <a class="brand-wordmark" href="../" aria-label="Sketcha.day home"><span class="brand-name">${brandWordmark}</span></a>
     </div>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
-      <a href="../index.html">Today's sketch</a>
+      <a href="../">Today's sketch</a>
       <a href="../library.html">Sketch library</a>
-      <a href="../index.html#about">How it works</a>
+      <a href="../#about">How it works</a>
       <a class="nav-button" href="#lesson">Start drawing</a>
     </nav>
   </header>
@@ -1110,9 +1111,9 @@ ${iconLinks}
     </section>
   </main>
   <footer class="site-footer">
-    <a class="brand footer-brand" href="../index.html"><span class="brand-name">sketcha<span>.day</span></span></a>
-    <p>Make a mark. See what happens.</p>
-    <nav aria-label="Footer navigation"><a href="../index.html">Today</a><a href="../library.html">Library</a><a href="../index.html#about">About</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
+    <a class="brand footer-brand" href="../"><span class="brand-name">${brandWordmark}</span></a>
+    <p>Make a mark. See what happens. Prefer bold marker doodles? Visit <a href="https://doodlea.day/">Doodlea.day</a>.</p>
+    <nav aria-label="Footer navigation"><a href="../">Today</a><a href="../library.html">Library</a><a href="../#about">About</a><a href="https://doodlea.day/">Doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
     <small>© 2026 Sketcha.day</small>
   </footer>
   <script src="../script.js"></script>
@@ -1130,6 +1131,7 @@ const homePage = (lesson) => {
         <p class="kicker">One small drawing, every day</p>
         <h2>A daily practice for curious hands.</h2>
         <p>Sketcha.day turns a blank page into an approachable ritual. Every lesson starts with simple shapes, explains the useful bits, and leaves room for your own style.</p>
+        <p class="sister-note">Want the louder marker version? Visit <a href="https://doodlea.day/">Doodlea.day</a> for bright comic-style doodles.</p>
         <div class="about-points">
           <p><strong>Made for real life</strong><span>Most lessons take 15-30 minutes.</span></p>
           <p><strong>Useful at any age</strong><span>Friendly enough for kids, substantial enough for grown-ups.</span></p>
@@ -1162,8 +1164,8 @@ const homePage = (lesson) => {
     .replaceAll('src="../script.js"', 'src="script.js"')
     .replaceAll("../assets/", "assets/")
     .replaceAll("../library.html", "library.html")
-    .replaceAll("../index.html#about", "#about")
-    .replaceAll("../index.html", "index.html")
+    .replaceAll("../#about", "#about")
+    .replaceAll('href="../"', 'href="/"')
     .replaceAll("Skip to the lesson", "Skip to today's lesson")
     .replaceAll("Finished sketch <span>", "Today's finished sketch <span>")
     .replaceAll("From the archive", "Pencil ready?")
@@ -1261,15 +1263,15 @@ ${iconLinks}
   <a class="skip-link" href="#tutorial-library">Skip to the tutorial library</a>
   <header class="site-header">
     <div class="brand">
-      <img class="brand-mark" src="assets/logo-pencil.svg" alt="" width="72" height="72">
-      <a class="brand-wordmark" href="index.html" aria-label="Sketcha.day home"><span class="brand-name">sketcha<span>.day</span></span></a>
+      <img class="brand-mark" src="assets/logo-pencil-raster-v1.png" alt="" width="72" height="72">
+      <a class="brand-wordmark" href="/" aria-label="Sketcha.day home"><span class="brand-name">${brandWordmark}</span></a>
     </div>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
-      <a href="index.html">Today's sketch</a>
+      <a href="/">Today's sketch</a>
       <a href="library.html" aria-current="page">Sketch library</a>
-      <a href="index.html#about">How it works</a>
-      <a class="nav-button" href="index.html#lesson">Start drawing</a>
+      <a href="/#about">How it works</a>
+      <a class="nav-button" href="/#lesson">Start drawing</a>
     </nav>
   </header>
   <main>
@@ -1298,9 +1300,9 @@ ${iconLinks}
     </section>
   </main>
   <footer class="site-footer">
-    <a class="brand footer-brand" href="index.html"><span class="brand-name">sketcha<span>.day</span></span></a>
-    <p>Make a mark. See what happens.</p>
-    <nav aria-label="Footer navigation"><a href="index.html">Today</a><a href="library.html" aria-current="page">Library</a><a href="index.html#about">About</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
+    <a class="brand footer-brand" href="/"><span class="brand-name">${brandWordmark}</span></a>
+    <p>Make a mark. See what happens. Prefer bold marker doodles? Visit <a href="https://doodlea.day/">Doodlea.day</a>.</p>
+    <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html" aria-current="page">Library</a><a href="/#about">About</a><a href="https://doodlea.day/">Doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
     <small>© 2026 Sketcha.day</small>
   </footer>
   <script src="script.js"></script>
