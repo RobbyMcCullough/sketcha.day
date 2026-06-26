@@ -274,3 +274,16 @@
 - All changes are uncommitted, intended for a feature branch (`main`
   auto-deploys). Working tree also has a stray `.seo_probe` file (sandbox
   couldn't delete it) — remove it locally before committing.
+- Standing instruction added June 26, 2026: Sketcha.day and Doodlea.day should
+  stay near mirror images for style and structure. Unless the owner explicitly
+  says otherwise, apply layout, component, navigation, responsive, build-structure,
+  and interaction-pattern changes to both sibling repos.
+- Shared styling update on June 26, 2026: both sites now use the split
+  `How to draw...` headline treatment, a subject-colored underline stroke,
+  matched CTA hover movement/shadows, animated nav-link hover underlines, and a
+  fixed library-card hover rule that also applies to the final card.
+- Added generated cartoon material icons on June 26, 2026 under
+  `assets/material-icons/`. The pages use compressed WebP icons for pencil,
+  paper, eraser, colored pencils, marker, and marker sets; the CSS keeps legacy
+  class names while `scripts/build-tutorials.mjs` maps material labels
+  semantically.

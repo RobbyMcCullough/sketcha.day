@@ -6,6 +6,21 @@ Sketcha.day is a daily drawing prompt and step-by-step tutorial site for curious
 artists of all ages. The design should feel like a working artist's sketchbook:
 playful and handmade, but clear and useful enough for adults.
 
+## Sister Site Parity
+
+Sketcha.day and Doodlea.day are sister sites. Unless the project owner explicitly
+says otherwise, any style or structure change made to this site should also be
+applied to Doodlea.day. Keep the two sites near mirror images in layout,
+components, navigation, responsive behavior, build structure, and interaction
+patterns; the main difference is editorial focus and art direction:
+Sketcha.day is drawing/sketch focused, while Doodlea.day is doodle/marker
+focused.
+
+Before finishing style or structure work, check the sibling repository at
+`/Users/mybbor/Library/CloudStorage/Dropbox/websites/doodlea.day` and either
+apply the matching change there or clearly report why it was intentionally
+skipped.
+
 ## Local Development
 
 This prototype is dependency-free. The local site is normally served by Cove at:

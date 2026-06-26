@@ -1050,7 +1050,15 @@ const relatedCards = (currentSlug) => lessons
     </a>`)
   .join("");
 
-const materialIcon = (index) => ["pencil-icon", "paper-icon", "eraser-icon", "colors-icon"][index];
+const materialIcon = (material) => {
+  const normalized = material.toLowerCase();
+  if (normalized.includes("paper")) return "paper-icon";
+  if (normalized.includes("eraser")) return "eraser-icon";
+  if (normalized.includes("colored") || normalized.includes("pencil")) {
+    return normalized.includes("graphite") ? "pencil-icon" : "colored-pencils-icon";
+  }
+  return "pencil-icon";
+};
 const titleCase = (value) => value.replace(/\b\w/g, (character) => character.toUpperCase());
 const headlineHtml = (value) => String(value)
   .split(/<br\s*\/?>/i)
@@ -1177,7 +1185,7 @@ ${iconLinks}
       <div class="doodle doodle-star" aria-hidden="true">✦</div>
       <div class="hero-copy">
         <p class="eyebrow">${lesson.date}</p>
-        <h1 id="hero-title" aria-label="How to draw ${lesson.subject}"><span class="headline-lead">How to draw</span> <em aria-hidden="true">${headlineHtml(lesson.headlineSubject ?? lesson.subject)}</em></h1>
+        <h1 id="hero-title" aria-label="How to draw ${lesson.subject}"><span class="headline-lead">How to draw...</span> <em aria-hidden="true">${headlineHtml(lesson.headlineSubject ?? lesson.subject)}</em></h1>
         <p class="hero-intro">${lesson.intro}</p>
         <div class="hero-meta" aria-label="Lesson details"><span><strong>${lesson.time}</strong> min</span><span><strong>${lesson.difficulty}</strong></span></div>
         <a class="nav-button hero-button" href="#lesson">Start drawing <svg viewBox="0 0 30 15" aria-hidden="true"><path d="M1 7.5h26M20 1l7 6.5-7 6.5"/></svg></a>
@@ -1199,7 +1207,7 @@ ${iconLinks}
           <div class="pushpin" aria-hidden="true"></div>
           <p class="hand-note">Grab your stuff</p>
           <h3 id="materials-title">Materials</h3>
-          <ul>${lesson.materials.map((material, index) => `<li><span class="material-icon ${materialIcon(index)}" aria-hidden="true"></span><div><strong>${material}</strong><small>${index === 3 ? "Completely optional" : "Whatever you already have"}</small></div></li>`).join("")}</ul>
+          <ul>${lesson.materials.map((material, index) => `<li><span class="material-icon ${materialIcon(material)}" aria-hidden="true"></span><div><strong>${material}</strong><small>${index === 3 ? "Completely optional" : "Whatever you already have"}</small></div></li>`).join("")}</ul>
           <p class="materials-note">No colored pencil? Graphite alone makes a complete sketch.</p>
         </aside>
         <ol class="steps">${steps}
