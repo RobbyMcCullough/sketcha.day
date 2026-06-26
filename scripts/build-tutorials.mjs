@@ -128,52 +128,52 @@ const lessons = [
     ]
   },
   {
-    slug: "canoe-on-a-lake",
+    slug: "desk-dog",
     day: "019",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
-    subject: "a canoe on a lake",
-    headlineSubject: "a canoe<br>on a lake",
-    shortSubject: "a canoe on a lake",
-    lessonTitle: "Let's draw a canoe",
-    description: "Learn how to draw a canoe on a lake with a long lifted hull, inside rim, cross seats, resting paddle, calm water ripples, soft shore line, and restrained blue-brown pencil shading.",
-    intro: "Build the canoe from one long shallow curve, then add the open rim, seats, paddle, and calm lake marks before darkening the keeper lines.",
+    subject: "a dog at a desk",
+    headlineSubject: "a dog<br>at a desk",
+    shortSubject: "a desk dog",
+    lessonTitle: "Let's draw a desk dog",
+    description: "Learn how to draw a dog at a desk with a round head, floppy ears, simple face, front paws, pencil cup, pencils, and restrained warm pencil shading.",
+    intro: "Use a simple head circle and desk line to build a friendly dog who looks ready to keep you company while you draw.",
     time: 25,
-    difficulty: "Easy-medium",
-    accent: "#5d8ea4",
-    finished: "canoe-on-a-lake-finished-v1.jpg",
-    finishedAlt: "Graphite and blue colored-pencil sketch of a canoe on a lake with lifted bow and stern, inside seats, resting paddle, ripples, distant shore, and soft shadow",
-    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blue and warm brown pencils"],
+    difficulty: "Easy",
+    accent: "#c9955f",
+    finished: "desk-dog-finished-v1.jpg",
+    finishedAlt: "Graphite and warm colored-pencil sketch of a floppy-eared dog peeking over a desk beside a pencil cup",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional tan, brown, and yellow pencils"],
     steps: [
       {
-        name: "Place the canoe guide",
-        text: "Draw a long shallow curve for the top of the canoe, then add tiny lifted end guides and a light water baseline underneath.",
-        tip: "Keep the guide low and wide. A canoe should feel stretched out before you add details."
+        name: "Block the head and desk",
+        text: "Draw a round head guide, then run a straight desk edge across the lower part of the page.",
+        tip: "Let the head float above the line for now. The paws will connect the dog to the desk later."
       },
       {
-        name: "Shape the hull",
-        text: "Connect the raised bow and stern with a curved lower edge so the canoe becomes one narrow, open hull.",
-        tip: "Let both ends lift at about the same height. Matching those tips keeps the boat from looking twisted."
+        name: "Drop in the ears",
+        text: "Add two soft floppy ears on the sides of the head, keeping them about the same length.",
+        tip: "Round the ear tips instead of pointing them. Soft ears make the little dog feel friendly."
       },
       {
-        name: "Add rim and seats",
-        text: "Draw a second line inside the top edge for the rim, then place two short cross seats across the open canoe.",
-        tip: "Angle the seats slightly with the rim. They should sit inside the boat, not float on top of it."
+        name: "Build the face",
+        text: "Place two eyes, a rounded muzzle, a dark nose, and a small curved mouth inside the head.",
+        tip: "Keep the eyes level with each other. That simple check makes the face read clearly at thumbnail size."
       },
       {
-        name: "Rest the paddle",
-        text: "Lay a slim paddle diagonally across the canoe with a narrow handle and one simple oval blade near the water.",
-        tip: "Draw the handle first, then widen the blade. A heavy paddle can overpower the quiet canoe."
+        name: "Set the paws on the desk",
+        text: "Draw two small paws overlapping the desk edge, then add short toe curves inside each paw.",
+        tip: "The paws should sit in front of the desk line. Erase or soften the line where the paws cover it."
       },
       {
-        name: "Add lake marks",
-        text: "Sketch loose horizontal ripples around the hull, a pale shore line in the distance, and a soft shadow under the canoe.",
-        tip: "Keep the water marks flatter than the boat curves. Horizontal strokes make the lake feel calm."
+        name: "Add the pencil cup",
+        text: "Sketch a small cup on one side of the desk, add two pencils inside it, and touch in warm color on the ears and pencils.",
+        tip: "Keep the cup smaller than the dog's head. It should support the scene, not steal the focus."
       },
       {
-        name: "Finish the lake sketch",
-        text: "Darken the hull, rim, seats, paddle, ripples, shore, shadow, and restrained blue-brown pencil touches without adding people or extra boats.",
-        tip: "Stop while the shoreline is still pale. The canoe should stay the main read at thumbnail size.",
+        name: "Finish the desk dog",
+        text: "Darken the dog, desk, paws, pencil cup, pencils, and warm shading without adding screens, lettering, or extra office clutter.",
+        tip: "Stop while the fur marks still feel light. A few soft pencil strokes are enough to give the dog texture.",
         image: true
       }
     ]

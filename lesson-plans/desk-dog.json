@@ -1,0 +1,113 @@
+{
+  "slug": "desk-dog",
+  "finished": "assets/desk-dog-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation contact sheet reviewed before cropping; approved final panel is saved as the finished raster artwork.",
+    "notes": "All step frames should be cropped from the same generated contact sheet so the dog head, ears, paws, desk edge, pencil cup, graphite texture, and restrained color stay consistent."
+  },
+  "process_strategy": "Use one six-panel contact sheet that builds a small dog peeking over a desk from simple head and desk guides to ears, muzzle, paws, pencil cup, restrained color, and final keeper-line strength.",
+  "final_elements": [
+    {
+      "name": "round dog head",
+      "introduced_by_step": 1,
+      "description": "A friendly dog head peeking above a horizontal desk edge."
+    },
+    {
+      "name": "desk edge",
+      "introduced_by_step": 1,
+      "description": "A simple horizontal desktop line in front of the dog."
+    },
+    {
+      "name": "floppy ears",
+      "introduced_by_step": 2,
+      "description": "Two soft floppy ears attached to the sides of the dog head."
+    },
+    {
+      "name": "muzzle and face",
+      "introduced_by_step": 3,
+      "description": "A rounded muzzle with simple eyes, nose, and small mouth."
+    },
+    {
+      "name": "front paws",
+      "introduced_by_step": 4,
+      "description": "Two small paws resting on the front edge of the desk."
+    },
+    {
+      "name": "pencil cup",
+      "introduced_by_step": 5,
+      "description": "A small cup with two or three pencils sitting on the desk."
+    },
+    {
+      "name": "restrained warm shading",
+      "introduced_by_step": 5,
+      "description": "Light brown and yellow colored-pencil touches on the dog and pencils."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/desk-dog-step-1.jpg",
+      "step_name": "Block the head and desk",
+      "visible_job": "Sets the round dog head guide above a simple desk-edge line.",
+      "introduces": [
+        "round dog head",
+        "desk edge"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/desk-dog-step-2.jpg",
+      "step_name": "Drop in the ears",
+      "visible_job": "Adds both floppy ears while keeping the head and desk placement unchanged.",
+      "introduces": [
+        "floppy ears"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/desk-dog-step-3.jpg",
+      "step_name": "Build the face",
+      "visible_job": "Adds the muzzle, eyes, nose, and mouth inside the existing head shape.",
+      "introduces": [
+        "muzzle and face"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/desk-dog-step-4.jpg",
+      "step_name": "Set the paws on the desk",
+      "visible_job": "Adds two small front paws overlapping the front desk edge.",
+      "introduces": [
+        "front paws"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/desk-dog-step-5.jpg",
+      "step_name": "Add the pencil cup",
+      "visible_job": "Adds the pencil cup, pencil shapes, and restrained warm color on existing dog and desk elements.",
+      "introduces": [
+        "pencil cup",
+        "restrained warm shading"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the desk dog",
+    "asset": "assets/desk-dog-finished-v1.jpg",
+    "visible_job": "Only strengthens existing dog, desk, paw, pencil cup, pencil, and warm shading marks without adding new office props.",
+    "allowed_changes": [
+      "keeper-line darkening",
+      "final graphite texture",
+      "restrained colored-pencil shading",
+      "paper texture from the saved contact sheet"
+    ]
+  },
+  "rejection_checks": [
+    "No ear, muzzle, eye, nose, paw, pencil cup, pencil, desk edge, or core color choice should first appear in the final image.",
+    "The dog must keep the same front-facing pose, scale, and placement in every frame.",
+    "The final image must not add computer screens, lettering, extra office supplies, humans, or background scenery absent from the process frames.",
+    "Do not use separately prompted step images that drift from this contact sheet."
+  ]
+}
