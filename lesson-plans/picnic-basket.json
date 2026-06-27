@@ -1,0 +1,106 @@
+{
+  "slug": "picnic-basket",
+  "finished": "assets/picnic-basket-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation created a six-panel pencil process contact sheet for the picnic-basket lesson.",
+    "notes": "The contact sheet was reviewed before cropping; the final panel is used as the finished asset."
+  },
+  "process_strategy": "The frames build one consistent basket from a rounded box, then add the handle, cloth, apple, weave bands, and finishing graphite before the final panel.",
+  "final_elements": [
+    {
+      "name": "rounded basket body",
+      "introduced_by_step": 1,
+      "description": "A squat rounded basket body gives the drawing its main container shape."
+    },
+    {
+      "name": "arched handle",
+      "introduced_by_step": 2,
+      "description": "A broad arched handle rises from both sides of the basket."
+    },
+    {
+      "name": "folded picnic cloth",
+      "introduced_by_step": 3,
+      "description": "A soft cloth drapes over the basket rim with visible folds."
+    },
+    {
+      "name": "small apple",
+      "introduced_by_step": 4,
+      "description": "A single apple peeks from one side above the basket rim."
+    },
+    {
+      "name": "woven basket bands",
+      "introduced_by_step": 5,
+      "description": "Horizontal and vertical weave marks wrap across the basket body."
+    },
+    {
+      "name": "soft ground shadow",
+      "introduced_by_step": 5,
+      "description": "A pale shadow under the basket anchors it lightly to the page."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/picnic-basket-step-1.jpg",
+      "step_name": "Block in the basket",
+      "visible_job": "Place the rounded box shape for the basket body and a light rim guide.",
+      "introduces": [
+        "rounded basket body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/picnic-basket-step-2.jpg",
+      "step_name": "Raise the handle",
+      "visible_job": "Add the arched handle from one side of the basket to the other.",
+      "introduces": [
+        "arched handle"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/picnic-basket-step-3.jpg",
+      "step_name": "Tuck in the cloth",
+      "visible_job": "Draw the folded picnic cloth sitting over the basket rim.",
+      "introduces": [
+        "folded picnic cloth"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/picnic-basket-step-4.jpg",
+      "step_name": "Add the apple",
+      "visible_job": "Place the small apple shape and refine the basket rim around it.",
+      "introduces": [
+        "small apple"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/picnic-basket-step-5.jpg",
+      "step_name": "Weave the basket",
+      "visible_job": "Add the woven basket bands and a soft shadow under the basket.",
+      "introduces": [
+        "woven basket bands",
+        "soft ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the picnic sketch",
+    "asset": "assets/picnic-basket-finished-v1.jpg",
+    "visible_job": "Darken keeper lines, add restrained graphite shading, and clarify the already-drawn weave, cloth folds, apple, and handle.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained graphite shading",
+      "small weave texture marks",
+      "minor cloth fold cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

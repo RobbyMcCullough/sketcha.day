@@ -1,0 +1,106 @@
+{
+  "slug": "sunglasses-on-a-towel",
+  "finished": "assets/sunglasses-on-a-towel-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation created a six-panel pencil process contact sheet for the sunglasses-on-a-towel lesson.",
+    "notes": "The contact sheet was reviewed before cropping; the final panel is used as the finished asset."
+  },
+  "process_strategy": "The six frames keep the same tilted towel and sunglasses pose, introducing the lenses, frame, arms, towel edges, stripes, fringe, and lens shading before the final cleanup pass.",
+  "final_elements": [
+    {
+      "name": "tilted beach towel",
+      "introduced_by_step": 1,
+      "description": "A soft rectangular towel sits behind the sunglasses at a slight angle."
+    },
+    {
+      "name": "two rounded lenses",
+      "introduced_by_step": 1,
+      "description": "Two large rounded sunglass lenses overlap the center of the towel."
+    },
+    {
+      "name": "bridge and frame rims",
+      "introduced_by_step": 2,
+      "description": "A narrow bridge connects the lenses, with light rims around both lenses."
+    },
+    {
+      "name": "folded sunglass arms",
+      "introduced_by_step": 3,
+      "description": "Both side arms tuck back along the towel behind the lenses."
+    },
+    {
+      "name": "towel stripes and fringe",
+      "introduced_by_step": 4,
+      "description": "Simple towel stripes and small fringe marks give the cloth a beach-towel feel."
+    },
+    {
+      "name": "dark lens shading",
+      "introduced_by_step": 5,
+      "description": "Soft graphite shading fills the lenses while leaving small highlight gaps."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/sunglasses-on-a-towel-step-1.jpg",
+      "step_name": "Place the towel and lenses",
+      "visible_job": "Block in the tilted towel rectangle and two light rounded lens guides.",
+      "introduces": [
+        "tilted beach towel",
+        "two rounded lenses"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/sunglasses-on-a-towel-step-2.jpg",
+      "step_name": "Connect the sunglass frame",
+      "visible_job": "Add the bridge and rough frame rims around the two lens shapes.",
+      "introduces": [
+        "bridge and frame rims"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/sunglasses-on-a-towel-step-3.jpg",
+      "step_name": "Fold back the arms",
+      "visible_job": "Draw the folded sunglass arms extending behind the lenses along the towel.",
+      "introduces": [
+        "folded sunglass arms"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/sunglasses-on-a-towel-step-4.jpg",
+      "step_name": "Add towel details",
+      "visible_job": "Refine the towel edge, add simple stripes, and place the fringe marks.",
+      "introduces": [
+        "towel stripes and fringe"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/sunglasses-on-a-towel-step-5.jpg",
+      "step_name": "Shade the lenses",
+      "visible_job": "Add dark lens shading and small reserved highlight gaps without changing the frame.",
+      "introduces": [
+        "dark lens shading"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the sunny sketch",
+    "asset": "assets/sunglasses-on-a-towel-finished-v1.jpg",
+    "visible_job": "Darken keeper contours, strengthen the towel texture, and add restrained cast shadows to the existing shapes.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained graphite shading",
+      "small cloth texture marks",
+      "minor lens highlight cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

@@ -12,7 +12,7 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 const lessons = [
   {
     slug: "curious-fox",
-    day: "008",
+    day: "009",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -129,8 +129,59 @@ const lessons = [
     ]
   },
   {
+    slug: "sunglasses-on-a-towel",
+    day: "021",
+    date: "Saturday, June 27",
+    isoDate: "2026-06-27",
+    subject: "a pair of sunglasses on a towel",
+    headlineSubject: "sunglasses<br>on a towel",
+    shortSubject: "sunglasses on a towel",
+    lessonTitle: "Let's draw sunglasses on a towel",
+    description: "Learn how to draw a pair of sunglasses on a beach towel with rounded lenses, folded arms, towel stripes, fringe, dark lens shading, and soft pencil texture.",
+    intro: "Use two simple lens circles and one tilted towel rectangle to build a sunny sketch that still feels light and handmade.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#d9a93f",
+    finished: "sunglasses-on-a-towel-finished-v1.jpg",
+    finishedAlt: "Graphite sketch of round sunglasses resting on a striped beach towel with fringe and dark shaded lenses",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blending stump or tissue"],
+    steps: [
+      {
+        name: "Place the towel and lenses",
+        text: "Draw a tilted rectangle for the towel, then place two light rounded lens guides across the middle.",
+        tip: "Let the towel angle first. The sunglasses will feel more relaxed if they follow that slant."
+      },
+      {
+        name: "Connect the sunglass frame",
+        text: "Wrap a rim around each lens and connect them with a short bridge between the circles.",
+        tip: "Keep both rims the same thickness. A second light pass around each lens is enough."
+      },
+      {
+        name: "Fold back the arms",
+        text: "Add the folded side arms peeking from behind the lenses, following the towel's angle.",
+        tip: "Tuck the arms under the frame edges so they look folded back, not sticking straight out."
+      },
+      {
+        name: "Add towel details",
+        text: "Refine the towel edges, sketch a few long stripes, and add little fringe marks along the ends.",
+        tip: "Do not make every fringe identical. Small differences keep the cloth feeling hand drawn."
+      },
+      {
+        name: "Shade the lenses",
+        text: "Fill both lenses with soft dark graphite and leave a small pale highlight near the top of each lens.",
+        tip: "Shade around the highlights instead of drawing white shapes on top. Untouched paper stays brightest."
+      },
+      {
+        name: "Finish the sunny sketch",
+        text: "Darken the keeper contours, strengthen the towel texture, and add restrained shadows under the frame and fringe.",
+        tip: "Stop before the towel gets too busy. The dark lenses should remain the strongest value.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "desk-dog",
-    day: "019",
+    day: "020",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -181,7 +232,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "018",
+    day: "019",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -232,7 +283,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "017",
+    day: "018",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -283,7 +334,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "016",
+    day: "017",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -334,7 +385,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "015",
+    day: "016",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -385,7 +436,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "014",
+    day: "015",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -436,7 +487,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "013",
+    day: "014",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -487,7 +538,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "012",
+    day: "013",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -538,7 +589,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "011",
+    day: "012",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -589,7 +640,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "010",
+    day: "011",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -645,7 +696,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "009",
+    day: "010",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -691,7 +742,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "007",
+    day: "008",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -740,7 +791,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "006",
+    day: "007",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -789,7 +840,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "005",
+    day: "006",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -838,7 +889,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "004",
+    day: "005",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -883,7 +934,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "003",
+    day: "004",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -933,8 +984,59 @@ const lessons = [
     ]
   },
   {
-    slug: "seashell-on-sand",
+    slug: "picnic-basket",
     day: "001",
+    date: "Sunday, June 7",
+    isoDate: "2026-06-07",
+    subject: "a picnic basket",
+    headlineSubject: "a picnic<br>basket",
+    shortSubject: "a picnic basket",
+    lessonTitle: "Let's draw a picnic basket",
+    description: "Learn how to draw a picnic basket with a rounded woven body, arched handle, folded cloth, small apple, and soft graphite shadow.",
+    intro: "Build the basket from one rounded box, then layer in the handle, cloth, apple, and weave without letting the details take over.",
+    time: 30,
+    difficulty: "Easy-medium",
+    accent: "#b67848",
+    finished: "picnic-basket-finished-v1.jpg",
+    finishedAlt: "Graphite sketch of a picnic basket with woven body, arched handle, folded cloth, small apple, and soft shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional red colored pencil"],
+    steps: [
+      {
+        name: "Block in the basket",
+        text: "Draw a squat rounded box for the basket body, then add a light oval rim across the top.",
+        tip: "Keep the sides slightly curved. A perfectly straight box will not feel woven or handmade."
+      },
+      {
+        name: "Raise the handle",
+        text: "Draw a broad arch from one side of the basket to the other, then add a second line inside it for thickness.",
+        tip: "Attach the handle low enough that it feels connected to the basket, not floating above it."
+      },
+      {
+        name: "Tuck in the cloth",
+        text: "Drape a folded cloth over the front rim and let the side corners hang over the basket edges.",
+        tip: "Use a few angled fold lines, but keep the cloth simple so the basket shape stays readable."
+      },
+      {
+        name: "Add the apple",
+        text: "Place one small apple behind the cloth and tuck its bottom edge behind the basket rim.",
+        tip: "Only a partial apple is needed. The overlap makes the basket feel full without adding clutter."
+      },
+      {
+        name: "Weave the basket",
+        text: "Add horizontal basket bands, break them with short vertical weave marks, and sketch a soft shadow underneath.",
+        tip: "Stagger the vertical marks instead of lining them up. That is the shortcut to a woven look."
+      },
+      {
+        name: "Finish the picnic sketch",
+        text: "Darken keeper lines, shade the handle and basket, clarify the cloth folds, and lightly tint the apple if you want color.",
+        tip: "Let some construction lines remain pale. They help the basket feel like a sketch, not a polished still life.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "seashell-on-sand",
+    day: "002",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -985,7 +1087,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "002",
+    day: "003",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",

@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-26
+- Date: 2026-06-27
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
@@ -241,6 +241,20 @@
   `python3 scripts/check-tutorial-readiness.py seashell-on-sand`, reviewed step
   sheets at `/tmp/desk-dog-steps.jpg` and `/tmp/seashell-on-sand-steps.jpg`, and
   captured Cove browser QA screenshots at `/tmp/sketcha-*-rerun.png`.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
+- Added the sunglasses on a towel as the June 27, 2026 / Day 021 tutorial from
+  a reviewed six-panel generated pencil contact sheet. Finished image rating:
+  8.6/10.
+- Added the picnic basket as the June 7, 2026 / Day 001 backdated archive
+  tutorial. Existing Sketcha day labels shifted forward by one. Finished image
+  rating: 8.4/10.
+- June 27 QA used `python3 scripts/check-tutorial-readiness.py
+  sunglasses-on-a-towel` and `python3 scripts/check-tutorial-readiness.py
+  picnic-basket`, reviewed step sheets at
+  `/tmp/sunglasses-on-a-towel-steps.jpg` and `/tmp/picnic-basket-steps.jpg`,
+  and saved Cove browser desktop/mobile screenshots under
+  `/tmp/daily-sketch-doodle-qa-2026-06-27/`.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
 ### 2026-06-23 — SEO review & on-page fixes (Claude Cowork)
