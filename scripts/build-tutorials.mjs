@@ -1,6 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 
 const siteUrl = "https://sketcha.day";
+const styleVersion = "20260627-heading-fit";
 const brandWordmark = `sketch<span class="brand-accent">a</span><span class="brand-domain">.day</span>`;
 const iconLinks = `  <link rel="icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
@@ -1163,9 +1164,26 @@ const materialIcon = (material) => {
   return "pencil-icon";
 };
 const titleCase = (value) => value.replace(/\b\w/g, (character) => character.toUpperCase());
+const escapeHtml = (value) => String(value)
+  .replaceAll("&", "&amp;")
+  .replaceAll("<", "&lt;")
+  .replaceAll(">", "&gt;")
+  .replaceAll('"', "&quot;")
+  .replaceAll("'", "&#39;");
 const headlineHtml = (value) => String(value)
   .split(/<br\s*\/?>/i)
-  .map((line) => `<span>${line.trim()}</span>`)
+  .map((line, lineIndex, lines) => {
+    const words = line.trim().split(/\s+/).filter(Boolean);
+    const letterCount = words.join("").length;
+    const sizeClass = letterCount >= 14 ? " headline-line-compact" : letterCount >= 11 ? " headline-line-tight" : "";
+    const wordHtml = words
+      .map((word, wordIndex) => {
+        const isUnderlineWord = lineIndex === lines.length - 1 && wordIndex === words.length - 1;
+        return `<span class="headline-word${isUnderlineWord ? " headline-underline" : ""}">${escapeHtml(word)}</span>`;
+      })
+      .join(" ");
+    return `<span class="headline-line${sizeClass}">${wordHtml}</span>`;
+  })
   .join(" ");
 const escapeXml = (value) => String(value)
   .replaceAll("&", "&amp;")
@@ -1264,7 +1282,7 @@ ${iconLinks}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../styles.css?v=${styleVersion}">
   <script type="application/ld+json">${JSON.stringify(schema, null, 2)}</script>
   <script defer data-domain="sketcha.day" src="https://analytics.robbymccullough.com/js/script.js"></script>
 </head>
@@ -1373,7 +1391,7 @@ const homePage = (lesson) => {
   // We deliberately do NOT rewrite those absolute tutorial URLs to "/" here.
   let html = page(lesson)
     .replace('<body class="archive-tutorial"', '<body class="home-page archive-tutorial"')
-    .replaceAll('href="../styles.css"', 'href="styles.css"')
+    .replaceAll(`href="../styles.css?v=${styleVersion}"`, `href="styles.css?v=${styleVersion}"`)
     .replaceAll('src="../script.js"', 'src="script.js"')
     .replaceAll("../assets/", "assets/")
     .replaceAll("../library.html", "library.html")
@@ -1468,7 +1486,7 @@ ${iconLinks}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=${styleVersion}">
   <script type="application/ld+json">${JSON.stringify(schema, null, 2)}</script>
   <script defer data-domain="sketcha.day" src="https://analytics.robbymccullough.com/js/script.js"></script>
 </head>

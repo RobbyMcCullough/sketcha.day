@@ -305,3 +305,16 @@
   emits a plain `/favicon.ico` fallback plus explicit 16x16, 32x32, 48x48, 180x180
   Apple, and 512x512 site-icon links. Google Search Console may still lag until
   Google recrawls the home page and favicon.
+- Heading-fit follow-up on June 27, 2026: tutorial hero headings now render
+  word-level spans inside non-wrapping manual lines, with the marker underline
+  attached to the final meaningful word rather than the whole line. The
+  generator appends `?v=20260627-heading-fit` to `styles.css` so deployed pages
+  load the corrected headline CSS.
+- `DAILY-PUBLISHING.md` now requires a rendered page-layout rating of at least
+  8/10 before publishing. The gate specifically rejects one-character headline
+  breaks, stranded articles, bad underline placement, overflow, clipped type,
+  and awkward mobile hero composition.
+- June 27 heading QA checked every generated tutorial on Sketcha.day and
+  Doodlea.day at desktop and mobile widths: 60 page/viewport combinations,
+  zero heading failures. Screenshot examples live under
+  `/tmp/heading-fit-qa-2026-06-27/`.

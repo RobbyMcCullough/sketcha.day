@@ -66,9 +66,11 @@ When this guide is used by a scheduled Codex automation, the job should:
 11. Run `node scripts/build-tutorials.mjs`.
 12. QA the homepage, `library.html`, and the new tutorial page at desktop and
    mobile widths.
-13. Commit the work with a concise message only when the page passes the
+13. Rate the rendered page layout using the 10-point gate below. Do not publish
+    unless the layout scores at least 8/10.
+14. Commit the work with a concise message only when the page passes the
    anti-slop review and validation checks.
-14. For scheduled daily lesson automation, push the passing commit to `main` so
+15. For scheduled daily lesson automation, push the passing commit to `main` so
     it publishes. No separate editorial review is required after the automated
     quality gates pass.
 
@@ -119,6 +121,30 @@ Reject images with unclear silhouettes, chicken-scratch texture, warped anatomy,
 weak supporting objects, muddy color, fake paper texture pasted over digital
 line art, or any finish that looks worse than the rainy-day frog benchmark.
 Do not rationalize a 6/10 or 7/10 image because the page is otherwise useful.
+
+## Page Layout Rating Gate
+
+Before a lesson can be committed or published, rate the rendered homepage and
+tutorial page layout on a 10-point scale at desktop and mobile widths. The page
+layout must score at least 8/10. If it scores below 8, fix the layout or
+headline data before continuing.
+
+Score the layout against these criteria:
+
+- The hero heading is readable and intentional at both breakpoints.
+- No line breaks after a single letter or stranded article such as "a".
+- Manual headline lines do not wrap internally; reduce the headline line size
+  or choose a better `headlineSubject` break instead.
+- The marker underline lands under a real word, not under whitespace,
+  punctuation, or a weak connector such as "on", "in", "of", or "a".
+- The hero art, CTA, date, time, difficulty, and intro sit in a balanced
+  composition without overlap or awkward empty space.
+- The page has no horizontal overflow, clipped headline text, broken navigation,
+  missing images, or obvious mobile crowding.
+
+Reject pages with broken display type, lonely one-character lines, underlines
+that miss the intended word, image/card collisions, clipped hero art, or any
+layout that makes the lesson feel less polished than the current site standard.
 
 ## Artwork Pipeline
 
@@ -246,8 +272,10 @@ If any answer is no, the lesson is not ready.
 
 The automation must render desktop and mobile screenshots before publishing.
 Check the hero, every tutorial frame, the finish, materials, navigation, and
-structured data. Do not publish when assets are missing, text overflows, links
-are placeholders, or the finished image fails the draw-through test.
+structured data. Rate the rendered layout and keep the score at 8/10 or higher.
+Do not publish when assets are missing, text overflows, links are placeholders,
+headlines break after a single character, marker underlines miss the target
+word, or the finished image fails the draw-through test.
 
 Daily lesson publishing is approval-free once this QA passes. The automation
 should still stop instead of publishing when image generation is unavailable, the
