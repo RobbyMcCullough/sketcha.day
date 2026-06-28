@@ -13,7 +13,7 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 const lessons = [
   {
     slug: "curious-fox",
-    day: "009",
+    day: "010",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -130,8 +130,59 @@ const lessons = [
     ]
   },
   {
+    slug: "vintage-roller-skate",
+    day: "023",
+    date: "Sunday, June 28",
+    isoDate: "2026-06-28",
+    subject: "a vintage roller skate",
+    headlineSubject: "a vintage<br>roller skate",
+    shortSubject: "a roller skate",
+    lessonTitle: "Let's draw a vintage roller skate",
+    description: "Learn how to draw a vintage roller skate with a high-top boot, sole plate, four wheels, front toe stop, laces, cuff seams, and soft graphite shading.",
+    intro: "Use one high-top boot shape, then build the wheels, laces, and cuff details underneath it so the skate stays sturdy and easy to follow.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#ca7c57",
+    finished: "vintage-roller-skate-finished-v1.jpg",
+    finishedAlt: "Graphite sketch of a vintage high-top roller skate with laces, four wheels, a toe stop, cuff seams, and soft shading",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blending stump or tissue"],
+    steps: [
+      {
+        name: "Block in the boot",
+        text: "Sketch a long boot sole line, then raise a high ankle shape above it with a soft opening at the top.",
+        tip: "Keep the first boot light. The toe, heel, and ankle can wobble a little before you choose the final contour."
+      },
+      {
+        name: "Add the sole plate",
+        text: "Draw a narrow plate under the boot and refine the top opening so the skate has a clear shoe shape.",
+        tip: "Let the plate follow the same curve as the boot sole. A parallel line keeps the hardware from looking crooked."
+      },
+      {
+        name: "Place wheels and toe stop",
+        text: "Add two pairs of round wheels below the plate, then place the small toe stop under the front.",
+        tip: "Check the wheel baseline before darkening anything. All four wheels should feel like they touch the same floor."
+      },
+      {
+        name: "Thread the laces",
+        text: "Mark small eyelets up the front of the boot and connect them with loose crossing lace lines.",
+        tip: "Draw the laces after the wheels so your hand does not crowd the small details too early."
+      },
+      {
+        name: "Add cuff and seams",
+        text: "Add the padded ankle cuff, heel seam, stitch marks, and a pale shadow under the wheels.",
+        tip: "Use short broken strokes for the stitches. They should decorate the boot, not overpower the outline."
+      },
+      {
+        name: "Polish the skate sketch",
+        text: "Darken the keeper contours, strengthen the laces and seams, and add restrained shading to the boot, wheels, toe stop, and shadow.",
+        tip: "Leave some construction texture showing. A roller skate feels more handmade when the graphite is not polished flat.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "sunglasses-on-a-towel",
-    day: "021",
+    day: "022",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a pair of sunglasses on a towel",
@@ -182,7 +233,7 @@ const lessons = [
   },
   {
     slug: "desk-dog",
-    day: "020",
+    day: "021",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -233,7 +284,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "019",
+    day: "020",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -284,7 +335,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "018",
+    day: "019",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -335,7 +386,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "017",
+    day: "018",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -386,7 +437,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "016",
+    day: "017",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -437,7 +488,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "015",
+    day: "016",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -488,7 +539,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "014",
+    day: "015",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -539,7 +590,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "013",
+    day: "014",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -590,7 +641,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "012",
+    day: "013",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -641,7 +692,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "011",
+    day: "012",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -697,7 +748,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "010",
+    day: "011",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -743,7 +794,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "008",
+    day: "009",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -792,7 +843,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "007",
+    day: "008",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -841,7 +892,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "006",
+    day: "007",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -890,7 +941,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "005",
+    day: "006",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -935,7 +986,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "004",
+    day: "005",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -986,7 +1037,7 @@ const lessons = [
   },
   {
     slug: "picnic-basket",
-    day: "001",
+    day: "002",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a picnic basket",
@@ -1036,8 +1087,59 @@ const lessons = [
     ]
   },
   {
+    slug: "stack-of-books",
+    day: "001",
+    date: "Saturday, June 6",
+    isoDate: "2026-06-06",
+    subject: "a stack of books",
+    headlineSubject: "a stack<br>of books",
+    shortSubject: "a stack of books",
+    lessonTitle: "Let's draw a stack of books",
+    description: "Learn how to draw a stack of books with three offset book blocks, page edges, a ribbon bookmark, worn cover bands, and soft graphite shading.",
+    intro: "Build this book pile from simple rectangles, then add page lines, a hanging bookmark, and just enough shading to make the stack feel cozy.",
+    time: 20,
+    difficulty: "Easy",
+    accent: "#8aa15f",
+    finished: "stack-of-books-finished-v1.jpg",
+    finishedAlt: "Graphite sketch of three stacked books with page edges, a ribbon bookmark, worn cover bands, and soft shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blending stump or tissue"],
+    steps: [
+      {
+        name: "Stack two rectangles",
+        text: "Draw a wide bottom book, then place a second rectangle on top with a small sideways offset.",
+        tip: "Keep the book corners lightly squared. Tiny angle differences make the stack feel natural."
+      },
+      {
+        name: "Place the top book",
+        text: "Add a smaller top book and line up its side edges with the perspective of the books below.",
+        tip: "Use the lower books as rulers. The top book should sit on the stack, not float above it."
+      },
+      {
+        name: "Mark the pages",
+        text: "Add thin page-edge lines along the visible sides of each book.",
+        tip: "Draw fewer page lines than you think you need. A few clear strokes read better than a gray block."
+      },
+      {
+        name: "Drop in the bookmark",
+        text: "Hang a narrow ribbon bookmark from the top book and let it overlap the book below.",
+        tip: "A bookmark works best when it crosses an existing edge. That overlap makes the stack feel layered."
+      },
+      {
+        name: "Add worn cover details",
+        text: "Sketch simple cover bands, corner wear, and a soft shadow under the bottom book.",
+        tip: "Keep the wear marks short and uneven. The books should look used, not dirty."
+      },
+      {
+        name: "Finish the book stack",
+        text: "Darken the keeper lines, clarify the page edges and bookmark, and add restrained graphite shading to the books and shadow.",
+        tip: "Save the darkest value for the gaps between books. Those small shadows do most of the stacking work.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "seashell-on-sand",
-    day: "002",
+    day: "003",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -1088,7 +1190,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "003",
+    day: "004",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",

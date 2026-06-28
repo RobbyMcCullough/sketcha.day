@@ -1,0 +1,113 @@
+{
+  "slug": "vintage-roller-skate",
+  "finished": "assets/vintage-roller-skate-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation created a six-panel pencil process contact sheet for the vintage-roller-skate lesson.",
+    "notes": "The contact sheet was reviewed before cropping; the final panel is used as the finished asset."
+  },
+  "process_strategy": "The six frames keep one side-view roller skate pose, introducing the boot, sole, wheels, toe stop, laces, ankle padding, and shadow before the final cleanup pass.",
+  "final_elements": [
+    {
+      "name": "side-view skate boot",
+      "introduced_by_step": 1,
+      "description": "A high-top roller skate boot in side view forms the main silhouette."
+    },
+    {
+      "name": "sole plate",
+      "introduced_by_step": 2,
+      "description": "A narrow sole plate sits under the boot and anchors the wheel trucks."
+    },
+    {
+      "name": "four roller wheels",
+      "introduced_by_step": 3,
+      "description": "Four rounded wheels sit below the sole plate in two pairs."
+    },
+    {
+      "name": "front toe stop",
+      "introduced_by_step": 3,
+      "description": "A small toe stop projects from the front underside of the skate."
+    },
+    {
+      "name": "lace holes and laces",
+      "introduced_by_step": 4,
+      "description": "Simple eyelets and crossing laces climb the boot front."
+    },
+    {
+      "name": "ankle cuff and stitch details",
+      "introduced_by_step": 5,
+      "description": "A padded ankle cuff, seam lines, and small stitch marks add vintage character."
+    },
+    {
+      "name": "soft ground shadow",
+      "introduced_by_step": 5,
+      "description": "A light graphite shadow under the wheels grounds the skate."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/vintage-roller-skate-step-1.jpg",
+      "step_name": "Block in the boot",
+      "visible_job": "Place the high-top boot shape with light construction lines.",
+      "introduces": [
+        "side-view skate boot"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/vintage-roller-skate-step-2.jpg",
+      "step_name": "Add the sole plate",
+      "visible_job": "Draw the narrow sole plate and refine the boot opening.",
+      "introduces": [
+        "sole plate"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/vintage-roller-skate-step-3.jpg",
+      "step_name": "Place wheels and toe stop",
+      "visible_job": "Add four wheels under the plate and the small front toe stop.",
+      "introduces": [
+        "four roller wheels",
+        "front toe stop"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/vintage-roller-skate-step-4.jpg",
+      "step_name": "Thread the laces",
+      "visible_job": "Add eyelets and crossing laces on the boot front without changing the boot silhouette.",
+      "introduces": [
+        "lace holes and laces"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/vintage-roller-skate-step-5.jpg",
+      "step_name": "Add cuff and seams",
+      "visible_job": "Add the padded ankle cuff, seam lines, small stitch marks, and a light ground shadow.",
+      "introduces": [
+        "ankle cuff and stitch details",
+        "soft ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Polish the skate sketch",
+    "asset": "assets/vintage-roller-skate-finished-v1.jpg",
+    "visible_job": "Darken keeper contours, strengthen existing laces and seams, and add restrained graphite shading to the boot, wheels, and shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained graphite shading",
+      "small stitch texture marks",
+      "minor wheel shadow cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

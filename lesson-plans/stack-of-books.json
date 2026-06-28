@@ -1,0 +1,113 @@
+{
+  "slug": "stack-of-books",
+  "finished": "assets/stack-of-books-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Built-in image generation created a six-panel pencil process contact sheet for the stack-of-books lesson.",
+    "notes": "The contact sheet was reviewed before cropping; the final panel is used as the finished asset."
+  },
+  "process_strategy": "The six frames keep one slightly offset book stack, introducing each book block, page edges, bookmark, cover bands, and soft shadow before the final graphite pass.",
+  "final_elements": [
+    {
+      "name": "bottom book block",
+      "introduced_by_step": 1,
+      "description": "A wide bottom book creates the base of the stack."
+    },
+    {
+      "name": "middle book block",
+      "introduced_by_step": 1,
+      "description": "A second book sits slightly offset on top of the bottom book."
+    },
+    {
+      "name": "top book block",
+      "introduced_by_step": 2,
+      "description": "A smaller top book completes the stack."
+    },
+    {
+      "name": "page edges",
+      "introduced_by_step": 3,
+      "description": "Thin page lines run along the visible book sides."
+    },
+    {
+      "name": "ribbon bookmark",
+      "introduced_by_step": 4,
+      "description": "A narrow ribbon bookmark hangs from the top book."
+    },
+    {
+      "name": "cover bands and corner wear",
+      "introduced_by_step": 5,
+      "description": "Simple cover bands, corner marks, and worn edges make the books feel used."
+    },
+    {
+      "name": "soft cast shadow",
+      "introduced_by_step": 5,
+      "description": "A light graphite shadow sits under the book stack."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/stack-of-books-step-1.jpg",
+      "step_name": "Stack two rectangles",
+      "visible_job": "Block in the bottom and middle book shapes with light perspective guides.",
+      "introduces": [
+        "bottom book block",
+        "middle book block"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/stack-of-books-step-2.jpg",
+      "step_name": "Place the top book",
+      "visible_job": "Add the smaller top book and refine the offset stack angles.",
+      "introduces": [
+        "top book block"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/stack-of-books-step-3.jpg",
+      "step_name": "Mark the pages",
+      "visible_job": "Add thin page-edge lines along the visible sides of each book.",
+      "introduces": [
+        "page edges"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/stack-of-books-step-4.jpg",
+      "step_name": "Drop in the bookmark",
+      "visible_job": "Draw the narrow ribbon bookmark hanging from the top book.",
+      "introduces": [
+        "ribbon bookmark"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/stack-of-books-step-5.jpg",
+      "step_name": "Add worn cover details",
+      "visible_job": "Add cover bands, corner wear, and a soft shadow under the stack.",
+      "introduces": [
+        "cover bands and corner wear",
+        "soft cast shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the book stack",
+    "asset": "assets/stack-of-books-finished-v1.jpg",
+    "visible_job": "Darken keeper lines, clarify the page edges and bookmark, and add restrained graphite shading to the existing books and shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained graphite shading",
+      "small paper texture marks",
+      "minor cover-edge cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

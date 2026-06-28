@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-27
+- Date: 2026-06-28
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
@@ -324,3 +324,16 @@
   Doodlea.day at desktop and mobile widths: 60 page/viewport combinations,
   zero heading failures. Screenshot examples live under
   `/tmp/heading-fit-qa-2026-06-27/`.
+- Added the vintage roller skate as the June 28, 2026 / Day 023 tutorial from a
+  reviewed six-panel generated pencil contact sheet. Finished image rating:
+  8.6/10.
+- Added the stack of books as the June 6, 2026 / Day 001 backdated archive
+  tutorial. Existing Sketcha day labels shifted forward by one. Finished image
+  rating: 8.4/10.
+- June 28 QA used `python3 scripts/check-tutorial-readiness.py
+  vintage-roller-skate` and `python3 scripts/check-tutorial-readiness.py
+  stack-of-books`, reviewed step sheets at `/tmp/vintage-roller-skate-steps.jpg`
+  and `/tmp/stack-of-books-steps.jpg`, and saved browser QA screenshots under
+  `/tmp/daily-sketch-doodle-qa-2026-06-28/`.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.

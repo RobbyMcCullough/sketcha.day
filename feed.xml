@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>One small drawing prompt and practical step-by-step sketch tutorial every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a vintage roller skate</title>
+      <link>https://sketcha.day/tutorials/vintage-roller-skate.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/vintage-roller-skate.html</guid>
+      <pubDate>Sun, 28 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a vintage roller skate with a high-top boot, sole plate, four wheels, front toe stop, laces, cuff seams, and soft graphite shading.</description>
+      <media:content url="https://sketcha.day/assets/vintage-roller-skate-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a pair of sunglasses on a towel</title>
       <link>https://sketcha.day/tutorials/sunglasses-on-a-towel.html</link>
@@ -174,6 +182,14 @@
       <pubDate>Sun, 07 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a picnic basket with a rounded woven body, arched handle, folded cloth, small apple, and soft graphite shadow.</description>
       <media:content url="https://sketcha.day/assets/picnic-basket-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a stack of books</title>
+      <link>https://sketcha.day/tutorials/stack-of-books.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/stack-of-books.html</guid>
+      <pubDate>Sat, 06 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a stack of books with three offset book blocks, page edges, a ribbon bookmark, worn cover bands, and soft graphite shading.</description>
+      <media:content url="https://sketcha.day/assets/stack-of-books-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>
