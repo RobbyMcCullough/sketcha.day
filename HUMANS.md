@@ -257,6 +257,12 @@
   `/tmp/daily-sketch-doodle-qa-2026-06-27/`.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
+- Added the shared process-order guardrail after the Doodlea.day pizza slice
+  lesson exposed a late-introduced cheese-stretch problem. `DAILY-PUBLISHING.md`,
+  `PROCESS-IMAGE-WORKFLOW.md`, `lesson-plans/TEMPLATE.json`, and
+  `scripts/check-process-plan.py` now support `requires_prior_elements` so
+  darkening, inking, coloring, shading, cleanup, or clarification frames cannot
+  be the first appearance of the feature they modify.
 ### 2026-06-23 — SEO review & on-page fixes (Claude Cowork)
 
 - Ran an SEO review of the site; report saved outside the repo (not deployed).

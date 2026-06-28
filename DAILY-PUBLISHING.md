@@ -11,6 +11,12 @@ Treat the finished drawing and the instructional steps as one artifact, not as
 separate images about the same subject. Every important contour, proportion,
 pose, marking, and color choice in the finish must appear in a prior step.
 
+Late-stage actions must work only on elements that are already present. A frame
+that darkens, inks, shades, colors, fills, cleans, or clarifies a shape may not
+be the first frame where that shape appears. If a later step says to darken an
+outline, every major contour being darkened must already be visible in an
+earlier process frame.
+
 ## Required Workflow
 
 1. Choose one clear pose and make a simple master construction drawing.
@@ -53,6 +59,9 @@ When this guide is used by a scheduled Codex automation, the job should:
    asset, each major finished element, the non-final frame where that element
    first appears, each process frame's visible job, and the final step's allowed
    finishing-only changes.
+   Any frame that darkens, inks, fills, colors, shades, cleans, or clarifies
+   existing parts must list those parts in `requires_prior_elements`, and each
+   listed part must have an earlier `introduced_by_step`.
 7. Create or update generated raster art for the finished sketch and tutorial
    steps. Prefer one master reference and derived step frames over unrelated
    one-off images.
@@ -191,6 +200,9 @@ layout that makes the lesson feel less polished than the current site standard.
   simple drawing into nearly identical images.
 - Keep the subject in the same position and scale in every frame.
 - Each step must make one visible, describable change.
+- A refinement step cannot introduce the feature it refines. Do not let a
+  darkening, inking, fill, color, shading, cleanup, or clarification step be
+  the first appearance of a major contour, prop, marking, or color area.
 - Do not publish adjacent frames where the only difference is a faint line,
   tiny handle, or low-contrast texture that a visitor will miss at card size.
   Combine small actions into one clearer step when needed.
