@@ -1412,7 +1412,7 @@ const siteNode = {
   "@id": `${siteUrl}/#website`,
   name: "Sketcha.day",
   url: `${siteUrl}/`,
-  description: "One small drawing prompt and practical step-by-step sketch tutorial every day.",
+  description: "Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.",
   publisher: { "@id": `${siteUrl}/#organization` }
 };
 
@@ -1526,7 +1526,7 @@ ${iconLinks}
       <header class="section-heading">
         <p class="kicker">From the archive</p>
         <h2>${lesson.lessonTitle}</h2>
-        <p>Work lightly through the construction, then darken only the lines that help the finished sketch.</p>
+        <p>Treat this as one small practice round: build the subject lightly, notice the shapes, then darken only the lines that help the finished sketch.</p>
       </header>
       <div class="lesson-layout">
         <aside class="materials paper-panel" aria-labelledby="materials-title">
@@ -1541,7 +1541,7 @@ ${iconLinks}
       </div>
     </article>
     <section class="library related-library" id="related" aria-labelledby="related-title">
-      <header class="section-heading library-heading"><div><p class="kicker">Keep the page moving</p><h2 id="related-title">More daily sketches</h2></div><a href="../library.html">Browse the full library <span aria-hidden="true">→</span></a></header>
+      <header class="section-heading library-heading"><div><p class="kicker">Another page of practice</p><h2 id="related-title">More daily sketches</h2></div><a href="../library.html">Browse the full library <span aria-hidden="true">→</span></a></header>
       <div class="library-grid">${relatedCards(lesson.slug)}
       </div>
     </section>
@@ -1683,7 +1683,7 @@ const homePage = (lesson) => {
       <div class="newsletter-pencil" aria-hidden="true"></div>
       <p class="hand-note">A tiny creative nudge</p>
       <h2 id="newsletter-title">A fresh sketch in your inbox.</h2>
-      <p>Coming soon: one prompt, one practical tutorial, zero pressure. Want it first? <a href="mailto:hello@sketcha.day?subject=Sketcha.day%20daily%20email%20interest">Email us to say you're interested</a>.</p>
+      <p>Coming soon: one prompt, one practical tutorial, and a gentle reason to draw again tomorrow. Want it first? <a href="mailto:hello@sketcha.day?subject=Sketcha.day%20daily%20email%20interest">Email us to say you're interested</a>.</p>
       <form class="signup-form">
         <label class="sr-only" for="email">Email address</label>
         <input id="email" name="email" type="email" autocomplete="email" placeholder="Newsletter coming soon" disabled>
@@ -1780,11 +1780,11 @@ const archivePage = () => {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Drawing Tutorial Library | Easy Step-by-Step Sketches | Sketcha.day</title>
-  <meta name="description" content="Browse every Sketcha.day drawing tutorial. Find approachable step-by-step lessons for sketching animals, plants, mushrooms, and more.">
+  <meta name="description" content="Browse every Sketcha.day drawing tutorial. Find approachable daily sketch lessons that help you practice shapes, proportion, line confidence, and shading.">
   <link rel="canonical" href="https://sketcha.day/library.html">
   <meta property="og:type" content="website">
   <meta property="og:title" content="The Sketcha.day Drawing Tutorial Library">
-  <meta property="og:description" content="A growing collection of practical, playful step-by-step drawing lessons.">
+  <meta property="og:description" content="A growing library of daily sketch lessons for building drawing confidence one page at a time.">
   <meta property="og:url" content="https://sketcha.day/library.html">
   <meta property="og:image" content="https://sketcha.day/assets/fox-finished-v2.jpg">
   <meta name="twitter:card" content="summary_large_image">
@@ -1819,7 +1819,7 @@ ${iconLinks}
       <div class="archive-intro">
         <p class="eyebrow"><span>${archiveLessons.length} tutorials</span> One new page every day</p>
         <h1 id="archive-title" aria-label="The sketch library"><span class="headline-lead">The sketch</span> <em aria-hidden="true"><span>library</span></em></h1>
-        <p>Missed a day? Start anywhere. Every lesson uses a short materials list, cumulative steps, and a finished drawing you can reasonably make in one sitting.</p>
+        <p>Missed a day? Start anywhere. Every lesson gives you a small, finishable practice round so daily practice can build into steadier lines, sharper observation, and more confident sketches.</p>
         <a class="nav-button hero-button" href="#tutorial-library">Choose a tutorial <span aria-hidden="true">↓</span></a>
       </div>
       <div class="archive-stack" aria-hidden="true">
@@ -1830,7 +1830,7 @@ ${iconLinks}
       <header class="section-heading library-heading">
         <div>
           <p class="kicker">Pick a page</p>
-          <h2 id="tutorial-library-title">Draw your way through the days</h2>
+          <h2 id="tutorial-library-title">Practice your way through the days</h2>
         </div>
         <p class="archive-count">Newest first · ${archiveLessons.length} lessons</p>
       </header>
@@ -1860,7 +1860,7 @@ const feed = () => `<?xml version="1.0" encoding="UTF-8"?>
     <title>Sketcha.day Daily Sketches</title>
     <link>${siteUrl}/</link>
     <atom:link href="${siteUrl}/feed.xml" rel="self" type="application/rss+xml" />
-    <description>One small drawing prompt and practical step-by-step sketch tutorial every day.</description>
+    <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
     <lastBuildDate>${rssPubDate(latestLesson.isoDate)}</lastBuildDate>
 ${archiveLessons.map((lesson) => `    <item>
