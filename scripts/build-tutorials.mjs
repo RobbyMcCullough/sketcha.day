@@ -1502,6 +1502,7 @@ ${iconLinks}
       <a href="../">Today's sketch</a>
       <a href="../library.html">Sketch library</a>
       <a href="../#about">How it works</a>
+      <a href="https://doodlea.day/">Doodlea.day</a>
       <a class="nav-button" href="#lesson">Start drawing</a>
     </nav>
   </header>
@@ -1546,10 +1547,14 @@ ${iconLinks}
     </section>
   </main>
   <footer class="site-footer">
-    <a class="brand footer-brand" href="../"><span class="brand-name">${brandWordmark}</span></a>
-    <p>Make a mark. See what happens. Prefer bold marker doodles? Visit <a href="https://doodlea.day/">Doodlea.day</a>.</p>
-    <nav aria-label="Footer navigation"><a href="../">Today</a><a href="../library.html">Library</a><a href="../#about">About</a><a href="https://doodlea.day/">Doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
-    <small>© 2026 Sketcha.day</small>
+    <div class="footer-bar">
+      <div class="footer-identity">
+        <a class="brand footer-brand" href="../"><span class="brand-name">${brandWordmark}</span></a>
+        <p class="footer-tagline">Soft pencil practice, one daily sketch at a time.</p>
+      </div>
+      <nav aria-label="Footer navigation"><a href="../">Today</a><a href="../library.html">Library</a><a href="../#about">About</a><a href="https://doodlea.day/">Doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
+    </div>
+    <small class="footer-copyright">© 2026 Sketcha.day</small>
   </footer>
   <script src="../script.js"></script>
 </body>
@@ -1706,6 +1711,7 @@ ${iconLinks}
       <a href="/">Today's sketch</a>
       <a href="library.html" aria-current="page">Sketch library</a>
       <a href="/#about">How it works</a>
+      <a href="https://doodlea.day/">Doodlea.day</a>
       <a class="nav-button" href="/#lesson">Start drawing</a>
     </nav>
   </header>
@@ -1735,10 +1741,14 @@ ${iconLinks}
     </section>
   </main>
   <footer class="site-footer">
-    <a class="brand footer-brand" href="/"><span class="brand-name">${brandWordmark}</span></a>
-    <p>Make a mark. See what happens. Prefer bold marker doodles? Visit <a href="https://doodlea.day/">Doodlea.day</a>.</p>
-    <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html" aria-current="page">Library</a><a href="/#about">About</a><a href="https://doodlea.day/">Doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
-    <small>© 2026 Sketcha.day</small>
+    <div class="footer-bar">
+      <div class="footer-identity">
+        <a class="brand footer-brand" href="/"><span class="brand-name">${brandWordmark}</span></a>
+        <p class="footer-tagline">Soft pencil practice, one daily sketch at a time.</p>
+      </div>
+      <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html" aria-current="page">Library</a><a href="/#about">About</a><a href="https://doodlea.day/">Doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
+    </div>
+    <small class="footer-copyright">© 2026 Sketcha.day</small>
   </footer>
   <script src="script.js"></script>
 </body>
