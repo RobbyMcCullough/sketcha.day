@@ -1568,14 +1568,14 @@ const homePage = (lesson) => {
         <img src="assets/daily-drawing-sketchbook-spread.webp" alt="A wide open sketchbook spread filled with daily sketches of a frog, mushroom, sprout, sleepy cat, pancakes, and a paint palette" width="780" height="295">
       </div>
       <div class="about-copy">
-        <p class="kicker">One small drawing, every day</p>
-        <h2>A daily practice for curious hands.</h2>
-        <p>Sketcha.day turns a blank page into a small daily art habit. Short, repeatable sketch lessons help you get better at drawing by practicing line confidence, observation, proportion, and simple shading one page at a time.</p>
+        <p class="kicker">A pencil page for today</p>
+        <h2>Build a calmer drawing habit, one sketch at a time.</h2>
+        <p>Sketcha.day is for the kind of practice that makes you slow down and really look. Each lesson gives you a small subject to measure, block in, adjust, and shade, so your eye and hand get a little more fluent with every finished page.</p>
         <p class="sister-note">Want the louder marker version? Visit <a href="https://doodlea.day/">Doodlea.day</a> for bright comic-style doodles.</p>
         <div class="about-points">
-          <p><strong>Practice that fits</strong><span>Most lessons take 15-30 minutes, so it is easier to keep showing up.</span></p>
-          <p><strong>Real drawing skills</strong><span>Each sketch works on shapes, edges, proportion, texture, or shading.</span></p>
-          <p><strong>Easy ideas, better lines</strong><span>Animals, food, objects, and scenes become approachable daily drawing practice.</span></p>
+          <p><strong>Notebook-sized sessions</strong><span>Most lessons take 15-30 minutes and leave you with a complete sketch.</span></p>
+          <p><strong>Look, place, refine</strong><span>Practice proportions, edges, negative space, texture, and soft value changes.</span></p>
+          <p><strong>Subjects worth revisiting</strong><span>Animals, food, objects, and simple scenes give you practical drawing problems to solve.</span></p>
         </div>
       </div>
     </section>
