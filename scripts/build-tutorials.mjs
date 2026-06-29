@@ -1501,7 +1501,7 @@ ${iconLinks}
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
       <a href="../">Today's sketch</a>
       <a href="../library.html">Sketch library</a>
-      <a href="../#about">How it works</a>
+      <a href="../about.html">About</a>
       <a href="https://doodlea.day/">Doodlea.day</a>
       <a class="nav-button" href="#lesson">Start drawing</a>
     </nav>
@@ -1552,7 +1552,7 @@ ${iconLinks}
         <a class="brand footer-brand" href="../"><span class="brand-name">${brandWordmark}</span></a>
         <p class="footer-tagline">Soft pencil practice, one daily sketch at a time.</p>
       </div>
-      <nav aria-label="Footer navigation"><a href="../">Today</a><a href="../library.html">Library</a><a href="../#about">About</a><a href="https://doodlea.day/">Doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
+      <nav aria-label="Footer navigation"><a href="../">Today</a><a href="../library.html">Library</a><a href="../about.html">About</a><a href="https://doodlea.day/">Doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
     </div>
     <small class="footer-copyright">© 2026 Sketcha.day</small>
   </footer>
@@ -1561,25 +1561,124 @@ ${iconLinks}
 </html>`;
 };
 
-const homePage = (lesson) => {
-  const homeOnlySections = `
-    <section class="about" id="about">
-      <div class="about-drawing">
-        <img src="assets/daily-drawing-sketchbook-spread.webp" alt="A wide open sketchbook spread filled with daily sketches of a frog, mushroom, sprout, sleepy cat, pancakes, and a paint palette" width="780" height="295">
-      </div>
-      <div class="about-copy">
-        <p class="kicker">One small drawing, every day</p>
-        <h2>A daily practice for curious hands.</h2>
-        <p>Sketcha.day turns a blank page into an approachable ritual. Every lesson starts with simple shapes, explains the useful bits, and leaves room for your own style.</p>
-        <p class="sister-note">Want the louder marker version? Visit <a href="https://doodlea.day/">Doodlea.day</a> for bright comic-style doodles.</p>
-        <div class="about-points">
-          <p><strong>Made for real life</strong><span>Most lessons take 15-30 minutes.</span></p>
-          <p><strong>Useful at any age</strong><span>Friendly enough for kids, substantial enough for grown-ups.</span></p>
-          <p><strong>Easy drawing ideas</strong><span>Step-by-step sketch tutorials for animals, food, objects, and everyday practice.</span></p>
-        </div>
+const aboutPage = () => {
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      orgNode,
+      siteNode,
+      {
+        "@type": "AboutPage",
+        "@id": `${siteUrl}/about.html#aboutpage`,
+        name: "About Sketcha.day",
+        description: "Learn who makes Sketcha.day and why the daily drawing lessons are designed to be clear, approachable, and useful for creative practice.",
+        url: `${siteUrl}/about.html`,
+        image: `${siteUrl}/assets/sketcha-family-sketch-v2.webp`,
+        isPartOf: { "@id": `${siteUrl}/#website` },
+        publisher: { "@id": `${siteUrl}/#organization` }
+      },
+      {
+        "@type": "Person",
+        "@id": `${siteUrl}/about.html#robby`,
+        name: "Robby McCullough",
+        description: "A lifelong doodler, designer, and web builder who creates daily drawing lessons for approachable creative practice."
+      },
+      {
+        "@type": "Person",
+        "@id": `${siteUrl}/about.html#tracie`,
+        name: "Tracie",
+        description: "A mom and early childhood educator whose perspective helps keep the lessons encouraging, clear, and friendly for growing artists."
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/` },
+          { "@type": "ListItem", position: 2, name: "About", item: `${siteUrl}/about.html` }
+        ]
+      }
+    ]
+  };
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Sketcha.day | Daily Drawing Practice for Curious Hands</title>
+  <meta name="description" content="Meet the family behind Sketcha.day: lifelong doodler, designer, and web builder Robby McCullough, plus Tracie, a mom and early childhood educator.">
+  <link rel="canonical" href="${siteUrl}/about.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About Sketcha.day">
+  <meta property="og:description" content="Daily sketch lessons shaped by lifelong doodling, design craft, web experience, and an early-childhood education lens.">
+  <meta property="og:url" content="${siteUrl}/about.html">
+  <meta property="og:image" content="${siteUrl}/assets/sketcha-family-sketch-v2.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#f3b63c">
+${iconLinks}
+  <link rel="alternate" type="application/rss+xml" title="Sketcha.day daily sketch feed" href="${siteUrl}/feed.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=${styleVersion}">
+  <script type="application/ld+json">${JSON.stringify(schema, null, 2)}</script>
+  <script defer data-domain="sketcha.day" src="https://analytics.robbymccullough.com/js/script.js"></script>
+</head>
+<body class="about-page">
+  <a class="skip-link" href="#about-main">Skip to about Sketcha.day</a>
+  <header class="site-header">
+    <div class="brand">
+      <img class="brand-mark" src="assets/logo-pencil-raster-v1.png" alt="" width="72" height="72">
+      <a class="brand-wordmark" href="/" aria-label="Sketcha.day home"><span class="brand-name">${brandWordmark}</span></a>
+    </div>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="/">Today's sketch</a>
+      <a href="library.html">Sketch library</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="https://doodlea.day/">Doodlea.day</a>
+      <a class="nav-button" href="/#lesson">Start drawing</a>
+    </nav>
+  </header>
+  <main id="about-main" class="about-page-main">
+    <section class="about-page-hero" aria-labelledby="about-title">
+      <figure class="about-portrait">
+        <img src="assets/sketcha-family-sketch-v2.webp" alt="Pencil sketch portrait of Robby, Tracie, and their baby in a home kitchen" width="1024" height="1536">
+      </figure>
+      <div class="about-story">
+        <p class="kicker">The people behind the pencils</p>
+        <h1 id="about-title">Daily drawing practice, made by a family that cares about learning.</h1>
+        <p>Sketcha.day is made by Robby McCullough, a lifelong doodler, designer, and web guy who believes a drawing habit gets stronger through small, repeatable practice.</p>
+        <p>Tracie is a mom and early childhood educator. Her perspective helps keep the lessons clear, encouraging, and useful for artists who are still building confidence, including kids and grown-ups drawing beside them.</p>
+        <p>Together, we want Sketcha.day to feel like a friendly sketchbook ritual: simple shapes, practical steps, honest materials, and finished drawings that still leave room for your own hand.</p>
       </div>
     </section>
+    <section class="about-credentials" aria-labelledby="about-credentials-title">
+      <h2 id="about-credentials-title">Why these lessons are built this way</h2>
+      <div class="about-credential-grid">
+        <article><strong>Lifelong doodling</strong><span>Robby brings years of sketchbook habit, visual problem-solving, and a bias toward approachable creative practice.</span></article>
+        <article><strong>Design and web craft</strong><span>The pages are structured to be clear, scannable, accessible, and useful without needing a video or app.</span></article>
+        <article><strong>Early-childhood lens</strong><span>Tracie's background helps us value clear steps, patient pacing, and encouragement over perfection.</span></article>
+        <article><strong>Real-life rhythm</strong><span>The lessons are meant to fit into ordinary days, usually with a pencil, paper, and a few quiet minutes.</span></article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-bar">
+      <div class="footer-identity">
+        <a class="brand footer-brand" href="/"><span class="brand-name">${brandWordmark}</span></a>
+        <p class="footer-tagline">Soft pencil practice, one daily sketch at a time.</p>
+      </div>
+      <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html">Library</a><a href="about.html" aria-current="page">About</a><a href="https://doodlea.day/">Doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
+    </div>
+    <small class="footer-copyright">© 2026 Sketcha.day</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>`;
+};
 
+const homePage = (lesson) => {
+  const homeOnlySections = `
     <section class="newsletter" id="newsletter" aria-labelledby="newsletter-title">
       <div class="newsletter-pencil" aria-hidden="true"></div>
       <p class="hand-note">A tiny creative nudge</p>
@@ -1604,7 +1703,7 @@ const homePage = (lesson) => {
     .replaceAll('src="../script.js"', 'src="script.js"')
     .replaceAll("../assets/", "assets/")
     .replaceAll("../library.html", "library.html")
-    .replaceAll("../#about", "#about")
+    .replaceAll("../about.html", "about.html")
     .replaceAll('href="../"', 'href="/"')
     .replaceAll("Skip to the lesson", "Skip to today's lesson")
     .replaceAll("Finished sketch <span>", "Today's finished sketch <span>")
@@ -1710,7 +1809,7 @@ ${iconLinks}
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
       <a href="/">Today's sketch</a>
       <a href="library.html" aria-current="page">Sketch library</a>
-      <a href="/#about">How it works</a>
+      <a href="about.html">About</a>
       <a href="https://doodlea.day/">Doodlea.day</a>
       <a class="nav-button" href="/#lesson">Start drawing</a>
     </nav>
@@ -1746,7 +1845,7 @@ ${iconLinks}
         <a class="brand footer-brand" href="/"><span class="brand-name">${brandWordmark}</span></a>
         <p class="footer-tagline">Soft pencil practice, one daily sketch at a time.</p>
       </div>
-      <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html" aria-current="page">Library</a><a href="/#about">About</a><a href="https://doodlea.day/">Doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
+      <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html" aria-current="page">Library</a><a href="about.html">About</a><a href="https://doodlea.day/">Doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
     </div>
     <small class="footer-copyright">© 2026 Sketcha.day</small>
   </footer>
@@ -1778,6 +1877,7 @@ ${archiveLessons.map((lesson) => `    <item>
 
 const sitemapUrls = [
   { loc: `${siteUrl}/`, lastmod: latestLesson.isoDate, changefreq: "daily", priority: "1.0" },
+  { loc: `${siteUrl}/about.html`, lastmod: latestLesson.isoDate, changefreq: "monthly", priority: "0.7" },
   { loc: `${siteUrl}/library.html`, lastmod: latestLesson.isoDate, changefreq: "daily", priority: "0.8" },
   ...archiveLessons.map((lesson) => ({
     loc: lessonUrl(lesson),
@@ -1811,6 +1911,7 @@ for (const lesson of lessons) {
   await writeFile(new URL(`../tutorials/${lesson.slug}.html`, import.meta.url), page(lesson));
 }
 await writeFile(new URL("../index.html", import.meta.url), homePage(latestLesson));
+await writeFile(new URL("../about.html", import.meta.url), aboutPage());
 await writeFile(new URL("../library.html", import.meta.url), archivePage());
 await writeFile(new URL("../feed.xml", import.meta.url), feed());
 await writeFile(new URL("../sitemap.xml", import.meta.url), sitemap());
