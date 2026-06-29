@@ -13,7 +13,7 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 const lessons = [
   {
     slug: "curious-fox",
-    day: "010",
+    day: "011",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -130,8 +130,59 @@ const lessons = [
     ]
   },
   {
+    slug: "tennis-racket-and-ball",
+    day: "025",
+    date: "Monday, June 29",
+    isoDate: "2026-06-29",
+    subject: "a tennis racket and ball",
+    headlineSubject: "a tennis racket<br>and ball",
+    shortSubject: "a tennis racket",
+    lessonTitle: "Let's draw a tennis racket and ball",
+    description: "Learn how to draw a tennis racket and ball with a tilted racket head, handle wrap, string grid, tennis ball seam, soft shadow, and restrained colored-pencil detail.",
+    intro: "Use one tilted oval to build a racket, then add strings, a wrapped handle, and a tennis ball that keeps the sketch timely without getting too complex.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#c9b947",
+    finished: "tennis-racket-and-ball-finished-v1.jpg",
+    finishedAlt: "Graphite and light yellow colored-pencil sketch of a tennis racket with strings, wrapped handle, tennis ball, seam, and soft shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional yellow colored pencil"],
+    steps: [
+      {
+        name: "Place the racket oval",
+        text: "Draw a large tilted oval for the racket head, then add one light guide line through the middle.",
+        tip: "Make the oval taller than it is wide. A slightly imperfect shape feels more natural than a perfect template."
+      },
+      {
+        name: "Add throat and handle",
+        text: "Pull two narrow lines down from the oval to form the throat, then extend a long handle from that opening.",
+        tip: "Let the handle follow the same tilt as the oval. That keeps the racket from looking bent."
+      },
+      {
+        name: "String the racket",
+        text: "Draw a smaller oval just inside the head, then cross it with light vertical and horizontal string lines.",
+        tip: "Keep the strings pale at first. You can choose the cleanest ones when you darken the final sketch."
+      },
+      {
+        name: "Set the ball beside it",
+        text: "Add a round tennis ball beside the lower racket head, then curve one seam across the ball.",
+        tip: "Leave a little space between the ball and racket so both shapes stay readable."
+      },
+      {
+        name: "Add wrap and shadow",
+        text: "Band the handle with short wrap lines, shade a soft cast shadow, and lightly tint the ball yellow.",
+        tip: "Use the yellow gently. The graphite strings and handle should still do most of the drawing work."
+      },
+      {
+        name: "Finish the court sketch",
+        text: "Darken the keeper contours, clarify the string grid, deepen the grip wraps, and add restrained shading to the racket, ball, and shadow.",
+        tip: "Stop while the strings are still light. Too many dark lines can make the racket head look heavy.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "vintage-roller-skate",
-    day: "023",
+    day: "024",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a vintage roller skate",
@@ -182,7 +233,7 @@ const lessons = [
   },
   {
     slug: "sunglasses-on-a-towel",
-    day: "022",
+    day: "023",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a pair of sunglasses on a towel",
@@ -233,7 +284,7 @@ const lessons = [
   },
   {
     slug: "desk-dog",
-    day: "021",
+    day: "022",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -284,7 +335,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "020",
+    day: "021",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -335,7 +386,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "019",
+    day: "020",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -386,7 +437,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "018",
+    day: "019",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -437,7 +488,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "017",
+    day: "018",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -488,7 +539,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "016",
+    day: "017",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -539,7 +590,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "015",
+    day: "016",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -590,7 +641,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "014",
+    day: "015",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -641,7 +692,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "013",
+    day: "014",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -692,7 +743,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "012",
+    day: "013",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -748,7 +799,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "011",
+    day: "012",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -794,7 +845,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "009",
+    day: "010",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -843,7 +894,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "008",
+    day: "009",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -892,7 +943,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "007",
+    day: "008",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -941,7 +992,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "006",
+    day: "007",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -986,7 +1037,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "005",
+    day: "006",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -1037,7 +1088,7 @@ const lessons = [
   },
   {
     slug: "picnic-basket",
-    day: "002",
+    day: "003",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a picnic basket",
@@ -1087,8 +1138,59 @@ const lessons = [
     ]
   },
   {
-    slug: "stack-of-books",
+    slug: "pocket-compass",
     day: "001",
+    date: "Friday, June 5",
+    isoDate: "2026-06-05",
+    subject: "a pocket compass",
+    headlineSubject: "a pocket<br>compass",
+    shortSubject: "a pocket compass",
+    lessonTitle: "Let's draw a pocket compass",
+    description: "Learn how to draw a pocket compass with a round case, inner face, diamond needle, top loop, small tick marks, and soft graphite shading.",
+    intro: "Build this small explorer's tool from two circles, then add the needle, top loop, and simple face marks without turning it into a technical diagram.",
+    time: 20,
+    difficulty: "Easy",
+    accent: "#8a9b6b",
+    finished: "pocket-compass-finished-v1.jpg",
+    finishedAlt: "Graphite sketch of a round pocket compass with inner face, diamond needle, top loop, tick marks, case shading, and cast shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blending stump or tissue"],
+    steps: [
+      {
+        name: "Start the round case",
+        text: "Draw a loose circle for the compass case, then echo it with a second light circle just inside the edge.",
+        tip: "Turn the paper as you draw. Small sketchy passes make a round object easier than one hard outline."
+      },
+      {
+        name: "Add the face circle",
+        text: "Place a smaller circle inside the case and mark a tiny center point for the needle.",
+        tip: "Keep the face circle centered. The compass will feel sturdy even if the outer case is a little wobbly."
+      },
+      {
+        name: "Set the needle",
+        text: "Draw a long diamond needle through the center, with one point reaching up and one point reaching down.",
+        tip: "Use the center point as a hinge. Both needle halves should feel connected, not like two separate triangles."
+      },
+      {
+        name: "Attach the top loop",
+        text: "Add a small hinge cap and round hanging loop at the top of the case.",
+        tip: "Let the loop overlap the case slightly. That overlap makes it look attached instead of floating."
+      },
+      {
+        name: "Mark ticks and shadow",
+        text: "Add short tick marks around the face, then shade the case edge and the cast shadow lightly.",
+        tip: "Skip letters and numbers. A few ticks are enough to make the object read as a compass."
+      },
+      {
+        name: "Finish the compass",
+        text: "Darken the keeper contours, clarify the needle and tick marks, and strengthen the graphite shadow under the case.",
+        tip: "Save your darkest pencil pressure for the case rim and needle. The face should stay clean and readable.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "stack-of-books",
+    day: "002",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a stack of books",
@@ -1139,7 +1241,7 @@ const lessons = [
   },
   {
     slug: "seashell-on-sand",
-    day: "003",
+    day: "004",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -1190,7 +1292,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "004",
+    day: "005",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",
@@ -1238,7 +1340,7 @@ const lessons = [
         image: true
       }
     ]
-  }
+  },
 ];
 
 const archiveLessons = [...lessons]

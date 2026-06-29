@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>One small drawing prompt and practical step-by-step sketch tutorial every day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a tennis racket and ball</title>
+      <link>https://sketcha.day/tutorials/tennis-racket-and-ball.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/tennis-racket-and-ball.html</guid>
+      <pubDate>Mon, 29 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a tennis racket and ball with a tilted racket head, handle wrap, string grid, tennis ball seam, soft shadow, and restrained colored-pencil detail.</description>
+      <media:content url="https://sketcha.day/assets/tennis-racket-and-ball-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a vintage roller skate</title>
       <link>https://sketcha.day/tutorials/vintage-roller-skate.html</link>
@@ -190,6 +198,14 @@
       <pubDate>Sat, 06 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a stack of books with three offset book blocks, page edges, a ribbon bookmark, worn cover bands, and soft graphite shading.</description>
       <media:content url="https://sketcha.day/assets/stack-of-books-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a pocket compass</title>
+      <link>https://sketcha.day/tutorials/pocket-compass.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/pocket-compass.html</guid>
+      <pubDate>Fri, 05 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a pocket compass with a round case, inner face, diamond needle, top loop, small tick marks, and soft graphite shading.</description>
+      <media:content url="https://sketcha.day/assets/pocket-compass-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

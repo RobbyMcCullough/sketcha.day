@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-28
+- Date: 2026-06-29
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
@@ -335,5 +335,18 @@
   stack-of-books`, reviewed step sheets at `/tmp/vintage-roller-skate-steps.jpg`
   and `/tmp/stack-of-books-steps.jpg`, and saved browser QA screenshots under
   `/tmp/daily-sketch-doodle-qa-2026-06-28/`.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
+- Added the tennis racket and ball as the June 29, 2026 / Day 025 tutorial from
+  a reviewed six-panel generated pencil contact sheet. Finished image rating:
+  8.6/10.
+- Added the pocket compass as the June 5, 2026 / Day 001 backdated archive
+  tutorial. Existing Sketcha day labels shifted forward by one. Finished image
+  rating: 8.4/10.
+- June 29 QA used `python3 scripts/check-tutorial-readiness.py
+  tennis-racket-and-ball` and `python3 scripts/check-tutorial-readiness.py
+  pocket-compass`, reviewed step sheets at `/tmp/tennis-racket-and-ball-steps.jpg`
+  and `/tmp/pocket-compass-steps.jpg`, and saved Cove browser QA screenshots
+  under `/tmp/daily-sketch-doodle-qa-2026-06-29/`.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.

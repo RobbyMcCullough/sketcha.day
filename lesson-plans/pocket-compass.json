@@ -1,0 +1,122 @@
+{
+  "slug": "pocket-compass",
+  "finished": "assets/pocket-compass-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel generated pencil process sheet cropped into step frames and finished art.",
+    "notes": "Honest backdated archive lesson; selected as a distinct geometric object lesson, not a timely claim."
+  },
+  "process_strategy": "The circular case, face, needle, hinge loop, tick marks, and shadow all appear before the finished image so the final panel only darkens and shades established parts.",
+  "final_elements": [
+    {
+      "name": "round compass case",
+      "introduced_by_step": 1,
+      "description": "A round pocket compass case drawn from two loose concentric circles."
+    },
+    {
+      "name": "inner face circle",
+      "introduced_by_step": 2,
+      "description": "A smaller circle inside the case that holds the compass face."
+    },
+    {
+      "name": "needle diamond",
+      "introduced_by_step": 3,
+      "description": "A simple two-point diamond needle crossing the center."
+    },
+    {
+      "name": "top hinge loop",
+      "introduced_by_step": 4,
+      "description": "A small loop and hinge cap at the top of the compass case."
+    },
+    {
+      "name": "face tick marks",
+      "introduced_by_step": 5,
+      "description": "Short tick marks around the compass face, without readable lettering."
+    },
+    {
+      "name": "case shadow and graphite tone",
+      "introduced_by_step": 5,
+      "description": "Soft graphite shading on the case edge and cast shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/pocket-compass-step-1.jpg",
+      "step_name": "Start the round case",
+      "visible_job": "Draws loose circles for the outer compass case.",
+      "introduces": [
+        "round compass case"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/pocket-compass-step-2.jpg",
+      "step_name": "Add the face circle",
+      "visible_job": "Adds the inner face circle and center point.",
+      "introduces": [
+        "inner face circle"
+      ],
+      "requires_prior_elements": [
+        "round compass case"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/pocket-compass-step-3.jpg",
+      "step_name": "Set the needle",
+      "visible_job": "Adds a simple diamond needle across the center.",
+      "introduces": [
+        "needle diamond"
+      ],
+      "requires_prior_elements": [
+        "inner face circle"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/pocket-compass-step-4.jpg",
+      "step_name": "Attach the top loop",
+      "visible_job": "Adds the small hinge and hanging loop at the top of the case.",
+      "introduces": [
+        "top hinge loop"
+      ],
+      "requires_prior_elements": [
+        "round compass case"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/pocket-compass-step-5.jpg",
+      "step_name": "Mark ticks and shadow",
+      "visible_job": "Adds face tick marks plus soft case and cast-shadow tone.",
+      "introduces": [
+        "face tick marks",
+        "case shadow and graphite tone"
+      ],
+      "requires_prior_elements": [
+        "round compass case",
+        "inner face circle",
+        "needle diamond"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the compass",
+    "asset": "assets/pocket-compass-finished-v1.jpg",
+    "visible_job": "Only darkens keeper contours, clarifies the needle and ticks, and strengthens graphite shadows on established shapes.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "tick mark clarification",
+      "needle darkening",
+      "restrained graphite shading",
+      "soft cast shadow"
+    ]
+  },
+  "rejection_checks": [
+    "No hinge, needle, tick marks, or shadow should first appear in the final image.",
+    "No frame may darken, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

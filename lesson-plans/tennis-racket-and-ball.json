@@ -1,0 +1,118 @@
+{
+  "slug": "tennis-racket-and-ball",
+  "finished": "assets/tennis-racket-and-ball-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel generated pencil process sheet cropped into step frames and finished art.",
+    "notes": "Chosen for the June 29 Wimbledon hook; no reused sister-site subject or art."
+  },
+  "process_strategy": "The racket oval, handle, strings, ball, and ground shadow are introduced before the final panel so the finish only strengthens graphite lines and restrained tennis-ball color.",
+  "final_elements": [
+    {
+      "name": "tilted racket head oval",
+      "introduced_by_step": 1,
+      "description": "A large slightly tilted oval frame for the tennis racket head."
+    },
+    {
+      "name": "racket throat and wrapped handle",
+      "introduced_by_step": 2,
+      "description": "A narrow throat below the oval leading into a long wrapped grip."
+    },
+    {
+      "name": "inner rim and string grid",
+      "introduced_by_step": 3,
+      "description": "The inner rim and simple crossed racket strings inside the head."
+    },
+    {
+      "name": "tennis ball with curved seam",
+      "introduced_by_step": 4,
+      "description": "A round tennis ball beside the racket with one curved seam line."
+    },
+    {
+      "name": "wrap bands and soft cast shadow",
+      "introduced_by_step": 5,
+      "description": "Grip wrap bands and a pale shadow anchoring the racket and ball."
+    },
+    {
+      "name": "restrained yellow ball color",
+      "introduced_by_step": 5,
+      "description": "Light yellow colored-pencil tone on the ball over the already drawn circle."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/tennis-racket-and-ball-step-1.jpg",
+      "step_name": "Place the racket oval",
+      "visible_job": "Draws the tilted racket head oval and a light center guide.",
+      "introduces": [
+        "tilted racket head oval"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/tennis-racket-and-ball-step-2.jpg",
+      "step_name": "Add throat and handle",
+      "visible_job": "Adds the racket throat and long handle below the head.",
+      "introduces": [
+        "racket throat and wrapped handle"
+      ],
+      "requires_prior_elements": [
+        "tilted racket head oval"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/tennis-racket-and-ball-step-3.jpg",
+      "step_name": "String the racket",
+      "visible_job": "Adds the inner rim and a simple visible string grid.",
+      "introduces": [
+        "inner rim and string grid"
+      ],
+      "requires_prior_elements": [
+        "tilted racket head oval"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/tennis-racket-and-ball-step-4.jpg",
+      "step_name": "Set the ball beside it",
+      "visible_job": "Places the tennis ball and its curved seam beside the racket.",
+      "introduces": [
+        "tennis ball with curved seam"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/tennis-racket-and-ball-step-5.jpg",
+      "step_name": "Add wrap and shadow",
+      "visible_job": "Adds grip wrap bands, a soft cast shadow, and light yellow ball color.",
+      "introduces": [
+        "wrap bands and soft cast shadow",
+        "restrained yellow ball color"
+      ],
+      "requires_prior_elements": [
+        "racket throat and wrapped handle",
+        "tennis ball with curved seam"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the court sketch",
+    "asset": "assets/tennis-racket-and-ball-finished-v1.jpg",
+    "visible_job": "Only darkens keeper contours, clarifies strings, deepens handle wraps, and adds restrained shading to established shapes.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "string clarification",
+      "handle wrap darkening",
+      "restrained graphite shading",
+      "softened yellow ball color"
+    ]
+  },
+  "rejection_checks": [
+    "No racket strings, ball seam, grip wrap, or color should first appear in the final image.",
+    "No frame may darken, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}
