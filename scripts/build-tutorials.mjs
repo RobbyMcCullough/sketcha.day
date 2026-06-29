@@ -1571,7 +1571,7 @@ const aboutPage = () => {
         "@type": "AboutPage",
         "@id": `${siteUrl}/about.html#aboutpage`,
         name: "About Sketcha.day",
-        description: "Learn who makes Sketcha.day and why the daily drawing lessons are designed to be clear, approachable, and useful for creative practice.",
+        description: "Learn how Sketcha.day turns short pencil studies into a steady drawing habit for noticing shapes, proportions, texture, and light.",
         url: `${siteUrl}/about.html`,
         image: `${siteUrl}/assets/sketcha-family-sketch-v2.webp`,
         isPartOf: { "@id": `${siteUrl}/#website` },
@@ -1581,13 +1581,13 @@ const aboutPage = () => {
         "@type": "Person",
         "@id": `${siteUrl}/about.html#robby`,
         name: "Robby McCullough",
-        description: "A lifelong doodler, designer, and web builder who creates daily drawing lessons for approachable creative practice."
+        description: "A lifelong doodler, designer, and web builder who makes pencil-first drawing lessons for steady sketchbook practice."
       },
       {
         "@type": "Person",
         "@id": `${siteUrl}/about.html#tracie`,
         name: "Tracie",
-        description: "A mom and early childhood educator whose perspective helps keep the lessons encouraging, clear, and friendly for growing artists."
+        description: "A mom and early childhood educator whose perspective helps keep the lessons patient, clear, and friendly for growing artists."
       },
       {
         "@type": "BreadcrumbList",
@@ -1605,11 +1605,11 @@ const aboutPage = () => {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About Sketcha.day | Daily Drawing Practice for Curious Hands</title>
-  <meta name="description" content="Meet the family behind Sketcha.day: lifelong doodler, designer, and web builder Robby McCullough, plus Tracie, a mom and early childhood educator.">
+  <meta name="description" content="Meet the family behind Sketcha.day and learn why the site focuses on short pencil studies, clear steps, and steady daily drawing practice.">
   <link rel="canonical" href="${siteUrl}/about.html">
   <meta property="og:type" content="website">
   <meta property="og:title" content="About Sketcha.day">
-  <meta property="og:description" content="Daily sketch lessons shaped by lifelong doodling, design craft, web experience, and an early-childhood education lens.">
+  <meta property="og:description" content="A family-made sketchbook project for building drawing confidence through short, repeatable pencil practice.">
   <meta property="og:url" content="${siteUrl}/about.html">
   <meta property="og:image" content="${siteUrl}/assets/sketcha-family-sketch-v2.webp">
   <meta name="twitter:card" content="summary_large_image">
@@ -1645,20 +1645,20 @@ ${iconLinks}
         <img src="assets/sketcha-family-sketch-v2.webp" alt="Pencil sketch portrait of Robby, Tracie, and their baby in a home kitchen" width="1024" height="1536">
       </figure>
       <div class="about-story">
-        <p class="kicker">The people behind the pencils</p>
-        <h1 id="about-title">Daily drawing practice, made by a family that cares about learning.</h1>
-        <p>Sketcha.day is made by Robby McCullough, a lifelong doodler, designer, and web guy who believes a drawing habit gets stronger through small, repeatable practice.</p>
-        <p>Tracie is a mom and early childhood educator. Her perspective helps keep the lessons clear, encouraging, and useful for artists who are still building confidence, including kids and grown-ups drawing beside them.</p>
-        <p>Together, we want Sketcha.day to feel like a friendly sketchbook ritual: simple shapes, practical steps, honest materials, and finished drawings that still leave room for your own hand.</p>
+        <p class="kicker">A family sketchbook project</p>
+        <h1 id="about-title">Daily sketchbook practice for noticing more.</h1>
+        <p>Sketcha.day is made by Robby McCullough, a lifelong doodler, designer, and web guy who still thinks a pencil is one of the best tools for learning to see. The lessons focus on small subjects you can study without needing a studio, a class, or a perfect block of time.</p>
+        <p>Robby brings sketchbook habit, design judgment, and web craft to the pages: clear structure, visible steps, and drawing problems that feel specific enough to teach something. Tracie, a mom and early childhood educator, helps keep the pacing patient and the tone encouraging for beginners, kids, and grown-ups drawing alongside them.</p>
+        <p>The goal is a site that feels like a useful sketchbook companion: look closely, place the big shapes, adjust what needs adjusting, and finish with a drawing that still feels like it came from your hand.</p>
       </div>
     </section>
     <section class="about-credentials" aria-labelledby="about-credentials-title">
       <h2 id="about-credentials-title">Why these lessons are built this way</h2>
       <div class="about-credential-grid">
-        <article><strong>Lifelong doodling</strong><span>Robby brings years of sketchbook habit, visual problem-solving, and a bias toward approachable creative practice.</span></article>
-        <article><strong>Design and web craft</strong><span>The pages are structured to be clear, scannable, accessible, and useful without needing a video or app.</span></article>
-        <article><strong>Early-childhood lens</strong><span>Tracie's background helps us value clear steps, patient pacing, and encouragement over perfection.</span></article>
-        <article><strong>Real-life rhythm</strong><span>The lessons are meant to fit into ordinary days, usually with a pencil, paper, and a few quiet minutes.</span></article>
+        <article><strong>Observation first</strong><span>Each lesson nudges you to compare shapes, angles, edges, and values before worrying about polish.</span></article>
+        <article><strong>Designed to be readable</strong><span>The pages are structured to be clear, scannable, accessible, and useful without needing a video or app.</span></article>
+        <article><strong>Learning-paced</strong><span>Tracie's background helps us value clear steps, patient sequencing, and encouragement over perfect results.</span></article>
+        <article><strong>Quiet daily rhythm</strong><span>The lessons are meant to fit into ordinary days, usually with a pencil, paper, and a few focused minutes.</span></article>
       </div>
     </section>
   </main>
