@@ -20,14 +20,14 @@ const lessons = [
     headlineSubject: "a backyard<br>telescope",
     shortSubject: "a telescope",
     lessonTitle: "Let's draw a backyard telescope",
-    description: "Learn how to draw a backyard telescope with a tilted tube, front lens rim, eyepiece, finder scope, tripod legs, grass, stars, and soft graphite shading.",
-    intro: "Use one tilted tube to aim the telescope, then build the lens, eyepiece, finder scope, and tripod before adding a few stargazing details.",
+    description: "Learn how to draw a backyard telescope with a tilted tube, front lens rim, eyepiece, finder scope, tripod legs, folded star chart, and soft graphite shading.",
+    intro: "Use one tilted tube to aim the telescope, then build the lens, eyepiece, finder scope, tripod, and a small star chart before adding stargazing texture.",
     time: 25,
     difficulty: "Easy-medium",
     accent: "#536fa8",
     finished: "backyard-telescope-finished-v1.jpg",
-    finishedAlt: "Graphite sketch of a backyard telescope angled upward on a tripod with finder scope, lens rim, grass, small stars, and soft shading",
-    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blending stump or tissue"],
+    finishedAlt: "Graphite and blue-gray colored-pencil sketch of a backyard telescope angled upward on a tripod with finder scope, lens rim, folded star chart, and soft shading",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blue-gray colored pencil"],
     steps: [
       {
         name: "Angle the main tube",
@@ -46,17 +46,17 @@ const lessons = [
       },
       {
         name: "Build the tripod",
-        text: "Draw the central mount, then pull three tripod legs down to the ground and add a few short grass strokes around the feet.",
+        text: "Draw the central mount, then pull three tripod legs down to the ground and place a folded star chart near the feet.",
         tip: "Spread the legs wider than the tube. A stable base makes the whole sketch feel believable."
       },
       {
-        name: "Add stars and soft shade",
-        text: "Scatter a few tiny stars near the telescope's pointing direction, then shade lightly along the tube, lens rim, mount, and grass.",
-        tip: "Keep the stars small and sparse. Too many dots will steal attention from the telescope."
+        name: "Shade the chart and lens",
+        text: "Add tripod braces, a few chart marks, a soft ground shadow, and pale blue-gray accents on the lens rims and folded paper.",
+        tip: "Keep the chart marks tiny and simple. The paper should support the telescope, not become a map lesson."
       },
       {
         name: "Finish the stargazing sketch",
-        text: "Darken the keeper contours, clarify the lens rings and tripod joints, and deepen the graphite shading already placed on the tube, mount, grass, and stars.",
+        text: "Darken the keeper contours, clarify the lens rings and tripod joints, and deepen the graphite shading already placed on the tube, mount, shadow, and star chart.",
         tip: "Stop while some construction texture still shows. A telescope sketch feels more alive when the graphite is not over-polished.",
         image: true
       }

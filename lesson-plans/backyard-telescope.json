@@ -6,7 +6,7 @@
     "description": "Six-panel raster process contact sheet generated for the June 30, 2026 backyard telescope lesson.",
     "notes": "The contact sheet must keep one telescope pose, crop, scale, and paper texture from construction through the finished sketch."
   },
-  "process_strategy": "Each frame adds visible telescope structure before the final panel only darkens keeper lines, adds restrained graphite shading, and clarifies already placed grass and star marks.",
+  "process_strategy": "Each frame adds visible telescope structure before the final panel only darkens keeper lines, adds restrained graphite shading, and clarifies the already placed star chart.",
   "final_elements": [
     {
       "name": "tilted telescope tube",
@@ -34,19 +34,19 @@
       "description": "A central mount with three simple tripod legs supporting the telescope."
     },
     {
-      "name": "backyard grass line",
+      "name": "folded star chart",
       "introduced_by_step": 4,
-      "description": "A few light ground strokes under the tripod feet."
+      "description": "A small folded star-chart paper placed near the tripod feet."
     },
     {
-      "name": "small stars",
+      "name": "tripod braces and chart marks",
       "introduced_by_step": 5,
-      "description": "A few simple star marks around the telescope's pointing direction."
+      "description": "Cross braces on the tripod plus tiny dot-and-line marks on the already placed chart."
     },
     {
-      "name": "restrained graphite shading",
+      "name": "restrained graphite and blue-gray shading",
       "introduced_by_step": 5,
-      "description": "Soft shading on the tube, lens rim, mount, and ground."
+      "description": "Soft shading on the tube, lens rim, mount, ground shadow, and folded chart."
     }
   ],
   "frames": [
@@ -82,20 +82,20 @@
       "step": 4,
       "asset": "assets/backyard-telescope-step-4.jpg",
       "step_name": "Build the tripod",
-      "visible_job": "Adds the mount, three tripod legs, and a few ground strokes.",
+      "visible_job": "Adds the mount, three tripod legs, and the folded star chart near the feet.",
       "introduces": [
         "tripod mount and legs",
-        "backyard grass line"
+        "folded star chart"
       ]
     },
     {
       "step": 5,
       "asset": "assets/backyard-telescope-step-5.jpg",
-      "step_name": "Add stars and soft shade",
-      "visible_job": "Adds small star marks and light shading to existing telescope parts.",
+      "step_name": "Shade the chart and lens",
+      "visible_job": "Adds tripod braces, chart marks, pale blue-gray accents, and light shading to existing telescope parts.",
       "introduces": [
-        "small stars",
-        "restrained graphite shading"
+        "tripod braces and chart marks",
+        "restrained graphite and blue-gray shading"
       ],
       "requires_prior_elements": [
         "tilted telescope tube",
@@ -103,24 +103,25 @@
         "eyepiece",
         "finder scope",
         "tripod mount and legs",
-        "backyard grass line"
+        "folded star chart"
       ]
     }
   ],
   "final_step": {
     "step_name": "Finish the stargazing sketch",
     "asset": "assets/backyard-telescope-finished-v1.jpg",
-    "visible_job": "Darkens keeper contours, clarifies the lens, strengthens the tripod, and deepens the already placed shading and stars.",
+    "visible_job": "Darkens keeper contours, clarifies the lens, strengthens the tripod, and deepens the already placed shading and star chart.",
     "allowed_changes": [
       "keeper contour darkening",
       "lens rim clarification",
       "tripod line strengthening",
       "restrained graphite shading",
-      "star mark clarification"
+      "blue-gray accent strengthening",
+      "star-chart clarification"
     ]
   },
   "rejection_checks": [
-    "No telescope part, tripod leg, star, or ground shape should first appear in the final image.",
+    "No telescope part, tripod leg, chart mark, or ground shadow should first appear in the final image.",
     "No frame may shade or darken a telescope part that was not already visible.",
     "No adjacent frame should look unchanged at card size.",
     "The final image must keep the same telescope angle, scale, and placement as the step frames."
