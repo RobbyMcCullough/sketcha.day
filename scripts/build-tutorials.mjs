@@ -12,8 +12,110 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "backyard-telescope",
+    day: "027",
+    date: "Tuesday, June 30",
+    isoDate: "2026-06-30",
+    subject: "a backyard telescope",
+    headlineSubject: "a backyard<br>telescope",
+    shortSubject: "a telescope",
+    lessonTitle: "Let's draw a backyard telescope",
+    description: "Learn how to draw a backyard telescope with a tilted tube, front lens rim, eyepiece, finder scope, tripod legs, grass, stars, and soft graphite shading.",
+    intro: "Use one tilted tube to aim the telescope, then build the lens, eyepiece, finder scope, and tripod before adding a few stargazing details.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#536fa8",
+    finished: "backyard-telescope-finished-v1.jpg",
+    finishedAlt: "Graphite sketch of a backyard telescope angled upward on a tripod with finder scope, lens rim, grass, small stars, and soft shading",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blending stump or tissue"],
+    steps: [
+      {
+        name: "Angle the main tube",
+        text: "Draw a long tilted tube pointing up toward the right, then add a light center guide and a small mount circle underneath it.",
+        tip: "Keep the first tube pale and simple. The angle matters more than perfect straight edges."
+      },
+      {
+        name: "Cap the lens and eyepiece",
+        text: "Add a round rim at the sky-facing end, then place a small angled eyepiece at the lower end of the tube.",
+        tip: "Make the front rim wider than the eyepiece so the telescope reads quickly."
+      },
+      {
+        name: "Set the finder scope",
+        text: "Refine the tube contour and draw a tiny finder scope resting on top of the main telescope.",
+        tip: "Let the finder scope follow the same tilt as the big tube. Parallel angles keep the drawing tidy."
+      },
+      {
+        name: "Build the tripod",
+        text: "Draw the central mount, then pull three tripod legs down to the ground and add a few short grass strokes around the feet.",
+        tip: "Spread the legs wider than the tube. A stable base makes the whole sketch feel believable."
+      },
+      {
+        name: "Add stars and soft shade",
+        text: "Scatter a few tiny stars near the telescope's pointing direction, then shade lightly along the tube, lens rim, mount, and grass.",
+        tip: "Keep the stars small and sparse. Too many dots will steal attention from the telescope."
+      },
+      {
+        name: "Finish the stargazing sketch",
+        text: "Darken the keeper contours, clarify the lens rings and tripod joints, and deepen the graphite shading already placed on the tube, mount, grass, and stars.",
+        tip: "Stop while some construction texture still shows. A telescope sketch feels more alive when the graphite is not over-polished.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "honeybee-on-a-flower",
+    day: "001",
+    date: "Thursday, June 4",
+    isoDate: "2026-06-04",
+    subject: "a honeybee on a flower",
+    headlineSubject: "a honeybee<br>on a flower",
+    shortSubject: "a honeybee",
+    lessonTitle: "Let's draw a honeybee on a flower",
+    description: "Learn how to draw a honeybee on a flower with an oval bee body, transparent wings, stripes, antennae, petals, stem, leaves, and restrained yellow pencil color.",
+    intro: "Build the bee and flower from simple ovals first, then add stripes, petals, legs, and a little yellow warmth without making the sketch too polished.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#d5a927",
+    finished: "honeybee-on-a-flower-finished-v1.jpg",
+    finishedAlt: "Graphite and yellow colored-pencil sketch of a honeybee with wings and stripes resting on a flower with petals, stem, leaves, and soft shading",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Yellow colored pencil"],
+    steps: [
+      {
+        name: "Place bee and flower guides",
+        text: "Draw a small oval for the bee body and a round flower center below it, letting the two guides touch lightly.",
+        tip: "Keep these guides loose. The bee will tilt across the flower, so the body does not need to sit perfectly flat."
+      },
+      {
+        name: "Add head and wings",
+        text: "Attach a small head circle to the front of the bee, then draw two long wing shapes above the body.",
+        tip: "Let the wings overlap the body a bit. Transparent-looking wings feel lighter when they are drawn with pale lines."
+      },
+      {
+        name: "Shape petals and stripes",
+        text: "Add rounded petals around the flower center and curve several stripe bands across the bee's body.",
+        tip: "Curve the stripes around the oval instead of drawing straight bars. That gives the tiny body volume."
+      },
+      {
+        name: "Add legs, antennae, and stem",
+        text: "Sketch tiny antennae, small bent legs touching the flower, a short stem, and two simple leaves.",
+        tip: "Use fewer leg lines than you think you need. Clear placement beats a tangle of tiny marks."
+      },
+      {
+        name: "Texture the wings and petals",
+        text: "Add light wing veins, petal contour lines, soft graphite shading, and a gentle yellow tint on the bee and flower center.",
+        tip: "Keep the yellow restrained so the graphite drawing still does most of the work."
+      },
+      {
+        name: "Finish the garden sketch",
+        text: "Darken the keeper contours, clarify the bee stripes and wing veins, and deepen the yellow and graphite shading that is already in place.",
+        tip: "Leave the flower petals mostly pale. That contrast helps the honeybee stay readable at a glance.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "curious-fox",
-    day: "011",
+    day: "012",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -131,7 +233,7 @@ const lessons = [
   },
   {
     slug: "tennis-racket-and-ball",
-    day: "025",
+    day: "026",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a tennis racket and ball",
@@ -182,7 +284,7 @@ const lessons = [
   },
   {
     slug: "vintage-roller-skate",
-    day: "024",
+    day: "025",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a vintage roller skate",
@@ -233,7 +335,7 @@ const lessons = [
   },
   {
     slug: "sunglasses-on-a-towel",
-    day: "023",
+    day: "024",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a pair of sunglasses on a towel",
@@ -284,7 +386,7 @@ const lessons = [
   },
   {
     slug: "desk-dog",
-    day: "022",
+    day: "023",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -335,7 +437,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "021",
+    day: "022",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -386,7 +488,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "020",
+    day: "021",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -437,7 +539,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "019",
+    day: "020",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -488,7 +590,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "018",
+    day: "019",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -539,7 +641,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "017",
+    day: "018",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -590,7 +692,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "016",
+    day: "017",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -641,7 +743,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "015",
+    day: "016",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -692,7 +794,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "014",
+    day: "015",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -743,7 +845,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "013",
+    day: "014",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -799,7 +901,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "012",
+    day: "013",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -845,7 +947,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "010",
+    day: "011",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -894,7 +996,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "009",
+    day: "010",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -943,7 +1045,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "008",
+    day: "009",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -992,7 +1094,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "007",
+    day: "008",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -1037,7 +1139,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "006",
+    day: "007",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -1088,7 +1190,7 @@ const lessons = [
   },
   {
     slug: "picnic-basket",
-    day: "003",
+    day: "004",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a picnic basket",
@@ -1139,7 +1241,7 @@ const lessons = [
   },
   {
     slug: "pocket-compass",
-    day: "001",
+    day: "002",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a pocket compass",
@@ -1190,7 +1292,7 @@ const lessons = [
   },
   {
     slug: "stack-of-books",
-    day: "002",
+    day: "003",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a stack of books",
@@ -1241,7 +1343,7 @@ const lessons = [
   },
   {
     slug: "seashell-on-sand",
-    day: "004",
+    day: "005",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -1292,7 +1394,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "005",
+    day: "006",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",

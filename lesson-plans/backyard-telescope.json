@@ -1,0 +1,128 @@
+{
+  "slug": "backyard-telescope",
+  "finished": "assets/backyard-telescope-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel raster process contact sheet generated for the June 30, 2026 backyard telescope lesson.",
+    "notes": "The contact sheet must keep one telescope pose, crop, scale, and paper texture from construction through the finished sketch."
+  },
+  "process_strategy": "Each frame adds visible telescope structure before the final panel only darkens keeper lines, adds restrained graphite shading, and clarifies already placed grass and star marks.",
+  "final_elements": [
+    {
+      "name": "tilted telescope tube",
+      "introduced_by_step": 1,
+      "description": "A long angled telescope tube pointing toward the upper right."
+    },
+    {
+      "name": "front lens rim",
+      "introduced_by_step": 2,
+      "description": "A circular rim at the sky-facing end of the telescope."
+    },
+    {
+      "name": "eyepiece",
+      "introduced_by_step": 2,
+      "description": "A small eyepiece at the lower end of the tube."
+    },
+    {
+      "name": "finder scope",
+      "introduced_by_step": 3,
+      "description": "A small tube sitting on top of the main telescope."
+    },
+    {
+      "name": "tripod mount and legs",
+      "introduced_by_step": 4,
+      "description": "A central mount with three simple tripod legs supporting the telescope."
+    },
+    {
+      "name": "backyard grass line",
+      "introduced_by_step": 4,
+      "description": "A few light ground strokes under the tripod feet."
+    },
+    {
+      "name": "small stars",
+      "introduced_by_step": 5,
+      "description": "A few simple star marks around the telescope's pointing direction."
+    },
+    {
+      "name": "restrained graphite shading",
+      "introduced_by_step": 5,
+      "description": "Soft shading on the tube, lens rim, mount, and ground."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/backyard-telescope-step-1.jpg",
+      "step_name": "Angle the main tube",
+      "visible_job": "Places the tilted tube guide, center line, and light mount guide.",
+      "introduces": [
+        "tilted telescope tube"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/backyard-telescope-step-2.jpg",
+      "step_name": "Cap the lens and eyepiece",
+      "visible_job": "Adds the front lens rim and small eyepiece while keeping the same tube angle.",
+      "introduces": [
+        "front lens rim",
+        "eyepiece"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/backyard-telescope-step-3.jpg",
+      "step_name": "Set the finder scope",
+      "visible_job": "Refines the tube contour and adds the small finder scope on top.",
+      "introduces": [
+        "finder scope"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/backyard-telescope-step-4.jpg",
+      "step_name": "Build the tripod",
+      "visible_job": "Adds the mount, three tripod legs, and a few ground strokes.",
+      "introduces": [
+        "tripod mount and legs",
+        "backyard grass line"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/backyard-telescope-step-5.jpg",
+      "step_name": "Add stars and soft shade",
+      "visible_job": "Adds small star marks and light shading to existing telescope parts.",
+      "introduces": [
+        "small stars",
+        "restrained graphite shading"
+      ],
+      "requires_prior_elements": [
+        "tilted telescope tube",
+        "front lens rim",
+        "eyepiece",
+        "finder scope",
+        "tripod mount and legs",
+        "backyard grass line"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the stargazing sketch",
+    "asset": "assets/backyard-telescope-finished-v1.jpg",
+    "visible_job": "Darkens keeper contours, clarifies the lens, strengthens the tripod, and deepens the already placed shading and stars.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "lens rim clarification",
+      "tripod line strengthening",
+      "restrained graphite shading",
+      "star mark clarification"
+    ]
+  },
+  "rejection_checks": [
+    "No telescope part, tripod leg, star, or ground shape should first appear in the final image.",
+    "No frame may shade or darken a telescope part that was not already visible.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same telescope angle, scale, and placement as the step frames."
+  ]
+}

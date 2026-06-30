@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a backyard telescope</title>
+      <link>https://sketcha.day/tutorials/backyard-telescope.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/backyard-telescope.html</guid>
+      <pubDate>Tue, 30 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a backyard telescope with a tilted tube, front lens rim, eyepiece, finder scope, tripod legs, grass, stars, and soft graphite shading.</description>
+      <media:content url="https://sketcha.day/assets/backyard-telescope-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a tennis racket and ball</title>
       <link>https://sketcha.day/tutorials/tennis-racket-and-ball.html</link>
@@ -206,6 +214,14 @@
       <pubDate>Fri, 05 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a pocket compass with a round case, inner face, diamond needle, top loop, small tick marks, and soft graphite shading.</description>
       <media:content url="https://sketcha.day/assets/pocket-compass-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a honeybee on a flower</title>
+      <link>https://sketcha.day/tutorials/honeybee-on-a-flower.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/honeybee-on-a-flower.html</guid>
+      <pubDate>Thu, 04 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a honeybee on a flower with an oval bee body, transparent wings, stripes, antennae, petals, stem, leaves, and restrained yellow pencil color.</description>
+      <media:content url="https://sketcha.day/assets/honeybee-on-a-flower-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

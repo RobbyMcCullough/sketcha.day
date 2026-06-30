@@ -1,0 +1,138 @@
+{
+  "slug": "honeybee-on-a-flower",
+  "finished": "assets/honeybee-on-a-flower-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel raster process contact sheet generated for an honest backdated June 4, 2026 honeybee lesson.",
+    "notes": "The bee, flower, and paper texture must remain consistent across the full process sheet."
+  },
+  "process_strategy": "The lesson builds the bee and flower together before the final panel only strengthens lines, adds restrained colored-pencil warmth, and clarifies already placed texture.",
+  "final_elements": [
+    {
+      "name": "bee body",
+      "introduced_by_step": 1,
+      "description": "A small oval honeybee body angled across the flower center."
+    },
+    {
+      "name": "flower center",
+      "introduced_by_step": 1,
+      "description": "A round flower center underneath the bee."
+    },
+    {
+      "name": "bee head",
+      "introduced_by_step": 2,
+      "description": "A small head attached to the front of the bee body."
+    },
+    {
+      "name": "bee wings",
+      "introduced_by_step": 2,
+      "description": "Two light transparent wings above the bee body."
+    },
+    {
+      "name": "flower petals",
+      "introduced_by_step": 3,
+      "description": "Rounded petals radiating from the flower center."
+    },
+    {
+      "name": "bee stripes",
+      "introduced_by_step": 3,
+      "description": "Curved bands across the bee body."
+    },
+    {
+      "name": "antennae and legs",
+      "introduced_by_step": 4,
+      "description": "Tiny antennae and simple legs touching the flower."
+    },
+    {
+      "name": "stem and leaves",
+      "introduced_by_step": 4,
+      "description": "A short flower stem with two small leaves."
+    },
+    {
+      "name": "wing veins and petal texture",
+      "introduced_by_step": 5,
+      "description": "Light wing veins, petal contour lines, and soft shading."
+    },
+    {
+      "name": "restrained yellow color",
+      "introduced_by_step": 5,
+      "description": "Gentle yellow warmth on the bee and flower center."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/honeybee-on-a-flower-step-1.jpg",
+      "step_name": "Place bee and flower guides",
+      "visible_job": "Places the bee body oval and round flower center.",
+      "introduces": [
+        "bee body",
+        "flower center"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/honeybee-on-a-flower-step-2.jpg",
+      "step_name": "Add head and wings",
+      "visible_job": "Adds the bee head and two simple wing shapes.",
+      "introduces": [
+        "bee head",
+        "bee wings"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/honeybee-on-a-flower-step-3.jpg",
+      "step_name": "Shape petals and stripes",
+      "visible_job": "Adds rounded petals around the flower center and curved stripes across the bee body.",
+      "introduces": [
+        "flower petals",
+        "bee stripes"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/honeybee-on-a-flower-step-4.jpg",
+      "step_name": "Add legs, antennae, and stem",
+      "visible_job": "Adds tiny legs, antennae, the flower stem, and two leaves.",
+      "introduces": [
+        "antennae and legs",
+        "stem and leaves"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/honeybee-on-a-flower-step-5.jpg",
+      "step_name": "Texture the wings and petals",
+      "visible_job": "Adds light wing veins, petal texture, soft shading, and restrained yellow color to existing shapes.",
+      "introduces": [
+        "wing veins and petal texture",
+        "restrained yellow color"
+      ],
+      "requires_prior_elements": [
+        "bee body",
+        "flower center",
+        "bee wings",
+        "flower petals"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the garden sketch",
+    "asset": "assets/honeybee-on-a-flower-finished-v1.jpg",
+    "visible_job": "Darkens keeper contours, clarifies the bee stripes and wings, and deepens already placed yellow and graphite shading.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "stripe clarification",
+      "wing vein clarification",
+      "restrained colored-pencil warmth",
+      "soft graphite shading"
+    ]
+  },
+  "rejection_checks": [
+    "No bee body part, flower petal, stripe, leg, wing, stem, leaf, or color choice should first appear in the final image.",
+    "No frame may darken, color, shade, or clean a feature that was not already visible earlier.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same bee and flower pose, scale, and placement as the step frames."
+  ]
+}

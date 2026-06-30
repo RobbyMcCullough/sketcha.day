@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-29
+- Date: 2026-06-30
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
@@ -348,5 +348,18 @@
   pocket-compass`, reviewed step sheets at `/tmp/tennis-racket-and-ball-steps.jpg`
   and `/tmp/pocket-compass-steps.jpg`, and saved Cove browser QA screenshots
   under `/tmp/daily-sketch-doodle-qa-2026-06-29/`.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
+- Added the backyard telescope as the June 30, 2026 / Day 027 tutorial from a
+  reviewed six-panel generated pencil contact sheet. Finished image rating:
+  8.6/10.
+- Added the honeybee on a flower as the June 4, 2026 / Day 001 honest
+  backdated archive tutorial. Existing Sketcha day labels shifted forward by
+  one. Finished image rating: 8.4/10.
+- June 30 QA used `python3 scripts/check-tutorial-readiness.py
+  backyard-telescope` and `python3 scripts/check-tutorial-readiness.py
+  honeybee-on-a-flower`, reviewed step sheets at `/tmp/backyard-telescope-steps.jpg`
+  and `/tmp/honeybee-on-a-flower-steps.jpg`, and saved Cove browser desktop/mobile
+  screenshots under `/tmp/daily-sketch-doodle-qa-2026-06-30/`.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
