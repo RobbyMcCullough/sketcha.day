@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-06-30
+- Date: 2026-07-01
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
@@ -241,6 +241,17 @@
   `python3 scripts/check-tutorial-readiness.py seashell-on-sand`, reviewed step
   sheets at `/tmp/desk-dog-steps.jpg` and `/tmp/seashell-on-sand-steps.jpg`, and
   captured Cove browser QA screenshots at `/tmp/sketcha-*-rerun.png`.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
+- Added creative-permission guidance to `DAILY-PUBLISHING.md` so future Sketcha
+  lessons treat the steps as helpful recommendations, not the only correct
+  route.
+- Sprinkled that tone into five existing lessons: `backyard-telescope`,
+  `honeybee-on-a-flower`, `cozy-teacup`, `rainy-day-frog`, and
+  `stack-of-books`.
+- July 1 copy QA used `python3 scripts/check-tutorial-readiness.py {slug}
+  --base-url http://localhost:4173/` for those five slugs after Cove was
+  unreachable; all passed, and `git diff --check` passed.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
 - Added the sunglasses on a towel as the June 27, 2026 / Day 021 tutorial from

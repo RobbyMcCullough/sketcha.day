@@ -21,7 +21,7 @@ const lessons = [
     shortSubject: "a telescope",
     lessonTitle: "Let's draw a backyard telescope",
     description: "Learn how to draw a backyard telescope with a tilted tube, front lens rim, eyepiece, finder scope, tripod legs, folded star chart, and soft graphite shading.",
-    intro: "Use one tilted tube to aim the telescope, then build the lens, eyepiece, finder scope, tripod, and a small star chart before adding stargazing texture.",
+    intro: "Use one tilted tube to aim the telescope, then build the lens, eyepiece, finder scope, tripod, and a small star chart. Treat the details as suggestions you can simplify or personalize.",
     time: 25,
     difficulty: "Easy-medium",
     accent: "#536fa8",
@@ -52,7 +52,7 @@ const lessons = [
       {
         name: "Shade the chart and lens",
         text: "Add tripod braces, a few chart marks, a soft ground shadow, and pale blue-gray accents on the lens rims and folded paper.",
-        tip: "Keep the chart marks tiny and simple. The paper should support the telescope, not become a map lesson."
+        tip: "Keep the chart marks tiny and simple, or invent a different little note on the paper. The prop should support the telescope, not become a map lesson."
       },
       {
         name: "Finish the stargazing sketch",
@@ -72,7 +72,7 @@ const lessons = [
     shortSubject: "a honeybee",
     lessonTitle: "Let's draw a honeybee on a flower",
     description: "Learn how to draw a honeybee on a flower with an oval bee body, transparent wings, stripes, antennae, petals, stem, leaves, and restrained yellow pencil color.",
-    intro: "Build the bee and flower from simple ovals first, then add stripes, petals, legs, and a little yellow warmth without making the sketch too polished.",
+    intro: "Build the bee and flower from simple ovals first, then add stripes, petals, legs, and a little yellow warmth. Your flower shape and bee markings can vary; the goal is a believable garden sketch.",
     time: 25,
     difficulty: "Easy-medium",
     accent: "#d5a927",
@@ -108,7 +108,7 @@ const lessons = [
       {
         name: "Finish the garden sketch",
         text: "Darken the keeper contours, clarify the bee stripes and wing veins, and deepen the yellow and graphite shading that is already in place.",
-        tip: "Leave the flower petals mostly pale. That contrast helps the honeybee stay readable at a glance.",
+        tip: "Leave the flower petals mostly pale, but do not worry if your petal count or curve is different. That variation is part of making the sketch yours.",
         image: true
       }
     ]
@@ -853,7 +853,7 @@ const lessons = [
     shortSubject: "a cozy teacup",
     lessonTitle: "Let's draw a cozy teacup",
     description: "Learn how to draw a cozy teacup with an oval rim, curved handle, saucer, steam, warm tea, and a red heart on the cup.",
-    intro: "Start with two light ovals, build the cup and saucer in layers, then finish with steam, warm tea, a red heart, and soft blue-gray shading.",
+    intro: "Start with two light ovals, build the cup and saucer in layers, then finish with steam, warm tea, and a small decoration. The heart is a prompt, not a rule.",
     time: 25,
     difficulty: "Easy",
     accent: "#c7775d",
@@ -884,7 +884,7 @@ const lessons = [
       {
         name: "Draw the heart and rim stripe",
         text: "Place a small red heart on the front of the cup, then add a thin warm stripe following the front rim curve.",
-        tip: "Center the heart on the cup face, not on the whole page. It should sit below the rim and above the foot."
+        tip: "Center the heart, star, flower, or other tiny mark on the cup face, not on the whole page. This is a good place to make the sketch personal."
       },
       {
         name: "Shade the cup and saucer",
@@ -1101,7 +1101,7 @@ const lessons = [
     shortSubject: "a rainy-day frog",
     lessonTitle: "Let's draw a rainy-day frog",
     description: "Learn how to draw a cartoon frog in rain boots holding an umbrella with five friendly sketching steps.",
-    intro: "Build a cheerful frog from rounded shapes, then give it boots, an umbrella, and a splash of rainy-day color.",
+    intro: "Build a cheerful frog from rounded shapes, then give it boots, an umbrella, and a splash of rainy-day color. Follow the pose, then feel free to change the pattern or mood.",
     time: 25,
     difficulty: "Easy-medium",
     accent: "#6d8763",
@@ -1132,7 +1132,7 @@ const lessons = [
       {
         name: "Color the rainy details",
         text: "Darken the useful contours, then add loose green, yellow, and blue colored-pencil strokes.",
-        tip: "Leave white paper in the belly, umbrella, and boots so the drawing still feels quick and sketchy.",
+        tip: "Leave white paper in the belly, umbrella, and boots so the drawing still feels quick and sketchy. Your umbrella pattern can be stripes, dots, or nothing at all.",
         image: true
       }
     ]
@@ -1300,7 +1300,7 @@ const lessons = [
     shortSubject: "a stack of books",
     lessonTitle: "Let's draw a stack of books",
     description: "Learn how to draw a stack of books with three offset book blocks, page edges, a ribbon bookmark, worn cover bands, and soft graphite shading.",
-    intro: "Build this book pile from simple rectangles, then add page lines, a hanging bookmark, and just enough shading to make the stack feel cozy.",
+    intro: "Build this book pile from simple rectangles, then add page lines, a hanging bookmark, and just enough shading to make the stack feel cozy. Change the bookmark, book count, or cover details if another story fits your sketch.",
     time: 20,
     difficulty: "Easy",
     accent: "#8aa15f",
@@ -1326,7 +1326,7 @@ const lessons = [
       {
         name: "Drop in the bookmark",
         text: "Hang a narrow ribbon bookmark from the top book and let it overlap the book below.",
-        tip: "A bookmark works best when it crosses an existing edge. That overlap makes the stack feel layered."
+        tip: "A bookmark works best when it crosses an existing edge. Swap it for a ribbon, sticky note, or plain cover if that feels more like your stack."
       },
       {
         name: "Add worn cover details",

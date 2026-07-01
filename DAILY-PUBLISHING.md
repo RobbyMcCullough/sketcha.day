@@ -198,6 +198,14 @@ layout that makes the lesson feel less polished than the current site standard.
 - Use the number of cumulative steps the subject needs. Five to eight is a
   normal range, but fewer stronger frames are better than over-splitting a
   simple drawing into nearly identical images.
+- Treat each tutorial as a helpful route, not the only correct route. The page
+  should teach structure clearly while still inviting artists to change small
+  details, proportions, colors, textures, expressions, settings, and line
+  choices when those changes keep the subject readable.
+- Include creative-permission language naturally in some lesson intros, tips, or
+  closing steps. Avoid sounding apologetic or vague: make it clear that the
+  steps are recommendations for learning the form, and that personal variation
+  is part of drawing.
 - Keep the subject in the same position and scale in every frame.
 - Each step must make one visible, describable change.
 - A refinement step cannot introduce the feature it refines. Do not let a
