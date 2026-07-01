@@ -1604,7 +1604,7 @@ ${iconLinks}
       <a href="../">Today's sketch</a>
       <a href="../library.html">Sketch library</a>
       <a href="../about.html">About</a>
-      <a href="https://doodlea.day/">Doodlea.day</a>
+      <a href="https://doodlea.day/">doodlea.day</a>
       <a class="nav-button" href="#lesson">Start drawing</a>
     </nav>
   </header>
@@ -1737,7 +1737,7 @@ ${iconLinks}
       <a href="/">Today's sketch</a>
       <a href="library.html">Sketch library</a>
       <a href="about.html" aria-current="page">About</a>
-      <a href="https://doodlea.day/">Doodlea.day</a>
+      <a href="https://doodlea.day/">doodlea.day</a>
       <a class="nav-button" href="/#lesson">Start drawing</a>
     </nav>
   </header>
@@ -1912,7 +1912,7 @@ ${iconLinks}
       <a href="/">Today's sketch</a>
       <a href="library.html" aria-current="page">Sketch library</a>
       <a href="about.html">About</a>
-      <a href="https://doodlea.day/">Doodlea.day</a>
+      <a href="https://doodlea.day/">doodlea.day</a>
       <a class="nav-button" href="/#lesson">Start drawing</a>
     </nav>
   </header>
