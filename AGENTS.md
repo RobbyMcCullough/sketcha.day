@@ -53,6 +53,18 @@ For daily lesson work, read these files in order:
 2. `HUMANS.md`
 3. `DAILY-PUBLISHING.md`
 
+Before choosing subjects or creating art, run the duplicate-slot guard:
+
+```sh
+python3 scripts/check-daily-publish-slots.py --current-date YYYY-MM-DD
+```
+
+If the current date is already occupied, stop instead of creating or validating
+another daily pair. For an explicit correction to an existing lesson, rerun the
+guard with the matching `--allow-existing-current-slug` or
+`--allow-existing-backfill-slug` flag and keep the correction scoped to that
+slug.
+
 Then update the lesson data in `scripts/build-tutorials.mjs`, create any new
 assets under `assets/`, run the generator, QA the homepage plus changed pages,
 and commit the work only after the lesson passes the quality gates in

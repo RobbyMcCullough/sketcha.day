@@ -28,6 +28,13 @@
   proportional drift across early frames.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
+- July 1, 2026 follow-up: added `scripts/check-daily-publish-slots.py` and
+  updated `AGENTS.md`/`DAILY-PUBLISHING.md` so the daily automation stops before
+  choosing subjects or generating art when the current publish date is already
+  occupied. Intentional corrections must pass the exact
+  `--allow-existing-current-slug` or `--allow-existing-backfill-slug` gate.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
 - Open `index.html` through a local server to review the first draft.
 - Main work is in `index.html`, `styles.css`, and `script.js`.
 - Revised loose fox artwork is stored at `assets/fox-finished-v2.jpg`.

@@ -44,17 +44,28 @@ When this guide is used by a scheduled Codex automation, the job should:
    current daily tutorial and one backdated tutorial in the same run. Keep
    backdated lessons honest in public copy: no invented traffic, comments,
    popularity, or fake community activity.
-3. Do a quick source check for timely hooks before choosing the subject:
+3. Before choosing subjects or making art, run the duplicate-slot guard:
+
+```sh
+python3 scripts/check-daily-publish-slots.py --current-date YYYY-MM-DD
+```
+
+   If the current date is already occupied, stop. Do not validate, replace, or
+   add another same-day pair unless the owner explicitly asked for a correction.
+   For a correction, rerun the guard with the matching
+   `--allow-existing-current-slug` or `--allow-existing-backfill-slug` flag and
+   keep the work scoped to that existing slug.
+4. Do a quick source check for timely hooks before choosing the subject:
    current news, major sports, holidays, seasons, cultural moments, and daily
    observances. Use a timely subject only when it naturally fits Sketcha.day,
    can be taught as an attainable sketch, and does not duplicate the sister
    Doodlea.day subject for the same run. Do not force a weak trend.
-4. Pick one specific lesson subject with a clear search phrase, such as
+5. Pick one specific lesson subject with a clear search phrase, such as
    "how to draw a rainy-day frog" or "how to draw a cozy mushroom."
-5. Compare the candidate with existing lessons in `scripts/build-tutorials.mjs`
+6. Compare the candidate with existing lessons in `scripts/build-tutorials.mjs`
    and `library.html`; choose a different subject if it repeats a recent lesson's
    core shape, category, or drawing skill.
-6. Write or update `lesson-plans/{slug}.json` before creating final page data.
+7. Write or update `lesson-plans/{slug}.json` before creating final page data.
    Start from `lesson-plans/TEMPLATE.json`. The plan must name the finished
    asset, each major finished element, the non-final frame where that element
    first appears, each process frame's visible job, and the final step's allowed
@@ -62,24 +73,24 @@ When this guide is used by a scheduled Codex automation, the job should:
    Any frame that darkens, inks, fills, colors, shades, cleans, or clarifies
    existing parts must list those parts in `requires_prior_elements`, and each
    listed part must have an earlier `introduced_by_step`.
-7. Create or update generated raster art for the finished sketch and tutorial
+8. Create or update generated raster art for the finished sketch and tutorial
    steps. Prefer one master reference and derived step frames over unrelated
    one-off images.
-8. Run the process-plan and step-delta gates for the lesson slug, then inspect
+9. Run the process-plan and step-delta gates for the lesson slug, then inspect
    the contact sheet so repeated or barely changed frames are caught before page
    QA.
-9. Rate the final image using the 10-point gate below. Regenerate until the
+10. Rate the final image using the 10-point gate below. Regenerate until the
    finished image is at least 8/10.
-10. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
+11. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
    number and the intended publish date.
-11. Run `node scripts/build-tutorials.mjs`.
-12. QA the homepage, `library.html`, and the new tutorial page at desktop and
+12. Run `node scripts/build-tutorials.mjs`.
+13. QA the homepage, `library.html`, and the new tutorial page at desktop and
    mobile widths.
-13. Rate the rendered page layout using the 10-point gate below. Do not publish
+14. Rate the rendered page layout using the 10-point gate below. Do not publish
     unless the layout scores at least 8/10.
-14. Commit the work with a concise message only when the page passes the
+15. Commit the work with a concise message only when the page passes the
    anti-slop review and validation checks.
-15. For scheduled daily lesson automation, push the passing commit to `main` so
+16. For scheduled daily lesson automation, push the passing commit to `main` so
     it publishes. No separate editorial review is required after the automated
     quality gates pass.
 
