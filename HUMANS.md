@@ -13,6 +13,21 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-01 daily automation added two Sketcha lessons: `waffle-ice-cream-cone`
+  as July 1, 2026 / Day 029 and `rain-boot-with-puddle` as June 3, 2026 /
+  Day 001. Existing day labels shifted forward by one.
+- July 1 Sketcha QA used `python3 scripts/check-tutorial-readiness.py
+  waffle-ice-cream-cone` and `python3 scripts/check-tutorial-readiness.py
+  rain-boot-with-puddle`, reviewed contact sheets at
+  `drafts/{slug}/{slug}-contact-sheet.png`, reviewed step sheets at
+  `/tmp/{slug}-steps.jpg`, and captured Cove desktop/mobile screenshots under
+  `/tmp/sketcha-july1-*`.
+- Finished image ratings: waffle ice cream cone 8.6/10 for readable summer
+  shape, clean graphite texture, and attainable color; rain boot with puddle
+  8.2/10 for useful construction and strong final readability with minor
+  proportional drift across early frames.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
 - Open `index.html` through a local server to review the first draft.
 - Main work is in `index.html`, `styles.css`, and `script.js`.
 - Revised loose fox artwork is stored at `assets/fox-finished-v2.jpg`.

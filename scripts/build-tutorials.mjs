@@ -18,7 +18,7 @@ const lessons = [
     isoDate: "2026-07-01",
     subject: "a waffle ice cream cone",
     headlineSubject: "a waffle ice<br>cream cone",
-    shortSubject: "an ice cream cone",
+    shortSubject: "a waffle ice cream cone",
     lessonTitle: "Let's draw a waffle ice cream cone",
     description: "Learn how to draw a waffle ice cream cone with a round scoop, wavy scoop edge, cone rim, crossed waffle lines, sprinkles, restrained color, and a soft shadow.",
     intro: "Start with a scoop and cone, then add the wavy edge, waffle grid, sprinkles, and a little summer color. Change the flavor or sprinkle pattern if you want; keep the simple structure underneath.",
