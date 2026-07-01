@@ -12,8 +12,110 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "waffle-ice-cream-cone",
+    day: "029",
+    date: "Wednesday, July 1",
+    isoDate: "2026-07-01",
+    subject: "a waffle ice cream cone",
+    headlineSubject: "a waffle ice<br>cream cone",
+    shortSubject: "an ice cream cone",
+    lessonTitle: "Let's draw a waffle ice cream cone",
+    description: "Learn how to draw a waffle ice cream cone with a round scoop, wavy scoop edge, cone rim, crossed waffle lines, sprinkles, restrained color, and a soft shadow.",
+    intro: "Start with a scoop and cone, then add the wavy edge, waffle grid, sprinkles, and a little summer color. Change the flavor or sprinkle pattern if you want; keep the simple structure underneath.",
+    time: 20,
+    difficulty: "Easy",
+    accent: "#d28b67",
+    finished: "waffle-ice-cream-cone-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a waffle ice cream cone with a pink scoop, sprinkles, crossed waffle lines, tan cone shading, and a soft cast shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional tan and pink colored pencils"],
+    steps: [
+      {
+        name: "Stack the simple shapes",
+        text: "Draw a round scoop guide first, then tuck a tapered cone triangle underneath it.",
+        tip: "Keep the cone centered under the scoop. A straight middle guide helps the treat stand upright."
+      },
+      {
+        name: "Wave the scoop edge",
+        text: "Add a wavy lower edge to the scoop, then draw an oval rim where the ice cream sits on the cone.",
+        tip: "Let the waves be uneven. Ice cream looks friendlier when the edge is not too perfect."
+      },
+      {
+        name: "Clean the cone contour",
+        text: "Darken the outside scoop curve, clarify the rim, and refine the two cone sides down to the point.",
+        tip: "Do not erase every guide yet. The center line can help when you add the waffle pattern."
+      },
+      {
+        name: "Cross the waffle lines",
+        text: "Draw diagonal lines one way across the cone, cross them the other way, and scatter small sprinkles across the scoop.",
+        tip: "Follow the cone's taper. The diamonds should feel a little narrower near the bottom."
+      },
+      {
+        name: "Tint the cone and scoop",
+        text: "Add light tan color to the cone, a pale pink tint to the scoop, and a soft shadow off to one side.",
+        tip: "Color lightly enough that the graphite still shows through. The texture helps the cone feel sketchy instead of flat."
+      },
+      {
+        name: "Finish the summer treat",
+        text: "Darken the keeper contours, clarify the sprinkles and waffle grid, and deepen the color and shadow that are already in place.",
+        tip: "Stop before the color becomes solid. A few white gaps make the scoop and cone feel hand drawn.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "rain-boot-with-puddle",
+    day: "001",
+    date: "Wednesday, June 3",
+    isoDate: "2026-06-03",
+    subject: "a rain boot with a puddle",
+    headlineSubject: "a rain boot<br>with a puddle",
+    shortSubject: "a rain boot",
+    lessonTitle: "Let's draw a rain boot with a puddle",
+    description: "Learn how to draw a rain boot with a tall shaft, rounded foot, cuff, heel, thick sole, simple stripe, puddle reflection, and restrained blue-gray shading.",
+    intro: "Build one boot from a tall shaft and rounded foot, then add the cuff, tread, stripe, puddle, and soft rainy shading. You can change the stripe color later as long as the boot shape stays clear.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#6f93b8",
+    finished: "rain-boot-with-puddle-finished-v1.jpg",
+    finishedAlt: "Graphite and blue-gray colored-pencil sketch of a single rain boot standing in a puddle with a cuff, stripe band, thick sole, reflection marks, and soft shading",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blue-gray colored pencil"],
+    steps: [
+      {
+        name: "Block in the boot",
+        text: "Draw a tall rounded shaft, then attach a rounded foot shape that points gently to one side.",
+        tip: "Use light lines here. The boot should feel sturdy, but the first shapes can stay loose."
+      },
+      {
+        name: "Curve the cuff and heel",
+        text: "Add an oval top opening, a curved cuff band, and a small heel shape at the back of the foot.",
+        tip: "The top oval shows that the boot has thickness. Keep it tucked inside the shaft edges."
+      },
+      {
+        name: "Shape the sole",
+        text: "Refine the rounded toe and draw a thicker sole along the bottom of the foot.",
+        tip: "A rain boot needs a chunky base. Make the sole a little heavier than the shaft lines."
+      },
+      {
+        name: "Add stripe and puddle",
+        text: "Place a simple stripe band around the shaft, then draw a shallow puddle oval spreading under the boot.",
+        tip: "Let the puddle sit wider than the sole so the boot feels planted in wet ground."
+      },
+      {
+        name: "Shade the wet edges",
+        text: "Add a few reflection marks in the puddle and shade the boot lightly with blue-gray pencil.",
+        tip: "Keep the reflection broken into short strokes. A puddle looks more believable when it is not one flat mirror."
+      },
+      {
+        name: "Finish the rainy sketch",
+        text: "Darken the keeper contours, clarify the stripe and sole, and deepen the boot and puddle shading already on the page.",
+        tip: "Do not add new decorations at the end. This final pass should make the simple boot cleaner and wetter.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "backyard-telescope",
-    day: "027",
+    day: "028",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a backyard telescope",
@@ -64,7 +166,7 @@ const lessons = [
   },
   {
     slug: "honeybee-on-a-flower",
-    day: "001",
+    day: "002",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a honeybee on a flower",
@@ -115,7 +217,7 @@ const lessons = [
   },
   {
     slug: "curious-fox",
-    day: "012",
+    day: "013",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -233,7 +335,7 @@ const lessons = [
   },
   {
     slug: "tennis-racket-and-ball",
-    day: "026",
+    day: "027",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a tennis racket and ball",
@@ -284,7 +386,7 @@ const lessons = [
   },
   {
     slug: "vintage-roller-skate",
-    day: "025",
+    day: "026",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a vintage roller skate",
@@ -335,7 +437,7 @@ const lessons = [
   },
   {
     slug: "sunglasses-on-a-towel",
-    day: "024",
+    day: "025",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a pair of sunglasses on a towel",
@@ -386,7 +488,7 @@ const lessons = [
   },
   {
     slug: "desk-dog",
-    day: "023",
+    day: "024",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -437,7 +539,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "022",
+    day: "023",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -488,7 +590,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "021",
+    day: "022",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -539,7 +641,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "020",
+    day: "021",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -590,7 +692,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "019",
+    day: "020",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -641,7 +743,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "018",
+    day: "019",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -692,7 +794,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "017",
+    day: "018",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -743,7 +845,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "016",
+    day: "017",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -794,7 +896,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "015",
+    day: "016",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -845,7 +947,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "014",
+    day: "015",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -901,7 +1003,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "013",
+    day: "014",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -947,7 +1049,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "011",
+    day: "012",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -996,7 +1098,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "010",
+    day: "011",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -1045,7 +1147,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "009",
+    day: "010",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -1094,7 +1196,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "008",
+    day: "009",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -1139,7 +1241,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "007",
+    day: "008",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -1190,7 +1292,7 @@ const lessons = [
   },
   {
     slug: "picnic-basket",
-    day: "004",
+    day: "005",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a picnic basket",
@@ -1241,7 +1343,7 @@ const lessons = [
   },
   {
     slug: "pocket-compass",
-    day: "002",
+    day: "003",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a pocket compass",
@@ -1292,7 +1394,7 @@ const lessons = [
   },
   {
     slug: "stack-of-books",
-    day: "003",
+    day: "004",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a stack of books",
@@ -1343,7 +1445,7 @@ const lessons = [
   },
   {
     slug: "seashell-on-sand",
-    day: "005",
+    day: "006",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -1394,7 +1496,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "006",
+    day: "007",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",

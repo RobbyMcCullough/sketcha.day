@@ -2,21 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sketcha.day/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://sketcha.day/about.html</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://sketcha.day/library.html</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sketcha.day/tutorials/waffle-ice-cream-cone.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://sketcha.day/tutorials/backyard-telescope.html</loc>
@@ -177,6 +183,12 @@
   <url>
     <loc>https://sketcha.day/tutorials/honeybee-on-a-flower.html</loc>
     <lastmod>2026-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sketcha.day/tutorials/rain-boot-with-puddle.html</loc>
+    <lastmod>2026-06-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

@@ -1,0 +1,134 @@
+{
+  "slug": "waffle-ice-cream-cone",
+  "finished": "assets/waffle-ice-cream-cone-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel raster process contact sheet generated for the July 1, 2026 waffle ice cream cone lesson.",
+    "notes": "The contact sheet must keep one cone pose, crop, scale, and paper texture from construction through the finished sketch."
+  },
+  "process_strategy": "The sequence establishes the scoop, cone, rim, waffle grid, sprinkles, and shadow before the final panel only darkens keeper lines and strengthens restrained colored-pencil accents.",
+  "final_elements": [
+    {
+      "name": "round ice cream scoop",
+      "introduced_by_step": 1,
+      "description": "A rounded scoop sitting above the cone with a slightly uneven lower edge."
+    },
+    {
+      "name": "waffle cone triangle",
+      "introduced_by_step": 1,
+      "description": "A tapered cone shape centered under the scoop."
+    },
+    {
+      "name": "scoop drips and cone rim",
+      "introduced_by_step": 2,
+      "description": "A wavy scoop edge plus an oval rim where the ice cream meets the cone."
+    },
+    {
+      "name": "clean outside contour",
+      "introduced_by_step": 3,
+      "description": "A clearer outline for the scoop, rim, and cone silhouette."
+    },
+    {
+      "name": "waffle grid",
+      "introduced_by_step": 4,
+      "description": "Crossed diagonal waffle lines on the already drawn cone."
+    },
+    {
+      "name": "sprinkles",
+      "introduced_by_step": 4,
+      "description": "Small scattered sprinkle marks on the scoop."
+    },
+    {
+      "name": "soft shadow and restrained color",
+      "introduced_by_step": 5,
+      "description": "Light tan cone color, pale pink scoop accents, and a small cast shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/waffle-ice-cream-cone-step-1.jpg",
+      "step_name": "Stack the simple shapes",
+      "visible_job": "Places the round scoop guide and tapered cone guide.",
+      "introduces": [
+        "round ice cream scoop",
+        "waffle cone triangle"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/waffle-ice-cream-cone-step-2.jpg",
+      "step_name": "Wave the scoop edge",
+      "visible_job": "Adds the wavy lower scoop edge and oval cone rim.",
+      "introduces": [
+        "scoop drips and cone rim"
+      ],
+      "requires_prior_elements": [
+        "round ice cream scoop",
+        "waffle cone triangle"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/waffle-ice-cream-cone-step-3.jpg",
+      "step_name": "Clean the cone contour",
+      "visible_job": "Clarifies the scoop, rim, and cone outside edges.",
+      "introduces": [
+        "clean outside contour"
+      ],
+      "requires_prior_elements": [
+        "round ice cream scoop",
+        "waffle cone triangle",
+        "scoop drips and cone rim"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/waffle-ice-cream-cone-step-4.jpg",
+      "step_name": "Cross the waffle lines",
+      "visible_job": "Adds the waffle grid on the cone and sprinkles on the scoop.",
+      "introduces": [
+        "waffle grid",
+        "sprinkles"
+      ],
+      "requires_prior_elements": [
+        "waffle cone triangle",
+        "round ice cream scoop"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/waffle-ice-cream-cone-step-5.jpg",
+      "step_name": "Tint the cone and scoop",
+      "visible_job": "Adds tan cone color, pale scoop accents, and a soft shadow to already drawn forms.",
+      "introduces": [
+        "soft shadow and restrained color"
+      ],
+      "requires_prior_elements": [
+        "round ice cream scoop",
+        "waffle cone triangle",
+        "scoop drips and cone rim",
+        "waffle grid",
+        "sprinkles"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the summer treat",
+    "asset": "assets/waffle-ice-cream-cone-finished-v1.jpg",
+    "visible_job": "Darkens keeper contours, clarifies sprinkles and waffle lines, and deepens the restrained color and shadow already present.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "waffle-line clarification",
+      "sprinkle clarification",
+      "restrained colored-pencil shading",
+      "soft shadow strengthening"
+    ]
+  },
+  "rejection_checks": [
+    "No scoop, cone, rim, waffle line, sprinkle, color area, or shadow should first appear in the final image.",
+    "No frame may color or shade a feature that was not already visible earlier.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same cone pose, scale, and placement as the step frames."
+  ]
+}

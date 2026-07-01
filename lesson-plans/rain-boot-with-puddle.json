@@ -1,0 +1,133 @@
+{
+  "slug": "rain-boot-with-puddle",
+  "finished": "assets/rain-boot-with-puddle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel raster process contact sheet generated for the June 3, 2026 rain boot with puddle archive lesson.",
+    "notes": "The contact sheet must keep one boot pose, crop, scale, and paper texture from construction through the finished sketch."
+  },
+  "process_strategy": "The sequence establishes the boot shaft, foot, sole, cuff, puddle, stripe, and reflection before the final panel only darkens keeper lines and strengthens restrained graphite and blue shading.",
+  "final_elements": [
+    {
+      "name": "upright boot shaft",
+      "introduced_by_step": 1,
+      "description": "A tall rounded boot shaft leaning slightly forward."
+    },
+    {
+      "name": "boot foot",
+      "introduced_by_step": 1,
+      "description": "A rounded foot shape extending from the bottom of the shaft."
+    },
+    {
+      "name": "top cuff and heel",
+      "introduced_by_step": 2,
+      "description": "A curved top cuff plus the back heel shape."
+    },
+    {
+      "name": "sole and toe contour",
+      "introduced_by_step": 3,
+      "description": "A thicker sole and clearer rounded toe on the already placed foot."
+    },
+    {
+      "name": "boot stripe",
+      "introduced_by_step": 4,
+      "description": "A simple band stripe across the boot shaft."
+    },
+    {
+      "name": "puddle oval",
+      "introduced_by_step": 4,
+      "description": "A shallow oval puddle under the boot."
+    },
+    {
+      "name": "reflection marks and soft blue shading",
+      "introduced_by_step": 5,
+      "description": "Small puddle reflection lines plus restrained blue-gray shading on the boot and water."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/rain-boot-with-puddle-step-1.jpg",
+      "step_name": "Block in the boot",
+      "visible_job": "Places the upright boot shaft guide and rounded foot guide.",
+      "introduces": [
+        "upright boot shaft",
+        "boot foot"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/rain-boot-with-puddle-step-2.jpg",
+      "step_name": "Curve the cuff and heel",
+      "visible_job": "Adds the top cuff and heel around the existing boot guide.",
+      "introduces": [
+        "top cuff and heel"
+      ],
+      "requires_prior_elements": [
+        "upright boot shaft",
+        "boot foot"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/rain-boot-with-puddle-step-3.jpg",
+      "step_name": "Shape the sole",
+      "visible_job": "Clarifies the toe and adds a thicker sole to the boot foot.",
+      "introduces": [
+        "sole and toe contour"
+      ],
+      "requires_prior_elements": [
+        "boot foot"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/rain-boot-with-puddle-step-4.jpg",
+      "step_name": "Add stripe and puddle",
+      "visible_job": "Adds a stripe band on the shaft and a shallow puddle oval under the boot.",
+      "introduces": [
+        "boot stripe",
+        "puddle oval"
+      ],
+      "requires_prior_elements": [
+        "upright boot shaft",
+        "sole and toe contour"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/rain-boot-with-puddle-step-5.jpg",
+      "step_name": "Shade the wet edges",
+      "visible_job": "Adds reflection marks and restrained blue-gray shading to existing boot and puddle shapes.",
+      "introduces": [
+        "reflection marks and soft blue shading"
+      ],
+      "requires_prior_elements": [
+        "upright boot shaft",
+        "boot foot",
+        "top cuff and heel",
+        "sole and toe contour",
+        "boot stripe",
+        "puddle oval"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the rainy sketch",
+    "asset": "assets/rain-boot-with-puddle-finished-v1.jpg",
+    "visible_job": "Darkens keeper contours, clarifies the stripe, sole, and puddle reflection, and deepens the already placed shading.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "stripe clarification",
+      "sole line strengthening",
+      "puddle reflection clarification",
+      "restrained graphite and blue shading"
+    ]
+  },
+  "rejection_checks": [
+    "No boot shaft, foot, cuff, heel, sole, stripe, puddle, reflection, or color area should first appear in the final image.",
+    "No frame may shade or darken a feature that was not already visible earlier.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same boot pose, scale, and placement as the step frames."
+  ]
+}

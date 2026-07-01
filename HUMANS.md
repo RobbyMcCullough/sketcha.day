@@ -243,6 +243,17 @@
   captured Cove browser QA screenshots at `/tmp/sketcha-*-rerun.png`.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
+- Added the waffle ice cream cone as the July 1, 2026 / Day 029 tutorial and
+  the rain boot with a puddle as the June 3, 2026 / Day 001 honest backdated
+  archive tutorial. Finished image ratings: waffle 8.4/10, rain boot 8.5/10.
+- July 1 QA used `python3 scripts/check-tutorial-readiness.py
+  waffle-ice-cream-cone` and `python3 scripts/check-tutorial-readiness.py
+  rain-boot-with-puddle`, reviewed step sheets at
+  `/tmp/waffle-ice-cream-cone-steps.jpg` and
+  `/tmp/rain-boot-with-puddle-steps.jpg`, and saved Cove browser desktop/mobile
+  screenshots under `/tmp/daily-sketch-doodle-qa-2026-07-01/`.
+- The temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
 - Added creative-permission guidance to `DAILY-PUBLISHING.md` so future Sketcha
   lessons treat the steps as helpful recommendations, not the only correct
   route.
