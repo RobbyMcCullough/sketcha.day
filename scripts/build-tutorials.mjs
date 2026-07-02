@@ -12,8 +12,59 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "summer-sun-hat-ribbon",
+    day: "001",
+    date: "Monday, June 1",
+    isoDate: "2026-06-01",
+    subject: "a summer sun hat with a ribbon",
+    headlineSubject: "a summer sun hat<br>with a ribbon",
+    shortSubject: "a sun hat with a ribbon",
+    lessonTitle: "Let's draw a summer sun hat with a ribbon",
+    description: "Learn how to draw a summer sun hat with a floppy brim, rounded crown, ribbon band, side bow, straw texture, restrained color, and a soft cast shadow.",
+    intro: "Start with two loose hat guides, then let the brim sag, wrap the ribbon, tie the bow, and add straw texture. Your ribbon can land on either side; the useful part is keeping the brim and crown lined up.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#d08c6f",
+    finished: "summer-sun-hat-ribbon-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a summer straw sun hat with a floppy brim, rounded crown, peach ribbon bow, woven texture, and soft cast shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional tan and peach colored pencils"],
+    steps: [
+      {
+        name: "Place the hat guides",
+        text: "Draw a wide tilted oval for the brim, then add a rounded crown guide rising from the middle.",
+        tip: "Keep the crown centered on the brim. A light vertical guide helps the hat feel balanced."
+      },
+      {
+        name: "Loosen the brim",
+        text: "Turn the guide oval into a floppy brim by dipping the front edge and showing a curved underside on both sides.",
+        tip: "Let the brim wobble a little. A sun hat looks better when the edge is relaxed instead of perfectly mechanical."
+      },
+      {
+        name: "Wrap the ribbon band",
+        text: "Clean up the crown shape and draw a ribbon band around its base, following the curve of the hat.",
+        tip: "The band should bend with the crown. If it is too straight, the hat will look flat."
+      },
+      {
+        name: "Tie the side bow",
+        text: "Add a small bow on one side of the band, then let two ribbon tails hang down over the brim.",
+        tip: "Build the bow from soft loops first, then add the tail points. They do not need to match exactly."
+      },
+      {
+        name: "Sketch straw and shade",
+        text: "Add loose woven marks across the crown and brim, tint the straw and ribbon lightly, and place a soft shadow under the brim.",
+        tip: "Use broken texture lines rather than a full grid. The gaps keep the hat from becoming too busy."
+      },
+      {
+        name: "Finish the sunny hat",
+        text: "Darken the keeper contours, clarify the bow and weave marks, and deepen the color and shadow that are already on the page.",
+        tip: "Stop while the paper still shows through. A little uneven graphite makes the hat feel drawn by hand.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "backyard-pinwheel",
-    day: "031",
+    day: "032",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a backyard pinwheel",
@@ -64,7 +115,7 @@ const lessons = [
   },
   {
     slug: "mailbox-with-flag",
-    day: "001",
+    day: "002",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a mailbox with a flag",
@@ -115,7 +166,7 @@ const lessons = [
   },
   {
     slug: "waffle-ice-cream-cone",
-    day: "030",
+    day: "031",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a waffle ice cream cone",
@@ -166,7 +217,7 @@ const lessons = [
   },
   {
     slug: "rain-boot-with-puddle",
-    day: "002",
+    day: "003",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a rain boot with a puddle",
@@ -217,7 +268,7 @@ const lessons = [
   },
   {
     slug: "backyard-telescope",
-    day: "029",
+    day: "030",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a backyard telescope",
@@ -268,7 +319,7 @@ const lessons = [
   },
   {
     slug: "honeybee-on-a-flower",
-    day: "003",
+    day: "004",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a honeybee on a flower",
@@ -319,7 +370,7 @@ const lessons = [
   },
   {
     slug: "curious-fox",
-    day: "014",
+    day: "015",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -437,7 +488,7 @@ const lessons = [
   },
   {
     slug: "tennis-racket-and-ball",
-    day: "028",
+    day: "029",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a tennis racket and ball",
@@ -488,7 +539,7 @@ const lessons = [
   },
   {
     slug: "vintage-roller-skate",
-    day: "027",
+    day: "028",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a vintage roller skate",
@@ -539,7 +590,7 @@ const lessons = [
   },
   {
     slug: "sunglasses-on-a-towel",
-    day: "026",
+    day: "027",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a pair of sunglasses on a towel",
@@ -590,7 +641,7 @@ const lessons = [
   },
   {
     slug: "desk-dog",
-    day: "025",
+    day: "026",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -641,7 +692,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "024",
+    day: "025",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -692,7 +743,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "023",
+    day: "024",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -743,7 +794,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "022",
+    day: "023",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -794,7 +845,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "021",
+    day: "022",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -845,7 +896,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "020",
+    day: "021",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -896,7 +947,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "019",
+    day: "020",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -947,7 +998,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "018",
+    day: "019",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -998,7 +1049,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "017",
+    day: "018",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -1049,7 +1100,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "016",
+    day: "017",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -1105,7 +1156,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "015",
+    day: "016",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -1151,7 +1202,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "013",
+    day: "014",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -1200,7 +1251,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "012",
+    day: "013",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -1249,7 +1300,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "011",
+    day: "012",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -1298,7 +1349,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "010",
+    day: "011",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -1343,7 +1394,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "009",
+    day: "010",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -1394,7 +1445,7 @@ const lessons = [
   },
   {
     slug: "picnic-basket",
-    day: "006",
+    day: "007",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a picnic basket",
@@ -1445,7 +1496,7 @@ const lessons = [
   },
   {
     slug: "pocket-compass",
-    day: "004",
+    day: "005",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a pocket compass",
@@ -1496,7 +1547,7 @@ const lessons = [
   },
   {
     slug: "stack-of-books",
-    day: "005",
+    day: "006",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a stack of books",
@@ -1547,7 +1598,7 @@ const lessons = [
   },
   {
     slug: "seashell-on-sand",
-    day: "007",
+    day: "008",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -1598,7 +1649,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "008",
+    day: "009",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",

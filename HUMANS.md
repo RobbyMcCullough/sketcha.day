@@ -13,6 +13,24 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-02 cleanup follow-up promoted one previously unused generated image
+  into a Sketcha backfill: `summer-sun-hat-ribbon` as June 1, 2026 / Day 001.
+  Existing day labels shifted forward by one.
+- The cleanup also audited unused generated/draft art. `paper-pinwheel` was not
+  published because it duplicates the already-published `backyard-pinwheel`
+  drawing problem too closely. Older draft folders `detailed-pinecone`,
+  `quiet-farm-lane`, and `red-barn-silo` remain intentionally unpublished
+  because prior notes say their process frames failed. `waving-flag-on-a-porch`
+  remains preserved for the intended July 4 release rather than backfill.
+- Updated `DAILY-PUBLISHING.md` and `PROCESS-IMAGE-WORKFLOW.md` so future runs
+  must lock exact slugs before image generation, must not generate speculative
+  backup sheets, and must resolve any unused generated sheet before generating a
+  different subject.
+- Cleanup QA used `python3 scripts/check-tutorial-readiness.py
+  summer-sun-hat-ribbon --base-url http://localhost:4173/` plus rendered
+  desktop/mobile browser QA under `/tmp/generated-image-cleanup-qa-2026-07-02/`.
+  Finished image rating: summer sun hat with ribbon 8.6/10 for clear silhouette,
+  readable ribbon/bow construction, and warm attainable texture.
 - 2026-07-02 daily automation added two Sketcha lessons: `backyard-pinwheel` as
   July 2, 2026 / Day 031 and `mailbox-with-flag` as June 2, 2026 / Day 001.
   Existing day labels shifted forward by one.

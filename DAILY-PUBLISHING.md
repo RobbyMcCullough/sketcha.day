@@ -65,7 +65,13 @@ python3 scripts/check-daily-publish-slots.py --current-date YYYY-MM-DD
 6. Compare the candidate with existing lessons in `scripts/build-tutorials.mjs`
    and `library.html`; choose a different subject if it repeats a recent lesson's
    core shape, category, or drawing skill.
-7. Write or update `lesson-plans/{slug}.json` before creating final page data.
+7. Lock the exact publish slugs before generating any image. A normal run should
+   generate art only for the approved current slug and approved backfill slug.
+   Do not create speculative contact sheets, backup subjects, or alternate
+   directions. If an image is generated and then not used, stop before any new
+   image generation and either promote it into a validated tutorial, document a
+   quality/duplicate rejection in `HUMANS.md`, or get owner direction.
+8. Write or update `lesson-plans/{slug}.json` before creating final page data.
    Start from `lesson-plans/TEMPLATE.json`. The plan must name the finished
    asset, each major finished element, the non-final frame where that element
    first appears, each process frame's visible job, and the final step's allowed
@@ -73,24 +79,24 @@ python3 scripts/check-daily-publish-slots.py --current-date YYYY-MM-DD
    Any frame that darkens, inks, fills, colors, shades, cleans, or clarifies
    existing parts must list those parts in `requires_prior_elements`, and each
    listed part must have an earlier `introduced_by_step`.
-8. Create or update generated raster art for the finished sketch and tutorial
+9. Create or update generated raster art for the finished sketch and tutorial
    steps. Prefer one master reference and derived step frames over unrelated
    one-off images.
-9. Run the process-plan and step-delta gates for the lesson slug, then inspect
+10. Run the process-plan and step-delta gates for the lesson slug, then inspect
    the contact sheet so repeated or barely changed frames are caught before page
    QA.
-10. Rate the final image using the 10-point gate below. Regenerate until the
+11. Rate the final image using the 10-point gate below. Regenerate until the
    finished image is at least 8/10.
-11. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
+12. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
    number and the intended publish date.
-12. Run `node scripts/build-tutorials.mjs`.
-13. QA the homepage, `library.html`, and the new tutorial page at desktop and
+13. Run `node scripts/build-tutorials.mjs`.
+14. QA the homepage, `library.html`, and the new tutorial page at desktop and
    mobile widths.
-14. Rate the rendered page layout using the 10-point gate below. Do not publish
+15. Rate the rendered page layout using the 10-point gate below. Do not publish
     unless the layout scores at least 8/10.
-15. Commit the work with a concise message only when the page passes the
+16. Commit the work with a concise message only when the page passes the
    anti-slop review and validation checks.
-16. For scheduled daily lesson automation, push the passing commit to `main` so
+17. For scheduled daily lesson automation, push the passing commit to `main` so
     it publishes. No separate editorial review is required after the automated
     quality gates pass.
 

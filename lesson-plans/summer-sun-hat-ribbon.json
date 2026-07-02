@@ -1,0 +1,128 @@
+{
+  "slug": "summer-sun-hat-ribbon",
+  "finished": "assets/summer-sun-hat-ribbon-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel pencil-sketch contact sheet generated during the July 2 cleanup and saved under drafts/summer-sun-hat-ribbon/ before cropping.",
+    "notes": "Promoted after the owner asked to stop leaving generated images unused."
+  },
+  "process_strategy": "The contact sheet builds the same hat from construction ellipses through brim, crown, ribbon, bow, weave marks, and final graphite/color cleanup.",
+  "final_elements": [
+    {
+      "name": "wide floppy brim ellipse",
+      "introduced_by_step": 1,
+      "description": "A broad tilted oval brim with slightly uneven, handmade edges."
+    },
+    {
+      "name": "rounded hat crown",
+      "introduced_by_step": 1,
+      "description": "A rounded crown rising from the middle of the brim."
+    },
+    {
+      "name": "brim contour and underside",
+      "introduced_by_step": 2,
+      "description": "The brim is refined with a front lip and a visible underside curve."
+    },
+    {
+      "name": "ribbon band",
+      "introduced_by_step": 3,
+      "description": "A band wrapping around the base of the crown."
+    },
+    {
+      "name": "side bow and ribbon tails",
+      "introduced_by_step": 4,
+      "description": "A small bow on one side with two soft ribbon tails."
+    },
+    {
+      "name": "woven straw texture",
+      "introduced_by_step": 5,
+      "description": "Loose curved hatch marks across the crown and brim."
+    },
+    {
+      "name": "soft shadow and restrained color",
+      "introduced_by_step": 5,
+      "description": "Light tan straw color, a warmer ribbon tint, and a small cast shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/summer-sun-hat-ribbon-step-1.jpg",
+      "step_name": "Place the hat guides",
+      "visible_job": "Draws the wide brim ellipse, center guide, and rounded crown guide.",
+      "introduces": [
+        "wide floppy brim ellipse",
+        "rounded hat crown"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/summer-sun-hat-ribbon-step-2.jpg",
+      "step_name": "Loosen the brim",
+      "visible_job": "Turns the guide oval into a floppy brim with a front lip and underside curve.",
+      "introduces": [
+        "brim contour and underside"
+      ],
+      "requires_prior_elements": [
+        "wide floppy brim ellipse"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/summer-sun-hat-ribbon-step-3.jpg",
+      "step_name": "Wrap the ribbon band",
+      "visible_job": "Refines the crown and adds the ribbon band around its base.",
+      "introduces": [
+        "ribbon band"
+      ],
+      "requires_prior_elements": [
+        "rounded hat crown"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/summer-sun-hat-ribbon-step-4.jpg",
+      "step_name": "Tie the side bow",
+      "visible_job": "Adds the side bow and two ribbon tails attached to the existing band.",
+      "introduces": [
+        "side bow and ribbon tails"
+      ],
+      "requires_prior_elements": [
+        "ribbon band"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/summer-sun-hat-ribbon-step-5.jpg",
+      "step_name": "Sketch straw and shade",
+      "visible_job": "Adds woven straw marks, light tan and ribbon color, and a soft cast shadow.",
+      "introduces": [
+        "woven straw texture",
+        "soft shadow and restrained color"
+      ],
+      "requires_prior_elements": [
+        "wide floppy brim ellipse",
+        "rounded hat crown",
+        "ribbon band",
+        "side bow and ribbon tails"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the sunny hat",
+    "asset": "assets/summer-sun-hat-ribbon-finished-v1.jpg",
+    "visible_job": "Only darkens keeper contours, clarifies the bow and weave marks, and deepens existing restrained color and shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "ribbon and weave clarification",
+      "restrained colored-pencil shading",
+      "soft shadow deepening"
+    ]
+  },
+  "rejection_checks": [
+    "No bow, ribbon band, brim lip, weave texture, or color choice should first appear in the final image.",
+    "No frame may darken, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same hat angle, scale, and placement as the step frames."
+  ]
+}
