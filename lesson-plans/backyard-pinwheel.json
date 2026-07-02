@@ -1,0 +1,130 @@
+{
+  "slug": "backyard-pinwheel",
+  "finished": "assets/backyard-pinwheel-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel contact sheet generated for a pencil-and-colored-pencil backyard pinwheel sequence, then cropped into lesson assets.",
+    "notes": "Created as the July 2, 2026 current Sketcha.day lesson after avoiding July 4 firework/flag overlap."
+  },
+  "process_strategy": "The frames keep one pinwheel at the same angle while building the hub, blade triangles, stick, folds, pattern accents, and final restrained color in order.",
+  "final_elements": [
+    {
+      "name": "center hub circle",
+      "introduced_by_step": 1,
+      "description": "A small round button at the crossing point of the pinwheel blades."
+    },
+    {
+      "name": "cross guide axes",
+      "introduced_by_step": 1,
+      "description": "Light diagonal guide lines that set the four blade directions."
+    },
+    {
+      "name": "four folded blades",
+      "introduced_by_step": 2,
+      "description": "Four curved triangular pinwheel blades wrapped around the center hub."
+    },
+    {
+      "name": "slender stick",
+      "introduced_by_step": 3,
+      "description": "A narrow handle descending from the pinwheel center."
+    },
+    {
+      "name": "blade fold lines",
+      "introduced_by_step": 4,
+      "description": "Short interior creases that make each paper blade look folded."
+    },
+    {
+      "name": "small pattern dots",
+      "introduced_by_step": 5,
+      "description": "Simple decorative dots placed on the paper blades."
+    },
+    {
+      "name": "restrained red and blue color",
+      "introduced_by_step": 5,
+      "description": "Light colored-pencil accents on alternating blades, kept transparent enough for graphite lines to show."
+    },
+    {
+      "name": "soft ground shadow",
+      "introduced_by_step": 5,
+      "description": "A pale shadow near the lower stick that helps the pinwheel sit on the page."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/backyard-pinwheel-step-1.jpg",
+      "step_name": "Place the hub",
+      "visible_job": "Adds the small center hub circle and light diagonal guide axes for the blade directions.",
+      "introduces": [
+        "center hub circle",
+        "cross guide axes"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/backyard-pinwheel-step-2.jpg",
+      "step_name": "Swing out the blades",
+      "visible_job": "Builds four curved triangular paper blades around the hub while keeping the same angle.",
+      "introduces": [
+        "four folded blades"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/backyard-pinwheel-step-3.jpg",
+      "step_name": "Add the stick",
+      "visible_job": "Refines the outside blade edges and adds a slender handle below the hub.",
+      "introduces": [
+        "slender stick"
+      ],
+      "requires_prior_elements": [
+        "four folded blades",
+        "center hub circle"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/backyard-pinwheel-step-4.jpg",
+      "step_name": "Fold the paper",
+      "visible_job": "Adds interior fold lines on the already drawn blades to show the curled paper shape.",
+      "introduces": [
+        "blade fold lines"
+      ],
+      "requires_prior_elements": [
+        "four folded blades"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/backyard-pinwheel-step-5.jpg",
+      "step_name": "Pattern the breeze",
+      "visible_job": "Adds small blade dots, restrained red and blue color, and a soft ground shadow.",
+      "introduces": [
+        "small pattern dots",
+        "restrained red and blue color",
+        "soft ground shadow"
+      ],
+      "requires_prior_elements": [
+        "four folded blades",
+        "slender stick"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the pinwheel",
+    "asset": "assets/backyard-pinwheel-finished-v1.jpg",
+    "visible_job": "Only darkens the keeper contours, clarifies the folds, and deepens the existing color and shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "fold line clarification",
+      "restrained color deepening",
+      "soft shadow cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "No blade, stick, pattern mark, or color area should first appear in the final image.",
+    "No frame may darken, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pinwheel angle, scale, and placement as the step frames."
+  ]
+}

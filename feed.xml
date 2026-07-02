@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a backyard pinwheel</title>
+      <link>https://sketcha.day/tutorials/backyard-pinwheel.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/backyard-pinwheel.html</guid>
+      <pubDate>Thu, 02 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a backyard pinwheel with a center hub, four folded paper blades, a slender stick, simple dot patterns, light red and blue color, and a soft shadow.</description>
+      <media:content url="https://sketcha.day/assets/backyard-pinwheel-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a waffle ice cream cone</title>
       <link>https://sketcha.day/tutorials/waffle-ice-cream-cone.html</link>
@@ -238,6 +246,14 @@
       <pubDate>Wed, 03 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a rain boot with a tall shaft, rounded foot, cuff, heel, thick sole, simple stripe, puddle reflection, and restrained blue-gray shading.</description>
       <media:content url="https://sketcha.day/assets/rain-boot-with-puddle-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a mailbox with a flag</title>
+      <link>https://sketcha.day/tutorials/mailbox-with-flag.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/mailbox-with-flag.html</guid>
+      <pubDate>Tue, 02 Jun 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a mailbox with a rounded body, front door curve, support post, raised flag, tiny handle, grass tufts, blue-gray shading, and a red flag.</description>
+      <media:content url="https://sketcha.day/assets/mailbox-with-flag-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

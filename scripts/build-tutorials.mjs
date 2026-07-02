@@ -12,8 +12,110 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "backyard-pinwheel",
+    day: "031",
+    date: "Thursday, July 2",
+    isoDate: "2026-07-02",
+    subject: "a backyard pinwheel",
+    headlineSubject: "a backyard<br>pinwheel",
+    shortSubject: "a backyard pinwheel",
+    lessonTitle: "Let's draw a backyard pinwheel",
+    description: "Learn how to draw a backyard pinwheel with a center hub, four folded paper blades, a slender stick, simple dot patterns, light red and blue color, and a soft shadow.",
+    intro: "Build the pinwheel from the middle outward, then add folded paper blades, a stick, pattern dots, and light color. You can change the colors or dot pattern later; keep the hub and blade directions clear.",
+    time: 20,
+    difficulty: "Easy",
+    accent: "#d85f63",
+    finished: "backyard-pinwheel-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a backyard pinwheel with four folded red and blue dotted blades, center hub, slender stick, and soft ground shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional red and blue colored pencils"],
+    steps: [
+      {
+        name: "Place the hub",
+        text: "Draw a small circle for the hub, then sketch two light diagonal guide lines through it.",
+        tip: "Keep the guides pale. They only help you aim the blade points in four directions."
+      },
+      {
+        name: "Swing out the blades",
+        text: "Wrap four curved triangle blades around the hub, letting each blade bend slightly like folded paper.",
+        tip: "Each blade should start near the center and sweep outward. Uneven curves make the pinwheel feel handmade."
+      },
+      {
+        name: "Add the stick",
+        text: "Refine the blade outside edges, then draw a slender stick dropping down from behind the hub.",
+        tip: "Let the stick tuck behind the pinwheel. That overlap keeps the center from getting too busy."
+      },
+      {
+        name: "Fold the paper",
+        text: "Add short interior fold lines on the blades so each paper flap looks curled.",
+        tip: "Follow the blade curve instead of drawing straight stripes. The fold lines should support the spin shape."
+      },
+      {
+        name: "Pattern the breeze",
+        text: "Add small dot patterns, tint alternating blades red and blue, and sketch a soft shadow near the stick.",
+        tip: "Color lightly so the pencil texture still shows. The pinwheel should feel bright, not filled in solid."
+      },
+      {
+        name: "Finish the pinwheel",
+        text: "Darken the keeper contours, clarify the folds, and deepen the color and shadow already on the page.",
+        tip: "Stop before adding extra ribbons or background details. The folded blades and simple stick are enough.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "mailbox-with-flag",
+    day: "001",
+    date: "Tuesday, June 2",
+    isoDate: "2026-06-02",
+    subject: "a mailbox with a flag",
+    headlineSubject: "a mailbox<br>with a flag",
+    shortSubject: "a mailbox",
+    lessonTitle: "Let's draw a mailbox with a flag",
+    description: "Learn how to draw a mailbox with a rounded body, front door curve, support post, raised flag, tiny handle, grass tufts, blue-gray shading, and a red flag.",
+    intro: "Start with the rounded box, then add the post, raised flag, little hardware, grass, and soft color. This route keeps the mailbox simple enough to draw while still giving it a place to stand.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#7898ad",
+    finished: "mailbox-with-flag-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a blue-gray rural mailbox on a wooden post with a raised red flag, small handle, side seams, grass tufts, and soft shading",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blue-gray and red colored pencils"],
+    steps: [
+      {
+        name: "Block the box",
+        text: "Draw a long rounded-top box, keeping the front curve slightly taller than the back edge.",
+        tip: "Think of a rectangle with a half circle roof. Light construction lines make the curve easier to adjust."
+      },
+      {
+        name: "Set door and post",
+        text: "Add the curved front door line, then place a vertical support post under the mailbox.",
+        tip: "Center the post under the box so the mailbox feels balanced before details go on."
+      },
+      {
+        name: "Raise the flag",
+        text: "Draw the side flag standing up from the mailbox and refine the outside body edges.",
+        tip: "Keep the flag simple: one narrow arm and one small rectangle are enough to read clearly."
+      },
+      {
+        name: "Mark the hardware",
+        text: "Add a tiny front handle, a side seam, and a few small edge marks to show the mailbox panels.",
+        tip: "Small details work best when they follow the main curve. Do not crowd the door."
+      },
+      {
+        name: "Ground the post",
+        text: "Sketch grass tufts around the post, shade the mailbox blue-gray, and color the raised flag red.",
+        tip: "Let the grass overlap the post a little. That helps the mailbox sit in the scene instead of floating."
+      },
+      {
+        name: "Finish the mailbox",
+        text: "Darken the keeper lines, clarify the flag and hardware, and deepen the shading and grass already in place.",
+        tip: "Avoid adding letters or numbers. The raised flag, rounded box, and post tell the story clearly.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "waffle-ice-cream-cone",
-    day: "029",
+    day: "030",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a waffle ice cream cone",
@@ -64,7 +166,7 @@ const lessons = [
   },
   {
     slug: "rain-boot-with-puddle",
-    day: "001",
+    day: "002",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a rain boot with a puddle",
@@ -115,7 +217,7 @@ const lessons = [
   },
   {
     slug: "backyard-telescope",
-    day: "028",
+    day: "029",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a backyard telescope",
@@ -166,7 +268,7 @@ const lessons = [
   },
   {
     slug: "honeybee-on-a-flower",
-    day: "002",
+    day: "003",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a honeybee on a flower",
@@ -217,7 +319,7 @@ const lessons = [
   },
   {
     slug: "curious-fox",
-    day: "013",
+    day: "014",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -335,7 +437,7 @@ const lessons = [
   },
   {
     slug: "tennis-racket-and-ball",
-    day: "027",
+    day: "028",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a tennis racket and ball",
@@ -386,7 +488,7 @@ const lessons = [
   },
   {
     slug: "vintage-roller-skate",
-    day: "026",
+    day: "027",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a vintage roller skate",
@@ -437,7 +539,7 @@ const lessons = [
   },
   {
     slug: "sunglasses-on-a-towel",
-    day: "025",
+    day: "026",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a pair of sunglasses on a towel",
@@ -488,7 +590,7 @@ const lessons = [
   },
   {
     slug: "desk-dog",
-    day: "024",
+    day: "025",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -539,7 +641,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "023",
+    day: "024",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -590,7 +692,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "022",
+    day: "023",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -641,7 +743,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "021",
+    day: "022",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -692,7 +794,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "020",
+    day: "021",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -743,7 +845,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "019",
+    day: "020",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -794,7 +896,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "018",
+    day: "019",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -845,7 +947,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "017",
+    day: "018",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -896,7 +998,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "016",
+    day: "017",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -947,7 +1049,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "015",
+    day: "016",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -1003,7 +1105,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "014",
+    day: "015",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -1049,7 +1151,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "012",
+    day: "013",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -1098,7 +1200,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "011",
+    day: "012",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -1147,7 +1249,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "010",
+    day: "011",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -1196,7 +1298,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "009",
+    day: "010",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -1241,7 +1343,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "008",
+    day: "009",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -1292,7 +1394,7 @@ const lessons = [
   },
   {
     slug: "picnic-basket",
-    day: "005",
+    day: "006",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a picnic basket",
@@ -1343,7 +1445,7 @@ const lessons = [
   },
   {
     slug: "pocket-compass",
-    day: "003",
+    day: "004",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a pocket compass",
@@ -1394,7 +1496,7 @@ const lessons = [
   },
   {
     slug: "stack-of-books",
-    day: "004",
+    day: "005",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a stack of books",
@@ -1445,7 +1547,7 @@ const lessons = [
   },
   {
     slug: "seashell-on-sand",
-    day: "006",
+    day: "007",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -1496,7 +1598,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "007",
+    day: "008",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",

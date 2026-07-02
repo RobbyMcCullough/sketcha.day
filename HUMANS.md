@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-01
+- Date: 2026-07-02
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
@@ -13,6 +13,24 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-02 daily automation added two Sketcha lessons: `backyard-pinwheel` as
+  July 2, 2026 / Day 031 and `mailbox-with-flag` as June 2, 2026 / Day 001.
+  Existing day labels shifted forward by one.
+- July 2 Sketcha QA used `python3 scripts/check-daily-publish-slots.py
+  --current-date 2026-07-02`, `python3 scripts/check-tutorial-readiness.py
+  backyard-pinwheel --base-url http://localhost:4173/`, and
+  `python3 scripts/check-tutorial-readiness.py mailbox-with-flag --base-url
+  http://localhost:4173/`. Cove HTTPS opened for script probes but the in-app
+  browser rejected the local certificate, so rendered browser QA used the
+  existing fallback server on `http://localhost:4173/`.
+- Finished image ratings: backyard pinwheel 8.5/10 for clear four-blade
+  construction and playful color; mailbox with flag 8.4/10 for readable form,
+  useful process frames, and restrained color.
+- Browser QA screenshots for July 2 live under
+  `/tmp/daily-sketch-doodle-qa-2026-07-02/`; mobile and desktop layouts passed
+  with no horizontal overflow and valid JSON-LD. The temporary
+  two-tutorial-per-site backfill cadence is still active until the owner says
+  otherwise.
 - 2026-07-01 daily automation added two Sketcha lessons: `waffle-ice-cream-cone`
   as July 1, 2026 / Day 029 and `rain-boot-with-puddle` as June 3, 2026 /
   Day 001. Existing day labels shifted forward by one.

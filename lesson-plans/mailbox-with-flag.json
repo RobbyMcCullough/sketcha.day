@@ -1,0 +1,134 @@
+{
+  "slug": "mailbox-with-flag",
+  "finished": "assets/mailbox-with-flag-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel contact sheet generated for a pencil-and-colored-pencil rural mailbox sequence, then cropped into lesson assets.",
+    "notes": "Created as the June 2, 2026 honest backdated Sketcha.day archive lesson."
+  },
+  "process_strategy": "The frames use one mailbox pose and progressively add the rounded box, post, raised flag, door seam, mail slot, grass, and final restrained shading.",
+  "final_elements": [
+    {
+      "name": "rounded mailbox body",
+      "introduced_by_step": 1,
+      "description": "A classic curved-top mailbox box facing slightly to the side."
+    },
+    {
+      "name": "front door curve",
+      "introduced_by_step": 2,
+      "description": "A curved front door line that shows the mailbox opening."
+    },
+    {
+      "name": "support post",
+      "introduced_by_step": 2,
+      "description": "A simple vertical wooden post holding the mailbox above the ground."
+    },
+    {
+      "name": "raised side flag",
+      "introduced_by_step": 3,
+      "description": "A small upright mail flag attached to the side of the box."
+    },
+    {
+      "name": "door handle",
+      "introduced_by_step": 4,
+      "description": "A tiny handle mark on the front door of the mailbox."
+    },
+    {
+      "name": "mail slot seam",
+      "introduced_by_step": 4,
+      "description": "A subtle seam and side line that clarify the mailbox form."
+    },
+    {
+      "name": "tufts of grass",
+      "introduced_by_step": 5,
+      "description": "Small grass shapes around the base of the post."
+    },
+    {
+      "name": "soft blue and red shading",
+      "introduced_by_step": 5,
+      "description": "Light blue-gray shading on the mailbox and muted red on the raised flag."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/mailbox-with-flag-step-1.jpg",
+      "step_name": "Block the box",
+      "visible_job": "Adds the rounded mailbox body as a light construction shape with the curve kept simple.",
+      "introduces": [
+        "rounded mailbox body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/mailbox-with-flag-step-2.jpg",
+      "step_name": "Set door and post",
+      "visible_job": "Adds the front door curve and the support post underneath the existing mailbox body.",
+      "introduces": [
+        "front door curve",
+        "support post"
+      ],
+      "requires_prior_elements": [
+        "rounded mailbox body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/mailbox-with-flag-step-3.jpg",
+      "step_name": "Raise the flag",
+      "visible_job": "Places the side flag on the already drawn mailbox and refines the body edges.",
+      "introduces": [
+        "raised side flag"
+      ],
+      "requires_prior_elements": [
+        "rounded mailbox body"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/mailbox-with-flag-step-4.jpg",
+      "step_name": "Mark the hardware",
+      "visible_job": "Adds the door handle and mail slot seam while clarifying the mailbox contours.",
+      "introduces": [
+        "door handle",
+        "mail slot seam"
+      ],
+      "requires_prior_elements": [
+        "front door curve",
+        "rounded mailbox body"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/mailbox-with-flag-step-5.jpg",
+      "step_name": "Ground the post",
+      "visible_job": "Adds tufts of grass plus light blue-gray and red shading on already placed forms.",
+      "introduces": [
+        "tufts of grass",
+        "soft blue and red shading"
+      ],
+      "requires_prior_elements": [
+        "support post",
+        "rounded mailbox body",
+        "raised side flag"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the mailbox",
+    "asset": "assets/mailbox-with-flag-finished-v1.jpg",
+    "visible_job": "Only darkens keeper lines, clarifies the flag and hardware, and deepens the existing shading and grass.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "flag edge clarification",
+      "hardware line cleanup",
+      "restrained shading deepening"
+    ]
+  },
+  "rejection_checks": [
+    "No mailbox body, post, flag, handle, grass, or color choice should first appear in the final image.",
+    "No frame may darken, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same mailbox angle, scale, and placement as the step frames."
+  ]
+}
