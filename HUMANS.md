@@ -13,6 +13,15 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-03 unused-asset follow-up: removed stale public asset images that were
+  not referenced by lesson data, generated pages, CSS, JSON, XML, or docs:
+  `camping-lantern-finished-v1.jpg`, `garden-snail-finished-v1.jpg`,
+  `patchwork-kite-finished-v1.jpg`, `potted-cactus-flowers-finished-v1.jpg`,
+  and `daily-drawing-sketchbook-spread.webp`.
+- Added `scripts/check-unused-assets.py` and wired it into
+  `scripts/check-tutorial-readiness.py`, so future daily readiness checks fail
+  if public `assets/` images are left unused. Draft contact sheets remain
+  intentionally retained under `drafts/` as reviewed process sources.
 - 2026-07-03 daily automation added two Sketcha lessons:
   `parade-drum-with-sticks` as July 3, 2026 / Day 034 and
   `mason-jar-with-fireflies` as May 31, 2026 / Day 001. Existing day labels
