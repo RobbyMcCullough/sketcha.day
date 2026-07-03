@@ -1,0 +1,123 @@
+{
+  "slug": "parade-drum-with-sticks",
+  "finished": "assets/parade-drum-with-sticks-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel generated raster process sheet showing one parade drum with sticks from construction to finished sketch.",
+    "notes": "Subject, pose, and final elements were locked before image generation for the July 3, 2026 current daily lesson."
+  },
+  "process_strategy": "The drum is built from one tilted cylinder construction with sticks, straps, and color introduced before the final cleanup pass.",
+  "final_elements": [
+    {
+      "name": "tilted drum cylinder",
+      "introduced_by_step": 1,
+      "description": "A squat parade drum body with a visible top ellipse and lower curve."
+    },
+    {
+      "name": "front rim and shell contour",
+      "introduced_by_step": 2,
+      "description": "Clean top and bottom drum rims wrapping around the shell."
+    },
+    {
+      "name": "crossed drumsticks",
+      "introduced_by_step": 3,
+      "description": "Two slim sticks crossing above the drum at a clear angle."
+    },
+    {
+      "name": "side straps and lacing",
+      "introduced_by_step": 4,
+      "description": "Small strap and lace marks along the drum side."
+    },
+    {
+      "name": "restrained red and blue accents",
+      "introduced_by_step": 5,
+      "description": "Light red and blue colored-pencil accents on already drawn drum bands."
+    },
+    {
+      "name": "soft ground shadow",
+      "introduced_by_step": 5,
+      "description": "A pale shadow below the drum that grounds the object."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/parade-drum-with-sticks-step-1.jpg",
+      "step_name": "Place the drum guides",
+      "visible_job": "Draws the tilted top ellipse, lower curve, and center guide for the drum cylinder.",
+      "introduces": [
+        "tilted drum cylinder"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/parade-drum-with-sticks-step-2.jpg",
+      "step_name": "Wrap the drum shell",
+      "visible_job": "Turns the construction into a clean drum shell with top and bottom rims.",
+      "introduces": [
+        "front rim and shell contour"
+      ],
+      "requires_prior_elements": [
+        "tilted drum cylinder"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/parade-drum-with-sticks-step-3.jpg",
+      "step_name": "Cross the sticks",
+      "visible_job": "Adds two crossed drumsticks above the already placed drum.",
+      "introduces": [
+        "crossed drumsticks"
+      ],
+      "requires_prior_elements": [
+        "tilted drum cylinder",
+        "front rim and shell contour"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/parade-drum-with-sticks-step-4.jpg",
+      "step_name": "Add straps and lacing",
+      "visible_job": "Adds side straps, lace marks, and small rim details on the existing drum shell.",
+      "introduces": [
+        "side straps and lacing"
+      ],
+      "requires_prior_elements": [
+        "front rim and shell contour"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/parade-drum-with-sticks-step-5.jpg",
+      "step_name": "Shade the parade colors",
+      "visible_job": "Adds restrained red and blue accents, light graphite shading, and a soft ground shadow to existing shapes.",
+      "introduces": [
+        "restrained red and blue accents",
+        "soft ground shadow"
+      ],
+      "requires_prior_elements": [
+        "tilted drum cylinder",
+        "front rim and shell contour",
+        "crossed drumsticks",
+        "side straps and lacing"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the parade drum",
+    "asset": "assets/parade-drum-with-sticks-finished-v1.jpg",
+    "visible_job": "Darkens keeper contours, clarifies sticks, straps, lacing, accents, and shadow already present.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained colored-pencil deepening",
+      "soft graphite shading",
+      "small texture cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

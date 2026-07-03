@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-02
+- Date: 2026-07-03
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
@@ -13,6 +13,22 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-03 daily automation added two Sketcha lessons:
+  `parade-drum-with-sticks` as July 3, 2026 / Day 034 and
+  `mason-jar-with-fireflies` as May 31, 2026 / Day 001. Existing day labels
+  shifted forward by one.
+- July 3 Sketcha QA used `python3 scripts/check-daily-publish-slots.py
+  --current-date 2026-07-03`, `python3 scripts/check-tutorial-readiness.py
+  parade-drum-with-sticks --base-url http://localhost:4173/`, and
+  `python3 scripts/check-tutorial-readiness.py mason-jar-with-fireflies
+  --base-url http://localhost:4173/`. Browser screenshots are under
+  `/tmp/daily-sketch-doodle-qa-2026-07-03/`.
+- Finished image ratings: parade drum with sticks 8.6/10 for readable drum
+  cylinder, crossed sticks, and teachable lacing/color progression; mason jar
+  with fireflies 8.8/10 for stable glass construction, clear fireflies, and
+  restrained glow.
+- The temporary two-tutorial-per-site backfill cadence is still active until
+  the owner says otherwise.
 - 2026-07-02 cleanup follow-up promoted one previously unused generated image
   into a Sketcha backfill: `summer-sun-hat-ribbon` as June 1, 2026 / Day 001.
   Existing day labels shifted forward by one.

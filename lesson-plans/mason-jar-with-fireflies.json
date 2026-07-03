@@ -1,0 +1,122 @@
+{
+  "slug": "mason-jar-with-fireflies",
+  "finished": "assets/mason-jar-with-fireflies-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel generated raster process sheet showing one mason jar with fireflies from construction to finished sketch.",
+    "notes": "Subject, pose, and final elements were locked before image generation for the May 31, 2026 honest backfill lesson."
+  },
+  "process_strategy": "The jar silhouette, lid, fireflies, grass, and glow marks appear before the final step, which only strengthens and shades them.",
+  "final_elements": [
+    {
+      "name": "mason jar body",
+      "introduced_by_step": 1,
+      "description": "A rounded glass jar with shoulder curves and a flat base."
+    },
+    {
+      "name": "ribbed lid band",
+      "introduced_by_step": 2,
+      "description": "A narrow lid band with simple rib marks on top of the jar."
+    },
+    {
+      "name": "glass contour and base lines",
+      "introduced_by_step": 3,
+      "description": "Inner glass edge lines and a curved base that make the jar read as transparent."
+    },
+    {
+      "name": "fireflies inside the jar",
+      "introduced_by_step": 4,
+      "description": "Several tiny fireflies shown as simple bodies with small wings or glow dots."
+    },
+    {
+      "name": "grass and leaf sprigs",
+      "introduced_by_step": 5,
+      "description": "Small grass blades and leaf sprigs around the jar base."
+    },
+    {
+      "name": "soft yellow glow",
+      "introduced_by_step": 5,
+      "description": "Restrained yellow glow around the already drawn fireflies."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/mason-jar-with-fireflies-step-1.jpg",
+      "step_name": "Block the jar",
+      "visible_job": "Draws the jar body guide with shoulders, sides, and base.",
+      "introduces": [
+        "mason jar body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/mason-jar-with-fireflies-step-2.jpg",
+      "step_name": "Cap the lid",
+      "visible_job": "Adds the lid band and rib marks on top of the existing jar.",
+      "introduces": [
+        "ribbed lid band"
+      ],
+      "requires_prior_elements": [
+        "mason jar body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/mason-jar-with-fireflies-step-3.jpg",
+      "step_name": "Show the glass",
+      "visible_job": "Adds inner contour and base lines so the jar reads as glass.",
+      "introduces": [
+        "glass contour and base lines"
+      ],
+      "requires_prior_elements": [
+        "mason jar body",
+        "ribbed lid band"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/mason-jar-with-fireflies-step-4.jpg",
+      "step_name": "Place the fireflies",
+      "visible_job": "Adds tiny fireflies and glow-dot positions inside the existing jar.",
+      "introduces": [
+        "fireflies inside the jar"
+      ],
+      "requires_prior_elements": [
+        "mason jar body",
+        "glass contour and base lines"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/mason-jar-with-fireflies-step-5.jpg",
+      "step_name": "Add grass and glow",
+      "visible_job": "Adds grass near the base and a restrained yellow glow around the already placed fireflies.",
+      "introduces": [
+        "grass and leaf sprigs",
+        "soft yellow glow"
+      ],
+      "requires_prior_elements": [
+        "mason jar body",
+        "fireflies inside the jar"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the firefly jar",
+    "asset": "assets/mason-jar-with-fireflies-finished-v1.jpg",
+    "visible_job": "Darkens keeper contours, clarifies lid ribs, glass lines, fireflies, grass, and existing glow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained yellow color deepening",
+      "soft graphite shading",
+      "small texture cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

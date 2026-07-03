@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a parade drum with sticks</title>
+      <link>https://sketcha.day/tutorials/parade-drum-with-sticks.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/parade-drum-with-sticks.html</guid>
+      <pubDate>Fri, 03 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a parade drum with a tilted cylinder body, top and bottom rims, crossed drumsticks, side straps, lacing, restrained red and blue accents, and a soft shadow.</description>
+      <media:content url="https://sketcha.day/assets/parade-drum-with-sticks-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a backyard pinwheel</title>
       <link>https://sketcha.day/tutorials/backyard-pinwheel.html</link>
@@ -262,6 +270,14 @@
       <pubDate>Mon, 01 Jun 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a summer sun hat with a floppy brim, rounded crown, ribbon band, side bow, straw texture, restrained color, and a soft cast shadow.</description>
       <media:content url="https://sketcha.day/assets/summer-sun-hat-ribbon-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a mason jar with fireflies</title>
+      <link>https://sketcha.day/tutorials/mason-jar-with-fireflies.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/mason-jar-with-fireflies.html</guid>
+      <pubDate>Sun, 31 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a mason jar with a rounded glass body, ribbed lid, inner glass lines, tiny fireflies, grass sprigs, soft yellow glow, and gentle graphite shading.</description>
+      <media:content url="https://sketcha.day/assets/mason-jar-with-fireflies-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

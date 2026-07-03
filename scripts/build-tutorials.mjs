@@ -12,8 +12,110 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
-    slug: "summer-sun-hat-ribbon",
+    slug: "parade-drum-with-sticks",
+    day: "034",
+    date: "Friday, July 3",
+    isoDate: "2026-07-03",
+    subject: "a parade drum with sticks",
+    headlineSubject: "a parade drum<br>with sticks",
+    shortSubject: "a parade drum",
+    lessonTitle: "Let's draw a parade drum with sticks",
+    description: "Learn how to draw a parade drum with a tilted cylinder body, top and bottom rims, crossed drumsticks, side straps, lacing, restrained red and blue accents, and a soft shadow.",
+    intro: "Build the drum from one tilted cylinder, then cross the sticks, lace the shell, and add a little parade color. Use the red and blue as accents, not a full paint job, so the sketch still feels light and handmade.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#c54d49",
+    finished: "parade-drum-with-sticks-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a parade drum with crossed drumsticks, side lacing, red and blue rim accents, and a soft ground shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional red and blue colored pencils"],
+    steps: [
+      {
+        name: "Place the drum guides",
+        text: "Draw a tilted oval for the top of the drum, a matching lower curve, and a light center guide through the shell.",
+        tip: "Keep these marks pale. The two curves should feel like they belong to the same squat cylinder."
+      },
+      {
+        name: "Wrap the drum shell",
+        text: "Turn the guides into clean top and bottom rims, then connect them with slightly angled side edges.",
+        tip: "Let the lower rim echo the top ellipse. Matching curves make the drum feel round instead of flat."
+      },
+      {
+        name: "Cross the sticks",
+        text: "Place two slim drumsticks across the top rim, crossing them near the middle and adding small rounded tips.",
+        tip: "Draw the sticks after the rim so you can tuck them convincingly on top of the drum."
+      },
+      {
+        name: "Add straps and lacing",
+        text: "Sketch small side straps, then zigzag simple lacing marks between the top and bottom rims.",
+        tip: "Space the lacing lightly. A few clear V shapes read better than a crowded row of tiny strings."
+      },
+      {
+        name: "Shade the parade colors",
+        text: "Add restrained red and blue accents to the drum bands, shade the shell and sticks, and place a soft shadow underneath.",
+        tip: "Keep the color inside shapes you already drew. The graphite should still do most of the form work."
+      },
+      {
+        name: "Finish the parade drum",
+        text: "Darken the keeper contours, clarify the sticks and lacing, and deepen the existing color and shadow.",
+        tip: "Stop before adding flags or lettering. The crossed sticks, lacing, and bright rims already say parade drum.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "mason-jar-with-fireflies",
     day: "001",
+    date: "Sunday, May 31",
+    isoDate: "2026-05-31",
+    subject: "a mason jar with fireflies",
+    headlineSubject: "a mason jar<br>with fireflies",
+    shortSubject: "a firefly jar",
+    lessonTitle: "Let's draw a mason jar with fireflies",
+    description: "Learn how to draw a mason jar with a rounded glass body, ribbed lid, inner glass lines, tiny fireflies, grass sprigs, soft yellow glow, and gentle graphite shading.",
+    intro: "Start with the glass jar shape, add the lid and inner contour lines, then place tiny fireflies before adding the glow. Your fireflies can drift to different spots as long as they stay inside the jar.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#d8b247",
+    finished: "mason-jar-with-fireflies-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a mason jar with ribbed lid, transparent glass lines, tiny fireflies, soft yellow glow, grass sprigs, and light shading",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional yellow colored pencil"],
+    steps: [
+      {
+        name: "Block the jar",
+        text: "Draw a rounded jar body with soft shoulders, straight sides, and a curved base ellipse.",
+        tip: "Use a light center guide if the jar starts leaning. Symmetry helps the glass feel believable."
+      },
+      {
+        name: "Cap the lid",
+        text: "Add a narrow lid band across the top, then sketch short rib marks along the band.",
+        tip: "Keep the ribs simple and vertical. They should suggest a metal lid, not become the whole drawing."
+      },
+      {
+        name: "Show the glass",
+        text: "Draw inner contour lines along the sides and add a curved base line inside the jar.",
+        tip: "Make the inside lines lighter than the outside edge. That keeps the glass transparent."
+      },
+      {
+        name: "Place the fireflies",
+        text: "Add several tiny fireflies inside the jar with small bodies, little wings, and dot-like glow centers.",
+        tip: "Vary their heights so the jar feels lively. Leave enough space around each bug for the glow."
+      },
+      {
+        name: "Add grass and glow",
+        text: "Sketch grass and leaf sprigs around the base, then add soft yellow halos around the fireflies.",
+        tip: "Use yellow gently. A pale glow works better than filling the whole jar with color."
+      },
+      {
+        name: "Finish the firefly jar",
+        text: "Darken the keeper contours, clarify the lid ribs and glass lines, and deepen the existing firefly glow and grass texture.",
+        tip: "Let some construction softness remain. A firefly jar feels best when the light is a little loose.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "summer-sun-hat-ribbon",
+    day: "002",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a summer sun hat with a ribbon",
@@ -64,7 +166,7 @@ const lessons = [
   },
   {
     slug: "backyard-pinwheel",
-    day: "032",
+    day: "033",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a backyard pinwheel",
@@ -115,7 +217,7 @@ const lessons = [
   },
   {
     slug: "mailbox-with-flag",
-    day: "002",
+    day: "003",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a mailbox with a flag",
@@ -166,7 +268,7 @@ const lessons = [
   },
   {
     slug: "waffle-ice-cream-cone",
-    day: "031",
+    day: "032",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a waffle ice cream cone",
@@ -217,7 +319,7 @@ const lessons = [
   },
   {
     slug: "rain-boot-with-puddle",
-    day: "003",
+    day: "004",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a rain boot with a puddle",
@@ -268,7 +370,7 @@ const lessons = [
   },
   {
     slug: "backyard-telescope",
-    day: "030",
+    day: "031",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a backyard telescope",
@@ -319,7 +421,7 @@ const lessons = [
   },
   {
     slug: "honeybee-on-a-flower",
-    day: "004",
+    day: "005",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a honeybee on a flower",
@@ -370,7 +472,7 @@ const lessons = [
   },
   {
     slug: "curious-fox",
-    day: "015",
+    day: "016",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -488,7 +590,7 @@ const lessons = [
   },
   {
     slug: "tennis-racket-and-ball",
-    day: "029",
+    day: "030",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a tennis racket and ball",
@@ -539,7 +641,7 @@ const lessons = [
   },
   {
     slug: "vintage-roller-skate",
-    day: "028",
+    day: "029",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a vintage roller skate",
@@ -590,7 +692,7 @@ const lessons = [
   },
   {
     slug: "sunglasses-on-a-towel",
-    day: "027",
+    day: "028",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a pair of sunglasses on a towel",
@@ -641,7 +743,7 @@ const lessons = [
   },
   {
     slug: "desk-dog",
-    day: "026",
+    day: "027",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -692,7 +794,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "025",
+    day: "026",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -743,7 +845,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "024",
+    day: "025",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -794,7 +896,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "023",
+    day: "024",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -845,7 +947,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "022",
+    day: "023",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -896,7 +998,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "021",
+    day: "022",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -947,7 +1049,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "020",
+    day: "021",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -998,7 +1100,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "019",
+    day: "020",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -1049,7 +1151,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "018",
+    day: "019",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -1100,7 +1202,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "017",
+    day: "018",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -1156,7 +1258,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "016",
+    day: "017",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -1202,7 +1304,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "014",
+    day: "015",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -1251,7 +1353,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "013",
+    day: "014",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -1300,7 +1402,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "012",
+    day: "013",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -1349,7 +1451,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "011",
+    day: "012",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -1394,7 +1496,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "010",
+    day: "011",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -1445,7 +1547,7 @@ const lessons = [
   },
   {
     slug: "picnic-basket",
-    day: "007",
+    day: "008",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a picnic basket",
@@ -1496,7 +1598,7 @@ const lessons = [
   },
   {
     slug: "pocket-compass",
-    day: "005",
+    day: "006",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a pocket compass",
@@ -1547,7 +1649,7 @@ const lessons = [
   },
   {
     slug: "stack-of-books",
-    day: "006",
+    day: "007",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a stack of books",
@@ -1598,7 +1700,7 @@ const lessons = [
   },
   {
     slug: "seashell-on-sand",
-    day: "008",
+    day: "009",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -1649,7 +1751,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "009",
+    day: "010",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",
