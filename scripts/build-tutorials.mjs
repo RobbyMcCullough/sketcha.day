@@ -12,8 +12,110 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "garden-gnome",
+    day: "001",
+    date: "Friday, May 29",
+    isoDate: "2026-05-29",
+    subject: "a garden gnome",
+    headlineSubject: "a garden<br>gnome",
+    shortSubject: "a garden gnome",
+    lessonTitle: "Let's draw a garden gnome",
+    description: "Learn how to draw a garden gnome with a tall pointed hat, round nose, soft beard, small boots, mitten hands, garden grass, restrained red and blue color, and a gentle ground shadow.",
+    intro: "Build the gnome from one tall hat shape and a small rounded body, then tuck in the beard, nose, hands, boots, and garden texture. Your gnome can lean a little or wear different colors, as long as the hat and beard stay readable.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#c65f52",
+    finished: "garden-gnome-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a garden gnome with a tall red hat, round nose, long white beard, blue coat, small boots, mitten hands, grass tufts, and soft ground shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional red and blue-gray colored pencils"],
+    steps: [
+      {
+        name: "Block the hat",
+        text: "Draw a tall leaning pointed hat guide, then place a small rounded body underneath it with a light center line.",
+        tip: "The hat is the whole silhouette. Keep it big enough that the beard and body can tuck underneath."
+      },
+      {
+        name: "Tuck in nose and beard",
+        text: "Add a soft hat brim, place a round nose under the brim, and sketch a large tapered beard down the center.",
+        tip: "Let the beard overlap the body guide. That overlap makes the gnome feel cozy instead of stacked."
+      },
+      {
+        name: "Set the small stance",
+        text: "Clarify the coat sides and add two rounded boots below the beard.",
+        tip: "Keep the boots simple and low. Oversized boots can steal attention from the hat and beard."
+      },
+      {
+        name: "Add brim and sleeves",
+        text: "Darken the hat brim a little, then add small mitten hands and sleeve shapes on both sides of the beard.",
+        tip: "Place the hands at about the same height, but do not make them identical. A little unevenness feels handmade."
+      },
+      {
+        name: "Texture the garden",
+        text: "Add soft beard lines, grass tufts near the feet, light red on the hat, and blue-gray on the coat.",
+        tip: "Use broken texture lines in the beard. Too many dark lines can make the white beard look heavy."
+      },
+      {
+        name: "Finish the little gnome",
+        text: "Darken the keeper contours, clarify the beard and hands, and deepen the existing color and ground shadow.",
+        tip: "Stop before adding eyes or a busy background. The hidden face and big hat are what make this gnome work.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "mason-jar-sparklers",
+    day: "002",
+    date: "Saturday, May 30",
+    isoDate: "2026-05-30",
+    subject: "a mason jar with sparklers",
+    headlineSubject: "a mason jar<br>with sparklers",
+    shortSubject: "a sparkler jar",
+    lessonTitle: "Let's draw a mason jar with sparklers",
+    description: "Learn how to draw a mason jar with sparklers using a rounded glass jar, threaded rim, crossed sparkler stems, starburst tips, glass highlights, warm yellow sparks, and a soft cast shadow.",
+    intro: "Start with the glass jar, then build the sparklers as simple sticks before adding the bright bursts. The glow can be loose, but keep the stems and jar rim clear so the drawing still reads as a real object.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#d9a22f",
+    finished: "mason-jar-sparklers-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a mason jar holding crossed sparklers with threaded glass rim, bright yellow spark bursts, glass highlights, and soft cast shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional yellow-orange colored pencil"],
+    steps: [
+      {
+        name: "Place the jar guides",
+        text: "Draw a rounded jar body with a top ellipse, a bottom ellipse, soft shoulders, and a pale center guide.",
+        tip: "Keep the jar symmetrical before adding the sparklers. The straight guide helps the glass feel steady."
+      },
+      {
+        name: "Shape the glass",
+        text: "Clarify the jar sides and base, then add stacked ellipses and bands for the threaded mouth.",
+        tip: "Use lighter inner lines than outer lines. That difference is what makes the jar read as transparent glass."
+      },
+      {
+        name: "Set the sparkler stems",
+        text: "Draw several long thin stems crossing inside the jar and fanning out above the rim.",
+        tip: "Let a few stems overlap. Crossed lines inside the glass make the jar feel full without adding extra props."
+      },
+      {
+        name: "Add the spark tips",
+        text: "Place small starburst marks at the top of each stem, keeping the sparks attached to the sticks you already drew.",
+        tip: "Vary the spark sizes slightly. Matching every burst makes the drawing feel stiff."
+      },
+      {
+        name: "Glint the glass",
+        text: "Add vertical glass highlights, warm yellow-orange spark marks, rim detail, and a soft shadow under the jar.",
+        tip: "Leave white paper inside the highlights. It is easier than trying to erase bright glass back in later."
+      },
+      {
+        name: "Finish the glowing jar",
+        text: "Darken the keeper contours, strengthen the existing spark color, clarify the glass highlights, and deepen the shadow.",
+        tip: "Stop before filling the whole page with sparks. A few bright bursts make the jar feel lively and still drawable.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "parade-drum-with-sticks",
-    day: "034",
+    day: "036",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a parade drum with sticks",
@@ -64,7 +166,7 @@ const lessons = [
   },
   {
     slug: "mason-jar-with-fireflies",
-    day: "001",
+    day: "003",
     date: "Sunday, May 31",
     isoDate: "2026-05-31",
     subject: "a mason jar with fireflies",
@@ -115,7 +217,7 @@ const lessons = [
   },
   {
     slug: "summer-sun-hat-ribbon",
-    day: "002",
+    day: "004",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a summer sun hat with a ribbon",
@@ -166,7 +268,7 @@ const lessons = [
   },
   {
     slug: "backyard-pinwheel",
-    day: "033",
+    day: "035",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a backyard pinwheel",
@@ -217,7 +319,7 @@ const lessons = [
   },
   {
     slug: "mailbox-with-flag",
-    day: "003",
+    day: "005",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a mailbox with a flag",
@@ -268,7 +370,7 @@ const lessons = [
   },
   {
     slug: "waffle-ice-cream-cone",
-    day: "032",
+    day: "034",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a waffle ice cream cone",
@@ -319,7 +421,7 @@ const lessons = [
   },
   {
     slug: "rain-boot-with-puddle",
-    day: "004",
+    day: "006",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a rain boot with a puddle",
@@ -370,7 +472,7 @@ const lessons = [
   },
   {
     slug: "backyard-telescope",
-    day: "031",
+    day: "033",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a backyard telescope",
@@ -421,7 +523,7 @@ const lessons = [
   },
   {
     slug: "honeybee-on-a-flower",
-    day: "005",
+    day: "007",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a honeybee on a flower",
@@ -472,7 +574,7 @@ const lessons = [
   },
   {
     slug: "curious-fox",
-    day: "016",
+    day: "018",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -590,7 +692,7 @@ const lessons = [
   },
   {
     slug: "tennis-racket-and-ball",
-    day: "030",
+    day: "032",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a tennis racket and ball",
@@ -641,7 +743,7 @@ const lessons = [
   },
   {
     slug: "vintage-roller-skate",
-    day: "029",
+    day: "031",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a vintage roller skate",
@@ -692,7 +794,7 @@ const lessons = [
   },
   {
     slug: "sunglasses-on-a-towel",
-    day: "028",
+    day: "030",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a pair of sunglasses on a towel",
@@ -743,7 +845,7 @@ const lessons = [
   },
   {
     slug: "desk-dog",
-    day: "027",
+    day: "029",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -794,7 +896,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "026",
+    day: "028",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -845,7 +947,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "025",
+    day: "027",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -896,7 +998,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "024",
+    day: "026",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -947,7 +1049,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "023",
+    day: "025",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -998,7 +1100,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "022",
+    day: "024",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -1049,7 +1151,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "021",
+    day: "023",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -1100,7 +1202,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "020",
+    day: "022",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -1151,7 +1253,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "019",
+    day: "021",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -1202,7 +1304,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "018",
+    day: "020",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -1258,7 +1360,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "017",
+    day: "019",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -1304,7 +1406,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "015",
+    day: "017",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -1353,7 +1455,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "014",
+    day: "016",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -1402,7 +1504,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "013",
+    day: "015",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -1451,7 +1553,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "012",
+    day: "014",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -1496,7 +1598,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "011",
+    day: "013",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -1547,7 +1649,7 @@ const lessons = [
   },
   {
     slug: "picnic-basket",
-    day: "008",
+    day: "010",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a picnic basket",
@@ -1598,7 +1700,7 @@ const lessons = [
   },
   {
     slug: "pocket-compass",
-    day: "006",
+    day: "008",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a pocket compass",
@@ -1649,7 +1751,7 @@ const lessons = [
   },
   {
     slug: "stack-of-books",
-    day: "007",
+    day: "009",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a stack of books",
@@ -1700,7 +1802,7 @@ const lessons = [
   },
   {
     slug: "seashell-on-sand",
-    day: "009",
+    day: "011",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -1751,7 +1853,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "010",
+    day: "012",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",
@@ -1811,7 +1913,7 @@ const relatedCards = (currentSlug) => lessons
   .slice(0, 3)
   .map((lesson) => `
     <a class="sketch-card" href="${lesson.slug}.html">
-      <div class="card-art"><img src="../assets/${lesson.finished}" alt=""></div>
+      <div class="card-art"><img src="../assets/${lesson.finished}" alt="${lesson.finishedAlt}"></div>
       <p>${lesson.time} min · ${lesson.difficulty}</p>
       <h3>How to draw ${lesson.shortSubject}</h3>
     </a>`)
@@ -2282,7 +2384,7 @@ ${iconLinks}
         <a class="nav-button hero-button" href="#tutorial-library">Choose a tutorial <span aria-hidden="true">↓</span></a>
       </div>
       <div class="archive-stack" aria-hidden="true">
-        ${archiveLessons.slice(0, 3).map((lesson) => `<div class="archive-sheet"><img src="assets/${lesson.finished}" alt=""></div>`).join("")}
+        ${archiveLessons.slice(0, 3).map((lesson) => `<div class="archive-sheet"><img src="assets/${lesson.finished}" alt="${lesson.finishedAlt}"></div>`).join("")}
       </div>
     </section>
     <section class="library archive-library" id="tutorial-library" aria-labelledby="tutorial-library-title">

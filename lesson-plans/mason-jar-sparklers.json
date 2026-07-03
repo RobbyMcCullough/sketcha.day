@@ -1,0 +1,129 @@
+{
+  "slug": "mason-jar-sparklers",
+  "finished": "assets/mason-jar-sparklers-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel pencil process contact sheet generated in Codex image generation and saved under drafts/mason-jar-sparklers before cropping.",
+    "notes": "Promoted from a previously generated alternate sheet after owner requested these unused image tutorials be backfilled."
+  },
+  "process_strategy": "The same upright jar builds from glass construction to sparkler stems, starbursts, glass highlights, warm color, and final graphite contrast.",
+  "final_elements": [
+    {
+      "name": "rounded mason jar body",
+      "introduced_by_step": 1,
+      "description": "A rounded glass jar body with shoulders, side curves, and bottom ellipse."
+    },
+    {
+      "name": "threaded jar mouth",
+      "introduced_by_step": 2,
+      "description": "Stacked ellipses and bands that make the jar mouth read as a mason jar rim."
+    },
+    {
+      "name": "sparkler stems",
+      "introduced_by_step": 3,
+      "description": "Several long thin sticks crossing inside the jar and rising above the rim."
+    },
+    {
+      "name": "spark bursts",
+      "introduced_by_step": 4,
+      "description": "Small star-like bursts placed at the tops of the sparkler stems."
+    },
+    {
+      "name": "glass highlights",
+      "introduced_by_step": 5,
+      "description": "Soft vertical highlight shapes and inner glass lines that show transparency."
+    },
+    {
+      "name": "warm spark color",
+      "introduced_by_step": 5,
+      "description": "Restrained yellow-orange pencil marks added to the already drawn spark bursts."
+    },
+    {
+      "name": "soft cast shadow",
+      "introduced_by_step": 5,
+      "description": "Light graphite shadow underneath the jar to ground the sketch."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/mason-jar-sparklers-step-1.jpg",
+      "step_name": "Place the jar guides",
+      "visible_job": "Places the rounded jar body, top ellipse, bottom ellipse, and center guide in light construction lines.",
+      "introduces": [
+        "rounded mason jar body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/mason-jar-sparklers-step-2.jpg",
+      "step_name": "Shape the glass",
+      "visible_job": "Clarifies the jar shoulders, side contours, base ellipse, and threaded rim bands.",
+      "introduces": [
+        "threaded jar mouth"
+      ],
+      "requires_prior_elements": [
+        "rounded mason jar body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/mason-jar-sparklers-step-3.jpg",
+      "step_name": "Set the sparkler stems",
+      "visible_job": "Adds long thin sparkler stems that cross inside the jar and fan above the mouth.",
+      "introduces": [
+        "sparkler stems"
+      ],
+      "requires_prior_elements": [
+        "rounded mason jar body",
+        "threaded jar mouth"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/mason-jar-sparklers-step-4.jpg",
+      "step_name": "Add the spark tips",
+      "visible_job": "Places starburst spark tips on the existing stems while preserving the jar silhouette.",
+      "introduces": [
+        "spark bursts"
+      ],
+      "requires_prior_elements": [
+        "sparkler stems",
+        "threaded jar mouth"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/mason-jar-sparklers-step-5.jpg",
+      "step_name": "Glint the glass",
+      "visible_job": "Adds glass highlights, warm spark color, inner rim detail, and a soft cast shadow to existing shapes.",
+      "introduces": [
+        "glass highlights",
+        "warm spark color",
+        "soft cast shadow"
+      ],
+      "requires_prior_elements": [
+        "rounded mason jar body",
+        "threaded jar mouth",
+        "spark bursts"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the glowing jar",
+    "asset": "assets/mason-jar-sparklers-finished-v1.jpg",
+    "visible_job": "Only darkens the keeper contours, strengthens existing spark color, clarifies glass highlights, and deepens the cast shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "spark color strengthening",
+      "glass highlight clarification",
+      "soft cast shadow deepening"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

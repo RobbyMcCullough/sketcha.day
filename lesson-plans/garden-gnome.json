@@ -1,0 +1,138 @@
+{
+  "slug": "garden-gnome",
+  "finished": "assets/garden-gnome-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel pencil process contact sheet generated in Codex image generation and saved under drafts/garden-gnome before cropping.",
+    "notes": "Promoted from a previously generated alternate sheet after owner requested these unused image tutorials be backfilled."
+  },
+  "process_strategy": "The same centered gnome pose builds from hat and body guides into beard, feet, hands, garden texture, restrained color, and final line confidence.",
+  "final_elements": [
+    {
+      "name": "pointed gnome hat",
+      "introduced_by_step": 1,
+      "description": "A tall leaning pointed hat that gives the gnome its main silhouette."
+    },
+    {
+      "name": "rounded body guide",
+      "introduced_by_step": 1,
+      "description": "A small rounded body mass underneath the hat that anchors the character."
+    },
+    {
+      "name": "round nose",
+      "introduced_by_step": 2,
+      "description": "A simple oval nose tucked under the hat brim."
+    },
+    {
+      "name": "large beard shape",
+      "introduced_by_step": 2,
+      "description": "A broad tapered beard that fills the center of the gnome."
+    },
+    {
+      "name": "small boots",
+      "introduced_by_step": 3,
+      "description": "Two rounded boots that support the little standing pose."
+    },
+    {
+      "name": "side hands",
+      "introduced_by_step": 4,
+      "description": "Small mitten-like hands placed against both sides of the beard."
+    },
+    {
+      "name": "garden ground texture",
+      "introduced_by_step": 5,
+      "description": "Grass tufts and ground marks that place the gnome in a garden."
+    },
+    {
+      "name": "restrained red and blue color",
+      "introduced_by_step": 5,
+      "description": "Colored-pencil red hat and blue coat accents applied to existing shapes."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/garden-gnome-step-1.jpg",
+      "step_name": "Block the hat",
+      "visible_job": "Places the tall pointed hat guide, a rounded body guide, and a center line for the gnome.",
+      "introduces": [
+        "pointed gnome hat",
+        "rounded body guide"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/garden-gnome-step-2.jpg",
+      "step_name": "Tuck in nose and beard",
+      "visible_job": "Adds the hat brim, round nose, and large tapered beard inside the existing body guide.",
+      "introduces": [
+        "round nose",
+        "large beard shape"
+      ],
+      "requires_prior_elements": [
+        "pointed gnome hat",
+        "rounded body guide"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/garden-gnome-step-3.jpg",
+      "step_name": "Set the small stance",
+      "visible_job": "Clarifies the coat sides and places the two small boots beneath the beard.",
+      "introduces": [
+        "small boots"
+      ],
+      "requires_prior_elements": [
+        "large beard shape",
+        "rounded body guide"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/garden-gnome-step-4.jpg",
+      "step_name": "Add brim and sleeves",
+      "visible_job": "Strengthens the brim area and adds mitten-like side hands and sleeves around the beard.",
+      "introduces": [
+        "side hands"
+      ],
+      "requires_prior_elements": [
+        "pointed gnome hat",
+        "large beard shape",
+        "small boots"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/garden-gnome-step-5.jpg",
+      "step_name": "Texture the garden",
+      "visible_job": "Adds beard texture, garden ground marks, and restrained colored-pencil fills to existing shapes.",
+      "introduces": [
+        "garden ground texture",
+        "restrained red and blue color"
+      ],
+      "requires_prior_elements": [
+        "pointed gnome hat",
+        "large beard shape",
+        "side hands",
+        "small boots"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the little gnome",
+    "asset": "assets/garden-gnome-finished-v1.jpg",
+    "visible_job": "Only deepens keeper contours, beard texture, color, and ground shadows already established in the process frames.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "beard texture clarification",
+      "restrained colored-pencil shading",
+      "garden ground shadow deepening"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}
