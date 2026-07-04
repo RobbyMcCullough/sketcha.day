@@ -1073,6 +1073,7 @@ a {
 
 .archive-sheet img {
   width: 100%;
+  height: auto;
   aspect-ratio: 1;
   object-fit: contain;
   mix-blend-mode: multiply;
@@ -1442,7 +1443,7 @@ a {
 .newsletter {
   position: relative;
   width: min(980px, calc(100% - 40px));
-  margin: 0 auto 130px;
+  margin: 110px auto 130px;
   padding: 68px 50px 58px;
   overflow: hidden;
   border: 3px solid var(--ink);
@@ -1957,5 +1958,74 @@ a {
     animation-duration: .01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: .01ms !important;
+  }
+}
+
+/* Previous/next daily-lesson navigation on tutorial pages */
+.lesson-pagination {
+  width: min(1180px, calc(100% - 40px));
+  margin: -40px auto 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.pagination-link {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 22px;
+  background: var(--paper-light);
+  border: 2px solid var(--ink);
+  text-decoration: none;
+  color: var(--ink);
+  box-shadow: 4px 4px 0 var(--ink);
+  transition:
+    box-shadow .16s ease,
+    transform .16s cubic-bezier(.2, .8, .2, 1);
+}
+
+.pagination-link:hover,
+.pagination-link:focus-visible {
+  box-shadow: 2px 2px 0 var(--ink);
+  transform: translate(2px, 2px);
+}
+
+.pagination-empty {
+  visibility: hidden;
+  box-shadow: none;
+}
+
+.pagination-next {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.pagination-label {
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.pagination-title {
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+@media (max-width: 640px) {
+  .lesson-pagination {
+    grid-template-columns: 1fr;
+    margin-top: -60px;
+  }
+
+  .pagination-empty {
+    display: none;
+  }
+
+  .pagination-next {
+    text-align: left;
+    align-items: flex-start;
   }
 }

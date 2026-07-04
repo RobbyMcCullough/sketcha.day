@@ -1,0 +1,121 @@
+{
+  "_readme": "Every folder under drafts/ must have an entry here. Statuses: pending (art generated, lesson not yet resolved - blocks new generation), scheduled (held for a future release_date), published, rejected-quality, rejected-duplicate, transferred (moved to a sister site). Validated by scripts/check-drafts-ledger.py; scripts/preflight-image-generation.py locks a slug here before any image generation.",
+  "entries": {
+    "backyard-pinwheel": {
+      "status": "published"
+    },
+    "backyard-telescope": {
+      "status": "published"
+    },
+    "birdhouse-on-a-post": {
+      "status": "published"
+    },
+    "camping-lantern": {
+      "status": "published"
+    },
+    "cozy-teacup": {
+      "status": "published"
+    },
+    "desk-dog": {
+      "status": "published"
+    },
+    "detailed-pinecone": {
+      "status": "rejected-quality",
+      "date": "2026-06-17",
+      "note": "Process frames never convincingly led to the final sketch; pulled from the Day 007 slot after review. Final art may still be reusable via derived process overlays."
+    },
+    "garden-gnome": {
+      "status": "published"
+    },
+    "garden-watering-can": {
+      "status": "published"
+    },
+    "honeybee-on-a-flower": {
+      "status": "published"
+    },
+    "lemonade-glass": {
+      "status": "published"
+    },
+    "little-tugboat": {
+      "status": "published"
+    },
+    "mailbox-with-flag": {
+      "status": "published"
+    },
+    "marker-flames": {
+      "status": "transferred",
+      "date": "2026-06-24",
+      "note": "Marker-doodle style test that seeded Doodlea.day's hot-rod-marker-flames Day 001 lesson."
+    },
+    "mason-jar-sparklers": {
+      "status": "published"
+    },
+    "mason-jar-with-fireflies": {
+      "status": "published"
+    },
+    "paint-palette-and-brush": {
+      "status": "published"
+    },
+    "parade-drum-with-sticks": {
+      "status": "published"
+    },
+    "patchwork-kite": {
+      "status": "published"
+    },
+    "picnic-basket": {
+      "status": "published"
+    },
+    "pocket-compass": {
+      "status": "published"
+    },
+    "potted-cactus-flowers": {
+      "status": "published"
+    },
+    "quiet-farm-lane": {
+      "status": "rejected-quality",
+      "date": "2026-06-17",
+      "note": "Process frames did not match the final fence, lane, bushes, and hills; pulled from the Day 007 slot after review."
+    },
+    "rain-boot-with-puddle": {
+      "status": "published"
+    },
+    "red-barn-silo": {
+      "status": "rejected-quality",
+      "date": "2026-06-17",
+      "note": "Final outpaced the process frames; pulled from the Day 007 slot after review."
+    },
+    "seashell-on-sand": {
+      "status": "published"
+    },
+    "soccer-ball-on-grass": {
+      "status": "published"
+    },
+    "stack-of-books": {
+      "status": "published"
+    },
+    "stack-of-pancakes": {
+      "status": "published"
+    },
+    "strawberry-basket": {
+      "status": "published"
+    },
+    "summer-sun-hat-ribbon": {
+      "status": "published"
+    },
+    "sunglasses-on-a-towel": {
+      "status": "published"
+    },
+    "tennis-racket-and-ball": {
+      "status": "published"
+    },
+    "vintage-roller-skate": {
+      "status": "published"
+    },
+    "waffle-ice-cream-cone": {
+      "status": "published"
+    },
+    "waving-flag-on-a-porch": {
+      "status": "published"
+    }
+  }
+}

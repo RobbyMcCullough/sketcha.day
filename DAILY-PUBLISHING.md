@@ -65,12 +65,25 @@ python3 scripts/check-daily-publish-slots.py --current-date YYYY-MM-DD
 6. Compare the candidate with existing lessons in `scripts/build-tutorials.mjs`
    and `library.html`; choose a different subject if it repeats a recent lesson's
    core shape, category, or drawing skill.
-7. Lock the exact publish slugs before generating any image. A normal run should
-   generate art only for the approved current slug and approved backfill slug.
+7. Lock the exact publish slugs before generating any image by running the
+   mandatory pre-flight gate for each approved slug:
+
+```sh
+python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-MM-DD
+```
+
+   The gate fails when unresolved generated art exists in `drafts/`
+   (`drafts/LEDGER.json`), when the slug is already published, or when the
+   daily slot is taken, and it records the slug lock in the ledger. A normal
+   run generates art only for the locked current slug and locked backfill slug.
    Do not create speculative contact sheets, backup subjects, or alternate
-   directions. If an image is generated and then not used, stop before any new
-   image generation and either promote it into a validated tutorial, document a
-   quality/duplicate rejection in `HUMANS.md`, or get owner direction.
+   directions. If generated art ends up unused, resolve its ledger entry
+   before any new generation: promote it into a validated tutorial, set a
+   `rejected-quality`/`rejected-duplicate` status with a note (and mirror the
+   reasoning in `HUMANS.md`), set a `scheduled` status with a `release_date`,
+   or get owner direction. Prefer repairing a failed panel (see
+   `PROCESS-IMAGE-WORKFLOW.md`) over replacing the whole subject; a subject
+   swap after failed art is itself a rejection that must be recorded.
 8. Write or update `lesson-plans/{slug}.json` before creating final page data.
    Start from `lesson-plans/TEMPLATE.json`. The plan must name the finished
    asset, each major finished element, the non-final frame where that element
@@ -89,7 +102,11 @@ python3 scripts/check-daily-publish-slots.py --current-date YYYY-MM-DD
    finished image is at least 8/10.
 12. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
    number and the intended publish date.
-13. Run `node scripts/build-tutorials.mjs`.
+13. Run `node scripts/build-tutorials.mjs`, then build the delivery images:
+   `python3 scripts/build-image-derivatives.py` (WebP served by pages; the
+   JPGs stay as reviewed masters) and `python3 scripts/make-social-cards.py`
+   (1200x630 Open Graph cards). Both are idempotent and also run inside the
+   readiness check. Commit the derivatives and card together with the lesson.
 14. QA the homepage, `library.html`, and the new tutorial page at desktop and
    mobile widths.
 15. Rate the rendered page layout using the 10-point gate below. Do not publish
@@ -325,9 +342,15 @@ Minimum validation commands:
 python3 scripts/check-tutorial-readiness.py {slug}
 ```
 
-That command rebuilds generated pages, checks the process plan, writes a
+That command rebuilds generated pages, refreshes WebP derivatives and social
+cards, validates the drafts ledger, checks the process plan, writes a
 step-frame contact sheet, checks adjacent step deltas, validates JSON-LD and lab
 privacy, probes local internal links/assets, and runs `git diff --check`.
+
+After a lesson publishes, its `drafts/LEDGER.json` entry must read
+`published`. The next run's pre-flight heals this automatically when the
+tutorial page exists, but do not rely on that to skip the ledger update when
+closing out a run.
 
 Then inspect the Cove-served local site:
 

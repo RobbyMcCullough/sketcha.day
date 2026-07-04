@@ -2,10 +2,10 @@
 
 ## Last Accessed
 - Date: 2026-07-04
-- Agent harness: Codex
-- Harness project/session name: Daily sketch and doodle lessons
+- Agent harness: Claude Cowork
+- Harness project/session name: sketcha.day (unused-image investigation + SEO/workflow upgrades)
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-06-23 / Claude Cowork / SEO review & on-page fixes
+- Previous: 2026-07-04 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,35 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-04 Cowork session (after the daily run) investigated why generated
+  images kept going unused and shipped workflow + SEO upgrades:
+  - Root causes: quality gates ran only after generation, failures triggered
+    whole-subject replacement instead of panel repair (the June 17 Day 007
+    pinecone -> farm lane -> red barn -> teacup churn), duplicate back-checks
+    ran post-generation, and the July 2 "lock slugs first" rule was prose with
+    no enforcement.
+  - New hard gates: `drafts/LEDGER.json` (every draft folder needs a status),
+    `scripts/check-drafts-ledger.py` (runs inside readiness), and
+    `scripts/preflight-image-generation.py` (mandatory before ANY image
+    generation; blocks while unresolved art exists and locks the slug).
+  - Images: pages now serve WebP derivatives of the JPG masters
+    (`scripts/build-image-derivatives.py`, ~44MB -> ~13MB), plus 1200x630
+    Open Graph cards at `assets/social/` (`scripts/make-social-cards.py`).
+    Masters stay JPG; gates map .webp back to .jpg.
+  - SEO: image-sitemap entries per lesson, prev/next daily-lesson links on
+    tutorial pages, hero preload + `fetchpriority="high"`, og:image
+    width/height/alt, IndexNow ping on deploy (key file at site root).
+  - Owner decision: the proposed evergreen-homepage canonical change was
+    DEFERRED on 2026-07-04; Approach B stays until Robby says otherwise.
+  - Mirrored to Doodlea.day the same day (ledger + preflight, WebP + cards,
+    sitemap/pagination/IndexNow, doc updates) per the sister-site parity rule.
+  - Follow-up fix: added `height: auto` to `.archive-sheet img` on both sites
+    after the new width/height attributes stretched the library sheet stack.
+  - Owner-requested polish (both sites): pagination links restyled to match
+    the site's ink-border/hard-shadow button language, newsletter box got
+    110px top margin, and `script.js` gained `fitHeadlineLines()` which
+    shrinks manual hero headline lines that would otherwise overlap the hero
+    art (seen on Doodlea's barbecue grill page).
 - 2026-07-04 daily automation added two Sketcha lessons:
   `waving-flag-on-a-porch` as July 4, 2026 / Day 038 using the previously
   preserved Independence Day contact sheet, and `strawberry-basket` as May 28,
