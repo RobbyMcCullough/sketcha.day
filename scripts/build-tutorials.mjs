@@ -1,7 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 
 const siteUrl = "https://sketcha.day";
-const styleVersion = "20260704-polish-2";
+const styleVersion = "20260704-library-compact";
 const brandWordmark = `sketch<span class="brand-accent">a</span><span class="brand-domain">.day</span>`;
 const iconLinks = `  <link rel="icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
@@ -2479,12 +2479,12 @@ const archivePage = () => {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Drawing Tutorial Library | Easy Step-by-Step Sketches | Sketcha.day</title>
-  <meta name="description" content="Browse every Sketcha.day drawing tutorial. Find approachable daily sketch lessons that help you practice shapes, proportion, line confidence, and shading.">
+  <title>Drawing Tutorial Library | Easy Sketch Lessons | Sketcha.day</title>
+  <meta name="description" content="Browse easy step-by-step drawing tutorials from Sketcha.day, with daily pencil sketch lessons for animals, objects, scenes, shapes, proportion, and shading.">
   <link rel="canonical" href="https://sketcha.day/library.html">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="The Sketcha.day Drawing Tutorial Library">
-  <meta property="og:description" content="A growing library of daily sketch lessons for building drawing confidence one page at a time.">
+  <meta property="og:title" content="Drawing Tutorial Library | Sketcha.day">
+  <meta property="og:description" content="Browse daily pencil sketch lessons and easy step-by-step drawing tutorials.">
   <meta property="og:url" content="https://sketcha.day/library.html">
   <meta property="og:image" content="https://sketcha.day/assets/fox-finished-v2.jpg">
   <meta name="twitter:card" content="summary_large_image">
@@ -2517,22 +2517,17 @@ ${iconLinks}
   <main>
     <section class="archive-hero" aria-labelledby="archive-title">
       <div class="archive-intro">
-        <p class="eyebrow"><span>${archiveLessons.length} tutorials</span> One new page every day</p>
-        <h1 id="archive-title" aria-label="The sketch library"><span class="headline-lead">The sketch</span> <em aria-hidden="true"><span>library</span></em></h1>
-        <p>Missed a day? Start anywhere. Every lesson gives you a small, finishable practice round so daily practice can build into steadier lines, sharper observation, and more confident sketches.</p>
-        <a class="nav-button hero-button" href="#tutorial-library">Choose a tutorial <span aria-hidden="true">↓</span></a>
-      </div>
-      <div class="archive-stack" aria-hidden="true">
-        ${archiveLessons.slice(0, 3).map((lesson) => `<div class="archive-sheet"><img src="assets/${webpName(lesson.finished)}" alt="${lesson.finishedAlt}" width="1254" height="1254"></div>`).join("")}
+        <p class="eyebrow"><span>${archiveLessons.length} step-by-step lessons</span> New pencil sketches added daily</p>
+        <h1 id="archive-title">Drawing tutorial library</h1>
+        <p>Browse easy step-by-step drawing tutorials for quick pencil practice. Each Sketcha.day lesson breaks animals, cozy objects, seasonal sketches, small scenes, and beginner-friendly drawing ideas into approachable frames for construction shapes, proportion, line confidence, light shading, and a finished drawing.</p>
       </div>
     </section>
     <section class="library archive-library" id="tutorial-library" aria-labelledby="tutorial-library-title">
       <header class="section-heading library-heading">
         <div>
-          <p class="kicker">Pick a page</p>
-          <h2 id="tutorial-library-title">Practice your way through the days</h2>
+          <p class="kicker">All tutorials</p>
+          <h2 id="tutorial-library-title">Step-by-step sketch lessons</h2>
         </div>
-        <p class="archive-count">Newest first · ${archiveLessons.length} lessons</p>
       </header>
       <div class="library-grid archive-grid">
         ${archiveLessons.map(archiveCard).join("")}
