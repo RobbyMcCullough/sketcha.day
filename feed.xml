@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a waving flag on a porch</title>
+      <link>https://sketcha.day/tutorials/waving-flag-on-a-porch.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/waving-flag-on-a-porch.html</guid>
+      <pubDate>Sat, 04 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a waving flag on a porch with an angled pole, soft flag wave, curved stripes, small star field, porch rail, restrained red and blue pencil color, and light graphite shading.</description>
+      <media:content url="https://sketcha.day/assets/waving-flag-on-a-porch-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a parade drum with sticks</title>
       <link>https://sketcha.day/tutorials/parade-drum-with-sticks.html</link>
@@ -294,6 +302,14 @@
       <pubDate>Fri, 29 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a garden gnome with a tall pointed hat, round nose, soft beard, small boots, mitten hands, garden grass, restrained red and blue color, and a gentle ground shadow.</description>
       <media:content url="https://sketcha.day/assets/garden-gnome-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a strawberry basket</title>
+      <link>https://sketcha.day/tutorials/strawberry-basket.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/strawberry-basket.html</guid>
+      <pubDate>Thu, 28 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a strawberry basket with a shallow woven body, thick rim, arched handle, rounded berries, leafy caps, seed dots, restrained red and green color, and a soft ground shadow.</description>
+      <media:content url="https://sketcha.day/assets/strawberry-basket-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -12,8 +12,59 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
-    slug: "garden-gnome",
+    slug: "strawberry-basket",
     day: "001",
+    date: "Thursday, May 28",
+    isoDate: "2026-05-28",
+    subject: "a strawberry basket",
+    headlineSubject: "a strawberry<br>basket",
+    shortSubject: "a strawberry basket",
+    lessonTitle: "Let's draw a strawberry basket",
+    description: "Learn how to draw a strawberry basket with a shallow woven body, thick rim, arched handle, rounded berries, leafy caps, seed dots, restrained red and green color, and a soft ground shadow.",
+    intro: "Start with the basket as a low oval, then build the handle and tuck the berries inside before adding caps, weave, seeds, and gentle color. Your berries can overlap in different ways, as long as the basket stays readable.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#cf4f43",
+    finished: "strawberry-basket-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a shallow woven basket filled with red strawberries, green leafy caps, arched handle, seed dots, and soft ground shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional red and green colored pencils"],
+    steps: [
+      {
+        name: "Block the basket",
+        text: "Draw a wide shallow oval for the basket opening, then add curved sides and a light base guide underneath.",
+        tip: "Keep the basket low and wide. That leaves room for the strawberries to sit above the rim."
+      },
+      {
+        name: "Add rim and handle",
+        text: "Thicken the rim around the opening, then draw an arched handle that connects to both sides.",
+        tip: "Let the handle follow the basket's center line. A centered handle keeps the basket from feeling tipped over."
+      },
+      {
+        name: "Tuck in berries",
+        text: "Fill the basket with several rounded strawberry shapes, letting a few overlap the rim and each other.",
+        tip: "Use simple heart-like berry shapes. Perfect symmetry matters less than a clear pile of fruit."
+      },
+      {
+        name: "Add caps and weave",
+        text: "Place small leafy caps on the berries, then sketch light crisscross weave marks across the basket body.",
+        tip: "Curve the weave with the basket. Straight rows can make the rounded basket look flat."
+      },
+      {
+        name: "Color the berries",
+        text: "Add tiny seed dots, soft red pencil on the berries, green on the caps, and a light shadow under the basket.",
+        tip: "Leave little pale gaps in the red color so the berries keep their sketchbook texture."
+      },
+      {
+        name: "Finish the fruit basket",
+        text: "Darken the keeper contours, clarify the weave and seed dots, and deepen the existing color and ground shadow.",
+        tip: "Stop before adding a table, napkin, or extra fruit. The basket, handle, and berries already give the lesson enough to draw.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "garden-gnome",
+    day: "002",
     date: "Friday, May 29",
     isoDate: "2026-05-29",
     subject: "a garden gnome",
@@ -64,7 +115,7 @@ const lessons = [
   },
   {
     slug: "mason-jar-sparklers",
-    day: "002",
+    day: "003",
     date: "Saturday, May 30",
     isoDate: "2026-05-30",
     subject: "a mason jar with sparklers",
@@ -115,7 +166,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-with-sticks",
-    day: "036",
+    day: "037",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a parade drum with sticks",
@@ -165,8 +216,59 @@ const lessons = [
     ]
   },
   {
+    slug: "waving-flag-on-a-porch",
+    day: "038",
+    date: "Saturday, July 4",
+    isoDate: "2026-07-04",
+    subject: "a waving flag on a porch",
+    headlineSubject: "a waving flag<br>on a porch",
+    shortSubject: "a porch flag",
+    lessonTitle: "Let's draw a waving flag on a porch",
+    description: "Learn how to draw a waving flag on a porch with an angled pole, soft flag wave, curved stripes, small star field, porch rail, restrained red and blue pencil color, and light graphite shading.",
+    intro: "Build the flag from the pole first, then let the cloth wave away from it before adding stripes, the star field, porch rail, and small color accents. Keep the flag simple and sketchy; this is a drawing lesson, not a perfect diagram.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#2f6fae",
+    finished: "waving-flag-on-a-porch-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a small waving American flag on an angled porch pole with curved red stripes, blue star field, porch rail, and soft shading",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional red and blue colored pencils"],
+    steps: [
+      {
+        name: "Place the pole",
+        text: "Draw a long angled pole with a small round knob at the top, then add a simple porch mount and rail guide near the base.",
+        tip: "Set the pole angle first. The flag will feel more natural if it grows from a confident diagonal."
+      },
+      {
+        name: "Shape the waving flag",
+        text: "Attach a soft wavy rectangle to the pole, letting the top and bottom edges ripple in the same direction.",
+        tip: "Keep the far edge simple. One gentle wave is easier to stripe than a complicated zigzag."
+      },
+      {
+        name: "Divide the flag",
+        text: "Add curved stripe bands across the flag and block in a small star field near the pole.",
+        tip: "Let every stripe follow the cloth's wave. Matching curves make the flag look flexible."
+      },
+      {
+        name: "Add rail and star marks",
+        text: "Clarify the porch rail behind the pole, then add small star-like dots inside the field.",
+        tip: "Use dots or tiny stars instead of exact tiny shapes. The goal is a readable sketch, not a formal flag chart."
+      },
+      {
+        name: "Add soft flag color",
+        text: "Shade the existing stripe bands with red, fill the field with blue, and add light graphite to the pole and rail.",
+        tip: "Keep the color broken and pencil-like. White paper between the stripes helps the flag stay bright."
+      },
+      {
+        name: "Finish the porch flag",
+        text: "Darken the keeper contours, strengthen the existing red and blue accents, and deepen the pole, rail, and soft shadows.",
+        tip: "Stop before adding a whole house or landscape. The angled pole, porch rail, and waving cloth already tell the scene.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "mason-jar-with-fireflies",
-    day: "003",
+    day: "004",
     date: "Sunday, May 31",
     isoDate: "2026-05-31",
     subject: "a mason jar with fireflies",
@@ -217,7 +319,7 @@ const lessons = [
   },
   {
     slug: "summer-sun-hat-ribbon",
-    day: "004",
+    day: "005",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a summer sun hat with a ribbon",
@@ -268,7 +370,7 @@ const lessons = [
   },
   {
     slug: "backyard-pinwheel",
-    day: "035",
+    day: "036",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a backyard pinwheel",
@@ -319,7 +421,7 @@ const lessons = [
   },
   {
     slug: "mailbox-with-flag",
-    day: "005",
+    day: "006",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a mailbox with a flag",
@@ -370,7 +472,7 @@ const lessons = [
   },
   {
     slug: "waffle-ice-cream-cone",
-    day: "034",
+    day: "035",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a waffle ice cream cone",
@@ -421,7 +523,7 @@ const lessons = [
   },
   {
     slug: "rain-boot-with-puddle",
-    day: "006",
+    day: "007",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a rain boot with a puddle",
@@ -472,7 +574,7 @@ const lessons = [
   },
   {
     slug: "backyard-telescope",
-    day: "033",
+    day: "034",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a backyard telescope",
@@ -523,7 +625,7 @@ const lessons = [
   },
   {
     slug: "honeybee-on-a-flower",
-    day: "007",
+    day: "008",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a honeybee on a flower",
@@ -574,7 +676,7 @@ const lessons = [
   },
   {
     slug: "curious-fox",
-    day: "018",
+    day: "019",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -692,7 +794,7 @@ const lessons = [
   },
   {
     slug: "tennis-racket-and-ball",
-    day: "032",
+    day: "033",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a tennis racket and ball",
@@ -743,7 +845,7 @@ const lessons = [
   },
   {
     slug: "vintage-roller-skate",
-    day: "031",
+    day: "032",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a vintage roller skate",
@@ -794,7 +896,7 @@ const lessons = [
   },
   {
     slug: "sunglasses-on-a-towel",
-    day: "030",
+    day: "031",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a pair of sunglasses on a towel",
@@ -845,7 +947,7 @@ const lessons = [
   },
   {
     slug: "desk-dog",
-    day: "029",
+    day: "030",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -896,7 +998,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "028",
+    day: "029",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -947,7 +1049,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "027",
+    day: "028",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -998,7 +1100,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "026",
+    day: "027",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -1049,7 +1151,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "025",
+    day: "026",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -1100,7 +1202,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "024",
+    day: "025",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -1151,7 +1253,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "023",
+    day: "024",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -1202,7 +1304,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "022",
+    day: "023",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -1253,7 +1355,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "021",
+    day: "022",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -1304,7 +1406,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "020",
+    day: "021",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -1360,7 +1462,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "019",
+    day: "020",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -1406,7 +1508,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "017",
+    day: "018",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -1455,7 +1557,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "016",
+    day: "017",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -1504,7 +1606,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "015",
+    day: "016",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -1553,7 +1655,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "014",
+    day: "015",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -1598,7 +1700,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "013",
+    day: "014",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -1649,7 +1751,7 @@ const lessons = [
   },
   {
     slug: "picnic-basket",
-    day: "010",
+    day: "011",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a picnic basket",
@@ -1700,7 +1802,7 @@ const lessons = [
   },
   {
     slug: "pocket-compass",
-    day: "008",
+    day: "009",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a pocket compass",
@@ -1751,7 +1853,7 @@ const lessons = [
   },
   {
     slug: "stack-of-books",
-    day: "009",
+    day: "010",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a stack of books",
@@ -1802,7 +1904,7 @@ const lessons = [
   },
   {
     slug: "seashell-on-sand",
-    day: "011",
+    day: "012",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -1853,7 +1955,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "012",
+    day: "013",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",

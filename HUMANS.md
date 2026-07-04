@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-03
+- Date: 2026-07-04
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
@@ -13,6 +13,24 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-04 daily automation added two Sketcha lessons:
+  `waving-flag-on-a-porch` as July 4, 2026 / Day 038 using the previously
+  preserved Independence Day contact sheet, and `strawberry-basket` as May 28,
+  2026 / Day 001 honest archive backfill. Existing day labels shifted forward
+  by one.
+- July 4 Sketcha QA used `python3 scripts/check-daily-publish-slots.py
+  --current-date 2026-07-04`, `python3 scripts/check-tutorial-readiness.py
+  waving-flag-on-a-porch`, and `python3 scripts/check-tutorial-readiness.py
+  strawberry-basket`. The in-app browser rejected the Cove cert as
+  `ERR_CERT_DATE_INVALID`, so rendered desktop/mobile QA used the existing
+  fallback server on `http://localhost:4173/`; screenshots are under
+  `/tmp/daily-sketch-doodle-qa-2026-07-04/`.
+- Finished image ratings: waving flag on a porch 8.6/10 for clear flag/porch
+  readability, consistent process frames, and restrained color; strawberry
+  basket 8.7/10 for readable basket construction, appealing berries, and a
+  clean cap/weave/color progression.
+- The temporary two-tutorial-per-site backfill cadence is still active until
+  the owner says otherwise.
 - 2026-07-03 owner-requested image promotion: restored two previously unused
   cached generated contact sheets and published them as honest Sketcha archive
   backfills, with no new image generation: `garden-gnome` as May 29, 2026 /

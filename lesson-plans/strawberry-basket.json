@@ -1,0 +1,121 @@
+{
+  "slug": "strawberry-basket",
+  "finished": "assets/strawberry-basket-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel contact sheet generated with the process-first workflow, then cropped into step frames and the finished image.",
+    "notes": "Chosen as an honest early archive backfill with a clear spring fruit subject and a different drawing problem from recent jars, flags, beach objects, and garden tools."
+  },
+  "process_strategy": "A six-panel process builds the basket from a shallow oval and woven body, then adds strawberries, leafy caps, handle, texture, restrained color, and final keeper lines.",
+  "final_elements": [
+    {
+      "name": "shallow basket body",
+      "introduced_by_step": 1,
+      "description": "A low oval basket with curved sides and a stable base."
+    },
+    {
+      "name": "basket rim and handle",
+      "introduced_by_step": 2,
+      "description": "A thick oval rim plus a simple arched handle rising above the basket."
+    },
+    {
+      "name": "visible strawberries",
+      "introduced_by_step": 3,
+      "description": "Several rounded heart-like strawberries tucked inside the basket."
+    },
+    {
+      "name": "leafy strawberry caps",
+      "introduced_by_step": 4,
+      "description": "Small leafy caps on the berries, kept simple and readable."
+    },
+    {
+      "name": "basket weave lines",
+      "introduced_by_step": 4,
+      "description": "Light crisscross weave marks following the basket curve."
+    },
+    {
+      "name": "strawberry seed dots",
+      "introduced_by_step": 5,
+      "description": "Tiny seed marks on the existing berries."
+    },
+    {
+      "name": "red and green pencil color",
+      "introduced_by_step": 5,
+      "description": "Restrained red berry color and green cap accents."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/strawberry-basket-step-1.jpg",
+      "step_name": "Block the basket",
+      "visible_job": "Places the shallow oval basket body, side curve, and base guide.",
+      "introduces": [
+        "shallow basket body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/strawberry-basket-step-2.jpg",
+      "step_name": "Add rim and handle",
+      "visible_job": "Adds the thick basket rim and arched handle connected to the sides.",
+      "introduces": [
+        "basket rim and handle"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/strawberry-basket-step-3.jpg",
+      "step_name": "Tuck in berries",
+      "visible_job": "Adds the main strawberry shapes inside the basket.",
+      "introduces": [
+        "visible strawberries"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/strawberry-basket-step-4.jpg",
+      "step_name": "Add caps and weave",
+      "visible_job": "Adds leafy berry caps and basket weave marks on existing shapes.",
+      "introduces": [
+        "leafy strawberry caps",
+        "basket weave lines"
+      ],
+      "requires_prior_elements": [
+        "visible strawberries",
+        "shallow basket body"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/strawberry-basket-step-5.jpg",
+      "step_name": "Color the berries",
+      "visible_job": "Adds seed dots, restrained red berry color, green caps, and a small ground shadow.",
+      "introduces": [
+        "strawberry seed dots",
+        "red and green pencil color"
+      ],
+      "requires_prior_elements": [
+        "visible strawberries",
+        "leafy strawberry caps"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the fruit basket",
+    "asset": "assets/strawberry-basket-finished-v1.jpg",
+    "visible_job": "Only strengthens the basket, handle, berries, caps, seed dots, weave, existing color, and ground shadow.",
+    "allowed_changes": [
+      "keeper-line darkening",
+      "restrained colored-pencil shading",
+      "seed-dot cleanup",
+      "basket weave emphasis",
+      "soft ground-shadow emphasis"
+    ]
+  },
+  "rejection_checks": [
+    "No new berry, handle, basket wall, weave system, leaf cap, or color choice should first appear in the final image.",
+    "The basket must keep the same angle, scale, and berry arrangement in every frame.",
+    "The finish must stay a casual colored-pencil sketch, not a glossy food illustration."
+  ]
+}
