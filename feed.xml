@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw an apple turnover on a plate</title>
+      <link>https://sketcha.day/tutorials/apple-turnover-on-a-plate.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/apple-turnover-on-a-plate.html</guid>
+      <pubDate>Sun, 05 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw an apple turnover on a plate with a shallow plate ellipse, folded triangular pastry, crimped edge, apple filling slit, fork, crumbs, warm pastry color, and soft graphite shading.</description>
+      <media:content url="https://sketcha.day/assets/apple-turnover-on-a-plate-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a waving flag on a porch</title>
       <link>https://sketcha.day/tutorials/waving-flag-on-a-porch.html</link>
@@ -310,6 +318,14 @@
       <pubDate>Thu, 28 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a strawberry basket with a shallow woven body, thick rim, arched handle, rounded berries, leafy caps, seed dots, restrained red and green color, and a soft ground shadow.</description>
       <media:content url="https://sketcha.day/assets/strawberry-basket-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a folded camp map</title>
+      <link>https://sketcha.day/tutorials/folded-camp-map.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/folded-camp-map.html</guid>
+      <pubDate>Wed, 27 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a folded camp map with uneven paper edges, crease panels, a winding trail line, small lake, mountain icons, compass arrow, and restrained green and blue pencil color.</description>
+      <media:content url="https://sketcha.day/assets/folded-camp-map-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

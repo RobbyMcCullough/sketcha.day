@@ -1,0 +1,134 @@
+{
+  "slug": "apple-turnover-on-a-plate",
+  "finished": "assets/apple-turnover-on-a-plate-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel raster contact sheet generated for the July 5, 2026 Apple Turnover Day sketch lesson, reviewed before cropping.",
+    "notes": "Prompt required one consistent plated turnover from construction shapes to finished pencil sketch, with no embedded labels or decorative UI."
+  },
+  "process_strategy": "The sequence builds the plate ellipse, triangular pastry, crimped edge, apple filling slit, fork, crumbs, and warm shading before the final panel only darkens keeper lines and adds restrained color.",
+  "final_elements": [
+    {
+      "name": "round plate ellipse",
+      "introduced_by_step": 1,
+      "description": "A shallow oval plate underneath the pastry."
+    },
+    {
+      "name": "triangular turnover body",
+      "introduced_by_step": 1,
+      "description": "A folded triangular pastry sitting on the plate."
+    },
+    {
+      "name": "rounded folded seam",
+      "introduced_by_step": 2,
+      "description": "Softened pastry corners and the folded seam running along the turnover."
+    },
+    {
+      "name": "crimped pastry edge",
+      "introduced_by_step": 3,
+      "description": "Small pressed scallops along the folded edge."
+    },
+    {
+      "name": "apple filling slit",
+      "introduced_by_step": 4,
+      "description": "A short opening near the top with a small peek of apple filling."
+    },
+    {
+      "name": "fork beside the plate",
+      "introduced_by_step": 4,
+      "description": "A simple fork angled beside the plate."
+    },
+    {
+      "name": "crumbs on the plate",
+      "introduced_by_step": 5,
+      "description": "Small broken pastry crumbs near the turnover."
+    },
+    {
+      "name": "warm pastry shading",
+      "introduced_by_step": 5,
+      "description": "Restrained golden colored-pencil shading on the pastry top."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/apple-turnover-on-a-plate-step-1.jpg",
+      "step_name": "Place the plate and pastry",
+      "visible_job": "Blocks in the plate ellipse and a light triangular turnover body.",
+      "introduces": [
+        "round plate ellipse",
+        "triangular turnover body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/apple-turnover-on-a-plate-step-2.jpg",
+      "step_name": "Fold the pastry form",
+      "visible_job": "Rounds the pastry corners and draws the folded seam over the construction.",
+      "introduces": [
+        "rounded folded seam"
+      ],
+      "requires_prior_elements": [
+        "triangular turnover body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/apple-turnover-on-a-plate-step-3.jpg",
+      "step_name": "Press the edge",
+      "visible_job": "Adds crimp marks along the folded edge and cleans the plate rim.",
+      "introduces": [
+        "crimped pastry edge"
+      ],
+      "requires_prior_elements": [
+        "triangular turnover body",
+        "round plate ellipse"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/apple-turnover-on-a-plate-step-4.jpg",
+      "step_name": "Add filling and fork",
+      "visible_job": "Adds a small apple filling slit and a fork beside the plate.",
+      "introduces": [
+        "apple filling slit",
+        "fork beside the plate"
+      ],
+      "requires_prior_elements": [
+        "triangular turnover body",
+        "round plate ellipse"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/apple-turnover-on-a-plate-step-5.jpg",
+      "step_name": "Scatter crumbs and shade",
+      "visible_job": "Adds crumbs on the plate and light warm shading over the already-drawn pastry.",
+      "introduces": [
+        "crumbs on the plate",
+        "warm pastry shading"
+      ],
+      "requires_prior_elements": [
+        "triangular turnover body",
+        "round plate ellipse"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the apple turnover sketch",
+    "asset": "assets/apple-turnover-on-a-plate-finished-v1.jpg",
+    "visible_job": "Darkens keeper contours, sharpens the crimp marks, warms the pastry shading, and clarifies the fork and crumbs already present.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained golden pastry shading",
+      "small crumb clarification",
+      "fork line cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "No plate, fork, filling slit, crimping, crumbs, or color choice should first appear in the final image.",
+    "No frame may darken, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

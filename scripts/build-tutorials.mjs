@@ -12,8 +12,110 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
-    slug: "strawberry-basket",
+    slug: "folded-camp-map",
     day: "001",
+    date: "Wednesday, May 27",
+    isoDate: "2026-05-27",
+    subject: "a folded camp map",
+    headlineSubject: "a folded<br>camp map",
+    shortSubject: "a folded camp map",
+    lessonTitle: "Let's draw a folded camp map",
+    description: "Learn how to draw a folded camp map with uneven paper edges, crease panels, a winding trail line, small lake, mountain icons, compass arrow, and restrained green and blue pencil color.",
+    intro: "Start with the paper shape and folds, then let the trail, lake, mountains, compass arrow, and soft color sit on top of those panels. Your route can bend differently, as long as the folds and landmarks stay clear.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#6f8f59",
+    finished: "folded-camp-map-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a folded camp map with uneven paper edges, crease panels, winding trail line, blue lake, small mountain icons, compass arrow, green shading, and darkened fold contours",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional green and blue colored pencils"],
+    steps: [
+      {
+        name: "Block the map sheet",
+        text: "Draw a wide paper outline with slightly uneven edges, then mark the top and bottom fold peaks lightly.",
+        tip: "Keep the outside shape simple. A readable folded map starts with a strong paper silhouette."
+      },
+      {
+        name: "Score the folds",
+        text: "Add vertical and diagonal crease lines that divide the paper into folded panels.",
+        tip: "Let every crease connect to the outer edge. Floating fold lines make the paper look flat."
+      },
+      {
+        name: "Draw the trail",
+        text: "Sketch a winding trail line across several panels, letting it bend over the creases.",
+        tip: "Curve the route gently. A trail that snakes too tightly can crowd the small map."
+      },
+      {
+        name: "Add land marks",
+        text: "Place a small lake on one panel and a few tiny mountain icons away from the trail.",
+        tip: "Use simple landmark shapes. The lesson is about a map, not detailed landscape drawing."
+      },
+      {
+        name: "Tint the map",
+        text: "Add a small compass arrow without letters, then shade the existing land and lake with restrained green and blue.",
+        tip: "Keep the color light enough that the trail and fold lines remain easy to see."
+      },
+      {
+        name: "Finish the folded camp map",
+        text: "Darken the keeper contours, clarify the folds, route, lake, mountains, and compass arrow, and deepen the existing color.",
+        tip: "Stop before adding place names or extra symbols. A text-free map stays cleaner for a quick sketch lesson.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "apple-turnover-on-a-plate",
+    day: "040",
+    date: "Sunday, July 5",
+    isoDate: "2026-07-05",
+    subject: "an apple turnover on a plate",
+    headlineSubject: "an apple turnover<br>on a plate",
+    shortSubject: "an apple turnover",
+    lessonTitle: "Let's draw an apple turnover on a plate",
+    description: "Learn how to draw an apple turnover on a plate with a shallow plate ellipse, folded triangular pastry, crimped edge, apple filling slit, fork, crumbs, warm pastry color, and soft graphite shading.",
+    intro: "Start with the plate and folded pastry as simple shapes, then press in the edge, add the filling slit and fork, and finish with crumbs and warm color. Your pastry can be a little uneven; the crimped edge and plate are what make it readable.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#c98737",
+    finished: "apple-turnover-on-a-plate-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a golden triangular apple turnover on a round plate with crimped edge, apple filling slit, fork, crumbs, and soft shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional golden-brown colored pencil"],
+    steps: [
+      {
+        name: "Place the plate and pastry",
+        text: "Draw a shallow oval for the plate, then place a light triangular turnover body inside it.",
+        tip: "Keep the triangle low and wide. A flatter pastry feels more believable on the plate."
+      },
+      {
+        name: "Fold the pastry form",
+        text: "Round the pastry corners and draw the folded seam over the construction lines.",
+        tip: "Let the seam follow the outside edge. That makes the turnover look folded instead of like a plain triangle."
+      },
+      {
+        name: "Press the edge",
+        text: "Add small crimp marks along the folded edge, then clean up the plate rim around the pastry.",
+        tip: "Use short repeated marks for the crimping. They do not need to be perfectly even."
+      },
+      {
+        name: "Add filling and fork",
+        text: "Cut a short slit near the top of the turnover, show a peek of apple filling, and angle a simple fork beside the plate.",
+        tip: "Make the fork narrow and simple. Four readable tines are enough for this sketch."
+      },
+      {
+        name: "Scatter crumbs and shade",
+        text: "Add a few crumbs on the plate, then shade the pastry with light golden pencil and soft graphite under the rim.",
+        tip: "Leave pale paper showing through the color. Broken shading keeps the pastry sketchy and warm."
+      },
+      {
+        name: "Finish the apple turnover sketch",
+        text: "Darken the keeper contours, sharpen the crimp marks, warm the existing pastry shading, and clarify the fork and crumbs.",
+        tip: "Stop before adding a table setting or extra fruit. The plate, fork, crimping, and filling slit already carry the subject.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "strawberry-basket",
+    day: "002",
     date: "Thursday, May 28",
     isoDate: "2026-05-28",
     subject: "a strawberry basket",
@@ -64,7 +166,7 @@ const lessons = [
   },
   {
     slug: "garden-gnome",
-    day: "002",
+    day: "003",
     date: "Friday, May 29",
     isoDate: "2026-05-29",
     subject: "a garden gnome",
@@ -115,7 +217,7 @@ const lessons = [
   },
   {
     slug: "mason-jar-sparklers",
-    day: "003",
+    day: "004",
     date: "Saturday, May 30",
     isoDate: "2026-05-30",
     subject: "a mason jar with sparklers",
@@ -166,7 +268,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-with-sticks",
-    day: "037",
+    day: "038",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a parade drum with sticks",
@@ -217,7 +319,7 @@ const lessons = [
   },
   {
     slug: "waving-flag-on-a-porch",
-    day: "038",
+    day: "039",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a waving flag on a porch",
@@ -268,7 +370,7 @@ const lessons = [
   },
   {
     slug: "mason-jar-with-fireflies",
-    day: "004",
+    day: "005",
     date: "Sunday, May 31",
     isoDate: "2026-05-31",
     subject: "a mason jar with fireflies",
@@ -319,7 +421,7 @@ const lessons = [
   },
   {
     slug: "summer-sun-hat-ribbon",
-    day: "005",
+    day: "006",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a summer sun hat with a ribbon",
@@ -370,7 +472,7 @@ const lessons = [
   },
   {
     slug: "backyard-pinwheel",
-    day: "036",
+    day: "037",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a backyard pinwheel",
@@ -421,7 +523,7 @@ const lessons = [
   },
   {
     slug: "mailbox-with-flag",
-    day: "006",
+    day: "007",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a mailbox with a flag",
@@ -472,7 +574,7 @@ const lessons = [
   },
   {
     slug: "waffle-ice-cream-cone",
-    day: "035",
+    day: "036",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a waffle ice cream cone",
@@ -523,7 +625,7 @@ const lessons = [
   },
   {
     slug: "rain-boot-with-puddle",
-    day: "007",
+    day: "008",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a rain boot with a puddle",
@@ -574,7 +676,7 @@ const lessons = [
   },
   {
     slug: "backyard-telescope",
-    day: "034",
+    day: "035",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a backyard telescope",
@@ -625,7 +727,7 @@ const lessons = [
   },
   {
     slug: "honeybee-on-a-flower",
-    day: "008",
+    day: "009",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a honeybee on a flower",
@@ -676,7 +778,7 @@ const lessons = [
   },
   {
     slug: "curious-fox",
-    day: "019",
+    day: "020",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -794,7 +896,7 @@ const lessons = [
   },
   {
     slug: "tennis-racket-and-ball",
-    day: "033",
+    day: "034",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a tennis racket and ball",
@@ -845,7 +947,7 @@ const lessons = [
   },
   {
     slug: "vintage-roller-skate",
-    day: "032",
+    day: "033",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a vintage roller skate",
@@ -896,7 +998,7 @@ const lessons = [
   },
   {
     slug: "sunglasses-on-a-towel",
-    day: "031",
+    day: "032",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a pair of sunglasses on a towel",
@@ -947,7 +1049,7 @@ const lessons = [
   },
   {
     slug: "desk-dog",
-    day: "030",
+    day: "031",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -998,7 +1100,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "029",
+    day: "030",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -1049,7 +1151,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "028",
+    day: "029",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -1100,7 +1202,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "027",
+    day: "028",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -1151,7 +1253,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "026",
+    day: "027",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -1202,7 +1304,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "025",
+    day: "026",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -1253,7 +1355,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "024",
+    day: "025",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -1304,7 +1406,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "023",
+    day: "024",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -1355,7 +1457,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "022",
+    day: "023",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -1406,7 +1508,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "021",
+    day: "022",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -1462,7 +1564,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "020",
+    day: "021",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -1508,7 +1610,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "018",
+    day: "019",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -1557,7 +1659,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "017",
+    day: "018",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -1606,7 +1708,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "016",
+    day: "017",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -1655,7 +1757,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "015",
+    day: "016",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -1700,7 +1802,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "014",
+    day: "015",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -1751,7 +1853,7 @@ const lessons = [
   },
   {
     slug: "picnic-basket",
-    day: "011",
+    day: "012",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a picnic basket",
@@ -1802,7 +1904,7 @@ const lessons = [
   },
   {
     slug: "pocket-compass",
-    day: "009",
+    day: "010",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a pocket compass",
@@ -1853,7 +1955,7 @@ const lessons = [
   },
   {
     slug: "stack-of-books",
-    day: "010",
+    day: "011",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a stack of books",
@@ -1904,7 +2006,7 @@ const lessons = [
   },
   {
     slug: "seashell-on-sand",
-    day: "012",
+    day: "013",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -1955,7 +2057,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "013",
+    day: "014",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",
@@ -2003,7 +2105,7 @@ const lessons = [
         image: true
       }
     ]
-  },
+  }
 ];
 
 const archiveLessons = [...lessons]
@@ -2113,7 +2215,9 @@ const siteNode = {
 };
 
 const page = (lesson) => {
-  const titleSubject = titleCase(lesson.shortSubject.replace(/^a /, ""));
+  const bareShortSubject = lesson.shortSubject.replace(/^(a|an) /, "");
+  const titleArticle = /^[aeiou]/i.test(bareShortSubject) ? "an" : "a";
+  const titleSubject = titleCase(bareShortSubject);
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -2122,7 +2226,7 @@ const page = (lesson) => {
       {
         "@type": "HowTo",
         "@id": `${lessonUrl(lesson)}#howto`,
-        name: `How to Draw a ${titleSubject}`,
+        name: `How to Draw ${titleArticle} ${titleSubject}`,
         description: lesson.description,
         image: [`${siteUrl}/assets/${lesson.finished}`, socialCardUrl(lesson)],
         datePublished: lesson.isoDate,
@@ -2167,11 +2271,11 @@ const page = (lesson) => {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>How to Draw a ${titleSubject} Step by Step | Sketcha.day</title>
+  <title>How to Draw ${titleArticle} ${titleSubject} Step by Step | Sketcha.day</title>
   <meta name="description" content="${lesson.description}">
   <link rel="canonical" href="https://sketcha.day/tutorials/${lesson.slug}.html">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="How to Draw a ${titleSubject}, Step by Step">
+  <meta property="og:title" content="How to Draw ${titleArticle} ${titleSubject}, Step by Step">
   <meta property="og:description" content="${lesson.description}">
   <meta property="og:url" content="https://sketcha.day/tutorials/${lesson.slug}.html">
   <meta property="og:image" content="${socialCardUrl(lesson)}">

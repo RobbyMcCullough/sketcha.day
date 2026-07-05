@@ -1,0 +1,129 @@
+{
+  "slug": "folded-camp-map",
+  "finished": "assets/folded-camp-map-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel raster contact sheet generated for the May 27, 2026 archive sketch lesson, reviewed before cropping.",
+    "notes": "Prompt required one consistent folded camp map from construction folds to finished sketch, with no embedded labels, words, arrows, signatures, or UI."
+  },
+  "process_strategy": "The sequence establishes the folded paper shape, crease panels, trail line, lake, mountain icons, compass arrow, and restrained color before the final panel only darkens and clarifies those existing elements.",
+  "final_elements": [
+    {
+      "name": "folded paper outline",
+      "introduced_by_step": 1,
+      "description": "A wide folded map sheet with uneven paper edges."
+    },
+    {
+      "name": "crease panels",
+      "introduced_by_step": 2,
+      "description": "Vertical and diagonal fold lines dividing the map into panels."
+    },
+    {
+      "name": "winding trail line",
+      "introduced_by_step": 3,
+      "description": "A curved route crossing the folded map."
+    },
+    {
+      "name": "small lake shape",
+      "introduced_by_step": 4,
+      "description": "A simple organic lake mark on one map panel."
+    },
+    {
+      "name": "mountain icons",
+      "introduced_by_step": 4,
+      "description": "A few tiny triangular mountain marks away from the trail."
+    },
+    {
+      "name": "compass arrow",
+      "introduced_by_step": 5,
+      "description": "A small north-arrow style compass mark in one corner, without letters."
+    },
+    {
+      "name": "restrained map color",
+      "introduced_by_step": 5,
+      "description": "Soft green land tint and blue lake color over established shapes."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/folded-camp-map-step-1.jpg",
+      "step_name": "Block the map sheet",
+      "visible_job": "Draws the broad folded-paper outline with light construction edges.",
+      "introduces": [
+        "folded paper outline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/folded-camp-map-step-2.jpg",
+      "step_name": "Score the folds",
+      "visible_job": "Adds crease panels across the established paper shape.",
+      "introduces": [
+        "crease panels"
+      ],
+      "requires_prior_elements": [
+        "folded paper outline"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/folded-camp-map-step-3.jpg",
+      "step_name": "Draw the trail",
+      "visible_job": "Adds the winding route line across the folded panels.",
+      "introduces": [
+        "winding trail line"
+      ],
+      "requires_prior_elements": [
+        "folded paper outline",
+        "crease panels"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/folded-camp-map-step-4.jpg",
+      "step_name": "Add land marks",
+      "visible_job": "Adds a small lake shape and tiny mountain icons on the map.",
+      "introduces": [
+        "small lake shape",
+        "mountain icons"
+      ],
+      "requires_prior_elements": [
+        "folded paper outline",
+        "crease panels"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/folded-camp-map-step-5.jpg",
+      "step_name": "Tint the map",
+      "visible_job": "Adds a compass arrow and restrained color to the already-drawn lake and land panels.",
+      "introduces": [
+        "compass arrow",
+        "restrained map color"
+      ],
+      "requires_prior_elements": [
+        "folded paper outline",
+        "crease panels",
+        "small lake shape"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the folded camp map",
+    "asset": "assets/folded-camp-map-finished-v1.jpg",
+    "visible_job": "Darkens keeper contours, clarifies folds, trail, lake, mountains, and compass arrow, and deepens the restrained color already present.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "fold-line clarification",
+      "trail and landmark cleanup",
+      "restrained green and blue shading"
+    ]
+  },
+  "rejection_checks": [
+    "No fold, route, lake, mountain mark, compass arrow, or color choice should first appear in the final image.",
+    "No frame may darken, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

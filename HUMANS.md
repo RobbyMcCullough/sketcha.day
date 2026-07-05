@@ -1,9 +1,9 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-04
-- Agent harness: Claude Cowork
-- Harness project/session name: sketcha.day (unused-image investigation + SEO/workflow upgrades)
+- Date: 2026-07-05
+- Agent harness: Codex
+- Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
 - Previous: 2026-07-04 / Codex / Daily sketch and doodle lessons
 
@@ -13,6 +13,21 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-05 daily automation added two Sketcha lessons:
+  `apple-turnover-on-a-plate` as July 5, 2026 / Day 040 and
+  `folded-camp-map` as May 27, 2026 / Day 001 honest archive backfill.
+  Existing day labels shifted forward by one.
+- July 5 Sketcha QA used `python3 scripts/check-daily-publish-slots.py
+  --current-date 2026-07-05`, `python3 scripts/check-tutorial-readiness.py
+  apple-turnover-on-a-plate`, and `python3 scripts/check-tutorial-readiness.py
+  folded-camp-map`. Cove HTTPS loaded in the in-app browser for Sketcha;
+  desktop/mobile screenshots are under
+  `/tmp/daily-sketch-doodle-qa-2026-07-05/`.
+- Finished image ratings: apple turnover on a plate 8.8/10 for clear plated
+  pastry/fork readability, warm sketch color, and a well-aligned process;
+  folded camp map 8.4/10 for readable folds, route, landmarks, and restrained
+  map color. The temporary two-tutorial-per-site backfill cadence is still
+  active until the owner says otherwise.
 - 2026-07-04 Cowork session (after the daily run) investigated why generated
   images kept going unused and shipped workflow + SEO upgrades:
   - Root causes: quality gates ran only after generation, failures triggered

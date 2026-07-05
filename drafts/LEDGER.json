@@ -1,6 +1,9 @@
 {
   "_readme": "Every folder under drafts/ must have an entry here. Statuses: pending (art generated, lesson not yet resolved - blocks new generation), scheduled (held for a future release_date), published, rejected-quality, rejected-duplicate, transferred (moved to a sister site). Validated by scripts/check-drafts-ledger.py; scripts/preflight-image-generation.py locks a slug here before any image generation.",
   "entries": {
+    "apple-turnover-on-a-plate": {
+      "status": "published"
+    },
     "backyard-pinwheel": {
       "status": "published"
     },
@@ -23,6 +26,9 @@
       "status": "rejected-quality",
       "date": "2026-06-17",
       "note": "Process frames never convincingly led to the final sketch; pulled from the Day 007 slot after review. Final art may still be reusable via derived process overlays."
+    },
+    "folded-camp-map": {
+      "status": "published"
     },
     "garden-gnome": {
       "status": "published"
