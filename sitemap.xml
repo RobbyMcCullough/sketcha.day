@@ -2,21 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://sketcha.day/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://sketcha.day/about.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://sketcha.day/library.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sketcha.day/tutorials/airport-control-tower.html</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/airport-control-tower-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/airport-control-tower-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/airport-control-tower-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/airport-control-tower-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/airport-control-tower-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/airport-control-tower-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://sketcha.day/tutorials/apple-turnover-on-a-plate.html</loc>
@@ -949,6 +973,30 @@
     </image:image>
     <image:image>
       <image:loc>https://sketcha.day/assets/folded-camp-map-step-5.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sketcha.day/tutorials/vintage-key-on-a-tag.html</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-key-on-a-tag-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-key-on-a-tag-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-key-on-a-tag-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-key-on-a-tag-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-key-on-a-tag-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-key-on-a-tag-step-5.webp</image:loc>
     </image:image>
   </url>
 </urlset>

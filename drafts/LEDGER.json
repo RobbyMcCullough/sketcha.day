@@ -1,6 +1,9 @@
 {
   "_readme": "Every folder under drafts/ must have an entry here. Statuses: pending (art generated, lesson not yet resolved - blocks new generation), scheduled (held for a future release_date), published, rejected-quality, rejected-duplicate, transferred (moved to a sister site). Validated by scripts/check-drafts-ledger.py; scripts/preflight-image-generation.py locks a slug here before any image generation.",
   "entries": {
+    "airport-control-tower": {
+      "status": "published"
+    },
     "apple-turnover-on-a-plate": {
       "status": "published"
     },
@@ -112,6 +115,9 @@
       "status": "published"
     },
     "tennis-racket-and-ball": {
+      "status": "published"
+    },
+    "vintage-key-on-a-tag": {
       "status": "published"
     },
     "vintage-roller-skate": {

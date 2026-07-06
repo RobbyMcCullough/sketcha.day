@@ -1,0 +1,129 @@
+{
+  "slug": "vintage-key-on-a-tag",
+  "finished": "assets/vintage-key-on-a-tag-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel raster contact sheet generated for the May 26, 2026 honest archive backfill sketch lesson, reviewed before cropping.",
+    "notes": "Prompt required one consistent vintage key with blank tag from construction to finished pencil sketch, with no embedded labels, numbers, arrows, signatures, or fake UI."
+  },
+  "process_strategy": "The sequence builds the key shaft, bow, teeth, blank tag, string loop, surface shadow, and restrained brass shading before the final panel only darkens keeper lines and clarifies existing details.",
+  "final_elements": [
+    {
+      "name": "long key shaft",
+      "introduced_by_step": 1,
+      "description": "A straight horizontal key stem that anchors the drawing."
+    },
+    {
+      "name": "round key bow",
+      "introduced_by_step": 1,
+      "description": "A rounded handle loop at one end of the key."
+    },
+    {
+      "name": "key teeth",
+      "introduced_by_step": 2,
+      "description": "Small stepped cuts at the business end of the key."
+    },
+    {
+      "name": "inner bow opening",
+      "introduced_by_step": 3,
+      "description": "A smaller oval hole inside the key bow."
+    },
+    {
+      "name": "blank paper tag",
+      "introduced_by_step": 4,
+      "description": "A simple blank tag attached near the bow with no writing."
+    },
+    {
+      "name": "string loop",
+      "introduced_by_step": 4,
+      "description": "A short loop connecting the tag to the key."
+    },
+    {
+      "name": "brass shading and surface shadow",
+      "introduced_by_step": 5,
+      "description": "Restrained warm brass color on the key and a soft graphite shadow underneath."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/vintage-key-on-a-tag-step-1.jpg",
+      "step_name": "Lay in the key",
+      "visible_job": "Blocks the long shaft and round bow with light construction lines.",
+      "introduces": [
+        "long key shaft",
+        "round key bow"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/vintage-key-on-a-tag-step-2.jpg",
+      "step_name": "Cut the teeth",
+      "visible_job": "Adds stepped key teeth to the end of the existing shaft.",
+      "introduces": [
+        "key teeth"
+      ],
+      "requires_prior_elements": [
+        "long key shaft"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/vintage-key-on-a-tag-step-3.jpg",
+      "step_name": "Open the bow",
+      "visible_job": "Adds the inner bow opening and cleans the main key silhouette.",
+      "introduces": [
+        "inner bow opening"
+      ],
+      "requires_prior_elements": [
+        "round key bow"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/vintage-key-on-a-tag-step-4.jpg",
+      "step_name": "Tie on the tag",
+      "visible_job": "Adds a blank paper tag and string loop near the bow.",
+      "introduces": [
+        "blank paper tag",
+        "string loop"
+      ],
+      "requires_prior_elements": [
+        "round key bow"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/vintage-key-on-a-tag-step-5.jpg",
+      "step_name": "Shade the brass",
+      "visible_job": "Adds restrained brass shading to the existing key and a soft surface shadow.",
+      "introduces": [
+        "brass shading and surface shadow"
+      ],
+      "requires_prior_elements": [
+        "long key shaft",
+        "round key bow",
+        "key teeth",
+        "blank paper tag"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the vintage key sketch",
+    "asset": "assets/vintage-key-on-a-tag-finished-v1.jpg",
+    "visible_job": "Darkens keeper contours, clarifies the bow, teeth, tag, and string loop, and deepens the existing brass shading and surface shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "tooth and bow clarification",
+      "tag edge cleanup",
+      "restrained brass shading",
+      "surface shadow strengthening"
+    ]
+  },
+  "rejection_checks": [
+    "No shaft, bow, teeth, tag, string loop, shadow, or color choice should first appear in the final image.",
+    "No frame may darken, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

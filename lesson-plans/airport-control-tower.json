@@ -1,0 +1,135 @@
+{
+  "slug": "airport-control-tower",
+  "finished": "assets/airport-control-tower-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel raster contact sheet generated for the July 6, 2026 airport control tower sketch lesson, reviewed before cropping.",
+    "notes": "Prompt required one consistent sketchbook control tower from construction to finished pencil sketch, with no embedded labels, arrows, numbers, signatures, or fake UI."
+  },
+  "process_strategy": "The sequence builds the tower shaft, observation cab, angled windows, antenna, runway base marks, and restrained sky shading before the final panel only darkens keeper lines and clarifies existing details.",
+  "final_elements": [
+    {
+      "name": "tall tower shaft",
+      "introduced_by_step": 1,
+      "description": "A narrow tapered support rising from the page."
+    },
+    {
+      "name": "wide observation cab",
+      "introduced_by_step": 1,
+      "description": "A wider top room sitting on the tower shaft."
+    },
+    {
+      "name": "slanted window band",
+      "introduced_by_step": 2,
+      "description": "Angled panes wrapping around the cab."
+    },
+    {
+      "name": "cab roof and antenna",
+      "introduced_by_step": 3,
+      "description": "A low roof cap with a small antenna on top."
+    },
+    {
+      "name": "base platform",
+      "introduced_by_step": 3,
+      "description": "A simple footing and small platform at the bottom of the tower."
+    },
+    {
+      "name": "runway perspective marks",
+      "introduced_by_step": 4,
+      "description": "A few light runway lines behind the tower base."
+    },
+    {
+      "name": "window shadows",
+      "introduced_by_step": 5,
+      "description": "Soft graphite shading inside the already-drawn window panes."
+    },
+    {
+      "name": "restrained sky color",
+      "introduced_by_step": 5,
+      "description": "A pale blue wash around the tower that stays secondary to the pencil lines."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/airport-control-tower-step-1.jpg",
+      "step_name": "Stack the main forms",
+      "visible_job": "Blocks in the tapered tower shaft and wider observation cab with light construction lines.",
+      "introduces": [
+        "tall tower shaft",
+        "wide observation cab"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/airport-control-tower-step-2.jpg",
+      "step_name": "Wrap the windows",
+      "visible_job": "Adds the slanted window band across the cab while keeping the main forms visible.",
+      "introduces": [
+        "slanted window band"
+      ],
+      "requires_prior_elements": [
+        "wide observation cab"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/airport-control-tower-step-3.jpg",
+      "step_name": "Cap the tower",
+      "visible_job": "Adds the cab roof, small antenna, and base platform.",
+      "introduces": [
+        "cab roof and antenna",
+        "base platform"
+      ],
+      "requires_prior_elements": [
+        "tall tower shaft",
+        "wide observation cab"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/airport-control-tower-step-4.jpg",
+      "step_name": "Set the runway",
+      "visible_job": "Places light runway perspective marks behind the base without changing the tower pose.",
+      "introduces": [
+        "runway perspective marks"
+      ],
+      "requires_prior_elements": [
+        "base platform"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/airport-control-tower-step-5.jpg",
+      "step_name": "Shade windows and sky",
+      "visible_job": "Adds soft window shadows and restrained sky color to the already-drawn tower.",
+      "introduces": [
+        "window shadows",
+        "restrained sky color"
+      ],
+      "requires_prior_elements": [
+        "slanted window band",
+        "wide observation cab",
+        "tall tower shaft"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the control tower sketch",
+    "asset": "assets/airport-control-tower-finished-v1.jpg",
+    "visible_job": "Darkens keeper contours, clarifies the window panes and antenna, strengthens the runway marks, and balances the pale sky color already present.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "window-pane clarification",
+      "antenna line cleanup",
+      "restrained sky shading",
+      "runway mark sharpening"
+    ]
+  },
+  "rejection_checks": [
+    "No tower shaft, cab, window band, roof, antenna, base, runway mark, or color choice should first appear in the final image.",
+    "No frame may darken, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

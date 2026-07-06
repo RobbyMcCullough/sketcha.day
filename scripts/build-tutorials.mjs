@@ -12,8 +12,110 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
-    slug: "folded-camp-map",
+    slug: "vintage-key-on-a-tag",
     day: "001",
+    date: "Tuesday, May 26",
+    isoDate: "2026-05-26",
+    subject: "a vintage key on a tag",
+    headlineSubject: "a vintage key<br>on a tag",
+    shortSubject: "a vintage key",
+    lessonTitle: "Let's draw a vintage key on a tag",
+    description: "Learn how to draw a vintage key on a tag with a long shaft, round bow, inner opening, stepped teeth, blank paper tag, string loop, warm brass shading, and soft graphite shadow.",
+    intro: "Start with the key as a long simple shape, then cut the teeth, open the bow, tie on the blank tag, and finish with brass shading. Your tag can hang at a different angle, as long as the key stays easy to read.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#b28b42",
+    finished: "vintage-key-on-a-tag-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a vintage brass key with long shaft, round bow, inner opening, stepped teeth, blank paper tag, string loop, and soft surface shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional warm ochre colored pencil"],
+    steps: [
+      {
+        name: "Lay in the key",
+        text: "Draw a long light shaft, then add a round bow at one end to set the key's diagonal pose.",
+        tip: "Keep the shaft straight before adding details. A clean center line makes the old key feel solid."
+      },
+      {
+        name: "Cut the teeth",
+        text: "Add small stepped teeth at the end of the shaft, keeping them simple and square.",
+        tip: "Use two or three tooth cuts. Too many notches can make this quick sketch feel fussy."
+      },
+      {
+        name: "Open the bow",
+        text: "Draw a smaller opening inside the round bow, then clean the main key silhouette.",
+        tip: "Leave an even ring of metal around the hole. That ring is what makes the bow read clearly."
+      },
+      {
+        name: "Tie on the tag",
+        text: "Attach a blank paper tag near the bow with a short string loop.",
+        tip: "Keep the tag free of writing. The lesson is about shape and texture, not tiny lettering."
+      },
+      {
+        name: "Shade the brass",
+        text: "Add warm brass shading to the existing key, light tone on the tag, and a soft shadow underneath.",
+        tip: "Shade along the shaft instead of filling it flat. Long strokes make the key feel metallic but still sketchy."
+      },
+      {
+        name: "Finish the vintage key sketch",
+        text: "Darken the keeper contours, clarify the bow, teeth, tag, and string loop, and deepen the existing brass shading and shadow.",
+        tip: "Stop before adding extra keys or written labels. The blank tag and old brass shape are enough.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "airport-control-tower",
+    day: "042",
+    date: "Monday, July 6",
+    isoDate: "2026-07-06",
+    subject: "an airport control tower",
+    headlineSubject: "an airport<br>control tower",
+    shortSubject: "an airport control tower",
+    lessonTitle: "Let's draw an airport control tower",
+    description: "Learn how to draw an airport control tower with a tapered shaft, wide glass cab, roof antenna, angled window panels, runway perspective marks, and restrained blue-gray pencil shading.",
+    intro: "Build the tower from simple stacked shapes, then wrap the glass cab, place the runway context, and finish with soft sky color. Your airport can be busier later; keep the tower, windows, and runway readable first.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#6f8faa",
+    finished: "airport-control-tower-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of an airport control tower with tapered shaft, wide glass cab, roof antenna, angled window panels, base platform, runway perspective marks, blue-gray sky, and soft shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blue-gray colored pencil"],
+    steps: [
+      {
+        name: "Stack the main forms",
+        text: "Draw a tall tapered shaft, then set a wider glass control cab on top with light construction lines.",
+        tip: "Keep the cab centered over the shaft. A tiny lean will make the whole tower feel unstable."
+      },
+      {
+        name: "Wrap the windows",
+        text: "Add the slanted window band across the cab while keeping the same tower shaft underneath.",
+        tip: "Use a few large panes instead of many tiny ones. They will stay readable after shading."
+      },
+      {
+        name: "Cap the tower",
+        text: "Add the cab roof, small antenna, and simple base platform without changing the main tower pose.",
+        tip: "Let the cap follow the cab's top edge. That small angle helps the tower feel three-dimensional."
+      },
+      {
+        name: "Set the runway",
+        text: "Place light runway perspective marks behind the base so the tower feels grounded at the airport.",
+        tip: "Keep the runway marks simple. They should support the tower instead of becoming a detailed landscape."
+      },
+      {
+        name: "Shade windows and sky",
+        text: "Add light blue-gray sky tint, soft graphite shadow on the shaft, and darker tones in the window panes.",
+        tip: "Shade around the window panes, not over all of them. Leaving pale glass makes the cab easier to read."
+      },
+      {
+        name: "Finish the control tower sketch",
+        text: "Darken the keeper contours, clarify the panes, antenna, and runway marks, and deepen the existing blue-gray shading.",
+        tip: "Stop before adding lettering, signs, or extra vehicles. The tower shape and runway already carry the drawing.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "folded-camp-map",
+    day: "002",
     date: "Wednesday, May 27",
     isoDate: "2026-05-27",
     subject: "a folded camp map",
@@ -64,7 +166,7 @@ const lessons = [
   },
   {
     slug: "apple-turnover-on-a-plate",
-    day: "040",
+    day: "041",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     subject: "an apple turnover on a plate",
@@ -115,7 +217,7 @@ const lessons = [
   },
   {
     slug: "strawberry-basket",
-    day: "002",
+    day: "003",
     date: "Thursday, May 28",
     isoDate: "2026-05-28",
     subject: "a strawberry basket",
@@ -166,7 +268,7 @@ const lessons = [
   },
   {
     slug: "garden-gnome",
-    day: "003",
+    day: "004",
     date: "Friday, May 29",
     isoDate: "2026-05-29",
     subject: "a garden gnome",
@@ -217,7 +319,7 @@ const lessons = [
   },
   {
     slug: "mason-jar-sparklers",
-    day: "004",
+    day: "005",
     date: "Saturday, May 30",
     isoDate: "2026-05-30",
     subject: "a mason jar with sparklers",
@@ -268,7 +370,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-with-sticks",
-    day: "038",
+    day: "039",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a parade drum with sticks",
@@ -319,7 +421,7 @@ const lessons = [
   },
   {
     slug: "waving-flag-on-a-porch",
-    day: "039",
+    day: "040",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a waving flag on a porch",
@@ -370,7 +472,7 @@ const lessons = [
   },
   {
     slug: "mason-jar-with-fireflies",
-    day: "005",
+    day: "006",
     date: "Sunday, May 31",
     isoDate: "2026-05-31",
     subject: "a mason jar with fireflies",
@@ -421,7 +523,7 @@ const lessons = [
   },
   {
     slug: "summer-sun-hat-ribbon",
-    day: "006",
+    day: "007",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a summer sun hat with a ribbon",
@@ -472,7 +574,7 @@ const lessons = [
   },
   {
     slug: "backyard-pinwheel",
-    day: "037",
+    day: "038",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a backyard pinwheel",
@@ -523,7 +625,7 @@ const lessons = [
   },
   {
     slug: "mailbox-with-flag",
-    day: "007",
+    day: "008",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a mailbox with a flag",
@@ -574,7 +676,7 @@ const lessons = [
   },
   {
     slug: "waffle-ice-cream-cone",
-    day: "036",
+    day: "037",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a waffle ice cream cone",
@@ -625,7 +727,7 @@ const lessons = [
   },
   {
     slug: "rain-boot-with-puddle",
-    day: "008",
+    day: "009",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a rain boot with a puddle",
@@ -676,7 +778,7 @@ const lessons = [
   },
   {
     slug: "backyard-telescope",
-    day: "035",
+    day: "036",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a backyard telescope",
@@ -727,7 +829,7 @@ const lessons = [
   },
   {
     slug: "honeybee-on-a-flower",
-    day: "009",
+    day: "010",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a honeybee on a flower",
@@ -778,7 +880,7 @@ const lessons = [
   },
   {
     slug: "curious-fox",
-    day: "020",
+    day: "021",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -896,7 +998,7 @@ const lessons = [
   },
   {
     slug: "tennis-racket-and-ball",
-    day: "034",
+    day: "035",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a tennis racket and ball",
@@ -947,7 +1049,7 @@ const lessons = [
   },
   {
     slug: "vintage-roller-skate",
-    day: "033",
+    day: "034",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a vintage roller skate",
@@ -998,7 +1100,7 @@ const lessons = [
   },
   {
     slug: "sunglasses-on-a-towel",
-    day: "032",
+    day: "033",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a pair of sunglasses on a towel",
@@ -1049,7 +1151,7 @@ const lessons = [
   },
   {
     slug: "desk-dog",
-    day: "031",
+    day: "032",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -1100,7 +1202,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "030",
+    day: "031",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -1151,7 +1253,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "029",
+    day: "030",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -1202,7 +1304,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "028",
+    day: "029",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -1253,7 +1355,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "027",
+    day: "028",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -1304,7 +1406,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "026",
+    day: "027",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -1355,7 +1457,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "025",
+    day: "026",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -1406,7 +1508,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "024",
+    day: "025",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -1457,7 +1559,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "023",
+    day: "024",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -1508,7 +1610,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "022",
+    day: "023",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -1564,7 +1666,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "021",
+    day: "022",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -1610,7 +1712,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "019",
+    day: "020",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -1659,7 +1761,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "018",
+    day: "019",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -1708,7 +1810,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "017",
+    day: "018",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -1757,7 +1859,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "016",
+    day: "017",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -1802,7 +1904,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "015",
+    day: "016",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -1853,7 +1955,7 @@ const lessons = [
   },
   {
     slug: "picnic-basket",
-    day: "012",
+    day: "013",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a picnic basket",
@@ -1904,7 +2006,7 @@ const lessons = [
   },
   {
     slug: "pocket-compass",
-    day: "010",
+    day: "011",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a pocket compass",
@@ -1955,7 +2057,7 @@ const lessons = [
   },
   {
     slug: "stack-of-books",
-    day: "011",
+    day: "012",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a stack of books",
@@ -2006,7 +2108,7 @@ const lessons = [
   },
   {
     slug: "seashell-on-sand",
-    day: "013",
+    day: "014",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -2057,7 +2159,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "014",
+    day: "015",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",

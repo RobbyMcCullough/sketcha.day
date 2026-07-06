@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-05
+- Date: 2026-07-06
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-04 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-05 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,23 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-06 daily automation added two Sketcha lessons:
+  `airport-control-tower` as July 6, 2026 / Day 042 and
+  `vintage-key-on-a-tag` as May 26, 2026 / Day 001 honest archive backfill.
+  Existing day labels shifted forward by one.
+- July 6 Sketcha QA used `python3 scripts/check-daily-publish-slots.py
+  --current-date 2026-07-06`, an explicit allowed-current/backfill slot check
+  for May 26 after the current lesson passed readiness, and
+  `python3 scripts/check-tutorial-readiness.py` for both new slugs. Cove HTTPS
+  returned 200 to curl but the in-app browser rejected the local certificate,
+  so rendered desktop/mobile QA used the existing fallback server on
+  `http://localhost:4173/`; screenshots are under
+  `/tmp/daily-sketch-doodle-qa-2026-07-06/`.
+- Finished image ratings: airport control tower 8.5/10 for readable tower cab,
+  runway context, and aligned construction; vintage key on a tag 8.7/10 for
+  strong key/tag readability, warm brass texture, and a clear progressive
+  process. The temporary two-tutorial-per-site backfill cadence is still active
+  until the owner says otherwise.
 - 2026-07-05 daily automation added two Sketcha lessons:
   `apple-turnover-on-a-plate` as July 5, 2026 / Day 040 and
   `folded-camp-map` as May 27, 2026 / Day 001 honest archive backfill.

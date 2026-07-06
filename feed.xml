@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw an airport control tower</title>
+      <link>https://sketcha.day/tutorials/airport-control-tower.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/airport-control-tower.html</guid>
+      <pubDate>Mon, 06 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw an airport control tower with a tapered shaft, wide glass cab, roof antenna, angled window panels, runway perspective marks, and restrained blue-gray pencil shading.</description>
+      <media:content url="https://sketcha.day/assets/airport-control-tower-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw an apple turnover on a plate</title>
       <link>https://sketcha.day/tutorials/apple-turnover-on-a-plate.html</link>
@@ -326,6 +334,14 @@
       <pubDate>Wed, 27 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a folded camp map with uneven paper edges, crease panels, a winding trail line, small lake, mountain icons, compass arrow, and restrained green and blue pencil color.</description>
       <media:content url="https://sketcha.day/assets/folded-camp-map-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a vintage key on a tag</title>
+      <link>https://sketcha.day/tutorials/vintage-key-on-a-tag.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/vintage-key-on-a-tag.html</guid>
+      <pubDate>Tue, 26 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a vintage key on a tag with a long shaft, round bow, inner opening, stepped teeth, blank paper tag, string loop, warm brass shading, and soft graphite shadow.</description>
+      <media:content url="https://sketcha.day/assets/vintage-key-on-a-tag-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>
