@@ -1,0 +1,123 @@
+{
+  "slug": "old-fashioned-bicycle-basket",
+  "finished": "assets/old-fashioned-bicycle-basket-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel raster contact sheet generated for the May 25, 2026 old-fashioned bicycle with basket sketch lesson, reviewed before cropping.",
+    "notes": "Prompt required one consistent side-view bicycle process with no embedded labels, arrows, numbers, signatures, watermarks, or fake UI."
+  },
+  "process_strategy": "The sequence builds the wheel circles, frame triangle, handlebar and seat, front basket, spokes, tire shadows, and restrained warm pencil accents before the final panel only darkens keeper lines and clarifies existing details.",
+  "final_elements": [
+    {
+      "name": "two bicycle wheels",
+      "introduced_by_step": 1,
+      "description": "Two round wheels aligned in a simple side view."
+    },
+    {
+      "name": "frame triangle",
+      "introduced_by_step": 2,
+      "description": "A clean diamond/triangle frame connecting both wheels."
+    },
+    {
+      "name": "seat and handlebar",
+      "introduced_by_step": 3,
+      "description": "A small seat and curved handlebar placed on the existing frame."
+    },
+    {
+      "name": "front basket",
+      "introduced_by_step": 4,
+      "description": "A small woven basket attached above the front wheel."
+    },
+    {
+      "name": "spokes and chain",
+      "introduced_by_step": 5,
+      "description": "Light wheel spokes plus a simple chain line already attached to the frame."
+    },
+    {
+      "name": "restrained basket tint and tire shadows",
+      "introduced_by_step": 5,
+      "description": "Soft warm color on the basket and light graphite shadows under the tires."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/old-fashioned-bicycle-basket-step-1.jpg",
+      "step_name": "Set the wheels",
+      "visible_job": "Blocks in two aligned wheel circles with light construction marks.",
+      "introduces": [
+        "two bicycle wheels"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/old-fashioned-bicycle-basket-step-2.jpg",
+      "step_name": "Connect the frame",
+      "visible_job": "Adds the frame triangle connecting the two wheels.",
+      "introduces": [
+        "frame triangle"
+      ],
+      "requires_prior_elements": [
+        "two bicycle wheels"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/old-fashioned-bicycle-basket-step-3.jpg",
+      "step_name": "Add seat and handlebar",
+      "visible_job": "Places the small seat and curved handlebar on the existing frame.",
+      "introduces": [
+        "seat and handlebar"
+      ],
+      "requires_prior_elements": [
+        "frame triangle"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/old-fashioned-bicycle-basket-step-4.jpg",
+      "step_name": "Hang the basket",
+      "visible_job": "Adds the front basket above the front wheel without changing the bicycle pose.",
+      "introduces": [
+        "front basket"
+      ],
+      "requires_prior_elements": [
+        "seat and handlebar",
+        "two bicycle wheels"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/old-fashioned-bicycle-basket-step-5.jpg",
+      "step_name": "Add spokes and shade",
+      "visible_job": "Adds light spokes, a simple chain, restrained basket tint, and tire shadows to existing forms.",
+      "introduces": [
+        "spokes and chain",
+        "restrained basket tint and tire shadows"
+      ],
+      "requires_prior_elements": [
+        "two bicycle wheels",
+        "frame triangle",
+        "front basket"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the bicycle sketch",
+    "asset": "assets/old-fashioned-bicycle-basket-finished-v1.jpg",
+    "visible_job": "Darkens keeper contours, clarifies the spokes, chain, handlebar, seat, and basket weave, and balances the existing warm tint and tire shadows.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "spoke clarification",
+      "chain line cleanup",
+      "basket weave clarification",
+      "restrained pencil tint and shadow deepening"
+    ]
+  },
+  "rejection_checks": [
+    "No wheel, frame, seat, handlebar, basket, spoke, chain, tint, or tire shadow should first appear in the final image.",
+    "No frame may darken, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

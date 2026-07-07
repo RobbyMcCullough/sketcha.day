@@ -1,7 +1,7 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-06
+- Date: 2026-07-07
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
@@ -13,6 +13,20 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-07 daily automation added two Sketcha lessons:
+  `record-player-with-vinyl` as July 7, 2026 / Day 044 and
+  `old-fashioned-bicycle-basket` as May 25, 2026 / Day 001 honest archive
+  backfill. Existing day labels shifted forward by one.
+- July 7 Sketcha QA used `python3 scripts/check-daily-publish-slots.py
+  --current-date 2026-07-07`, preflight slug locks, contact-sheet cropping,
+  `python3 scripts/check-tutorial-readiness.py` for both new slugs, and Cove
+  rendered desktop/mobile QA at `https://sketcha.localhost/`. Screenshots are
+  under `/tmp/daily-sketch-doodle-qa-2026-07-07/`.
+- Finished image ratings: record player with vinyl 8.8/10 for clear record,
+  tonearm, lid, and aligned process; old-fashioned bicycle with basket 8.6/10
+  for readable wheels/frame/basket and a teachable step sequence. The
+  temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
 - 2026-07-06 daily automation added two Sketcha lessons:
   `airport-control-tower` as July 6, 2026 / Day 042 and
   `vintage-key-on-a-tag` as May 26, 2026 / Day 001 honest archive backfill.

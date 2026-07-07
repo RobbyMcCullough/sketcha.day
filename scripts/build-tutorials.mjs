@@ -12,8 +12,110 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
-    slug: "vintage-key-on-a-tag",
+    slug: "old-fashioned-bicycle-basket",
     day: "001",
+    date: "Monday, May 25",
+    isoDate: "2026-05-25",
+    subject: "an old-fashioned bicycle with a basket",
+    headlineSubject: "an old-fashioned<br>bicycle with a basket",
+    shortSubject: "a bicycle with a basket",
+    lessonTitle: "Let's draw an old-fashioned bicycle with a basket",
+    description: "Learn how to draw an old-fashioned bicycle with a basket using two round wheels, a simple frame triangle, seat, curved handlebar, front basket, spokes, chain, basket weave, and soft graphite shadows.",
+    intro: "Start with the two wheels, connect the frame, then add the seat, handlebar, basket, spokes, chain, and soft shadows. Your bicycle can lean more casually later; keep the wheel spacing and basket placement clear first.",
+    time: 30,
+    difficulty: "Medium",
+    accent: "#b88d55",
+    finished: "old-fashioned-bicycle-basket-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of an old-fashioned side-view bicycle with two round wheels, thin frame, curved handlebar, small seat, front woven basket, spokes, chain, and soft tire shadows",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional warm brown colored pencil"],
+    steps: [
+      {
+        name: "Set the wheels",
+        text: "Draw two light wheel circles on the same ground line, leaving a comfortable gap between them.",
+        tip: "Spend an extra moment matching the wheel size. Even old bicycles look better when the wheels agree."
+      },
+      {
+        name: "Connect the frame",
+        text: "Add the simple frame triangle between the wheels, using straight lines that meet near the wheel hubs.",
+        tip: "Keep the frame open and simple. The triangle matters more than tiny metal parts."
+      },
+      {
+        name: "Add seat and handlebar",
+        text: "Place a small seat above the back wheel and a curved handlebar above the front fork.",
+        tip: "Let the handlebar curl just a little. That old-fashioned curve gives the bike personality."
+      },
+      {
+        name: "Hang the basket",
+        text: "Draw a small basket above the front wheel, attached to the handlebar area.",
+        tip: "Use a simple trapezoid basket shape first. The weave lines can wait until the structure is clear."
+      },
+      {
+        name: "Add spokes and shade",
+        text: "Add light spokes, a simple chain line, a few basket weave marks, warm basket tint, and soft shadows under the tires.",
+        tip: "Suggest the spokes instead of drawing every one perfectly. Light repeated lines are enough."
+      },
+      {
+        name: "Finish the bicycle sketch",
+        text: "Darken the keeper contours, clarify the spokes, chain, handlebar, seat, and basket weave, and deepen the existing tint and tire shadows.",
+        tip: "Stop before adding a street scene or flowers. The basket, wheels, frame, and handlebar already make the bicycle readable.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "record-player-with-vinyl",
+    day: "044",
+    date: "Tuesday, July 7",
+    isoDate: "2026-07-07",
+    subject: "a record player with vinyl",
+    headlineSubject: "a record player<br>with vinyl",
+    shortSubject: "a record player",
+    lessonTitle: "Let's draw a record player with vinyl",
+    description: "Learn how to draw a record player with vinyl using a shallow turntable base, round record, center label, angled tonearm, needle head, raised lid, small controls, record grooves, and soft graphite shading.",
+    intro: "Start with the turntable as a simple box and circle, then place the label, tonearm, lid, controls, and grooves before deepening the graphite. Your player can have different knobs later; keep the record, arm, and open lid readable first.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#6f6b5f",
+    finished: "record-player-with-vinyl-finished-v1.jpg",
+    finishedAlt: "Graphite sketch of a record player with open lid, round vinyl record, center label, angled tonearm, needle head, small base controls, record grooves, and soft shadows",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blending stump"],
+    steps: [
+      {
+        name: "Place the base and record",
+        text: "Draw a shallow rectangular base in perspective, then add the large record circle or ellipse on top.",
+        tip: "Keep the record centered on the base. A small tilt is fine, but the disc should not slide off the player."
+      },
+      {
+        name: "Center the label",
+        text: "Add the small center label and refine the record edge so it sits cleanly inside the base.",
+        tip: "Leave a calm circle in the middle. That empty label helps the darker vinyl grooves read later."
+      },
+      {
+        name: "Angle the tonearm",
+        text: "Draw a slim angled tonearm from the back corner toward the record, then add the small needle head.",
+        tip: "Aim the needle toward the outer half of the record. That angle makes the player look ready to play."
+      },
+      {
+        name: "Set the back hinge",
+        text: "Add the open lid and hinge along the back edge without changing the turntable's angle.",
+        tip: "Let the lid follow the same perspective as the base. Matching angles keep the sketch believable."
+      },
+      {
+        name: "Add grooves and controls",
+        text: "Draw light circular grooves on the vinyl, add a couple of small controls, and shade under the record and arm.",
+        tip: "Use light pressure for the grooves. Too many dark rings can flatten the record."
+      },
+      {
+        name: "Finish the record player sketch",
+        text: "Darken the keeper contours, clarify the grooves, needle head, hinge, and controls, and balance the existing graphite shadows.",
+        tip: "Stop before adding music notes, lettering, or extra records. The open lid, disc, and tonearm already tell the story.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "vintage-key-on-a-tag",
+    day: "002",
     date: "Tuesday, May 26",
     isoDate: "2026-05-26",
     subject: "a vintage key on a tag",
@@ -64,7 +166,7 @@ const lessons = [
   },
   {
     slug: "airport-control-tower",
-    day: "042",
+    day: "043",
     date: "Monday, July 6",
     isoDate: "2026-07-06",
     subject: "an airport control tower",
@@ -115,7 +217,7 @@ const lessons = [
   },
   {
     slug: "folded-camp-map",
-    day: "002",
+    day: "003",
     date: "Wednesday, May 27",
     isoDate: "2026-05-27",
     subject: "a folded camp map",
@@ -166,7 +268,7 @@ const lessons = [
   },
   {
     slug: "apple-turnover-on-a-plate",
-    day: "041",
+    day: "042",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     subject: "an apple turnover on a plate",
@@ -217,7 +319,7 @@ const lessons = [
   },
   {
     slug: "strawberry-basket",
-    day: "003",
+    day: "004",
     date: "Thursday, May 28",
     isoDate: "2026-05-28",
     subject: "a strawberry basket",
@@ -268,7 +370,7 @@ const lessons = [
   },
   {
     slug: "garden-gnome",
-    day: "004",
+    day: "005",
     date: "Friday, May 29",
     isoDate: "2026-05-29",
     subject: "a garden gnome",
@@ -319,7 +421,7 @@ const lessons = [
   },
   {
     slug: "mason-jar-sparklers",
-    day: "005",
+    day: "006",
     date: "Saturday, May 30",
     isoDate: "2026-05-30",
     subject: "a mason jar with sparklers",
@@ -370,7 +472,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-with-sticks",
-    day: "039",
+    day: "040",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a parade drum with sticks",
@@ -421,7 +523,7 @@ const lessons = [
   },
   {
     slug: "waving-flag-on-a-porch",
-    day: "040",
+    day: "041",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a waving flag on a porch",
@@ -472,7 +574,7 @@ const lessons = [
   },
   {
     slug: "mason-jar-with-fireflies",
-    day: "006",
+    day: "007",
     date: "Sunday, May 31",
     isoDate: "2026-05-31",
     subject: "a mason jar with fireflies",
@@ -523,7 +625,7 @@ const lessons = [
   },
   {
     slug: "summer-sun-hat-ribbon",
-    day: "007",
+    day: "008",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a summer sun hat with a ribbon",
@@ -574,7 +676,7 @@ const lessons = [
   },
   {
     slug: "backyard-pinwheel",
-    day: "038",
+    day: "039",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a backyard pinwheel",
@@ -625,7 +727,7 @@ const lessons = [
   },
   {
     slug: "mailbox-with-flag",
-    day: "008",
+    day: "009",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a mailbox with a flag",
@@ -676,7 +778,7 @@ const lessons = [
   },
   {
     slug: "waffle-ice-cream-cone",
-    day: "037",
+    day: "038",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a waffle ice cream cone",
@@ -727,7 +829,7 @@ const lessons = [
   },
   {
     slug: "rain-boot-with-puddle",
-    day: "009",
+    day: "010",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a rain boot with a puddle",
@@ -778,7 +880,7 @@ const lessons = [
   },
   {
     slug: "backyard-telescope",
-    day: "036",
+    day: "037",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a backyard telescope",
@@ -829,7 +931,7 @@ const lessons = [
   },
   {
     slug: "honeybee-on-a-flower",
-    day: "010",
+    day: "011",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a honeybee on a flower",
@@ -880,7 +982,7 @@ const lessons = [
   },
   {
     slug: "curious-fox",
-    day: "021",
+    day: "022",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -998,7 +1100,7 @@ const lessons = [
   },
   {
     slug: "tennis-racket-and-ball",
-    day: "035",
+    day: "036",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a tennis racket and ball",
@@ -1049,7 +1151,7 @@ const lessons = [
   },
   {
     slug: "vintage-roller-skate",
-    day: "034",
+    day: "035",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a vintage roller skate",
@@ -1100,7 +1202,7 @@ const lessons = [
   },
   {
     slug: "sunglasses-on-a-towel",
-    day: "033",
+    day: "034",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a pair of sunglasses on a towel",
@@ -1151,7 +1253,7 @@ const lessons = [
   },
   {
     slug: "desk-dog",
-    day: "032",
+    day: "033",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -1202,7 +1304,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "031",
+    day: "032",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -1253,7 +1355,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "030",
+    day: "031",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -1304,7 +1406,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "029",
+    day: "030",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -1355,7 +1457,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "028",
+    day: "029",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -1406,7 +1508,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "027",
+    day: "028",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -1457,7 +1559,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "026",
+    day: "027",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -1508,7 +1610,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "025",
+    day: "026",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -1559,7 +1661,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "024",
+    day: "025",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -1610,7 +1712,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "023",
+    day: "024",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -1666,7 +1768,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "022",
+    day: "023",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -1712,7 +1814,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "020",
+    day: "021",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -1761,7 +1863,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "019",
+    day: "020",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -1810,7 +1912,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "018",
+    day: "019",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -1859,7 +1961,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "017",
+    day: "018",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -1904,7 +2006,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "016",
+    day: "017",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -1955,7 +2057,7 @@ const lessons = [
   },
   {
     slug: "picnic-basket",
-    day: "013",
+    day: "014",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a picnic basket",
@@ -2006,7 +2108,7 @@ const lessons = [
   },
   {
     slug: "pocket-compass",
-    day: "011",
+    day: "012",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a pocket compass",
@@ -2057,7 +2159,7 @@ const lessons = [
   },
   {
     slug: "stack-of-books",
-    day: "012",
+    day: "013",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a stack of books",
@@ -2108,7 +2210,7 @@ const lessons = [
   },
   {
     slug: "seashell-on-sand",
-    day: "014",
+    day: "015",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -2159,7 +2261,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "015",
+    day: "016",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",

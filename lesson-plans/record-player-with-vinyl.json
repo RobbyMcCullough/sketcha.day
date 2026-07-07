@@ -1,0 +1,136 @@
+{
+  "slug": "record-player-with-vinyl",
+  "finished": "assets/record-player-with-vinyl-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel raster contact sheet generated for the July 7, 2026 record player with vinyl sketch lesson, reviewed before cropping.",
+    "notes": "Prompt required one consistent tabletop record player process with no embedded labels, arrows, numbers, signatures, watermarks, or fake UI."
+  },
+  "process_strategy": "The sequence builds the turntable base, vinyl disc, center label, tonearm, needle head, lid hinge, controls, grooves, and restrained shadows before the final panel only darkens keeper lines and clarifies existing details.",
+  "final_elements": [
+    {
+      "name": "turntable base",
+      "introduced_by_step": 1,
+      "description": "A shallow rectangular player body seen from a slight top angle."
+    },
+    {
+      "name": "vinyl disc",
+      "introduced_by_step": 1,
+      "description": "A large dark round record sitting on the base."
+    },
+    {
+      "name": "center label",
+      "introduced_by_step": 2,
+      "description": "A small circle in the middle of the record."
+    },
+    {
+      "name": "tonearm",
+      "introduced_by_step": 3,
+      "description": "A slim angled arm reaching toward the record."
+    },
+    {
+      "name": "needle head",
+      "introduced_by_step": 3,
+      "description": "A small cartridge shape at the end of the tonearm."
+    },
+    {
+      "name": "lid hinge and back edge",
+      "introduced_by_step": 4,
+      "description": "A simple back hinge and raised lid edge behind the record."
+    },
+    {
+      "name": "record grooves and controls",
+      "introduced_by_step": 5,
+      "description": "Light circular groove lines plus small knobs already placed on the base."
+    },
+    {
+      "name": "restrained graphite shadows",
+      "introduced_by_step": 5,
+      "description": "Soft shadows under the disc, tonearm, and base that keep the sketch handmade."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/record-player-with-vinyl-step-1.jpg",
+      "step_name": "Place the base and record",
+      "visible_job": "Blocks in the shallow rectangular base and the big vinyl disc with light construction marks.",
+      "introduces": [
+        "turntable base",
+        "vinyl disc"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/record-player-with-vinyl-step-2.jpg",
+      "step_name": "Center the label",
+      "visible_job": "Adds the small center label and adjusts the record ellipse on the existing base.",
+      "introduces": [
+        "center label"
+      ],
+      "requires_prior_elements": [
+        "vinyl disc"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/record-player-with-vinyl-step-3.jpg",
+      "step_name": "Angle the tonearm",
+      "visible_job": "Adds the angled tonearm and needle head reaching toward the record.",
+      "introduces": [
+        "tonearm",
+        "needle head"
+      ],
+      "requires_prior_elements": [
+        "turntable base",
+        "vinyl disc"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/record-player-with-vinyl-step-4.jpg",
+      "step_name": "Set the back hinge",
+      "visible_job": "Adds the lid hinge and back edge behind the record without changing the player angle.",
+      "introduces": [
+        "lid hinge and back edge"
+      ],
+      "requires_prior_elements": [
+        "turntable base"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/record-player-with-vinyl-step-5.jpg",
+      "step_name": "Add grooves and controls",
+      "visible_job": "Adds light record grooves, small base controls, and soft graphite shadows on existing forms.",
+      "introduces": [
+        "record grooves and controls",
+        "restrained graphite shadows"
+      ],
+      "requires_prior_elements": [
+        "vinyl disc",
+        "center label",
+        "tonearm",
+        "turntable base"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the record player sketch",
+    "asset": "assets/record-player-with-vinyl-finished-v1.jpg",
+    "visible_job": "Darkens keeper contours, clarifies the grooves, needle head, hinge, and controls, and balances the restrained graphite shadows already present.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "groove clarification",
+      "needle-head cleanup",
+      "hinge line sharpening",
+      "restrained graphite shading"
+    ]
+  },
+  "rejection_checks": [
+    "No base, record, label, tonearm, needle head, hinge, control, groove, or shadow choice should first appear in the final image.",
+    "No frame may darken, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}
