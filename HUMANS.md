@@ -13,6 +13,10 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-07 owner guidance update: `DAILY-PUBLISHING.md` now requires future
+  written lesson steps/tips to include actionable drawing techniques such as
+  ghosting, light construction passes, page rotation, negative-space checks,
+  angle comparison, pressure control, and contour simplification.
 - 2026-07-07 daily automation added two Sketcha lessons:
   `record-player-with-vinyl` as July 7, 2026 / Day 044 and
   `old-fashioned-bicycle-basket` as May 25, 2026 / Day 001 honest archive

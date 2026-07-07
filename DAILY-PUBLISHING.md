@@ -240,6 +240,18 @@ layout that makes the lesson feel less polished than the current site standard.
   closing steps. Avoid sounding apologetic or vague: make it clear that the
   steps are recommendations for learning the form, and that personal variation
   is part of drawing.
+- Include practical art technique in the written steps and tips, not only
+  object assembly. Each new lesson should teach at least one transferable skill
+  that helps the reader draw better next time: ghosting a long curve or straight
+  line before touching the pencil down, using light construction passes before
+  keeper lines, rotating the page for a cleaner stroke, checking negative
+  spaces, comparing angles, varying pressure, simplifying a contour into
+  larger arcs, or stopping before shading muddies the form.
+- Technique advice must be actionable and tied to the current step. Prefer
+  specific coaching such as "ghost the handle curve two or three times, then
+  draw it in one relaxed pass" or "squint and compare the empty space between
+  the wheels" over generic encouragement like "take your time" or "add
+  details."
 - Keep the subject in the same position and scale in every frame.
 - Each step must make one visible, describable change.
 - A refinement step cannot introduce the feature it refines. Do not let a
