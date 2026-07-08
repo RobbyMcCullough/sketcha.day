@@ -53,7 +53,22 @@ For daily lesson work, read these files in order:
 2. `HUMANS.md`
 3. `DAILY-PUBLISHING.md`
 
-Before choosing subjects or creating art, run the duplicate-slot guard:
+Before choosing subjects or creating art, acquire the cross-site daily run lock
+from this repo. The lock is shared with Doodlea.day through the sibling parent
+folder, so a second automation run will stop before it can create rogue art:
+
+```sh
+python3 scripts/daily-publish-lock.py acquire --current-date YYYY-MM-DD
+```
+
+Save the printed lock token for every preflight command in this run, and release
+the lock after commit/push or after any stop condition:
+
+```sh
+python3 scripts/daily-publish-lock.py release --token LOCK_TOKEN
+```
+
+Then run the duplicate-slot guard:
 
 ```sh
 python3 scripts/check-daily-publish-slots.py --current-date YYYY-MM-DD
@@ -69,15 +84,16 @@ Then, before generating ANY lesson art, lock the slug with the pre-flight gate
 (this is mandatory, not advisory):
 
 ```sh
-python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-MM-DD
+python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-MM-DD --lock-token LOCK_TOKEN
 ```
 
 It fails when unresolved generated art exists anywhere in `drafts/`
 (see `drafts/LEDGER.json`), when the slug is already published, or when the
-daily slot is taken. Every draft folder must carry a ledger status; resolve
-pending art (promote it, record a rejection, or get owner direction) before
-generating a different subject. `scripts/check-drafts-ledger.py` validates the
-ledger and runs inside the readiness check.
+daily slot is taken, and it also fails if the run-level daily publishing lock is
+missing or owned by another process. Every draft folder must carry a ledger
+status; resolve pending art (promote it, record a rejection, or get owner
+direction) before generating a different subject. `scripts/check-drafts-ledger.py`
+validates the ledger and runs inside the readiness check.
 
 Then update the lesson data in `scripts/build-tutorials.mjs`, create any new
 assets under `assets/`, run the generator, QA the homepage plus changed pages,

@@ -44,7 +44,23 @@ When this guide is used by a scheduled Codex automation, the job should:
    current daily tutorial and one backdated tutorial in the same run. Keep
    backdated lessons honest in public copy: no invented traffic, comments,
    popularity, or fake community activity.
-3. Before choosing subjects or making art, run the duplicate-slot guard:
+3. Before choosing subjects or making art, acquire the cross-site daily run lock.
+   This is the mutex that prevents two automation runs from both passing the
+   duplicate-slot guard before either has committed:
+
+```sh
+python3 scripts/daily-publish-lock.py acquire --current-date YYYY-MM-DD
+```
+
+   Save the printed lock token and pass it to every
+   `preflight-image-generation.py` call in this run. Release the lock after the
+   successful commit/push, or immediately when the run stops:
+
+```sh
+python3 scripts/daily-publish-lock.py release --token LOCK_TOKEN
+```
+
+4. Run the duplicate-slot guard:
 
 ```sh
 python3 scripts/check-daily-publish-slots.py --current-date YYYY-MM-DD
@@ -55,26 +71,27 @@ python3 scripts/check-daily-publish-slots.py --current-date YYYY-MM-DD
    For a correction, rerun the guard with the matching
    `--allow-existing-current-slug` or `--allow-existing-backfill-slug` flag and
    keep the work scoped to that existing slug.
-4. Do a quick source check for timely hooks before choosing the subject:
+5. Do a quick source check for timely hooks before choosing the subject:
    current news, major sports, holidays, seasons, cultural moments, and daily
    observances. Use a timely subject only when it naturally fits Sketcha.day,
    can be taught as an attainable sketch, and does not duplicate the sister
    Doodlea.day subject for the same run. Do not force a weak trend.
-5. Pick one specific lesson subject with a clear search phrase, such as
+6. Pick one specific lesson subject with a clear search phrase, such as
    "how to draw a rainy-day frog" or "how to draw a cozy mushroom."
-6. Compare the candidate with existing lessons in `scripts/build-tutorials.mjs`
+7. Compare the candidate with existing lessons in `scripts/build-tutorials.mjs`
    and `library.html`; choose a different subject if it repeats a recent lesson's
    core shape, category, or drawing skill.
-7. Lock the exact publish slugs before generating any image by running the
+8. Lock the exact publish slugs before generating any image by running the
    mandatory pre-flight gate for each approved slug:
 
 ```sh
-python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-MM-DD
+python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-MM-DD --lock-token LOCK_TOKEN
 ```
 
    The gate fails when unresolved generated art exists in `drafts/`
    (`drafts/LEDGER.json`), when the slug is already published, or when the
-   daily slot is taken, and it records the slug lock in the ledger. A normal
+   daily slot is taken, or when the run-level daily publishing lock is missing
+   or owned by another process. It records the slug lock in the ledger. A normal
    run generates art only for the locked current slug and locked backfill slug.
    Do not create speculative contact sheets, backup subjects, or alternate
    directions. If generated art ends up unused, resolve its ledger entry
@@ -84,7 +101,7 @@ python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-
    or get owner direction. Prefer repairing a failed panel (see
    `PROCESS-IMAGE-WORKFLOW.md`) over replacing the whole subject; a subject
    swap after failed art is itself a rejection that must be recorded.
-8. Write or update `lesson-plans/{slug}.json` before creating final page data.
+9. Write or update `lesson-plans/{slug}.json` before creating final page data.
    Start from `lesson-plans/TEMPLATE.json`. The plan must name the finished
    asset, each major finished element, the non-final frame where that element
    first appears, each process frame's visible job, and the final step's allowed
@@ -92,28 +109,28 @@ python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-
    Any frame that darkens, inks, fills, colors, shades, cleans, or clarifies
    existing parts must list those parts in `requires_prior_elements`, and each
    listed part must have an earlier `introduced_by_step`.
-9. Create or update generated raster art for the finished sketch and tutorial
+10. Create or update generated raster art for the finished sketch and tutorial
    steps. Prefer one master reference and derived step frames over unrelated
    one-off images.
-10. Run the process-plan and step-delta gates for the lesson slug, then inspect
+11. Run the process-plan and step-delta gates for the lesson slug, then inspect
    the contact sheet so repeated or barely changed frames are caught before page
    QA.
-11. Rate the final image using the 10-point gate below. Regenerate until the
+12. Rate the final image using the 10-point gate below. Regenerate until the
    finished image is at least 8/10.
-12. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
+13. Add the lesson data to `scripts/build-tutorials.mjs` using the next day
    number and the intended publish date.
-13. Run `node scripts/build-tutorials.mjs`, then build the delivery images:
+14. Run `node scripts/build-tutorials.mjs`, then build the delivery images:
    `python3 scripts/build-image-derivatives.py` (WebP served by pages; the
    JPGs stay as reviewed masters) and `python3 scripts/make-social-cards.py`
    (1200x630 Open Graph cards). Both are idempotent and also run inside the
    readiness check. Commit the derivatives and card together with the lesson.
-14. QA the homepage, `library.html`, and the new tutorial page at desktop and
+15. QA the homepage, `library.html`, and the new tutorial page at desktop and
    mobile widths.
-15. Rate the rendered page layout using the 10-point gate below. Do not publish
+16. Rate the rendered page layout using the 10-point gate below. Do not publish
     unless the layout scores at least 8/10.
-16. Commit the work with a concise message only when the page passes the
+17. Commit the work with a concise message only when the page passes the
    anti-slop review and validation checks.
-17. For scheduled daily lesson automation, push the passing commit to `main` so
+18. For scheduled daily lesson automation, push the passing commit to `main` so
     it publishes. No separate editorial review is required after the automated
     quality gates pass.
 

@@ -13,6 +13,12 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-08 concurrency fix: added `scripts/daily-publish-lock.py`, a
+  cross-site atomic lock shared through the sibling parent folder. Future daily
+  runs must acquire it before subject selection, pass the printed token to every
+  `scripts/preflight-image-generation.py --lock-token ...` call, and release it
+  after commit/push or any stop condition. Preflight now fails before art
+  generation when the token is missing or owned by another run.
 - 2026-07-08 daily automation added two Sketcha lessons:
   `cozy-reading-lamp` as July 8, 2026 / Day 046 and
   `wooden-clothespin` as May 24, 2026 / Day 001 honest archive backfill.
