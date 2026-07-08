@@ -1,0 +1,142 @@
+{
+  "slug": "wooden-clothespin",
+  "finished": "assets/wooden-clothespin-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Six-panel generated raster process sheet cropped into five step frames and one finished pencil sketch.",
+    "notes": "Created for the 2026-05-24 honest Sketcha.day archive backfill."
+  },
+  "process_strategy": "One diagonal clothespin is constructed from two long wooden halves, then notches, spring wire, wood grain, and a cast shadow are added before final line and tone reinforcement.",
+  "final_elements": [
+    {
+      "name": "diagonal clothespin body",
+      "introduced_by_step": 1,
+      "description": "A long narrow clothespin silhouette set on a slight diagonal."
+    },
+    {
+      "name": "two wooden halves",
+      "introduced_by_step": 2,
+      "description": "Parallel upper and lower wooden jaws separated by a central gap."
+    },
+    {
+      "name": "pinched jaw tips",
+      "introduced_by_step": 2,
+      "description": "Tapered gripping ends at the front of the clothespin."
+    },
+    {
+      "name": "center spring coil",
+      "introduced_by_step": 3,
+      "description": "A small metal coil near the middle of the clothespin."
+    },
+    {
+      "name": "wire arms",
+      "introduced_by_step": 3,
+      "description": "Curved wire arms crossing from the spring into the wooden halves."
+    },
+    {
+      "name": "side notches",
+      "introduced_by_step": 4,
+      "description": "Small carved notches beside the spring area."
+    },
+    {
+      "name": "wood grain lines",
+      "introduced_by_step": 5,
+      "description": "Light grain strokes following the length of the wooden halves."
+    },
+    {
+      "name": "warm wood shading",
+      "introduced_by_step": 5,
+      "description": "Restrained tan pencil tone on the already drawn wood."
+    },
+    {
+      "name": "cast shadow",
+      "introduced_by_step": 5,
+      "description": "A soft shadow beneath the diagonal pin."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/wooden-clothespin-step-1.jpg",
+      "step_name": "Lay in the long guide",
+      "visible_job": "Places the diagonal clothespin body as one simple tapered guide shape.",
+      "introduces": [
+        "diagonal clothespin body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/wooden-clothespin-step-2.jpg",
+      "step_name": "Split the wooden halves",
+      "visible_job": "Divides the guide into two wooden halves and shapes the pinched jaw tips.",
+      "introduces": [
+        "two wooden halves",
+        "pinched jaw tips"
+      ],
+      "requires_prior_elements": [
+        "diagonal clothespin body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/wooden-clothespin-step-3.jpg",
+      "step_name": "Set the spring",
+      "visible_job": "Adds the center spring coil and wire arms without changing the wooden body.",
+      "introduces": [
+        "center spring coil",
+        "wire arms"
+      ],
+      "requires_prior_elements": [
+        "two wooden halves"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/wooden-clothespin-step-4.jpg",
+      "step_name": "Carve the notches",
+      "visible_job": "Adds small side notches around the already placed spring area.",
+      "introduces": [
+        "side notches"
+      ],
+      "requires_prior_elements": [
+        "center spring coil",
+        "wire arms",
+        "two wooden halves"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/wooden-clothespin-step-5.jpg",
+      "step_name": "Add grain and tone",
+      "visible_job": "Adds wood grain, warm wood shading, and a soft cast shadow to the existing clothespin.",
+      "introduces": [
+        "wood grain lines",
+        "warm wood shading",
+        "cast shadow"
+      ],
+      "requires_prior_elements": [
+        "two wooden halves",
+        "pinched jaw tips",
+        "side notches"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the clothespin sketch",
+    "asset": "assets/wooden-clothespin-finished-v1.jpg",
+    "visible_job": "Only clarifies the existing edges, spring, grain, warm tone, and shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "spring line clarification",
+      "restrained tan pencil shading",
+      "wood grain darkening",
+      "soft shadow reinforcement"
+    ]
+  },
+  "rejection_checks": [
+    "No new jaw, spring, wire arm, notch, grain field, or shadow should first appear in the final image.",
+    "The clothespin must stay diagonal with the same taper and spring position in every frame.",
+    "The final must look like a small pencil sketch, not a clean vector icon.",
+    "No adjacent frame should look unchanged at card size."
+  ]
+}

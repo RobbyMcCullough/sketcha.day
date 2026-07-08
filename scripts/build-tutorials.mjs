@@ -12,8 +12,59 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
-    slug: "old-fashioned-bicycle-basket",
+    slug: "wooden-clothespin",
     day: "001",
+    date: "Sunday, May 24",
+    isoDate: "2026-05-24",
+    subject: "a wooden clothespin",
+    headlineSubject: "a wooden<br>clothespin",
+    shortSubject: "a clothespin",
+    lessonTitle: "Let's draw a wooden clothespin",
+    description: "Learn how to draw a wooden clothespin with two long wooden halves, pinched jaws, a center spring coil, wire arms, side notches, wood grain, warm pencil tone, and a soft cast shadow.",
+    intro: "Start with one long diagonal guide, split it into the two wooden halves, then place the spring before adding grain and tone. This is a small object, so the lesson is really about keeping parallel edges and tiny hardware readable.",
+    time: 20,
+    difficulty: "Easy-medium",
+    accent: "#c49a5f",
+    finished: "wooden-clothespin-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a diagonal wooden clothespin with two wooden halves, pinched jaws, center metal spring, wire arms, wood grain, warm tan shading, and soft shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional tan colored pencil"],
+    steps: [
+      {
+        name: "Lay in the long guide",
+        text: "Draw one long, light diagonal guide for the clothespin body, tapering it slightly toward the jaw end.",
+        tip: "Ghost the long edge before touching the pencil down. One relaxed stroke keeps this simple object from looking kinked."
+      },
+      {
+        name: "Split the wooden halves",
+        text: "Add a narrow gap down the middle, then shape the two wooden halves and the pinched jaw tips.",
+        tip: "Compare the negative space between the halves. If the gap widens too much, the spring will feel off-center later."
+      },
+      {
+        name: "Set the spring",
+        text: "Place a small coil near the middle and draw the curved wire arms crossing into the wooden halves.",
+        tip: "Draw the coil as a few nested curves, not a perfect machine part. The readable position matters more than exact metal loops."
+      },
+      {
+        name: "Carve the notches",
+        text: "Add the small side notches around the spring area and clean up the jaw tips.",
+        tip: "Use light pressure while cutting the notches. They should interrupt the long sides without breaking the whole silhouette."
+      },
+      {
+        name: "Add grain and tone",
+        text: "Run a few grain lines along the wooden halves, add warm tan pencil tone, and place a soft shadow under the diagonal pin.",
+        tip: "Pull the grain lines in the same direction as the wood. Parallel texture makes the clothespin feel solid."
+      },
+      {
+        name: "Finish the clothespin sketch",
+        text: "Darken the keeper contours, clarify the spring and wire arms, deepen the existing grain, warm tone, and soft shadow.",
+        tip: "Stop before adding a clothesline or extra laundry. The two jaws, spring, and grain are enough to make the object clear.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "old-fashioned-bicycle-basket",
+    day: "002",
     date: "Monday, May 25",
     isoDate: "2026-05-25",
     subject: "an old-fashioned bicycle with a basket",
@@ -64,7 +115,7 @@ const lessons = [
   },
   {
     slug: "record-player-with-vinyl",
-    day: "044",
+    day: "045",
     date: "Tuesday, July 7",
     isoDate: "2026-07-07",
     subject: "a record player with vinyl",
@@ -114,8 +165,59 @@ const lessons = [
     ]
   },
   {
+    slug: "cozy-reading-lamp",
+    day: "046",
+    date: "Wednesday, July 8",
+    isoDate: "2026-07-08",
+    subject: "a cozy reading lamp",
+    headlineSubject: "a cozy<br>reading lamp",
+    shortSubject: "a reading lamp",
+    lessonTitle: "Let's draw a cozy reading lamp",
+    description: "Learn how to draw a cozy reading lamp with a tilted shade, curved neck, round base, desk edge, open book, pull chain, warm shade tint, and soft graphite shadow.",
+    intro: "Build the lamp from ellipses and a simple stem, then set it on the desk, tuck in the open book, and finish with warm shade color. Your lamp can lean differently later; keep the shade, base, and chain clear first.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#d9a744",
+    finished: "cozy-reading-lamp-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a cozy desk reading lamp with tilted warm shade, curved neck, round base, pull chain, open book, desk edge, and soft shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional warm yellow colored pencil"],
+    steps: [
+      {
+        name: "Block the lamp shapes",
+        text: "Draw a light tilted shade ellipse, then drop in the curved neck, slim stem, and oval base.",
+        tip: "Ghost the shade ellipse a few times before committing. A calm opening makes the whole lamp feel solid."
+      },
+      {
+        name: "Set the desk",
+        text: "Refine the outside shade and base contours, then add the desk edge and a first soft shadow under the base.",
+        tip: "Keep the desk line behind the lamp light. It should ground the sketch without slicing through the base."
+      },
+      {
+        name: "Refine the shade",
+        text: "Clarify the shade rim, underside ellipse, neck connection, stem, and base ellipse.",
+        tip: "Compare the empty space under the shade with the space above the base. That negative-space check keeps the neck from stretching."
+      },
+      {
+        name: "Add the open book",
+        text: "Place a small open book beside the base, using two simple page shapes and a light center fold.",
+        tip: "Rotate the page if the book edges feel awkward. Short straight strokes are easier when your wrist has room."
+      },
+      {
+        name: "Add chain and warmth",
+        text: "Hang a short pull chain under the shade, add a little warm shade tint, and deepen the existing cast shadow.",
+        tip: "Use light pressure for the yellow tint. The warmth should suggest lamplight, not cover the pencil drawing."
+      },
+      {
+        name: "Finish the cozy lamp sketch",
+        text: "Darken the keeper contours, clarify the shade, base, pull chain, book, warm tint, and desk shadow.",
+        tip: "Stop before adding wall art, lettering, or extra desk clutter. The lamp, book, and glow already make the scene cozy.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "vintage-key-on-a-tag",
-    day: "002",
+    day: "003",
     date: "Tuesday, May 26",
     isoDate: "2026-05-26",
     subject: "a vintage key on a tag",
@@ -166,7 +268,7 @@ const lessons = [
   },
   {
     slug: "airport-control-tower",
-    day: "043",
+    day: "044",
     date: "Monday, July 6",
     isoDate: "2026-07-06",
     subject: "an airport control tower",
@@ -217,7 +319,7 @@ const lessons = [
   },
   {
     slug: "folded-camp-map",
-    day: "003",
+    day: "004",
     date: "Wednesday, May 27",
     isoDate: "2026-05-27",
     subject: "a folded camp map",
@@ -268,7 +370,7 @@ const lessons = [
   },
   {
     slug: "apple-turnover-on-a-plate",
-    day: "042",
+    day: "043",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     subject: "an apple turnover on a plate",
@@ -319,7 +421,7 @@ const lessons = [
   },
   {
     slug: "strawberry-basket",
-    day: "004",
+    day: "005",
     date: "Thursday, May 28",
     isoDate: "2026-05-28",
     subject: "a strawberry basket",
@@ -370,7 +472,7 @@ const lessons = [
   },
   {
     slug: "garden-gnome",
-    day: "005",
+    day: "006",
     date: "Friday, May 29",
     isoDate: "2026-05-29",
     subject: "a garden gnome",
@@ -421,7 +523,7 @@ const lessons = [
   },
   {
     slug: "mason-jar-sparklers",
-    day: "006",
+    day: "007",
     date: "Saturday, May 30",
     isoDate: "2026-05-30",
     subject: "a mason jar with sparklers",
@@ -472,7 +574,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-with-sticks",
-    day: "040",
+    day: "041",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a parade drum with sticks",
@@ -523,7 +625,7 @@ const lessons = [
   },
   {
     slug: "waving-flag-on-a-porch",
-    day: "041",
+    day: "042",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a waving flag on a porch",
@@ -574,7 +676,7 @@ const lessons = [
   },
   {
     slug: "mason-jar-with-fireflies",
-    day: "007",
+    day: "008",
     date: "Sunday, May 31",
     isoDate: "2026-05-31",
     subject: "a mason jar with fireflies",
@@ -625,7 +727,7 @@ const lessons = [
   },
   {
     slug: "summer-sun-hat-ribbon",
-    day: "008",
+    day: "009",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a summer sun hat with a ribbon",
@@ -676,7 +778,7 @@ const lessons = [
   },
   {
     slug: "backyard-pinwheel",
-    day: "039",
+    day: "040",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a backyard pinwheel",
@@ -727,7 +829,7 @@ const lessons = [
   },
   {
     slug: "mailbox-with-flag",
-    day: "009",
+    day: "010",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a mailbox with a flag",
@@ -778,7 +880,7 @@ const lessons = [
   },
   {
     slug: "waffle-ice-cream-cone",
-    day: "038",
+    day: "039",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a waffle ice cream cone",
@@ -829,7 +931,7 @@ const lessons = [
   },
   {
     slug: "rain-boot-with-puddle",
-    day: "010",
+    day: "011",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a rain boot with a puddle",
@@ -880,7 +982,7 @@ const lessons = [
   },
   {
     slug: "backyard-telescope",
-    day: "037",
+    day: "038",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a backyard telescope",
@@ -931,7 +1033,7 @@ const lessons = [
   },
   {
     slug: "honeybee-on-a-flower",
-    day: "011",
+    day: "012",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a honeybee on a flower",
@@ -982,7 +1084,7 @@ const lessons = [
   },
   {
     slug: "curious-fox",
-    day: "022",
+    day: "023",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -1100,7 +1202,7 @@ const lessons = [
   },
   {
     slug: "tennis-racket-and-ball",
-    day: "036",
+    day: "037",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a tennis racket and ball",
@@ -1151,7 +1253,7 @@ const lessons = [
   },
   {
     slug: "vintage-roller-skate",
-    day: "035",
+    day: "036",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a vintage roller skate",
@@ -1202,7 +1304,7 @@ const lessons = [
   },
   {
     slug: "sunglasses-on-a-towel",
-    day: "034",
+    day: "035",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a pair of sunglasses on a towel",
@@ -1253,7 +1355,7 @@ const lessons = [
   },
   {
     slug: "desk-dog",
-    day: "033",
+    day: "034",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -1304,7 +1406,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "032",
+    day: "033",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -1355,7 +1457,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "031",
+    day: "032",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -1406,7 +1508,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "030",
+    day: "031",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -1457,7 +1559,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "029",
+    day: "030",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -1508,7 +1610,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "028",
+    day: "029",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -1559,7 +1661,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "027",
+    day: "028",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -1610,7 +1712,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "026",
+    day: "027",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -1661,7 +1763,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "025",
+    day: "026",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -1712,7 +1814,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "024",
+    day: "025",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -1768,7 +1870,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "023",
+    day: "024",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -1814,7 +1916,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "021",
+    day: "022",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -1863,7 +1965,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "020",
+    day: "021",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -1912,7 +2014,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "019",
+    day: "020",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -1961,7 +2063,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "018",
+    day: "019",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -2006,7 +2108,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "017",
+    day: "018",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -2057,7 +2159,7 @@ const lessons = [
   },
   {
     slug: "picnic-basket",
-    day: "014",
+    day: "015",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a picnic basket",
@@ -2108,7 +2210,7 @@ const lessons = [
   },
   {
     slug: "pocket-compass",
-    day: "012",
+    day: "013",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a pocket compass",
@@ -2159,7 +2261,7 @@ const lessons = [
   },
   {
     slug: "stack-of-books",
-    day: "013",
+    day: "014",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a stack of books",
@@ -2210,7 +2312,7 @@ const lessons = [
   },
   {
     slug: "seashell-on-sand",
-    day: "015",
+    day: "016",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -2261,7 +2363,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "016",
+    day: "017",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",

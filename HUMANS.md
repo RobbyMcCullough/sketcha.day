@@ -13,6 +13,24 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-08 daily automation added two Sketcha lessons:
+  `cozy-reading-lamp` as July 8, 2026 / Day 046 and
+  `wooden-clothespin` as May 24, 2026 / Day 001 honest archive backfill.
+  Existing day labels shifted forward by one.
+- July 8 Sketcha QA used `python3 scripts/check-daily-publish-slots.py
+  --current-date 2026-07-08`, preflight slug lock for
+  `cozy-reading-lamp`, contact-sheet cropping, and
+  `python3 scripts/check-tutorial-readiness.py` for both new slugs. Cove
+  rendered desktop/mobile QA passed at `https://sketcha.localhost/`; screenshots
+  are under `/tmp/daily-sketch-doodle-qa-2026-07-08/`.
+- Finished image ratings: cozy reading lamp 8.7/10 for readable shade, base,
+  open book, pull chain, warm tint, and aligned process; wooden clothespin
+  8.6/10 for clear wooden halves, spring/wire mechanism, grain, and teachable
+  perspective. A generated `baseball-glove-with-ball` draft sheet was recorded
+  as rejected-duplicate because this run already had a stronger non-sports
+  backfill and recent lessons include tennis/soccer drawing problems. The
+  temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
 - 2026-07-07 owner guidance update: `DAILY-PUBLISHING.md` now requires future
   written lesson steps/tips to include actionable drawing techniques such as
   ghosting, light construction passes, page rotation, negative-space checks,

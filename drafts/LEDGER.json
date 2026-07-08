@@ -13,10 +13,18 @@
     "backyard-telescope": {
       "status": "published"
     },
+    "baseball-glove-with-ball": {
+      "status": "rejected-duplicate",
+      "date": "2026-07-08",
+      "note": "Generated after preflight, then set aside before publication because the July 8 current slot was occupied by cozy-reading-lamp during the same run. Draft sheet retained outside public navigation."
+    },
     "birdhouse-on-a-post": {
       "status": "published"
     },
     "camping-lantern": {
+      "status": "published"
+    },
+    "cozy-reading-lamp": {
       "status": "published"
     },
     "cozy-teacup": {
@@ -133,6 +141,9 @@
       "status": "published"
     },
     "waving-flag-on-a-porch": {
+      "status": "published"
+    },
+    "wooden-clothespin": {
       "status": "published"
     }
   }

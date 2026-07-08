@@ -1,0 +1,137 @@
+{
+  "slug": "cozy-reading-lamp",
+  "finished": "assets/cozy-reading-lamp-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A six-panel raster contact sheet generated for the locked July 8 Sketcha.day slug, then cropped into step frames and the finished master.",
+    "notes": "The sheet must keep the same lamp pose, desk edge, shade, base, pull chain, book, glow, and shadow from construction through finish."
+  },
+  "process_strategy": "The lamp is built from simple ellipses, a tilted shade, neck, base, book, and desk shadow before the final only darkens keeper lines and adds restrained warm shading.",
+  "final_elements": [
+    {
+      "name": "tilted lamp shade",
+      "introduced_by_step": 1,
+      "description": "A slightly angled cone shade with an elliptical opening."
+    },
+    {
+      "name": "lamp neck and stem",
+      "introduced_by_step": 1,
+      "description": "A slim curved neck connecting the shade to the base."
+    },
+    {
+      "name": "round lamp base",
+      "introduced_by_step": 1,
+      "description": "A low oval base sitting on the desk."
+    },
+    {
+      "name": "desk edge and shadow",
+      "introduced_by_step": 2,
+      "description": "A simple tabletop line and soft cast shadow grounding the lamp."
+    },
+    {
+      "name": "shade rim and base refinement",
+      "introduced_by_step": 3,
+      "description": "Cleaner ellipses and connection lines on the already placed shade, neck, and base."
+    },
+    {
+      "name": "small open book",
+      "introduced_by_step": 4,
+      "description": "A small open book resting near the lamp base."
+    },
+    {
+      "name": "pull chain and switch",
+      "introduced_by_step": 5,
+      "description": "A short hanging chain under the shade with a tiny pull."
+    },
+    {
+      "name": "warm shade tint",
+      "introduced_by_step": 5,
+      "description": "Restrained yellow shading on the shade and glow area."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cozy-reading-lamp-step-1.jpg",
+      "step_name": "Block the lamp shapes",
+      "visible_job": "Places the shade ellipse, curved neck, stem, and oval base in a light construction pass.",
+      "introduces": [
+        "tilted lamp shade",
+        "lamp neck and stem",
+        "round lamp base"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cozy-reading-lamp-step-2.jpg",
+      "step_name": "Set the desk",
+      "visible_job": "Refines the outside shade and base contours, then adds the desk edge and first grounding shadow.",
+      "introduces": [
+        "desk edge and shadow"
+      ],
+      "requires_prior_elements": [
+        "tilted lamp shade",
+        "lamp neck and stem",
+        "round lamp base"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cozy-reading-lamp-step-3.jpg",
+      "step_name": "Refine the shade",
+      "visible_job": "Clarifies the shade rim, underside, neck connection, and base ellipse.",
+      "introduces": [
+        "shade rim and base refinement"
+      ],
+      "requires_prior_elements": [
+        "tilted lamp shade",
+        "lamp neck and stem",
+        "round lamp base"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cozy-reading-lamp-step-4.jpg",
+      "step_name": "Add the open book",
+      "visible_job": "Adds a small open book beside the base without changing the lamp pose.",
+      "introduces": [
+        "small open book"
+      ],
+      "requires_prior_elements": [
+        "desk edge and shadow",
+        "round lamp base"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cozy-reading-lamp-step-5.jpg",
+      "step_name": "Add chain and warmth",
+      "visible_job": "Adds the pull chain, light warm shade tint, and stronger existing cast shadow.",
+      "introduces": [
+        "pull chain and switch",
+        "warm shade tint"
+      ],
+      "requires_prior_elements": [
+        "tilted lamp shade",
+        "desk edge and shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the cozy lamp sketch",
+    "asset": "assets/cozy-reading-lamp-finished-v1.jpg",
+    "visible_job": "Only darkens the keeper contours, clarifies the existing shade, base, chain, book, tint, and desk shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained warm colored-pencil shading",
+      "soft graphite shadow deepening",
+      "small cleanup marks on existing features"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}
