@@ -1,0 +1,129 @@
+{
+  "slug": "sugar-cookie-on-a-napkin",
+  "finished": "assets/sugar-cookie-on-a-napkin-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A six-panel raster contact sheet generated for the locked July 9 Sketcha.day slug, then cropped into step frames and the finished master.",
+    "notes": "The sheet keeps one round sugar cookie on the same folded napkin, with icing and crumb details introduced before the final."
+  },
+  "process_strategy": "The cookie and napkin are built from simple circles, folded cloth angles, scalloped edge, icing patch, crumbs, and warm tone before the final only darkens keeper lines and deepens existing shading.",
+  "final_elements": [
+    {
+      "name": "round cookie body",
+      "introduced_by_step": 1,
+      "description": "A slightly imperfect round sugar cookie seen from above at a gentle angle."
+    },
+    {
+      "name": "folded napkin base",
+      "introduced_by_step": 1,
+      "description": "A simple folded napkin diamond sitting under the cookie."
+    },
+    {
+      "name": "scalloped cookie edge",
+      "introduced_by_step": 2,
+      "description": "Small uneven bumps around the cookie edge."
+    },
+    {
+      "name": "napkin folds and cast shadow",
+      "introduced_by_step": 3,
+      "description": "Fold lines on the napkin and a soft shadow under the cookie."
+    },
+    {
+      "name": "icing patch",
+      "introduced_by_step": 4,
+      "description": "A simple irregular icing area on top of the cookie."
+    },
+    {
+      "name": "crumbs and sugar dots",
+      "introduced_by_step": 5,
+      "description": "Small crumb marks around the cookie and tiny sugar dots on the top."
+    },
+    {
+      "name": "warm cookie tone",
+      "introduced_by_step": 5,
+      "description": "Restrained golden colored-pencil tint on the cookie."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/sugar-cookie-on-a-napkin-step-1.jpg",
+      "step_name": "Place the cookie and napkin",
+      "visible_job": "Draws the round cookie guide over a simple folded napkin shape.",
+      "introduces": [
+        "round cookie body",
+        "folded napkin base"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/sugar-cookie-on-a-napkin-step-2.jpg",
+      "step_name": "Bump the cookie edge",
+      "visible_job": "Turns the smooth cookie guide into a slightly scalloped baked edge.",
+      "introduces": [
+        "scalloped cookie edge"
+      ],
+      "requires_prior_elements": [
+        "round cookie body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/sugar-cookie-on-a-napkin-step-3.jpg",
+      "step_name": "Fold the napkin",
+      "visible_job": "Adds napkin fold lines and the first cast shadow under the cookie.",
+      "introduces": [
+        "napkin folds and cast shadow"
+      ],
+      "requires_prior_elements": [
+        "folded napkin base",
+        "round cookie body"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/sugar-cookie-on-a-napkin-step-4.jpg",
+      "step_name": "Add the icing shape",
+      "visible_job": "Adds an irregular icing patch on top of the already placed cookie.",
+      "introduces": [
+        "icing patch"
+      ],
+      "requires_prior_elements": [
+        "round cookie body"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/sugar-cookie-on-a-napkin-step-5.jpg",
+      "step_name": "Sprinkle crumbs and tone",
+      "visible_job": "Adds crumb marks, sugar dots, warm cookie tint, and deeper existing napkin shadow.",
+      "introduces": [
+        "crumbs and sugar dots",
+        "warm cookie tone"
+      ],
+      "requires_prior_elements": [
+        "round cookie body",
+        "scalloped cookie edge",
+        "napkin folds and cast shadow",
+        "icing patch"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the sugar cookie sketch",
+    "asset": "assets/sugar-cookie-on-a-napkin-finished-v1.jpg",
+    "visible_job": "Only darkens the keeper contours, clarifies the existing icing, crumbs, sugar dots, napkin folds, warm tint, and cast shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained golden colored-pencil shading",
+      "soft graphite shadow deepening",
+      "small cleanup marks on existing cookie and napkin details"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

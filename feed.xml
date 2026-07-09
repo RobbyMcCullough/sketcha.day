@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a sugar cookie on a napkin</title>
+      <link>https://sketcha.day/tutorials/sugar-cookie-on-a-napkin.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/sugar-cookie-on-a-napkin.html</guid>
+      <pubDate>Thu, 09 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a sugar cookie on a napkin with a round cookie body, folded napkin base, scalloped edge, icing patch, crumbs, sugar dots, warm cookie tone, and soft graphite shadow.</description>
+      <media:content url="https://sketcha.day/assets/sugar-cookie-on-a-napkin-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a cozy reading lamp</title>
       <link>https://sketcha.day/tutorials/cozy-reading-lamp.html</link>
@@ -374,6 +382,14 @@
       <pubDate>Sun, 24 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a wooden clothespin with two long wooden halves, pinched jaws, a center spring coil, wire arms, side notches, wood grain, warm pencil tone, and a soft cast shadow.</description>
       <media:content url="https://sketcha.day/assets/wooden-clothespin-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a folded paper airplane</title>
+      <link>https://sketcha.day/tutorials/folded-paper-airplane.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/folded-paper-airplane.html</guid>
+      <pubDate>Sat, 23 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a folded paper airplane with a long center spine, triangular wings, pointed nose, rear wing edges, crease lines, paper thickness, and a soft graphite shadow.</description>
+      <media:content url="https://sketcha.day/assets/folded-paper-airplane-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

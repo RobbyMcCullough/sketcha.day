@@ -1,0 +1,131 @@
+{
+  "slug": "folded-paper-airplane",
+  "finished": "assets/folded-paper-airplane-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A six-panel raster contact sheet generated for the locked May 23 Sketcha.day backfill slug, then cropped into step frames and the finished master.",
+    "notes": "The sheet must keep one folded paper airplane in the same three-quarter view, with crease and shadow details introduced before the final."
+  },
+  "process_strategy": "The airplane is built from a center spine, triangular wings, folded nose, crease lines, paper edge thickness, and a soft shadow before the final only darkens keeper lines and adds restrained graphite tone.",
+  "final_elements": [
+    {
+      "name": "center spine",
+      "introduced_by_step": 1,
+      "description": "A long diagonal fold line that controls the airplane's direction."
+    },
+    {
+      "name": "main wing triangles",
+      "introduced_by_step": 1,
+      "description": "Two broad triangular wing planes meeting at the center spine."
+    },
+    {
+      "name": "folded nose",
+      "introduced_by_step": 2,
+      "description": "A pointed nose formed by the front wing edges."
+    },
+    {
+      "name": "rear wing edges",
+      "introduced_by_step": 3,
+      "description": "Back edges that show the plane's folded paper layers."
+    },
+    {
+      "name": "crease lines",
+      "introduced_by_step": 4,
+      "description": "Light interior fold lines that explain the paper construction."
+    },
+    {
+      "name": "paper thickness and tabs",
+      "introduced_by_step": 5,
+      "description": "Small edge lines and overlaps showing the folded paper layers."
+    },
+    {
+      "name": "soft graphite shadow",
+      "introduced_by_step": 5,
+      "description": "A simple shadow under the plane to lift it from the page."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/folded-paper-airplane-step-1.jpg",
+      "step_name": "Set the spine and wings",
+      "visible_job": "Places the long diagonal spine and two simple triangular wing guides.",
+      "introduces": [
+        "center spine",
+        "main wing triangles"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/folded-paper-airplane-step-2.jpg",
+      "step_name": "Point the nose",
+      "visible_job": "Connects the front wing edges into a clean folded nose.",
+      "introduces": [
+        "folded nose"
+      ],
+      "requires_prior_elements": [
+        "center spine",
+        "main wing triangles"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/folded-paper-airplane-step-3.jpg",
+      "step_name": "Shape the back edges",
+      "visible_job": "Adds the rear wing edges and trims the silhouette into a paper-airplane shape.",
+      "introduces": [
+        "rear wing edges"
+      ],
+      "requires_prior_elements": [
+        "main wing triangles",
+        "folded nose"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/folded-paper-airplane-step-4.jpg",
+      "step_name": "Draw the creases",
+      "visible_job": "Adds light fold creases inside the already shaped wings.",
+      "introduces": [
+        "crease lines"
+      ],
+      "requires_prior_elements": [
+        "center spine",
+        "main wing triangles",
+        "rear wing edges"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/folded-paper-airplane-step-5.jpg",
+      "step_name": "Add paper thickness",
+      "visible_job": "Adds small paper-edge overlaps, a few tabs, and a soft shadow under the plane.",
+      "introduces": [
+        "paper thickness and tabs",
+        "soft graphite shadow"
+      ],
+      "requires_prior_elements": [
+        "folded nose",
+        "rear wing edges",
+        "crease lines"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the paper airplane sketch",
+    "asset": "assets/folded-paper-airplane-finished-v1.jpg",
+    "visible_job": "Only darkens the keeper contours, clarifies the existing creases, paper overlaps, nose, wings, and soft shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained graphite plane shading",
+      "soft graphite shadow deepening",
+      "small cleanup marks on existing creases and folded edges"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

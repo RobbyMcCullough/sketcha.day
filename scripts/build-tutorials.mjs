@@ -12,8 +12,59 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
-    slug: "wooden-clothespin",
+    slug: "folded-paper-airplane",
     day: "001",
+    date: "Saturday, May 23",
+    isoDate: "2026-05-23",
+    subject: "a folded paper airplane",
+    headlineSubject: "a folded<br>paper<br>airplane",
+    shortSubject: "a paper airplane",
+    lessonTitle: "Let's draw a folded paper airplane",
+    description: "Learn how to draw a folded paper airplane with a long center spine, triangular wings, pointed nose, rear wing edges, crease lines, paper thickness, and a soft graphite shadow.",
+    intro: "Start with the spine and big wing triangles, then sharpen the nose, trim the back edges, and add fold details before shading. This backfilled archive lesson stays focused on a simple paper form, not a pretend event or launch story.",
+    time: 20,
+    difficulty: "Easy",
+    accent: "#8a8d7a",
+    finished: "folded-paper-airplane-finished-v1.jpg",
+    finishedAlt: "Graphite sketch of a folded paper airplane with long center spine, triangular wings, pointed nose, rear wing edges, crease lines, paper thickness, and soft shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional blending stump"],
+    steps: [
+      {
+        name: "Set the spine and wings",
+        text: "Draw a long diagonal spine, then add two light triangular wing guides that meet along it.",
+        tip: "Ghost the long spine before drawing it. A straight center fold makes every later wing edge easier to judge."
+      },
+      {
+        name: "Point the nose",
+        text: "Connect the front wing edges into a sharp folded nose while keeping the spine visible.",
+        tip: "Compare the two front triangles. They do not need to match perfectly, but both should aim toward the same nose."
+      },
+      {
+        name: "Shape the back edges",
+        text: "Trim the rear wing edges and close the outside silhouette into a clear paper-airplane shape.",
+        tip: "Use light pressure on the back edge until the angle feels right. It is easier to darken a good line than erase a heavy one."
+      },
+      {
+        name: "Draw the creases",
+        text: "Add light interior crease lines across the wings, following the folded paper planes you already built.",
+        tip: "Keep these creases lighter than the outside edges. They should explain the fold without flattening the airplane."
+      },
+      {
+        name: "Add paper thickness",
+        text: "Add small edge overlaps, a few folded tabs, and a soft shadow underneath the plane.",
+        tip: "Put the shadow under the broad wing side, not evenly around the whole shape. That keeps the airplane feeling lifted."
+      },
+      {
+        name: "Finish the paper airplane sketch",
+        text: "Darken the keeper contours, clarify the existing creases, folded edges, paper thickness, and soft graphite shadow.",
+        tip: "Stop before adding clouds, motion lines, or lettering. The folds and shadow are enough to make the paper form read.",
+        image: true
+      }
+    ]
+  },
+  {
+    slug: "wooden-clothespin",
+    day: "002",
     date: "Sunday, May 24",
     isoDate: "2026-05-24",
     subject: "a wooden clothespin",
@@ -64,7 +115,7 @@ const lessons = [
   },
   {
     slug: "old-fashioned-bicycle-basket",
-    day: "002",
+    day: "003",
     date: "Monday, May 25",
     isoDate: "2026-05-25",
     subject: "an old-fashioned bicycle with a basket",
@@ -115,7 +166,7 @@ const lessons = [
   },
   {
     slug: "record-player-with-vinyl",
-    day: "045",
+    day: "046",
     date: "Tuesday, July 7",
     isoDate: "2026-07-07",
     subject: "a record player with vinyl",
@@ -166,7 +217,7 @@ const lessons = [
   },
   {
     slug: "cozy-reading-lamp",
-    day: "046",
+    day: "047",
     date: "Wednesday, July 8",
     isoDate: "2026-07-08",
     subject: "a cozy reading lamp",
@@ -216,8 +267,59 @@ const lessons = [
     ]
   },
   {
+    slug: "sugar-cookie-on-a-napkin",
+    day: "048",
+    date: "Thursday, July 9",
+    isoDate: "2026-07-09",
+    subject: "a sugar cookie on a napkin",
+    headlineSubject: "a sugar<br>cookie<br>on a napkin",
+    shortSubject: "a sugar cookie",
+    lessonTitle: "Let's draw a sugar cookie on a napkin",
+    description: "Learn how to draw a sugar cookie on a napkin with a round cookie body, folded napkin base, scalloped edge, icing patch, crumbs, sugar dots, warm cookie tone, and soft graphite shadow.",
+    intro: "Build the cookie as a simple circle on a folded napkin, then make the edge uneven before adding icing, crumbs, and a little warm color. This is a good practice sketch for turning a plain shape into something specific.",
+    time: 20,
+    difficulty: "Easy",
+    accent: "#d6a447",
+    finished: "sugar-cookie-on-a-napkin-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a round sugar cookie on a folded napkin with scalloped edge, irregular icing patch, tiny crumbs, sugar dots, warm golden tone, and soft shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional golden colored pencil"],
+    steps: [
+      {
+        name: "Place the cookie and napkin",
+        text: "Draw a light round cookie guide on top of a simple diamond-shaped folded napkin.",
+        tip: "Keep both shapes loose. The circle can wobble a little because a real cookie is not perfectly machined."
+      },
+      {
+        name: "Bump the cookie edge",
+        text: "Turn the smooth cookie guide into a small scalloped edge with gentle uneven bumps.",
+        tip: "Rotate the page as you work around the edge. Short curves are easier when your wrist can pull comfortably."
+      },
+      {
+        name: "Fold the napkin",
+        text: "Add napkin fold lines and a first soft shadow under the cookie.",
+        tip: "Use the cookie edge to decide where the shadow is darkest. The napkin folds should stay lighter than the cookie outline."
+      },
+      {
+        name: "Add the icing shape",
+        text: "Draw an irregular icing patch on top of the cookie, leaving the scalloped cookie edge visible.",
+        tip: "Make the icing shape simpler than the cookie edge. One loose blob reads better than many tiny frosting wiggles."
+      },
+      {
+        name: "Sprinkle crumbs and tone",
+        text: "Add a few crumbs, tiny sugar dots, warm golden pencil tone, and a little more shadow under the napkin.",
+        tip: "Place crumbs unevenly instead of making a pattern. A few varied dots feel more natural than a perfect ring."
+      },
+      {
+        name: "Finish the sugar cookie sketch",
+        text: "Darken the keeper contours, clarify the existing icing, crumbs, sugar dots, napkin folds, warm tone, and cast shadow.",
+        tip: "Stop before adding a plate or extra snacks. The cookie, icing, crumbs, and folded napkin already give the drawing a clear story.",
+        image: true
+      }
+    ]
+  },
+  {
     slug: "vintage-key-on-a-tag",
-    day: "003",
+    day: "004",
     date: "Tuesday, May 26",
     isoDate: "2026-05-26",
     subject: "a vintage key on a tag",
@@ -268,7 +370,7 @@ const lessons = [
   },
   {
     slug: "airport-control-tower",
-    day: "044",
+    day: "045",
     date: "Monday, July 6",
     isoDate: "2026-07-06",
     subject: "an airport control tower",
@@ -319,7 +421,7 @@ const lessons = [
   },
   {
     slug: "folded-camp-map",
-    day: "004",
+    day: "005",
     date: "Wednesday, May 27",
     isoDate: "2026-05-27",
     subject: "a folded camp map",
@@ -370,7 +472,7 @@ const lessons = [
   },
   {
     slug: "apple-turnover-on-a-plate",
-    day: "043",
+    day: "044",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     subject: "an apple turnover on a plate",
@@ -421,7 +523,7 @@ const lessons = [
   },
   {
     slug: "strawberry-basket",
-    day: "005",
+    day: "006",
     date: "Thursday, May 28",
     isoDate: "2026-05-28",
     subject: "a strawberry basket",
@@ -472,7 +574,7 @@ const lessons = [
   },
   {
     slug: "garden-gnome",
-    day: "006",
+    day: "007",
     date: "Friday, May 29",
     isoDate: "2026-05-29",
     subject: "a garden gnome",
@@ -523,7 +625,7 @@ const lessons = [
   },
   {
     slug: "mason-jar-sparklers",
-    day: "007",
+    day: "008",
     date: "Saturday, May 30",
     isoDate: "2026-05-30",
     subject: "a mason jar with sparklers",
@@ -574,7 +676,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-with-sticks",
-    day: "041",
+    day: "042",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a parade drum with sticks",
@@ -625,7 +727,7 @@ const lessons = [
   },
   {
     slug: "waving-flag-on-a-porch",
-    day: "042",
+    day: "043",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a waving flag on a porch",
@@ -676,7 +778,7 @@ const lessons = [
   },
   {
     slug: "mason-jar-with-fireflies",
-    day: "008",
+    day: "009",
     date: "Sunday, May 31",
     isoDate: "2026-05-31",
     subject: "a mason jar with fireflies",
@@ -727,7 +829,7 @@ const lessons = [
   },
   {
     slug: "summer-sun-hat-ribbon",
-    day: "009",
+    day: "010",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a summer sun hat with a ribbon",
@@ -778,7 +880,7 @@ const lessons = [
   },
   {
     slug: "backyard-pinwheel",
-    day: "040",
+    day: "041",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a backyard pinwheel",
@@ -829,7 +931,7 @@ const lessons = [
   },
   {
     slug: "mailbox-with-flag",
-    day: "010",
+    day: "011",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a mailbox with a flag",
@@ -880,7 +982,7 @@ const lessons = [
   },
   {
     slug: "waffle-ice-cream-cone",
-    day: "039",
+    day: "040",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a waffle ice cream cone",
@@ -931,7 +1033,7 @@ const lessons = [
   },
   {
     slug: "rain-boot-with-puddle",
-    day: "011",
+    day: "012",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a rain boot with a puddle",
@@ -982,7 +1084,7 @@ const lessons = [
   },
   {
     slug: "backyard-telescope",
-    day: "038",
+    day: "039",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a backyard telescope",
@@ -1033,7 +1135,7 @@ const lessons = [
   },
   {
     slug: "honeybee-on-a-flower",
-    day: "012",
+    day: "013",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a honeybee on a flower",
@@ -1084,7 +1186,7 @@ const lessons = [
   },
   {
     slug: "curious-fox",
-    day: "023",
+    day: "024",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -1202,7 +1304,7 @@ const lessons = [
   },
   {
     slug: "tennis-racket-and-ball",
-    day: "037",
+    day: "038",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a tennis racket and ball",
@@ -1253,7 +1355,7 @@ const lessons = [
   },
   {
     slug: "vintage-roller-skate",
-    day: "036",
+    day: "037",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a vintage roller skate",
@@ -1304,7 +1406,7 @@ const lessons = [
   },
   {
     slug: "sunglasses-on-a-towel",
-    day: "035",
+    day: "036",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a pair of sunglasses on a towel",
@@ -1355,7 +1457,7 @@ const lessons = [
   },
   {
     slug: "desk-dog",
-    day: "034",
+    day: "035",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -1406,7 +1508,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "033",
+    day: "034",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -1457,7 +1559,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "032",
+    day: "033",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -1508,7 +1610,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "031",
+    day: "032",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -1559,7 +1661,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "030",
+    day: "031",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -1610,7 +1712,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "029",
+    day: "030",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -1661,7 +1763,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "028",
+    day: "029",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -1712,7 +1814,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "027",
+    day: "028",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -1763,7 +1865,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "026",
+    day: "027",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -1814,7 +1916,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "025",
+    day: "026",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -1870,7 +1972,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "024",
+    day: "025",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -1916,7 +2018,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "022",
+    day: "023",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -1965,7 +2067,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "021",
+    day: "022",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -2014,7 +2116,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "020",
+    day: "021",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -2063,7 +2165,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "019",
+    day: "020",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -2108,7 +2210,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "018",
+    day: "019",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -2159,7 +2261,7 @@ const lessons = [
   },
   {
     slug: "picnic-basket",
-    day: "015",
+    day: "016",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a picnic basket",
@@ -2210,7 +2312,7 @@ const lessons = [
   },
   {
     slug: "pocket-compass",
-    day: "013",
+    day: "014",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a pocket compass",
@@ -2261,7 +2363,7 @@ const lessons = [
   },
   {
     slug: "stack-of-books",
-    day: "014",
+    day: "015",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a stack of books",
@@ -2312,7 +2414,7 @@ const lessons = [
   },
   {
     slug: "seashell-on-sand",
-    day: "016",
+    day: "017",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -2363,7 +2465,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "017",
+    day: "018",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",
