@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-09
+- Date: 2026-07-10
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-08 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-09 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,21 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-10 daily automation added two Sketcha lessons:
+  `classic-pickup-truck` as July 10, 2026 / Day 050 and
+  `garden-hand-trowel` as May 22, 2026 / Day 001 honest archive backfill.
+  Existing day labels shifted forward by one.
+- July 10 Sketcha QA used the cross-site daily lock, duplicate-slot guard,
+  preflight slug locks, contact-sheet cropping, `node scripts/build-tutorials.mjs`,
+  and `python3 scripts/check-tutorial-readiness.py` for both new slugs. Cove
+  browser QA passed at `https://sketcha.localhost/`; screenshots are under
+  `/tmp/daily-sketch-doodle-qa-2026-07-10/`.
+- Finished image ratings: classic pickup truck 8.8/10 for a clear side-view
+  silhouette, stable wheel/cab/bed progression, and restrained blue-gray sketch
+  tone; garden hand trowel 8.7/10 for readable blade/handle/ferrule structure,
+  aligned process frames, and useful graphite/colored-pencil finish. The
+  temporary two-tutorial-per-site backfill cadence is still active until the
+  owner says otherwise.
 - 2026-07-09 daily automation added two Sketcha lessons:
   `sugar-cookie-on-a-napkin` as July 9, 2026 / Day 048 and
   `folded-paper-airplane` as May 23, 2026 / Day 001 honest archive backfill.

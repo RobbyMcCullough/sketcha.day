@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a classic pickup truck</title>
+      <link>https://sketcha.day/tutorials/classic-pickup-truck.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/classic-pickup-truck.html</guid>
+      <pubDate>Fri, 10 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a classic pickup truck with two round tires, a boxy cab, hood, pickup bed, rounded fenders, tailgate, window, door seam, grille, headlights, bumpers, wheel hubs, blue-gray pencil shading, and soft tire shadows.</description>
+      <media:content url="https://sketcha.day/assets/classic-pickup-truck-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a sugar cookie on a napkin</title>
       <link>https://sketcha.day/tutorials/sugar-cookie-on-a-napkin.html</link>
@@ -390,6 +398,14 @@
       <pubDate>Sat, 23 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a folded paper airplane with a long center spine, triangular wings, pointed nose, rear wing edges, crease lines, paper thickness, and a soft graphite shadow.</description>
       <media:content url="https://sketcha.day/assets/folded-paper-airplane-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a garden hand trowel</title>
+      <link>https://sketcha.day/tutorials/garden-hand-trowel.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/garden-hand-trowel.html</guid>
+      <pubDate>Fri, 22 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a garden hand trowel with a teardrop metal blade, rounded wooden handle, ferrule band, hanging hole, blade edge, wood grain, soil crumbs, gray metal shading, warm brown handle tone, and a soft cast shadow.</description>
+      <media:content url="https://sketcha.day/assets/garden-hand-trowel-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -1,0 +1,116 @@
+{
+  "slug": "garden-hand-trowel",
+  "finished": "assets/garden-hand-trowel-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel generated raster contact sheet reviewed before cropping; final panel saved as the finished master.",
+    "notes": "Contact-sheet-first workflow, no labels or embedded text."
+  },
+  "process_strategy": "The trowel stays diagonal at one scale while blade, handle, ferrule, grain, soil, and shading are introduced before the final cleanup frame.",
+  "final_elements": [
+    {
+      "name": "diagonal center guide and blade mass",
+      "introduced_by_step": 1,
+      "description": "A long diagonal guide with a light oval/teardrop mass for the metal blade."
+    },
+    {
+      "name": "teardrop blade and rounded handle silhouette",
+      "introduced_by_step": 2,
+      "description": "A pointed garden trowel blade attached to a rounded wooden handle."
+    },
+    {
+      "name": "blade shoulder and metal ferrule",
+      "introduced_by_step": 3,
+      "description": "The neck where the blade meets the handle, plus a small metal ferrule band."
+    },
+    {
+      "name": "hanging hole, blade edge, and wood grain",
+      "introduced_by_step": 4,
+      "description": "A small handle hole, an inner blade edge, and a few wood-grain lines."
+    },
+    {
+      "name": "soil crumbs, soft shadow, and restrained brown-gray shading",
+      "introduced_by_step": 5,
+      "description": "Small soil crumbs near the blade, a soft cast shadow, and light tone on the existing handle and metal blade."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/garden-hand-trowel-step-1.jpg",
+      "step_name": "Place the diagonal guide",
+      "visible_job": "Sets the diagonal handle axis and a light blade mass.",
+      "introduces": [
+        "diagonal center guide and blade mass"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/garden-hand-trowel-step-2.jpg",
+      "step_name": "Shape the blade and handle",
+      "visible_job": "Turns the guides into a teardrop blade and rounded handle silhouette.",
+      "introduces": [
+        "teardrop blade and rounded handle silhouette"
+      ],
+      "requires_prior_elements": [
+        "diagonal center guide and blade mass"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/garden-hand-trowel-step-3.jpg",
+      "step_name": "Add the ferrule",
+      "visible_job": "Adds the blade shoulder and ferrule band where the handle meets the blade.",
+      "introduces": [
+        "blade shoulder and metal ferrule"
+      ],
+      "requires_prior_elements": [
+        "teardrop blade and rounded handle silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/garden-hand-trowel-step-4.jpg",
+      "step_name": "Draw the small details",
+      "visible_job": "Adds the hanging hole, blade edge, and wood-grain lines.",
+      "introduces": [
+        "hanging hole, blade edge, and wood grain"
+      ],
+      "requires_prior_elements": [
+        "teardrop blade and rounded handle silhouette",
+        "blade shoulder and metal ferrule"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/garden-hand-trowel-step-5.jpg",
+      "step_name": "Add soil and tone",
+      "visible_job": "Adds soil crumbs, a soft shadow, and restrained tone to the existing blade and handle.",
+      "introduces": [
+        "soil crumbs, soft shadow, and restrained brown-gray shading"
+      ],
+      "requires_prior_elements": [
+        "teardrop blade and rounded handle silhouette",
+        "blade shoulder and metal ferrule",
+        "hanging hole, blade edge, and wood grain"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the garden trowel sketch",
+    "asset": "assets/garden-hand-trowel-finished-v1.jpg",
+    "visible_job": "Darkens keeper contours and clarifies the existing blade, handle, ferrule, grain, soil crumbs, tone, and shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained metal and wood shading",
+      "soft graphite cast shadow",
+      "clarification of existing ferrule, hanging hole, blade edge, grain, and soil crumbs"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}

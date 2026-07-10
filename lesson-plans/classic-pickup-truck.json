@@ -1,0 +1,116 @@
+{
+  "slug": "classic-pickup-truck",
+  "finished": "assets/classic-pickup-truck-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel generated raster contact sheet reviewed before cropping; final panel saved as the finished master.",
+    "notes": "Contact-sheet-first workflow, no labels or embedded text."
+  },
+  "process_strategy": "The truck stays in the same side-view pose while each frame adds visible structure before the final only darkens, shades, and clarifies established parts.",
+  "final_elements": [
+    {
+      "name": "two wheel circles and long baseline",
+      "introduced_by_step": 1,
+      "description": "Two round tires sitting on the same ground line."
+    },
+    {
+      "name": "cab, hood, and pickup bed silhouette",
+      "introduced_by_step": 2,
+      "description": "A boxy side-view cab connected to a front hood and rear pickup bed."
+    },
+    {
+      "name": "rounded fenders and tailgate",
+      "introduced_by_step": 3,
+      "description": "Curved fenders over both wheels plus a vertical tailgate edge."
+    },
+    {
+      "name": "window, door seam, grille, headlights, and bumpers",
+      "introduced_by_step": 4,
+      "description": "Readable cab window, door line, front grille, headlights, and simple bumpers."
+    },
+    {
+      "name": "wheel hubs, tire shadows, and restrained blue-gray shading",
+      "introduced_by_step": 5,
+      "description": "Small hubs, soft ground shadows, and light color on the already drawn body panels."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/classic-pickup-truck-step-1.jpg",
+      "step_name": "Set the wheels and stance",
+      "visible_job": "Places the long baseline, two wheel circles, and simple body guide boxes.",
+      "introduces": [
+        "two wheel circles and long baseline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/classic-pickup-truck-step-2.jpg",
+      "step_name": "Block in the truck body",
+      "visible_job": "Connects the cab, hood, and pickup bed as one side-view silhouette.",
+      "introduces": [
+        "cab, hood, and pickup bed silhouette"
+      ],
+      "requires_prior_elements": [
+        "two wheel circles and long baseline"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/classic-pickup-truck-step-3.jpg",
+      "step_name": "Round the fenders",
+      "visible_job": "Refines the body with fenders, roof curve, bed rail, and tailgate edge.",
+      "introduces": [
+        "rounded fenders and tailgate"
+      ],
+      "requires_prior_elements": [
+        "cab, hood, and pickup bed silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/classic-pickup-truck-step-4.jpg",
+      "step_name": "Add the cab details",
+      "visible_job": "Adds the window, door seam, grille, headlights, and bumpers.",
+      "introduces": [
+        "window, door seam, grille, headlights, and bumpers"
+      ],
+      "requires_prior_elements": [
+        "cab, hood, and pickup bed silhouette",
+        "rounded fenders and tailgate"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/classic-pickup-truck-step-5.jpg",
+      "step_name": "Add wheels and tone",
+      "visible_job": "Adds wheel hubs, tire shadows, and restrained blue-gray shading to existing panels.",
+      "introduces": [
+        "wheel hubs, tire shadows, and restrained blue-gray shading"
+      ],
+      "requires_prior_elements": [
+        "two wheel circles and long baseline",
+        "cab, hood, and pickup bed silhouette",
+        "window, door seam, grille, headlights, and bumpers"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the pickup truck sketch",
+    "asset": "assets/classic-pickup-truck-finished-v1.jpg",
+    "visible_job": "Darkens keeper contours and clarifies the existing cab, bed, wheels, details, shading, and shadows.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained blue-gray shading",
+      "soft graphite tire shadows",
+      "clarification of existing grille, window, door, fenders, and hubs"
+    ]
+  },
+  "rejection_checks": [
+    "No major contour, prop, marking, or color choice should first appear in the final image.",
+    "No frame may darken, ink, color, shade, or clean a feature that was not already visible in an earlier frame.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must keep the same pose, scale, and placement as the step frames."
+  ]
+}
