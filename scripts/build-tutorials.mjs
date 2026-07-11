@@ -12,8 +12,60 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
-    slug: "garden-hand-trowel",
+    slug: "sandcastle-by-the-shore",
+    day: "052",
+    date: "Saturday, July 11",
+    isoDate: "2026-07-11",
+    subject: "a sandcastle by the shore",
+    headlineSubject: "a sandcastle<br>by the shore",
+    shortSubject: "a sandcastle",
+    lessonTitle: "Let's draw a sandcastle by the shore",
+    description: "Learn how to draw a sandcastle by the shore with a central tower, round side turrets, crenellations, an arched doorway, sand-block seams, a shell flag, shoreline marks, pale sand tone, and blue water accents.",
+    intro: "Start with a low shoreline and one boxy tower, then add the round turrets and tiny beach details. It is a friendly way to practice stacking simple forms while keeping a small scene clear.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#d6ad68",
+    finished: "sandcastle-by-the-shore-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a small sandcastle by the shore with a central tower, two round turrets, crenellations, arched doorway, shell flag, pale sand, and blue water edge",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional pale blue and ochre colored pencils"],
+    steps: [
+      { name: "Place the shore and tower", text: "Draw a shallow curved shoreline, then place a light boxy central tower just above it.", tip: "Ghost the shoreline in one long sweep before committing. A gentle curve keeps the beach from feeling like a flat shelf." },
+      { name: "Round the side turrets", text: "Add one rounded turret on each side of the central tower, keeping their tops a little lower than the middle tower.", tip: "Compare the empty spaces between the towers. Similar gaps make the castle feel built from one simple plan." },
+      { name: "Notch the castle tops", text: "Cut small square crenellations into the top edges of all three towers.", tip: "Rotate the page if the little squares get stiff. Short, controlled strokes are easier when your wrist can pull downward." },
+      { name: "Add the tiny details", text: "Draw the arched doorway, a few horizontal sand-block seams, a small shell flag, and scattered sand marks.", tip: "Keep the seams lighter than the outside contour. Those quiet interior lines suggest sand blocks without making the towers look like brick walls." },
+      { name: "Shade the sand and water", text: "Add pale ochre tone across the existing sandcastle and beach, then touch in a few pale blue shoreline strokes.", tip: "Shade in the direction of each surface. Vertical strokes on the towers and horizontal strokes along the shore make the forms easier to read." },
+      { name: "Settle the beach sketch", text: "Darken the keeper contours, clarify the existing crenellations, doorway, shell flag, sand texture, and pale color accents.", tip: "Stop before adding a giant sun, people, or extra beach gear. The little castle and water edge already tell the whole story.", image: true }
+    ]
+  },
+  {
+    slug: "vintage-camera-on-a-strap",
     day: "001",
+    date: "Thursday, May 21",
+    isoDate: "2026-05-21",
+    subject: "a vintage camera on a strap",
+    headlineSubject: "a vintage camera<br>on a strap",
+    shortSubject: "a vintage camera",
+    lessonTitle: "Let's draw a vintage camera on a strap",
+    description: "Learn how to draw a vintage camera on a strap with a boxy body, loose strap loop, round lens barrel, viewfinder, shutter button, body seams, strap buckle, warm-gray tone, brown strap tint, and a soft shadow.",
+    intro: "Build the camera from a box and one loose strap loop, then add the lens and tiny controls before shading. This honest archive lesson is a focused drawing exercise, not a made-up launch-day story.",
+    time: 25,
+    difficulty: "Easy-medium",
+    accent: "#8f8170",
+    finished: "vintage-camera-on-a-strap-finished-v1.jpg",
+    finishedAlt: "Graphite and colored-pencil sketch of a compact vintage camera on a loose brown strap with a boxy body, round lens barrel, raised viewfinder, shutter button, body seams, buckle, warm-gray tone, and soft shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional warm gray and brown colored pencils"],
+    steps: [
+      { name: "Box in the camera", text: "Draw a light rectangular camera body with a shallow top plane, then loop a loose strap behind it.", tip: "Keep the body guide light enough to adjust. Check that the top and bottom edges lean by the same small angle before darkening either one." },
+      { name: "Center the lens", text: "Add a round lens barrel and one outer ring to the front of the established camera body.", tip: "Use a loose circle first, then correct it with a second pass. A lens reads round when its outer rings share the same center." },
+      { name: "Build the top controls", text: "Add a small raised viewfinder and a round shutter button on the existing top plane.", tip: "Compare the top controls against the lens center. Small details feel attached when they follow the camera's perspective lines." },
+      { name: "Trace seams and buckle", text: "Add a few simple body seams and a small buckle on the already drawn strap.", tip: "Let the strap curve gradually around the camera. A sudden sharp bend makes it feel like wire instead of leather." },
+      { name: "Add quiet camera tone", text: "Lay in a light warm-gray body tone, brown strap tint, and a soft cast shadow under the existing camera.", tip: "Pull shading strokes along each surface rather than rubbing everywhere. Directional tone helps the box stay solid." },
+      { name: "Focus the vintage finish", text: "Reinforce the keeper contours, lens rings, controls, seams, buckle, and the existing warm-gray and brown tones.", tip: "Stop before adding logos, a table scene, or extra film rolls. The lens, strap, and tiny controls already make the camera recognizable.", image: true }
+    ]
+  },
+  {
+    slug: "garden-hand-trowel",
+    day: "002",
     date: "Friday, May 22",
     isoDate: "2026-05-22",
     subject: "a garden hand trowel",
@@ -64,7 +116,7 @@ const lessons = [
   },
   {
     slug: "folded-paper-airplane",
-    day: "002",
+    day: "003",
     date: "Saturday, May 23",
     isoDate: "2026-05-23",
     subject: "a folded paper airplane",
@@ -115,7 +167,7 @@ const lessons = [
   },
   {
     slug: "wooden-clothespin",
-    day: "003",
+    day: "004",
     date: "Sunday, May 24",
     isoDate: "2026-05-24",
     subject: "a wooden clothespin",
@@ -166,7 +218,7 @@ const lessons = [
   },
   {
     slug: "old-fashioned-bicycle-basket",
-    day: "004",
+    day: "005",
     date: "Monday, May 25",
     isoDate: "2026-05-25",
     subject: "an old-fashioned bicycle with a basket",
@@ -217,7 +269,7 @@ const lessons = [
   },
   {
     slug: "record-player-with-vinyl",
-    day: "047",
+    day: "048",
     date: "Tuesday, July 7",
     isoDate: "2026-07-07",
     subject: "a record player with vinyl",
@@ -268,7 +320,7 @@ const lessons = [
   },
   {
     slug: "cozy-reading-lamp",
-    day: "048",
+    day: "049",
     date: "Wednesday, July 8",
     isoDate: "2026-07-08",
     subject: "a cozy reading lamp",
@@ -319,7 +371,7 @@ const lessons = [
   },
   {
     slug: "sugar-cookie-on-a-napkin",
-    day: "049",
+    day: "050",
     date: "Thursday, July 9",
     isoDate: "2026-07-09",
     subject: "a sugar cookie on a napkin",
@@ -370,7 +422,7 @@ const lessons = [
   },
   {
     slug: "classic-pickup-truck",
-    day: "050",
+    day: "051",
     date: "Friday, July 10",
     isoDate: "2026-07-10",
     subject: "a classic pickup truck",
@@ -421,7 +473,7 @@ const lessons = [
   },
   {
     slug: "vintage-key-on-a-tag",
-    day: "005",
+    day: "006",
     date: "Tuesday, May 26",
     isoDate: "2026-05-26",
     subject: "a vintage key on a tag",
@@ -472,7 +524,7 @@ const lessons = [
   },
   {
     slug: "airport-control-tower",
-    day: "046",
+    day: "047",
     date: "Monday, July 6",
     isoDate: "2026-07-06",
     subject: "an airport control tower",
@@ -523,7 +575,7 @@ const lessons = [
   },
   {
     slug: "folded-camp-map",
-    day: "006",
+    day: "007",
     date: "Wednesday, May 27",
     isoDate: "2026-05-27",
     subject: "a folded camp map",
@@ -574,7 +626,7 @@ const lessons = [
   },
   {
     slug: "apple-turnover-on-a-plate",
-    day: "045",
+    day: "046",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     subject: "an apple turnover on a plate",
@@ -625,7 +677,7 @@ const lessons = [
   },
   {
     slug: "strawberry-basket",
-    day: "007",
+    day: "008",
     date: "Thursday, May 28",
     isoDate: "2026-05-28",
     subject: "a strawberry basket",
@@ -676,7 +728,7 @@ const lessons = [
   },
   {
     slug: "garden-gnome",
-    day: "008",
+    day: "009",
     date: "Friday, May 29",
     isoDate: "2026-05-29",
     subject: "a garden gnome",
@@ -727,7 +779,7 @@ const lessons = [
   },
   {
     slug: "mason-jar-sparklers",
-    day: "009",
+    day: "010",
     date: "Saturday, May 30",
     isoDate: "2026-05-30",
     subject: "a mason jar with sparklers",
@@ -778,7 +830,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-with-sticks",
-    day: "043",
+    day: "044",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a parade drum with sticks",
@@ -829,7 +881,7 @@ const lessons = [
   },
   {
     slug: "waving-flag-on-a-porch",
-    day: "044",
+    day: "045",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a waving flag on a porch",
@@ -880,7 +932,7 @@ const lessons = [
   },
   {
     slug: "mason-jar-with-fireflies",
-    day: "010",
+    day: "011",
     date: "Sunday, May 31",
     isoDate: "2026-05-31",
     subject: "a mason jar with fireflies",
@@ -931,7 +983,7 @@ const lessons = [
   },
   {
     slug: "summer-sun-hat-ribbon",
-    day: "011",
+    day: "012",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a summer sun hat with a ribbon",
@@ -982,7 +1034,7 @@ const lessons = [
   },
   {
     slug: "backyard-pinwheel",
-    day: "042",
+    day: "043",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a backyard pinwheel",
@@ -1033,7 +1085,7 @@ const lessons = [
   },
   {
     slug: "mailbox-with-flag",
-    day: "012",
+    day: "013",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a mailbox with a flag",
@@ -1084,7 +1136,7 @@ const lessons = [
   },
   {
     slug: "waffle-ice-cream-cone",
-    day: "041",
+    day: "042",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a waffle ice cream cone",
@@ -1135,7 +1187,7 @@ const lessons = [
   },
   {
     slug: "rain-boot-with-puddle",
-    day: "013",
+    day: "014",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a rain boot with a puddle",
@@ -1186,7 +1238,7 @@ const lessons = [
   },
   {
     slug: "backyard-telescope",
-    day: "040",
+    day: "041",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a backyard telescope",
@@ -1237,7 +1289,7 @@ const lessons = [
   },
   {
     slug: "honeybee-on-a-flower",
-    day: "014",
+    day: "015",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a honeybee on a flower",
@@ -1288,7 +1340,7 @@ const lessons = [
   },
   {
     slug: "curious-fox",
-    day: "025",
+    day: "026",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -1406,7 +1458,7 @@ const lessons = [
   },
   {
     slug: "tennis-racket-and-ball",
-    day: "039",
+    day: "040",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a tennis racket and ball",
@@ -1457,7 +1509,7 @@ const lessons = [
   },
   {
     slug: "vintage-roller-skate",
-    day: "038",
+    day: "039",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a vintage roller skate",
@@ -1508,7 +1560,7 @@ const lessons = [
   },
   {
     slug: "sunglasses-on-a-towel",
-    day: "037",
+    day: "038",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a pair of sunglasses on a towel",
@@ -1559,7 +1611,7 @@ const lessons = [
   },
   {
     slug: "desk-dog",
-    day: "036",
+    day: "037",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -1610,7 +1662,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "035",
+    day: "036",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -1661,7 +1713,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "034",
+    day: "035",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -1712,7 +1764,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "033",
+    day: "034",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -1763,7 +1815,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "032",
+    day: "033",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -1814,7 +1866,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "031",
+    day: "032",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -1865,7 +1917,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "030",
+    day: "031",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -1916,7 +1968,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "029",
+    day: "030",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -1967,7 +2019,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "028",
+    day: "029",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -2018,7 +2070,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "027",
+    day: "028",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -2074,7 +2126,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "026",
+    day: "027",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -2120,7 +2172,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "024",
+    day: "025",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -2169,7 +2221,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "023",
+    day: "024",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -2218,7 +2270,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "022",
+    day: "023",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -2267,7 +2319,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "021",
+    day: "022",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -2312,7 +2364,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "020",
+    day: "021",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -2363,7 +2415,7 @@ const lessons = [
   },
   {
     slug: "picnic-basket",
-    day: "017",
+    day: "018",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a picnic basket",
@@ -2414,7 +2466,7 @@ const lessons = [
   },
   {
     slug: "pocket-compass",
-    day: "015",
+    day: "016",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a pocket compass",
@@ -2465,7 +2517,7 @@ const lessons = [
   },
   {
     slug: "stack-of-books",
-    day: "016",
+    day: "017",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a stack of books",
@@ -2516,7 +2568,7 @@ const lessons = [
   },
   {
     slug: "seashell-on-sand",
-    day: "018",
+    day: "019",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -2567,7 +2619,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "019",
+    day: "020",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",
@@ -2711,14 +2763,14 @@ const rssPubDate = (isoDate) => new Date(`${isoDate}T12:00:00-07:00`).toUTCStrin
 const orgNode = {
   "@type": "Organization",
   "@id": `${siteUrl}/#organization`,
-  name: "Sketcha.day",
+  name: "sketcha.day",
   url: `${siteUrl}/`,
   logo: `${siteUrl}/assets/site-icon.png`
 };
 const siteNode = {
   "@type": "WebSite",
   "@id": `${siteUrl}/#website`,
-  name: "Sketcha.day",
+  name: "sketcha.day",
   url: `${siteUrl}/`,
   description: "Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.",
   publisher: { "@id": `${siteUrl}/#organization` }
@@ -2781,7 +2833,7 @@ const page = (lesson) => {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>How to Draw ${titleArticle} ${titleSubject} Step by Step | Sketcha.day</title>
+  <title>How to Draw ${titleArticle} ${titleSubject} Step by Step | sketcha.day</title>
   <meta name="description" content="${lesson.description}">
   <link rel="canonical" href="https://sketcha.day/tutorials/${lesson.slug}.html">
   <meta property="og:type" content="article">
@@ -2795,7 +2847,7 @@ const page = (lesson) => {
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="${lesson.accent}">
 ${iconLinks}
-  <link rel="alternate" type="application/rss+xml" title="Sketcha.day daily sketch feed" href="${siteUrl}/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="sketcha.day daily sketch feed" href="${siteUrl}/feed.xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="image" href="../assets/${webpName(lesson.finished)}" fetchpriority="high">
@@ -2809,7 +2861,7 @@ ${iconLinks}
   <header class="site-header">
     <div class="brand">
       <img class="brand-mark" src="../assets/logo-pencil-raster-v1.png" alt="" width="72" height="72">
-      <a class="brand-wordmark" href="../" aria-label="Sketcha.day home"><span class="brand-name">${brandWordmark}</span></a>
+      <a class="brand-wordmark" href="../" aria-label="sketcha.day home"><span class="brand-name">${brandWordmark}</span></a>
     </div>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
@@ -2866,9 +2918,9 @@ ${iconLinks}
         <a class="brand footer-brand" href="../"><span class="brand-name">${brandWordmark}</span></a>
         <p class="footer-tagline">Soft pencil practice, one daily sketch at a time.</p>
       </div>
-      <nav aria-label="Footer navigation"><a href="../">Today</a><a href="../library.html">Library</a><a href="../about.html">About</a><a href="https://doodlea.day/">Doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
+      <nav aria-label="Footer navigation"><a href="../">Today</a><a href="../library.html">Library</a><a href="../about.html">About</a><a href="https://doodlea.day/">doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
     </div>
-    <small class="footer-copyright">© 2026 Sketcha.day</small>
+    <small class="footer-copyright">© 2026 sketcha.day</small>
   </footer>
   <script src="../script.js"></script>
 </body>
@@ -2884,8 +2936,8 @@ const aboutPage = () => {
       {
         "@type": "AboutPage",
         "@id": `${siteUrl}/about.html#aboutpage`,
-        name: "About Sketcha.day",
-        description: "Learn how Sketcha.day turns short pencil studies into a steady drawing habit for noticing shapes, proportions, texture, and light.",
+        name: "About sketcha.day",
+        description: "Learn how sketcha.day turns short pencil studies into a steady drawing habit for noticing shapes, proportions, texture, and light.",
         url: `${siteUrl}/about.html`,
         image: `${siteUrl}/assets/sketcha-family-sketch-v2.webp`,
         isPartOf: { "@id": `${siteUrl}/#website` },
@@ -2895,7 +2947,7 @@ const aboutPage = () => {
         "@type": "Person",
         "@id": `${siteUrl}/about.html#robby`,
         name: "Robby McCullough",
-        description: "A lifelong doodler, designer, and web builder who makes pencil-first drawing lessons for steady sketchbook practice."
+        description: "A lifelong drawer, designer, and web builder who makes pencil-first drawing lessons for steady sketchbook practice."
       },
       {
         "@type": "Person",
@@ -2918,18 +2970,18 @@ const aboutPage = () => {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About Sketcha.day | Daily Drawing Practice for Curious Hands</title>
-  <meta name="description" content="Meet the family behind Sketcha.day and learn why the site focuses on short pencil studies, clear steps, and steady daily drawing practice.">
+  <title>About sketcha.day | Daily Drawing Practice for Curious Hands</title>
+  <meta name="description" content="Meet the family behind sketcha.day and learn why the site focuses on short pencil studies, clear steps, and steady daily drawing practice.">
   <link rel="canonical" href="${siteUrl}/about.html">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="About Sketcha.day">
+  <meta property="og:title" content="About sketcha.day">
   <meta property="og:description" content="A family-made sketchbook project for building drawing confidence through short, repeatable pencil practice.">
   <meta property="og:url" content="${siteUrl}/about.html">
   <meta property="og:image" content="${siteUrl}/assets/sketcha-family-sketch-v2.webp">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#f3b63c">
 ${iconLinks}
-  <link rel="alternate" type="application/rss+xml" title="Sketcha.day daily sketch feed" href="${siteUrl}/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="sketcha.day daily sketch feed" href="${siteUrl}/feed.xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -2938,11 +2990,11 @@ ${iconLinks}
   <script defer data-domain="sketcha.day" src="https://analytics.robbymccullough.com/js/script.js"></script>
 </head>
 <body class="about-page">
-  <a class="skip-link" href="#about-main">Skip to about Sketcha.day</a>
+  <a class="skip-link" href="#about-main">Skip to about sketcha.day</a>
   <header class="site-header">
     <div class="brand">
       <img class="brand-mark" src="assets/logo-pencil-raster-v1.png" alt="" width="72" height="72">
-      <a class="brand-wordmark" href="/" aria-label="Sketcha.day home"><span class="brand-name">${brandWordmark}</span></a>
+      <a class="brand-wordmark" href="/" aria-label="sketcha.day home"><span class="brand-name">${brandWordmark}</span></a>
     </div>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
@@ -2960,10 +3012,11 @@ ${iconLinks}
       </figure>
       <div class="about-story">
         <p class="kicker">A family sketchbook project</p>
-        <h1 id="about-title">Daily sketchbook practice for noticing more.</h1>
-        <p>Sketcha.day is made by Robby McCullough, a lifelong doodler, designer, and web guy who still thinks a pencil is one of the best tools for learning to see. The lessons focus on small subjects you can study without needing a studio, a class, or a perfect block of time.</p>
-        <p>Robby brings sketchbook habit, design judgment, and web craft to the pages: clear structure, visible steps, and drawing problems that feel specific enough to teach something. Tracie, a mom and early childhood educator, helps keep the pacing patient and the tone encouraging for beginners, kids, and grown-ups drawing alongside them.</p>
-        <p>The goal is a site that feels like a useful sketchbook companion: look closely, place the big shapes, adjust what needs adjusting, and finish with a drawing that still feels like it came from your hand.</p>
+        <h1 id="about-title">Draw a little. Notice a lot.</h1>
+        <p>sketcha.day is made by Robby McCullough, a lifelong drawer, designer, and web guy. This site started as an experiment after he used an AI-generated drawing tutorial of a cowboy hat to make his partner, Tracie, a homemade birthday card.</p>
+        <p>The lessons focus on small subjects you can study without needing a studio, a class, or a perfect block of time. Our sister site doodlea.day is for more playful and marker-focused doodles.</p>
+        <p>Robby brings a love of drawing and web craft to the pages. Tracie, a mom and early childhood educator, helps keep the pacing patient and the tone encouraging for beginners, kids, and grown-ups drawing alongside them.</p>
+        <p>We hope taking a little break each day to create artwork brings your family as much joy as it's brought ours. See you tomorrow!</p>
       </div>
     </section>
     <section class="about-credentials" aria-labelledby="about-credentials-title">
@@ -2982,9 +3035,9 @@ ${iconLinks}
         <a class="brand footer-brand" href="/"><span class="brand-name">${brandWordmark}</span></a>
         <p class="footer-tagline">Soft pencil practice, one daily sketch at a time.</p>
       </div>
-      <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html">Library</a><a href="about.html" aria-current="page">About</a><a href="https://doodlea.day/">Doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
+      <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html">Library</a><a href="about.html" aria-current="page">About</a><a href="https://doodlea.day/">doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
     </div>
-    <small class="footer-copyright">© 2026 Sketcha.day</small>
+    <small class="footer-copyright">© 2026 sketcha.day</small>
   </footer>
   <script src="script.js"></script>
 </body>
@@ -2997,7 +3050,7 @@ const homePage = (lesson) => {
       <div class="newsletter-pencil" aria-hidden="true"></div>
       <p class="hand-note">A tiny creative nudge</p>
       <h2 id="newsletter-title">A fresh sketch in your inbox.</h2>
-      <p>Coming soon: one prompt, one practical tutorial, and a gentle reason to draw again tomorrow. Want it first? <a href="mailto:hello@sketcha.day?subject=Sketcha.day%20daily%20email%20interest">Email us to say you're interested</a>.</p>
+      <p>Coming soon: one prompt, one practical tutorial, and a gentle reason to draw again tomorrow. Want it first? <a href="mailto:hello@sketcha.day?subject=sketcha.day%20daily%20email%20interest">Email us to say you're interested</a>.</p>
       <form class="signup-form">
         <label class="sr-only" for="email">Email address</label>
         <input id="email" name="email" type="email" autocomplete="email" placeholder="Newsletter coming soon" disabled>
@@ -3067,7 +3120,7 @@ const archivePage = () => {
       siteNode,
       {
         "@type": "ItemList",
-        name: "Sketcha.day Drawing Tutorial Library",
+        name: "sketcha.day Drawing Tutorial Library",
         numberOfItems: archiveLessons.length,
         itemListElement: archiveLessons.map((lesson, index) => ({
           "@type": "ListItem",
@@ -3093,18 +3146,18 @@ const archivePage = () => {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Drawing Tutorial Library | Easy Sketch Lessons | Sketcha.day</title>
-  <meta name="description" content="Browse easy step-by-step drawing tutorials from Sketcha.day, with daily pencil sketch lessons for animals, objects, scenes, shapes, proportion, and shading.">
+  <title>Drawing Tutorial Library | Easy Sketch Lessons | sketcha.day</title>
+  <meta name="description" content="Browse easy step-by-step drawing tutorials from sketcha.day, with daily pencil sketch lessons for animals, objects, scenes, shapes, proportion, and shading.">
   <link rel="canonical" href="https://sketcha.day/library.html">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Drawing Tutorial Library | Sketcha.day">
+  <meta property="og:title" content="Drawing Tutorial Library | sketcha.day">
   <meta property="og:description" content="Browse daily pencil sketch lessons and easy step-by-step drawing tutorials.">
   <meta property="og:url" content="https://sketcha.day/library.html">
   <meta property="og:image" content="https://sketcha.day/assets/fox-finished-v2.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#f3b63c">
 ${iconLinks}
-  <link rel="alternate" type="application/rss+xml" title="Sketcha.day daily sketch feed" href="${siteUrl}/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="sketcha.day daily sketch feed" href="${siteUrl}/feed.xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap" rel="stylesheet">
@@ -3117,7 +3170,7 @@ ${iconLinks}
   <header class="site-header">
     <div class="brand">
       <img class="brand-mark" src="assets/logo-pencil-raster-v1.png" alt="" width="72" height="72">
-      <a class="brand-wordmark" href="/" aria-label="Sketcha.day home"><span class="brand-name">${brandWordmark}</span></a>
+      <a class="brand-wordmark" href="/" aria-label="sketcha.day home"><span class="brand-name">${brandWordmark}</span></a>
     </div>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open menu</span></button>
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
@@ -3133,7 +3186,7 @@ ${iconLinks}
       <div class="archive-intro">
         <p class="eyebrow"><span>${archiveLessons.length} step-by-step lessons</span> New pencil sketches added daily</p>
         <h1 id="archive-title">Drawing tutorial library</h1>
-        <p>Browse easy step-by-step drawing tutorials for quick pencil practice. Each Sketcha.day lesson breaks animals, cozy objects, seasonal sketches, small scenes, and beginner-friendly drawing ideas into approachable frames for construction shapes, proportion, line confidence, light shading, and a finished drawing.</p>
+        <p>Browse easy step-by-step drawing tutorials for quick pencil practice. Each sketcha.day lesson breaks animals, cozy objects, seasonal sketches, small scenes, and beginner-friendly drawing ideas into approachable frames for construction shapes, proportion, line confidence, light shading, and a finished drawing.</p>
       </div>
     </section>
     <section class="library archive-library" id="tutorial-library" aria-labelledby="tutorial-library-title">
@@ -3154,9 +3207,9 @@ ${iconLinks}
         <a class="brand footer-brand" href="/"><span class="brand-name">${brandWordmark}</span></a>
         <p class="footer-tagline">Soft pencil practice, one daily sketch at a time.</p>
       </div>
-      <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html" aria-current="page">Library</a><a href="about.html">About</a><a href="https://doodlea.day/">Doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
+      <nav aria-label="Footer navigation"><a href="/">Today</a><a href="library.html" aria-current="page">Library</a><a href="about.html">About</a><a href="https://doodlea.day/">doodlea.day</a><a href="mailto:hello@sketcha.day">Say hello</a></nav>
     </div>
-    <small class="footer-copyright">© 2026 Sketcha.day</small>
+    <small class="footer-copyright">© 2026 sketcha.day</small>
   </footer>
   <script src="script.js"></script>
 </body>
@@ -3166,7 +3219,7 @@ ${iconLinks}
 const feed = () => `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Sketcha.day Daily Sketches</title>
+    <title>sketcha.day Daily Sketches</title>
     <link>${siteUrl}/</link>
     <atom:link href="${siteUrl}/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>

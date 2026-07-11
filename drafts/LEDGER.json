@@ -116,6 +116,11 @@
       "date": "2026-06-17",
       "note": "Final outpaced the process frames; pulled from the Day 007 slot after review."
     },
+    "sandcastle-by-the-shore": {
+      "status": "published",
+      "date": "2026-07-11",
+      "note": "Slug locked for image generation by preflight; resolve before any new subject."
+    },
     "seashell-on-sand": {
       "status": "published"
     },
@@ -142,6 +147,11 @@
     },
     "tennis-racket-and-ball": {
       "status": "published"
+    },
+    "vintage-camera-on-a-strap": {
+      "status": "published",
+      "date": "2026-07-11",
+      "note": "Slug locked for image generation by preflight; resolve before any new subject."
     },
     "vintage-key-on-a-tag": {
       "status": "published"

@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Sketcha.day Daily Sketches</title>
+    <title>sketcha.day Daily Sketches</title>
     <link>https://sketcha.day/</link>
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a sandcastle by the shore</title>
+      <link>https://sketcha.day/tutorials/sandcastle-by-the-shore.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/sandcastle-by-the-shore.html</guid>
+      <pubDate>Sat, 11 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a sandcastle by the shore with a central tower, round side turrets, crenellations, an arched doorway, sand-block seams, a shell flag, shoreline marks, pale sand tone, and blue water accents.</description>
+      <media:content url="https://sketcha.day/assets/sandcastle-by-the-shore-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a classic pickup truck</title>
       <link>https://sketcha.day/tutorials/classic-pickup-truck.html</link>
@@ -406,6 +414,14 @@
       <pubDate>Fri, 22 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a garden hand trowel with a teardrop metal blade, rounded wooden handle, ferrule band, hanging hole, blade edge, wood grain, soil crumbs, gray metal shading, warm brown handle tone, and a soft cast shadow.</description>
       <media:content url="https://sketcha.day/assets/garden-hand-trowel-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a vintage camera on a strap</title>
+      <link>https://sketcha.day/tutorials/vintage-camera-on-a-strap.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/vintage-camera-on-a-strap.html</guid>
+      <pubDate>Thu, 21 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a vintage camera on a strap with a boxy body, loose strap loop, round lens barrel, viewfinder, shutter button, body seams, strap buckle, warm-gray tone, brown strap tint, and a soft shadow.</description>
+      <media:content url="https://sketcha.day/assets/vintage-camera-on-a-strap-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

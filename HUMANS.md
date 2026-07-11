@@ -13,6 +13,46 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-11 daily automation prepared two Sketcha lessons: current
+  `sandcastle-by-the-shore` (July 11 / Day 052) and honest archive
+  `vintage-camera-on-a-strap` (May 21 / Day 001). Existing day labels shifted
+  forward by one for the archive insertion. Both came from reviewed six-panel
+  raster contact sheets; final ratings: sandcastle 8.7/10 (clear layered tower
+  construction, readable beach silhouette, restrained sketch color) and camera
+  8.8/10 (stable box/lens/strap progression and convincing pencil texture).
+- The normal duplicate guard, contact-sheet crop, process-plan/delta checks,
+  image derivatives, social cards, readiness checks, Cove link checks, JSON-LD,
+  unused-assets check, and desktop/mobile no-overflow checks passed. Hero WebP
+  images were confirmed at 1254×1254 in the local browser. The temporary
+  two-tutorial-per-site backfill cadence remains active.
+- The shared preflight script now supports an exact
+  `--allow-existing-current-slug` escape hatch, forwarded to the duplicate
+  guard, so the same run can safely generate its archive lesson after its
+  validated current lesson. The matching change was mirrored in Doodlea.day.
+- No daily commit or push was made: both worktrees already include the owner's
+  uncommitted About/casing/library-review changes, and bundling them into an
+  automated live deploy would be unsafe. New lesson files are present locally
+  alongside that review work.
+- 2026-07-10 About-story refresh: replaced the generated About copy with the
+  owner's more personal version about the cowboy-hat birthday-card origin,
+  Robby and Tracie's roles, the sister-site distinction, and the family joy
+  signoff. The Sketcha hero now reads "Draw a little. Notice a lot." Rebuilt
+  the site; changes remain local pending owner review.
+- 2026-07-10 public brand-casing pass: normalized every public `sketcha.day`
+  and `doodlea.day` reference to lowercase in the generator and static lab,
+  then rebuilt all 50 tutorials plus homepage, library, About, feed, sitemap,
+  and robots output. A zero-uppercase audit and JSON-LD/XML validation passed;
+  internal documentation and historical notes were intentionally left intact.
+- 2026-07-10 local review work: added a dependency-free, row-aware center-out
+  reveal to the library grid. Owner feedback softened it to an 8px rise,
+  alternating +/-1deg swing, 1px overshoot, 620ms settle, and overlapping 35ms
+  stagger steps. Hover now uses a gentler 6px lift, small art nudge, and orange
+  tutorial-arrow response while keeping the card's resting shadow unchanged.
+  Reduced-motion and no-JavaScript paths leave every card visible. The same
+  interaction is mirrored in Doodlea.day; changes remain intentionally
+  uncommitted pending owner review. A follow-up moved resting card tilts into a
+  CSS custom property so the fourth-card tilt can no longer override its hover
+  or keyboard-focus transform.
 - 2026-07-10 daily automation added two Sketcha lessons:
   `classic-pickup-truck` as July 10, 2026 / Day 050 and
   `garden-hand-trowel` as May 22, 2026 / Day 001 honest archive backfill.

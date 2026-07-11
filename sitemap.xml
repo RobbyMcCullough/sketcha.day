@@ -2,21 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://sketcha.day/</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://sketcha.day/about.html</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://sketcha.day/library.html</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sketcha.day/tutorials/sandcastle-by-the-shore.html</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/sandcastle-by-the-shore-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/sandcastle-by-the-shore-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/sandcastle-by-the-shore-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/sandcastle-by-the-shore-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/sandcastle-by-the-shore-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/sandcastle-by-the-shore-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://sketcha.day/tutorials/classic-pickup-truck.html</loc>
@@ -1189,6 +1213,30 @@
     </image:image>
     <image:image>
       <image:loc>https://sketcha.day/assets/garden-hand-trowel-step-5.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sketcha.day/tutorials/vintage-camera-on-a-strap.html</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-camera-on-a-strap-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-camera-on-a-strap-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-camera-on-a-strap-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-camera-on-a-strap-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-camera-on-a-strap-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-camera-on-a-strap-step-5.webp</image:loc>
     </image:image>
   </url>
 </urlset>

@@ -1,0 +1,28 @@
+{
+  "slug": "sandcastle-by-the-shore",
+  "finished": "assets/sandcastle-by-the-shore-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Planned six-panel generated raster process sheet for the July 11, 2026 current lesson.",
+    "notes": "One low beach sandcastle stays centered at the same three-quarter view on warm sketchbook paper."
+  },
+  "process_strategy": "The sheet builds the shoreline, central tower, side turrets, brick seams, doorway, shell flag, and pale sand-and-blue accents before the final panel only strengthens existing graphite lines and tone.",
+  "final_elements": [
+    { "name": "shoreline guide", "introduced_by_step": 1, "description": "A shallow curved ground line under the castle." },
+    { "name": "central tower block", "introduced_by_step": 1, "description": "A short square central tower with a slightly tapered perspective." },
+    { "name": "two side turrets", "introduced_by_step": 2, "description": "Rounded sand turrets beside the central tower." },
+    { "name": "castle crenellations", "introduced_by_step": 3, "description": "Simple square notches along each tower top." },
+    { "name": "arched doorway and brick seams", "introduced_by_step": 4, "description": "A small arched door with a few horizontal sand-block marks." },
+    { "name": "shell flag and sand marks", "introduced_by_step": 4, "description": "A tiny shell-topped flag and a few established sand texture strokes." },
+    { "name": "pale sand and water accents", "introduced_by_step": 5, "description": "Light ochre sand tone and pale blue shoreline accents." }
+  ],
+  "frames": [
+    { "step": 1, "asset": "assets/sandcastle-by-the-shore-step-1.jpg", "step_name": "Place the shore and tower", "visible_job": "Sketches the shallow shoreline guide and the central tower block.", "introduces": ["shoreline guide", "central tower block"] },
+    { "step": 2, "asset": "assets/sandcastle-by-the-shore-step-2.jpg", "step_name": "Round the side turrets", "visible_job": "Adds the two side turrets while keeping the central tower guide visible.", "introduces": ["two side turrets"], "requires_prior_elements": ["central tower block"] },
+    { "step": 3, "asset": "assets/sandcastle-by-the-shore-step-3.jpg", "step_name": "Notch the castle tops", "visible_job": "Shapes simple crenellations on the already placed towers.", "introduces": ["castle crenellations"], "requires_prior_elements": ["central tower block", "two side turrets"] },
+    { "step": 4, "asset": "assets/sandcastle-by-the-shore-step-4.jpg", "step_name": "Add the tiny details", "visible_job": "Adds the doorway, brick seams, shell flag, and a few sand marks to established shapes.", "introduces": ["arched doorway and brick seams", "shell flag and sand marks"], "requires_prior_elements": ["central tower block", "two side turrets", "castle crenellations", "shoreline guide"] },
+    { "step": 5, "asset": "assets/sandcastle-by-the-shore-step-5.jpg", "step_name": "Shade the sand and water", "visible_job": "Adds restrained ochre sand tone and pale blue water accents to the established castle and shore.", "introduces": ["pale sand and water accents"], "requires_prior_elements": ["shoreline guide", "central tower block", "two side turrets", "castle crenellations", "arched doorway and brick seams", "shell flag and sand marks"] }
+  ],
+  "final_step": { "step_name": "Settle the beach sketch", "asset": "assets/sandcastle-by-the-shore-finished-v1.jpg", "visible_job": "Only deepens the existing tower edges, crenellations, doorway, shell flag, sand texture, and already present pale color accents.", "allowed_changes": ["keeper contour darkening", "brick-seam clarification", "restrained sand shading", "soft shoreline emphasis"] },
+  "rejection_checks": ["No tower, turret, doorway, flag, shoreline, texture, or color area may first appear in the final panel.", "Each panel must keep the same low sandcastle pose, crop, scale, and paper texture.", "The finish must remain a handmade pencil sketch rather than polished beach illustration."]
+}

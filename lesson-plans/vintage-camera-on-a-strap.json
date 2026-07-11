@@ -1,0 +1,27 @@
+{
+  "slug": "vintage-camera-on-a-strap",
+  "finished": "assets/vintage-camera-on-a-strap-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "Planned six-panel generated raster process sheet for the May 21, 2026 honest archive lesson.",
+    "notes": "One compact box camera sits at a consistent three-quarter angle with its loose strap on warm off-white paper."
+  },
+  "process_strategy": "The sequence establishes the camera body and strap loop, then lens, viewfinder, buttons, leather seams, and muted graphite/warm-brown tone before a final line-confidence pass.",
+  "final_elements": [
+    { "name": "camera body box", "introduced_by_step": 1, "description": "A compact rectangular camera body with a slight top plane." },
+    { "name": "loose strap loop", "introduced_by_step": 1, "description": "A soft loop of strap falling behind and beside the camera." },
+    { "name": "round lens barrel", "introduced_by_step": 2, "description": "A centered circular lens with an outer ring." },
+    { "name": "top viewfinder and shutter button", "introduced_by_step": 3, "description": "A small raised viewfinder and one round top button." },
+    { "name": "body seams and strap buckle", "introduced_by_step": 4, "description": "Simple leather seam lines and a small buckle on the established strap." },
+    { "name": "soft body tone and cast shadow", "introduced_by_step": 5, "description": "Light warm-gray body tone, brown strap tint, and a small cast shadow." }
+  ],
+  "frames": [
+    { "step": 1, "asset": "assets/vintage-camera-on-a-strap-step-1.jpg", "step_name": "Box in the camera", "visible_job": "Places the rectangular body guide and the loose strap loop.", "introduces": ["camera body box", "loose strap loop"] },
+    { "step": 2, "asset": "assets/vintage-camera-on-a-strap-step-2.jpg", "step_name": "Center the lens", "visible_job": "Adds the round lens barrel to the already placed camera front.", "introduces": ["round lens barrel"], "requires_prior_elements": ["camera body box"] },
+    { "step": 3, "asset": "assets/vintage-camera-on-a-strap-step-3.jpg", "step_name": "Build the top controls", "visible_job": "Adds the top viewfinder and shutter button to the existing body.", "introduces": ["top viewfinder and shutter button"], "requires_prior_elements": ["camera body box", "round lens barrel"] },
+    { "step": 4, "asset": "assets/vintage-camera-on-a-strap-step-4.jpg", "step_name": "Trace seams and buckle", "visible_job": "Adds simple body seams and the small strap buckle without changing the camera pose.", "introduces": ["body seams and strap buckle"], "requires_prior_elements": ["camera body box", "loose strap loop", "round lens barrel", "top viewfinder and shutter button"] },
+    { "step": 5, "asset": "assets/vintage-camera-on-a-strap-step-5.jpg", "step_name": "Add quiet camera tone", "visible_job": "Adds warm-gray body tone, brown strap tint, and a soft shadow to existing shapes.", "introduces": ["soft body tone and cast shadow"], "requires_prior_elements": ["camera body box", "loose strap loop", "round lens barrel", "top viewfinder and shutter button", "body seams and strap buckle"] }
+  ],
+  "final_step": { "step_name": "Focus the vintage finish", "asset": "assets/vintage-camera-on-a-strap-finished-v1.jpg", "visible_job": "Only reinforces existing body edges, lens rings, controls, seam lines, strap buckle, and established tone/shadow.", "allowed_changes": ["keeper contour darkening", "lens-ring clarification", "restrained graphite and brown shading", "soft shadow strengthening"] },
+  "rejection_checks": ["No lens, control, strap, buckle, seam, color area, or shadow may first appear in the final panel.", "The camera must keep its same three-quarter angle and strap placement in every frame.", "The finish must look like a modest pencil study, not a product-render illustration."]
+}
