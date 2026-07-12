@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a rocky-shore lighthouse</title>
+      <link>https://sketcha.day/tutorials/rocky-shore-lighthouse.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/rocky-shore-lighthouse.html</guid>
+      <pubDate>Sun, 12 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a rocky-shore lighthouse with a tapered tower, lantern room, shallow cap roof, layered rocky point, curving wave bands, tower stripes, window panes, a small cloud, and a warm guiding beam.</description>
+      <media:content url="https://sketcha.day/assets/rocky-shore-lighthouse-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a sandcastle by the shore</title>
       <link>https://sketcha.day/tutorials/sandcastle-by-the-shore.html</link>
@@ -422,6 +430,14 @@
       <pubDate>Thu, 21 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a vintage camera on a strap with a boxy body, loose strap loop, round lens barrel, viewfinder, shutter button, body seams, strap buckle, warm-gray tone, brown strap tint, and a soft shadow.</description>
       <media:content url="https://sketcha.day/assets/vintage-camera-on-a-strap-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a vintage typewriter</title>
+      <link>https://sketcha.day/tutorials/vintage-typewriter.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/vintage-typewriter.html</guid>
+      <pubDate>Wed, 20 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a vintage typewriter with a compact rounded-front body, upright paper sheet, roller, staggered round key rows, long space bar, front lip, carriage lever, side knob, warm-gray tone, and a soft cast shadow.</description>
+      <media:content url="https://sketcha.day/assets/vintage-typewriter-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -13,6 +13,13 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-12 daily automation added current `rocky-shore-lighthouse` (July 12 /
+  Day 054 after archive insertion) and honest archive `vintage-typewriter`
+  (May 20 / Day 001). Both use reviewed six-panel handmade raster pencil
+  contact sheets and passed process-plan, frame-delta, derivative, social-card,
+  JSON-LD, internal-link, asset, and diff checks. Finished-image ratings:
+  lighthouse 8.7/10; typewriter 8.6/10. The temporary two-tutorial-per-site
+  backfill cadence remains active.
 - 2026-07-11 daily automation prepared two Sketcha lessons: current
   `sandcastle-by-the-shore` (July 11 / Day 052) and honest archive
   `vintage-camera-on-a-strap` (May 21 / Day 001). Existing day labels shifted

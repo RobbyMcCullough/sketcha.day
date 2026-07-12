@@ -116,6 +116,11 @@
       "date": "2026-06-17",
       "note": "Final outpaced the process frames; pulled from the Day 007 slot after review."
     },
+    "rocky-shore-lighthouse": {
+      "status": "published",
+      "date": "2026-07-12",
+      "note": "Reviewed six-panel lighthouse process promoted after cropped-frame, process-plan, delivery-image, JSON-LD, link, and layout checks."
+    },
     "sandcastle-by-the-shore": {
       "status": "published",
       "date": "2026-07-11",
@@ -158,6 +163,11 @@
     },
     "vintage-roller-skate": {
       "status": "published"
+    },
+    "vintage-typewriter": {
+      "status": "published",
+      "date": "2026-07-12",
+      "note": "Reviewed six-panel typewriter process promoted after cropped-frame, process-plan, delivery-image, JSON-LD, link, and layout checks."
     },
     "waffle-ice-cream-cone": {
       "status": "published"

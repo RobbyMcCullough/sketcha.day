@@ -1,0 +1,36 @@
+{
+  "slug": "rocky-shore-lighthouse",
+  "finished": "assets/rocky-shore-lighthouse-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "One reviewed six-panel raster contact sheet, cropped into five process masters and the final lighthouse master.",
+    "notes": "Lock the three-quarter shore-side view, lighthouse proportions, and left-to-right beam direction across every panel."
+  },
+  "process_strategy": "A single six-panel pencil process keeps the same lighthouse on its rocky point; each frame adds only the next structural layer so the last panel only deepens existing graphite and light color accents.",
+  "final_elements": [
+    { "name": "lighthouse tower", "introduced_by_step": 1, "description": "A tall tapered tower with a gently curved base, centered slightly left." },
+    { "name": "lantern room and roof", "introduced_by_step": 2, "description": "A small windowed lantern room beneath a shallow cap roof." },
+    { "name": "rocky point", "introduced_by_step": 1, "description": "Two layered rock ledges anchoring the tower along the bottom edge." },
+    { "name": "shore wave bands", "introduced_by_step": 3, "description": "Three shallow, curving water lines crossing the foreground." },
+    { "name": "tower stripes and window panes", "introduced_by_step": 4, "description": "Two horizontal stripe bands and simple dark lantern-window dividers." },
+    { "name": "cloud and light beam", "introduced_by_step": 5, "description": "A small soft cloud and a narrow pale beam pointing toward the upper right." }
+  ],
+  "frames": [
+    { "step": 1, "asset": "assets/rocky-shore-lighthouse-step-1.jpg", "step_name": "Block the tower and shore", "visible_job": "Lay in a light center axis, tapered tower silhouette, and the two rock ledges.", "introduces": ["lighthouse tower", "rocky point"] },
+    { "step": 2, "asset": "assets/rocky-shore-lighthouse-step-2.jpg", "step_name": "Build the lantern room", "visible_job": "Set the roof ellipse and small lantern-room box on the already-established tower.", "introduces": ["lantern room and roof"], "requires_prior_elements": ["lighthouse tower"] },
+    { "step": 3, "asset": "assets/rocky-shore-lighthouse-step-3.jpg", "step_name": "Sweep in the water", "visible_job": "Add three foreground wave bands that tuck behind the established rocky point.", "introduces": ["shore wave bands"], "requires_prior_elements": ["rocky point"] },
+    { "step": 4, "asset": "assets/rocky-shore-lighthouse-step-4.jpg", "step_name": "Place the tower details", "visible_job": "Add the tower stripe bands and lantern-window dividers to existing forms.", "introduces": ["tower stripes and window panes"], "requires_prior_elements": ["lighthouse tower", "lantern room and roof"] },
+    { "step": 5, "asset": "assets/rocky-shore-lighthouse-step-5.jpg", "step_name": "Add the sky cues", "visible_job": "Place the small cloud and narrow beam after the roof direction is clear.", "introduces": ["cloud and light beam"], "requires_prior_elements": ["lantern room and roof"] }
+  ],
+  "final_step": {
+    "step_name": "Settle the lighthouse sketch",
+    "asset": "assets/rocky-shore-lighthouse-finished-v1.jpg",
+    "visible_job": "Strengthen the existing pencil contours and add restrained blue-gray water and warm beam shading only to established shapes.",
+    "allowed_changes": ["keeper contour darkening", "restrained blue-gray water shading", "restrained warm beam shading"]
+  },
+  "rejection_checks": [
+    "Reject if the tower, lantern room, rock silhouette, beam, or viewpoint changes between panels.",
+    "Reject if a rock, roof, window, stripe, wave, cloud, or beam first appears in the final panel.",
+    "Reject if the finish looks like polished vector art rather than handmade pencil on warm paper."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "vintage-typewriter",
+  "finished": "assets/vintage-typewriter-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "One reviewed six-panel raster contact sheet cropped into five process masters and a final typewriter master.",
+    "notes": "Keep the same front three-quarter compact typewriter, sheet of paper, key rows, roller, and carriage-return lever in every panel."
+  },
+  "process_strategy": "The one-sheet pencil progression builds a boxy typewriter from its baseline and body silhouette through paper, keys, and hardware; the final only strengthens existing lines and quiet tones.",
+  "final_elements": [
+    { "name": "typewriter body", "introduced_by_step": 1, "description": "A compact rounded-front rectangular machine body on a low base." },
+    { "name": "paper sheet and roller", "introduced_by_step": 2, "description": "A slightly tilted paper rectangle rising from a narrow roller bar." },
+    { "name": "key bank", "introduced_by_step": 3, "description": "Three staggered rows of small round key marks across the body front." },
+    { "name": "space bar and front lip", "introduced_by_step": 4, "description": "A long center bar and a narrow lower face edge beneath the keys." },
+    { "name": "carriage lever and side knob", "introduced_by_step": 5, "description": "A short bent lever on the right and circular side knob on the roller." },
+    { "name": "soft cast shadow and warm-gray tone", "introduced_by_step": 5, "description": "A soft shadow under the base and restrained warm-gray pencil on existing body planes." }
+  ],
+  "frames": [
+    { "step": 1, "asset": "assets/vintage-typewriter-step-1.jpg", "step_name": "Block the machine", "visible_job": "Draw a low baseline and the compact boxy body silhouette.", "introduces": ["typewriter body"] },
+    { "step": 2, "asset": "assets/vintage-typewriter-step-2.jpg", "step_name": "Set the paper and roller", "visible_job": "Add the narrow roller bar and one simple paper sheet behind the established body.", "introduces": ["paper sheet and roller"], "requires_prior_elements": ["typewriter body"] },
+    { "step": 3, "asset": "assets/vintage-typewriter-step-3.jpg", "step_name": "Lay in the key bank", "visible_job": "Place three staggered rows of loose round key marks on the existing front plane.", "introduces": ["key bank"], "requires_prior_elements": ["typewriter body"] },
+    { "step": 4, "asset": "assets/vintage-typewriter-step-4.jpg", "step_name": "Shape the front controls", "visible_job": "Add a long space bar and lower front lip beneath the established key rows.", "introduces": ["space bar and front lip"], "requires_prior_elements": ["typewriter body", "key bank"] },
+    { "step": 5, "asset": "assets/vintage-typewriter-step-5.jpg", "step_name": "Finish the side hardware", "visible_job": "Add the short carriage lever, side knob, soft shadow, and warm-gray tone to existing forms.", "introduces": ["carriage lever and side knob", "soft cast shadow and warm-gray tone"], "requires_prior_elements": ["typewriter body", "paper sheet and roller"] }
+  ],
+  "final_step": {
+    "step_name": "Focus the typewriter finish",
+    "asset": "assets/vintage-typewriter-finished-v1.jpg",
+    "visible_job": "Only darken established contours, keys, paper edge, roller, lever, knob, and existing quiet tone and shadow.",
+    "allowed_changes": ["keeper contour darkening", "restrained warm-gray shading", "soft shadow balancing"]
+  },
+  "rejection_checks": [
+    "Reject if the paper, key rows, lever, knob, or body proportions drift between panels.",
+    "Reject if a major typewriter control, paper sheet, or shadow first appears in the final panel.",
+    "Reject a polished illustration or a vector-like machine; the finish must remain handmade pencil on paper."
+  ]
+}
