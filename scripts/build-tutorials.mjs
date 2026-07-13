@@ -12,8 +12,50 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "sparrow-on-a-branch",
+    day: "056",
+    date: "Monday, July 13",
+    isoDate: "2026-07-13",
+    subject: "a sparrow on a branch",
+    headlineSubject: "a sparrow<br>on a branch",
+    shortSubject: "a sparrow",
+    lessonTitle: "Let's draw a sparrow on a branch",
+    description: "Learn how to draw a sparrow on a branch with a curved perch, small berry twig, plump side-view body, beak, eye, layered wing, tapered tail, gripping feet, and gentle graphite feather shading.",
+    intro: "Start with the curved perch, then build a soft round bird shape over it before layering in the beak, wing, feet, and quiet pencil texture. It is a friendly way to practice turning simple ovals into a lively perched pose.",
+    time: 20,
+    difficulty: "Easy-medium",
+    accent: "#8c8377",
+    finished: "sparrow-on-a-branch-finished-v1.jpg",
+    finishedAlt: "Handmade graphite sketch of a plump side-view sparrow on a curved branch with a berry twig, layered wing, tapered tail, and gentle feather shading",
+    materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional pale blue pencil"],
+    materialNote: "Keep the construction pass pale and light, then use a soft graphite pencil for the settled contours and feather texture.",
+    tipLabel: "Sketch tip",
+    steps: [
+      { name: "Place the perch", text: "Draw a gently curved branch, a short berry twig, three small berry circles, and one light body axis above the branch.", tip: "Ghost the branch in one relaxed sweep before committing. A quiet curve gives the bird somewhere convincing to perch." },
+      { name: "Build the bird", text: "Add one large oval for the body and a smaller overlapping oval for the head, keeping both centered over the established branch.", tip: "Compare the two ovals before refining. The head should feel clearly smaller, but not pinched against the body." },
+      { name: "Refine the silhouette", text: "Turn the construction into a rounded back, soft belly, and a tapered tail that follows the same gentle diagonal.", tip: "Rotate the page for the long back curve. One deliberate pull reads more naturally than many scratchy corrections." },
+      { name: "Add the landmarks", text: "Draw the small beak, round eye, layered wing, two feet, and tail divisions on the established sparrow shape.", tip: "Keep the wing edge lighter than the outside contour. That small line-weight difference helps it sit on the body instead of cutting through it." },
+      { name: "Suggest the feathers", text: "Add short feather marks and light graphite shade to the existing wing, belly, branch, and berries.", tip: "Let each shading stroke follow the form: curve around the belly and pull along the branch. Directional texture makes simple shapes feel solid." },
+      { name: "Settle the pencil finish", text: "Darken the keeper contours and clarify the existing beak, eye, wing, feet, branch, berries, and gentle graphite shading.", tip: "Stop before adding a nest, sky, or extra birds. The perch, berry twig, and one calm sparrow already make a complete little scene.", image: true }
+    ]
+  },
+  {
+    slug: "old-fashioned-desk-fan", day: "001", date: "Tuesday, May 19", isoDate: "2026-05-19", subject: "an old-fashioned desk fan", headlineSubject: "an old-fashioned<br>desk fan", shortSubject: "a desk fan", lessonTitle: "Let's draw an old-fashioned desk fan",
+    description: "Learn how to draw an old-fashioned desk fan with an oval base, upright stand, round wire cage, center hub, four broad blades, wire spokes, trailing cord, and soft graphite metal shading.",
+    intro: "Build the base and wire cage first, then use the hub to space the four blades before adding the spokes and quiet metal tone. This honest archive lesson is a fresh drawing exercise, not a claim about earlier activity.",
+    time: 25, difficulty: "Easy-medium", accent: "#84817a", finished: "old-fashioned-desk-fan-finished-v1.jpg", finishedAlt: "Handmade graphite sketch of an old-fashioned desk fan with oval base, round wire cage, four broad blades, wire spokes, and trailing cord", materials: ["Graphite pencil", "Drawing paper", "Eraser", "Optional pale blue pencil"],
+    steps: [
+      { name: "Set the base", text: "Draw a light oval base, upright stand, round cage guide, and short trailing cord.", tip: "Ghost the large circle before committing so the cage has a calm, even rhythm." },
+      { name: "Ring the cage", text: "Refine the guide into a double-line round wire cage attached to the established stand.", tip: "Keep the inner ring parallel to the outer ring instead of correcting one side at a time." },
+      { name: "Center the hub", text: "Add a small round hub and collar where the established stand meets the cage.", tip: "Let the hub sit directly on the cage centerlines; that simple check keeps the blades balanced." },
+      { name: "Sweep the blades", text: "Draw four broad rounded blades from the established hub.", tip: "Turn the paper rather than twisting your wrist. Each blade should begin at the same hub, then curve outward." },
+      { name: "Cross the wires", text: "Add cage spokes and light graphite shade to the established base, stand, hub, and blades.", tip: "Shade with strokes that follow each metal curve. Directional tone feels more solid than rubbing everywhere." },
+      { name: "Finish the vintage metal", text: "Darken the keeper contours and clarify the existing cage, spokes, hub, blades, cord, and metal shading.", tip: "Stop before adding a desk scene or labels. The cage, four blades, and oval base already make the object unmistakable.", image: true }
+    ]
+  },
+  {
     slug: "vintage-typewriter",
-    day: "001",
+    day: "002",
     date: "Wednesday, May 20",
     isoDate: "2026-05-20",
     subject: "a vintage typewriter",
@@ -39,7 +81,7 @@ const lessons = [
   },
   {
     slug: "rocky-shore-lighthouse",
-    day: "054",
+    day: "055",
     date: "Sunday, July 12",
     isoDate: "2026-07-12",
     subject: "a rocky-shore lighthouse",
@@ -65,7 +107,7 @@ const lessons = [
   },
   {
     slug: "sandcastle-by-the-shore",
-    day: "053",
+    day: "054",
     date: "Saturday, July 11",
     isoDate: "2026-07-11",
     subject: "a sandcastle by the shore",
@@ -91,7 +133,7 @@ const lessons = [
   },
   {
     slug: "vintage-camera-on-a-strap",
-    day: "002",
+    day: "003",
     date: "Thursday, May 21",
     isoDate: "2026-05-21",
     subject: "a vintage camera on a strap",
@@ -117,7 +159,7 @@ const lessons = [
   },
   {
     slug: "garden-hand-trowel",
-    day: "003",
+    day: "004",
     date: "Friday, May 22",
     isoDate: "2026-05-22",
     subject: "a garden hand trowel",
@@ -168,7 +210,7 @@ const lessons = [
   },
   {
     slug: "folded-paper-airplane",
-    day: "004",
+    day: "005",
     date: "Saturday, May 23",
     isoDate: "2026-05-23",
     subject: "a folded paper airplane",
@@ -219,7 +261,7 @@ const lessons = [
   },
   {
     slug: "wooden-clothespin",
-    day: "005",
+    day: "006",
     date: "Sunday, May 24",
     isoDate: "2026-05-24",
     subject: "a wooden clothespin",
@@ -270,7 +312,7 @@ const lessons = [
   },
   {
     slug: "old-fashioned-bicycle-basket",
-    day: "006",
+    day: "007",
     date: "Monday, May 25",
     isoDate: "2026-05-25",
     subject: "an old-fashioned bicycle with a basket",
@@ -321,7 +363,7 @@ const lessons = [
   },
   {
     slug: "record-player-with-vinyl",
-    day: "049",
+    day: "050",
     date: "Tuesday, July 7",
     isoDate: "2026-07-07",
     subject: "a record player with vinyl",
@@ -372,7 +414,7 @@ const lessons = [
   },
   {
     slug: "cozy-reading-lamp",
-    day: "050",
+    day: "051",
     date: "Wednesday, July 8",
     isoDate: "2026-07-08",
     subject: "a cozy reading lamp",
@@ -423,7 +465,7 @@ const lessons = [
   },
   {
     slug: "sugar-cookie-on-a-napkin",
-    day: "051",
+    day: "052",
     date: "Thursday, July 9",
     isoDate: "2026-07-09",
     subject: "a sugar cookie on a napkin",
@@ -474,7 +516,7 @@ const lessons = [
   },
   {
     slug: "classic-pickup-truck",
-    day: "052",
+    day: "053",
     date: "Friday, July 10",
     isoDate: "2026-07-10",
     subject: "a classic pickup truck",
@@ -525,7 +567,7 @@ const lessons = [
   },
   {
     slug: "vintage-key-on-a-tag",
-    day: "007",
+    day: "008",
     date: "Tuesday, May 26",
     isoDate: "2026-05-26",
     subject: "a vintage key on a tag",
@@ -576,7 +618,7 @@ const lessons = [
   },
   {
     slug: "airport-control-tower",
-    day: "048",
+    day: "049",
     date: "Monday, July 6",
     isoDate: "2026-07-06",
     subject: "an airport control tower",
@@ -627,7 +669,7 @@ const lessons = [
   },
   {
     slug: "folded-camp-map",
-    day: "008",
+    day: "009",
     date: "Wednesday, May 27",
     isoDate: "2026-05-27",
     subject: "a folded camp map",
@@ -678,7 +720,7 @@ const lessons = [
   },
   {
     slug: "apple-turnover-on-a-plate",
-    day: "047",
+    day: "048",
     date: "Sunday, July 5",
     isoDate: "2026-07-05",
     subject: "an apple turnover on a plate",
@@ -729,7 +771,7 @@ const lessons = [
   },
   {
     slug: "strawberry-basket",
-    day: "009",
+    day: "010",
     date: "Thursday, May 28",
     isoDate: "2026-05-28",
     subject: "a strawberry basket",
@@ -780,7 +822,7 @@ const lessons = [
   },
   {
     slug: "garden-gnome",
-    day: "010",
+    day: "011",
     date: "Friday, May 29",
     isoDate: "2026-05-29",
     subject: "a garden gnome",
@@ -831,7 +873,7 @@ const lessons = [
   },
   {
     slug: "mason-jar-sparklers",
-    day: "011",
+    day: "012",
     date: "Saturday, May 30",
     isoDate: "2026-05-30",
     subject: "a mason jar with sparklers",
@@ -882,7 +924,7 @@ const lessons = [
   },
   {
     slug: "parade-drum-with-sticks",
-    day: "045",
+    day: "046",
     date: "Friday, July 3",
     isoDate: "2026-07-03",
     subject: "a parade drum with sticks",
@@ -933,7 +975,7 @@ const lessons = [
   },
   {
     slug: "waving-flag-on-a-porch",
-    day: "046",
+    day: "047",
     date: "Saturday, July 4",
     isoDate: "2026-07-04",
     subject: "a waving flag on a porch",
@@ -984,7 +1026,7 @@ const lessons = [
   },
   {
     slug: "mason-jar-with-fireflies",
-    day: "012",
+    day: "013",
     date: "Sunday, May 31",
     isoDate: "2026-05-31",
     subject: "a mason jar with fireflies",
@@ -1035,7 +1077,7 @@ const lessons = [
   },
   {
     slug: "summer-sun-hat-ribbon",
-    day: "013",
+    day: "014",
     date: "Monday, June 1",
     isoDate: "2026-06-01",
     subject: "a summer sun hat with a ribbon",
@@ -1086,7 +1128,7 @@ const lessons = [
   },
   {
     slug: "backyard-pinwheel",
-    day: "044",
+    day: "045",
     date: "Thursday, July 2",
     isoDate: "2026-07-02",
     subject: "a backyard pinwheel",
@@ -1137,7 +1179,7 @@ const lessons = [
   },
   {
     slug: "mailbox-with-flag",
-    day: "014",
+    day: "015",
     date: "Tuesday, June 2",
     isoDate: "2026-06-02",
     subject: "a mailbox with a flag",
@@ -1188,7 +1230,7 @@ const lessons = [
   },
   {
     slug: "waffle-ice-cream-cone",
-    day: "043",
+    day: "044",
     date: "Wednesday, July 1",
     isoDate: "2026-07-01",
     subject: "a waffle ice cream cone",
@@ -1239,7 +1281,7 @@ const lessons = [
   },
   {
     slug: "rain-boot-with-puddle",
-    day: "015",
+    day: "016",
     date: "Wednesday, June 3",
     isoDate: "2026-06-03",
     subject: "a rain boot with a puddle",
@@ -1290,7 +1332,7 @@ const lessons = [
   },
   {
     slug: "backyard-telescope",
-    day: "042",
+    day: "043",
     date: "Tuesday, June 30",
     isoDate: "2026-06-30",
     subject: "a backyard telescope",
@@ -1341,7 +1383,7 @@ const lessons = [
   },
   {
     slug: "honeybee-on-a-flower",
-    day: "016",
+    day: "017",
     date: "Thursday, June 4",
     isoDate: "2026-06-04",
     subject: "a honeybee on a flower",
@@ -1392,7 +1434,7 @@ const lessons = [
   },
   {
     slug: "curious-fox",
-    day: "027",
+    day: "028",
     date: "Monday, June 15",
     isoDate: "2026-06-15",
     subject: "a curious fox",
@@ -1510,7 +1552,7 @@ const lessons = [
   },
   {
     slug: "tennis-racket-and-ball",
-    day: "041",
+    day: "042",
     date: "Monday, June 29",
     isoDate: "2026-06-29",
     subject: "a tennis racket and ball",
@@ -1561,7 +1603,7 @@ const lessons = [
   },
   {
     slug: "vintage-roller-skate",
-    day: "040",
+    day: "041",
     date: "Sunday, June 28",
     isoDate: "2026-06-28",
     subject: "a vintage roller skate",
@@ -1612,7 +1654,7 @@ const lessons = [
   },
   {
     slug: "sunglasses-on-a-towel",
-    day: "039",
+    day: "040",
     date: "Saturday, June 27",
     isoDate: "2026-06-27",
     subject: "a pair of sunglasses on a towel",
@@ -1663,7 +1705,7 @@ const lessons = [
   },
   {
     slug: "desk-dog",
-    day: "038",
+    day: "039",
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
@@ -1714,7 +1756,7 @@ const lessons = [
   },
   {
     slug: "little-tugboat",
-    day: "037",
+    day: "038",
     date: "Thursday, June 25",
     isoDate: "2026-06-25",
     subject: "a little tugboat",
@@ -1765,7 +1807,7 @@ const lessons = [
   },
   {
     slug: "garden-watering-can",
-    day: "036",
+    day: "037",
     date: "Wednesday, June 24",
     isoDate: "2026-06-24",
     subject: "a garden watering can",
@@ -1816,7 +1858,7 @@ const lessons = [
   },
   {
     slug: "paint-palette-and-brush",
-    day: "035",
+    day: "036",
     date: "Tuesday, June 23",
     isoDate: "2026-06-23",
     subject: "a paint palette and brush",
@@ -1867,7 +1909,7 @@ const lessons = [
   },
   {
     slug: "stack-of-pancakes",
-    day: "034",
+    day: "035",
     date: "Monday, June 22",
     isoDate: "2026-06-22",
     subject: "a stack of pancakes",
@@ -1918,7 +1960,7 @@ const lessons = [
   },
   {
     slug: "birdhouse-on-a-post",
-    day: "033",
+    day: "034",
     date: "Sunday, June 21",
     isoDate: "2026-06-21",
     subject: "a birdhouse on a post",
@@ -1969,7 +2011,7 @@ const lessons = [
   },
   {
     slug: "potted-cactus-flowers",
-    day: "032",
+    day: "033",
     date: "Saturday, June 20",
     isoDate: "2026-06-20",
     subject: "a potted cactus with flowers",
@@ -2020,7 +2062,7 @@ const lessons = [
   },
   {
     slug: "camping-lantern",
-    day: "031",
+    day: "032",
     date: "Friday, June 19",
     isoDate: "2026-06-19",
     subject: "a camping lantern",
@@ -2071,7 +2113,7 @@ const lessons = [
   },
   {
     slug: "patchwork-kite",
-    day: "030",
+    day: "031",
     date: "Thursday, June 18",
     isoDate: "2026-06-18",
     subject: "a patchwork kite in the wind",
@@ -2122,7 +2164,7 @@ const lessons = [
   },
   {
     slug: "cozy-teacup",
-    day: "029",
+    day: "030",
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
@@ -2178,7 +2220,7 @@ const lessons = [
   },
   {
     slug: "garden-snail",
-    day: "028",
+    day: "029",
     date: "Tuesday, June 16",
     isoDate: "2026-06-16",
     subject: "a garden snail on a leaf",
@@ -2224,7 +2266,7 @@ const lessons = [
   },
   {
     slug: "sleepy-cat",
-    day: "026",
+    day: "027",
     date: "Sunday, June 14",
     isoDate: "2026-06-14",
     subject: "a sleepy cat",
@@ -2273,7 +2315,7 @@ const lessons = [
   },
   {
     slug: "sprouting-seed",
-    day: "025",
+    day: "026",
     date: "Saturday, June 13",
     isoDate: "2026-06-13",
     subject: "a sprouting seed",
@@ -2322,7 +2364,7 @@ const lessons = [
   },
   {
     slug: "cozy-mushroom",
-    day: "024",
+    day: "025",
     date: "Friday, June 12",
     isoDate: "2026-06-12",
     subject: "a cozy mushroom",
@@ -2371,7 +2413,7 @@ const lessons = [
   },
   {
     slug: "rainy-day-frog",
-    day: "023",
+    day: "024",
     date: "Thursday, June 11",
     isoDate: "2026-06-11",
     subject: "a rainy-day frog",
@@ -2416,7 +2458,7 @@ const lessons = [
   },
   {
     slug: "lemonade-glass",
-    day: "022",
+    day: "023",
     date: "Wednesday, June 10",
     isoDate: "2026-06-10",
     subject: "a glass of lemonade",
@@ -2467,7 +2509,7 @@ const lessons = [
   },
   {
     slug: "picnic-basket",
-    day: "019",
+    day: "020",
     date: "Sunday, June 7",
     isoDate: "2026-06-07",
     subject: "a picnic basket",
@@ -2518,7 +2560,7 @@ const lessons = [
   },
   {
     slug: "pocket-compass",
-    day: "017",
+    day: "018",
     date: "Friday, June 5",
     isoDate: "2026-06-05",
     subject: "a pocket compass",
@@ -2569,7 +2611,7 @@ const lessons = [
   },
   {
     slug: "stack-of-books",
-    day: "018",
+    day: "019",
     date: "Saturday, June 6",
     isoDate: "2026-06-06",
     subject: "a stack of books",
@@ -2620,7 +2662,7 @@ const lessons = [
   },
   {
     slug: "seashell-on-sand",
-    day: "020",
+    day: "021",
     date: "Monday, June 8",
     isoDate: "2026-06-08",
     subject: "a seashell on sand",
@@ -2671,7 +2713,7 @@ const lessons = [
   },
   {
     slug: "soccer-ball-on-grass",
-    day: "021",
+    day: "022",
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",

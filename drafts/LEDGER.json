@@ -82,6 +82,11 @@
     "old-fashioned-bicycle-basket": {
       "status": "published"
     },
+    "old-fashioned-desk-fan": {
+      "status": "published",
+      "date": "2026-07-13",
+      "note": "Reviewed six-panel desk-fan process promoted after cropped-frame, process-plan, derivative, JSON-LD, internal-link, and asset checks."
+    },
     "paint-palette-and-brush": {
       "status": "published"
     },
@@ -129,8 +134,18 @@
     "seashell-on-sand": {
       "status": "published"
     },
+    "sleeping-cat-on-a-windowsill": {
+      "status": "rejected-duplicate",
+      "date": "2026-07-13",
+      "note": "Rejected before image generation: preflight back-check found the existing sleepy-cat lesson too close in subject and drawing problem."
+    },
     "soccer-ball-on-grass": {
       "status": "published"
+    },
+    "sparrow-on-a-branch": {
+      "status": "published",
+      "date": "2026-07-13",
+      "note": "Reviewed six-panel sparrow process promoted after cropped-frame, process-plan, derivative, JSON-LD, internal-link, and asset checks."
     },
     "stack-of-books": {
       "status": "published"

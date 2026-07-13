@@ -1,0 +1,22 @@
+{
+  "slug": "old-fashioned-desk-fan",
+  "finished": "assets/old-fashioned-desk-fan-finished-v1.jpg",
+  "source": {"type": "generated-raster-master", "description": "Approved six-panel raster contact sheet cropped to reviewed JPG masters.", "notes": "One centered fan stays stable in every panel."},
+  "process_strategy": "The base, cord, cage, hub, blades, spokes, and shading all appear before final contour polish.",
+  "final_elements": [
+    {"name":"base and stand","introduced_by_step":1,"description":"A low oval base, tapered upright stand, and short trailing cord established below the fan."},
+    {"name":"round cage","introduced_by_step":2,"description":"A centered double-line circular wire cage connected to the already drawn stand."},
+    {"name":"hub","introduced_by_step":3,"description":"A small circular center hub and neck collar placed at the exact center of the cage."},
+    {"name":"hub and blades","introduced_by_step":4,"description":"Four broad rounded blades radiating evenly from the established center hub."},
+    {"name":"spokes cord and shading","introduced_by_step":5,"description":"Radial cage spokes, the already visible trailing cord, and soft graphite metal tone on established base, stand, and blades."}
+  ],
+  "frames": [
+    {"step":1,"asset":"assets/old-fashioned-desk-fan-step-1.jpg","step_name":"Set the base","visible_job":"Draw a light oval base, tapered upright stand, large cage guide circle, and short trailing cord.","introduces":["base and stand"]},
+    {"step":2,"asset":"assets/old-fashioned-desk-fan-step-2.jpg","step_name":"Ring the cage","visible_job":"Refine the large guide into a centered double-line circular wire cage attached to the established stand.","introduces":["round cage"],"requires_prior_elements":["base and stand"]},
+    {"step":3,"asset":"assets/old-fashioned-desk-fan-step-3.jpg","step_name":"Center the hub","visible_job":"Add a small circular center hub and a short neck collar where the established stand meets the cage.","introduces":["hub"],"requires_prior_elements":["round cage"]},
+    {"step":4,"asset":"assets/old-fashioned-desk-fan-step-4.jpg","step_name":"Sweep the blades","visible_job":"Draw four broad rounded blades that start at the established hub and curve outward inside the cage.","introduces":["hub and blades"],"requires_prior_elements":["hub"]},
+    {"step":5,"asset":"assets/old-fashioned-desk-fan-step-5.jpg","step_name":"Cross the wires","visible_job":"Add radial cage spokes and soft directional graphite shade to the established base, stand, hub, and blades.","introduces":["spokes cord and shading"],"requires_prior_elements":["base and stand","round cage","hub and blades"]}
+  ],
+  "final_step": {"step_name":"Finish the vintage metal","asset":"assets/old-fashioned-desk-fan-finished-v1.jpg","visible_job":"Darken only the existing base, stand, cage, spokes, hub, blades, cord, and metal shading.","allowed_changes":["keeper contour darkening","restrained graphite shading"]},
+  "rejection_checks":["No blade or cord first appears in the final.","One pose crop and scale throughout.","Every adjacent frame visibly progresses."]
+}

@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a sparrow on a branch</title>
+      <link>https://sketcha.day/tutorials/sparrow-on-a-branch.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/sparrow-on-a-branch.html</guid>
+      <pubDate>Mon, 13 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a sparrow on a branch with a curved perch, small berry twig, plump side-view body, beak, eye, layered wing, tapered tail, gripping feet, and gentle graphite feather shading.</description>
+      <media:content url="https://sketcha.day/assets/sparrow-on-a-branch-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a rocky-shore lighthouse</title>
       <link>https://sketcha.day/tutorials/rocky-shore-lighthouse.html</link>
@@ -438,6 +446,14 @@
       <pubDate>Wed, 20 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a vintage typewriter with a compact rounded-front body, upright paper sheet, roller, staggered round key rows, long space bar, front lip, carriage lever, side knob, warm-gray tone, and a soft cast shadow.</description>
       <media:content url="https://sketcha.day/assets/vintage-typewriter-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw an old-fashioned desk fan</title>
+      <link>https://sketcha.day/tutorials/old-fashioned-desk-fan.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/old-fashioned-desk-fan.html</guid>
+      <pubDate>Tue, 19 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw an old-fashioned desk fan with an oval base, upright stand, round wire cage, center hub, four broad blades, wire spokes, trailing cord, and soft graphite metal shading.</description>
+      <media:content url="https://sketcha.day/assets/old-fashioned-desk-fan-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

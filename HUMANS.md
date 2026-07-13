@@ -13,6 +13,7 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-13 daily automation added current `sparrow-on-a-branch` (July 13 / Day 056) and honest archive `old-fashioned-desk-fan` (May 19 / Day 001). Both use reviewed six-panel handmade raster pencil contact sheets; automated process-plan, frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset, and diff checks passed. Finished ratings: sparrow 8.6/10 for its calm readable perch, stable progression, and accessible detail; desk fan 8.5/10 for its clear base/cage/blade construction and consistent graphite finish. The temporary two-tutorial-per-site backfill cadence remains active; Doodlea still needs its July 13 pair.
 - 2026-07-12 daily automation added current `rocky-shore-lighthouse` (July 12 /
   Day 054 after archive insertion) and honest archive `vintage-typewriter`
   (May 20 / Day 001). Both use reviewed six-panel handmade raster pencil
