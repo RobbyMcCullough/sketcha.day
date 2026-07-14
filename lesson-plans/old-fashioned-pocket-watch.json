@@ -1,0 +1,22 @@
+{
+  "slug": "old-fashioned-pocket-watch",
+  "finished": "assets/old-fashioned-pocket-watch-finished-v1.jpg",
+  "source": {"type": "generated-raster-master", "description": "A reviewed six-panel pencil process contact sheet.", "notes": "One consistent three-quarter pocket-watch drawing on warm paper."},
+  "process_strategy": "The sheet builds one round watch from light circles through the case, crown, dial, hands, chain, color, and a final graphite cleanup.",
+  "final_elements": [
+    {"name": "round watch case and construction circles", "introduced_by_step": 1, "description": "A centered round pocket-watch body with a faint inner dial guide."},
+    {"name": "crown and bow loop", "introduced_by_step": 2, "description": "A small top crown with a rounded hanging loop."},
+    {"name": "dial ring and hour marks", "introduced_by_step": 3, "description": "An inset circular dial with simple readable marks."},
+    {"name": "hands and chain", "introduced_by_step": 4, "description": "Two hands and a loose short chain curling to one side."},
+    {"name": "warm brass tint and ground shadow", "introduced_by_step": 5, "description": "Restrained ochre tint on the established case and a pale shadow."}
+  ],
+  "frames": [
+    {"step": 1, "asset": "assets/old-fashioned-pocket-watch-step-1.jpg", "step_name": "Place the watch circles", "visible_job": "Sets the outer case circle and inner dial guide.", "introduces": ["round watch case and construction circles"]},
+    {"step": 2, "asset": "assets/old-fashioned-pocket-watch-step-2.jpg", "step_name": "Add the crown", "visible_job": "Adds the crown and bow loop at the established top edge.", "introduces": ["crown and bow loop"], "requires_prior_elements": ["round watch case and construction circles"]},
+    {"step": 3, "asset": "assets/old-fashioned-pocket-watch-step-3.jpg", "step_name": "Set the dial", "visible_job": "Adds the inner dial ring and simple hour marks.", "introduces": ["dial ring and hour marks"], "requires_prior_elements": ["round watch case and construction circles"]},
+    {"step": 4, "asset": "assets/old-fashioned-pocket-watch-step-4.jpg", "step_name": "Draw hands and chain", "visible_job": "Adds hands inside the existing dial and the chain beside the case.", "introduces": ["hands and chain"], "requires_prior_elements": ["round watch case and construction circles", "crown and bow loop", "dial ring and hour marks"]},
+    {"step": 5, "asset": "assets/old-fashioned-pocket-watch-step-5.jpg", "step_name": "Shade the metal", "visible_job": "Adds restrained brass tint and a soft shadow to established forms.", "introduces": ["warm brass tint and ground shadow"], "requires_prior_elements": ["round watch case and construction circles", "crown and bow loop", "dial ring and hour marks", "hands and chain"]}
+  ],
+  "final_step": {"step_name": "Finish the watch sketch", "asset": "assets/old-fashioned-pocket-watch-finished-v1.jpg", "visible_job": "Only strengthens existing case, crown, dial, hands, chain, tint, and shadow.", "allowed_changes": ["keeper contour darkening", "restrained graphite and ochre shading"]},
+  "rejection_checks": ["No crown, dial mark, hand, chain, tint, or shadow may first appear in the final image.", "The watch must retain one scale, angle, and chain placement across all frames.", "No late panel may replace the loose graphite construction with a different or overly polished watch design."]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "wooden-artist-easel",
+  "finished": "assets/wooden-artist-easel-finished-v1.jpg",
+  "source": {"type": "generated-raster-master", "description": "A reviewed six-panel pencil process contact sheet.", "notes": "One front-facing wooden easel with a small blank canvas on warm paper."},
+  "process_strategy": "The sheet establishes the easel's triangular stance, then canvas, support shelf, crossbars, wood grain, color, and final cleanup without changing the structure.",
+  "final_elements": [
+    {"name": "triangular easel frame", "introduced_by_step": 1, "description": "A tall A-frame with two front legs and a center guide."},
+    {"name": "small blank canvas", "introduced_by_step": 2, "description": "A simple rectangular canvas centered in the frame."},
+    {"name": "support shelf and back leg", "introduced_by_step": 3, "description": "A shallow shelf under the canvas and a visible rear support leg."},
+    {"name": "crossbars and wood grain", "introduced_by_step": 4, "description": "A few structural crossbars and light grain marks."},
+    {"name": "warm wood tint and floor shadow", "introduced_by_step": 5, "description": "Pale brown pencil on the wooden parts and a soft base shadow."}
+  ],
+  "frames": [
+    {"step": 1, "asset": "assets/wooden-artist-easel-step-1.jpg", "step_name": "Set the A-frame", "visible_job": "Draws the tall triangular front frame and center guide.", "introduces": ["triangular easel frame"]},
+    {"step": 2, "asset": "assets/wooden-artist-easel-step-2.jpg", "step_name": "Place the canvas", "visible_job": "Adds the blank rectangular canvas inside the established frame.", "introduces": ["small blank canvas"], "requires_prior_elements": ["triangular easel frame"]},
+    {"step": 3, "asset": "assets/wooden-artist-easel-step-3.jpg", "step_name": "Build the support", "visible_job": "Adds the shelf and rear leg behind the existing canvas.", "introduces": ["support shelf and back leg"], "requires_prior_elements": ["triangular easel frame", "small blank canvas"]},
+    {"step": 4, "asset": "assets/wooden-artist-easel-step-4.jpg", "step_name": "Add wooden details", "visible_job": "Adds crossbars and light grain marks to existing wooden members.", "introduces": ["crossbars and wood grain"], "requires_prior_elements": ["triangular easel frame", "small blank canvas", "support shelf and back leg"]},
+    {"step": 5, "asset": "assets/wooden-artist-easel-step-5.jpg", "step_name": "Shade the timber", "visible_job": "Adds pale wood tint and a soft floor shadow to established shapes.", "introduces": ["warm wood tint and floor shadow"], "requires_prior_elements": ["triangular easel frame", "small blank canvas", "support shelf and back leg", "crossbars and wood grain"]}
+  ],
+  "final_step": {"step_name": "Finish the studio sketch", "asset": "assets/wooden-artist-easel-finished-v1.jpg", "visible_job": "Only reinforces existing legs, canvas edges, shelf, crossbars, grain, tint, and shadow.", "allowed_changes": ["keeper contour darkening", "restrained graphite and brown shading"]},
+  "rejection_checks": ["No leg, canvas, shelf, crossbar, grain, tint, or shadow may first appear in the final image.", "The easel must retain one front-facing stance and canvas placement across all frames.", "The blank canvas must remain unpainted, with no late illustration or extra studio prop added." ]
+}

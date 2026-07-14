@@ -13,6 +13,17 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-14 daily automation added current `old-fashioned-pocket-watch`
+  (July 14 / Day 058) and honest archive `wooden-artist-easel` (May 18 /
+  Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,
+  cropped JPG masters, WebP derivatives, social cards, and explicit process
+  plans. Finished-image ratings: pocket watch 8.6/10 for its clear circular
+  silhouette, readable crown/dial/chain progression, and restrained graphite
+  finish; artist easel 8.2/10 for its clean A-frame progression, blank canvas,
+  readable structural details, and attainable warm-pencil finish. Readiness,
+  process-plan, frame-delta, derivative, social-card, JSON-LD, link, unused-
+  asset, and diff checks passed. The temporary two-tutorial-per-site backfill
+  cadence remains active.
 - 2026-07-13 daily automation added current `sparrow-on-a-branch` (July 13 / Day 056) and honest archive `old-fashioned-desk-fan` (May 19 / Day 001). Both use reviewed six-panel handmade raster pencil contact sheets; automated process-plan, frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset, and diff checks passed. Finished ratings: sparrow 8.6/10 for its calm readable perch, stable progression, and accessible detail; desk fan 8.5/10 for its clear base/cage/blade construction and consistent graphite finish. The paired Doodlea run later published `cartoon-boombox` and archive `cartoon-superhero-mask` as `d3e87a1`; all four July 13 lessons are live. The temporary two-tutorial-per-site backfill cadence remains active.
 - 2026-07-12 daily automation added current `rocky-shore-lighthouse` (July 12 /
   Day 054 after archive insertion) and honest archive `vintage-typewriter`
