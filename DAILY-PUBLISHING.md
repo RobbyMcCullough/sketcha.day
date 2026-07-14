@@ -152,8 +152,23 @@ python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-
 17. Commit the work with a concise message only when the page passes the
    anti-slop review and validation checks.
 18. For scheduled daily lesson automation, push the passing commit to `main` so
-    it publishes. No separate editorial review is required after the automated
+    it publishes. Use the 1Password SSH-agent routine below, not a plain
+    `git push`; no separate editorial review is required after the automated
     quality gates pass.
+
+### GitHub Push Routine (1Password)
+
+Run this after the commit and all QA gates pass. It must run in an interactive
+terminal so the owner can approve the normal 1Password authorization prompt:
+
+```sh
+export SSH_AUTH_SOCK="$HOME/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
+git push origin main
+```
+
+Then verify `git status --short --branch` reports a clean
+`main...origin/main`. Do not fall back to a plain `git push` after a public-key
+failure, because that commonly selects the empty system SSH agent.
 
 For pre-launch backfilling, backdated tutorial pages are acceptable. Keep that
 implementation detail out of public copy: do not imply real historical traffic,

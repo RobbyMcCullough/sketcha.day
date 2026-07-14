@@ -219,3 +219,18 @@ every tutorial page, `index.html`, `library.html`, `feed.xml`, `sitemap.xml`, an
 - The deploy workflow also pings IndexNow (Bing/Yandex) with the changed pages
   via `scripts/submit-indexnow.py`; the ownership key file
   `c14a6ecbd784cbb237870168e840022c.txt` at the site root must stay committed.
+
+### GitHub pushes use 1Password SSH
+
+- For every GitHub push from this project, use the 1Password SSH agent rather
+  than the default system agent. Run this from an interactive terminal after
+  commit and QA so 1Password can show its normal authorization prompt:
+
+```sh
+export SSH_AUTH_SOCK="$HOME/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
+git push origin main
+```
+
+- Do not retry a plain `git push` after a public-key failure; it commonly uses
+  the empty system agent. Verify the branch is clean and aligned with
+  `origin/main` after the 1Password-backed push.

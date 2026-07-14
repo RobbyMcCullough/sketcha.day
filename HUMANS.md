@@ -13,6 +13,9 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-14 publishing guidance now requires the 1Password SSH agent for
+  every GitHub push; the exact export-plus-push routine lives in `AGENTS.md`
+  and `DAILY-PUBLISHING.md` and should be used after QA/commit.
 - 2026-07-14 daily automation added current `old-fashioned-pocket-watch`
   (July 14 / Day 058) and honest archive `wooden-artist-easel` (May 18 /
   Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,
