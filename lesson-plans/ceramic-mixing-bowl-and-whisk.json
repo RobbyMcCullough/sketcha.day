@@ -1,0 +1,22 @@
+{
+  "slug": "ceramic-mixing-bowl-and-whisk",
+  "finished": "assets/ceramic-mixing-bowl-and-whisk-finished-v1.jpg",
+  "source": {"type": "generated-raster-master", "description": "A reviewed six-panel pencil process contact sheet.", "notes": "One consistent three-quarter ceramic bowl with a whisk resting inside."},
+  "process_strategy": "The contact sheet builds one bowl from light ellipses through the rim, curved body, whisk, batter surface, ceramic bands, restrained color, and final graphite cleanup.",
+  "final_elements": [
+    {"name": "rim ellipse and bowl body guides", "introduced_by_step": 1, "description": "A wide rim ellipse over a rounded bowl body guide."},
+    {"name": "ceramic bowl rim, body, foot, and faint ground shadow", "introduced_by_step": 2, "description": "A settled thick rim, curved ceramic body, small base foot, and pale grounding shadow."},
+    {"name": "angled whisk handle and wire cage", "introduced_by_step": 3, "description": "A diagonal whisk resting inside the bowl with several looped wires."},
+    {"name": "batter surface and simple ceramic bands", "introduced_by_step": 4, "description": "A visible batter ellipse and two understated bands on the bowl."},
+    {"name": "pale blue bowl tint, warm batter, and metal shading", "introduced_by_step": 5, "description": "Restrained color and graphite shading on already established forms."}
+  ],
+  "frames": [
+    {"step": 1, "asset": "assets/ceramic-mixing-bowl-and-whisk-step-1.jpg", "step_name": "Place the bowl ellipses", "visible_job": "Sets the wide rim ellipse and rounded bowl body guides.", "introduces": ["rim ellipse and bowl body guides"]},
+    {"step": 2, "asset": "assets/ceramic-mixing-bowl-and-whisk-step-2.jpg", "step_name": "Shape the ceramic bowl", "visible_job": "Builds the thick rim, curved body, small foot, and faint grounding shadow inside the guides.", "introduces": ["ceramic bowl rim, body, foot, and faint ground shadow"], "requires_prior_elements": ["rim ellipse and bowl body guides"]},
+    {"step": 3, "asset": "assets/ceramic-mixing-bowl-and-whisk-step-3.jpg", "step_name": "Rest the whisk inside", "visible_job": "Adds the angled whisk handle and looped wire cage inside the established bowl.", "introduces": ["angled whisk handle and wire cage"], "requires_prior_elements": ["rim ellipse and bowl body guides", "ceramic bowl rim, body, foot, and faint ground shadow"]},
+    {"step": 4, "asset": "assets/ceramic-mixing-bowl-and-whisk-step-4.jpg", "step_name": "Add batter and bands", "visible_job": "Adds the batter surface and simple ceramic bands to existing shapes.", "introduces": ["batter surface and simple ceramic bands"], "requires_prior_elements": ["ceramic bowl rim, body, foot, and faint ground shadow", "angled whisk handle and wire cage"]},
+    {"step": 5, "asset": "assets/ceramic-mixing-bowl-and-whisk-step-5.jpg", "step_name": "Shade the kitchen tools", "visible_job": "Adds pale color and metal shading while strengthening the established ground shadow.", "introduces": ["pale blue bowl tint, warm batter, and metal shading"], "requires_prior_elements": ["ceramic bowl rim, body, foot, and faint ground shadow", "angled whisk handle and wire cage", "batter surface and simple ceramic bands"]}
+  ],
+  "final_step": {"step_name": "Finish the mixing sketch", "asset": "assets/ceramic-mixing-bowl-and-whisk-finished-v1.jpg", "visible_job": "Only strengthens established bowl, whisk, batter, bands, tint, metal shading, and shadow.", "allowed_changes": ["keeper contour darkening", "restrained graphite and colored-pencil shading"]},
+  "rejection_checks": ["No rim, foot, whisk wire, batter surface, band, tint, or shadow may first appear in the final image.", "The bowl and whisk must retain one scale, angle, placement, and overlap across all frames.", "No late panel may add ingredients, a towel, spoon, countertop props, lettering, or glossy ceramic rendering."]
+}

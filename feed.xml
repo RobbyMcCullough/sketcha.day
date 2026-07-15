@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a porch swing with a cushion</title>
+      <link>https://sketcha.day/tutorials/porch-swing-with-cushion.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/porch-swing-with-cushion.html</guid>
+      <pubDate>Wed, 15 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a porch swing with a three-quarter wooden bench, paired hanging chains, simple armrests, a slatted back, soft seat cushion, pale teal pencil tint, warm wood tone, and graphite floor shadow.</description>
+      <media:content url="https://sketcha.day/assets/porch-swing-with-cushion-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw an old-fashioned pocket watch</title>
       <link>https://sketcha.day/tutorials/old-fashioned-pocket-watch.html</link>
@@ -470,6 +478,14 @@
       <pubDate>Mon, 18 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a wooden artist easel with a tall A-frame, small blank canvas, shallow support shelf, rear support leg, simple crossbars, light wood grain, pale brown pencil tint, and a soft floor shadow.</description>
       <media:content url="https://sketcha.day/assets/wooden-artist-easel-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a ceramic mixing bowl and whisk</title>
+      <link>https://sketcha.day/tutorials/ceramic-mixing-bowl-and-whisk.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/ceramic-mixing-bowl-and-whisk.html</guid>
+      <pubDate>Sun, 17 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a ceramic mixing bowl and whisk with a wide elliptical rim, rounded bowl and foot, angled balloon whisk, visible batter surface, simple blue bands, restrained pencil color, and a soft graphite shadow.</description>
+      <media:content url="https://sketcha.day/assets/ceramic-mixing-bowl-and-whisk-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

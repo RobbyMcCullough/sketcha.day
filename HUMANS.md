@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-10
+- Date: 2026-07-15
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-09 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-14 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,21 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-15 daily automation added current `porch-swing-with-cushion`
+  (July 15 / Day 060) and honest archive `ceramic-mixing-bowl-and-whisk`
+  (May 17 / Day 001). Both use reviewed six-panel handmade raster pencil
+  contact sheets, cropped JPG masters, WebP derivatives, social cards, and
+  explicit process plans. Finished-image ratings: porch swing 8.8/10 for its
+  clear three-quarter construction, stable chains/slats/cushion progression,
+  and attainable warm finish; mixing bowl 8.7/10 for its stable ellipse and
+  whisk overlap, readable cumulative process, and restrained blue/ochre
+  pencil finish.
+- July 15 readiness passed for both lessons: ledger, process-plan, frame-delta,
+  derivative, social-card, JSON-LD, internal-link, unused-asset, day-sequence,
+  lab-privacy, and diff checks. Cove desktop/mobile QA passed for homepage,
+  library, and both tutorials with no overflow or clipped headings; layouts
+  rated 9/10. The temporary two-tutorial-per-site backfill cadence remains
+  active.
 - 2026-07-14 publishing guidance now requires the 1Password SSH agent for
   every GitHub push; the exact export-plus-push routine lives in `AGENTS.md`
   and `DAILY-PUBLISHING.md` and should be used after QA/commit.
