@@ -1,22 +1,115 @@
 {
   "slug": "porch-swing-with-cushion",
-  "finished": "assets/porch-swing-with-cushion-finished-v1.jpg",
-  "source": {"type": "generated-raster-master", "description": "A reviewed six-panel pencil process contact sheet.", "notes": "One consistent three-quarter porch swing on warm drawing paper."},
-  "process_strategy": "The contact sheet builds one hanging bench from a light seat box and back guide through the bench, arms, chains, cushion, slats, restrained color, and final graphite cleanup.",
+  "finished": "assets/porch-swing-with-cushion-finished-v2.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A corrected six-panel pencil process contact sheet reviewed for suspension geometry.",
+    "notes": "One consistent near-front porch swing on warm drawing paper. Both armrests and their eye bolts are established before two vertical chains are added directly above them."
+  },
+  "process_strategy": "The contact sheet builds one near-front hanging bench from a light seat box and back guide. The complete seat frame, armrests, supports, and two eye bolts appear before the chains. The next panel adds one vertical chain directly above each established eye bolt, with both chains staying outside the bench and stopping at the mounts. Later panels add the cushion, slats, restrained color, and final graphite cleanup without rerouting either chain.",
   "final_elements": [
-    {"name": "seat box, back, and chain guides", "introduced_by_step": 1, "description": "A light three-quarter seat box, tall back guide, and two faint chain pairs."},
-    {"name": "wooden bench silhouette", "introduced_by_step": 2, "description": "A settled wooden bench back and seat inside the guides."},
-    {"name": "armrests and front supports", "introduced_by_step": 3, "description": "Two simple arms with short supports under them."},
-    {"name": "seat cushion and back slats", "introduced_by_step": 4, "description": "A soft rectangular cushion and evenly spaced wooden slats."},
-    {"name": "pale teal cushion tint, wood tone, and floor shadow", "introduced_by_step": 5, "description": "Restrained color on established forms with a soft shadow below."}
+    {
+      "name": "seat box and back guides",
+      "introduced_by_step": 1,
+      "description": "A light near-front seat box and tall back guide with no chains yet."
+    },
+    {
+      "name": "wooden seat frame, armrests, supports, and eye bolts",
+      "introduced_by_step": 2,
+      "description": "A settled wooden seat frame, two armrests with front supports, and one small eye bolt on the top outer end of each armrest."
+    },
+    {
+      "name": "two chains outside the woodwork",
+      "introduced_by_step": 3,
+      "description": "Two linked chains descend through blank space outside the bench and end cleanly at the established armrest eye bolts without continuing below or passing through wood."
+    },
+    {
+      "name": "seat cushion and slatted back frame",
+      "introduced_by_step": 4,
+      "description": "A soft rectangular cushion plus the tall back frame and its evenly spaced wooden slats."
+    },
+    {
+      "name": "pale teal cushion tint, wood tone, and floor shadow",
+      "introduced_by_step": 5,
+      "description": "Restrained color on established forms with a soft shadow below."
+    }
   ],
   "frames": [
-    {"step": 1, "asset": "assets/porch-swing-with-cushion-step-1.jpg", "step_name": "Set the swing guides", "visible_job": "Places the seat box, tall back, and faint chain guides in three-quarter view.", "introduces": ["seat box, back, and chain guides"]},
-    {"step": 2, "asset": "assets/porch-swing-with-cushion-step-2.jpg", "step_name": "Shape the hanging bench", "visible_job": "Builds the wooden bench silhouette inside the established guides.", "introduces": ["wooden bench silhouette"], "requires_prior_elements": ["seat box, back, and chain guides"]},
-    {"step": 3, "asset": "assets/porch-swing-with-cushion-step-3.jpg", "step_name": "Add the armrests", "visible_job": "Adds two armrests and their front supports to the established bench.", "introduces": ["armrests and front supports"], "requires_prior_elements": ["seat box, back, and chain guides", "wooden bench silhouette"]},
-    {"step": 4, "asset": "assets/porch-swing-with-cushion-step-4.jpg", "step_name": "Lay in cushion and slats", "visible_job": "Adds the cushion and separated slats inside the existing bench.", "introduces": ["seat cushion and back slats"], "requires_prior_elements": ["seat box, back, and chain guides", "wooden bench silhouette", "armrests and front supports"]},
-    {"step": 5, "asset": "assets/porch-swing-with-cushion-step-5.jpg", "step_name": "Shade the porch swing", "visible_job": "Adds pale color and a soft floor shadow to established shapes.", "introduces": ["pale teal cushion tint, wood tone, and floor shadow"], "requires_prior_elements": ["wooden bench silhouette", "armrests and front supports", "seat cushion and back slats"]}
+    {
+      "step": 1,
+      "asset": "assets/porch-swing-with-cushion-step-1.jpg",
+      "step_name": "Set the bench guides",
+      "visible_job": "Places the seat box and tall back guide in a balanced near-front view without introducing chains.",
+      "introduces": [
+        "seat box and back guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/porch-swing-with-cushion-step-2.jpg",
+      "step_name": "Build the bench and mounts",
+      "visible_job": "Builds the wooden seat frame, both armrests and supports, and one visible eye bolt on the top outer end of each armrest.",
+      "introduces": [
+        "wooden seat frame, armrests, supports, and eye bolts"
+      ],
+      "requires_prior_elements": [
+        "seat box and back guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/porch-swing-with-cushion-step-3.jpg",
+      "step_name": "Add the hanging chains",
+      "visible_job": "Adds two linked chains through blank space outside the bench, each ending at an established armrest eye bolt with no chain below the mount.",
+      "introduces": [
+        "two chains outside the woodwork"
+      ],
+      "requires_prior_elements": [
+        "wooden seat frame, armrests, supports, and eye bolts"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/porch-swing-with-cushion-step-4.jpg",
+      "step_name": "Lay in cushion and slats",
+      "visible_job": "Adds the tall back frame, separated slats, and cushion while preserving the outside chain paths.",
+      "introduces": [
+        "seat cushion and slatted back frame"
+      ],
+      "requires_prior_elements": [
+        "wooden seat frame, armrests, supports, and eye bolts",
+        "two chains outside the woodwork"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/porch-swing-with-cushion-step-5.jpg",
+      "step_name": "Shade the porch swing",
+      "visible_job": "Adds pale color and a soft floor shadow to established shapes without moving either chain or eye bolt.",
+      "introduces": [
+        "pale teal cushion tint, wood tone, and floor shadow"
+      ],
+      "requires_prior_elements": [
+        "wooden seat frame, armrests, supports, and eye bolts",
+        "two chains outside the woodwork",
+        "seat cushion and slatted back frame"
+      ]
+    }
   ],
-  "final_step": {"step_name": "Settle the swing sketch", "asset": "assets/porch-swing-with-cushion-finished-v1.jpg", "visible_job": "Only strengthens established contours, chains, slats, cushion color, wood tone, and shadow.", "allowed_changes": ["keeper contour darkening", "restrained graphite and colored-pencil shading"]},
-  "rejection_checks": ["No chain, armrest, support, slat, cushion, tint, or shadow may first appear in the final image.", "The swing must retain one three-quarter angle, scale, and chain placement across all frames.", "No late panel may add porch architecture, plants, pillows, or decorative carving."]
+  "final_step": {
+    "step_name": "Settle the swing sketch",
+    "asset": "assets/porch-swing-with-cushion-finished-v2.jpg",
+    "visible_job": "Only strengthens established contours, outside chain paths, eye-bolt connections, slats, cushion color, wood tone, and shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained graphite and colored-pencil shading"
+    ]
+  },
+  "rejection_checks": [
+    "No chain, eye bolt, armrest, support, slat, cushion, tint, or shadow may first appear in the final image.",
+    "The swing must retain one near-front angle, scale, and chain placement across all frames.",
+    "Panel 2 must contain both armrests and both eye bolts but no chains; panel 3 must add exactly two chains to those established eye bolts.",
+    "Both chains must stay outside the armrests and bench silhouette, end at the visible armrest eye bolts, and never continue below or pass through a wooden part.",
+    "No late panel may add porch architecture, plants, pillows, or decorative carving."
+  ]
 }

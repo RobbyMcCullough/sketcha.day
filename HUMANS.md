@@ -13,15 +13,24 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-15 owner-directed correction replaced the porch swing's original
+  chain-routing art. The approved v2 sheet uses a near-front bench: step 2
+  establishes two eye bolts on the armrests, step 3 connects one vertical chain
+  directly to each bolt, and every later frame preserves those endpoints with
+  no chain crossing wood or dangling below a mount. The faulty v1 master and
+  rejected correction attempts remain private under
+  `drafts/porch-swing-with-cushion/`; public pages now use
+  `assets/porch-swing-with-cushion-finished-v2.jpg` plus corrected step
+  masters. Finished-image rating: 8.8/10 for immediate readability, believable
+  suspension, strong tutorial alignment, centered composition, and an
+  attainable graphite/colored-pencil finish.
 - 2026-07-15 daily automation added current `porch-swing-with-cushion`
   (July 15 / Day 060) and honest archive `ceramic-mixing-bowl-and-whisk`
   (May 17 / Day 001). Both use reviewed six-panel handmade raster pencil
   contact sheets, cropped JPG masters, WebP derivatives, social cards, and
-  explicit process plans. Finished-image ratings: porch swing 8.8/10 for its
-  clear three-quarter construction, stable chains/slats/cushion progression,
-  and attainable warm finish; mixing bowl 8.7/10 for its stable ellipse and
-  whisk overlap, readable cumulative process, and restrained blue/ochre
-  pencil finish.
+  explicit process plans. The mixing bowl finished image remains 8.7/10 for
+  its stable ellipse and whisk overlap, readable cumulative process, and
+  restrained blue/ochre pencil finish.
 - July 15 readiness passed for both lessons: ledger, process-plan, frame-delta,
   derivative, social-card, JSON-LD, internal-link, unused-asset, day-sequence,
   lab-privacy, and diff checks. Cove desktop/mobile QA passed for homepage,
