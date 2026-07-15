@@ -13,6 +13,21 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-15 second owner-directed porch-swing correction replaced v2 after
+  review found that the lesson rendered seat boards and then hid them beneath
+  the cushion. The approved v3 contact sheet reserves a light cushion footprint
+  in step 1, draws only exposed woodwork in step 2, adds the two direct chains
+  in step 3, and adds the cushion with only the back slats that remain visible
+  in step 4. Public pages use
+  `assets/porch-swing-with-cushion-finished-v3.jpg`; v2 art remains private in
+  `drafts/porch-swing-with-cushion/`. Finished-image rating: 8.9/10 for clear
+  subject readability, believable suspension, strong drawing economy, stable
+  composition, and an attainable graphite/colored-pencil finish.
+- Added a durable occlusion-and-line-economy rule to `DAILY-PUBLISHING.md` and
+  the contact-sheet prompt template in `PROCESS-IMAGE-WORKFLOW.md`: reserve the
+  footprint of covering elements early, prohibit finished detail underneath,
+  and require dark pre-final lines to survive in the finished panel. Mirrored
+  the same generic workflow guardrail to Doodlea.day.
 - 2026-07-15 owner-directed correction replaced the porch swing's original
   chain-routing art. The approved v2 sheet uses a near-front bench: step 2
   establishes two eye bolts on the armrests, step 3 connects one vertical chain

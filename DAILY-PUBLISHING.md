@@ -11,6 +11,12 @@ Treat the finished drawing and the instructional steps as one artifact, not as
 separate images about the same subject. Every important contour, proportion,
 pose, marking, and color choice in the finish must appear in a prior step.
 
+The sequence must also respect occlusion and drawing economy. Do not ask the
+reader to finish boards, seams, texture, anatomy, or other detail that a later
+element immediately and permanently covers. Reserve the covering element's
+footprint in an early construction frame, then draw only the surrounding detail
+that remains visible in the finished image.
+
 Late-stage actions must work only on elements that are already present. A frame
 that darkens, inks, shades, colors, fills, cleans, or clarifies a shape may not
 be the first frame where that shape appears. If a later step says to darken an
