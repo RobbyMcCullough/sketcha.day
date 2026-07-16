@@ -1,0 +1,117 @@
+{
+  "slug": "ear-of-corn-with-husks",
+  "finished": "assets/ear-of-corn-with-husks-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A six-panel pencil-and-colored-pencil process contact sheet reviewed as one cumulative drawing.",
+    "notes": "One diagonal ear of corn on warm off-white paper. The cob, two peeled husks, kernel rows, silk tuft, color areas, and shadow are all established before the finishing panel."
+  },
+  "process_strategy": "The sequence fixes one diagonal cob-and-husk envelope, builds the peeled husks around the reserved cob, establishes the corn silhouette and kernel guides, adds the kernel rows and husk veins, then introduces restrained yellow and green pencil before final cleanup only.",
+  "final_elements": [
+    {
+      "name": "diagonal cob axis and outer envelope",
+      "introduced_by_step": 1,
+      "description": "A light tapered oval construction for the corn cob with a wider leaf envelope around its lower half."
+    },
+    {
+      "name": "two peeled husks, stem nub, and silk tuft",
+      "introduced_by_step": 2,
+      "description": "Two overlapping pointed husk leaves peel away from the cob, with a short base stem and a small tuft of silk at the tip."
+    },
+    {
+      "name": "rounded cob contour and curved kernel guides",
+      "introduced_by_step": 3,
+      "description": "The exposed corn cob gets a clean rounded taper plus gently curved guide bands that follow its volume."
+    },
+    {
+      "name": "individual kernel rows and husk veins",
+      "introduced_by_step": 4,
+      "description": "Staggered rounded kernels fill the established cob grid while a few long veins describe the existing husks."
+    },
+    {
+      "name": "yellow kernels, green husks, silk tone, and cast shadow",
+      "introduced_by_step": 5,
+      "description": "Restrained golden-yellow pencil fills the kernels, leafy green tints the husks, pale tan warms the silk, and a soft gray shadow grounds the ear."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/ear-of-corn-with-husks-step-1.jpg",
+      "step_name": "Block the cob angle",
+      "visible_job": "Places a light diagonal axis, tapered cob oval, and wider leaf envelope at one fixed scale.",
+      "introduces": [
+        "diagonal cob axis and outer envelope"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/ear-of-corn-with-husks-step-2.jpg",
+      "step_name": "Peel back the husks",
+      "visible_job": "Builds two overlapping pointed husks around the reserved cob, then adds the base stem nub and tip silk.",
+      "introduces": [
+        "two peeled husks, stem nub, and silk tuft"
+      ],
+      "requires_prior_elements": [
+        "diagonal cob axis and outer envelope"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/ear-of-corn-with-husks-step-3.jpg",
+      "step_name": "Shape the exposed cob",
+      "visible_job": "Clarifies the rounded cob taper inside the reserved opening and adds curved guide bands across it.",
+      "introduces": [
+        "rounded cob contour and curved kernel guides"
+      ],
+      "requires_prior_elements": [
+        "diagonal cob axis and outer envelope",
+        "two peeled husks, stem nub, and silk tuft"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/ear-of-corn-with-husks-step-4.jpg",
+      "step_name": "Set the kernel rows",
+      "visible_job": "Fills the existing cob guides with staggered rounded kernels and adds a few long veins to the established husks.",
+      "introduces": [
+        "individual kernel rows and husk veins"
+      ],
+      "requires_prior_elements": [
+        "two peeled husks, stem nub, and silk tuft",
+        "rounded cob contour and curved kernel guides"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/ear-of-corn-with-husks-step-5.jpg",
+      "step_name": "Layer the harvest colors",
+      "visible_job": "Adds restrained yellow, green, tan, and gray pencil to the already drawn kernels, husks, silk, and ground area.",
+      "introduces": [
+        "yellow kernels, green husks, silk tone, and cast shadow"
+      ],
+      "requires_prior_elements": [
+        "two peeled husks, stem nub, and silk tuft",
+        "rounded cob contour and curved kernel guides",
+        "individual kernel rows and husk veins"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the corn sketch",
+    "asset": "assets/ear-of-corn-with-husks-finished-v1.jpg",
+    "visible_job": "Only strengthens established cob, husk, kernel, silk, color, and shadow marks without adding a new feature.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained colored-pencil shading",
+      "small existing kernel highlight clarification"
+    ]
+  },
+  "rejection_checks": [
+    "No husk, stem, silk, cob contour, kernel row, vein, color area, or shadow may first appear in the final panel.",
+    "The ear must keep one diagonal pose, scale, crop, and husk arrangement in all six panels.",
+    "Kernel rows must follow the curved cob guides instead of becoming a flat checkerboard.",
+    "The finish must retain visible pencil texture and imperfect handmade joins rather than reading as vector corn clip art.",
+    "No plate, basket, face, lettering, decorative border, or extra produce may appear."
+  ]
+}

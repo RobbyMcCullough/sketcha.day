@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-15
+- Date: 2026-07-16
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-14 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-15 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,22 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-16 daily automation added current `ear-of-corn-with-husks`
+  (July 16 / Day 062) and honest archive `fountain-pen-and-ink-bottle`
+  (May 16 / Day 001). Both use reviewed six-panel handmade raster pencil
+  contact sheets, cropped JPG masters, WebP derivatives, social cards, and
+  explicit process plans. Finished-image ratings: corn 9.1/10 for its clear
+  curved kernel rows, tactile colored-pencil texture, stable cumulative
+  process, and balanced seasonal composition; fountain pen 8.9/10 for its
+  convincing faceted bottle and nib, restrained color, aligned construction
+  frames, and attainable still-life finish.
+- July 16 readiness passed for both lessons: ledger, process-plan, frame-delta,
+  derivative, social-card, JSON-LD, internal-link, unused-asset, day-sequence,
+  lab-privacy, and diff checks. Cove's certificate was invalid in the rendered
+  browser, so desktop/mobile QA used the documented localhost fallback; the
+  homepage, library, and both tutorials had no broken images, horizontal
+  overflow, clipped headings, or invalid JSON-LD. The temporary
+  two-tutorial-per-site backfill cadence remains active.
 - 2026-07-15 second owner-directed porch-swing correction replaced v2 after
   review found that the lesson rendered seat boards and then hid them beneath
   the cushion. The approved v3 contact sheet reserves a light cushion footprint

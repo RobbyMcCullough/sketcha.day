@@ -1,0 +1,116 @@
+{
+  "slug": "fountain-pen-and-ink-bottle",
+  "finished": "assets/fountain-pen-and-ink-bottle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A six-panel pencil-and-colored-pencil process contact sheet reviewed as one cumulative still-life drawing.",
+    "notes": "One squat faceted ink bottle sits at lower left beside one uncapped fountain pen angled upward on warm off-white paper. All bottle, nib, barrel, ink, highlight, and shadow features appear before the finishing panel."
+  },
+  "process_strategy": "The sequence fixes the bottle block and diagonal pen axis together, develops the glass silhouette and pen taper, adds the bottle panel and nib landmarks, introduces glass planes and small reflections, then layers restrained blue and brown pencil before final graphite cleanup only.",
+  "final_elements": [
+    {
+      "name": "bottle block, neck ellipse, and diagonal pen axis",
+      "introduced_by_step": 1,
+      "description": "A light squat bottle envelope with a centered neck ellipse and one long pen centerline rising to the right."
+    },
+    {
+      "name": "faceted bottle contour and fountain-pen silhouette",
+      "introduced_by_step": 2,
+      "description": "Sloped glass shoulders, a short threaded neck, beveled lower corners, and a tapered pen barrel ending in an exposed nib."
+    },
+    {
+      "name": "front glass panel, ink level, grip band, and nib details",
+      "introduced_by_step": 3,
+      "description": "A blank inset front panel and curved ink line on the bottle plus a small grip band, nib slit, and breathing hole on the pen."
+    },
+    {
+      "name": "glass edge lines and reserved highlight shapes",
+      "introduced_by_step": 4,
+      "description": "A few inner glass edges and pale reflection shapes that clarify the already established bottle planes without adding a label or lettering."
+    },
+    {
+      "name": "blue-black ink, warm brown barrel, metal nib tone, and cast shadow",
+      "introduced_by_step": 5,
+      "description": "Restrained colored pencil fills the existing ink and barrel shapes, lightly warms the nib, and grounds both objects with one soft shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/fountain-pen-and-ink-bottle-step-1.jpg",
+      "step_name": "Place the bottle and pen",
+      "visible_job": "Blocks a squat bottle, centered neck ellipse, and one long diagonal pen axis at a fixed scale.",
+      "introduces": [
+        "bottle block, neck ellipse, and diagonal pen axis"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/fountain-pen-and-ink-bottle-step-2.jpg",
+      "step_name": "Shape the glass and pen",
+      "visible_job": "Builds the bottle shoulders, neck, beveled base, tapered pen barrel, grip, and exposed nib around the construction.",
+      "introduces": [
+        "faceted bottle contour and fountain-pen silhouette"
+      ],
+      "requires_prior_elements": [
+        "bottle block, neck ellipse, and diagonal pen axis"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/fountain-pen-and-ink-bottle-step-3.jpg",
+      "step_name": "Add the ink and nib landmarks",
+      "visible_job": "Adds the bottle's blank front panel and curved ink line, then places the pen grip band, nib slit, and breathing hole.",
+      "introduces": [
+        "front glass panel, ink level, grip band, and nib details"
+      ],
+      "requires_prior_elements": [
+        "faceted bottle contour and fountain-pen silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/fountain-pen-and-ink-bottle-step-4.jpg",
+      "step_name": "Describe the glass planes",
+      "visible_job": "Adds a few inner glass edges and reserved pale reflection shapes to the existing bottle without filling or lettering the front panel.",
+      "introduces": [
+        "glass edge lines and reserved highlight shapes"
+      ],
+      "requires_prior_elements": [
+        "faceted bottle contour and fountain-pen silhouette",
+        "front glass panel, ink level, grip band, and nib details"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/fountain-pen-and-ink-bottle-step-5.jpg",
+      "step_name": "Tint the writing tools",
+      "visible_job": "Adds blue-black pencil to the established ink area, warm brown to the barrel, pale metal tone to the nib, and one soft shadow beneath both objects.",
+      "introduces": [
+        "blue-black ink, warm brown barrel, metal nib tone, and cast shadow"
+      ],
+      "requires_prior_elements": [
+        "faceted bottle contour and fountain-pen silhouette",
+        "front glass panel, ink level, grip band, and nib details",
+        "glass edge lines and reserved highlight shapes"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the writing still life",
+    "asset": "assets/fountain-pen-and-ink-bottle-finished-v1.jpg",
+    "visible_job": "Only strengthens established glass, pen, nib, ink, reflection, color, and shadow marks without adding a new object or label.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained graphite and colored-pencil shading",
+      "small existing glass-highlight clarification"
+    ]
+  },
+  "rejection_checks": [
+    "No bottle plane, neck, ink line, front panel, pen contour, grip band, nib detail, highlight, color area, or shadow may first appear in the final panel.",
+    "The bottle and pen must keep one arrangement, angle, scale, and crop throughout all six panels.",
+    "The bottle front panel must remain blank, with no letters, logo, label text, numbers, or fake signature.",
+    "The finish must look like a handmade pencil still life rather than polished product art or vector stationery clip art.",
+    "No cap, paper sheet, handwriting, hand, desk clutter, or extra stationery may appear."
+  ]
+}

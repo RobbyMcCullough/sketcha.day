@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw an ear of corn with peeled husks</title>
+      <link>https://sketcha.day/tutorials/ear-of-corn-with-husks.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/ear-of-corn-with-husks.html</guid>
+      <pubDate>Thu, 16 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw an ear of corn with a tapered cob, two peeled husks, curved kernel guides, staggered kernel rows, silk, leafy veins, restrained colored pencil, and a soft graphite shadow.</description>
+      <media:content url="https://sketcha.day/assets/ear-of-corn-with-husks-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a porch swing with a cushion</title>
       <link>https://sketcha.day/tutorials/porch-swing-with-cushion.html</link>
@@ -486,6 +494,14 @@
       <pubDate>Sun, 17 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a ceramic mixing bowl and whisk with a wide elliptical rim, rounded bowl and foot, angled balloon whisk, visible batter surface, simple blue bands, restrained pencil color, and a soft graphite shadow.</description>
       <media:content url="https://sketcha.day/assets/ceramic-mixing-bowl-and-whisk-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a fountain pen and ink bottle</title>
+      <link>https://sketcha.day/tutorials/fountain-pen-and-ink-bottle.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/fountain-pen-and-ink-bottle.html</guid>
+      <pubDate>Sat, 16 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a fountain pen and ink bottle with a faceted glass body, threaded neck, blank inset panel, curved ink level, tapered brown barrel, metal nib, restrained pencil color, and soft shadows.</description>
+      <media:content url="https://sketcha.day/assets/fountain-pen-and-ink-bottle-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>
