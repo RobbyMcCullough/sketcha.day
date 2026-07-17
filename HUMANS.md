@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-16
+- Date: 2026-07-17
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-15 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-16 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,21 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-17 daily automation added current `garden-rose-in-bloom` (July 17 /
+  Day 064) and honest archive `wooden-rocking-horse` (May 15 / Day 001).
+  Both use reviewed six-panel handmade raster pencil contact sheets, cropped
+  JPG masters, WebP derivatives, social cards, and explicit process plans.
+  Finished-image ratings: rose 9.2/10 for its layered petal order, persistent
+  two-leaf stem, restrained color, and attainable finish; rocking horse
+  9.4/10 for its clear four-leg anatomy, stable rocker/support construction,
+  tactile wood texture, and unusually consistent cumulative progression.
+- July 17 readiness passed for both lessons: ledger, process-plan, frame-delta,
+  derivative, social-card, JSON-LD, internal-link, unused-asset, day-sequence,
+  lab-privacy, and diff checks. Direct Cove desktop/mobile QA passed for the
+  homepage, library, and both tutorials with no horizontal overflow or clipped
+  headings; deliberate scrolling loaded all 11 images on each new lesson with
+  zero failures. The temporary two-tutorial-per-site backfill cadence remains
+  active.
 - 2026-07-16 daily automation added current `ear-of-corn-with-husks`
   (July 16 / Day 062) and honest archive `fountain-pen-and-ink-bottle`
   (May 16 / Day 001). Both use reviewed six-panel handmade raster pencil

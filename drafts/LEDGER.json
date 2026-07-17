@@ -66,6 +66,11 @@
     "garden-hand-trowel": {
       "status": "published"
     },
+    "garden-rose-in-bloom": {
+      "status": "published",
+      "date": "2026-07-17",
+      "note": "Published from the reviewed July 17 six-panel pencil contact sheet."
+    },
     "garden-watering-can": {
       "status": "published"
     },
@@ -215,6 +220,11 @@
     },
     "wooden-clothespin": {
       "status": "published"
+    },
+    "wooden-rocking-horse": {
+      "status": "published",
+      "date": "2026-07-17",
+      "note": "Reviewed six-panel rocking-horse process promoted as the May 15 archive lesson after crop, anatomy, continuity, process-plan, delivery-image, and page checks."
     }
   }
 }

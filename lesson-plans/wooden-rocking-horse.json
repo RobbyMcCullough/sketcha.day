@@ -1,0 +1,116 @@
+{
+  "slug": "wooden-rocking-horse",
+  "finished": "assets/wooden-rocking-horse-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel pencil-and-colored-pencil process contact sheet.",
+    "notes": "One consistent side-view wooden rocking horse on warm off-white paper. The curved rockers, body, legs, head, mane, tail, saddle, handles, wood tone, and shadow are established before the finishing panel."
+  },
+  "process_strategy": "The sequence fixes two long rocker arcs and one side-view horse gesture, builds the visible wooden body, neck, head, and supporting legs around a reserved saddle footprint, adds the mane, tail, ears, and muzzle, then establishes tack and restrained wood color before final cleanup only.",
+  "final_elements": [
+    {
+      "name": "paired rocker arcs, body oval, neck line, head block, and leg guides",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes two long curved rockers beneath an oval body, rising neck, small head wedge, and four angled leg guides."
+    },
+    {
+      "name": "wooden body, neck, head, muzzle, and four legs attached to the rockers",
+      "introduced_by_step": 2,
+      "description": "A clear side-view horse silhouette wraps the guides while four sturdy wooden legs connect the body to the established rocker rails."
+    },
+    {
+      "name": "ears, eye, carved mane, tail, hoof ends, and rocker braces",
+      "introduced_by_step": 3,
+      "description": "Two ears, one visible eye, a notched mane, simple tail, squared hoof ends, and two cross braces give the wooden toy its character and structure."
+    },
+    {
+      "name": "saddle, bridle, handle peg, and carved wood seams",
+      "introduced_by_step": 4,
+      "description": "A simple saddle covers the reserved back area while a bridle line, short handle peg, and a few restrained seam marks sit on established forms."
+    },
+    {
+      "name": "warm brown wood, muted red saddle, ochre mane, graphite depth, and cast shadow",
+      "introduced_by_step": 5,
+      "description": "Restrained colored pencil warms the existing wood, saddle, and mane while soft graphite adds depth and a grounding shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/wooden-rocking-horse-step-1.jpg",
+      "step_name": "Set the horse and rockers",
+      "visible_job": "Places two long rocker arcs, an oval body, rising neck line, head block, and four angled leg guides at one fixed scale.",
+      "introduces": [
+        "paired rocker arcs, body oval, neck line, head block, and leg guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/wooden-rocking-horse-step-2.jpg",
+      "step_name": "Build the wooden silhouette",
+      "visible_job": "Wraps the body, neck, head, muzzle, and four legs around the guides, connecting every leg to the established rocker rails.",
+      "introduces": [
+        "wooden body, neck, head, muzzle, and four legs attached to the rockers"
+      ],
+      "requires_prior_elements": [
+        "paired rocker arcs, body oval, neck line, head block, and leg guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/wooden-rocking-horse-step-3.jpg",
+      "step_name": "Carve the horse details",
+      "visible_job": "Adds two ears, one eye, the notched mane, simple tail, hoof ends, and two structural braces to the existing toy.",
+      "introduces": [
+        "ears, eye, carved mane, tail, hoof ends, and rocker braces"
+      ],
+      "requires_prior_elements": [
+        "wooden body, neck, head, muzzle, and four legs attached to the rockers"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/wooden-rocking-horse-step-4.jpg",
+      "step_name": "Fit the saddle and tack",
+      "visible_job": "Adds a simple saddle over the reserved back area, then places the bridle, handle peg, and a few carved seams on established forms.",
+      "introduces": [
+        "saddle, bridle, handle peg, and carved wood seams"
+      ],
+      "requires_prior_elements": [
+        "wooden body, neck, head, muzzle, and four legs attached to the rockers",
+        "ears, eye, carved mane, tail, hoof ends, and rocker braces"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/wooden-rocking-horse-step-5.jpg",
+      "step_name": "Layer the toy colors",
+      "visible_job": "Adds warm brown, muted red, ochre, and graphite shading to the already established wood, saddle, mane, tack, rockers, and ground area.",
+      "introduces": [
+        "warm brown wood, muted red saddle, ochre mane, graphite depth, and cast shadow"
+      ],
+      "requires_prior_elements": [
+        "wooden body, neck, head, muzzle, and four legs attached to the rockers",
+        "ears, eye, carved mane, tail, hoof ends, and rocker braces",
+        "saddle, bridle, handle peg, and carved wood seams"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the rocking horse",
+    "asset": "assets/wooden-rocking-horse-finished-v1.jpg",
+    "visible_job": "Only strengthens established contours, joints, tack, wood seams, restrained colors, and the soft cast shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained colored-pencil shading",
+      "small existing wood-edge highlight clarification"
+    ]
+  },
+  "rejection_checks": [
+    "No rocker, body contour, leg, brace, ear, eye, mane, tail, saddle, bridle, handle, seam, color area, or shadow may first appear in the final panel.",
+    "The toy must retain one side view, stance, rocker curve, scale, crop, and leg arrangement across all six panels.",
+    "The saddle footprint must remain reserved; do not render finished wood grain beneath it and then cover it later.",
+    "Far legs must stay visually behind near legs using line breaks instead of crossing through the body.",
+    "Reject a live-horse pose, rider, nursery scenery, text, decorative border, glossy toy rendering, or vector clip-art finish."
+  ]
+}

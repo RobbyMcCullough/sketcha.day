@@ -1,0 +1,117 @@
+{
+  "slug": "garden-rose-in-bloom",
+  "finished": "assets/garden-rose-in-bloom-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel pencil-and-colored-pencil process contact sheet.",
+    "notes": "One consistent three-quarter garden rose bloom on a diagonal stem over warm off-white paper. The petal overlaps, sepals, leaves, color areas, and shadow are established before the finishing panel."
+  },
+  "process_strategy": "The sequence fixes one diagonal stem gesture and tilted bloom cup, builds the outer petal envelope around a reserved center, layers the inner and front petals without drawing hidden bases, adds sepals and two leaves, then introduces restrained rose and leaf color before final cleanup only.",
+  "final_elements": [
+    {
+      "name": "diagonal stem gesture, tilted bloom cup, and petal-center guides",
+      "introduced_by_step": 1,
+      "description": "A light diagonal stem, oval bloom cup, center spiral, and broad petal envelope fix one three-quarter rose pose."
+    },
+    {
+      "name": "outer rose silhouette and open petal envelope",
+      "introduced_by_step": 2,
+      "description": "Five broad outer petals wrap the established cup while leaving a clear reserved center for the tighter petals."
+    },
+    {
+      "name": "layered inner petals and front overlap folds",
+      "introduced_by_step": 3,
+      "description": "Curled inner petals grow from the center guide and three front folds overlap the lower cup without rendering hidden petal bases."
+    },
+    {
+      "name": "sepals, curved stem, two serrated leaves, and small thorns",
+      "introduced_by_step": 4,
+      "description": "Pointed sepals support the bloom while a curved stem carries two differently angled leaves and two tiny visible thorns."
+    },
+    {
+      "name": "rose-pink petals, green leaves and stem, graphite depth, and cast shadow",
+      "introduced_by_step": 5,
+      "description": "Restrained rose-pink and leafy green pencil tint established shapes while soft graphite deepens petal pockets and grounds the stem."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/garden-rose-in-bloom-step-1.jpg",
+      "step_name": "Set the bloom angle",
+      "visible_job": "Places one diagonal stem gesture, tilted bloom cup, center spiral, and broad petal envelope at a fixed scale.",
+      "introduces": [
+        "diagonal stem gesture, tilted bloom cup, and petal-center guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/garden-rose-in-bloom-step-2.jpg",
+      "step_name": "Open the outer petals",
+      "visible_job": "Builds five broad outer petal contours around the reserved center and clarifies the bloom silhouette.",
+      "introduces": [
+        "outer rose silhouette and open petal envelope"
+      ],
+      "requires_prior_elements": [
+        "diagonal stem gesture, tilted bloom cup, and petal-center guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/garden-rose-in-bloom-step-3.jpg",
+      "step_name": "Layer the petal center",
+      "visible_job": "Adds curled inner petals and three front overlap folds, drawing only the petal edges that remain visible.",
+      "introduces": [
+        "layered inner petals and front overlap folds"
+      ],
+      "requires_prior_elements": [
+        "diagonal stem gesture, tilted bloom cup, and petal-center guides",
+        "outer rose silhouette and open petal envelope"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/garden-rose-in-bloom-step-4.jpg",
+      "step_name": "Grow the stem and leaves",
+      "visible_job": "Adds the supporting sepals, curved stem, two differently angled serrated leaves, and two small thorns.",
+      "introduces": [
+        "sepals, curved stem, two serrated leaves, and small thorns"
+      ],
+      "requires_prior_elements": [
+        "diagonal stem gesture, tilted bloom cup, and petal-center guides",
+        "outer rose silhouette and open petal envelope"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/garden-rose-in-bloom-step-5.jpg",
+      "step_name": "Shade the rose color",
+      "visible_job": "Adds restrained rose-pink, green, and graphite shading to the already established petals, sepals, leaves, stem, and ground area.",
+      "introduces": [
+        "rose-pink petals, green leaves and stem, graphite depth, and cast shadow"
+      ],
+      "requires_prior_elements": [
+        "outer rose silhouette and open petal envelope",
+        "layered inner petals and front overlap folds",
+        "sepals, curved stem, two serrated leaves, and small thorns"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the rose sketch",
+    "asset": "assets/garden-rose-in-bloom-finished-v1.jpg",
+    "visible_job": "Only strengthens established petal overlaps, stem and leaf contours, restrained colors, and the soft cast shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained colored-pencil shading",
+      "small existing petal-edge highlight clarification"
+    ]
+  },
+  "rejection_checks": [
+    "No petal, fold, sepal, leaf, thorn, stem section, color area, or shadow may first appear in the final panel.",
+    "The rose must retain one three-quarter bloom angle, diagonal stem, scale, crop, and petal arrangement across all six panels.",
+    "Covered petal bases must remain omitted rather than being fully detailed and hidden by later front petals.",
+    "Reject large petal-count drift, a different flower species, extra blossoms, a vase, lettering, decorative border, or insects.",
+    "The finish must retain visible graphite and colored-pencil texture rather than reading as glossy botanical clip art."
+  ]
+}
