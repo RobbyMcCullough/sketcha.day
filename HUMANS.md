@@ -14,10 +14,10 @@
 
 ## Return Notes
 - 2026-07-17 mirrored Doodlea.day's correction-preflight fix:
-  `preflight-image-generation.py` now honors its advertised exact-slug
-  `--allow-existing-current-slug` path for an owner-directed published lesson
-  only when the current date, existing slug, and held daily lock all match.
-  This keeps same-day corrections inside the normal ledger and lock gates.
+  `preflight-image-generation.py` now honors exact-slug correction paths for
+  both current and backfill slots, only when the supplied date, occupied slug,
+  exact allow flag, and held daily lock all match. This keeps archive and
+  same-day corrections inside the normal ledger and lock gates.
 - 2026-07-17 daily automation added current `garden-rose-in-bloom` (July 17 /
   Day 064) and honest archive `wooden-rocking-horse` (May 15 / Day 001).
   Both use reviewed six-panel handmade raster pencil contact sheets, cropped
