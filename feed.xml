@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a leaping bottlenose dolphin</title>
+      <link>https://sketcha.day/tutorials/leaping-bottlenose-dolphin.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/leaping-bottlenose-dolphin.html</guid>
+      <pubDate>Sat, 18 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a leaping bottlenose dolphin with a sweeping body gesture, rounded forehead, short beak, dorsal fin, two pectoral flippers, paired tail flukes, facial landmarks, a small splash, and restrained blue-gray pencil color.</description>
+      <media:content url="https://sketcha.day/assets/leaping-bottlenose-dolphin-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a garden rose in bloom</title>
       <link>https://sketcha.day/tutorials/garden-rose-in-bloom.html</link>
@@ -518,6 +526,14 @@
       <pubDate>Fri, 15 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a wooden rocking horse with a side-view body, four attached legs, two curved rocker rails, two support braces, carved mane and tail, saddle, bridle, handle peg, wood grain, and restrained pencil color.</description>
       <media:content url="https://sketcha.day/assets/wooden-rocking-horse-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a vintage travel suitcase</title>
+      <link>https://sketcha.day/tutorials/vintage-travel-suitcase.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/vintage-travel-suitcase.html</guid>
+      <pubDate>Thu, 14 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a vintage travel suitcase with a shallow three-quarter box, rounded leather shell, lid seam, reinforced corner caps, arched handle, two straps and latch assemblies, a blank luggage tag, stitching, warm pencil color, and soft shadow.</description>
+      <media:content url="https://sketcha.day/assets/vintage-travel-suitcase-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

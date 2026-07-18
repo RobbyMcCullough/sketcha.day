@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-17
+- Date: 2026-07-18
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-16 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-17 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,23 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-18 daily automation added current `leaping-bottlenose-dolphin`
+  (July 18 / Day 066) and honest archive `vintage-travel-suitcase` (May 14 /
+  Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,
+  cropped JPG masters, WebP derivatives, social cards, and explicit process
+  plans. The rejected square suitcase sheet remains private for auditability.
+  Finished-image ratings: dolphin 9.3/10 for its immediate leaping silhouette,
+  lively arc, stable anatomy, and attainable pencil progression; suitcase
+  9.5/10 for its strong three-quarter construction, persistent hardware and
+  tag, tactile leather texture, and exceptionally consistent sequence.
+- July 18 readiness passed for both lessons: ledger, process-plan, frame-delta,
+  derivative, social-card, JSON-LD, internal-link, unused-asset, day-sequence,
+  lab-privacy, and diff checks. Cove's certificate was invalid in the rendered
+  browser, so desktop/mobile QA used the documented localhost fallback; the
+  homepage, library, and both tutorials had no broken images, horizontal
+  overflow, missing alt text, clipped layouts, invalid JSON-LD, or public lab
+  links. Deliberate mobile scrolling loaded all 67 library images. The
+  temporary two-tutorial-per-site backfill cadence remains active.
 - 2026-07-17 mirrored Doodlea.day's correction-preflight fix:
   `preflight-image-generation.py` now honors exact-slug correction paths for
   both current and backfill slots, only when the supplied date, occupied slug,

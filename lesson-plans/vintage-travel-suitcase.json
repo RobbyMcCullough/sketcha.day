@@ -1,0 +1,117 @@
+{
+  "slug": "vintage-travel-suitcase",
+  "finished": "assets/vintage-travel-suitcase-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel pencil-and-colored-pencil process contact sheet.",
+    "notes": "One consistent three-quarter vintage leather suitcase on warm off-white paper, with a blank luggage tag and no logos, lettering, destination stickers, or surrounding travel scene."
+  },
+  "process_strategy": "The sequence fixes one shallow three-quarter box, rounds it into a leather case, builds only visible handle, strap, corner, and latch geometry, adds a blank hanging tag and seams, then introduces restrained leather color and shadow before final cleanup only.",
+  "final_elements": [
+    {
+      "name": "three-quarter suitcase box, center guides, and handle anchors",
+      "introduced_by_step": 1,
+      "description": "A light shallow box with receding top and side planes fixes the case perspective while two anchor marks reserve the handle."
+    },
+    {
+      "name": "rounded leather case silhouette, lid seam, and corner caps",
+      "introduced_by_step": 2,
+      "description": "Softened corners, a visible lid seam, and six visible reinforced corner caps turn the box into one old travel case."
+    },
+    {
+      "name": "arched handle, two leather straps, and two latch plates",
+      "introduced_by_step": 3,
+      "description": "A centered handle and two vertical straps align with paired latch plates on the established front plane."
+    },
+    {
+      "name": "blank luggage tag, buckle details, stitching, and leather creases",
+      "introduced_by_step": 4,
+      "description": "A small blank tag hangs from the handle while restrained buckle, stitch, and crease marks describe age without adding text."
+    },
+    {
+      "name": "warm brown leather, ochre hardware, graphite wear, and ground shadow",
+      "introduced_by_step": 5,
+      "description": "Warm brown and ochre pencil tint the already drawn case and hardware while soft graphite wear and shadow keep the finish handmade."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/vintage-travel-suitcase-step-1.jpg",
+      "step_name": "Block the travel case",
+      "visible_job": "Places a light shallow three-quarter box, center guides, and two handle anchors at one fixed scale.",
+      "introduces": [
+        "three-quarter suitcase box, center guides, and handle anchors"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/vintage-travel-suitcase-step-2.jpg",
+      "step_name": "Round the leather shell",
+      "visible_job": "Softens the case corners, draws the lid seam, and adds six visible reinforced corner caps without changing the perspective.",
+      "introduces": [
+        "rounded leather case silhouette, lid seam, and corner caps"
+      ],
+      "requires_prior_elements": [
+        "three-quarter suitcase box, center guides, and handle anchors"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/vintage-travel-suitcase-step-3.jpg",
+      "step_name": "Fit the handle and straps",
+      "visible_job": "Adds the arched handle, two leather straps, and two aligned latch plates to the established case planes.",
+      "introduces": [
+        "arched handle, two leather straps, and two latch plates"
+      ],
+      "requires_prior_elements": [
+        "three-quarter suitcase box, center guides, and handle anchors",
+        "rounded leather case silhouette, lid seam, and corner caps"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/vintage-travel-suitcase-step-4.jpg",
+      "step_name": "Add the travel details",
+      "visible_job": "Hangs one blank luggage tag from the handle and adds buckle, stitch, and leather-crease details to existing forms.",
+      "introduces": [
+        "blank luggage tag, buckle details, stitching, and leather creases"
+      ],
+      "requires_prior_elements": [
+        "rounded leather case silhouette, lid seam, and corner caps",
+        "arched handle, two leather straps, and two latch plates"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/vintage-travel-suitcase-step-5.jpg",
+      "step_name": "Shade the worn leather",
+      "visible_job": "Adds warm brown leather color, ochre hardware, restrained graphite wear, and a soft ground shadow to established shapes.",
+      "introduces": [
+        "warm brown leather, ochre hardware, graphite wear, and ground shadow"
+      ],
+      "requires_prior_elements": [
+        "rounded leather case silhouette, lid seam, and corner caps",
+        "arched handle, two leather straps, and two latch plates",
+        "blank luggage tag, buckle details, stitching, and leather creases"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the suitcase sketch",
+    "asset": "assets/vintage-travel-suitcase-finished-v1.jpg",
+    "visible_job": "Only strengthens the established shell, seam, handle, straps, hardware, blank tag, leather color, wear, and shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained colored-pencil shading",
+      "small existing leather-edge highlight clarification"
+    ]
+  },
+  "rejection_checks": [
+    "No case plane, seam, handle, strap, latch, corner cap, tag, stitch, color area, wear mark, or shadow may first appear in the final panel.",
+    "The suitcase must retain one shallow three-quarter angle, scale, crop, and hardware alignment across all six panels.",
+    "Do not render hidden strap or tag detail beneath opaque overlapping pieces.",
+    "Reject logos, readable text, destination stickers, passports, clothing, extra luggage, room scenes, or decorative borders.",
+    "The finish must read as a warm handmade pencil study rather than glossy product illustration or vector luggage icon."
+  ]
+}

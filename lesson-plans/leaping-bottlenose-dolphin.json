@@ -1,0 +1,116 @@
+{
+  "slug": "leaping-bottlenose-dolphin",
+  "finished": "assets/leaping-bottlenose-dolphin-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel pencil-and-colored-pencil process contact sheet.",
+    "notes": "One consistent three-quarter side-view bottlenose dolphin arcs upward above a small water splash on warm off-white paper. The body, beak, fins, tail, facial landmarks, splash, color, and shadow must all appear before the finishing panel."
+  },
+  "process_strategy": "The sequence locks one rising body gesture and head-to-tail axis, wraps a single dolphin silhouette around it, adds all fins and tail flukes without redrawing the pose, places facial landmarks and the small splash, then introduces restrained blue-gray pencil before final cleanup only.",
+  "final_elements": [
+    {
+      "name": "rising body gesture, head mass, beak guide, and tail axis",
+      "introduced_by_step": 1,
+      "description": "A long curved gesture, overlapping head and torso masses, a short beak guide, and a tapering tail axis fix one upward-leaping pose."
+    },
+    {
+      "name": "arched dolphin silhouette with rounded forehead, beak, back, belly, and tail stock",
+      "introduced_by_step": 2,
+      "description": "One continuous outer contour wraps the construction into a readable bottlenose dolphin while keeping the same crop and angle."
+    },
+    {
+      "name": "dorsal fin, two pectoral flippers, and paired tail flukes",
+      "introduced_by_step": 3,
+      "description": "A curved dorsal fin, one full near flipper, one partly hidden far flipper, and two tail flukes complete the established anatomy."
+    },
+    {
+      "name": "eye, mouth line, blowhole, belly division, and small water splash",
+      "introduced_by_step": 4,
+      "description": "A small eye, gentle mouth line, blowhole, pale belly boundary, and a few water arcs give the dolphin expression and context."
+    },
+    {
+      "name": "blue-gray body color, pale belly, graphite depth, and watery cast shadow",
+      "introduced_by_step": 5,
+      "description": "Restrained blue-gray pencil and soft graphite model the already drawn dolphin and ground the splash without hiding the handmade construction."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/leaping-bottlenose-dolphin-step-1.jpg",
+      "step_name": "Sweep the dolphin gesture",
+      "visible_job": "Places one rising body gesture, overlapping head and torso masses, a short beak guide, and a tapering tail axis at a fixed scale.",
+      "introduces": [
+        "rising body gesture, head mass, beak guide, and tail axis"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/leaping-bottlenose-dolphin-step-2.jpg",
+      "step_name": "Shape the leaping body",
+      "visible_job": "Wraps the guides with one arched dolphin silhouette, defining the rounded forehead, short beak, back, belly, and tail stock.",
+      "introduces": [
+        "arched dolphin silhouette with rounded forehead, beak, back, belly, and tail stock"
+      ],
+      "requires_prior_elements": [
+        "rising body gesture, head mass, beak guide, and tail axis"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/leaping-bottlenose-dolphin-step-3.jpg",
+      "step_name": "Add fins and flukes",
+      "visible_job": "Adds the dorsal fin, full near flipper, partly hidden far flipper, and paired tail flukes to the established body.",
+      "introduces": [
+        "dorsal fin, two pectoral flippers, and paired tail flukes"
+      ],
+      "requires_prior_elements": [
+        "arched dolphin silhouette with rounded forehead, beak, back, belly, and tail stock"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/leaping-bottlenose-dolphin-step-4.jpg",
+      "step_name": "Place the dolphin landmarks",
+      "visible_job": "Adds the eye, mouth line, blowhole, belly division, and a small set of water-splash arcs beneath the established leap.",
+      "introduces": [
+        "eye, mouth line, blowhole, belly division, and small water splash"
+      ],
+      "requires_prior_elements": [
+        "arched dolphin silhouette with rounded forehead, beak, back, belly, and tail stock",
+        "dorsal fin, two pectoral flippers, and paired tail flukes"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/leaping-bottlenose-dolphin-step-5.jpg",
+      "step_name": "Shade the ocean colors",
+      "visible_job": "Adds restrained blue-gray pencil, a pale belly, soft graphite depth, and a watery shadow to shapes that are already established.",
+      "introduces": [
+        "blue-gray body color, pale belly, graphite depth, and watery cast shadow"
+      ],
+      "requires_prior_elements": [
+        "arched dolphin silhouette with rounded forehead, beak, back, belly, and tail stock",
+        "dorsal fin, two pectoral flippers, and paired tail flukes",
+        "eye, mouth line, blowhole, belly division, and small water splash"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the dolphin sketch",
+    "asset": "assets/leaping-bottlenose-dolphin-finished-v1.jpg",
+    "visible_job": "Only strengthens the established dolphin contours, facial landmarks, fin overlaps, restrained color, splash, and watery shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained colored-pencil shading",
+      "small highlight clarification on established forms"
+    ]
+  },
+  "rejection_checks": [
+    "No beak, fin, flipper, tail fluke, eye, mouth, blowhole, belly division, splash, color area, or shadow may first appear in the final panel.",
+    "The dolphin must retain one upward arc, three-quarter side view, scale, crop, and head-to-tail proportions across all six panels.",
+    "Only the visible tip and attachment of the far flipper may be drawn; do not finish hidden anatomy beneath the body.",
+    "Reject extra dolphins, fish, waves, lettering, decorative borders, glossy marine illustration, or photographic anatomy.",
+    "The finish must retain visible graphite and colored-pencil texture and remain attainable in about twenty-five minutes."
+  ]
+}
