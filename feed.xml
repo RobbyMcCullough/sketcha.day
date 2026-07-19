@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw an acoustic guitar</title>
+      <link>https://sketcha.day/tutorials/acoustic-guitar.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/acoustic-guitar.html</guid>
+      <pubDate>Sun, 19 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw an acoustic guitar with a diagonal center axis, rounded upper and lower bouts, narrow waist, long neck, headstock, sound hole, bridge, strings, tuning pegs, pickguard, warm wood color, and soft pencil shadow.</description>
+      <media:content url="https://sketcha.day/assets/acoustic-guitar-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a leaping bottlenose dolphin</title>
       <link>https://sketcha.day/tutorials/leaping-bottlenose-dolphin.html</link>
@@ -534,6 +542,14 @@
       <pubDate>Thu, 14 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a vintage travel suitcase with a shallow three-quarter box, rounded leather shell, lid seam, reinforced corner caps, arched handle, two straps and latch assemblies, a blank luggage tag, stitching, warm pencil color, and soft shadow.</description>
       <media:content url="https://sketcha.day/assets/vintage-travel-suitcase-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a spool of thread and needle</title>
+      <link>https://sketcha.day/tutorials/spool-of-thread-and-needle.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/spool-of-thread-and-needle.html</guid>
+      <pubDate>Wed, 13 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a wooden spool of thread and sewing needle with stacked ellipses, wrapped blue thread, one continuous loose strand, a visible needle eye, warm wood color, silver-gray metal, and soft graphite shadow.</description>
+      <media:content url="https://sketcha.day/assets/spool-of-thread-and-needle-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -1,0 +1,116 @@
+{
+  "slug": "acoustic-guitar",
+  "finished": "assets/acoustic-guitar-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel pencil-and-colored-pencil process contact sheet.",
+    "notes": "One consistent face-on acoustic guitar at a slight diagonal on warm off-white paper, with no player, lettering, logo, case, amplifier, room scene, or extra instrument."
+  },
+  "process_strategy": "The sequence locks one body-and-neck axis, wraps a single guitar silhouette around paired body masses, reserves the fingerboard footprint over the upper body, adds the sound hole and bridge, then introduces tuners, frets, strings, pickguard, restrained wood color, and shadow before final cleanup only.",
+  "final_elements": [
+    {
+      "name": "guitar axis, upper and lower body masses, waist guides, neck, and headstock block",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes one diagonal guitar pose with two overlapping body ovals, pinched waist guides, a long neck axis, and a small headstock block."
+    },
+    {
+      "name": "acoustic-guitar silhouette with rounded bouts, narrow waist, neck, and headstock",
+      "introduced_by_step": 2,
+      "description": "A continuous contour turns the construction into one recognizable acoustic guitar while preserving the same scale and angle."
+    },
+    {
+      "name": "sound hole, fingerboard, bridge, saddle, six strings, fret marks, and pickguard",
+      "introduced_by_step": 3,
+      "description": "A centered sound hole, long fingerboard, small bridge, narrow saddle, six light strings, restrained fret marks, and simple pickguard establish the full playing surface."
+    },
+    {
+      "name": "six tuning pegs, clarified string paths, and body-edge seam",
+      "introduced_by_step": 4,
+      "description": "Six tuners, clearer bridge-to-headstock string alignment, and an outer body seam complete the visible hardware and landmarks."
+    },
+    {
+      "name": "warm ochre wood color, graphite depth, light wood grain, and cast shadow",
+      "introduced_by_step": 5,
+      "description": "Restrained ochre pencil, soft graphite, a few directional grain marks, and a light shadow finish the already established instrument without hiding the handmade linework."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/acoustic-guitar-step-1.jpg",
+      "step_name": "Set the guitar proportions",
+      "visible_job": "Places one diagonal center axis, upper and lower body masses, waist guides, neck, and headstock block at a fixed scale.",
+      "introduces": [
+        "guitar axis, upper and lower body masses, waist guides, neck, and headstock block"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/acoustic-guitar-step-2.jpg",
+      "step_name": "Shape the guitar body",
+      "visible_job": "Wraps the guides with one acoustic-guitar silhouette, defining the rounded bouts, narrow waist, long neck, and headstock.",
+      "introduces": [
+        "acoustic-guitar silhouette with rounded bouts, narrow waist, neck, and headstock"
+      ],
+      "requires_prior_elements": [
+        "guitar axis, upper and lower body masses, waist guides, neck, and headstock block"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/acoustic-guitar-step-3.jpg",
+      "step_name": "Build the playing surface",
+      "visible_job": "Adds the sound hole, fingerboard, bridge, saddle, six light strings, fret marks, and pickguard while leaving no finished body detail beneath the fingerboard.",
+      "introduces": [
+        "sound hole, fingerboard, bridge, saddle, six strings, fret marks, and pickguard"
+      ],
+      "requires_prior_elements": [
+        "acoustic-guitar silhouette with rounded bouts, narrow waist, neck, and headstock"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/acoustic-guitar-step-4.jpg",
+      "step_name": "Finish the guitar hardware",
+      "visible_job": "Adds six tuning pegs, clarifies the established bridge-to-headstock string paths, and traces the visible body-edge seam.",
+      "introduces": [
+        "six tuning pegs, clarified string paths, and body-edge seam"
+      ],
+      "requires_prior_elements": [
+        "acoustic-guitar silhouette with rounded bouts, narrow waist, neck, and headstock",
+        "sound hole, fingerboard, bridge, saddle, six strings, fret marks, and pickguard"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/acoustic-guitar-step-5.jpg",
+      "step_name": "Shade the warm wood",
+      "visible_job": "Adds restrained ochre wood color, graphite depth, light directional grain, and a soft cast shadow to the completed guitar structure.",
+      "introduces": [
+        "warm ochre wood color, graphite depth, light wood grain, and cast shadow"
+      ],
+      "requires_prior_elements": [
+        "acoustic-guitar silhouette with rounded bouts, narrow waist, neck, and headstock",
+        "sound hole, fingerboard, bridge, saddle, six strings, fret marks, and pickguard",
+        "six tuning pegs, clarified string paths, and body-edge seam"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the guitar sketch",
+    "asset": "assets/acoustic-guitar-finished-v1.jpg",
+    "visible_job": "Only strengthens the established silhouette, hardware, strings, warm wood color, grain, and cast shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained colored-pencil shading",
+      "small highlight clarification on established wood and metal forms"
+    ]
+  },
+  "rejection_checks": [
+    "No body contour, neck, headstock, sound hole, bridge, fingerboard, tuner, fret, string, pickguard, seam, color area, grain mark, or shadow may first appear in the final panel.",
+    "The guitar must retain one face-on diagonal pose, body proportions, neck length, scale, and crop across all six panels.",
+    "Reserve the fingerboard footprint before adding body detail; do not render finished seams or grain beneath it.",
+    "Reject players, hands, lettering, logos, cases, amplifiers, extra instruments, decorative borders, or room scenes.",
+    "The finish must read as a warm attainable pencil study rather than glossy product art or a vector guitar icon."
+  ]
+}

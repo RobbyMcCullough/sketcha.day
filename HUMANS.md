@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-18
+- Date: 2026-07-19
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-17 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-18 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,31 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-19 daily automation added current `acoustic-guitar` (July 19 /
+  Day 068) and honest archive `spool-of-thread-and-needle` (May 13 / Day 001).
+  Both use reviewed six-panel handmade raster pencil contact sheets, cropped
+  JPG masters, WebP derivatives, social cards, and explicit process plans. The
+  spool sequence needed two focused contact-sheet repairs so its blue thread
+  remained cumulative through panels 4 and 5; the original and first repair
+  remain private for auditability. Finished-image ratings: guitar 9.3/10 for
+  its immediately readable diagonal silhouette, stable proportions, tactile
+  wood grain, and teachable hardware progression; spool 9.2/10 for its clear
+  spool/needle/thread relationship, repaired color continuity, tactile texture,
+  and attainable compact still life.
+- July 19 readiness passed for both lessons: ledger, process-plan, frame-delta,
+  derivative, social-card, JSON-LD, internal-link, unused-asset, day-sequence,
+  lab-privacy, and diff checks. Cove served the build but its certificate was
+  expired in the rendered browser, so desktop/mobile QA used the documented
+  localhost fallback; the homepage, library, and both tutorials had no broken
+  loaded images, horizontal overflow, missing alt text, invalid JSON-LD, or
+  public lab links. The temporary two-tutorial-per-site backfill cadence remains
+  active.
+- July 19 is committed locally and `main` is one commit ahead of `origin/main`.
+  The required 1Password socket listed the GitHub key, but repeated pushes
+  stopped at `sign_and_send_pubkey: ... communication with agent failed`.
+  Do not create another July 19 pair: unlock/authorize 1Password and push the
+  existing commit through the required socket. The shared daily lock was
+  released after the stop condition.
 - 2026-07-18 daily automation added current `leaping-bottlenose-dolphin`
   (July 18 / Day 066) and honest archive `vintage-travel-suitcase` (May 14 /
   Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,

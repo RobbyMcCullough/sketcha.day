@@ -1,0 +1,117 @@
+{
+  "slug": "spool-of-thread-and-needle",
+  "finished": "assets/spool-of-thread-and-needle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel pencil-and-colored-pencil process contact sheet.",
+    "notes": "One consistent wooden spool of blue thread with one threaded sewing needle on warm off-white paper, with no fabric, scissors, buttons, lettering, logo, sewing machine, or extra notions."
+  },
+  "process_strategy": "The sequence fixes one shallow three-quarter spool and diagonal needle guide, wraps the wooden spool silhouette, builds the thread cylinder and full needle, adds the eye and one continuous loose strand, then introduces restrained blue, ochre, silver-gray, and shadow before final cleanup only.",
+  "final_elements": [
+    {
+      "name": "spool axis, two flange ellipses, thread core, needle guide, and loose-thread path",
+      "introduced_by_step": 1,
+      "description": "Light ellipses and axes establish a tipped wooden spool while one diagonal guide and one looping path reserve the needle and thread placement."
+    },
+    {
+      "name": "wooden spool silhouette with top and bottom flanges and central barrel",
+      "introduced_by_step": 2,
+      "description": "Clean outer contours turn the ellipses into a small wooden spool without changing its three-quarter angle."
+    },
+    {
+      "name": "wrapped thread cylinder, full sewing needle, and continuous loose strand",
+      "introduced_by_step": 3,
+      "description": "Thread bands wrap the central barrel while one complete needle and a single strand connect clearly to the spool."
+    },
+    {
+      "name": "needle eye, flange center holes, thread ridges, and wooden edge rings",
+      "introduced_by_step": 4,
+      "description": "A visible needle eye, two center holes, a few curved thread ridges, and restrained wooden rings clarify the established materials."
+    },
+    {
+      "name": "blue thread color, warm ochre wood, silver-gray needle, graphite depth, and cast shadow",
+      "introduced_by_step": 5,
+      "description": "Restrained colored pencil and soft graphite separate the thread, wood, and metal while keeping the paper and construction texture visible."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/spool-of-thread-and-needle-step-1.jpg",
+      "step_name": "Block the spool and needle",
+      "visible_job": "Places the spool axis, two flange ellipses, central thread core, diagonal needle guide, and loose-thread path at one fixed scale.",
+      "introduces": [
+        "spool axis, two flange ellipses, thread core, needle guide, and loose-thread path"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/spool-of-thread-and-needle-step-2.jpg",
+      "step_name": "Shape the wooden spool",
+      "visible_job": "Wraps the ellipses with top and bottom flanges and a central wooden barrel, preserving the same shallow three-quarter tilt.",
+      "introduces": [
+        "wooden spool silhouette with top and bottom flanges and central barrel"
+      ],
+      "requires_prior_elements": [
+        "spool axis, two flange ellipses, thread core, needle guide, and loose-thread path"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/spool-of-thread-and-needle-step-3.jpg",
+      "step_name": "Wrap the thread and place the needle",
+      "visible_job": "Adds the wrapped thread cylinder, full sewing needle, and one continuous loose strand following the existing guides.",
+      "introduces": [
+        "wrapped thread cylinder, full sewing needle, and continuous loose strand"
+      ],
+      "requires_prior_elements": [
+        "wooden spool silhouette with top and bottom flanges and central barrel",
+        "spool axis, two flange ellipses, thread core, needle guide, and loose-thread path"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/spool-of-thread-and-needle-step-4.jpg",
+      "step_name": "Add the sewing details",
+      "visible_job": "Clarifies the needle eye, flange center holes, curved thread ridges, and wooden edge rings on forms already established.",
+      "introduces": [
+        "needle eye, flange center holes, thread ridges, and wooden edge rings"
+      ],
+      "requires_prior_elements": [
+        "wooden spool silhouette with top and bottom flanges and central barrel",
+        "wrapped thread cylinder, full sewing needle, and continuous loose strand"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/spool-of-thread-and-needle-step-5.jpg",
+      "step_name": "Shade the sewing colors",
+      "visible_job": "Adds blue thread color, warm ochre wood, silver-gray needle tone, graphite depth, and a soft cast shadow to existing shapes.",
+      "introduces": [
+        "blue thread color, warm ochre wood, silver-gray needle, graphite depth, and cast shadow"
+      ],
+      "requires_prior_elements": [
+        "wooden spool silhouette with top and bottom flanges and central barrel",
+        "wrapped thread cylinder, full sewing needle, and continuous loose strand",
+        "needle eye, flange center holes, thread ridges, and wooden edge rings"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the sewing sketch",
+    "asset": "assets/spool-of-thread-and-needle-finished-v1.jpg",
+    "visible_job": "Only strengthens the established spool, thread, needle, loose strand, material colors, texture, and cast shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained colored-pencil shading",
+      "small highlight clarification on established wood, thread, and metal"
+    ]
+  },
+  "rejection_checks": [
+    "No spool flange, barrel, thread wrap, needle, eye, loose strand, center hole, edge ring, color area, or shadow may first appear in the final panel.",
+    "The spool, needle, and single thread path must retain one angle, overlap order, scale, and crop across all six panels.",
+    "The loose strand must visibly pass through the established needle eye and connect back to the spool without breaking or multiplying.",
+    "Reject fabric, scissors, buttons, lettering, logos, sewing machines, extra notions, decorative borders, or impossible tangles.",
+    "The finish must retain pencil texture and remain attainable as a compact twenty-minute still life."
+  ]
+}

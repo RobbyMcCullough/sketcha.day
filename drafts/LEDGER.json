@@ -1,6 +1,11 @@
 {
   "_readme": "Every folder under drafts/ must have an entry here. Statuses: pending (art generated, lesson not yet resolved - blocks new generation), scheduled (held for a future release_date), published, rejected-quality, rejected-duplicate, transferred (moved to a sister site). Validated by scripts/check-drafts-ledger.py; scripts/preflight-image-generation.py locks a slug here before any image generation.",
   "entries": {
+    "acoustic-guitar": {
+      "status": "published",
+      "date": "2026-07-19",
+      "note": "Reviewed six-panel acoustic-guitar process promoted after crop, plan alignment, frame-delta, delivery-image, and visual checks."
+    },
     "airport-control-tower": {
       "status": "published"
     },
@@ -174,6 +179,11 @@
       "status": "published",
       "date": "2026-07-13",
       "note": "Reviewed six-panel sparrow process promoted after cropped-frame, process-plan, derivative, JSON-LD, internal-link, and asset checks."
+    },
+    "spool-of-thread-and-needle": {
+      "status": "published",
+      "date": "2026-07-19",
+      "note": "Reviewed repaired six-panel spool-and-needle process promoted after continuous-thread, crop, frame-delta, delivery-image, and visual checks."
     },
     "stack-of-books": {
       "status": "published"
