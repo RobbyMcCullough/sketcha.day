@@ -1,0 +1,117 @@
+{
+  "slug": "manual-coffee-grinder",
+  "finished": "assets/manual-coffee-grinder-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel graphite-and-colored-pencil process contact sheet.",
+    "notes": "One consistent old-fashioned manual coffee grinder in a shallow three-quarter view on warm off-white paper, with no lettering, logo, coffee beans, cup, spoon, table scene, hands, or decorative border."
+  },
+  "process_strategy": "The sequence locks one boxy wooden body, top plane, hopper footprint, drawer reserve, and crank path; wraps the cabinet around those guides; adds the hopper, crank, knob, drawer, and feet without drawing hidden top or front detail; introduces seams, screws, wood grain, and shadow; then shades and colors every established form before final cleanup only.",
+  "final_elements": [
+    {
+      "name": "cabinet box guides, top plane, hopper footprint, drawer reserve, crank path, and ground axis",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes one shallow three-quarter cabinet with a circular hopper reserve, centered drawer footprint, raised crank path, and stable ground line."
+    },
+    {
+      "name": "coffee-grinder cabinet silhouette with front and side planes, top rim, and three visible short feet",
+      "introduced_by_step": 2,
+      "description": "Confident outer contours turn the box guides into a readable wooden grinder cabinet with three visible feet while preserving the hopper and drawer reserves."
+    },
+    {
+      "name": "domed metal hopper, top collar, crank arm, wooden knob, drawer front, and drawer pull",
+      "introduced_by_step": 3,
+      "description": "The hopper and hand crank establish the grinding mechanism while the drawer and pull complete the front without hidden cabinet detail."
+    },
+    {
+      "name": "cabinet seams, two front-corner screws, hopper-collar bolts, restrained wood grain, metal hatch marks, and cast shadow",
+      "introduced_by_step": 4,
+      "description": "A few structural seams, exactly two front-corner screws, small hopper-collar bolts, directional texture, and one soft shadow add material information without clutter."
+    },
+    {
+      "name": "warm walnut and ochre pencil with cool gray metal and graphite depth",
+      "introduced_by_step": 5,
+      "description": "Restrained colored pencil separates the wooden cabinet, metal hopper and crank, wooden knob, drawer, hardware, and shadow while leaving visible paper tooth."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/manual-coffee-grinder-step-1.jpg",
+      "step_name": "Block the grinder cabinet",
+      "visible_job": "Places the cabinet box, top plane, hopper footprint, drawer reserve, crank path, three visible foot positions with a hidden rear-foot reserve, and ground axis at one fixed angle and scale.",
+      "introduces": [
+        "cabinet box guides, top plane, hopper footprint, drawer reserve, crank path, and ground axis"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/manual-coffee-grinder-step-2.jpg",
+      "step_name": "Shape the wooden cabinet",
+      "visible_job": "Wraps the guides with the front and side planes, top rim, clean lower edges, and three visible short feet while keeping the hopper and drawer footprints blank.",
+      "introduces": [
+        "coffee-grinder cabinet silhouette with front and side planes, top rim, and three visible short feet"
+      ],
+      "requires_prior_elements": [
+        "cabinet box guides, top plane, hopper footprint, drawer reserve, crank path, and ground axis"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/manual-coffee-grinder-step-3.jpg",
+      "step_name": "Add the hopper and crank",
+      "visible_job": "Builds the domed metal hopper and collar, follows the raised crank path to its wooden knob, and adds the drawer front and pull inside the reserved footprint.",
+      "introduces": [
+        "domed metal hopper, top collar, crank arm, wooden knob, drawer front, and drawer pull"
+      ],
+      "requires_prior_elements": [
+        "cabinet box guides, top plane, hopper footprint, drawer reserve, crank path, and ground axis",
+        "coffee-grinder cabinet silhouette with front and side planes, top rim, and three visible short feet"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/manual-coffee-grinder-step-4.jpg",
+      "step_name": "Describe the grinder materials",
+      "visible_job": "Adds cabinet seams, exactly two front-corner screws, small hopper-collar bolts, restrained wood grain, a few metal hatch marks, and one cast shadow to established forms.",
+      "introduces": [
+        "cabinet seams, two front-corner screws, hopper-collar bolts, restrained wood grain, metal hatch marks, and cast shadow"
+      ],
+      "requires_prior_elements": [
+        "coffee-grinder cabinet silhouette with front and side planes, top rim, and three visible short feet",
+        "domed metal hopper, top collar, crank arm, wooden knob, drawer front, and drawer pull"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/manual-coffee-grinder-step-5.jpg",
+      "step_name": "Shade the wood and metal",
+      "visible_job": "Adds warm walnut and ochre pencil to the cabinet and knob, cool gray to the hopper and crank, graphite depth to the drawer and hardware, and blended shadow.",
+      "introduces": [
+        "warm walnut and ochre pencil with cool gray metal and graphite depth"
+      ],
+      "requires_prior_elements": [
+        "coffee-grinder cabinet silhouette with front and side planes, top rim, and three visible short feet",
+        "domed metal hopper, top collar, crank arm, wooden knob, drawer front, and drawer pull",
+        "cabinet seams, two front-corner screws, hopper-collar bolts, restrained wood grain, metal hatch marks, and cast shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the grinder study",
+    "asset": "assets/manual-coffee-grinder-finished-v1.jpg",
+    "visible_job": "Only strengthens the established cabinet, hopper, crank, drawer, hardware, textures, restrained color, and cast shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained graphite and colored-pencil shading",
+      "small highlight clarification on established wood and metal forms"
+    ]
+  },
+  "rejection_checks": [
+    "No cabinet plane, foot, hopper, collar, crank, knob, drawer, pull, seam, screw, texture, color area, or shadow may first appear in the final panel.",
+    "The grinder must retain one shallow three-quarter view, cabinet proportions, hopper placement, crank angle, drawer position, scale, and crop across all six panels.",
+    "Reserve the hopper and drawer footprints from step one; do not render finished top-plane or front-panel grain beneath either covering form.",
+    "Reject lettering, logos, coffee beans, cups, spoons, hands, table scenes, extra appliances, or decorative borders.",
+    "The finish must read as an attainable warm pencil still life rather than glossy product art, a 3D render, or a vector diagram."
+  ]
+}

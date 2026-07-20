@@ -1,0 +1,117 @@
+{
+  "slug": "astronaut-helmet",
+  "finished": "assets/astronaut-helmet-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel graphite-and-colored-pencil process contact sheet.",
+    "notes": "One consistent empty astronaut helmet in a slightly turned three-quarter view on warm off-white paper, with no astronaut face, body, lettering, flag, logo, spacecraft, stars, planet, or decorative border."
+  },
+  "process_strategy": "The sequence locks one rounded shell, front visor reserve, center axis, and neck-ring footprint; wraps the outer helmet around those guides; adds the visor and side housings without drawing hidden shell detail; introduces seams, vents, fittings, reflections, and shadow; then shades and colors every established form before final cleanup only.",
+  "final_elements": [
+    {
+      "name": "helmet shell guides, visor reserve, center axis, side planes, and neck-ring footprint",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes a slightly turned helmet with one rounded shell, a large blank visor opening, simple side planes, and a lower neck-ring footprint."
+    },
+    {
+      "name": "astronaut-helmet silhouette with rounded shell, visor brow, side housings, and neck ring",
+      "introduced_by_step": 2,
+      "description": "A confident outer contour turns the guides into a readable helmet while preserving the reserved visor and neck-ring areas."
+    },
+    {
+      "name": "dark visor opening, raised visor rim, lower seal, and layered neck collar",
+      "introduced_by_step": 3,
+      "description": "The broad visor, its rim and seal, and the collar layers establish the helmet's front structure without adding a face."
+    },
+    {
+      "name": "panel seams, side connector, two vents, visor highlight bands, amber visor tint, and ground shadow",
+      "introduced_by_step": 4,
+      "description": "A few functional seams and fittings, two restrained visor reflections, a light amber tint, and a shallow shadow add believable hardware and depth."
+    },
+    {
+      "name": "graphite depth with pale blue-gray shell color and softened visor and shadow shading",
+      "introduced_by_step": 5,
+      "description": "Soft graphite, cool shell color, and blended visor and ground-shadow shading complete the already established helmet while keeping visible paper and pencil texture."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/astronaut-helmet-step-1.jpg",
+      "step_name": "Block in the helmet",
+      "visible_job": "Places the rounded shell, visor reserve, center axis, side planes, and lower neck-ring footprint at one fixed scale and angle.",
+      "introduces": [
+        "helmet shell guides, visor reserve, center axis, side planes, and neck-ring footprint"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/astronaut-helmet-step-2.jpg",
+      "step_name": "Shape the outer shell",
+      "visible_job": "Wraps the guides with the rounded helmet shell, visor brow, side housings, and neck ring while leaving the visor footprint blank.",
+      "introduces": [
+        "astronaut-helmet silhouette with rounded shell, visor brow, side housings, and neck ring"
+      ],
+      "requires_prior_elements": [
+        "helmet shell guides, visor reserve, center axis, side planes, and neck-ring footprint"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/astronaut-helmet-step-3.jpg",
+      "step_name": "Build the visor and collar",
+      "visible_job": "Adds the dark visor opening, raised rim, lower seal, and layered neck collar inside the reserved construction footprints.",
+      "introduces": [
+        "dark visor opening, raised visor rim, lower seal, and layered neck collar"
+      ],
+      "requires_prior_elements": [
+        "helmet shell guides, visor reserve, center axis, side planes, and neck-ring footprint",
+        "astronaut-helmet silhouette with rounded shell, visor brow, side housings, and neck ring"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/astronaut-helmet-step-4.jpg",
+      "step_name": "Add the helmet hardware",
+      "visible_job": "Places panel seams, one side connector, two small vents, two visor highlight bands, a light amber visor tint, and a shallow ground shadow on established forms.",
+      "introduces": [
+        "panel seams, side connector, two vents, visor highlight bands, amber visor tint, and ground shadow"
+      ],
+      "requires_prior_elements": [
+        "astronaut-helmet silhouette with rounded shell, visor brow, side housings, and neck ring",
+        "dark visor opening, raised visor rim, lower seal, and layered neck collar"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/astronaut-helmet-step-5.jpg",
+      "step_name": "Shade the space helmet",
+      "visible_job": "Adds soft graphite depth, pale blue-gray shell color, and blended visor and ground-shadow shading to the completed structure.",
+      "introduces": [
+        "graphite depth with pale blue-gray shell color and softened visor and shadow shading"
+      ],
+      "requires_prior_elements": [
+        "astronaut-helmet silhouette with rounded shell, visor brow, side housings, and neck ring",
+        "dark visor opening, raised visor rim, lower seal, and layered neck collar",
+        "panel seams, side connector, two vents, visor highlight bands, amber visor tint, and ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the helmet study",
+    "asset": "assets/astronaut-helmet-finished-v1.jpg",
+    "visible_job": "Only strengthens the established shell, visor, collar, hardware, reflections, graphite depth, restrained color, and ground shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained graphite and colored-pencil shading",
+      "small highlight clarification on the established visor and shell"
+    ]
+  },
+  "rejection_checks": [
+    "No shell contour, visor, rim, seal, collar, housing, seam, connector, vent, reflection, color area, or shadow may first appear in the final panel.",
+    "The helmet must retain one empty three-quarter view, visor angle, neck-ring width, scale, and crop across all six panels.",
+    "Reserve the visor and neck-ring footprints from step one; do not render finished shell seams beneath either covering form.",
+    "Reject faces, heads, bodies, lettering, logos, flags, stars, planets, spacecraft, decorative borders, or extra props.",
+    "The finish must read as an attainable graphite-and-colored-pencil study rather than glossy science-fiction concept art or a vector icon."
+  ]
+}

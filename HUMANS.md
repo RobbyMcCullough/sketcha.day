@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-19
+- Date: 2026-07-20
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-18 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-19 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,29 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-20 daily automation added current `astronaut-helmet` (July 20 /
+  Day 070) and honest archive `manual-coffee-grinder` (May 12 / Day 001).
+  Both use reviewed six-panel handmade raster pencil contact sheets, cropped
+  JPG masters, WebP derivatives, social cards, and explicit process plans.
+  The grinder's first sheet is retained privately as v1; the approved sheet
+  repairs panel 3 into a clean structural stage before later texture, tone,
+  and color. Finished-image ratings: helmet 9.4/10 for its immediate
+  readability, tactile graphite, stable visor/collar/hardware progression,
+  and attainable finish; grinder 9.5/10 for its strong three-quarter
+  perspective, persistent crank/drawer/hopper construction, convincing
+  wood-and-metal contrast, and unusually coherent sequence.
+- July 20 readiness passed for both lessons: ledger, process-plan,
+  frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset,
+  day-sequence, lab-privacy, and diff checks. Direct Cove desktop/mobile QA
+  passed for the homepage, library, and both tutorials with no broken loaded
+  images, missing alt text, horizontal overflow, clipped H1s, invalid JSON-LD,
+  or public lab links. The temporary two-tutorial-per-site backfill cadence
+  remains active.
+- Both the pre-run and post-commit pushes through the required 1Password socket
+  stopped at `sign_and_send_pubkey: ... communication with agent failed`.
+  `main` is now two commits ahead of `origin/main` (July 19 and July 20). Unlock
+  or authorize 1Password, then push through the same required socket; do not
+  switch SSH agents or transports.
 - 2026-07-19 daily automation added current `acoustic-guitar` (July 19 /
   Day 068) and honest archive `spool-of-thread-and-needle` (May 13 / Day 001).
   Both use reviewed six-panel handmade raster pencil contact sheets, cropped
