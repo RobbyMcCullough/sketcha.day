@@ -1,0 +1,116 @@
+{
+  "slug": "denim-jacket",
+  "finished": "assets/denim-jacket-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel graphite-and-colored-pencil process contact sheet.",
+    "notes": "One consistent front-facing denim jacket with relaxed downward sleeves on warm off-white paper; no person, body, hanger, lettering, logo, patch, extra garment, decorative border, or scene."
+  },
+  "process_strategy": "The sequence locks one shoulder line, torso block, center opening, collar reserve, sleeve gestures, cuff positions, and pocket footprints; wraps them with a relaxed jacket silhouette; adds the collar, plackets, pockets, cuffs, yoke, buttons, seams, folds, and shadow; then shades and colors only those established forms before final cleanup.",
+  "final_elements": [
+    {
+      "name": "shoulder line, torso block, center opening, collar reserve, sleeve gestures, cuff positions, and chest-pocket footprints",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes a front-facing jacket with slightly dropped shoulders, a straight torso, relaxed sleeves, and reserved collar and pocket areas."
+    },
+    {
+      "name": "denim-jacket silhouette with pointed collar, two front plackets, relaxed sleeves, cuffs, and straight hem",
+      "introduced_by_step": 2,
+      "description": "A confident outside contour turns the guides into a readable jacket while preserving the reserved front details."
+    },
+    {
+      "name": "back yoke seam, two chest pockets and flaps, cuff seams, hem band, and six front buttons",
+      "introduced_by_step": 3,
+      "description": "The jacket construction is completed with balanced pockets, structural bands, and a six-button front."
+    },
+    {
+      "name": "double-stitch lines, restrained sleeve and torso folds, small buttonholes, and shallow ground shadow",
+      "introduced_by_step": 4,
+      "description": "A few parallel seams, directional folds, buttonholes, and one shadow clarify denim structure without clutter."
+    },
+    {
+      "name": "graphite depth with restrained indigo-blue colored-pencil shading and paper highlights",
+      "introduced_by_step": 5,
+      "description": "Soft graphite and broken indigo shading separate the established panels, folds, and pockets while leaving visible paper texture."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/denim-jacket-step-1.jpg",
+      "step_name": "Block in the jacket",
+      "visible_job": "Places the shoulder line, torso block, center opening, collar reserve, sleeve gestures, cuff positions, and two chest-pocket footprints at one fixed scale.",
+      "introduces": [
+        "shoulder line, torso block, center opening, collar reserve, sleeve gestures, cuff positions, and chest-pocket footprints"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/denim-jacket-step-2.jpg",
+      "step_name": "Shape the jacket silhouette",
+      "visible_job": "Wraps the guides with the pointed collar, two front plackets, relaxed sleeves, cuffs, and straight hem while leaving the reserved pocket areas blank.",
+      "introduces": [
+        "denim-jacket silhouette with pointed collar, two front plackets, relaxed sleeves, cuffs, and straight hem"
+      ],
+      "requires_prior_elements": [
+        "shoulder line, torso block, center opening, collar reserve, sleeve gestures, cuff positions, and chest-pocket footprints"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/denim-jacket-step-3.jpg",
+      "step_name": "Build the denim panels",
+      "visible_job": "Adds the back-yoke seam, two chest pockets and flaps, cuff seams, hem band, and exactly six front buttons inside the established silhouette.",
+      "introduces": [
+        "back yoke seam, two chest pockets and flaps, cuff seams, hem band, and six front buttons"
+      ],
+      "requires_prior_elements": [
+        "denim-jacket silhouette with pointed collar, two front plackets, relaxed sleeves, cuffs, and straight hem"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/denim-jacket-step-4.jpg",
+      "step_name": "Add seams and folds",
+      "visible_job": "Adds double-stitch lines, a few sleeve and torso folds, small buttonholes, and one shallow ground shadow to the completed jacket structure.",
+      "introduces": [
+        "double-stitch lines, restrained sleeve and torso folds, small buttonholes, and shallow ground shadow"
+      ],
+      "requires_prior_elements": [
+        "denim-jacket silhouette with pointed collar, two front plackets, relaxed sleeves, cuffs, and straight hem",
+        "back yoke seam, two chest pockets and flaps, cuff seams, hem band, and six front buttons"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/denim-jacket-step-5.jpg",
+      "step_name": "Shade the denim",
+      "visible_job": "Adds soft graphite depth and restrained indigo-blue colored pencil to the established jacket panels, seams, folds, pockets, cuffs, and shadow.",
+      "introduces": [
+        "graphite depth with restrained indigo-blue colored-pencil shading and paper highlights"
+      ],
+      "requires_prior_elements": [
+        "denim-jacket silhouette with pointed collar, two front plackets, relaxed sleeves, cuffs, and straight hem",
+        "back yoke seam, two chest pockets and flaps, cuff seams, hem band, and six front buttons",
+        "double-stitch lines, restrained sleeve and torso folds, small buttonholes, and shallow ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the denim study",
+    "asset": "assets/denim-jacket-finished-v1.jpg",
+    "visible_job": "Only strengthens the established silhouette, collar, plackets, sleeves, pockets, buttons, seams, folds, restrained color, paper highlights, and shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained graphite and indigo colored-pencil shading",
+      "small highlight clarification on established denim panels and hardware"
+    ]
+  },
+  "rejection_checks": [
+    "No collar, placket, sleeve, cuff, hem, yoke, pocket, flap, button, seam, fold, color area, highlight, or shadow may first appear in the final panel.",
+    "The jacket must retain one front-facing pose, shoulder width, sleeve angle, torso length, scale, and crop across all six panels.",
+    "Reserve the collar and pocket footprints from step one; do not render finished torso seams beneath those covering forms.",
+    "Reject people, body parts, hangers, lettering, logos, patches, pins, extra garments, furniture, room scenes, or decorative borders.",
+    "The finish must read as an attainable graphite-and-colored-pencil sketch with visible paper and hand pressure, not glossy fashion art or a vector clothing icon."
+  ]
+}

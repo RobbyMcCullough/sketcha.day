@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-20
+- Date: 2026-07-21
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-19 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-20 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,25 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-21 daily automation added current `denim-jacket` (July 21 /
+  Day 072) and honest archive `hanging-wind-chimes` (May 11 / Day 001).
+  Both use reviewed six-panel handmade raster pencil contact sheets, cropped
+  JPG masters, WebP derivatives, social cards, and explicit process plans.
+  The wind-chime first generation is retained privately as rejected v1 because
+  it showed only three tubes; the approved sheet keeps exactly four separated
+  tubes from construction through the finish. Finished-image ratings: denim
+  jacket 9.4/10 for its immediate garment readability, six-button and pocket
+  continuity, tactile indigo pencil, and attainable detail; wind chimes 9.3/10
+  for their exact four-tube rhythm, stable clapper/sail construction, clear
+  material contrast, and restrained breezy finish.
+- July 21 readiness passed for both lessons: ledger, process-plan,
+  frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset,
+  day-sequence, lab-privacy, and diff checks. Direct Cove desktop/mobile QA at
+  1440x1000 and 390x844 passed for the homepage, library, and both tutorials:
+  no broken images after deliberate lazy-load scrolling, missing alt text,
+  horizontal overflow, clipped H1s, invalid JSON-LD, or public lab links.
+  Rendered layouts rated 9.3/10. The temporary two-tutorial-per-site backfill
+  cadence remains active.
 - 2026-07-20 daily automation added current `astronaut-helmet` (July 20 /
   Day 070) and honest archive `manual-coffee-grinder` (May 12 / Day 001).
   Both use reviewed six-panel handmade raster pencil contact sheets, cropped

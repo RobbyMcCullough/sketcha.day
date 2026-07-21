@@ -2,21 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://sketcha.day/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://sketcha.day/about.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://sketcha.day/library.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sketcha.day/tutorials/denim-jacket.html</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/denim-jacket-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/denim-jacket-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/denim-jacket-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/denim-jacket-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/denim-jacket-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/denim-jacket-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://sketcha.day/tutorials/astronaut-helmet.html</loc>
@@ -1669,6 +1693,30 @@
     </image:image>
     <image:image>
       <image:loc>https://sketcha.day/assets/manual-coffee-grinder-step-5.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sketcha.day/tutorials/hanging-wind-chimes.html</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/hanging-wind-chimes-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/hanging-wind-chimes-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/hanging-wind-chimes-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/hanging-wind-chimes-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/hanging-wind-chimes-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/hanging-wind-chimes-step-5.webp</image:loc>
     </image:image>
   </url>
 </urlset>

@@ -1,0 +1,116 @@
+{
+  "slug": "hanging-wind-chimes",
+  "finished": "assets/hanging-wind-chimes-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel graphite-and-colored-pencil process contact sheet.",
+    "notes": "One consistent hanging wind-chime set with a round wooden cap, exactly four metal tubes, central clapper, and diamond-shaped sail on warm off-white paper. The first three-tube generation is retained privately as rejected v1; the approved sheet keeps four separated tubes from construction through finish. No porch, tree, window, lettering, bird, decorative border, or extra ornament."
+  },
+  "process_strategy": "The sequence locks one hanging loop, cap ellipse, center cord, four staggered tube axes, clapper position, and lower sail footprint; wraps those guides with the cap, strings, and four tubes; adds the clapper, diamond sail, tube openings, hanging hardware, breeze marks, highlights, and shadow; then shades and colors only those established forms before final cleanup.",
+  "final_elements": [
+    {
+      "name": "hanging loop, cap ellipse, center cord, four staggered tube axes, clapper position, and diamond-sail footprint",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes one vertical wind-chime arrangement with four separated hanging tubes and a centered lower sail."
+    },
+    {
+      "name": "round wooden cap, four hanging strings, exactly four hollow metal tubes, and central cord",
+      "introduced_by_step": 2,
+      "description": "A clean silhouette turns the guides into a readable wind chime with four tubes at alternating lengths."
+    },
+    {
+      "name": "round clapper disk, diamond-shaped wind sail, four lower tube openings, and small hanging knots",
+      "introduced_by_step": 3,
+      "description": "The sound-making center and hanging hardware complete the chime structure beneath the cap."
+    },
+    {
+      "name": "tube reflection lines, wooden-cap grain, three breeze arcs, and faint cast shadow",
+      "introduced_by_step": 4,
+      "description": "A few material lines, exactly three breeze arcs, and a light shadow clarify metal, wood, and movement without adding scenery."
+    },
+    {
+      "name": "graphite depth with cool-gray metal, warm ochre wood, and muted teal sail color",
+      "introduced_by_step": 5,
+      "description": "Restrained pencil color separates the established cap, tubes, clapper, sail, strings, reflections, and shadow while leaving paper highlights."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/hanging-wind-chimes-step-1.jpg",
+      "step_name": "Hang the chime guides",
+      "visible_job": "Places the hanging loop, cap ellipse, center cord, four staggered tube axes, clapper position, and diamond-sail footprint at one fixed scale.",
+      "introduces": [
+        "hanging loop, cap ellipse, center cord, four staggered tube axes, clapper position, and diamond-sail footprint"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/hanging-wind-chimes-step-2.jpg",
+      "step_name": "Shape the cap and tubes",
+      "visible_job": "Wraps the guides with the round wooden cap, four hanging strings, exactly four hollow metal tubes at staggered lengths, and the central cord.",
+      "introduces": [
+        "round wooden cap, four hanging strings, exactly four hollow metal tubes, and central cord"
+      ],
+      "requires_prior_elements": [
+        "hanging loop, cap ellipse, center cord, four staggered tube axes, clapper position, and diamond-sail footprint"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/hanging-wind-chimes-step-3.jpg",
+      "step_name": "Build the clapper and sail",
+      "visible_job": "Adds the round clapper disk, diamond-shaped wind sail, four lower tube openings, and small hanging knots to the established strings and tubes.",
+      "introduces": [
+        "round clapper disk, diamond-shaped wind sail, four lower tube openings, and small hanging knots"
+      ],
+      "requires_prior_elements": [
+        "round wooden cap, four hanging strings, exactly four hollow metal tubes, and central cord"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/hanging-wind-chimes-step-4.jpg",
+      "step_name": "Suggest metal and motion",
+      "visible_job": "Adds long reflection lines to all four tubes, restrained grain to the cap, exactly three breeze arcs, and one faint cast shadow behind the completed chime.",
+      "introduces": [
+        "tube reflection lines, wooden-cap grain, three breeze arcs, and faint cast shadow"
+      ],
+      "requires_prior_elements": [
+        "round wooden cap, four hanging strings, exactly four hollow metal tubes, and central cord",
+        "round clapper disk, diamond-shaped wind sail, four lower tube openings, and small hanging knots"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/hanging-wind-chimes-step-5.jpg",
+      "step_name": "Shade the wind chimes",
+      "visible_job": "Adds cool-gray pencil to the tubes and clapper, warm ochre to the cap, muted teal to the sail, and soft graphite to the established strings and shadow.",
+      "introduces": [
+        "graphite depth with cool-gray metal, warm ochre wood, and muted teal sail color"
+      ],
+      "requires_prior_elements": [
+        "round wooden cap, four hanging strings, exactly four hollow metal tubes, and central cord",
+        "round clapper disk, diamond-shaped wind sail, four lower tube openings, and small hanging knots",
+        "tube reflection lines, wooden-cap grain, three breeze arcs, and faint cast shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the breezy study",
+    "asset": "assets/hanging-wind-chimes-finished-v1.jpg",
+    "visible_job": "Only strengthens the established loop, cap, four strings and tubes, clapper, sail, knots, reflections, breeze arcs, restrained color, and shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained graphite and colored-pencil shading",
+      "small highlight clarification on established metal tubes and wooden cap"
+    ]
+  },
+  "rejection_checks": [
+    "No loop, cap, string, tube, opening, clapper, sail, knot, reflection, breeze arc, color area, highlight, or shadow may first appear in the final panel.",
+    "The wind chimes must retain one vertical arrangement, exact four-tube count, tube spacing, cap width, clapper position, sail position, scale, and crop across all six panels.",
+    "Reserve the cap and clapper footprints from step one; do not draw finished cord or tube detail beneath those covering forms.",
+    "Reject porches, trees, windows, birds, hands, lettering, bells, extra ornaments, extra tubes, decorative borders, or scene clutter.",
+    "The finish must read as an attainable graphite-and-colored-pencil object study, not polished product art, a vector icon, or glossy metal rendering."
+  ]
+}
