@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-21
+- Date: 2026-07-22
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-20 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-21 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,25 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-22 daily automation added current `graceful-swan-on-water` (July 22 /
+  Day 074) and honest archive `climbing-carabiner-and-rope` (May 10 / Day 001).
+  Both use reviewed six-panel handmade raster pencil contact sheets, cropped
+  JPG masters, WebP derivatives, social cards, and explicit process plans.
+  The approved swan holds one S-curved pose and three feather groups through a
+  quiet water finish; the carabiner holds one locking mechanism and one
+  continuous blue rope through exactly two coils. Finished-image ratings: swan
+  9.4/10 for its immediate silhouette, graceful gesture, tactile graphite, and
+  attainable water treatment; carabiner 9.5/10 for its convincing hardware,
+  continuous rope logic, material contrast, and unusually coherent sequence.
+- July 22 readiness passed for both lessons: ledger, process-plan,
+  frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset,
+  day-sequence, lab-privacy, and diff checks. Cove passed the automated URL
+  checks, but its expired local certificate blocked the rendered browser, so
+  desktop/mobile QA at 1440x1000 and 390x844 used the documented localhost
+  fallback. The homepage, library, and both tutorials had no broken loaded
+  lesson images, horizontal overflow, invalid JSON-LD, or public lab links;
+  all new lesson art has specific alt text. The temporary two-tutorial-per-site
+  backfill cadence remains active.
 - 2026-07-21 daily automation added current `denim-jacket` (July 21 /
   Day 072) and honest archive `hanging-wind-chimes` (May 11 / Day 001).
   Both use reviewed six-panel handmade raster pencil contact sheets, cropped

@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a graceful swan on water</title>
+      <link>https://sketcha.day/tutorials/graceful-swan-on-water.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/graceful-swan-on-water.html</guid>
+      <pubDate>Wed, 22 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a graceful swan on water with an S-curved neck, rounded body, folded wing, layered feathers, calm ripples, trailing wake, soft reflection, restrained blue-gray pencil, and a pale peach beak.</description>
+      <media:content url="https://sketcha.day/assets/graceful-swan-on-water-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a denim jacket</title>
       <link>https://sketcha.day/tutorials/denim-jacket.html</link>
@@ -582,6 +590,14 @@
       <pubDate>Mon, 11 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw hanging wind chimes with a round wooden cap, four staggered metal tubes, suspension strings, a central clapper, diamond-shaped sail, reflections, breeze lines, restrained pencil color, and soft graphite shadow.</description>
       <media:content url="https://sketcha.day/assets/hanging-wind-chimes-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a climbing carabiner and rope</title>
+      <link>https://sketcha.day/tutorials/climbing-carabiner-and-rope.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/climbing-carabiner-and-rope.html</guid>
+      <pubDate>Sun, 10 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a climbing carabiner and rope with a pear-shaped locking frame, straight gate, hooked nose, ribbed screw-lock sleeve, continuous twisted rope, two loose coils, metal reflections, restrained pencil color, and a soft graphite shadow.</description>
+      <media:content url="https://sketcha.day/assets/climbing-carabiner-and-rope-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -1,0 +1,116 @@
+{
+  "slug": "climbing-carabiner-and-rope",
+  "finished": "assets/climbing-carabiner-and-rope-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel graphite-and-colored-pencil process contact sheet.",
+    "notes": "One consistent pear-shaped locking climbing carabiner tilted slightly right with one blue rope threaded through its lower basket and arranged as exactly two loose coils; no hand, climber, cliff, harness, knot, lettering, logo, decorative border, or extra hardware."
+  },
+  "process_strategy": "The sequence locks one pear-shaped frame, inner opening, gate axis, hinge and nose reserves, screw-lock sleeve footprint, continuous rope path, two loose coil paths, and shadow zone; builds the carabiner around those guides; thickens the same rope path; adds the hardware, rope ridges, reflections, and shadow; then shades and colors only those established forms before final cleanup.",
+  "final_elements": [
+    {
+      "name": "pear-shaped frame guide, inner opening, gate axis, hinge and nose reserves, screw-lock sleeve footprint, continuous rope path, two loose coil paths, and shadow zone",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes one locking carabiner, its open negative space, and one continuous rope route through the lower basket into two loose coils."
+    },
+    {
+      "name": "locking carabiner silhouette with thick pear-shaped frame, open center, straight gate, rounded basket, and narrow spine",
+      "introduced_by_step": 2,
+      "description": "A confident contour turns the frame guide into one readable tilted carabiner while keeping the hardware reserves clear."
+    },
+    {
+      "name": "gate hinge, hooked nose, ribbed screw-lock sleeve with grooves, continuous rope thickness, exactly two loose rope coils, and directional twist ridges",
+      "introduced_by_step": 3,
+      "description": "The locking mechanism and one unbroken textured rope become visible without hiding finished detail beneath the crossing rope."
+    },
+    {
+      "name": "three metal reflection lines, graphite form shading, and shallow cast shadow",
+      "introduced_by_step": 4,
+      "description": "A few long metal highlights, soft graphite turns, and one shadow clarify the already established materials."
+    },
+    {
+      "name": "graphite depth with restrained blue rope, cool-gray metal, and muted brass sleeve color",
+      "introduced_by_step": 5,
+      "description": "Soft graphite and restrained colored pencil separate the established rope, frame, gate, sleeve, and shadow while preserving paper highlights."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/climbing-carabiner-and-rope-step-1.jpg",
+      "step_name": "Map the clip and rope",
+      "visible_job": "Places the pear-shaped frame, inner opening, gate axis, hinge and nose reserves, screw-lock sleeve footprint, one continuous rope path, exactly two loose coil paths, and a shadow zone.",
+      "introduces": [
+        "pear-shaped frame guide, inner opening, gate axis, hinge and nose reserves, screw-lock sleeve footprint, continuous rope path, two loose coil paths, and shadow zone"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/climbing-carabiner-and-rope-step-2.jpg",
+      "step_name": "Shape the carabiner",
+      "visible_job": "Wraps the guides with the thick pear-shaped frame, open center, straight gate, rounded basket, and narrow spine while preserving the same tilt.",
+      "introduces": [
+        "locking carabiner silhouette with thick pear-shaped frame, open center, straight gate, rounded basket, and narrow spine"
+      ],
+      "requires_prior_elements": [
+        "pear-shaped frame guide, inner opening, gate axis, hinge and nose reserves, screw-lock sleeve footprint, continuous rope path, two loose coil paths, and shadow zone"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/climbing-carabiner-and-rope-step-3.jpg",
+      "step_name": "Build the lock and rope",
+      "visible_job": "Adds the gate hinge, hooked nose, ribbed screw-lock sleeve and grooves, then gives the reserved rope path one consistent thickness, directional twist ridges, and exactly two loose coils.",
+      "introduces": [
+        "gate hinge, hooked nose, ribbed screw-lock sleeve with grooves, continuous rope thickness, exactly two loose rope coils, and directional twist ridges"
+      ],
+      "requires_prior_elements": [
+        "locking carabiner silhouette with thick pear-shaped frame, open center, straight gate, rounded basket, and narrow spine"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/climbing-carabiner-and-rope-step-4.jpg",
+      "step_name": "Turn the metal forms",
+      "visible_job": "Adds exactly three long metal reflection lines, soft graphite form shading around the established frame and sleeve, and one shallow cast shadow.",
+      "introduces": [
+        "three metal reflection lines, graphite form shading, and shallow cast shadow"
+      ],
+      "requires_prior_elements": [
+        "locking carabiner silhouette with thick pear-shaped frame, open center, straight gate, rounded basket, and narrow spine",
+        "gate hinge, hooked nose, ribbed screw-lock sleeve with grooves, continuous rope thickness, exactly two loose rope coils, and directional twist ridges"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/climbing-carabiner-and-rope-step-5.jpg",
+      "step_name": "Shade the climbing gear",
+      "visible_job": "Adds graphite depth, restrained blue pencil to the rope, cool gray to the established frame and gate, and muted brass to the screw-lock sleeve.",
+      "introduces": [
+        "graphite depth with restrained blue rope, cool-gray metal, and muted brass sleeve color"
+      ],
+      "requires_prior_elements": [
+        "locking carabiner silhouette with thick pear-shaped frame, open center, straight gate, rounded basket, and narrow spine",
+        "gate hinge, hooked nose, ribbed screw-lock sleeve with grooves, continuous rope thickness, exactly two loose rope coils, and directional twist ridges",
+        "three metal reflection lines, graphite form shading, and shallow cast shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the gear study",
+    "asset": "assets/climbing-carabiner-and-rope-finished-v1.jpg",
+    "visible_job": "Only strengthens the established carabiner frame, gate hardware, continuous two-coil rope, ridges, reflections, sleeve grooves, restrained color, paper highlights, and shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained graphite and colored-pencil shading",
+      "small highlight clarification on established rope and metal"
+    ]
+  },
+  "rejection_checks": [
+    "No frame, gate, hinge, nose, sleeve, rope segment, coil, ridge, reflection, groove, color area, highlight, or shadow may first appear in the final panel.",
+    "The carabiner and continuous rope must retain one tilt, frame width, gate position, crossing order, two-coil route, scale, and crop across all six panels.",
+    "Reserve the rope crossing and screw-sleeve footprints from step one; do not render finished frame detail beneath those covering forms.",
+    "Reject hands, climbers, cliffs, harnesses, knots, lettering, logos, extra carabiners, extra rope coils, or decorative borders.",
+    "The finish must read as an attainable graphite-and-colored-pencil gear sketch with visible paper and hand pressure, not glossy product art or a vector safety icon."
+  ]
+}

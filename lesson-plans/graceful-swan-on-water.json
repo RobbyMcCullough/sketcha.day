@@ -1,0 +1,115 @@
+{
+  "slug": "graceful-swan-on-water",
+  "finished": "assets/graceful-swan-on-water-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel graphite-and-colored-pencil process contact sheet.",
+    "notes": "One consistent side-view swan gliding left on calm water, with a long S-curved neck, folded wing, small wake, and soft reflection; no second bird, cygnets, reeds, flowers, lettering, logo, decorative border, or full landscape."
+  },
+  "process_strategy": "The sequence locks one body oval, S-curved neck gesture, head-and-beak guides, folded-wing footprint, tail point, waterline, and reflection zone; wraps them with the swan silhouette; adds the face, beak division, layered wing feathers, ripples, wake, and reflection; then shades and colors only those established forms before final cleanup.",
+  "final_elements": [
+    {
+      "name": "body oval, S-curved neck gesture, head-and-beak guides, folded-wing footprint, tail point, waterline, and reflection zone",
+      "introduced_by_step": 1,
+      "description": "Light construction fixes one left-facing swan, its graceful neck rhythm, wing placement, waterline, and the shallow reflected shape below."
+    },
+    {
+      "name": "side-view swan silhouette with long neck, rounded body, head, tapered beak, folded wing, and pointed tail",
+      "introduced_by_step": 2,
+      "description": "A relaxed contour turns the guides into one readable gliding swan while preserving the wing footprint and neck-to-body overlap."
+    },
+    {
+      "name": "small eye, beak division, cheek line, three layered wing-feather groups, and underside feather edge",
+      "introduced_by_step": 3,
+      "description": "A few specific landmarks give the swan expression and feather structure without rendering every feather."
+    },
+    {
+      "name": "three water ripples, narrow trailing wake, soft broken reflection, and shallow contact shadow",
+      "introduced_by_step": 4,
+      "description": "Calm horizontal marks seat the established bird on the water and echo its body without becoming a landscape."
+    },
+    {
+      "name": "graphite depth with restrained blue-gray water and pale peach beak color",
+      "introduced_by_step": 5,
+      "description": "Soft graphite, broken blue-gray pencil, and a small warm beak accent clarify only the existing swan, ripples, wake, and reflection."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/graceful-swan-on-water-step-1.jpg",
+      "step_name": "Set the swan gesture",
+      "visible_job": "Places the body oval, S-curved neck gesture, head circle, beak wedge, folded-wing footprint, tail point, waterline, and reflection zone at one fixed scale.",
+      "introduces": [
+        "body oval, S-curved neck gesture, head-and-beak guides, folded-wing footprint, tail point, waterline, and reflection zone"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/graceful-swan-on-water-step-2.jpg",
+      "step_name": "Shape the gliding swan",
+      "visible_job": "Wraps the guides with the long neck, rounded body, head, tapered beak, folded wing, and pointed tail while keeping the same side-view pose.",
+      "introduces": [
+        "side-view swan silhouette with long neck, rounded body, head, tapered beak, folded wing, and pointed tail"
+      ],
+      "requires_prior_elements": [
+        "body oval, S-curved neck gesture, head-and-beak guides, folded-wing footprint, tail point, waterline, and reflection zone"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/graceful-swan-on-water-step-3.jpg",
+      "step_name": "Build the face and wing",
+      "visible_job": "Adds the small eye, beak division, cheek line, three broad feather groups, and underside feather edge inside the completed silhouette.",
+      "introduces": [
+        "small eye, beak division, cheek line, three layered wing-feather groups, and underside feather edge"
+      ],
+      "requires_prior_elements": [
+        "side-view swan silhouette with long neck, rounded body, head, tapered beak, folded wing, and pointed tail"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/graceful-swan-on-water-step-4.jpg",
+      "step_name": "Add the calm water",
+      "visible_job": "Adds three horizontal ripples, a narrow trailing wake, a soft broken reflection, and a shallow contact shadow beneath the established bird.",
+      "introduces": [
+        "three water ripples, narrow trailing wake, soft broken reflection, and shallow contact shadow"
+      ],
+      "requires_prior_elements": [
+        "side-view swan silhouette with long neck, rounded body, head, tapered beak, folded wing, and pointed tail"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/graceful-swan-on-water-step-5.jpg",
+      "step_name": "Shade the feathers and water",
+      "visible_job": "Adds soft graphite depth, broken blue-gray colored pencil, and a pale peach beak accent to the established swan, ripples, wake, and reflection.",
+      "introduces": [
+        "graphite depth with restrained blue-gray water and pale peach beak color"
+      ],
+      "requires_prior_elements": [
+        "side-view swan silhouette with long neck, rounded body, head, tapered beak, folded wing, and pointed tail",
+        "small eye, beak division, cheek line, three layered wing-feather groups, and underside feather edge",
+        "three water ripples, narrow trailing wake, soft broken reflection, and shallow contact shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the quiet glide",
+    "asset": "assets/graceful-swan-on-water-finished-v1.jpg",
+    "visible_job": "Only strengthens the established swan contours, face, wing feathers, ripples, wake, reflection, restrained color, and paper highlights.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "restrained graphite and blue-gray colored-pencil shading",
+      "small highlight clarification on established feathers and water"
+    ]
+  },
+  "rejection_checks": [
+    "No head, beak, neck, body, wing, tail, eye, feather group, ripple, wake, reflection, shadow, or color area may first appear in the final panel.",
+    "The swan must retain one left-facing side view, S-curve, body proportion, wing placement, waterline, scale, and crop across all six panels.",
+    "Reserve the folded-wing footprint from step one; do not render finished body texture beneath the covering wing.",
+    "Reject extra birds, cygnets, reeds, flowers, lettering, logos, decorative borders, or full scenic backgrounds.",
+    "The finish must read as an attainable graphite-and-colored-pencil sketch with visible paper and hand pressure, not glossy wildlife art or a vector bird icon."
+  ]
+}
