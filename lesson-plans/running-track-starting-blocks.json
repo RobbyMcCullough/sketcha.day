@@ -1,0 +1,123 @@
+{
+  "slug": "running-track-starting-blocks",
+  "finished": "assets/running-track-starting-blocks-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel raster contact sheet showing one set of track starting blocks from pale perspective construction to a finished graphite and blue-pencil sketch.",
+    "notes": "The same three-quarter view, two footplates, central rail, and lane placement must persist across all six panels."
+  },
+  "process_strategy": "Build the long central rail first, attach both angled footplates to reserved bracket positions, then add hardware, track context, and restrained blue-gray pencil before the final cleanup.",
+  "final_elements": [
+    {
+      "name": "central slotted rail",
+      "introduced_by_step": 1,
+      "description": "A long foreshortened metal rail running diagonally beneath the blocks."
+    },
+    {
+      "name": "two angled footplates",
+      "introduced_by_step": 2,
+      "description": "A nearer left footplate and a farther right footplate tilted toward the runner."
+    },
+    {
+      "name": "two hinge brackets",
+      "introduced_by_step": 3,
+      "description": "Compact mounting brackets that visibly connect each footplate to the rail."
+    },
+    {
+      "name": "rail slots and footplate grip texture",
+      "introduced_by_step": 4,
+      "description": "Repeated rail adjustment slots plus a few directional grip lines on each plate."
+    },
+    {
+      "name": "track lane edges and cast shadow",
+      "introduced_by_step": 5,
+      "description": "Two cropped lane-edge strokes and a soft oval shadow anchoring the equipment to the track."
+    },
+    {
+      "name": "blue-gray metal accents",
+      "introduced_by_step": 5,
+      "description": "Restrained blue-gray colored-pencil accents on the rail and footplates."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/running-track-starting-blocks-step-1.jpg",
+      "step_name": "Set the rail in perspective",
+      "visible_job": "Uses two pale converging guide lines and a center axis to establish the central slotted rail at a three-quarter angle.",
+      "introduces": [
+        "central slotted rail"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/running-track-starting-blocks-step-2.jpg",
+      "step_name": "Angle the two footplates",
+      "visible_job": "Adds two clear wedge-and-rectangle footplate silhouettes at different positions along the rail while reserving space for their mounts.",
+      "introduces": [
+        "two angled footplates"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/running-track-starting-blocks-step-3.jpg",
+      "step_name": "Connect the hinge brackets",
+      "visible_job": "Connects each existing footplate to the rail with one compact hinge bracket and clarifies the surviving outer contours.",
+      "introduces": [
+        "two hinge brackets"
+      ],
+      "requires_prior_elements": [
+        "central slotted rail",
+        "two angled footplates"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/running-track-starting-blocks-step-4.jpg",
+      "step_name": "Place the slots and grips",
+      "visible_job": "Adds the repeated adjustment slots to the existing rail and a few directional grip lines inside both established footplates.",
+      "introduces": [
+        "rail slots and footplate grip texture"
+      ],
+      "requires_prior_elements": [
+        "central slotted rail",
+        "two angled footplates"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/running-track-starting-blocks-step-5.jpg",
+      "step_name": "Ground the blocks on the track",
+      "visible_job": "Adds two cropped lane-edge strokes, a soft cast shadow, and light blue-gray pencil accents to the already-built equipment.",
+      "introduces": [
+        "track lane edges and cast shadow",
+        "blue-gray metal accents"
+      ],
+      "requires_prior_elements": [
+        "central slotted rail",
+        "two angled footplates",
+        "two hinge brackets",
+        "rail slots and footplate grip texture"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Sharpen the ready-set finish",
+    "asset": "assets/running-track-starting-blocks-finished-v1.jpg",
+    "visible_job": "Strengthens keeper contours, deepens existing blue-gray accents, and tidies the established track shadow without adding new structure.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "deeper blue-gray colored-pencil accents on existing metal shapes",
+      "restrained graphite shading inside established forms",
+      "cleanup of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Both footplates must stay attached to the same central rail in every panel after they appear.",
+    "The two footplates may not swap sides, change angle, or drift in scale.",
+    "Rail slots, grip texture, lane edges, and blue-gray accents must appear before the finished panel.",
+    "No panel may render hidden rail detail underneath a hinge bracket or footplate mount.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must remain a believable handmade sketch rather than polished product art."
+  ]
+}

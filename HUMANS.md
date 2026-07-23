@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-22
+- Date: 2026-07-23
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-21 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-22 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,25 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-23 daily automation added current `running-track-starting-blocks`
+  (July 23 / Day 076) and honest archive `wooden-hand-plane-and-shaving`
+  (May 9 / Day 001). Both use reviewed six-panel handmade raster pencil
+  contact sheets, cropped JPG masters, WebP derivatives, social cards, and
+  explicit process plans. The starting blocks preserve one rail, two
+  footplates, two hinges, and the same foreshortened view; the hand plane
+  preserves one wooden body, rear tote, front knob, iron, wedge, and one
+  continuous curled shaving. Finished-image ratings: starting blocks 9.3/10
+  for its immediate sports-equipment silhouette, convincing perspective,
+  tactile graphite, and exact cumulative sequence; hand plane 9.5/10 for its
+  strong material readability, single-curl continuity, wood/iron contrast,
+  and unusually coherent construction sequence.
+- July 23 readiness passed for both lessons: ledger, process-plan,
+  frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset,
+  day-sequence, lab-privacy, and diff checks. Direct Cove desktop/mobile QA at
+  1440x1000 and 390x844 passed for the homepage, library, and both tutorials:
+  no broken visible lesson images, horizontal overflow, clipped H1s, invalid
+  JSON-LD, console errors, or public lab links. The temporary
+  two-tutorial-per-site backfill cadence remains active.
 - 2026-07-22 daily automation added current `graceful-swan-on-water` (July 22 /
   Day 074) and honest archive `climbing-carabiner-and-rope` (May 10 / Day 001).
   Both use reviewed six-panel handmade raster pencil contact sheets, cropped

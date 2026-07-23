@@ -1,0 +1,134 @@
+{
+  "slug": "wooden-hand-plane-and-shaving",
+  "finished": "assets/wooden-hand-plane-and-shaving-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel raster contact sheet showing one traditional wooden hand plane and one curled shaving from pale construction to a finished graphite and colored-pencil sketch.",
+    "notes": "The same three-quarter view, long wooden body, pale rear-tote construction, front knob, iron, wedge, and single shaving must persist after introduction."
+  },
+  "process_strategy": "Construct the long plane body and pale rear-tote gesture first while reserving the knob and iron footprints, refine the grips and cutting assembly, then introduce one shaving, grain, bench context, and restrained wood color before final cleanup.",
+  "final_elements": [
+    {
+      "name": "long wooden plane body and sole",
+      "introduced_by_step": 1,
+      "description": "A low rectangular wooden body in three-quarter perspective with a visible near end and long sole."
+    },
+    {
+      "name": "curved rear tote handle",
+      "introduced_by_step": 1,
+      "description": "One curved upright tote established as pale construction above the rear of the body."
+    },
+    {
+      "name": "rounded front knob",
+      "introduced_by_step": 2,
+      "description": "One small rounded grip knob near the front of the body."
+    },
+    {
+      "name": "angled iron, wedge, and mouth",
+      "introduced_by_step": 3,
+      "description": "A slanted metal cutting iron held by one wooden wedge above a narrow mouth in the body."
+    },
+    {
+      "name": "single curled wood shaving",
+      "introduced_by_step": 4,
+      "description": "Exactly one ribbon-like shaving curling forward from the plane mouth."
+    },
+    {
+      "name": "wood grain, bench edges, and cast shadow",
+      "introduced_by_step": 5,
+      "description": "Restrained grain on exposed wooden surfaces, two cropped bench-edge strokes, and one soft shadow."
+    },
+    {
+      "name": "warm ochre wood and cool-gray iron accents",
+      "introduced_by_step": 5,
+      "description": "Light warm-ochre pencil on wood and cool gray on the established metal iron."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/wooden-hand-plane-and-shaving-step-1.jpg",
+      "step_name": "Block the body and tote gesture",
+      "visible_job": "Builds a low foreshortened wooden body and sole from pale box guides, adds the pale rear-tote construction, and reserves blank footprints for the front knob and cutting assembly.",
+      "introduces": [
+        "long wooden plane body and sole",
+        "curved rear tote handle"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/wooden-hand-plane-and-shaving-step-2.jpg",
+      "step_name": "Shape the tote and front knob",
+      "visible_job": "Clarifies the existing curved rear tote and adds one rounded front knob inside its reserved body area.",
+      "introduces": [
+        "rounded front knob"
+      ],
+      "requires_prior_elements": [
+        "long wooden plane body and sole",
+        "curved rear tote handle"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/wooden-hand-plane-and-shaving-step-3.jpg",
+      "step_name": "Fit the iron and wedge",
+      "visible_job": "Adds the angled cutting iron, one wooden wedge, and the narrow mouth between the already-established grips.",
+      "introduces": [
+        "angled iron, wedge, and mouth"
+      ],
+      "requires_prior_elements": [
+        "long wooden plane body and sole",
+        "curved rear tote handle",
+        "rounded front knob"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/wooden-hand-plane-and-shaving-step-4.jpg",
+      "step_name": "Curl one shaving from the mouth",
+      "visible_job": "Draws exactly one broad ribbon shaving emerging from the established mouth and curling forward beside the plane.",
+      "introduces": [
+        "single curled wood shaving"
+      ],
+      "requires_prior_elements": [
+        "angled iron, wedge, and mouth"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/wooden-hand-plane-and-shaving-step-5.jpg",
+      "step_name": "Show wood, steel, and the bench",
+      "visible_job": "Adds grain only to exposed wooden areas, two cropped bench-edge strokes, one cast shadow, and light ochre and cool-gray pencil on established forms.",
+      "introduces": [
+        "wood grain, bench edges, and cast shadow",
+        "warm ochre wood and cool-gray iron accents"
+      ],
+      "requires_prior_elements": [
+        "long wooden plane body and sole",
+        "curved rear tote handle",
+        "rounded front knob",
+        "angled iron, wedge, and mouth",
+        "single curled wood shaving"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Tune the carpenter's finish",
+    "asset": "assets/wooden-hand-plane-and-shaving-finished-v1.jpg",
+    "visible_job": "Strengthens keeper contours, deepens existing wood and steel accents, and clarifies the established single shaving and shadow without adding new structure.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "deeper warm-ochre and cool-gray pencil on existing forms",
+      "restrained graphite shading and grain emphasis",
+      "cleanup of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "The body, pale tote gesture, knob, iron, wedge, mouth, and one shaving must keep the same three-quarter placement after they appear.",
+    "The single shaving may not split, disappear, or change into multiple curls.",
+    "Wood grain must stay off surfaces covered by the tote, knob, wedge, or iron.",
+    "Color, bench context, and the cast shadow must appear before the finished panel.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must remain a believable handmade sketch rather than polished product art."
+  ]
+}

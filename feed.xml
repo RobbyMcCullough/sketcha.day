@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw running track starting blocks</title>
+      <link>https://sketcha.day/tutorials/running-track-starting-blocks.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/running-track-starting-blocks.html</guid>
+      <pubDate>Thu, 23 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw running track starting blocks with a foreshortened slotted rail, two angled footplates, hinge brackets, grip texture, track lane edges, a cast shadow, and restrained blue-gray pencil.</description>
+      <media:content url="https://sketcha.day/assets/running-track-starting-blocks-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a graceful swan on water</title>
       <link>https://sketcha.day/tutorials/graceful-swan-on-water.html</link>
@@ -598,6 +606,14 @@
       <pubDate>Sun, 10 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a climbing carabiner and rope with a pear-shaped locking frame, straight gate, hooked nose, ribbed screw-lock sleeve, continuous twisted rope, two loose coils, metal reflections, restrained pencil color, and a soft graphite shadow.</description>
       <media:content url="https://sketcha.day/assets/climbing-carabiner-and-rope-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a wooden hand plane and curled shaving</title>
+      <link>https://sketcha.day/tutorials/wooden-hand-plane-and-shaving.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/wooden-hand-plane-and-shaving.html</guid>
+      <pubDate>Sat, 09 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a wooden hand plane and curled shaving with a foreshortened body, rear tote, front knob, angled iron, wooden wedge, plane mouth, warm grain, workbench edges, and a soft shadow.</description>
+      <media:content url="https://sketcha.day/assets/wooden-hand-plane-and-shaving-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>
