@@ -13,35 +13,29 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
-- 2026-07-23 daily automation added current `running-track-starting-blocks`
-  (July 23 / Day 076) and honest archive `wooden-hand-plane-and-shaving`
-  (May 9 / Day 001). Both use reviewed six-panel handmade raster pencil
-  contact sheets, cropped JPG masters, WebP derivatives, social cards, and
-  explicit process plans. The starting blocks preserve one rail, two
-  footplates, two hinges, and the same foreshortened view; the hand plane
-  preserves one wooden body, rear tote, front knob, iron, wedge, and one
-  continuous curled shaving. Finished-image ratings: starting blocks 9.3/10
-  for its immediate sports-equipment silhouette, convincing perspective,
-  tactile graphite, and exact cumulative sequence; hand plane 9.5/10 for its
-  strong material readability, single-curl continuity, wood/iron contrast,
-  and unusually coherent construction sequence.
-- July 23 readiness passed for both lessons: ledger, process-plan,
-  frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset,
-  day-sequence, lab-privacy, and diff checks. Direct Cove desktop/mobile QA at
-  1440x1000 and 390x844 passed for the homepage, library, and both tutorials:
-  no broken visible lesson images, horizontal overflow, clipped H1s, invalid
-  JSON-LD, console errors, or public lab links. The temporary
-  two-tutorial-per-site backfill cadence remains active.
-- The July 23 push through the required 1Password SSH socket stopped at
-  `sign_and_send_pubkey: ... communication with agent failed`. The reviewed
-  lesson commit remains local; authorize 1Password and retry through the same
-  socket, without switching agents or transports.
-- Deployment follow-up completed at 2026-07-23 09:54 PDT after 1Password was
-  authorized. Lesson commit `e8d4e49` and continuity commit `99109c0` pushed
-  through the required socket; DigitalOcean workflow `30027018996` passed,
-  including IndexNow. Both live tutorials return HTTP 200, the homepage
-  features `running-track-starting-blocks`, both finished WebP checksums match
-  the reviewed local files, and clean local `main` matches `origin/main`.
+- 2026-07-23 owner-directed correction replaced the current
+  `running-track-starting-blocks` lesson with `ant-carrying-a-leaf` (July 23 /
+  Day 076). The original subject came from a loose same-day sports inference,
+  not verified Google Trends evidence, and failed the more important question
+  of whether someone would want to draw it. The corrected subject is grounded
+  in the live US Past day Rising query `how to draw an ant` (+80%); starting
+  blocks did not appear in the 24-row query set.
+- The approved ant sheet keeps the same three-segment right-facing pose,
+  exactly six legs, two antennae, connected leaf stem, and oversized leaf from
+  construction through finish. Finished-image rating: 8.6/10 for immediate
+  subject readability, a playful tiny-traveler story, tactile raster pencil
+  texture, clear composition, and an attainable 20-minute progression. The
+  rejected starting-block page and public assets were moved into
+  `drafts/running-track-starting-blocks/rejected-public-assets/`; its ledger
+  entry is `rejected-quality`, and its former local tutorial URL returns 404.
+- Correction readiness passed: ledger, process-plan, frame-delta, derivative,
+  social-card, JSON-LD (six HowTo steps), internal/Cove URL, unused-asset,
+  lab-privacy, and diff checks. Direct Cove desktop/mobile QA at 1440x900 and
+  390x844 passed for the homepage, library, and replacement tutorial with no
+  horizontal overflow, stale starting-block links, broken lesson assets, or
+  public lab links. The honest May 9 `wooden-hand-plane-and-shaving` archive
+  lesson remains unchanged. The temporary two-tutorial-per-site backfill
+  cadence remains active.
 - 2026-07-22 daily automation added current `graceful-swan-on-water` (July 22 /
   Day 074) and honest archive `climbing-carabiner-and-rope` (May 10 / Day 001).
   Both use reviewed six-panel handmade raster pencil contact sheets, cropped

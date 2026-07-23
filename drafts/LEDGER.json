@@ -9,6 +9,11 @@
     "airport-control-tower": {
       "status": "published"
     },
+    "ant-carrying-a-leaf": {
+      "status": "published",
+      "date": "2026-07-23",
+      "note": "Owner-directed July 23 correction. Approved six-panel pencil process promoted after contact-sheet and cropped-frame review; finished image rated 8.6/10."
+    },
     "apple-turnover-on-a-plate": {
       "status": "published"
     },
@@ -182,7 +187,9 @@
       "note": "Reviewed six-panel lighthouse process promoted after cropped-frame, process-plan, delivery-image, JSON-LD, link, and layout checks."
     },
     "running-track-starting-blocks": {
-      "status": "published"
+      "status": "rejected-quality",
+      "date": "2026-07-23",
+      "note": "Owner rejected the lesson's editorial appeal: starting blocks were not a compelling subject to draw and were not supported by the verified Google Trends Rising data. Former public assets and page are retained privately for audit."
     },
     "sandcastle-by-the-shore": {
       "status": "published",

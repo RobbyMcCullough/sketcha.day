@@ -1,0 +1,134 @@
+{
+  "slug": "ant-carrying-a-leaf",
+  "finished": "assets/ant-carrying-a-leaf-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel raster contact sheet showing one small right-facing ant carrying one large leaf from pale gesture construction to a finished graphite and colored-pencil sketch.",
+    "notes": "The same three-part ant, exactly six bent legs, right-facing walking pose, leaf angle, and stem-to-mandible connection must persist across all six panels."
+  },
+  "process_strategy": "Establish the ant's three body beads and the leaf footprint together, build the six-leg walking rhythm beneath that load, connect the stem to the mouth, then add leaf structure, ground marks, and restrained color before the final cleanup.",
+  "final_elements": [
+    {
+      "name": "three-part ant body and walking axis",
+      "introduced_by_step": 1,
+      "description": "One right-facing head, small thorax, and larger abdomen arranged along a gentle walking gesture."
+    },
+    {
+      "name": "large carried leaf footprint and stem route",
+      "introduced_by_step": 1,
+      "description": "One oversized leaf held diagonally above the ant, with a pale stem route aimed toward the mouth."
+    },
+    {
+      "name": "exactly six bent legs",
+      "introduced_by_step": 2,
+      "description": "Three readable leg pairs with alternating lifted and planted feet beneath the established body."
+    },
+    {
+      "name": "two antennae, eye, and small mandibles",
+      "introduced_by_step": 3,
+      "description": "A tiny visible eye, exactly two curved antennae, and simple mandibles gripping the established stem."
+    },
+    {
+      "name": "leaf contour, center vein, side veins, and bite notch",
+      "introduced_by_step": 4,
+      "description": "The carried leaf's clear outer contour, central vein, five restrained side-vein pairs, and one small bite notch."
+    },
+    {
+      "name": "ground line, three grass ticks, and contact shadows",
+      "introduced_by_step": 5,
+      "description": "A short broken ground line, exactly three grass ticks, and small graphite shadows beneath the planted feet."
+    },
+    {
+      "name": "moss-green leaf and warm-brown ant accents",
+      "introduced_by_step": 5,
+      "description": "Restrained colored-pencil texture that leaves warm paper visible through both the leaf and ant."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/ant-carrying-a-leaf-step-1.jpg",
+      "step_name": "Map the ant and its leaf",
+      "visible_job": "Places three pale body beads on one right-facing walking axis, then adds the oversized leaf footprint and stem route above them before any region is detailed.",
+      "introduces": [
+        "three-part ant body and walking axis",
+        "large carried leaf footprint and stem route"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/ant-carrying-a-leaf-step-2.jpg",
+      "step_name": "Set the six-leg walking rhythm",
+      "visible_job": "Wraps the three body guides with a simple ant silhouette and adds exactly six bent legs in three alternating pairs beneath the load.",
+      "introduces": [
+        "exactly six bent legs"
+      ],
+      "requires_prior_elements": [
+        "three-part ant body and walking axis"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/ant-carrying-a-leaf-step-3.jpg",
+      "step_name": "Give the ant a determined face",
+      "visible_job": "Adds one small eye, exactly two curved antennae, and simple mandibles that visibly grip the existing leaf stem.",
+      "introduces": [
+        "two antennae, eye, and small mandibles"
+      ],
+      "requires_prior_elements": [
+        "three-part ant body and walking axis",
+        "large carried leaf footprint and stem route"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/ant-carrying-a-leaf-step-4.jpg",
+      "step_name": "Shape and vein the carried leaf",
+      "visible_job": "Clarifies the reserved leaf contour, center vein, five restrained side-vein pairs, one small bite notch, and the stem-to-mandible connection.",
+      "introduces": [
+        "leaf contour, center vein, side veins, and bite notch"
+      ],
+      "requires_prior_elements": [
+        "large carried leaf footprint and stem route",
+        "two antennae, eye, and small mandibles"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/ant-carrying-a-leaf-step-5.jpg",
+      "step_name": "Ground and color the tiny traveler",
+      "visible_job": "Adds the broken ground line, exactly three grass ticks, contact shadows, moss-green leaf texture, and warm-brown ant accents to the established drawing.",
+      "introduces": [
+        "ground line, three grass ticks, and contact shadows",
+        "moss-green leaf and warm-brown ant accents"
+      ],
+      "requires_prior_elements": [
+        "three-part ant body and walking axis",
+        "large carried leaf footprint and stem route",
+        "exactly six bent legs",
+        "two antennae, eye, and small mandibles",
+        "leaf contour, center vein, side veins, and bite notch"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Strengthen the determined finish",
+    "asset": "assets/ant-carrying-a-leaf-finished-v1.jpg",
+    "visible_job": "Strengthens keeper contours, deepens the existing moss-green and warm-brown accents, and tidies the established ground shadows without adding new structure.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "deeper moss-green and warm-brown colored-pencil accents on existing forms",
+      "restrained graphite shading inside established body and leaf shapes",
+      "cleanup of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "The ant must remain one right-facing character with the same three body segments in every panel.",
+    "Exactly six legs must be visible after step 2; no leg may appear, disappear, or swap attachment points later.",
+    "The same single leaf and stem angle must persist after step 1, and the stem must connect visibly to the mandibles after step 3.",
+    "The leaf contour, vein pattern, bite notch, ground marks, and both color families must appear before the finished panel.",
+    "No panel may render finished ant detail underneath the carried leaf footprint.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must feel playful and attainable, not like a biology diagram or polished storybook illustration."
+  ]
+}
