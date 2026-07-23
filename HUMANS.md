@@ -36,6 +36,12 @@
   public lab links. The honest May 9 `wooden-hand-plane-and-shaving` archive
   lesson remains unchanged. The temporary two-tutorial-per-site backfill
   cadence remains active.
+- Correction commit `17f61e9` pushed through the required 1Password SSH
+  socket. DigitalOcean workflow `30032440889` completed successfully,
+  including IndexNow. The live ant tutorial returns 200, the retired
+  starting-block tutorial returns 404, the live homepage features the ant,
+  the live finished WebP checksum matches the reviewed local file, and local
+  `main` matches `origin/main`.
 - 2026-07-22 daily automation added current `graceful-swan-on-water` (July 22 /
   Day 074) and honest archive `climbing-carabiner-and-rope` (May 10 / Day 001).
   Both use reviewed six-panel handmade raster pencil contact sheets, cropped
