@@ -32,6 +32,10 @@
   no broken visible lesson images, horizontal overflow, clipped H1s, invalid
   JSON-LD, console errors, or public lab links. The temporary
   two-tutorial-per-site backfill cadence remains active.
+- The July 23 push through the required 1Password SSH socket stopped at
+  `sign_and_send_pubkey: ... communication with agent failed`. The reviewed
+  lesson commit remains local; authorize 1Password and retry through the same
+  socket, without switching agents or transports.
 - 2026-07-22 daily automation added current `graceful-swan-on-water` (July 22 /
   Day 074) and honest archive `climbing-carabiner-and-rope` (May 10 / Day 001).
   Both use reviewed six-panel handmade raster pencil contact sheets, cropped
