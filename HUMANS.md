@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-23
+- Date: 2026-07-24
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-22 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-23 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,29 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-24 daily automation added current `ballet-slippers-with-ribbons`
+  (July 24 / Day 078) and honest archive `garden-wheelbarrow` (May 8 /
+  Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,
+  cropped JPG masters, WebP derivatives, social cards, and explicit process
+  plans. The ballet pair preserves two shoes and two ribbons crossing once;
+  the wheelbarrow preserves one wheel with six spokes, two handles, two support
+  legs, and four attachment bolts. Finished-image ratings: ballet slippers
+  9.3/10 for their readable paired silhouette, tactile dusty-rose pencil, and
+  balanced attainable composition; wheelbarrow 9.5/10 for its convincing
+  three-quarter construction, stable hardware, material contrast, and
+  unusually coherent cumulative sequence.
+- July 24 readiness passed for both lessons: ledger, process-plan,
+  frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset,
+  day-sequence, lab-privacy, and diff checks. Cove's expired certificate blocked
+  the rendered browser, so desktop/mobile QA at 1440x1000 and 390x844 used the
+  documented localhost fallback. Homepage, library, and tutorial checks found
+  no horizontal overflow, broken loaded lesson images, missing alt text,
+  invalid JSON-LD, console errors, or public lab links. The temporary
+  two-tutorial-per-site backfill cadence remains active.
+- The required 1Password-backed push stopped at `sign_and_send_pubkey: ...
+  communication with agent failed`. The reviewed lesson commit remains local;
+  authorize 1Password and retry through the same socket without switching
+  agents or transports.
 - 2026-07-23 owner-directed correction replaced the current
   `running-track-starting-blocks` lesson with `ant-carrying-a-leaf` (July 23 /
   Day 076). The original subject came from a loose same-day sports inference,

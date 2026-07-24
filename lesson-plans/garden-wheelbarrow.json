@@ -1,0 +1,119 @@
+{
+  "slug": "garden-wheelbarrow",
+  "finished": "assets/garden-wheelbarrow-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel raster contact sheet showing one empty garden wheelbarrow in a stable three-quarter view from pale box-and-axis construction to a finished graphite and restrained sage-and-ochre pencil sketch.",
+    "notes": "The same single wheel, tray angle, two handles, two support legs, six spokes, empty tray, crop, and viewpoint must persist across all six panels."
+  },
+  "process_strategy": "Place the tray box, wheel circle, and handle axes together, wrap those guides with the main silhouette, add the support frame and exact hardware counts, then apply restrained material color and ground shadow before final cleanup.",
+  "final_elements": [
+    {
+      "name": "tray box, wheel guide, and two handle axes",
+      "introduced_by_step": 1,
+      "description": "One tilted trapezoid-like tray guide, one front wheel circle, and exactly two long handle axes extending toward the rear."
+    },
+    {
+      "name": "outer tray, single tire, and two handles",
+      "introduced_by_step": 2,
+      "description": "The empty wheelbarrow's complete tray silhouette, exactly one thick tire, and exactly two separated wooden handles."
+    },
+    {
+      "name": "axle frame, two support legs, two cross braces, and four bolts",
+      "introduced_by_step": 3,
+      "description": "A simple undercarriage joining the wheel to the tray, exactly two planted legs, two visible brace bars, and four small attachment bolts."
+    },
+    {
+      "name": "tray rim, wheel hub, six spokes, and tire tread",
+      "introduced_by_step": 4,
+      "description": "A doubled tray lip, centered hub with exactly six spokes, and restrained tread marks on the established tire."
+    },
+    {
+      "name": "sage tray, ochre handles, tire texture, and ground shadow",
+      "introduced_by_step": 5,
+      "description": "Restrained sage-green pencil on the tray, warm ochre on the handles, graphite tire texture, and one broken cast shadow beneath the wheel and legs."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/garden-wheelbarrow-step-1.jpg",
+      "step_name": "Set the tray, wheel, and handles",
+      "visible_job": "Builds one pale tilted tray box, places one front wheel circle on its axle line, and ghosts exactly two long handle axes extending behind the tray.",
+      "introduces": [
+        "tray box, wheel guide, and two handle axes"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/garden-wheelbarrow-step-2.jpg",
+      "step_name": "Shape the working silhouette",
+      "visible_job": "Wraps the construction with the empty tray contour, thick single tire, and two separated wooden handles while preserving the original three-quarter perspective.",
+      "introduces": [
+        "outer tray, single tire, and two handles"
+      ],
+      "requires_prior_elements": [
+        "tray box, wheel guide, and two handle axes"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/garden-wheelbarrow-step-3.jpg",
+      "step_name": "Build the support frame",
+      "visible_job": "Adds the axle frame under the established tray, exactly two planted support legs, two visible cross braces, and four small attachment bolts.",
+      "introduces": [
+        "axle frame, two support legs, two cross braces, and four bolts"
+      ],
+      "requires_prior_elements": [
+        "tray box, wheel guide, and two handle axes",
+        "outer tray, single tire, and two handles"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/garden-wheelbarrow-step-4.jpg",
+      "step_name": "Add the rim and wheel hardware",
+      "visible_job": "Clarifies the doubled tray rim, adds one centered wheel hub with exactly six spokes, and marks restrained tread across the established tire.",
+      "introduces": [
+        "tray rim, wheel hub, six spokes, and tire tread"
+      ],
+      "requires_prior_elements": [
+        "outer tray, single tire, and two handles",
+        "axle frame, two support legs, two cross braces, and four bolts"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/garden-wheelbarrow-step-5.jpg",
+      "step_name": "Show metal, wood, rubber, and ground",
+      "visible_job": "Adds sage-green pencil to the established tray, warm ochre to the handles, graphite tire texture, and one broken cast shadow beneath the wheel and two legs.",
+      "introduces": [
+        "sage tray, ochre handles, tire texture, and ground shadow"
+      ],
+      "requires_prior_elements": [
+        "outer tray, single tire, and two handles",
+        "axle frame, two support legs, two cross braces, and four bolts",
+        "tray rim, wheel hub, six spokes, and tire tread"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Tune the garden-tool finish",
+    "asset": "assets/garden-wheelbarrow-finished-v1.jpg",
+    "visible_job": "Strengthens existing keeper contours, deepens the sage, ochre, tire texture, and cast shadow, and cleans pale guides without adding cargo or new hardware.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "deeper sage-green and warm-ochre colored-pencil accents on existing forms",
+      "restrained graphite shading inside the established tire, tray, and shadow",
+      "cleanup of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Exactly one wheel, two handles, two support legs, two braces, six spokes, and four bolts must persist after their introduction.",
+    "The wheelbarrow must keep the same three-quarter viewpoint, tray angle, scale, and placement in every panel.",
+    "The tray rim, hub, spokes, bolts, material colors, tire texture, and shadow must all appear before the final panel.",
+    "The tray must stay empty; no plant, soil pile, flower, logo, or garden prop may appear late.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must feel like an attainable sketchbook study, not a product rendering or clean vector diagram."
+  ]
+}

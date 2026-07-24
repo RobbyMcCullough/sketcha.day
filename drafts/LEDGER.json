@@ -26,6 +26,9 @@
     "backyard-telescope": {
       "status": "published"
     },
+    "ballet-slippers-with-ribbons": {
+      "status": "published"
+    },
     "baseball-glove-with-ball": {
       "status": "rejected-duplicate",
       "date": "2026-07-08",
@@ -94,6 +97,11 @@
     },
     "garden-watering-can": {
       "status": "published"
+    },
+    "garden-wheelbarrow": {
+      "status": "published",
+      "date": "2026-05-08",
+      "note": "Published from the reviewed July 24 six-panel pencil contact sheet as an honest archive lesson."
     },
     "graceful-swan-on-water": {
       "status": "published",

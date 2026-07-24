@@ -1,0 +1,127 @@
+{
+  "slug": "ballet-slippers-with-ribbons",
+  "finished": "assets/ballet-slippers-with-ribbons-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent pair of ballet pointe shoes with two crossing ribbons from pale construction to a finished graphite and restrained blush-pencil sketch.",
+    "notes": "The same two-shoe arrangement, toe-box angles, shoe overlap, two ribbon paths, warm-paper crop, and scale must persist across all six panels."
+  },
+  "process_strategy": "Reserve both shoe footprints and both ribbon paths in the first frame, build the paired contours and openings around those guides, then add seams, folds, shadow, and blush color before the final cleanup.",
+  "final_elements": [
+    {
+      "name": "two pointe-shoe footprints and center axes",
+      "introduced_by_step": 1,
+      "description": "Exactly two long tapered shoe guides, the left shoe leaning down-left and the right shoe leaning down-right with a small heel overlap."
+    },
+    {
+      "name": "two crossing ribbon paths",
+      "introduced_by_step": 1,
+      "description": "Exactly two pale ribbon routes rising from the inner sides of the shoes, crossing once, and ending in two loose upper curves."
+    },
+    {
+      "name": "outer shoe contours and squared toe boxes",
+      "introduced_by_step": 2,
+      "description": "The two complete slipper silhouettes with gently squared pointe toes, narrow waists, and rounded heels."
+    },
+    {
+      "name": "oval openings, heel edges, and ribbon attachments",
+      "introduced_by_step": 3,
+      "description": "One oval foot opening and heel edge per shoe, plus two clear ribbon attachment points that follow the reserved paths."
+    },
+    {
+      "name": "toe seams, sole edges, and fabric folds",
+      "introduced_by_step": 4,
+      "description": "A curved toe seam on each shoe, simple sole edges, and three restrained fold lines near each toe box."
+    },
+    {
+      "name": "blush-pink fabric accents and graphite ground shadow",
+      "introduced_by_step": 5,
+      "description": "Soft dusty-rose colored-pencil texture inside the established shoe and ribbon shapes, plus one broken graphite shadow beneath the pair."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/ballet-slippers-with-ribbons-step-1.jpg",
+      "step_name": "Map the paired slippers and ribbons",
+      "visible_job": "Places two pale tapered shoe footprints on separate center axes, reserves their small heel overlap, and ghosts exactly two ribbon paths that cross once above them.",
+      "introduces": [
+        "two pointe-shoe footprints and center axes",
+        "two crossing ribbon paths"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/ballet-slippers-with-ribbons-step-2.jpg",
+      "step_name": "Shape the pointe-shoe silhouettes",
+      "visible_job": "Wraps each guide with a tapered outer contour, squared toe box, narrow waist, and rounded heel while keeping the original angles and overlap.",
+      "introduces": [
+        "outer shoe contours and squared toe boxes"
+      ],
+      "requires_prior_elements": [
+        "two pointe-shoe footprints and center axes"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/ballet-slippers-with-ribbons-step-3.jpg",
+      "step_name": "Open the shoes and attach the ribbons",
+      "visible_job": "Adds one oval opening and heel edge to each shoe, then turns the two pale ribbon routes into paired fabric edges attached at the inner sides.",
+      "introduces": [
+        "oval openings, heel edges, and ribbon attachments"
+      ],
+      "requires_prior_elements": [
+        "two pointe-shoe footprints and center axes",
+        "two crossing ribbon paths",
+        "outer shoe contours and squared toe boxes"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/ballet-slippers-with-ribbons-step-4.jpg",
+      "step_name": "Add seams and soft fabric folds",
+      "visible_job": "Draws the two toe seams, visible sole edges, and three short fabric folds at each established toe box without changing the silhouettes.",
+      "introduces": [
+        "toe seams, sole edges, and fabric folds"
+      ],
+      "requires_prior_elements": [
+        "outer shoe contours and squared toe boxes",
+        "oval openings, heel edges, and ribbon attachments"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/ballet-slippers-with-ribbons-step-5.jpg",
+      "step_name": "Lay in blush fabric and shadow",
+      "visible_job": "Pulls dusty-rose pencil strokes along the established shoe and ribbon forms, leaves warm paper highlights, and adds one broken graphite shadow beneath the pair.",
+      "introduces": [
+        "blush-pink fabric accents and graphite ground shadow"
+      ],
+      "requires_prior_elements": [
+        "outer shoe contours and squared toe boxes",
+        "two crossing ribbon paths",
+        "oval openings, heel edges, and ribbon attachments",
+        "toe seams, sole edges, and fabric folds"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Refine the graceful finish",
+    "asset": "assets/ballet-slippers-with-ribbons-finished-v1.jpg",
+    "visible_job": "Strengthens existing keeper contours, deepens the dusty-rose fabric texture and contact shadow, and lifts pale construction without adding new shoe or ribbon structure.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "deeper dusty-rose colored-pencil accents inside established forms",
+      "restrained graphite shading at existing overlaps and ground contact",
+      "cleanup of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Exactly two pointe shoes must remain in the same down-left and down-right arrangement in every panel.",
+    "Exactly two ribbon paths must be reserved in step 1, cross once, and remain attached to the same shoes through the finish.",
+    "Both openings, both toe seams, both sole edges, all fabric folds, the blush color, and the ground shadow must appear before the final panel.",
+    "No finished seam or fabric detail may be drawn underneath the heel overlap or ribbon crossing where it would later disappear.",
+    "No adjacent frame should look unchanged at card size.",
+    "The final image must feel like an attainable sketchbook study, not glossy fashion illustration or vector line art."
+  ]
+}
