@@ -36,6 +36,12 @@
   communication with agent failed`. The reviewed lesson commit remains local;
   authorize 1Password and retry through the same socket without switching
   agents or transports.
+- Deployment follow-up completed at 2026-07-24 10:18 PDT after 1Password was
+  authorized. Lesson commit `469e704` pushed through the required socket;
+  DigitalOcean workflow `30112387210` passed, including IndexNow. Both live
+  tutorials return HTTP 200, the homepage features
+  `ballet-slippers-with-ribbons`, both finished WebP checksums match the
+  reviewed local files, and clean local `main` matches `origin/main`.
 - 2026-07-23 owner-directed correction replaced the current
   `running-track-starting-blocks` lesson with `ant-carrying-a-leaf` (July 23 /
   Day 076). The original subject came from a loose same-day sports inference,
