@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a side profile with a braid</title>
+      <link>https://sketcha.day/tutorials/side-profile-with-braid.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/side-profile-with-braid.html</guid>
+      <pubDate>Sat, 25 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a side profile with a braid using a cranium guide, face plane, forehead-nose-lips-chin contour, neck and shoulders, swept hair, interlocking braid sections, facial landmarks, graphite values, and restrained auburn pencil.</description>
+      <media:content url="https://sketcha.day/assets/side-profile-with-braid-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw ballet slippers with ribbons</title>
       <link>https://sketcha.day/tutorials/ballet-slippers-with-ribbons.html</link>
@@ -630,6 +638,14 @@
       <pubDate>Fri, 08 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a garden wheelbarrow in three-quarter view with a tilted empty tray, one treaded wheel, six spokes, two handles, two support legs, frame braces, mounting bolts, restrained pencil color, and a broken cast shadow.</description>
       <media:content url="https://sketcha.day/assets/garden-wheelbarrow-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a hiking backpack with a rolled blanket</title>
+      <link>https://sketcha.day/tutorials/hiking-backpack-with-rolled-blanket.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/hiking-backpack-with-rolled-blanket.html</guid>
+      <pubDate>Thu, 07 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a hiking backpack with a rolled blanket using a soft three-quarter box, rounded flap, front and side pockets, shoulder strap, buckles, zipper pulls, a strapped blanket cylinder, canvas creases, and restrained pencil color.</description>
+      <media:content url="https://sketcha.day/assets/hiking-backpack-with-rolled-blanket-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

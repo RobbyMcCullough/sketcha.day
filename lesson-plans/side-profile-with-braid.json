@@ -1,0 +1,142 @@
+{
+  "slug": "side-profile-with-braid",
+  "finished": "assets/side-profile-with-braid-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent left-facing side-profile portrait progressing from pale construction to a finished graphite and muted-auburn pencil sketch.",
+    "notes": "The approved process keeps one head-and-shoulders pose, one continuous chain of interlocking braid sections, one hair tie, and one braid tip. No facial feature, braid segment, shoulder contour, or color area first appears in the final panel."
+  },
+  "process_strategy": "Build the cranium, face plane, neck, shoulder line, and braid gesture first; preserve that geometry while adding the profile silhouette, five-loop braid, facial landmarks, hair texture, and restrained value in cumulative stages.",
+  "final_elements": [
+    {
+      "name": "left-facing cranium and face-plane construction",
+      "introduced_by_step": 1,
+      "description": "One pale head oval with brow, nose, mouth, and chin guides establishing the finished left-facing profile."
+    },
+    {
+      "name": "neck and shoulder silhouette",
+      "introduced_by_step": 1,
+      "description": "Two neck lines descending into one relaxed cropped shoulder line."
+    },
+    {
+      "name": "braid gesture and reserved footprint",
+      "introduced_by_step": 1,
+      "description": "One curved rear-hair route ending below the shoulder, reserved before the braid is developed."
+    },
+    {
+      "name": "profile contour and swept hair mass",
+      "introduced_by_step": 2,
+      "description": "The forehead, nose, lips, chin, jaw, skull, and swept-back hair silhouette wrapped around the original guides."
+    },
+    {
+      "name": "ear, hair tie, interlocking braid sections, and braid tip",
+      "introduced_by_step": 3,
+      "description": "One visible ear, one narrow tie, a continuous chain of overlapping braid sections, and one tapered tip following the reserved braid route."
+    },
+    {
+      "name": "light eye line, nostril, lip split, and ear folds",
+      "introduced_by_step": 3,
+      "description": "Light facial landmarks attached to the established profile and ear before the darker feature pass."
+    },
+    {
+      "name": "refined eye, eyebrow, hairline, and large hair groups",
+      "introduced_by_step": 4,
+      "description": "A clearer eye and eyebrow plus the hairline and broad directional hair groups on the existing forms."
+    },
+    {
+      "name": "hair strands, graphite values, auburn pencil, and broken cast shadow",
+      "introduced_by_step": 5,
+      "description": "Directional hair texture, light facial and neck shading, muted auburn pencil in the existing hair and braid, and one soft broken shadow behind the shoulder."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/side-profile-with-braid-step-1.jpg",
+      "step_name": "Place the profile and braid gesture",
+      "visible_job": "Maps the pale cranium oval, face plane, brow-nose-mouth-chin guides, neck, shoulder line, ear position, and one curved braid route.",
+      "introduces": [
+        "left-facing cranium and face-plane construction",
+        "neck and shoulder silhouette",
+        "braid gesture and reserved footprint"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/side-profile-with-braid-step-2.jpg",
+      "step_name": "Shape the profile and hair mass",
+      "visible_job": "Wraps the pale guides with the forehead, nose, lips, chin, jaw, skull, neck, shoulders, and swept-back hair mass while preserving the braid route.",
+      "introduces": [
+        "profile contour and swept hair mass"
+      ],
+      "requires_prior_elements": [
+        "left-facing cranium and face-plane construction",
+        "neck and shoulder silhouette",
+        "braid gesture and reserved footprint"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/side-profile-with-braid-step-3.jpg",
+      "step_name": "Weave the braid structure",
+      "visible_job": "Adds the visible ear, ponytail base, one hair tie, a continuous chain of overlapping braid sections, one tapered tip, and light facial landmarks along the established construction.",
+      "introduces": [
+        "ear, hair tie, interlocking braid sections, and braid tip",
+        "light eye line, nostril, lip split, and ear folds"
+      ],
+      "requires_prior_elements": [
+        "braid gesture and reserved footprint",
+        "profile contour and swept hair mass"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/side-profile-with-braid-step-4.jpg",
+      "step_name": "Set the facial landmarks",
+      "visible_job": "Clarifies the existing facial landmarks, then adds the eyebrow, hairline, and a few large directional hair groups on the established forms.",
+      "introduces": [
+        "refined eye, eyebrow, hairline, and large hair groups"
+      ],
+      "requires_prior_elements": [
+        "profile contour and swept hair mass",
+        "ear, hair tie, interlocking braid sections, and braid tip",
+        "light eye line, nostril, lip split, and ear folds"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/side-profile-with-braid-step-5.jpg",
+      "step_name": "Add hair texture and quiet value",
+      "visible_job": "Adds directional hair strands, graphite planes on the face and neck, muted auburn pencil in the existing hair and braid, and one broken shoulder shadow.",
+      "introduces": [
+        "hair strands, graphite values, auburn pencil, and broken cast shadow"
+      ],
+      "requires_prior_elements": [
+        "neck and shoulder silhouette",
+        "profile contour and swept hair mass",
+        "ear, hair tie, interlocking braid sections, and braid tip",
+        "light eye line, nostril, lip split, and ear folds",
+        "refined eye, eyebrow, hairline, and large hair groups"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Refine the braided portrait",
+    "asset": "assets/side-profile-with-braid-finished-v1.jpg",
+    "visible_job": "Only strengthens the established keeper contours, braid overlaps, facial landmarks, hair texture, restrained auburn color, graphite values, paper highlights, and broken shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "small proportion clarifications within existing guides",
+      "restrained graphite value strengthening",
+      "muted auburn pencil strengthening",
+      "selective eraser highlights",
+      "minor edge cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "The head, nose, lips, chin, neck, shoulder crop, and braid route must stay in the same pose and scale in all six panels.",
+    "One continuous chain of interlocking braid sections, one hair tie, and one tapered braid tip must appear before the final panel and persist through the finish.",
+    "No eye, eyebrow, nostril, lip split, ear fold, hair mass, shoulder, shadow, or auburn color area may first appear in the final panel.",
+    "No adjacent frame may look unchanged at card size, and the finish must remain a believable 15-30 minute handmade sketch rather than polished portrait art."
+  ]
+}

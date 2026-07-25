@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-24
+- Date: 2026-07-25
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-23 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-24 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,29 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-25 daily automation added current `side-profile-with-braid`
+  (July 25 / Day 080) and honest archive
+  `hiking-backpack-with-rolled-blanket` (May 7 / Day 001). Both use reviewed
+  six-panel handmade raster pencil contact sheets, cropped JPG masters, WebP
+  derivatives, social cards, and explicit process plans. The portrait keeps
+  one calm left-facing profile and a coherent long-braid rhythm from guides
+  through finish; the pack keeps its three-quarter box, rolled blanket,
+  pockets, one visible shoulder strap, bands, and hardware stable. Finished
+  image ratings: portrait 9.3/10 for its immediate profile readability,
+  graceful braid rhythm, tactile pencil texture, and balanced difficulty;
+  backpack 9.5/10 for its convincing perspective, canvas/wool contrast,
+  coherent cumulative sequence, and attainable detail.
+- July 25 readiness passed for both lessons: ledger, process-plan,
+  frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset,
+  day-sequence, lab-privacy, and diff checks. Direct Cove desktop/mobile QA at
+  1440x1000 and 390x844 passed for the homepage, library, and both tutorials:
+  no horizontal overflow, clipped H1s, broken visible images, invalid JSON-LD,
+  console errors, or public lab links. The temporary two-tutorial-per-site
+  backfill cadence remains active.
+- The reviewed July 25 lesson commit is local only. Its required
+  1Password-backed push stopped at `sign_and_send_pubkey: ... communication
+  with agent failed`; authorize 1Password and retry through the same socket
+  without switching agents or transports.
 - 2026-07-24 daily automation added current `ballet-slippers-with-ribbons`
   (July 24 / Day 078) and honest archive `garden-wheelbarrow` (May 8 /
   Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,

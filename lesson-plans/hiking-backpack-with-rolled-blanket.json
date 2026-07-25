@@ -1,0 +1,125 @@
+{
+  "slug": "hiking-backpack-with-rolled-blanket",
+  "finished": "assets/hiking-backpack-with-rolled-blanket-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent three-quarter hiking backpack progressing from pale box-and-cylinder construction to a finished graphite and restrained colored-pencil sketch.",
+    "notes": "The rolled blanket footprint is reserved in the first frame so the lower pack and straps are not rendered only to be hidden later. The same pack, blanket, pockets, visible shoulder strap, retaining straps, and hardware persist through the sequence."
+  },
+  "process_strategy": "Build the backpack around one soft box and one horizontal blanket cylinder, then preserve those proportions while adding the flap, pockets, shoulder straps, retaining straps, hardware, material texture, restrained color, and shadow in cumulative stages.",
+  "final_elements": [
+    {
+      "name": "three-quarter pack box and center axis",
+      "introduced_by_step": 1,
+      "description": "One upright soft-sided backpack construction with a readable front plane, narrow side plane, and rounded top."
+    },
+    {
+      "name": "top flap, visible shoulder-strap route, and blanket reserve",
+      "introduced_by_step": 1,
+      "description": "A pale top flap wedge, one broad shoulder-strap route peeking behind the pack, and one horizontal cylinder reserved across the lower front."
+    },
+    {
+      "name": "pack silhouette and rolled blanket cylinder",
+      "introduced_by_step": 2,
+      "description": "The rounded bag body, top flap, base, and one rolled blanket with a visible end ellipse wrapped around the construction."
+    },
+    {
+      "name": "front pocket, two side pockets, one visible shoulder strap, and two blanket straps",
+      "introduced_by_step": 3,
+      "description": "One large front pocket, two asymmetric side pockets, one broad shoulder strap visible behind the bag, and two narrow bands securing the blanket."
+    },
+    {
+      "name": "handle loop, flap buckles, pocket seams, zipper pulls, and blanket spiral",
+      "introduced_by_step": 4,
+      "description": "One top handle, two flap buckles, pocket seams, two small zipper pulls, and the spiral end of the rolled blanket."
+    },
+    {
+      "name": "canvas creases, olive pencil, rust blanket color, and cast shadow",
+      "introduced_by_step": 5,
+      "description": "Restrained fabric wrinkles, muted olive pencil on the bag, rust and ochre pencil on the blanket, paper highlights, and one broken graphite cast shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/hiking-backpack-with-rolled-blanket-step-1.jpg",
+      "step_name": "Block the pack and blanket",
+      "visible_job": "Places the pale three-quarter pack box, center axis, rounded top, flap wedge, visible shoulder-strap route, and the full horizontal blanket-cylinder reserve.",
+      "introduces": [
+        "three-quarter pack box and center axis",
+        "top flap, visible shoulder-strap route, and blanket reserve"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/hiking-backpack-with-rolled-blanket-step-2.jpg",
+      "step_name": "Shape the pack silhouette",
+      "visible_job": "Wraps the construction with the soft bag body, rounded top flap, base, and one rolled blanket cylinder with a visible end ellipse.",
+      "introduces": [
+        "pack silhouette and rolled blanket cylinder"
+      ],
+      "requires_prior_elements": [
+        "three-quarter pack box and center axis",
+        "top flap, visible shoulder-strap route, and blanket reserve"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/hiking-backpack-with-rolled-blanket-step-3.jpg",
+      "step_name": "Attach pockets and straps",
+      "visible_job": "Adds one front pocket, two side pockets, one broad shoulder strap behind the bag, and exactly two retaining straps over the established blanket.",
+      "introduces": [
+        "front pocket, two side pockets, one visible shoulder strap, and two blanket straps"
+      ],
+      "requires_prior_elements": [
+        "pack silhouette and rolled blanket cylinder"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/hiking-backpack-with-rolled-blanket-step-4.jpg",
+      "step_name": "Add the trail hardware",
+      "visible_job": "Adds one top handle, two flap buckles, pocket seams, two zipper pulls, and the blanket-end spiral to the established forms.",
+      "introduces": [
+        "handle loop, flap buckles, pocket seams, zipper pulls, and blanket spiral"
+      ],
+      "requires_prior_elements": [
+        "pack silhouette and rolled blanket cylinder",
+        "front pocket, two side pockets, one visible shoulder strap, and two blanket straps"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/hiking-backpack-with-rolled-blanket-step-5.jpg",
+      "step_name": "Show canvas, wool, and weight",
+      "visible_job": "Adds restrained fabric creases, muted olive pencil to the existing pack, rust and ochre pencil to the existing blanket, paper highlights, and one broken cast shadow.",
+      "introduces": [
+        "canvas creases, olive pencil, rust blanket color, and cast shadow"
+      ],
+      "requires_prior_elements": [
+        "pack silhouette and rolled blanket cylinder",
+        "front pocket, two side pockets, one visible shoulder strap, and two blanket straps",
+        "handle loop, flap buckles, pocket seams, zipper pulls, and blanket spiral"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Tighten the trail-ready finish",
+    "asset": "assets/hiking-backpack-with-rolled-blanket-finished-v1.jpg",
+    "visible_job": "Only strengthens the established keeper contours, pocket and strap overlaps, hardware, canvas creases, blanket texture, restrained colors, highlights, and cast shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "small perspective clarifications within existing guides",
+      "restrained graphite shading",
+      "muted olive, rust, and ochre pencil strengthening",
+      "selective paper highlights",
+      "minor edge cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "The same backpack, three-quarter angle, scale, crop, blanket cylinder, pockets, and strap routes must persist in all six panels.",
+    "The blanket footprint must be reserved before the lower pack is detailed, and hidden bag lines must stop at the opaque blanket.",
+    "The front pocket, both side pockets, visible shoulder strap, two blanket straps, handle, hardware, color areas, and shadow must all appear before the final panel.",
+    "No adjacent frame may look unchanged at card size, and the finished pack must remain a believable 15-30 minute handmade sketch."
+  ]
+}
