@@ -32,10 +32,12 @@
   no horizontal overflow, clipped H1s, broken visible images, invalid JSON-LD,
   console errors, or public lab links. The temporary two-tutorial-per-site
   backfill cadence remains active.
-- The reviewed July 25 lesson commit is local only. Its required
-  1Password-backed push stopped at `sign_and_send_pubkey: ... communication
-  with agent failed`; authorize 1Password and retry through the same socket
-  without switching agents or transports.
+- Deployment follow-up completed at 2026-07-25 11:23 PDT after 1Password was
+  authorized. Lesson commit `d69e2c6` pushed through the required socket;
+  DigitalOcean workflow `30169478530` passed, including IndexNow. Both live
+  tutorials return HTTP 200, the homepage features `side-profile-with-braid`,
+  both finished WebP checksums match the reviewed local files, and clean local
+  `main` matches `origin/main`.
 - 2026-07-24 daily automation added current `ballet-slippers-with-ribbons`
   (July 24 / Day 078) and honest archive `garden-wheelbarrow` (May 8 /
   Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,
