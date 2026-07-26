@@ -33,10 +33,12 @@
   tutorials had no horizontal overflow, clipped H1s, broken loaded images,
   missing alt text, invalid JSON-LD, console errors, or public lab links. The
   temporary two-tutorial-per-site backfill cadence remains active.
-- The required 1Password-backed push stopped at `sign_and_send_pubkey: ...
-  communication with agent failed`. The reviewed July 26 lesson commit remains
-  local; authorize 1Password and retry through the same socket without
-  switching agents or transports.
+- Publication follow-up completed at 2026-07-26 08:59 PDT after 1Password was
+  authorized. Lesson commit `1830ac6` pushed through the required socket;
+  DigitalOcean workflow `30209307499` passed, including IndexNow. Both live
+  tutorials return HTTP 200, the homepage features
+  `woolly-sheep-with-bell`, both finished WebP checksums match the reviewed
+  local files, and clean local `main` matches `origin/main`.
 - 2026-07-25 daily automation added current `side-profile-with-braid`
   (July 25 / Day 080) and honest archive
   `hiking-backpack-with-rolled-blanket` (May 7 / Day 001). Both use reviewed
