@@ -1,0 +1,125 @@
+{
+  "slug": "woolly-sheep-with-bell",
+  "finished": "assets/woolly-sheep-with-bell-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent right-facing woolly sheep progressing from pale construction to a finished graphite and restrained colored-pencil sketch.",
+    "notes": "The process must keep one side-view sheep with one rounded fleece body, one dark face, two ears, exactly four legs, one small tail, one collar, and one bell. No horn, extra leg, background animal, or final-only feature is allowed."
+  },
+  "process_strategy": "Lock the sheep to one right-facing side view, establish the fleece envelope, head, four leg routes, tail, collar, and bell footprint early, then add wool rhythm, facial landmarks, grass, graphite value, and restrained color only on those established forms.",
+  "final_elements": [
+    {
+      "name": "right-facing fleece, head, leg, and ground construction",
+      "introduced_by_step": 1,
+      "description": "One large body oval with a scalloped-fleece envelope, a smaller lowered head wedge, exactly four leg axes, and one short ground line."
+    },
+    {
+      "name": "tail, ear, collar, and bell guides",
+      "introduced_by_step": 1,
+      "description": "One small rear tail, two ear routes, a neck collar line, and one reserved bell shape beneath the throat."
+    },
+    {
+      "name": "complete sheep silhouette",
+      "introduced_by_step": 2,
+      "description": "The woolly body, dark face, two ears, four separated legs with hooves, small tail, collar, and bell wrapped around the pale guides."
+    },
+    {
+      "name": "eye, nostril, mouth, hoof splits, and bell clapper",
+      "introduced_by_step": 3,
+      "description": "One calm visible eye, one nostril, a short mouth line, four simple hoof splits, and one small clapper inside the established bell."
+    },
+    {
+      "name": "fleece curls, ear folds, collar buckle, and grass tufts",
+      "introduced_by_step": 4,
+      "description": "Grouped scalloped fleece marks, light ear folds, one collar buckle, and three small grass tufts around the existing ground line."
+    },
+    {
+      "name": "graphite values, restrained pencil color, and soft shadow",
+      "introduced_by_step": 5,
+      "description": "Soft graphite on the face and legs, warm-gray fleece shading, muted brass on the bell, dusty green grass, and one broken cast shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/woolly-sheep-with-bell-step-1.jpg",
+      "step_name": "Place the sheep's woolly frame",
+      "visible_job": "Maps the body oval, scalloped fleece envelope, lowered head wedge, two ear routes, four leg axes, tail, collar, bell footprint, and short ground line in pale construction.",
+      "introduces": [
+        "right-facing fleece, head, leg, and ground construction",
+        "tail, ear, collar, and bell guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/woolly-sheep-with-bell-step-2.jpg",
+      "step_name": "Shape the sheep silhouette",
+      "visible_job": "Wraps the guides with the woolly body, dark face, two ears, exactly four separated legs and hooves, one small tail, collar, and bell.",
+      "introduces": [
+        "complete sheep silhouette"
+      ],
+      "requires_prior_elements": [
+        "right-facing fleece, head, leg, and ground construction",
+        "tail, ear, collar, and bell guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/woolly-sheep-with-bell-step-3.jpg",
+      "step_name": "Set the face and hooves",
+      "visible_job": "Adds the calm eye, nostril, mouth, four hoof splits, and bell clapper to the existing silhouette while clarifying the leg overlaps.",
+      "introduces": [
+        "eye, nostril, mouth, hoof splits, and bell clapper"
+      ],
+      "requires_prior_elements": [
+        "complete sheep silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/woolly-sheep-with-bell-step-4.jpg",
+      "step_name": "Build the fleece rhythm",
+      "visible_job": "Adds grouped fleece curls, inner-ear folds, one collar buckle, and three grass tufts around the established sheep and ground line.",
+      "introduces": [
+        "fleece curls, ear folds, collar buckle, and grass tufts"
+      ],
+      "requires_prior_elements": [
+        "complete sheep silhouette",
+        "eye, nostril, mouth, hoof splits, and bell clapper"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/woolly-sheep-with-bell-step-5.jpg",
+      "step_name": "Add soft value and color",
+      "visible_job": "Adds graphite to the existing face and legs, warm-gray fleece shading, muted brass on the bell, dusty green grass, and one broken cast shadow.",
+      "introduces": [
+        "graphite values, restrained pencil color, and soft shadow"
+      ],
+      "requires_prior_elements": [
+        "complete sheep silhouette",
+        "eye, nostril, mouth, hoof splits, and bell clapper",
+        "fleece curls, ear folds, collar buckle, and grass tufts"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Soften the woolly finish",
+    "asset": "assets/woolly-sheep-with-bell-finished-v1.jpg",
+    "visible_job": "Only strengthens the established keeper contours, fleece rhythm, facial landmarks, hooves, collar, bell, restrained pencil color, graphite values, paper highlights, and broken shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "small overlap clarifications within existing guides",
+      "restrained graphite value strengthening",
+      "muted colored-pencil strengthening",
+      "selective eraser highlights",
+      "minor edge cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "The same right-facing sheep, scale, body proportions, head angle, and ground placement must persist in all six panels.",
+    "Exactly four legs, two ears, one tail, one collar, and one bell must appear before the final panel and persist through the finish.",
+    "No horn, extra leg, missing hoof, new facial feature, grass tuft, shadow, or color area may first appear in the final panel.",
+    "No adjacent frame may look unchanged at card size, and the finish must remain a believable 15-30 minute handmade sketch rather than polished animal illustration."
+  ]
+}

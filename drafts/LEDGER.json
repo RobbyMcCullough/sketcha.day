@@ -264,6 +264,11 @@
     "vintage-key-on-a-tag": {
       "status": "published"
     },
+    "vintage-microscope": {
+      "status": "published",
+      "date": "2026-07-26",
+      "note": "Reviewed six-panel microscope process promoted as the honest May 6 archive lesson after crop, two-objective and hardware continuity review, process-plan, delivery-image, JSON-LD, link, and step-delta checks."
+    },
     "vintage-roller-skate": {
       "status": "published"
     },
@@ -294,6 +299,11 @@
       "status": "published",
       "date": "2026-07-17",
       "note": "Reviewed six-panel rocking-horse process promoted as the May 15 archive lesson after crop, anatomy, continuity, process-plan, delivery-image, and page checks."
+    },
+    "woolly-sheep-with-bell": {
+      "status": "published",
+      "date": "2026-07-26",
+      "note": "Reviewed six-panel sheep process promoted as the July 26 current lesson after crop, exact four-leg and bell continuity review, process-plan, delivery-image, JSON-LD, link, and step-delta checks."
     }
   }
 }

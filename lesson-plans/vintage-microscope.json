@@ -1,0 +1,118 @@
+{
+  "slug": "vintage-microscope",
+  "finished": "assets/vintage-microscope-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent vintage brass microscope progressing from pale construction to a finished graphite and restrained colored-pencil sketch.",
+    "notes": "The process must keep one left-facing three-quarter microscope with one eyepiece, one angled barrel, one revolving nosepiece, two objective lenses, one stage, one curved arm, one large focus knob, one round mirror, and one horseshoe base. No slide specimen, extra objective, modern binocular head, text, or final-only hardware is allowed."
+  },
+  "process_strategy": "Lock the microscope to one tilted center axis and reserve the stage, mirror, and horseshoe base footprints first; preserve that geometry while adding the optical tube, two objectives, arm, knobs, clips, joints, material texture, and restrained brass color in cumulative stages.",
+  "final_elements": [
+    {
+      "name": "tilted optical axis, stage, arm, mirror, and base construction",
+      "introduced_by_step": 1,
+      "description": "One pale diagonal tube axis with barrel envelope, stage rectangle, curved arm route, circular mirror guide, upright support, and horseshoe base footprint."
+    },
+    {
+      "name": "complete vintage microscope silhouette",
+      "introduced_by_step": 2,
+      "description": "One eyepiece, angled barrel, revolving nosepiece, exactly two objective lenses, stage, curved arm, mirror support, upright hinge, and broad horseshoe base wrapped around the guides."
+    },
+    {
+      "name": "focus knob, stage clips, mirror rim, and hinge hardware",
+      "introduced_by_step": 3,
+      "description": "One large ribbed focus knob, two simple stage clips, one round mirror rim, pivot joints, and the inner opening of the horseshoe base."
+    },
+    {
+      "name": "tube bands, objective collars, screws, and material seams",
+      "introduced_by_step": 4,
+      "description": "Simple barrel bands, collars on both objective lenses, a few attachment screws, stage thickness, and broad metal-and-painted-base seam lines."
+    },
+    {
+      "name": "graphite values, muted brass and steel color, and cast shadow",
+      "introduced_by_step": 5,
+      "description": "Soft graphite structure, muted brass on the optical tube and knobs, blue-gray steel on the stage and mirror, charcoal-green base color, paper highlights, and one broken cast shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/vintage-microscope-step-1.jpg",
+      "step_name": "Set the microscope's lean",
+      "visible_job": "Maps the tilted optical axis, barrel envelope, stage rectangle, curved arm route, mirror circle, upright support, and horseshoe base footprint in pale construction.",
+      "introduces": [
+        "tilted optical axis, stage, arm, mirror, and base construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/vintage-microscope-step-2.jpg",
+      "step_name": "Build the instrument silhouette",
+      "visible_job": "Wraps the guides with one eyepiece, angled barrel, revolving nosepiece, exactly two objective lenses, stage, curved arm, mirror support, hinge upright, and horseshoe base.",
+      "introduces": [
+        "complete vintage microscope silhouette"
+      ],
+      "requires_prior_elements": [
+        "tilted optical axis, stage, arm, mirror, and base construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/vintage-microscope-step-3.jpg",
+      "step_name": "Attach the working hardware",
+      "visible_job": "Adds one large ribbed focus knob, two stage clips, the mirror rim, pivot joints, and the inner opening of the established horseshoe base.",
+      "introduces": [
+        "focus knob, stage clips, mirror rim, and hinge hardware"
+      ],
+      "requires_prior_elements": [
+        "complete vintage microscope silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/vintage-microscope-step-4.jpg",
+      "step_name": "Separate the metal parts",
+      "visible_job": "Adds barrel bands, collars on both objectives, a few attachment screws, stage thickness, and broad material seam lines to the existing instrument.",
+      "introduces": [
+        "tube bands, objective collars, screws, and material seams"
+      ],
+      "requires_prior_elements": [
+        "complete vintage microscope silhouette",
+        "focus knob, stage clips, mirror rim, and hinge hardware"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/vintage-microscope-step-5.jpg",
+      "step_name": "Show brass, steel, and weight",
+      "visible_job": "Adds soft graphite structure, muted brass to the tube and knobs, blue-gray steel to the stage and mirror, charcoal-green to the base, paper highlights, and one broken cast shadow.",
+      "introduces": [
+        "graphite values, muted brass and steel color, and cast shadow"
+      ],
+      "requires_prior_elements": [
+        "complete vintage microscope silhouette",
+        "focus knob, stage clips, mirror rim, and hinge hardware",
+        "tube bands, objective collars, screws, and material seams"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Focus the vintage finish",
+    "asset": "assets/vintage-microscope-finished-v1.jpg",
+    "visible_job": "Only strengthens the established keeper contours, optical tube, two objectives, stage, curved arm, focus knob, mirror, hinge, horseshoe base, material seams, restrained colors, paper highlights, and broken shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "small hardware clarifications within existing guides",
+      "restrained graphite value strengthening",
+      "muted brass and steel pencil strengthening",
+      "selective eraser highlights",
+      "minor edge cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "The same left-facing three-quarter microscope, tilted axis, scale, stage angle, mirror position, and base perspective must persist in all six panels.",
+    "One eyepiece, one barrel, exactly two objectives, one stage, one curved arm, one large focus knob, one mirror, and one horseshoe base must appear before the final panel and persist.",
+    "No slide specimen, modern binocular head, extra objective, label, screw, seam, shadow, or color area may first appear in the final panel.",
+    "No adjacent frame may look unchanged at card size, and the finish must remain a believable 20-30 minute handmade sketch rather than polished product illustration."
+  ]
+}
