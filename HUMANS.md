@@ -28,6 +28,14 @@
   covered the homepage, library, and tutorial with no horizontal overflow,
   broken loaded images, invalid JSON-LD, console errors, or public lab links.
   The temporary two-tutorial-per-site backfill cadence remains active.
+- Local lesson commit `08a74fd` is complete. The required 1Password-backed
+  push stopped at 2026-07-27 10:46 PDT with
+  `sign_and_send_pubkey: ... communication with agent failed`; no fallback
+  agent or transport was used, no deployment began, and local `main` remains
+  ahead of `origin/main` by the lesson commit plus this continuity note. After
+  authorizing 1Password, retry
+  the documented socket-backed push and then verify the workflow, live URL,
+  library card, finished-WebP checksum, and branch alignment.
 - 2026-07-27 daily automation added current `horse-head-with-flowing-mane`
   (July 27 / Day 084) and honest archive `folding-hand-fan` (May 5 /
   Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,
