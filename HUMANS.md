@@ -33,11 +33,12 @@
   tutorials had no horizontal overflow, clipped H1s, broken loaded images,
   invalid JSON-LD, console errors, or public lab links. The temporary
   two-tutorial-per-site backfill cadence remains active.
-- Lesson commit `0e2f27c` is local and validated. The required
-  1Password-backed push did not advance `origin/main`; the sibling-site
-  attempt then returned `agent refused operation`. No alternate agent or
-  transport was used. Authorize 1Password and retry through the required
-  socket; deployment and live checksum proof remain pending.
+- Publication follow-up completed at 2026-07-27 09:45 PDT after 1Password was
+  authorized. Lesson commit `0e2f27c` and continuity commit `289db99` pushed
+  through the required socket; DigitalOcean workflow `30286075383` passed,
+  including IndexNow. Both live tutorials return HTTP 200, the homepage
+  features `horse-head-with-flowing-mane`, both finished WebP checksums match
+  the reviewed local files, and local `main` matches `origin/main`.
 - 2026-07-26 daily automation added current `woolly-sheep-with-bell`
   (July 26 / Day 082) and honest archive `vintage-microscope` (May 6 /
   Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,
