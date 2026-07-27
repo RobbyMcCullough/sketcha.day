@@ -1,0 +1,115 @@
+{
+  "slug": "horse-head-with-flowing-mane",
+  "finished": "assets/horse-head-with-flowing-mane-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel built-in image-generation contact sheet reviewed as one cumulative pencil process before cropping.",
+    "notes": "The live US past-day Rising query 'how to draw a horse easy' was Breakout on 2026-07-27. The sheet must keep one calm near-front horse head, one left-swept mane, two ears, two eyes, two nostrils, and one long muzzle stable; no rider, tack, body, landscape, text, or final-only anatomy."
+  },
+  "process_strategy": "Lock the horse to one centered head axis and muzzle wedge, wrap the same guides with the complete head-and-neck silhouette, establish facial landmarks and every mane group, then add restrained graphite and chestnut pencil only to shapes already present.",
+  "final_elements": [
+    {
+      "name": "center axis, cranium oval, muzzle wedge, neck curves, ear guides, and left mane reserve",
+      "introduced_by_step": 1,
+      "description": "Pale construction fixes one near-front head, the long muzzle taper, both ears, the neck opening, and the space reserved for a mane swept to the viewer's left."
+    },
+    {
+      "name": "complete horse head, muzzle, two ears, neck, and mane silhouette",
+      "introduced_by_step": 2,
+      "description": "One readable horse-head contour wraps the construction while keeping the two ear tips and swept mane footprint."
+    },
+    {
+      "name": "two almond eyes, two nostrils, mouth seam, jaw planes, and ear interiors",
+      "introduced_by_step": 3,
+      "description": "Paired facial landmarks sit symmetrically around the center axis without turning into glossy cartoon features."
+    },
+    {
+      "name": "forelock and four broad flowing mane groups",
+      "introduced_by_step": 4,
+      "description": "A small forelock and exactly four large, drawable mane locks follow the reserved left-side flow."
+    },
+    {
+      "name": "graphite values, dark mane masses, restrained chestnut pencil, paper highlights, and broken cast shadow",
+      "introduced_by_step": 5,
+      "description": "Visible handmade shading and restrained warm color clarify the already established head planes, mane, and neck."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/horse-head-with-flowing-mane-step-1.jpg",
+      "step_name": "Set the head axis",
+      "visible_job": "Places the center axis, cranium oval, tapered muzzle wedge, neck curves, two ear guides, and the left-side mane reserve at one fixed scale.",
+      "introduces": [
+        "center axis, cranium oval, muzzle wedge, neck curves, ear guides, and left mane reserve"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/horse-head-with-flowing-mane-step-2.jpg",
+      "step_name": "Wrap the horse silhouette",
+      "visible_job": "Wraps the pale guides with the complete forehead, cheeks, long muzzle, two ears, neck, and left-swept mane silhouette.",
+      "introduces": [
+        "complete horse head, muzzle, two ears, neck, and mane silhouette"
+      ],
+      "requires_prior_elements": [
+        "center axis, cranium oval, muzzle wedge, neck curves, ear guides, and left mane reserve"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/horse-head-with-flowing-mane-step-3.jpg",
+      "step_name": "Place the horse's features",
+      "visible_job": "Adds two almond eyes, two nostrils, the mouth seam, jaw planes, and both ear interiors to the existing head.",
+      "introduces": [
+        "two almond eyes, two nostrils, mouth seam, jaw planes, and ear interiors"
+      ],
+      "requires_prior_elements": [
+        "complete horse head, muzzle, two ears, neck, and mane silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/horse-head-with-flowing-mane-step-4.jpg",
+      "step_name": "Sweep the mane into groups",
+      "visible_job": "Divides the reserved mane into one forelock and exactly four broad flowing locks without changing the head silhouette.",
+      "introduces": [
+        "forelock and four broad flowing mane groups"
+      ],
+      "requires_prior_elements": [
+        "complete horse head, muzzle, two ears, neck, and mane silhouette"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/horse-head-with-flowing-mane-step-5.jpg",
+      "step_name": "Model the planes and color",
+      "visible_job": "Adds graphite values, dark mane masses, restrained chestnut pencil, paper highlights, and a broken shadow to established forms.",
+      "introduces": [
+        "graphite values, dark mane masses, restrained chestnut pencil, paper highlights, and broken cast shadow"
+      ],
+      "requires_prior_elements": [
+        "complete horse head, muzzle, two ears, neck, and mane silhouette",
+        "two almond eyes, two nostrils, mouth seam, jaw planes, and ear interiors",
+        "forelock and four broad flowing mane groups"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Settle the flowing finish",
+    "asset": "assets/horse-head-with-flowing-mane-finished-v1.jpg",
+    "visible_job": "Only strengthens the established keeper contours, facial landmarks, four mane groups, graphite planes, chestnut pencil, paper highlights, and broken shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "graphite value deepening on established planes",
+      "restrained chestnut pencil strengthening",
+      "minor paper-highlight and shadow-edge clarification"
+    ]
+  },
+  "rejection_checks": [
+    "No ear, eye, nostril, mouth seam, jaw plane, forelock, mane group, color area, highlight, or shadow may first appear in the final panel.",
+    "The head axis, near-front viewpoint, muzzle length, two ears, neck crop, and left-swept mane must remain stable in every panel.",
+    "Reject photographic anatomy, glossy eyes, individual rendered hairs, extra mane locks after step four, tack, a rider, a body, scenery, text, decorative borders, or vector-like linework.",
+    "Every dark pre-final contour must survive in the finish unless it is explicitly a pale erasable construction guide."
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "folding-hand-fan",
+  "finished": "assets/folding-hand-fan-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel built-in image-generation contact sheet reviewed as one cumulative graphite and colored-pencil process before cropping.",
+    "notes": "Honest 2026-05-05 archive lesson. Keep one open folding hand fan at one near-front angle with one pivot, two guard ribs, five inner ribs, one pleated leaf, one cord loop, and one tassel; no person, hand, text, logos, scenery, or final-only decoration."
+  },
+  "process_strategy": "Lock the fan around one low pivot and seven fixed radial ribs, wrap the same geometry with a pleated leaf and guard handles, establish the cord and tassel, then add graphite values and restrained alternating color only inside shapes already drawn.",
+  "final_elements": [
+    {
+      "name": "low pivot, top arc, two outside rays, and seven radial rib guides",
+      "introduced_by_step": 1,
+      "description": "Pale construction fixes one open fan spread with exactly two outside guards and five evenly spaced inner ribs."
+    },
+    {
+      "name": "complete pleated fan leaf, two wooden guard handles, five inner ribs, and pivot cap",
+      "introduced_by_step": 2,
+      "description": "A broad scalloped fan leaf wraps the fixed rib geometry while the two guard handles extend below the pivot."
+    },
+    {
+      "name": "six fold channels, lower leaf edge, and simple rib joints",
+      "introduced_by_step": 3,
+      "description": "Clear fold valleys separate the leaf panels and connect them to the established pivot structure."
+    },
+    {
+      "name": "one cord loop and one tapered tassel",
+      "introduced_by_step": 4,
+      "description": "A single cord exits the pivot and ends in one compact tassel beside the right guard handle."
+    },
+    {
+      "name": "graphite fold values, warm wood pencil, alternating indigo and terracotta leaf color, paper highlights, and broken cast shadow",
+      "introduced_by_step": 5,
+      "description": "Restrained colored pencil separates the existing leaf panels, ribs, handles, tassel, and shadow while preserving visible paper tooth."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/folding-hand-fan-step-1.jpg",
+      "step_name": "Open the fan geometry",
+      "visible_job": "Places the low pivot, top arc, two outside rays, and exactly seven radial rib guides at one fixed angle and scale.",
+      "introduces": [
+        "low pivot, top arc, two outside rays, and seven radial rib guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/folding-hand-fan-step-2.jpg",
+      "step_name": "Wrap the leaf and handles",
+      "visible_job": "Wraps the guides with the complete pleated leaf, two wooden guard handles, five inner ribs, and one pivot cap.",
+      "introduces": [
+        "complete pleated fan leaf, two wooden guard handles, five inner ribs, and pivot cap"
+      ],
+      "requires_prior_elements": [
+        "low pivot, top arc, two outside rays, and seven radial rib guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/folding-hand-fan-step-3.jpg",
+      "step_name": "Fold the fan panels",
+      "visible_job": "Adds six fold channels, the lower leaf edge, and simple rib joints without changing the outer fan spread.",
+      "introduces": [
+        "six fold channels, lower leaf edge, and simple rib joints"
+      ],
+      "requires_prior_elements": [
+        "complete pleated fan leaf, two wooden guard handles, five inner ribs, and pivot cap"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/folding-hand-fan-step-4.jpg",
+      "step_name": "Hang the tassel",
+      "visible_job": "Adds one cord loop and one tapered tassel beside the existing right guard handle.",
+      "introduces": [
+        "one cord loop and one tapered tassel"
+      ],
+      "requires_prior_elements": [
+        "complete pleated fan leaf, two wooden guard handles, five inner ribs, and pivot cap"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/folding-hand-fan-step-5.jpg",
+      "step_name": "Shade the folds and color",
+      "visible_job": "Adds graphite fold values, warm wood pencil, alternating indigo and terracotta color, paper highlights, and one broken cast shadow to established shapes.",
+      "introduces": [
+        "graphite fold values, warm wood pencil, alternating indigo and terracotta leaf color, paper highlights, and broken cast shadow"
+      ],
+      "requires_prior_elements": [
+        "complete pleated fan leaf, two wooden guard handles, five inner ribs, and pivot cap",
+        "six fold channels, lower leaf edge, and simple rib joints",
+        "one cord loop and one tapered tassel"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Set the fan's final rhythm",
+    "asset": "assets/folding-hand-fan-finished-v1.jpg",
+    "visible_job": "Only strengthens the established guards, five inner ribs, six folds, pivot, cord, tassel, restrained colors, highlights, and broken shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "graphite fold-value deepening",
+      "restrained colored-pencil strengthening",
+      "minor paper-highlight and shadow-edge clarification"
+    ]
+  },
+  "rejection_checks": [
+    "No rib, fold, handle, pivot part, cord, tassel, color area, highlight, or shadow may first appear in the final panel.",
+    "Exactly seven ribs must radiate from the same pivot with the same fan spread, angle, scale, and crop in every panel.",
+    "Reject hands, people, faces, lettering, logos, floral scenes, extra tassels, decorative borders, glossy illustration, vector-like symmetry, or finished detail hidden beneath the tassel.",
+    "Every dark pre-final line must survive in the finish unless it is explicitly a pale erasable construction guide."
+  ]
+}

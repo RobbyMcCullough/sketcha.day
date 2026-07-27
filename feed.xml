@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a horse head with a flowing mane</title>
+      <link>https://sketcha.day/tutorials/horse-head-with-flowing-mane.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/horse-head-with-flowing-mane.html</guid>
+      <pubDate>Mon, 27 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a horse head with a flowing mane using a center axis, cranium oval, tapered muzzle, paired facial landmarks, four broad mane groups, graphite values, and restrained chestnut pencil.</description>
+      <media:content url="https://sketcha.day/assets/horse-head-with-flowing-mane-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a woolly sheep with a bell</title>
       <link>https://sketcha.day/tutorials/woolly-sheep-with-bell.html</link>
@@ -662,6 +670,14 @@
       <pubDate>Wed, 06 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a vintage microscope using a tilted optical axis, eyepiece and barrel, two objective lenses, stage, curved arm, focus knob, mirror, hinge support, horseshoe base, hardware, graphite values, and restrained brass and steel pencil color.</description>
       <media:content url="https://sketcha.day/assets/vintage-microscope-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a folding hand fan</title>
+      <link>https://sketcha.day/tutorials/folding-hand-fan.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/folding-hand-fan.html</guid>
+      <pubDate>Tue, 05 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a folding hand fan using one low pivot, exactly seven radial ribs, six broad leaf panels, scalloped folds, two guard handles, a cord and tassel, graphite values, and restrained colored pencil.</description>
+      <media:content url="https://sketcha.day/assets/folding-hand-fan-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>
