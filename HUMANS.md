@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-26
+- Date: 2026-07-27
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-25 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-26 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,31 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-27 daily automation added current `horse-head-with-flowing-mane`
+  (July 27 / Day 084) and honest archive `folding-hand-fan` (May 5 /
+  Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,
+  cropped JPG masters, WebP derivatives, social cards, and explicit process
+  plans. The horse preserves one near-front head, both ears, both eyes, both
+  nostrils, and four broad swept mane locks; the fan preserves one pivot,
+  exactly seven ribs, six leaf panels, a cord, and tassel. A first fan sheet
+  with too many ribs is preserved privately and rejected. Finished-image
+  ratings: horse 9.6/10 for immediate anatomy, character, tactile graphite and
+  chestnut pencil, and a coherent 30-minute progression; fan 9.5/10 for its
+  countable geometry, restrained indigo/terracotta pencil texture, and
+  unusually clean cumulative construction.
+- July 27 readiness passed for both lessons: ledger, process-plan,
+  frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset,
+  day-sequence, lab-privacy, and diff checks. Cove's expired certificate
+  blocked the rendered browser, so desktop/mobile QA at 1440x1000 and 390x844
+  used the documented localhost fallback. Homepage, library, and both
+  tutorials had no horizontal overflow, clipped H1s, broken loaded images,
+  invalid JSON-LD, console errors, or public lab links. The temporary
+  two-tutorial-per-site backfill cadence remains active.
+- Lesson commit `0e2f27c` is local and validated. The required
+  1Password-backed push did not advance `origin/main`; the sibling-site
+  attempt then returned `agent refused operation`. No alternate agent or
+  transport was used. Authorize 1Password and retry through the required
+  socket; deployment and live checksum proof remain pending.
 - 2026-07-26 daily automation added current `woolly-sheep-with-bell`
   (July 26 / Day 082) and honest archive `vintage-microscope` (May 6 /
   Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,
