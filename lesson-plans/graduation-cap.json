@@ -1,0 +1,119 @@
+{
+  "slug": "graduation-cap",
+  "finished": "assets/graduation-cap-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel built-in image-generation contact sheet reviewed as one cumulative graphite and colored-pencil process before cropping.",
+    "notes": "Honest 2026-05-04 archive lesson. Keep one graduation cap resting at one three-quarter angle with one perspective diamond board, one soft crown, one center button, one cord draped to the front-right corner, one hanging tassel, and one broken shadow; no diploma, person, hand, lettering, year numerals, confetti, logo, scenery, or final-only decoration."
+  },
+  "process_strategy": "Lock the cap around one perspective diamond and crown block, reserve the tassel route and ground shadow from the first frame, establish the board thickness and crown before laying the cord across them, then add only fabric details and restrained graphite, navy, and ochre pencil inside shapes already drawn.",
+  "final_elements": [
+    {
+      "name": "perspective diamond, crown block, tassel route, and shadow reserve",
+      "introduced_by_step": 1,
+      "description": "Pale construction fixes one tilted mortarboard top, the crown footprint beneath it, a cord route from the center to the front-right corner, and one broken oval ground shadow."
+    },
+    {
+      "name": "complete board thickness and soft crown silhouette",
+      "introduced_by_step": 2,
+      "description": "A thin diamond-shaped board with a visible front and right edge sits over one gently folded cap crown and lower band."
+    },
+    {
+      "name": "center button, draped cord, knot, and hanging tassel",
+      "introduced_by_step": 3,
+      "description": "One round button anchors one cord that crosses the board, bends over the front-right corner, and ends in one compact tassel with exactly five broad fringe groups."
+    },
+    {
+      "name": "crown seams, fabric folds, board edge breaks, and tassel strands",
+      "introduced_by_step": 4,
+      "description": "Three crown fold lines, one lower band seam, clean overlap breaks around the cord, and light strand lines clarify the existing cap construction."
+    },
+    {
+      "name": "graphite values, restrained navy board and crown, ochre tassel, paper highlights, and broken cast shadow",
+      "introduced_by_step": 5,
+      "description": "Visible pencil texture separates the established planes, fabric, cord, tassel, button, and shadow while leaving warm paper highlights."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/graduation-cap-step-1.jpg",
+      "step_name": "Set the cap's perspective",
+      "visible_job": "Places the pale perspective diamond, crown block, center line, tassel route, front-right drop, and broken oval shadow at one fixed angle and scale.",
+      "introduces": [
+        "perspective diamond, crown block, tassel route, and shadow reserve"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/graduation-cap-step-2.jpg",
+      "step_name": "Build the board and crown",
+      "visible_job": "Wraps the guides with the complete thin diamond board, visible front and right thickness edges, one soft crown beneath it, and one curved lower band.",
+      "introduces": [
+        "complete board thickness and soft crown silhouette"
+      ],
+      "requires_prior_elements": [
+        "perspective diamond, crown block, tassel route, and shadow reserve"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/graduation-cap-step-3.jpg",
+      "step_name": "Drape the tassel",
+      "visible_job": "Adds one center button, one cord following the reserved route over the front-right corner, one knot, and one hanging tassel with exactly five broad fringe groups.",
+      "introduces": [
+        "center button, draped cord, knot, and hanging tassel"
+      ],
+      "requires_prior_elements": [
+        "perspective diamond, crown block, tassel route, and shadow reserve",
+        "complete board thickness and soft crown silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/graduation-cap-step-4.jpg",
+      "step_name": "Fold the fabric",
+      "visible_job": "Adds three crown fold lines, one lower band seam, clean board-edge breaks around the cord, and light strand lines inside the established tassel.",
+      "introduces": [
+        "crown seams, fabric folds, board edge breaks, and tassel strands"
+      ],
+      "requires_prior_elements": [
+        "complete board thickness and soft crown silhouette",
+        "center button, draped cord, knot, and hanging tassel"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/graduation-cap-step-5.jpg",
+      "step_name": "Shade the graduation cap",
+      "visible_job": "Adds graphite values, restrained navy pencil to the board and crown, warm ochre to the button, cord, and tassel, paper highlights, and a broken shadow only inside established shapes.",
+      "introduces": [
+        "graphite values, restrained navy board and crown, ochre tassel, paper highlights, and broken cast shadow"
+      ],
+      "requires_prior_elements": [
+        "complete board thickness and soft crown silhouette",
+        "center button, draped cord, knot, and hanging tassel",
+        "crown seams, fabric folds, board edge breaks, and tassel strands"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Set the cap's final contrast",
+    "asset": "assets/graduation-cap-finished-v1.jpg",
+    "visible_job": "Only strengthens the established diamond board, crown, button, cord, five-part tassel, seams, folds, restrained color, highlights, and broken shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "graphite plane-value deepening",
+      "restrained navy and ochre colored-pencil strengthening",
+      "minor paper-highlight and shadow-edge clarification",
+      "minor tassel-strand cleanup inside the established fringe"
+    ]
+  },
+  "rejection_checks": [
+    "No board plane, thickness edge, crown, band, center button, cord, knot, tassel group, seam, fold, color area, highlight, or shadow may first appear in the final panel.",
+    "The same three-quarter cap angle, perspective diamond, crown width, button position, front-right tassel route, five fringe groups, scale, and crop must persist through all six panels.",
+    "Reserve the cord and tassel route from step one; stop the board edge cleanly around the covering cord and do not render finished detail that the tassel permanently hides.",
+    "Reject diplomas, people, hands, faces, lettering, year numerals, logos, confetti, scenery, extra tassels, decorative borders, glossy illustration, or vector-like symmetry.",
+    "Every dark pre-final line must survive in the finish unless it is explicitly a pale erasable construction guide."
+  ]
+}

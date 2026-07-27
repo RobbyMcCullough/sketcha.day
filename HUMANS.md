@@ -13,6 +13,21 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-27 owner-requested follow-up added honest archive
+  `graduation-cap` (May 4 / Day 001). The six-panel handmade raster pencil
+  contact sheet keeps one three-quarter diamond board, soft crown, center
+  button, one draped cord, exactly five broad tassel fringe groups, three
+  folds, and one broken shadow stable from construction through finish. The
+  finished image rates 9.6/10 for immediate cap readability, convincing
+  perspective and fabric volume, tactile navy/ochre pencil, and a coherent
+  roughly 20-minute progression. Existing labels advanced by one, so the
+  July 27 horse is now Day 085.
+- Graduation-cap readiness passed the ledger, process-plan, frame-delta,
+  derivative, social-card, JSON-LD, internal-link, unused-asset, day-sequence,
+  lab-privacy, and diff checks. Direct Cove QA at 1440x1000 and 390x844
+  covered the homepage, library, and tutorial with no horizontal overflow,
+  broken loaded images, invalid JSON-LD, console errors, or public lab links.
+  The temporary two-tutorial-per-site backfill cadence remains active.
 - 2026-07-27 daily automation added current `horse-head-with-flowing-mane`
   (July 27 / Day 084) and honest archive `folding-hand-fan` (May 5 /
   Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,
