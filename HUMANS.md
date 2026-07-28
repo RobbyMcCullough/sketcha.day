@@ -42,6 +42,13 @@
   commit, and this continuity note. After authorizing 1Password, retry the
   documented socket-backed push and verify the workflow, live URLs, homepage,
   library cards, finished-WebP checksums, and branch alignment.
+- Publication retry completed at 2026-07-28 13:11 PDT after 1Password was
+  authorized. Lesson commit `4d7d741` and continuity commit `8c05c20`, plus
+  the two waiting July 27 graduation-cap commits, pushed through the required
+  socket. DigitalOcean workflow `30395155942` passed, including IndexNow. Both
+  July 28 tutorials return HTTP 200, the homepage features the Mermaid, the
+  library contains the Globe, both finished WebP checksums match the reviewed
+  local files, and local `main` matches `origin/main`.
 - 2026-07-27 owner-requested follow-up added honest archive
   `graduation-cap` (May 4 / Day 001). The six-panel handmade raster pencil
   contact sheet keeps one three-quarter diamond board, soft crown, center
