@@ -13,6 +13,16 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-28 owner correction keeps `a mermaid` on one hero headline line.
+  Mirrored headline guards now collapse compact phrases of 12 or fewer
+  non-space characters, reject one-character or article-only manual lines, and
+  reserve `<br>` for balanced longer phrases. Six compact Sketcha headings were
+  normalized in source. Mermaid readiness passed; fallback browser QA at
+  1440x1000 and 390x844 checked all corrected headings plus a retained
+  two-line heading with no internal wrapping or horizontal overflow. Commit
+  `48a0ba4` deployed successfully in workflow `30397247387` with IndexNow; the
+  live homepage and Mermaid tutorial both return HTTP 200 with one headline
+  line. The temporary two-tutorial-per-site backfill cadence remains active.
 - 2026-07-28 daily automation added owner-requested current
   `seated-mermaid-on-a-rock` (July 28 / Day 087) and honest archive
   `vintage-desk-globe` (May 3 / Day 001). Both use reviewed six-panel handmade
