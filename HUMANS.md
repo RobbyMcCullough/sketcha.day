@@ -34,6 +34,14 @@
   overflow, broken loaded images, invalid JSON-LD, unreadable mobile step cards,
   or public lab links. The temporary two-tutorial-per-site backfill cadence
   remains active.
+- Local lesson commit `4d7d741` is complete. The required 1Password-backed
+  push stopped at 2026-07-28 10:18 PDT with
+  `sign_and_send_pubkey: ... communication with agent failed`; no fallback
+  agent or transport was used, no deployment began, and local `main` remains
+  ahead of `origin/main` by the two waiting July 27 commits, the July 28 lesson
+  commit, and this continuity note. After authorizing 1Password, retry the
+  documented socket-backed push and verify the workflow, live URLs, homepage,
+  library cards, finished-WebP checksums, and branch alignment.
 - 2026-07-27 owner-requested follow-up added honest archive
   `graduation-cap` (May 4 / Day 001). The six-panel handmade raster pencil
   contact sheet keeps one three-quarter diamond board, soft crown, center
