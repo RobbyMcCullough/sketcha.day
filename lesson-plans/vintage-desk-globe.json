@@ -1,0 +1,118 @@
+{
+  "slug": "vintage-desk-globe",
+  "finished": "assets/vintage-desk-globe-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent vintage desk globe progressing from pale graphite construction to a finished graphite and restrained dusty-teal, ochre, and brass colored-pencil sketch.",
+    "notes": "Keep the same three-quarter globe, tilted diagonal axis, meridian support, two pivot knobs, short pedestal, round base, simplified continent shapes, curved coordinate lines, and cast shadow in every applicable frame. No text, country labels, border labels, extra desk props, or final-only motifs."
+  },
+  "process_strategy": "Construct the globe as one tilted sphere held inside a meridian arc and fixed to a short pedestal before adding map shapes, coordinate curves, small hardware, shading, or color, so every later mark attaches to the same visible perspective.",
+  "final_elements": [
+    {
+      "name": "tilted sphere, axis, support arc, pedestal, and base guides",
+      "introduced_by_step": 1,
+      "description": "One pale globe circle with a diagonal polar axis, one outer meridian arc, two pivot reserves, one short centered pedestal, one round base footprint, and one broken shadow footprint."
+    },
+    {
+      "name": "complete vintage desk globe silhouette",
+      "introduced_by_step": 2,
+      "description": "The globe edge, full meridian support, top and lower pivot knobs, short pedestal stem, stepped collar, and low round base wrapped around the fixed guides."
+    },
+    {
+      "name": "simplified continent silhouettes and coordinate curves",
+      "introduced_by_step": 3,
+      "description": "A small group of simplified landmass silhouettes without text or borders, plus a few curved latitude and longitude lines following the established sphere."
+    },
+    {
+      "name": "brass hardware, globe seams, base rings, and shadow",
+      "introduced_by_step": 4,
+      "description": "Small pivot caps, meridian edge bands, pedestal seams, concentric base rings, restrained map-edge hatching, and one broken graphite cast shadow."
+    },
+    {
+      "name": "graphite modeling and restrained vintage color",
+      "introduced_by_step": 5,
+      "description": "Soft graphite planes, dusty-teal pencil on the established ocean areas, warm ochre on the land shapes, muted brass on the support and base, charcoal accents, and preserved paper highlights."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/vintage-desk-globe-step-1.jpg",
+      "step_name": "Set the globe's tilt",
+      "visible_job": "Maps one pale globe circle, a diagonal polar axis, the outer meridian arc, two pivot reserves, short pedestal, round base footprint, and broken shadow footprint.",
+      "introduces": [
+        "tilted sphere, axis, support arc, pedestal, and base guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/vintage-desk-globe-step-2.jpg",
+      "step_name": "Build the globe and stand",
+      "visible_job": "Wraps the guides with the globe edge, full meridian support, top and lower pivot knobs, short pedestal stem, stepped collar, and low round base.",
+      "introduces": [
+        "complete vintage desk globe silhouette"
+      ],
+      "requires_prior_elements": [
+        "tilted sphere, axis, support arc, pedestal, and base guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/vintage-desk-globe-step-3.jpg",
+      "step_name": "Map the curved surface",
+      "visible_job": "Adds simplified continent silhouettes without text or borders, then bends a few latitude and longitude lines around the established sphere.",
+      "introduces": [
+        "simplified continent silhouettes and coordinate curves"
+      ],
+      "requires_prior_elements": [
+        "complete vintage desk globe silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/vintage-desk-globe-step-4.jpg",
+      "step_name": "Add the vintage hardware",
+      "visible_job": "Adds small pivot caps, meridian edge bands, pedestal seams, concentric base rings, restrained map-edge hatching, and one broken cast shadow.",
+      "introduces": [
+        "brass hardware, globe seams, base rings, and shadow"
+      ],
+      "requires_prior_elements": [
+        "complete vintage desk globe silhouette",
+        "simplified continent silhouettes and coordinate curves"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/vintage-desk-globe-step-5.jpg",
+      "step_name": "Shade the old-world materials",
+      "visible_job": "Models the established form with graphite, dusty teal on the ocean, warm ochre on the land, muted brass on the support and base, charcoal accents, and preserved paper highlights.",
+      "introduces": [
+        "graphite modeling and restrained vintage color"
+      ],
+      "requires_prior_elements": [
+        "complete vintage desk globe silhouette",
+        "simplified continent silhouettes and coordinate curves",
+        "brass hardware, globe seams, base rings, and shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Settle the vintage globe finish",
+    "asset": "assets/vintage-desk-globe-finished-v1.jpg",
+    "visible_job": "Only strengthens the established globe, meridian support, pivot knobs, pedestal, base, continent shapes, coordinate curves, vintage color, paper highlights, and broken shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "small overlap clarifications within existing guides",
+      "restrained graphite value strengthening",
+      "restrained colored-pencil strengthening",
+      "selective eraser highlights",
+      "minor edge cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "The same sphere size, diagonal axis, globe tilt, meridian support, two pivot positions, pedestal, base, crop, and scale must persist through all six panels.",
+    "All land shapes, coordinate curves, hardware, base rings, color areas, paper highlights, and the cast shadow must appear before the final panel and persist through the finish.",
+    "No text, numbers, country labels, border labels, logo, compass rose, desk scene, books, pen, plant, decorative background, or final-only motif may appear.",
+    "No adjacent frame may look unchanged at card size, and the finish must remain a believable 20-25 minute handmade sketch rather than polished scientific illustration."
+  ]
+}

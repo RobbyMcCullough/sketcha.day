@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-27
+- Date: 2026-07-28
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-26 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-27 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,27 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-28 daily automation added owner-requested current
+  `seated-mermaid-on-a-rock` (July 28 / Day 087) and honest archive
+  `vintage-desk-globe` (May 3 / Day 001). Both use reviewed six-panel handmade
+  raster pencil contact sheets, cropped JPG masters, WebP derivatives, social
+  cards, and explicit process plans. The mermaid preserves one full seated pose,
+  both arms and hands, three broad hair waves, two shell cups, one continuous
+  scale rhythm, a two-lobed fin, rock cracks, and a broken shadow; the globe
+  preserves one tilted sphere, diagonal axis, meridian support, two pivots,
+  pedestal, base, unlabeled map shapes, coordinate curves, and shadow.
+  Finished-image ratings: mermaid 9.4/10 for immediate character readability,
+  graceful full-body silhouette, tactile pencil texture, and an attainable
+  cumulative sequence; globe 9.6/10 for unusually stable geometry, excellent
+  thumbnail readability, restrained vintage color, and a precise cumulative
+  process.
+- July 28 readiness passed for both lessons: ledger, process-plan,
+  frame-delta, derivative, social-card, JSON-LD, internal-link, unused-asset,
+  day-sequence, lab-privacy, and diff checks. Direct Cove QA at 1440x1000 and
+  390x844 covered the homepage, library, and both tutorials with no horizontal
+  overflow, broken loaded images, invalid JSON-LD, unreadable mobile step cards,
+  or public lab links. The temporary two-tutorial-per-site backfill cadence
+  remains active.
 - 2026-07-27 owner-requested follow-up added honest archive
   `graduation-cap` (May 4 / Day 001). The six-panel handmade raster pencil
   contact sheet keeps one three-quarter diamond board, soft crown, center

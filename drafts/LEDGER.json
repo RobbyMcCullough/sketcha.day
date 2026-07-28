@@ -223,6 +223,9 @@
     "seashell-on-sand": {
       "status": "published"
     },
+    "seated-mermaid-on-a-rock": {
+      "status": "published"
+    },
     "side-profile-with-braid": {
       "status": "published",
       "date": "2026-07-25",
@@ -271,6 +274,11 @@
       "status": "published",
       "date": "2026-07-11",
       "note": "Slug locked for image generation by preflight; resolve before any new subject."
+    },
+    "vintage-desk-globe": {
+      "status": "published",
+      "date": "2026-07-28",
+      "note": "Reviewed six-panel globe process promoted as the honest May 3 archive lesson after crop, tilt and map continuity review, process-plan, delivery-image, JSON-LD, link, and step-delta checks."
     },
     "vintage-key-on-a-tag": {
       "status": "published"

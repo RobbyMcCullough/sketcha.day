@@ -1,0 +1,118 @@
+{
+  "slug": "seated-mermaid-on-a-rock",
+  "finished": "assets/seated-mermaid-on-a-rock-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent left-facing mermaid seated on a low rock, progressing from pale gesture construction to a finished graphite and restrained sea-green, coral, and blue-gray colored-pencil sketch.",
+    "notes": "Keep the same full-body side pose, upright torso, two visible arms and simplified hands, long S-curved tail, two-lobed fin, three broad hair waves, simple two-shell top, one large overlapping scale pattern, low rock, restrained rock cracks, and broken shadow. No feature, prop, color area, or background motif may first appear in the final panel."
+  },
+  "process_strategy": "Reserve the rock, hair, two arm routes, and the full tail-and-fin gesture around one seated figure before drawing keeper contours; then add profile landmarks, large hair groups, shell top, scale pattern, rock texture, graphite value, and restrained color cumulatively so the finish remains attainable from the visible process.",
+  "final_elements": [
+    {
+      "name": "seated head, torso, hip, arm, tail, fin, hair, and rock guides",
+      "introduced_by_step": 1,
+      "description": "One pale left-facing head oval and face axis, ribcage and hip masses, upright spine, two arm routes with hand reserves, one long S-curved tail route ending in a two-lobed fin envelope, one broad hair envelope, and one low rock footprint."
+    },
+    {
+      "name": "complete seated mermaid silhouette",
+      "introduced_by_step": 2,
+      "description": "The profile head, neck, torso, two visible arms and simplified hands, hips flowing into one long tail, two-lobed fin, broad hair mass, and low rounded rock wrapped around the fixed guides."
+    },
+    {
+      "name": "profile face, three hair waves, and two-shell top",
+      "introduced_by_step": 3,
+      "description": "One visible eye and eyebrow, nose and closed smile, one ear, three broad flowing wave contours through the hair mass, and a simple top made from two shell-shaped cups with a center join."
+    },
+    {
+      "name": "overlapping scale pattern, fin rays, rock cracks, and shadow",
+      "introduced_by_step": 4,
+      "description": "A large overlapping scale pattern across the established tail, a few directional rays inside both existing fin lobes, restrained short cracks on the rock, and one broken graphite shadow beneath it."
+    },
+    {
+      "name": "graphite modeling and restrained sea-color pencil",
+      "introduced_by_step": 5,
+      "description": "Soft graphite planes, sea-green pencil on the established tail and fin, muted coral on the shell top, blue-gray on the rock, warm-brown hair accents, and preserved paper highlights."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/seated-mermaid-on-a-rock-step-1.jpg",
+      "step_name": "Place the mermaid gesture",
+      "visible_job": "Maps the pale left-facing head and face axis, ribcage, hip, upright spine, two arm routes and hand reserves, long S-curved tail, two-lobed fin envelope, broad hair reserve, and low rock footprint.",
+      "introduces": [
+        "seated head, torso, hip, arm, tail, fin, hair, and rock guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/seated-mermaid-on-a-rock-step-2.jpg",
+      "step_name": "Shape the seated silhouette",
+      "visible_job": "Wraps the guides with the profile head, neck, torso, two visible arms and simplified hands, hips, long tail, two-lobed fin, broad hair mass, and low rounded rock.",
+      "introduces": [
+        "complete seated mermaid silhouette"
+      ],
+      "requires_prior_elements": [
+        "seated head, torso, hip, arm, tail, fin, hair, and rock guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/seated-mermaid-on-a-rock-step-3.jpg",
+      "step_name": "Set the face and flowing hair",
+      "visible_job": "Adds one visible eye and brow, the profile nose and closed smile, one ear, three broad flowing hair-wave contours, and a two-shell top on the established torso.",
+      "introduces": [
+        "profile face, three hair waves, and two-shell top"
+      ],
+      "requires_prior_elements": [
+        "complete seated mermaid silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/seated-mermaid-on-a-rock-step-4.jpg",
+      "step_name": "Pattern the tail and rock",
+      "visible_job": "Adds a large overlapping scale pattern across the existing tail, directional rays inside both fin lobes, restrained short rock cracks, and one broken graphite shadow beneath the established rock.",
+      "introduces": [
+        "overlapping scale pattern, fin rays, rock cracks, and shadow"
+      ],
+      "requires_prior_elements": [
+        "complete seated mermaid silhouette",
+        "profile face, three hair waves, and two-shell top"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/seated-mermaid-on-a-rock-step-5.jpg",
+      "step_name": "Add sea color and soft value",
+      "visible_job": "Models the established figure with graphite, adds sea-green pencil to the tail and fin, muted coral to the shell top, blue-gray to the rock, warm brown to the hair, and preserves paper highlights.",
+      "introduces": [
+        "graphite modeling and restrained sea-color pencil"
+      ],
+      "requires_prior_elements": [
+        "complete seated mermaid silhouette",
+        "profile face, three hair waves, and two-shell top",
+        "overlapping scale pattern, fin rays, rock cracks, and shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Settle the mermaid finish",
+    "asset": "assets/seated-mermaid-on-a-rock-finished-v1.jpg",
+    "visible_job": "Only strengthens the established profile, two arms and hands, three broad hair waves, shell top, tail, overlapping scale pattern, two-lobed fin, rock cracks, restrained colors, paper highlights, and broken shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "small overlap clarifications within existing guides",
+      "restrained graphite value strengthening",
+      "restrained colored-pencil strengthening",
+      "selective eraser highlights",
+      "minor edge cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "The same seated profile, torso angle, two arm routes, hand placements, tail curve, fin angle, hair envelope, rock, crop, and scale must persist through all six panels.",
+    "Two visible arms and hands, three broad hair waves, two shell cups, the overlapping scale pattern, two fin lobes, rock cracks, and one shadow must appear before the final panel and persist through the finish.",
+    "No crown, jewelry, bubbles, fish, starfish, extra prop, background scene, glossy eye, cinematic lighting, or final-only motif may appear.",
+    "No adjacent frame may look unchanged at card size, and the finish must remain a believable 20-30 minute handmade sketch rather than polished fantasy illustration."
+  ]
+}
