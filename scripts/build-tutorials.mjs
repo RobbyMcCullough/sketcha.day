@@ -17,7 +17,7 @@ const lessons = [
     date: "Tuesday, July 28",
     isoDate: "2026-07-28",
     subject: "a mermaid",
-    headlineSubject: "a<br>mermaid",
+    headlineSubject: "a mermaid",
     shortSubject: "a mermaid seated on a rock",
     lessonTitle: "Let's draw a mermaid seated on a rock",
     description: "Learn how to draw a mermaid seated on a rock using a full-body gesture, profile face, flowing hair, shell top, long S-curved tail, overlapping scales, two-lobed fin, graphite shading, and restrained colored pencil.",
@@ -437,7 +437,7 @@ const lessons = [
     date: "Tuesday, July 21",
     isoDate: "2026-07-21",
     subject: "a denim jacket",
-    headlineSubject: "a denim<br>jacket",
+    headlineSubject: "a denim jacket",
     shortSubject: "a denim jacket",
     lessonTitle: "Let's draw a denim jacket",
     description: "Learn how to draw a denim jacket with a relaxed front-facing silhouette, pointed collar, plackets, cuffs, yoke seam, two flap pockets, six buttons, double stitching, natural folds, indigo pencil color, and soft graphite shadow.",
@@ -1695,7 +1695,7 @@ const lessons = [
     date: "Friday, May 29",
     isoDate: "2026-05-29",
     subject: "a garden gnome",
-    headlineSubject: "a garden<br>gnome",
+    headlineSubject: "a garden gnome",
     shortSubject: "a garden gnome",
     lessonTitle: "Let's draw a garden gnome",
     description: "Learn how to draw a garden gnome with a tall pointed hat, round nose, soft beard, small boots, mitten hands, garden grass, restrained red and blue color, and a gentle ground shadow.",
@@ -2578,7 +2578,7 @@ const lessons = [
     date: "Friday, June 26",
     isoDate: "2026-06-26",
     subject: "a dog at a desk",
-    headlineSubject: "a dog<br>at a desk",
+    headlineSubject: "a dog at a desk",
     shortSubject: "a desk dog",
     lessonTitle: "Let's draw a desk dog",
     description: "Learn how to draw a dog at a desk with a round head, floppy ears, simple face, front paws, pencil cup, pencils, and restrained warm pencil shading.",
@@ -3037,7 +3037,7 @@ const lessons = [
     date: "Wednesday, June 17",
     isoDate: "2026-06-17",
     subject: "a cozy teacup",
-    headlineSubject: "a cozy<br>teacup",
+    headlineSubject: "a cozy teacup",
     shortSubject: "a cozy teacup",
     lessonTitle: "Let's draw a cozy teacup",
     description: "Learn how to draw a cozy teacup with an oval rim, curved handle, saucer, steam, warm tea, and a red heart on the cup.",
@@ -3586,7 +3586,7 @@ const lessons = [
     date: "Tuesday, June 9",
     isoDate: "2026-06-09",
     subject: "a soccer ball on grass",
-    headlineSubject: "a soccer<br>ball",
+    headlineSubject: "a soccer ball",
     shortSubject: "a soccer ball",
     lessonTitle: "Let's draw a soccer ball",
     description: "Learn how to draw a soccer ball on grass with a round outline, center pentagon, curved panel seams, dark patches, grass tufts, and simple pencil shading.",
@@ -3686,8 +3686,26 @@ const escapeHtml = (value) => String(value)
   .replaceAll(">", "&gt;")
   .replaceAll('"', "&quot;")
   .replaceAll("'", "&#39;");
-const headlineHtml = (value) => String(value)
-  .split(/<br\s*\/?>/i)
+const headlineLines = (value, slug) => {
+  const manualLines = String(value)
+    .split(/<br\s*\/?>/i)
+    .map((line) => line.trim())
+    .filter(Boolean);
+
+  if (!manualLines.length) {
+    throw new Error(`${slug}: headlineSubject cannot be empty.`);
+  }
+
+  const strandedLine = manualLines.find((line) =>
+    line.length === 1 || /^(?:a|an|the)$/i.test(line));
+  if (strandedLine) {
+    throw new Error(`${slug}: headlineSubject strands "${strandedLine}" on its own line; keep articles with their noun phrase.`);
+  }
+
+  const compactLength = manualLines.join(" ").replace(/\s+/g, "").length;
+  return compactLength <= 12 ? [manualLines.join(" ")] : manualLines;
+};
+const headlineHtml = (value, slug) => headlineLines(value, slug)
   .map((line, lineIndex, lines) => {
     const words = line.trim().split(/\s+/).filter(Boolean);
     const letterCount = words.join("").length;
@@ -3840,7 +3858,7 @@ ${iconLinks}
       <div class="doodle doodle-star" aria-hidden="true">✦</div>
       <div class="hero-copy">
         <p class="eyebrow">${lesson.date}</p>
-        <h1 id="hero-title" aria-label="How to draw ${lesson.subject}"><span class="headline-lead">How to draw...</span> <em aria-hidden="true">${headlineHtml(lesson.headlineSubject ?? lesson.subject)}</em></h1>
+        <h1 id="hero-title" aria-label="How to draw ${lesson.subject}"><span class="headline-lead">How to draw...</span> <em aria-hidden="true">${headlineHtml(lesson.headlineSubject ?? lesson.subject, lesson.slug)}</em></h1>
         <p class="hero-intro">${lesson.intro}</p>
         <div class="hero-meta" aria-label="Lesson details"><span><strong>${lesson.time}</strong> min</span><span><strong>${lesson.difficulty}</strong></span></div>
         <a class="nav-button hero-button" href="#lesson">Start drawing <svg viewBox="0 0 30 15" aria-hidden="true"><path d="M1 7.5h26M20 1l7 6.5-7 6.5"/></svg></a>
