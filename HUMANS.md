@@ -13,6 +13,31 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-29 owner correction promoted `vintage-rotary-telephone` to the
+  current July 29 / Day 089 lesson and moved `farm-windmill` to the honest
+  May 2 / Day 001 archive slot. The phone artwork is unchanged and remains
+  9.4/10 for immediate vintage character, stable perspective, and attainable
+  repeated-circle work. The windmill finish is unchanged at 9.5/10; its
+  revised tutorial fit rates 9.6/10 after Step 2 replaced the dark empty rotor
+  ring with one pale circle and exactly twelve faint divisions that lead
+  directly into Step 3's twelve blade wedges. The superseded sheet and
+  approved repair panel remain private under `drafts/farm-windmill/`.
+- Both readiness checks, process-plan checks, frame deltas, image derivatives,
+  social cards, JSON-LD, internal links, unused-asset accounting, lab privacy,
+  duplicate-slot correction guard, and `git diff --check` passed. Cove's
+  expired certificate required the documented localhost:4173 fallback;
+  1440x1000 and 390x844 QA covered the homepage, library, both tutorials, and
+  the repaired Step 2-to-3 transition without overflow or broken loaded
+  images. The current canonical phone page now says `Pencil ready?`; the
+  windmill retains `From the archive`. Doodlea.day needed no parity edit
+  because its tutorial template already uses the date-neutral `Felt-tip
+  marker mode` label.
+- Correction commit `5d9bc70` pushed through the required 1Password SSH
+  socket and deployed successfully in DigitalOcean workflow `30482447221`,
+  including IndexNow. The homepage, library, both tutorial URLs, and repaired
+  Step 2 WebP return HTTP 200; the live Step 2 and both finished WebP checksums
+  match local reviewed files. The temporary two-tutorial-per-site backfill
+  cadence remains active until the owner says otherwise.
 - 2026-07-29 daily automation added current `farm-windmill` (July 29 /
   Day 089) and honest archive `vintage-rotary-telephone` (May 2 / Day 001).
   The windmill keeps one twelve-blade rotor, hub, tail vane, four-legged
