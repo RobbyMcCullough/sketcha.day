@@ -42,6 +42,13 @@
   1Password, push `main` through the documented socket and verify the
   workflow, live URLs, homepage, library cards, finished-WebP checksums, and
   branch alignment.
+- Publication retry completed at 2026-07-29 10:48 PDT after 1Password was
+  authorized. Lesson commit `bce4c4c` and continuity commit `d644c7e`
+  pushed through the required socket; DigitalOcean workflow `30476873041`
+  passed, including IndexNow. Both July 29 tutorials and the homepage/library
+  return HTTP 200, the homepage features the Farm Windmill, the library
+  contains the Rotary Telephone, and both live finished WebP checksums match
+  the reviewed local files.
 - 2026-07-28 owner correction keeps `a mermaid` on one hero headline line.
   Mirrored headline guards now collapse compact phrases of 12 or fewer
   non-space characters, reject one-character or article-only manual lines, and
