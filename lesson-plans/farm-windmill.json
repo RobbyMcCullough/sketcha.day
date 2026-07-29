@@ -6,7 +6,7 @@
     "description": "A reviewed six-panel raster contact sheet showing one consistent old farm windmill progressing from pale graphite geometry to a finished graphite and restrained steel-blue, rust-red, and ochre colored-pencil sketch.",
     "notes": "Keep one tall American farm windpump in a slight three-quarter view with one circular rotor, exactly twelve broad blades, one center hub, one tail vane, one tapered four-legged lattice tower, visible cross braces, a low grass line, and one broken shadow. No barn, silo, livestock, text, logo, extra windmill, or final-only detail is allowed."
   },
-  "process_strategy": "Lock the tapered tower, rotor circle, hub, tail axis, and ground footprint first; build the structure around those guides before placing the twelve blades and lattice braces; then shade and color only established metal and wood so the final stays geometrically cumulative.",
+  "process_strategy": "Lock the tapered tower, pale rotor circle, hub, tail axis, and ground footprint first; build the tower, gearbox, and tail while leaving the rotor circle erasably light; divide that guide into twelve faint spokes before widening those divisions into individual blades and adding the lattice braces; then shade and color only established metal and wood so the final stays geometrically cumulative.",
   "final_elements": [
     {
       "name": "tower, rotor, hub, tail, and ground guides",
@@ -14,14 +14,14 @@
       "description": "One pale tapered tower trapezoid with four leg axes, a large rotor circle, centered hub, tail-arm axis and vane reserve, horizontal ground line, low grass-cluster reserves, and a broken shadow footprint."
     },
     {
-      "name": "complete farm windmill silhouette",
+      "name": "tower, gearbox, tail, and twelve rotor divisions",
       "introduced_by_step": 2,
-      "description": "The circular rotor rim, center hub, rear tail arm and vane, narrow top gearbox, and four tapered tower legs wrapped around the fixed construction."
+      "description": "The center hub, rear tail arm and vane, narrow top gearbox, and four tapered tower legs in keeper lines, with the rotor circumference still pale and exactly twelve faint radial divisions mapped from the hub."
     },
     {
       "name": "twelve rotor blades and lattice bracing",
       "introduced_by_step": 3,
-      "description": "Exactly twelve broad blade wedges radiating evenly from the hub plus clear X-braces between the established tower legs."
+      "description": "Exactly twelve separate broad blade wedges widened around the faint radial divisions, with short outer blade edges instead of one dark empty circle, plus clear X-braces between the established tower legs."
     },
     {
       "name": "windmill hardware, grass, and broken shadow",
@@ -47,10 +47,10 @@
     {
       "step": 2,
       "asset": "assets/farm-windmill-step-2.jpg",
-      "step_name": "Build the tower and rotor",
-      "visible_job": "Wraps the guides with the circular rotor rim, center hub, rear tail arm and vane, narrow top gearbox, and four tapered tower legs.",
+      "step_name": "Build the tower and divide the wheel",
+      "visible_job": "Wraps the tower, gearbox, hub, rear tail arm, and vane in keeper lines while leaving the rotor circumference pale, then maps exactly twelve faint radial divisions from the hub to that guide.",
       "introduces": [
-        "complete farm windmill silhouette"
+        "tower, gearbox, tail, and twelve rotor divisions"
       ],
       "requires_prior_elements": [
         "tower, rotor, hub, tail, and ground guides"
@@ -59,13 +59,13 @@
     {
       "step": 3,
       "asset": "assets/farm-windmill-step-3.jpg",
-      "step_name": "Divide the wheel and tower",
-      "visible_job": "Adds exactly twelve broad blade wedges around the fixed hub and clear X-braces between the established tower legs.",
+      "step_name": "Shape the blades and braces",
+      "visible_job": "Widens the twelve faint rotor divisions into exactly twelve separate broad blade wedges with short outer edges, then adds clear X-braces between the established tower legs.",
       "introduces": [
         "twelve rotor blades and lattice bracing"
       ],
       "requires_prior_elements": [
-        "complete farm windmill silhouette"
+        "tower, gearbox, tail, and twelve rotor divisions"
       ]
     },
     {
@@ -77,7 +77,7 @@
         "windmill hardware, grass, and broken shadow"
       ],
       "requires_prior_elements": [
-        "complete farm windmill silhouette",
+        "tower, gearbox, tail, and twelve rotor divisions",
         "twelve rotor blades and lattice bracing"
       ]
     },
@@ -90,7 +90,7 @@
         "graphite modeling and restrained farm color"
       ],
       "requires_prior_elements": [
-        "complete farm windmill silhouette",
+        "tower, gearbox, tail, and twelve rotor divisions",
         "twelve rotor blades and lattice bracing",
         "windmill hardware, grass, and broken shadow"
       ]
@@ -110,7 +110,8 @@
     ]
   },
   "rejection_checks": [
-    "The same tower taper, rotor circle, hub position, tail angle, crop, scale, viewpoint, and four-leg footprint must persist through all six panels.",
+    "The same tower taper, pale rotor guide, hub position, tail angle, crop, scale, viewpoint, and four-leg footprint must persist through all six panels.",
+    "Panel 2 must not harden the rotor guide into a dark continuous circle; it must keep that circle erasably pale and divide it into exactly twelve faint spokes that lead directly to the blade wedges in panel 3.",
     "Exactly twelve broad rotor blades, the lattice braces, tail vane, hardware, grass, color areas, paper highlights, and broken shadow must appear before the final panel and persist through the finish.",
     "No barn, silo, fence, livestock, extra windmill, weather vane figure, text, number, logo, decorative background, or final-only motif may appear.",
     "No adjacent frame may look unchanged at card size, and the finish must remain a believable 20-30 minute handmade sketch rather than polished architectural illustration."

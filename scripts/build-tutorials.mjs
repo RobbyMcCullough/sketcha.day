@@ -13,15 +13,16 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 const lessons = [
   {
     slug: "farm-windmill",
-    day: "089",
-    date: "Wednesday, July 29",
-    isoDate: "2026-07-29",
+    day: "001",
+    date: "Saturday, May 2",
+    isoDate: "2026-05-02",
+    updated: "2026-07-29",
     subject: "a farm windmill",
     headlineSubject: "a farm windmill",
     shortSubject: "an old farm windmill",
     lessonTitle: "Let's draw a farm windmill",
     description: "Learn how to draw a farm windmill using a circular twelve-blade rotor, center hub, tail vane, tapered four-legged lattice tower, cross bracing, small hardware, graphite values, and restrained colored pencil.",
-    intro: "Build one old farm windmill around a large rotor circle and a tapered tower, then divide the wheel into twelve broad blades and brace the four legs without losing the first geometry. The useful challenge is comparing repeated angles and open spaces, while the restrained weathered color keeps the finished structure attainable in one sketch session.",
+    intro: "Build one old farm windmill around a pale rotor guide and a tapered tower, then map twelve light spokes before widening them into separate blades and bracing the four legs. This honest archive lesson is a newly made study in repeated angles and open spaces, not a claim about earlier visitors, comments, activity, or popularity.",
     time: 25,
     difficulty: "Medium",
     accent: "#5f7f8c",
@@ -32,8 +33,8 @@ const lessons = [
     tipLabel: "Sketch tip",
     steps: [
       { name: "Set the windmill geometry", text: "Draw a pale tapered tower trapezoid with four leg axes, then place one large rotor circle, a centered hub, the tail-arm axis and vane reserve, a low ground line, grass-cluster reserves, and a broken shadow footprint.", tip: "Ghost the rotor circle from the shoulder, then compare its center with the tower's top. Keep the leg axes light and check the two empty wedges beside the tower so the structure does not lean by accident." },
-      { name: "Build the tower and rotor", text: "Wrap the guides with the circular rotor rim, center hub, rear tail arm and vane, narrow top gearbox, and four tapered tower legs.", tip: "Rotate the page for the long legs and pull each line in one relaxed pass. Stop the hidden upper-tower edges where the rotor and gearbox overlap instead of drawing detail that will be covered." },
-      { name: "Divide the wheel and tower", text: "Add exactly twelve broad blade wedges around the fixed hub, then place clear X-braces between the established tower legs.", tip: "Quarter the rotor first, split each quarter into three wedges, and count twelve before darkening. Compare the paper gaps between braces instead of forcing machine-perfect symmetry." },
+      { name: "Build the tower and divide the wheel", text: "Darken the center hub, rear tail arm and vane, narrow top gearbox, and four tapered tower legs, but leave the outer rotor circle pale. From the hub, map exactly twelve faint radial divisions to that guide.", tip: "Quarter the pale circle first, then split each quarter into three light spokes. Count twelve before moving on, and keep these lines soft because they guide the blades rather than becoming a hard finished rim." },
+      { name: "Shape the blades and braces", text: "Widen each faint rotor division into one broad blade wedge, closing it with a short outer edge instead of tracing the whole circle. Then place clear X-braces between the established tower legs.", tip: "Work around the wheel one wedge at a time and count all twelve. Let the pale circle disappear between the short blade edges, then compare the open paper shapes between the braces instead of forcing machine-perfect symmetry." },
       { name: "Add the farm hardware", text: "Add one hub cap, short gearbox seams, tail-arm joints, tower foot plates, a low uneven grass line, several small grass tufts, and one broken cast shadow.", tip: "Keep the hardware marks shorter and darker than the structural lines. Build the shadow outward from the four foot plates, letting it break before it becomes a smooth digital-looking block." },
       { name: "Shade the weathered materials", text: "Model the established structure with graphite, add steel-blue pencil to the rotor and tower, rust red to the tail vane and hub cap, warm ochre to the grass, and preserve paper highlights.", tip: "Pull color along each metal member rather than scribbling across the lattice. Leave pale channels between the blade spokes and lift the pencil before the paper tooth disappears." },
       { name: "Settle the prairie windmill", text: "Strengthen the keeper contours and clarify the established twelve-blade rotor, hub, gearbox, tail vane, four-legged tower, braces, hardware, grass, restrained color, highlights, and broken shadow.", tip: "Count twelve blades and trace all four tower legs to their foot plates, then stop while the graphite grain remains visible. Your metal colors and grass rhythm can vary while the same circle-and-tower construction stays useful.", image: true }
@@ -41,15 +42,15 @@ const lessons = [
   },
   {
     slug: "vintage-rotary-telephone",
-    day: "001",
-    date: "Saturday, May 2",
-    isoDate: "2026-05-02",
+    day: "089",
+    date: "Wednesday, July 29",
+    isoDate: "2026-07-29",
     subject: "a vintage rotary telephone",
     headlineSubject: "a vintage rotary<br>telephone",
     shortSubject: "a vintage rotary telephone",
     lessonTitle: "Let's draw a vintage rotary telephone",
     description: "Learn how to draw a vintage rotary telephone using a curved handset, sloped desk base, two cradle forks, ten-hole dial, finger stop, coiled cord, small hardware, graphite values, and restrained colored pencil.",
-    intro: "Build one old desk telephone around a broad handset and sloped base, then place all ten dial holes and the coiled cord before adding value and restrained color. This honest archive lesson is a newly made proportion, repeated-circle, and material study, not a claim about earlier visitors, comments, activity, or popularity.",
+    intro: "Build one charming old desk telephone around a broad handset and sloped base, then place all ten dial holes and the coiled cord before adding value and restrained color. The useful challenge is keeping repeated circles evenly spaced while the handset, brass dial, and loose cord give the finished sketch plenty of personality.",
     time: 25,
     difficulty: "Medium",
     accent: "#79525a",
@@ -3927,7 +3928,7 @@ ${iconLinks}
     </section>
     <article class="lesson" id="lesson">
       <header class="section-heading">
-        <p class="kicker">From the archive</p>
+        <p class="kicker">${lesson.slug === latestLesson.slug ? "Pencil ready?" : "From the archive"}</p>
         <h2>${lesson.lessonTitle}</h2>
         <p>Treat this as one small practice round: build the subject lightly, notice the shapes, then darken only the lines that help the finished sketch.</p>
       </header>
