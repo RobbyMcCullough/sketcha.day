@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a farm windmill</title>
+      <link>https://sketcha.day/tutorials/farm-windmill.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/farm-windmill.html</guid>
+      <pubDate>Wed, 29 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a farm windmill using a circular twelve-blade rotor, center hub, tail vane, tapered four-legged lattice tower, cross bracing, small hardware, graphite values, and restrained colored pencil.</description>
+      <media:content url="https://sketcha.day/assets/farm-windmill-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a mermaid</title>
       <link>https://sketcha.day/tutorials/seated-mermaid-on-a-rock.html</link>
@@ -702,6 +710,14 @@
       <pubDate>Sun, 03 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a vintage desk globe using a tilted sphere, diagonal polar axis, curved meridian support, pivot knobs, pedestal and round base, simplified continents, coordinate curves, graphite values, and restrained vintage color.</description>
       <media:content url="https://sketcha.day/assets/vintage-desk-globe-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a vintage rotary telephone</title>
+      <link>https://sketcha.day/tutorials/vintage-rotary-telephone.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/vintage-rotary-telephone.html</guid>
+      <pubDate>Sat, 02 May 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a vintage rotary telephone using a curved handset, sloped desk base, two cradle forks, ten-hole dial, finger stop, coiled cord, small hardware, graphite values, and restrained colored pencil.</description>
+      <media:content url="https://sketcha.day/assets/vintage-rotary-telephone-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

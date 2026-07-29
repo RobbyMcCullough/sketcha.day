@@ -1,0 +1,118 @@
+{
+  "slug": "vintage-rotary-telephone",
+  "finished": "assets/vintage-rotary-telephone-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel raster contact sheet showing one consistent vintage rotary telephone progressing from pale graphite construction to a finished graphite and restrained burgundy, brass, and charcoal colored-pencil sketch.",
+    "notes": "Keep one front-facing three-quarter desk telephone with one curved handset, two end caps, two cradle forks, one sloped base, one rotary dial with exactly ten finger holes, one center dial plate without text, one coiled cord with exactly two clear loops and one loose connecting curve, small hardware, and one broken shadow. No numbers, letters, logo, extra prop, or final-only detail is allowed."
+  },
+  "process_strategy": "Reserve the handset and coiled-cord footprints over one sloped base before drawing the dial, then add all ten finger holes and cradle hardware to the same geometry before shading so no late detail changes the silhouette or overlap order.",
+  "final_elements": [
+    {
+      "name": "base, handset, dial, cord, and shadow guides",
+      "introduced_by_step": 1,
+      "description": "One pale sloped three-quarter base box, a curved handset envelope with two end-cap ellipses, two cradle positions, one centered dial circle, a coiled-cord route with two loop reserves and one loose connecting curve, and one broken shadow footprint."
+    },
+    {
+      "name": "complete rotary telephone silhouette",
+      "introduced_by_step": 2,
+      "description": "The curved handset with two end caps, two cradle forks, sloped desk base, raised dial housing, rear ledge, and one coiled cord following the reserved route."
+    },
+    {
+      "name": "ten-hole rotary dial and center plate",
+      "introduced_by_step": 3,
+      "description": "One circular rotary dial with exactly ten evenly spaced finger holes, an inner ring, one blank center plate, and one small finger stop."
+    },
+    {
+      "name": "handset seams, base hardware, cord loops, and shadow",
+      "introduced_by_step": 4,
+      "description": "Mouthpiece and earpiece seam rings, cradle joints, base-panel seams, two small screws, exactly two clear cord loops, one loose connecting curve, and one broken graphite cast shadow."
+    },
+    {
+      "name": "graphite modeling and restrained telephone color",
+      "introduced_by_step": 5,
+      "description": "Soft graphite planes, muted burgundy pencil on the handset and base, muted brass on the dial ring and small hardware, charcoal cord and deep accents, and preserved paper highlights."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/vintage-rotary-telephone-step-1.jpg",
+      "step_name": "Block the telephone geometry",
+      "visible_job": "Maps the sloped three-quarter base box, curved handset envelope and two end-cap ellipses, two cradle positions, one centered dial circle, coiled-cord route with two loop reserves and one loose connecting curve, and broken shadow footprint.",
+      "introduces": [
+        "base, handset, dial, cord, and shadow guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/vintage-rotary-telephone-step-2.jpg",
+      "step_name": "Shape the handset and base",
+      "visible_job": "Wraps the guides with the curved handset and two end caps, two cradle forks, sloped desk base, raised dial housing, rear ledge, and one coiled cord following the reserved route.",
+      "introduces": [
+        "complete rotary telephone silhouette"
+      ],
+      "requires_prior_elements": [
+        "base, handset, dial, cord, and shadow guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/vintage-rotary-telephone-step-3.jpg",
+      "step_name": "Build the rotary dial",
+      "visible_job": "Adds exactly ten evenly spaced finger holes, an inner ring, one blank center plate, and one small finger stop inside the established dial housing.",
+      "introduces": [
+        "ten-hole rotary dial and center plate"
+      ],
+      "requires_prior_elements": [
+        "complete rotary telephone silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/vintage-rotary-telephone-step-4.jpg",
+      "step_name": "Connect the telephone hardware",
+      "visible_job": "Adds mouthpiece and earpiece seam rings, cradle joints, base-panel seams, two small screws, exactly two clear cord loops, one loose connecting curve, and one broken graphite cast shadow.",
+      "introduces": [
+        "handset seams, base hardware, cord loops, and shadow"
+      ],
+      "requires_prior_elements": [
+        "complete rotary telephone silhouette",
+        "ten-hole rotary dial and center plate"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/vintage-rotary-telephone-step-5.jpg",
+      "step_name": "Shade the bakelite and brass",
+      "visible_job": "Models the established form with graphite, muted burgundy on the handset and base, muted brass on the dial ring and small hardware, charcoal on the cord and deep accents, and preserved paper highlights.",
+      "introduces": [
+        "graphite modeling and restrained telephone color"
+      ],
+      "requires_prior_elements": [
+        "complete rotary telephone silhouette",
+        "ten-hole rotary dial and center plate",
+        "handset seams, base hardware, cord loops, and shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Settle the vintage telephone",
+    "asset": "assets/vintage-rotary-telephone-finished-v1.jpg",
+    "visible_job": "Only strengthens the established handset, end caps, cradle, base, ten-hole dial, blank center plate, finger stop, two clear cord loops and loose connecting curve, hardware, restrained colors, paper highlights, and broken shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "small overlap clarifications within existing guides",
+      "restrained graphite value strengthening",
+      "restrained colored-pencil strengthening",
+      "selective eraser highlights",
+      "minor edge cleanup"
+    ]
+  },
+  "rejection_checks": [
+    "The same base perspective, handset curve, dial position, cord route, crop, and scale must persist through all six panels.",
+    "Exactly ten dial holes, two handset end caps, two cradle forks, two clear cord loops and one loose connecting curve, all hardware, color areas, paper highlights, and the broken shadow must appear before the final panel and persist through the finish.",
+    "No numbers, letters, brand mark, logo, extra telephone, desk props, wall, room scene, decorative background, or final-only motif may appear.",
+    "No adjacent frame may look unchanged at card size, and the finish must remain a believable 25-30 minute handmade sketch rather than glossy product illustration."
+  ]
+}

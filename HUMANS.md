@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-28
+- Date: 2026-07-29
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-27 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-28 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,28 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-29 daily automation added current `farm-windmill` (July 29 /
+  Day 089) and honest archive `vintage-rotary-telephone` (May 2 / Day 001).
+  The windmill keeps one twelve-blade rotor, hub, tail vane, four-legged
+  lattice tower, X-bracing, grass, and shadow stable through a restrained
+  steel-blue/rust pencil finish; it rates 9.5/10 for crisp silhouette,
+  convincing structure, tactile graphite, and a well-paced 25-minute process.
+  The phone keeps one broad handset, two end caps, two cradle forks, ten-hole
+  rotary dial, blank center plate, finger stop, two clear cord coils with a
+  loose lower curve, two screws, and burgundy/brass pencil; it rates 9.4/10
+  for unmistakable vintage character, stable perspective, material texture,
+  and an attainable cumulative sequence.
+- The phone used the documented fallback after two three-loop cord variants
+  remained visually ambiguous: the plan was simplified before the approved
+  regeneration, and both superseded sheets stay private. Both approved
+  six-panel raster contact sheets, cropped JPG masters, WebP derivatives,
+  social cards, process plans, HowTo data, frame deltas, links, asset
+  accounting, lab privacy, and diff checks passed. Cove's expired browser
+  certificate required the documented localhost:4173 fallback for 1440x1000
+  and 390x844 rendered QA; the homepage, library, and both tutorials had no
+  horizontal overflow, broken loaded lesson images, invalid JSON-LD, empty
+  step-image alts, or public lab links. The temporary two-tutorial-per-site
+  backfill cadence remains active.
 - 2026-07-28 owner correction keeps `a mermaid` on one hero headline line.
   Mirrored headline guards now collapse compact phrases of 12 or fewer
   non-space characters, reject one-character or article-only manual lines, and

@@ -73,6 +73,9 @@
       "date": "2026-07-16",
       "note": "Approved six-panel pencil contact sheet was cropped and wired into the July 16 tutorial after process and image review."
     },
+    "farm-windmill": {
+      "status": "published"
+    },
     "folded-camp-map": {
       "status": "published"
     },
@@ -290,6 +293,10 @@
     },
     "vintage-roller-skate": {
       "status": "published"
+    },
+    "vintage-rotary-telephone": {
+      "status": "published",
+      "note": "Approved ten-hole dial and two-coil cord contact sheet promoted as the honest 2026-05-02 archive lesson; private cord-loop variants document the fallback review."
     },
     "vintage-travel-suitcase": {
       "status": "published"

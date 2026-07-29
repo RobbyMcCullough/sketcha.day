@@ -2,21 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://sketcha.day/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://sketcha.day/about.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-07-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://sketcha.day/library.html</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sketcha.day/tutorials/farm-windmill.html</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/farm-windmill-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/farm-windmill-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/farm-windmill-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/farm-windmill-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/farm-windmill-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/farm-windmill-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://sketcha.day/tutorials/seated-mermaid-on-a-rock.html</loc>
@@ -2077,6 +2101,30 @@
     </image:image>
     <image:image>
       <image:loc>https://sketcha.day/assets/vintage-desk-globe-step-5.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sketcha.day/tutorials/vintage-rotary-telephone.html</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-rotary-telephone-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-rotary-telephone-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-rotary-telephone-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-rotary-telephone-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-rotary-telephone-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-rotary-telephone-step-5.webp</image:loc>
     </image:image>
   </url>
 </urlset>
