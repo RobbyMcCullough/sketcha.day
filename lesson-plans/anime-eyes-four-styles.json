@@ -1,0 +1,153 @@
+{
+  "slug": "anime-eyes-four-styles",
+  "finished": "assets/anime-eyes-four-styles-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Eight-panel built-in image-generation contact sheet reviewed as one cumulative pencil process before cropping.",
+    "notes": "Owner selected the rising-query subject 'how to draw anime eyes' on 2026-07-30. The sheet must keep one centered four-pair practice layout: soft rounded, sharp action, sleepy half-lidded, and surprised chibi. No labels, faces, hair, text, panel numbers, glossy digital rendering, or final-only anatomy."
+  },
+  "process_strategy": "Lock four eye-pair positions with pale guides, build all eight lids before any iris detail, establish distinct iris and expression geometry for every style, then apply graphite tone only to shapes already present so the final practice sheet remains cumulative and drawable.",
+  "final_elements": [
+    {
+      "name": "four eye-pair baselines, center marks, and iris-placement guides",
+      "introduced_by_step": 1,
+      "description": "Pale graphite guides reserve a stable two-by-two arrangement for four matched eye pairs and their iris centers."
+    },
+    {
+      "name": "eight upper lids and eight lower lids in four distinct styles",
+      "introduced_by_step": 2,
+      "description": "Soft rounded, sharp action, sleepy half-lidded, and surprised chibi lid shapes establish four readable eye-style silhouettes."
+    },
+    {
+      "name": "eight irises with style-specific size and crop",
+      "introduced_by_step": 3,
+      "description": "Each matched pair receives irises sized and cropped to support its existing lid style."
+    },
+    {
+      "name": "eight pupils and paired highlight shapes",
+      "introduced_by_step": 4,
+      "description": "Pupils share a consistent gaze while simple paired highlight shapes remain open paper."
+    },
+    {
+      "name": "lash weight, eyelid folds, and four eyebrow expressions",
+      "introduced_by_step": 5,
+      "description": "Line-weight and brow changes clarify the mood of each already established eye pair without adding faces."
+    },
+    {
+      "name": "style-specific iris rings, gradient hatch maps, and lower-lid accents",
+      "introduced_by_step": 6,
+      "description": "Simple internal rings, planned graphite hatch zones, and restrained lower-lid accents distinguish the four styles."
+    },
+    {
+      "name": "graphite iris values, lid shadows, paper highlights, and soft practice-sheet shadow",
+      "introduced_by_step": 7,
+      "description": "Visible pencil tone deepens the existing irises and lids while preserving bright paper highlights and a light grounding shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/anime-eyes-four-styles-step-1.jpg",
+      "step_name": "Map four eye pairs",
+      "visible_job": "Places four pale baselines, paired center ticks, lid-height guides, and eight iris-placement circles in one fixed two-by-two practice layout.",
+      "introduces": [
+        "four eye-pair baselines, center marks, and iris-placement guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/anime-eyes-four-styles-step-2.jpg",
+      "step_name": "Shape four lid styles",
+      "visible_job": "Wraps the guides with eight upper lids and eight lower lids: soft rounded, sharp action, sleepy half-lidded, and surprised chibi.",
+      "introduces": [
+        "eight upper lids and eight lower lids in four distinct styles"
+      ],
+      "requires_prior_elements": [
+        "four eye-pair baselines, center marks, and iris-placement guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/anime-eyes-four-styles-step-3.jpg",
+      "step_name": "Fit the irises",
+      "visible_job": "Adds eight iris circles, varying their size and lid overlap to match the four existing eye silhouettes.",
+      "introduces": [
+        "eight irises with style-specific size and crop"
+      ],
+      "requires_prior_elements": [
+        "four eye-pair baselines, center marks, and iris-placement guides",
+        "eight upper lids and eight lower lids in four distinct styles"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/anime-eyes-four-styles-step-4.jpg",
+      "step_name": "Aim pupils and highlights",
+      "visible_job": "Adds eight pupils aimed in one consistent direction and reserves simple paired paper-highlight shapes inside every established iris.",
+      "introduces": [
+        "eight pupils and paired highlight shapes"
+      ],
+      "requires_prior_elements": [
+        "eight irises with style-specific size and crop"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/anime-eyes-four-styles-step-5.jpg",
+      "step_name": "Set lashes and expressions",
+      "visible_job": "Varies upper-lid weight, adds restrained lashes and folds, and places four eyebrow pairs that reinforce soft, focused, sleepy, and surprised moods.",
+      "introduces": [
+        "lash weight, eyelid folds, and four eyebrow expressions"
+      ],
+      "requires_prior_elements": [
+        "eight upper lids and eight lower lids in four distinct styles"
+      ]
+    },
+    {
+      "step": 6,
+      "asset": "assets/anime-eyes-four-styles-step-6.jpg",
+      "step_name": "Design the iris patterns",
+      "visible_job": "Adds style-specific inner rings, simple gradient hatch maps, and restrained lower-lid accents to the established eyes.",
+      "introduces": [
+        "style-specific iris rings, gradient hatch maps, and lower-lid accents"
+      ],
+      "requires_prior_elements": [
+        "eight irises with style-specific size and crop",
+        "eight pupils and paired highlight shapes",
+        "lash weight, eyelid folds, and four eyebrow expressions"
+      ]
+    },
+    {
+      "step": 7,
+      "asset": "assets/anime-eyes-four-styles-step-7.jpg",
+      "step_name": "Shade without flattening",
+      "visible_job": "Adds graphite iris values, small lid shadows, open paper highlights, and a soft broken practice-sheet shadow without changing any eye shape.",
+      "introduces": [
+        "graphite iris values, lid shadows, paper highlights, and soft practice-sheet shadow"
+      ],
+      "requires_prior_elements": [
+        "eight upper lids and eight lower lids in four distinct styles",
+        "eight irises with style-specific size and crop",
+        "eight pupils and paired highlight shapes",
+        "style-specific iris rings, gradient hatch maps, and lower-lid accents"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the four-eye study",
+    "asset": "assets/anime-eyes-four-styles-finished-v1.jpg",
+    "visible_job": "Only strengthens established keeper lines, graphite iris values, lid shadows, paper highlights, and the soft broken practice-sheet shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "graphite value deepening inside established irises and lid shadows",
+      "minor paper-highlight edge clarification",
+      "light cleanup of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "No lid, iris, pupil, highlight, lash group, fold, eyebrow, iris pattern, shading zone, or shadow may first appear in the final panel.",
+    "The same four matched eye pairs must stay in the same two-by-two positions, scale, spacing, and gaze throughout all eight panels.",
+    "Reject labels, numbers, arrows, faces, hair, noses, mouths, text, signatures, watermarks, glossy digital gradients, photoreal eyes, or vector-like linework.",
+    "Every dark pre-final contour must survive in the finish unless it is explicitly a pale erasable guide."
+  ]
+}

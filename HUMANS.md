@@ -782,6 +782,15 @@
   proportional drift across early frames.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
+
+## 2026-07-30 Daily Lessons
+- Published the owner-requested `anime-eyes-four-styles` as the July 30 / Day
+  091 current lesson and `cast-iron-skillet-with-egg` as the honest May 1 / Day
+  001 archive lesson. Finished-image ratings were 9.4/10 and 9.5/10.
+- Both cumulative raster contact sheets, crops, generated pages, structured
+  data, and internal links passed readiness plus Cove desktop/mobile review.
+- The temporary two-tutorial-per-site backfill cadence remains active until the
+  owner says otherwise.
 - July 1, 2026 follow-up: added `scripts/check-daily-publish-slots.py` and
   updated `AGENTS.md`/`DAILY-PUBLISHING.md` so the daily automation stops before
   choosing subjects or generating art when the current publish date is already

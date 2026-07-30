@@ -1,0 +1,117 @@
+{
+  "slug": "cast-iron-skillet-with-egg",
+  "finished": "assets/cast-iron-skillet-with-egg-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Six-panel built-in image-generation contact sheet reviewed as one cumulative pencil process before cropping.",
+    "notes": "Honest 2026-05-01 archive study. The sheet must keep one three-quarter cast-iron skillet, one fried egg, exactly two handle rivets, one hanging hole, one pan rim, restrained wear marks, and one broken shadow stable. No countertop scene, utensils, food garnish, text, or final-only structure."
+  },
+  "process_strategy": "Lock the skillet ellipse, wall depth, handle axis, egg footprint, and shadow first; wrap them with one stable heavy pan silhouette; establish the egg, hardware, and wear before adding graphite and restrained yolk color only to existing forms.",
+  "final_elements": [
+    {
+      "name": "pan ellipse, wall-depth guide, handle axis, egg reserve, and shadow footprint",
+      "introduced_by_step": 1,
+      "description": "Pale construction fixes one three-quarter skillet, its long handle, the egg's overlap, and a broken cast-shadow area."
+    },
+    {
+      "name": "complete skillet bowl, inner rim, long handle, neck, and hanging hole silhouette",
+      "introduced_by_step": 2,
+      "description": "A heavy cast-iron contour wraps the guides without drawing detail beneath the reserved egg footprint."
+    },
+    {
+      "name": "one fried-egg white contour and one round yolk",
+      "introduced_by_step": 3,
+      "description": "One irregular egg white sits inside the pan rim around one round, slightly raised yolk."
+    },
+    {
+      "name": "two handle rivets, rim accents, egg-white folds, and restrained pan wear marks",
+      "introduced_by_step": 4,
+      "description": "Countable hardware and a few surface marks clarify the established skillet and egg without adding props."
+    },
+    {
+      "name": "cast-iron graphite values, pale-gold yolk pencil, egg shadows, paper highlights, and broken cast shadow",
+      "introduced_by_step": 5,
+      "description": "Directional graphite makes the heavy pan read as dark iron while restrained color and open paper keep the egg light."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cast-iron-skillet-with-egg-step-1.jpg",
+      "step_name": "Set the skillet ellipse",
+      "visible_job": "Places one pale pan ellipse, a second depth guide, long handle axis and width, egg reserve, and broken shadow footprint at a fixed three-quarter angle.",
+      "introduces": [
+        "pan ellipse, wall-depth guide, handle axis, egg reserve, and shadow footprint"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cast-iron-skillet-with-egg-step-2.jpg",
+      "step_name": "Build the heavy pan",
+      "visible_job": "Wraps the construction with the complete skillet bowl, inner rim, wall depth, long handle, narrow neck, and hanging-hole contour while keeping the egg footprint open.",
+      "introduces": [
+        "complete skillet bowl, inner rim, long handle, neck, and hanging hole silhouette"
+      ],
+      "requires_prior_elements": [
+        "pan ellipse, wall-depth guide, handle axis, egg reserve, and shadow footprint"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cast-iron-skillet-with-egg-step-3.jpg",
+      "step_name": "Nest the fried egg",
+      "visible_job": "Adds one irregular fried-egg white contour and one round yolk inside the reserved pan area without changing the skillet perspective.",
+      "introduces": [
+        "one fried-egg white contour and one round yolk"
+      ],
+      "requires_prior_elements": [
+        "pan ellipse, wall-depth guide, handle axis, egg reserve, and shadow footprint",
+        "complete skillet bowl, inner rim, long handle, neck, and hanging hole silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cast-iron-skillet-with-egg-step-4.jpg",
+      "step_name": "Add iron and egg details",
+      "visible_job": "Adds exactly two handle rivets, small rim accents, a few egg-white fold lines, and restrained wear marks to the already drawn forms.",
+      "introduces": [
+        "two handle rivets, rim accents, egg-white folds, and restrained pan wear marks"
+      ],
+      "requires_prior_elements": [
+        "complete skillet bowl, inner rim, long handle, neck, and hanging hole silhouette",
+        "one fried-egg white contour and one round yolk"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cast-iron-skillet-with-egg-step-5.jpg",
+      "step_name": "Shade the iron and yolk",
+      "visible_job": "Adds directional cast-iron graphite values, pale-gold yolk pencil, soft egg shadows, paper highlights, and one broken cast shadow to established shapes.",
+      "introduces": [
+        "cast-iron graphite values, pale-gold yolk pencil, egg shadows, paper highlights, and broken cast shadow"
+      ],
+      "requires_prior_elements": [
+        "complete skillet bowl, inner rim, long handle, neck, and hanging hole silhouette",
+        "one fried-egg white contour and one round yolk",
+        "two handle rivets, rim accents, egg-white folds, and restrained pan wear marks"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Settle the breakfast sketch",
+    "asset": "assets/cast-iron-skillet-with-egg-finished-v1.jpg",
+    "visible_job": "Only strengthens the established skillet, handle, hardware, egg, wear marks, graphite values, pale-gold color, highlights, and broken shadow.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "graphite value deepening on established iron and egg shadows",
+      "restrained pale-gold yolk strengthening",
+      "minor paper-highlight and shadow-edge clarification"
+    ]
+  },
+  "rejection_checks": [
+    "No rim, handle, hanging hole, rivet, egg contour, yolk, fold, wear mark, color area, highlight, or shadow may first appear in the final panel.",
+    "The same pan ellipse, wall depth, handle angle, one egg, two rivets, and crop must remain stable in all six panels.",
+    "Reject extra eggs, bacon, toast, utensils, stovetop or countertop scenery, glossy photoreal food, smooth digital gradients, text, decorative borders, or vector-like linework.",
+    "Every dark pre-final contour must survive in the finish unless it is explicitly a pale erasable construction guide."
+  ]
+}
