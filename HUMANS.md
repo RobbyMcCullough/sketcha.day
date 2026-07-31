@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-29
+- Date: 2026-07-31
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-28 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-30 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,26 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-07-31 daily automation added current
+  `suspension-bridge-in-perspective` (July 31 / Day 093) and honest archive
+  `barn-owl-on-a-fence-post` (April 30 / Day 001). Both use reviewed
+  six-panel handmade raster pencil contact sheets, cropped JPG masters, WebP
+  derivatives, social cards, and explicit process plans. The bridge keeps two
+  portal towers, one receding deck, main cables, a stable suspender rhythm,
+  water, and restrained rust-red/blue-gray pencil; it rates 9.5/10 for strong
+  perspective, thumbnail readability, tactile sketch quality, and attainable
+  structural detail. The owl keeps one heart-shaped face, two folded wings,
+  talons gripping one weathered fence post, feather groups, grass, and a
+  broken shadow; it rates 9.6/10 for immediate character, anatomy, texture,
+  composition, and a clear cumulative process.
+- Both readiness runs passed ledger, process-plan, frame-delta, derivative,
+  social-card, JSON-LD, internal-link, unused-asset, lab-privacy, and diff
+  checks. Cove's expired certificate required the documented localhost:4173
+  fallback for 1440x1000 and 390x844 rendered QA; the homepage, library, and
+  both tutorials had no horizontal overflow, broken loaded lesson images,
+  empty lesson-image alts, invalid JSON-LD, or public lab links. The temporary
+  two-tutorial-per-site backfill cadence remains active until the owner says
+  otherwise.
 - 2026-07-29 owner correction promoted `vintage-rotary-telephone` to the
   current July 29 / Day 089 lesson and moved `farm-windmill` to the honest
   May 2 / Day 001 archive slot. The phone artwork is unchanged and remains

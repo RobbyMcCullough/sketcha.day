@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a suspension bridge in perspective</title>
+      <link>https://sketcha.day/tutorials/suspension-bridge-in-perspective.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/suspension-bridge-in-perspective.html</guid>
+      <pubDate>Fri, 31 Jul 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a suspension bridge in perspective using a horizon, vanishing point, two portal towers, a receding deck, curved main cables, vertical suspenders, shoreline, water, reflection, graphite, and restrained colored pencil.</description>
+      <media:content url="https://sketcha.day/assets/suspension-bridge-in-perspective-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw anime eyes in four styles</title>
       <link>https://sketcha.day/tutorials/anime-eyes-four-styles.html</link>
@@ -734,6 +742,14 @@
       <pubDate>Fri, 01 May 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a cast-iron skillet with a fried egg using a three-quarter pan ellipse, wall depth, long handle, hanging hole, two rivets, egg white, yolk, graphite values, and restrained colored pencil.</description>
       <media:content url="https://sketcha.day/assets/cast-iron-skillet-with-egg-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a barn owl on a fence post</title>
+      <link>https://sketcha.day/tutorials/barn-owl-on-a-fence-post.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/barn-owl-on-a-fence-post.html</guid>
+      <pubDate>Thu, 30 Apr 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a barn owl on a fence post using a tilted head oval, body egg, heart-shaped facial disk, folded wings, eyes, beak, talons, feather groups, wood grain, graphite, and restrained colored pencil.</description>
+      <media:content url="https://sketcha.day/assets/barn-owl-on-a-fence-post-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

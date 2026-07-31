@@ -1,0 +1,117 @@
+{
+  "slug": "barn-owl-on-a-fence-post",
+  "finished": "assets/barn-owl-on-a-fence-post-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel built-in image-generation contact sheet showing one consistent barn owl progressing from pale construction to a restrained graphite and colored-pencil finish.",
+    "notes": "Keep one front-facing barn owl with its head tilted slightly toward the viewer's left, a heart-shaped facial disk, two dark eyes, one small hooked beak, two folded wings, two taloned feet gripping one weathered square fence post, a low grass line, and one broken shadow stable. No extra bird, branch, moon, stars, barn, text, labels, arrows, numbers, signature, watermark, or final-only anatomy."
+  },
+  "process_strategy": "Lock the owl's head tilt, body egg, folded-wing routes, feet, post top, grass, and shadow in pale construction; establish the full silhouette and every facial and feather landmark before shading; then add only graphite, warm tan, muted rust, and cream pencil to the forms already present.",
+  "final_elements": [
+    {
+      "name": "head oval, body egg, center axis, wing routes, feet, post, grass, and shadow guides",
+      "introduced_by_step": 1,
+      "description": "Pale graphite construction fixes one slight head tilt, a centered body, two folded-wing paths, two foot placements, one square post, a low grass line, and one broken shadow footprint."
+    },
+    {
+      "name": "complete owl silhouette, heart-shaped facial disk, two folded wings, and post top",
+      "introduced_by_step": 2,
+      "description": "The outside contour, heart-shaped face, folded wings, and weathered post top turn the guides into one readable perched barn owl."
+    },
+    {
+      "name": "two eyes, one hooked beak, brow planes, and two taloned feet",
+      "introduced_by_step": 3,
+      "description": "Two dark eye openings, a small hooked beak, simple brow planes, and both gripping feet establish the owl's anatomy and alert expression."
+    },
+    {
+      "name": "facial feather rays, wing feather groups, chest marks, post grain, grass, and broken shadow",
+      "introduced_by_step": 4,
+      "description": "Broad feather rhythms and a few material marks add species character and ground the owl without over-rendering the plumage."
+    },
+    {
+      "name": "graphite plumage values, warm-tan and muted-rust pencil, cream highlights, and deeper grounding tone",
+      "introduced_by_step": 5,
+      "description": "Directional graphite and restrained colored pencil separate the facial disk, wings, chest, talons, wood, grass, and shadow while preserving paper tooth."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/barn-owl-on-a-fence-post-step-1.jpg",
+      "step_name": "Balance the owl and post",
+      "visible_job": "Places a tilted head oval, body egg, center axis, two folded-wing routes, two foot marks, one square fence-post top, a low grass line, and one broken shadow footprint in pale graphite.",
+      "introduces": [
+        "head oval, body egg, center axis, wing routes, feet, post, grass, and shadow guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/barn-owl-on-a-fence-post-step-2.jpg",
+      "step_name": "Shape the owl silhouette",
+      "visible_job": "Wraps the guides with the complete owl contour, heart-shaped facial disk, two folded wings, and the visible top and sides of the weathered fence post.",
+      "introduces": [
+        "complete owl silhouette, heart-shaped facial disk, two folded wings, and post top"
+      ],
+      "requires_prior_elements": [
+        "head oval, body egg, center axis, wing routes, feet, post, grass, and shadow guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/barn-owl-on-a-fence-post-step-3.jpg",
+      "step_name": "Place the face and talons",
+      "visible_job": "Adds two eyes, one small hooked beak, simple brow planes, and two taloned feet gripping the established post top.",
+      "introduces": [
+        "two eyes, one hooked beak, brow planes, and two taloned feet"
+      ],
+      "requires_prior_elements": [
+        "complete owl silhouette, heart-shaped facial disk, two folded wings, and post top"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/barn-owl-on-a-fence-post-step-4.jpg",
+      "step_name": "Map feathers and weathered wood",
+      "visible_job": "Adds broad facial feather rays, grouped wing and chest markings, a few post-grain cracks, the low grass tufts, and one broken cast shadow.",
+      "introduces": [
+        "facial feather rays, wing feather groups, chest marks, post grain, grass, and broken shadow"
+      ],
+      "requires_prior_elements": [
+        "complete owl silhouette, heart-shaped facial disk, two folded wings, and post top",
+        "two eyes, one hooked beak, brow planes, and two taloned feet"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/barn-owl-on-a-fence-post-step-5.jpg",
+      "step_name": "Shade the quiet plumage",
+      "visible_job": "Layers graphite into the established plumage, adds warm tan and muted rust to the wings and wood, preserves cream paper in the facial disk, and deepens the grass and broken shadow.",
+      "introduces": [
+        "graphite plumage values, warm-tan and muted-rust pencil, cream highlights, and deeper grounding tone"
+      ],
+      "requires_prior_elements": [
+        "complete owl silhouette, heart-shaped facial disk, two folded wings, and post top",
+        "two eyes, one hooked beak, brow planes, and two taloned feet",
+        "facial feather rays, wing feather groups, chest marks, post grain, grass, and broken shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Settle the watchful owl",
+    "asset": "assets/barn-owl-on-a-fence-post-finished-v1.jpg",
+    "visible_job": "Only strengthens established keeper contours, deepens existing graphite and colored-pencil values, clarifies cream highlights, and softens pale construction guides without changing the owl's anatomy or pose.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "graphite value deepening inside established facial, wing, chest, wood, grass, and shadow shapes",
+      "restrained warm-tan and muted-rust colored-pencil layering",
+      "minor cream paper-highlight edge clarification",
+      "light cleanup of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "The same front-facing owl, slight leftward head tilt, body size, folded-wing routes, foot placement, post crop, grass line, and shadow footprint must persist through all six panels.",
+    "Exactly one owl, one heart-shaped facial disk, two eyes, one beak, two folded wings, two taloned feet, and one fence post must appear before the final panel and persist.",
+    "No extra bird, branch, moon, stars, barn, scenery, text, label, arrow, number, signature, watermark, or final-only anatomy may appear.",
+    "The finish must retain visible graphite and colored-pencil grain rather than photoreal feathers, glossy eyes, airbrushed shading, or vector-like linework, and every dark pre-final line must survive unless it is a pale erasable guide."
+  ]
+}

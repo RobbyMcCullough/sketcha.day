@@ -1,0 +1,118 @@
+{
+  "slug": "suspension-bridge-in-perspective",
+  "finished": "assets/suspension-bridge-in-perspective-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel built-in image-generation contact sheet showing one consistent suspension bridge progressing from pale perspective construction to a restrained graphite and colored-pencil finish.",
+    "notes": "Keep one low three-quarter bridge view with two rectangular towers, one deck narrowing toward a right-side vanishing point, two main cable arcs, a consistent rhythm of visible vertical suspender lines, two anchor points, a distant shoreline, calm water bands, and one broken reflection stable. No named bridge, skyline, cars, people, signs, lettering, labels, arrows, numbers, signature, watermark, or final-only structure."
+  },
+  "process_strategy": "Lock the horizon, deck wedge, two tower boxes, cable arcs, anchors, shoreline, and water footprint in pale construction; build every structural contour and the full suspender rhythm before shading; then add only restrained graphite, rust-red pencil, blue-gray water, and paper highlights to the established bridge.",
+  "final_elements": [
+    {
+      "name": "horizon, vanishing point, deck wedge, tower boxes, cable arcs, shoreline, and reflection guides",
+      "introduced_by_step": 1,
+      "description": "Pale graphite construction fixes one low three-quarter view, a deck narrowing to the right, two tower placements, two main cable arcs, a distant shore, calm water, and a broken reflection footprint."
+    },
+    {
+      "name": "two complete bridge towers, receding deck, rail edges, and two anchor points",
+      "introduced_by_step": 2,
+      "description": "Two rectangular portal towers and one tapered deck establish the bridge silhouette, with both rail edges and cable anchors aligned to the same perspective."
+    },
+    {
+      "name": "two main suspension cables and a consistent rhythm of vertical suspenders",
+      "introduced_by_step": 3,
+      "description": "Two smooth cable arcs connect the tower tops and anchors, while a clear sequence of vertical lines ties the established cables to the deck."
+    },
+    {
+      "name": "tower crossbars, deck seams, shoreline shapes, calm water bands, and broken reflection",
+      "introduced_by_step": 4,
+      "description": "Simple structural crossbars and deck seams clarify the bridge while a low shoreline, broad water bands, and a broken reflection complete the setting."
+    },
+    {
+      "name": "graphite structure values, rust-red bridge color, blue-gray water, and open paper highlights",
+      "introduced_by_step": 5,
+      "description": "Directional graphite and restrained colored pencil separate the bridge, distance, water, and reflection without hiding the handmade construction."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/suspension-bridge-in-perspective-step-1.jpg",
+      "step_name": "Set the bridge perspective",
+      "visible_job": "Places the horizon, right-side vanishing point, receding deck wedge, two tower boxes, main cable arcs, both anchors, distant shoreline, calm water bands, and a broken reflection footprint in pale graphite.",
+      "introduces": [
+        "horizon, vanishing point, deck wedge, tower boxes, cable arcs, shoreline, and reflection guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/suspension-bridge-in-perspective-step-2.jpg",
+      "step_name": "Build towers and deck",
+      "visible_job": "Wraps the guides with two complete rectangular portal towers, the receding deck, both rail edges, and two cable anchor points.",
+      "introduces": [
+        "two complete bridge towers, receding deck, rail edges, and two anchor points"
+      ],
+      "requires_prior_elements": [
+        "horizon, vanishing point, deck wedge, tower boxes, cable arcs, shoreline, and reflection guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/suspension-bridge-in-perspective-step-3.jpg",
+      "step_name": "Hang the cables",
+      "visible_job": "Draws two smooth main cable arcs through the tower tops and anchors, then adds a clear rhythm of visible vertical suspender lines down to the established deck.",
+      "introduces": [
+        "two main suspension cables and a consistent rhythm of vertical suspenders"
+      ],
+      "requires_prior_elements": [
+        "two complete bridge towers, receding deck, rail edges, and two anchor points"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/suspension-bridge-in-perspective-step-4.jpg",
+      "step_name": "Add structure and water",
+      "visible_job": "Adds tower crossbars, a few deck seams, the distant shoreline shapes, broad calm water bands, and one broken reflection under the bridge.",
+      "introduces": [
+        "tower crossbars, deck seams, shoreline shapes, calm water bands, and broken reflection"
+      ],
+      "requires_prior_elements": [
+        "horizon, vanishing point, deck wedge, tower boxes, cable arcs, shoreline, and reflection guides",
+        "two complete bridge towers, receding deck, rail edges, and two anchor points",
+        "two main suspension cables and a consistent rhythm of vertical suspenders"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/suspension-bridge-in-perspective-step-5.jpg",
+      "step_name": "Shade the span",
+      "visible_job": "Layers graphite along the established structure, adds restrained rust-red pencil to the bridge, blue-gray pencil to the water, and preserves open paper highlights on cables and ripples.",
+      "introduces": [
+        "graphite structure values, rust-red bridge color, blue-gray water, and open paper highlights"
+      ],
+      "requires_prior_elements": [
+        "two complete bridge towers, receding deck, rail edges, and two anchor points",
+        "two main suspension cables and a consistent rhythm of vertical suspenders",
+        "tower crossbars, deck seams, shoreline shapes, calm water bands, and broken reflection"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Finish the suspended span",
+    "asset": "assets/suspension-bridge-in-perspective-finished-v1.jpg",
+    "visible_job": "Only strengthens established keeper lines, deepens existing graphite and colored-pencil values, clarifies paper highlights, and softens pale construction guides without changing the bridge geometry.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "graphite value deepening inside established bridge, shore, water, and reflection shapes",
+      "restrained rust-red and blue-gray colored-pencil layering",
+      "minor paper-highlight edge clarification",
+      "light cleanup of pale perspective guides"
+    ]
+  },
+  "rejection_checks": [
+    "The same low three-quarter bridge, two towers, deck taper, cable routes, anchors, shoreline, water crop, and reflection footprint must persist through all six panels.",
+    "Exactly two tower portals, two main cable arcs, two anchors, and the established vertical suspender rhythm must appear before the final panel and persist.",
+    "No named landmark, skyline, car, person, boat, sign, word, label, arrow, number, signature, watermark, or final-only structure may appear.",
+    "The finish must retain visible graphite and colored-pencil grain rather than polished architectural rendering or vector-like linework, and every dark pre-final line must survive unless it is a pale erasable guide."
+  ]
+}
