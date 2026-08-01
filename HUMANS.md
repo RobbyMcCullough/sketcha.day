@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-07-31
+- Date: 2026-08-01
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-30 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-07-31 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,27 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-08-01 daily automation added current `lobster-with-raised-claw`
+  (August 1 / Day 095) and honest archive `acorn-with-oak-leaves` (April 29 /
+  Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,
+  cropped JPG masters, WebP derivatives, social cards, and explicit process
+  plans. The lobster keeps one stable diagonal silhouette, a large raised claw,
+  smaller lower claw, two antennae, seven visible walking legs with the eighth
+  hidden by the raised claw, a segmented body, five-part tail fan, and broken
+  shadow; it rates 9.6/10 for immediate character, convincing anatomy,
+  thumbnail readability, tactile pencil, and a clear 25-minute progression.
+  The acorn keeps one plump nut, one scaled cap, one twig, exactly two lobed oak
+  leaves, veins, restrained autumn color, and a broken shadow; it rates 9.5/10
+  for its crisp silhouette, coherent texture lesson, balanced composition, and
+  attainable 20-minute sequence.
+- Both readiness runs passed ledger, process-plan, frame-delta, derivative,
+  social-card, JSON-LD, internal-link, unused-asset, lab-privacy, and diff
+  checks. Direct Cove QA at 1440x1000 and 390x844 covered the homepage,
+  library, and both tutorials with no horizontal overflow, broken loaded
+  lesson images, missing image alts, invalid JSON-LD, or public lab links.
+  Screenshots are under `/tmp/daily-sketch-doodle-qa-2026-08-01/`. The
+  temporary two-tutorial-per-site backfill cadence remains active until the
+  owner says otherwise.
 - 2026-07-31 daily automation added current
   `suspension-bridge-in-perspective` (July 31 / Day 093) and honest archive
   `barn-owl-on-a-fence-post` (April 30 / Day 001). Both use reviewed

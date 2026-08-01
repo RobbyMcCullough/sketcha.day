@@ -1,0 +1,117 @@
+{
+  "slug": "acorn-with-oak-leaves",
+  "finished": "assets/acorn-with-oak-leaves-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel built-in image-generation contact sheet showing one consistent acorn and two oak leaves progressing from pale construction to a restrained graphite and colored-pencil finish.",
+    "notes": "Keep one plump acorn tilted toward the lower left, one textured cup cap, one short twig, exactly two lobed oak leaves, the larger leaf behind the acorn and the smaller leaf opening to the upper right, simple veins, and one broken shadow stable. No second acorn, squirrel, hand, basket, lettering, labels, arrows, numbers, signature, watermark, or final-only botanical structure."
+  },
+  "process_strategy": "Lock the acorn egg, cap ellipse and overlap, twig route, two leaf envelopes, vein axes, and shadow in pale construction; establish both complete leaf silhouettes and every cap scale before shading; then add only graphite, warm umber, muted olive, and ochre pencil to the existing forms.",
+  "final_elements": [
+    {
+      "name": "acorn egg, cap ellipse, twig route, two leaf envelopes, vein axes, and shadow guides",
+      "introduced_by_step": 1,
+      "description": "Pale graphite construction fixes one tilted acorn, the cap overlap, one short twig, exactly two oak leaves, their main veins, and one broken shadow footprint."
+    },
+    {
+      "name": "complete acorn body, cup cap, twig, and two lobed oak-leaf silhouettes",
+      "introduced_by_step": 2,
+      "description": "The outside contours turn the guides into one readable acorn sprig with a large rear leaf and smaller upper-right leaf."
+    },
+    {
+      "name": "cap scale rows, acorn tip, leaf midribs, side veins, and stem joints",
+      "introduced_by_step": 3,
+      "description": "A staggered cap pattern, pointed acorn tip, branching veins, and clean joints establish the species-specific structure."
+    },
+    {
+      "name": "leaf edge creases, acorn contour hatching, twig grain, and broken shadow",
+      "introduced_by_step": 4,
+      "description": "Sparse texture clarifies the different surfaces and grounds the small still life without filling every quiet paper area."
+    },
+    {
+      "name": "graphite values, warm-umber and ochre acorn pencil, muted-olive leaves, paper highlights, and deeper shadow",
+      "introduced_by_step": 5,
+      "description": "Restrained colored pencil separates the nut, cap, twig, and leaves while visible graphite and open paper preserve a sketchbook finish."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/acorn-with-oak-leaves-step-1.jpg",
+      "step_name": "Place the acorn sprig",
+      "visible_job": "Places one tilted acorn egg, a cap ellipse and overlap line, one short twig route, exactly two leaf envelopes with vein axes, and one broken shadow footprint in pale graphite.",
+      "introduces": [
+        "acorn egg, cap ellipse, twig route, two leaf envelopes, vein axes, and shadow guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/acorn-with-oak-leaves-step-2.jpg",
+      "step_name": "Shape the nut and leaves",
+      "visible_job": "Wraps the guides with the complete acorn body, the overlapping cup cap, the short twig, and two clearly different lobed oak-leaf silhouettes.",
+      "introduces": [
+        "complete acorn body, cup cap, twig, and two lobed oak-leaf silhouettes"
+      ],
+      "requires_prior_elements": [
+        "acorn egg, cap ellipse, twig route, two leaf envelopes, vein axes, and shadow guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/acorn-with-oak-leaves-step-3.jpg",
+      "step_name": "Build scales and veins",
+      "visible_job": "Adds staggered rows of broad cup-cap scales, the small acorn tip, both leaf midribs and side veins, and the visible joints where the stems meet the twig.",
+      "introduces": [
+        "cap scale rows, acorn tip, leaf midribs, side veins, and stem joints"
+      ],
+      "requires_prior_elements": [
+        "complete acorn body, cup cap, twig, and two lobed oak-leaf silhouettes"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/acorn-with-oak-leaves-step-4.jpg",
+      "step_name": "Map the woodland texture",
+      "visible_job": "Adds a few leaf-edge creases, curved hatching on the acorn, short twig-grain marks, and the established broken cast shadow.",
+      "introduces": [
+        "leaf edge creases, acorn contour hatching, twig grain, and broken shadow"
+      ],
+      "requires_prior_elements": [
+        "complete acorn body, cup cap, twig, and two lobed oak-leaf silhouettes",
+        "cap scale rows, acorn tip, leaf midribs, side veins, and stem joints"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/acorn-with-oak-leaves-step-5.jpg",
+      "step_name": "Shade the autumn forms",
+      "visible_job": "Layers graphite into the established forms, adds warm umber and ochre to the acorn and cap, muted olive to both leaves, preserves paper highlights, and deepens the broken shadow.",
+      "introduces": [
+        "graphite values, warm-umber and ochre acorn pencil, muted-olive leaves, paper highlights, and deeper shadow"
+      ],
+      "requires_prior_elements": [
+        "complete acorn body, cup cap, twig, and two lobed oak-leaf silhouettes",
+        "cap scale rows, acorn tip, leaf midribs, side veins, and stem joints",
+        "leaf edge creases, acorn contour hatching, twig grain, and broken shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Settle the oak-sprig finish",
+    "asset": "assets/acorn-with-oak-leaves-finished-v1.jpg",
+    "visible_job": "Only strengthens established keeper contours, deepens existing graphite and colored-pencil values, clarifies paper highlights, and softens pale construction guides without changing the acorn or leaves.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "graphite value deepening inside established acorn, cap, twig, leaf, and shadow shapes",
+      "restrained warm-umber, ochre, and muted-olive colored-pencil layering",
+      "minor paper-highlight edge clarification",
+      "light cleanup of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "The same acorn tilt, cap overlap, twig route, two leaf shapes, vein directions, crop, and shadow footprint must persist through all six panels.",
+    "Exactly one acorn, one cup cap, one short twig, and two lobed oak leaves must appear before the final panel and persist.",
+    "No second acorn, squirrel, hand, basket, scenery, word, label, arrow, number, signature, watermark, or final-only botanical structure may appear.",
+    "The finish must retain visible graphite and colored-pencil grain rather than glossy botanical illustration or vector-like linework, and every dark pre-final line must survive unless it is a pale erasable guide."
+  ]
+}

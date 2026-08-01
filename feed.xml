@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a lobster with one raised claw</title>
+      <link>https://sketcha.day/tutorials/lobster-with-raised-claw.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/lobster-with-raised-claw.html</guid>
+      <pubDate>Sat, 01 Aug 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a lobster with one raised claw using a diagonal body axis, two asymmetrical claws, seven visible walking legs, two antennae, a segmented abdomen, tail fan, shell texture, graphite, and restrained colored pencil.</description>
+      <media:content url="https://sketcha.day/assets/lobster-with-raised-claw-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a suspension bridge in perspective</title>
       <link>https://sketcha.day/tutorials/suspension-bridge-in-perspective.html</link>
@@ -750,6 +758,14 @@
       <pubDate>Thu, 30 Apr 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a barn owl on a fence post using a tilted head oval, body egg, heart-shaped facial disk, folded wings, eyes, beak, talons, feather groups, wood grain, graphite, and restrained colored pencil.</description>
       <media:content url="https://sketcha.day/assets/barn-owl-on-a-fence-post-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw an acorn with oak leaves</title>
+      <link>https://sketcha.day/tutorials/acorn-with-oak-leaves.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/acorn-with-oak-leaves.html</guid>
+      <pubDate>Wed, 29 Apr 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw an acorn with oak leaves using an egg-shaped nut, overlapping cup cap, short twig, two lobed leaf silhouettes, scale rows, branching veins, graphite texture, and restrained colored pencil.</description>
+      <media:content url="https://sketcha.day/assets/acorn-with-oak-leaves-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

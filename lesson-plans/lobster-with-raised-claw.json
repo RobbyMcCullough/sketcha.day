@@ -1,0 +1,118 @@
+{
+  "slug": "lobster-with-raised-claw",
+  "finished": "assets/lobster-with-raised-claw-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "A reviewed six-panel built-in image-generation contact sheet showing one consistent lobster progressing from pale construction to a restrained graphite and coral colored-pencil finish.",
+    "notes": "Keep one full lobster in a slightly angled top view, its head toward the upper right, one larger claw raised, one smaller claw held lower, exactly seven visible walking legs with one front leg hidden behind the raised claw, two long antennae, a segmented abdomen, five-part tail fan, shell markings, and one broken shadow stable. No plate, food, ocean scene, bubbles, extra animal, text, labels, arrows, numbers, signature, watermark, or final-only anatomy."
+  },
+  "process_strategy": "Lock the lobster's diagonal center axis, carapace, abdomen, tail fan, two claw routes, seven visible leg routes, the raised claw's reserved occlusion footprint, antennae, and shadow in pale construction; establish every visible contour and joint before texture or color; then add only graphite, coral-red, muted orange, and cream pencil to the existing shell shapes.",
+  "final_elements": [
+    {
+      "name": "diagonal axis, carapace oval, abdomen blocks, claw routes, seven visible leg routes, antennae, tail fan, and shadow guides",
+      "introduced_by_step": 1,
+      "description": "Pale graphite construction fixes one angled top view, the head and body proportions, one raised and one lower claw, seven visible walking legs with one front leg occluded by the raised claw, two antennae, a five-part tail fan, and one broken shadow footprint."
+    },
+    {
+      "name": "complete carapace, two claws, segmented abdomen silhouette, and five-part tail fan",
+      "introduced_by_step": 2,
+      "description": "The outside contour turns the construction into one readable lobster with asymmetrical claws and a broad tail fan."
+    },
+    {
+      "name": "two eyes, two long antennae, exactly seven visible walking legs, shell bands, and claw joints",
+      "introduced_by_step": 3,
+      "description": "The eyes, antennae, seven visible walking legs, abdomen bands, and claw joints establish the lobster's recognizable anatomy while the raised claw naturally hides one front leg."
+    },
+    {
+      "name": "shell spots, joint creases, tail-fan veins, contour hatching, and broken shadow",
+      "introduced_by_step": 4,
+      "description": "Sparse shell texture and directional hatch marks clarify the hard shell and ground the pose without over-rendering it."
+    },
+    {
+      "name": "graphite shell values, coral-red and muted-orange pencil, cream highlights, and deeper shadow tone",
+      "introduced_by_step": 5,
+      "description": "Restrained colored pencil separates the shell planes and claws while visible graphite and open paper keep the drawing attainable."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/lobster-with-raised-claw-step-1.jpg",
+      "step_name": "Set the lobster gesture",
+      "visible_job": "Places a diagonal center axis, carapace oval, abdomen blocks, one raised and one lower claw route, exactly seven visible leg routes, two antennae, a five-part tail-fan envelope, and one broken shadow footprint in pale graphite while reserving the raised claw's overlap.",
+      "introduces": [
+        "diagonal axis, carapace oval, abdomen blocks, claw routes, seven visible leg routes, antennae, tail fan, and shadow guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/lobster-with-raised-claw-step-2.jpg",
+      "step_name": "Shape the shell and claws",
+      "visible_job": "Wraps the guides with the complete carapace, two distinct claws, the segmented abdomen silhouette, and the five-part tail fan while preserving every appendage route.",
+      "introduces": [
+        "complete carapace, two claws, segmented abdomen silhouette, and five-part tail fan"
+      ],
+      "requires_prior_elements": [
+        "diagonal axis, carapace oval, abdomen blocks, claw routes, seven visible leg routes, antennae, tail fan, and shadow guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/lobster-with-raised-claw-step-3.jpg",
+      "step_name": "Add legs and shell joints",
+      "visible_job": "Adds two eyes, two long antennae, exactly seven visible walking legs around the reserved raised-claw overlap, the abdomen bands, and the joints inside both established claws.",
+      "introduces": [
+        "two eyes, two long antennae, exactly seven visible walking legs, shell bands, and claw joints"
+      ],
+      "requires_prior_elements": [
+        "diagonal axis, carapace oval, abdomen blocks, claw routes, seven visible leg routes, antennae, tail fan, and shadow guides",
+        "complete carapace, two claws, segmented abdomen silhouette, and five-part tail fan"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/lobster-with-raised-claw-step-4.jpg",
+      "step_name": "Map the shell texture",
+      "visible_job": "Adds a few shell spots, leg and claw creases, tail-fan veins, short contour hatching, and the established broken cast shadow.",
+      "introduces": [
+        "shell spots, joint creases, tail-fan veins, contour hatching, and broken shadow"
+      ],
+      "requires_prior_elements": [
+        "complete carapace, two claws, segmented abdomen silhouette, and five-part tail fan",
+        "two eyes, two long antennae, exactly seven visible walking legs, shell bands, and claw joints"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/lobster-with-raised-claw-step-5.jpg",
+      "step_name": "Shade the coral shell",
+      "visible_job": "Layers graphite into the established shell planes, adds coral red and muted orange to the carapace, claws, abdomen, legs, and tail fan, preserves cream paper highlights, and deepens the broken shadow.",
+      "introduces": [
+        "graphite shell values, coral-red and muted-orange pencil, cream highlights, and deeper shadow tone"
+      ],
+      "requires_prior_elements": [
+        "complete carapace, two claws, segmented abdomen silhouette, and five-part tail fan",
+        "two eyes, two long antennae, exactly seven visible walking legs, shell bands, and claw joints",
+        "shell spots, joint creases, tail-fan veins, contour hatching, and broken shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Settle the raised-claw finish",
+    "asset": "assets/lobster-with-raised-claw-finished-v1.jpg",
+    "visible_job": "Only strengthens established keeper contours, deepens existing graphite and colored-pencil values, clarifies cream highlights, and softens pale construction guides without changing the lobster's anatomy or pose.",
+    "allowed_changes": [
+      "keeper contour darkening",
+      "graphite value deepening inside established shell, appendage, tail, and shadow shapes",
+      "restrained coral-red and muted-orange colored-pencil layering",
+      "minor cream paper-highlight edge clarification",
+      "light cleanup of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "The same diagonal top-view lobster, head direction, carapace size, claw routes, leg routes, antennae, tail fan, crop, and shadow footprint must persist through all six panels.",
+    "Exactly one lobster, two claws, seven visible walking legs with one front leg consistently hidden behind the raised claw, two antennae, one segmented abdomen, and one five-part tail fan must appear before the final panel and persist.",
+    "No plate, food styling, ocean scene, bubbles, extra animal, word, label, arrow, number, signature, watermark, or final-only anatomy may appear.",
+    "The finish must retain visible graphite and colored-pencil grain rather than photoreal shell rendering, glossy poster polish, or vector-like linework, and every dark pre-final line must survive unless it is a pale erasable guide."
+  ]
+}
