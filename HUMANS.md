@@ -31,6 +31,12 @@
   `/tmp/daily-sketch-doodle-qa-2026-08-02/`. The temporary
   two-tutorial-per-site backfill cadence remains active until the owner says
   otherwise.
+- Local lesson commit `ff5e589` is complete. The required 1Password-backed
+  push stopped on 2026-08-02 with `sign_and_send_pubkey: ... communication
+  with agent failed`; no fallback agent or transport was used and no
+  deployment began. After authorizing 1Password, push `main` through the
+  documented socket and verify the workflow, live URLs, homepage/library,
+  finished-WebP checksums, and branch alignment.
 - 2026-08-01 daily automation added current `lobster-with-raised-claw`
   (August 1 / Day 095) and honest archive `acorn-with-oak-leaves` (April 29 /
   Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,
