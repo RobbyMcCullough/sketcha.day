@@ -37,6 +37,13 @@
   deployment began. After authorizing 1Password, push `main` through the
   documented socket and verify the workflow, live URLs, homepage/library,
   finished-WebP checksums, and branch alignment.
+- Publication retry completed at 2026-08-02 10:50 PDT after 1Password was
+  authorized. Lesson commit `ff5e589` and continuity commit `b3c44aa` pushed
+  through the required socket; DigitalOcean workflow `30759625941` passed in
+  3m3s, including IndexNow. Both August 2 tutorials and the homepage/library
+  return HTTP 200, the homepage features the Lunchbox, the library contains
+  the Candlestick, both live finished-WebP hashes match the reviewed local
+  files, and local `main` matches `origin/main`.
 - 2026-08-01 daily automation added current `lobster-with-raised-claw`
   (August 1 / Day 095) and honest archive `acorn-with-oak-leaves` (April 29 /
   Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,
