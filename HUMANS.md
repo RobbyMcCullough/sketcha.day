@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-01
+- Date: 2026-08-02
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-07-31 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-01 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,24 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-08-02 daily automation added current `school-lunchbox-with-apple`
+  (August 2 / Day 097) and honest archive `brass-candlestick-with-candle`
+  (April 28 / Day 001). Both use reviewed six-panel handmade raster pencil
+  contact sheets, cropped JPG masters, WebP derivatives, social cards, and
+  explicit process plans. The lunchbox rates 9.5/10 for instant readability,
+  face-free charm, tactile pencil, strong food/box contrast, and a stable
+  cumulative process. The candlestick rates 9.6/10 for crisp ellipse
+  construction, convincing restrained brass, a warm flame, and excellent
+  thumbnail clarity.
+- Both readiness runs passed ledger, process-plan, frame-delta, derivative,
+  social-card, JSON-LD, internal-link, unused-asset, lab-privacy, and diff
+  checks. Cove's expired certificate required the documented localhost:4173
+  fallback for 1440x1000 and 390x844 rendered QA; the homepage, 97-card
+  library, and both tutorials had no horizontal overflow, broken loaded
+  images, invalid JSON-LD, or public lab links. Screenshots are under
+  `/tmp/daily-sketch-doodle-qa-2026-08-02/`. The temporary
+  two-tutorial-per-site backfill cadence remains active until the owner says
+  otherwise.
 - 2026-08-01 daily automation added current `lobster-with-raised-claw`
   (August 1 / Day 095) and honest archive `acorn-with-oak-leaves` (April 29 /
   Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,

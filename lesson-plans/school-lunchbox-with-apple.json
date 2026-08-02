@@ -1,0 +1,144 @@
+{
+  "slug": "school-lunchbox-with-apple",
+  "finished": "assets/school-lunchbox-with-apple-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel pencil-and-colored-pencil contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "The open lunchbox, food compartments, sandwich, apple, drink carton, handle, latches, seams, and shadow must remain in one stable three-quarter view. No labels or branding appear on the carton."
+  },
+  "process_strategy": "Reserve the open lid and three food footprints in the first construction, build the lunchbox hardware before the food, introduce every food silhouette before texture or color, and limit the final panel to confident line weight and restrained shading.",
+  "final_elements": [
+    {
+      "name": "open lunchbox base and lid",
+      "introduced_by_step": 1,
+      "description": "A three-quarter rectangular lunchbox with a shallow base, upright open lid, rounded corners, and visible interior rim."
+    },
+    {
+      "name": "three food compartments",
+      "introduced_by_step": 1,
+      "description": "Three lightly reserved interior areas that prevent later food from covering finished box detail."
+    },
+    {
+      "name": "handle and two latches",
+      "introduced_by_step": 2,
+      "description": "One centered lid handle and two small front latches aligned to the box perspective."
+    },
+    {
+      "name": "sandwich triangles",
+      "introduced_by_step": 3,
+      "description": "Two stacked triangular sandwich halves in the wide left compartment."
+    },
+    {
+      "name": "apple with stem and leaf",
+      "introduced_by_step": 3,
+      "description": "One small round apple with a central notch, short stem, and single leaf in the front-right compartment."
+    },
+    {
+      "name": "plain drink carton",
+      "introduced_by_step": 3,
+      "description": "One small unbranded folded-top carton in the rear-right compartment."
+    },
+    {
+      "name": "box seams and food texture",
+      "introduced_by_step": 4,
+      "description": "Short corner seams, sandwich filling edges, apple contour dimples, and folded carton planes."
+    },
+    {
+      "name": "restrained red blue and ochre pencil color",
+      "introduced_by_step": 5,
+      "description": "Muted red on the apple, dusty blue on the lunchbox, and warm ochre on the sandwich with paper showing through."
+    },
+    {
+      "name": "broken cast shadow",
+      "introduced_by_step": 4,
+      "description": "A soft graphite shadow tucked beneath the lunchbox without becoming a background scene."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/school-lunchbox-with-apple-step-1.jpg",
+      "step_name": "Block the open box",
+      "visible_job": "Uses pale graphite boxes and diagonals to establish the base, open lid, rounded corners, interior rim, and three reserved food footprints in one three-quarter view.",
+      "introduces": [
+        "open lunchbox base and lid",
+        "three food compartments"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/school-lunchbox-with-apple-step-2.jpg",
+      "step_name": "Shape the shell and hardware",
+      "visible_job": "Traces a loose outer contour over the guides, keeps the compartment gaps open, and adds the lid handle plus two front latches.",
+      "introduces": [
+        "handle and two latches"
+      ],
+      "requires_prior_elements": [
+        "open lunchbox base and lid",
+        "three food compartments"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/school-lunchbox-with-apple-step-3.jpg",
+      "step_name": "Pack the lunch",
+      "visible_job": "Adds two stacked sandwich triangles, one apple with its stem and leaf, and one plain folded-top drink carton inside the reserved compartments.",
+      "introduces": [
+        "sandwich triangles",
+        "apple with stem and leaf",
+        "plain drink carton"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/school-lunchbox-with-apple-step-4.jpg",
+      "step_name": "Clarify edges and textures",
+      "visible_job": "Refines the established lunchbox and food contours, adds seams and small food details, then places a broken cast shadow beneath the box.",
+      "introduces": [
+        "box seams and food texture",
+        "broken cast shadow"
+      ],
+      "requires_prior_elements": [
+        "open lunchbox base and lid",
+        "handle and two latches",
+        "sandwich triangles",
+        "apple with stem and leaf",
+        "plain drink carton"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/school-lunchbox-with-apple-step-5.jpg",
+      "step_name": "Layer restrained color",
+      "visible_job": "Applies dusty blue, muted red, and warm ochre pencil with directional strokes while preserving white paper highlights.",
+      "introduces": [
+        "restrained red blue and ochre pencil color"
+      ],
+      "requires_prior_elements": [
+        "open lunchbox base and lid",
+        "sandwich triangles",
+        "apple with stem and leaf",
+        "plain drink carton",
+        "box seams and food texture"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Set the lunchbox finish",
+    "asset": "assets/school-lunchbox-with-apple-finished-v1.jpg",
+    "visible_job": "Only strengthens selected keeper contours, deepens existing graphite shadows, and tidies the already colored forms without adding new food, hardware, markings, or scenery.",
+    "allowed_changes": [
+      "selective keeper-line darkening",
+      "slightly deeper existing graphite shadows",
+      "light eraser cleanup around established forms",
+      "small highlights within existing colored areas"
+    ]
+  },
+  "rejection_checks": [
+    "Keep the same open three-quarter lunchbox, crop, scale, and compartment layout in all six panels.",
+    "The sandwich, apple, and plain drink carton must all appear by Step 3 and remain in the same compartments.",
+    "Do not render finished box detail beneath the food footprints reserved in Step 1.",
+    "Do not add labels, letters, logos, faces, extra snacks, or background props.",
+    "The final panel may not introduce new food, hardware, seams, color areas, or cast-shadow shapes."
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "brass-candlestick-with-candle",
+  "finished": "assets/brass-candlestick-with-candle-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel graphite-and-colored-pencil contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep one upright brass candlestick, one short candle, one wick, one flame, two wax drips, the same stacked ellipses, and one broken shadow stable. The candle footprint must be reserved inside the cup before rim detail."
+  },
+  "process_strategy": "Lock one vertical axis and a countable stack of ellipses, build the candlestick silhouette around them, place the short candle inside its reserved cup before adding wax and brass detail, and keep the final panel to value and edge refinement.",
+  "final_elements": [
+    {
+      "name": "vertical axis and stacked ellipse guides",
+      "introduced_by_step": 1,
+      "description": "A pale central axis with guides for the wide foot, stepped base, narrow stem, candle cup, and short candle."
+    },
+    {
+      "name": "candlestick base stem and cup silhouette",
+      "introduced_by_step": 2,
+      "description": "One broad oval foot, stepped base, turned stem, and shallow candle cup built from the guides."
+    },
+    {
+      "name": "short candle with wick and flame",
+      "introduced_by_step": 3,
+      "description": "One slightly irregular short candle seated inside the cup with one wick and one small leaning flame."
+    },
+    {
+      "name": "two wax drips and brass turning bands",
+      "introduced_by_step": 4,
+      "description": "Exactly two modest wax drips plus a few contour bands that explain the turned brass form."
+    },
+    {
+      "name": "brass graphite and candle color",
+      "introduced_by_step": 5,
+      "description": "Restrained ochre-brass pencil, graphite reflected values, warm cream candle, and a small amber flame."
+    },
+    {
+      "name": "broken tabletop shadow",
+      "introduced_by_step": 4,
+      "description": "One soft broken graphite ellipse beneath the wide foot."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/brass-candlestick-with-candle-step-1.jpg",
+      "step_name": "Stack the ellipse guides",
+      "visible_job": "Places one pale vertical axis and aligned ellipses for the foot, stepped base, stem, candle cup, and short candle while reserving the candle footprint inside the cup.",
+      "introduces": [
+        "vertical axis and stacked ellipse guides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/brass-candlestick-with-candle-step-2.jpg",
+      "step_name": "Turn the brass silhouette",
+      "visible_job": "Connects the stacked guides into one broad foot, stepped base, narrow turned stem, and shallow candle cup without closing detail beneath the reserved candle.",
+      "introduces": [
+        "candlestick base stem and cup silhouette"
+      ],
+      "requires_prior_elements": [
+        "vertical axis and stacked ellipse guides"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/brass-candlestick-with-candle-step-3.jpg",
+      "step_name": "Seat the candle and flame",
+      "visible_job": "Adds the short candle inside the established cup, then places one wick and one small leaning flame on the same central axis.",
+      "introduces": [
+        "short candle with wick and flame"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/brass-candlestick-with-candle-step-4.jpg",
+      "step_name": "Add wax and turning bands",
+      "visible_job": "Refines the established silhouette, adds exactly two wax drips, a few brass turning bands, and the broken tabletop shadow.",
+      "introduces": [
+        "two wax drips and brass turning bands",
+        "broken tabletop shadow"
+      ],
+      "requires_prior_elements": [
+        "candlestick base stem and cup silhouette",
+        "short candle with wick and flame"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/brass-candlestick-with-candle-step-5.jpg",
+      "step_name": "Shade brass and candle",
+      "visible_job": "Layers graphite and restrained ochre-brass pencil around the existing turned planes, warms the candle and flame, preserves paper highlights, and deepens the established shadow.",
+      "introduces": [
+        "brass graphite and candle color"
+      ],
+      "requires_prior_elements": [
+        "candlestick base stem and cup silhouette",
+        "short candle with wick and flame",
+        "two wax drips and brass turning bands",
+        "broken tabletop shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "step_name": "Polish the brass glow",
+    "asset": "assets/brass-candlestick-with-candle-finished-v1.jpg",
+    "visible_job": "Only strengthens selected keeper edges, deepens existing reflected values and shadow, and clarifies highlights already reserved in the brass, candle, and flame.",
+    "allowed_changes": [
+      "selective keeper-line darkening",
+      "deeper graphite values inside established brass and shadow shapes",
+      "restrained ochre and amber pencil layering",
+      "small highlight clarification inside established forms",
+      "light cleanup of pale construction guides"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one centered upright candlestick, one short candle, one wick, one flame, the same crop, scale, ellipse stack, and shadow footprint in all six panels.",
+    "The candle and flame must appear by Step 3; exactly two wax drips and all brass bands must appear by Step 4.",
+    "Do not finish the cup rim beneath the reserved candle footprint or draw hidden stem detail through the candle cup.",
+    "Do not add a holder handle, second candle, table setting, background, text, labels, arrows, numbers, signature, or watermark.",
+    "The final panel may not introduce a new ellipse, band, wax drip, flame shape, color area, or shadow."
+  ]
+}

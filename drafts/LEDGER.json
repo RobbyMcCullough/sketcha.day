@@ -50,6 +50,11 @@
     "birdhouse-on-a-post": {
       "status": "published"
     },
+    "brass-candlestick-with-candle": {
+      "status": "published",
+      "date": "2026-04-28",
+      "note": "Approved six-panel contact sheet cropped and published as the honest April 28, 2026 archive lesson."
+    },
     "camping-lantern": {
       "status": "published"
     },
@@ -247,6 +252,11 @@
       "status": "published",
       "date": "2026-07-11",
       "note": "Slug locked for image generation by preflight; resolve before any new subject."
+    },
+    "school-lunchbox-with-apple": {
+      "status": "published",
+      "date": "2026-08-02",
+      "note": "Approved six-panel contact sheet cropped and published as the August 2, 2026 current lesson."
     },
     "seashell-on-sand": {
       "status": "published"
