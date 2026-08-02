@@ -44,6 +44,13 @@
   return HTTP 200, the homepage features the Lunchbox, the library contains
   the Candlestick, both live finished-WebP hashes match the reviewed local
   files, and local `main` matches `origin/main`.
+- Owner-review correction on 2026-08-02 moved the lunchbox's sandwiches,
+  apple, and carton into Step 1 as light construction footprints; compartment
+  dividers now stop before those foreground silhouettes instead of requiring
+  erasure later. The process-plan contract is now schema v2 with explicit
+  adjacent-frame persistence and overlap reservations. Readiness and
+  desktop/mobile rendered QA passed; correction screenshots are under
+  `/tmp/daily-sketch-doodle-corrections-2026-08-02/`.
 - 2026-08-01 daily automation added current `lobster-with-raised-claw`
   (August 1 / Day 095) and honest archive `acorn-with-oak-leaves` (April 29 /
   Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,

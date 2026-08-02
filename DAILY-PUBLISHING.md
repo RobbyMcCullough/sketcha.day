@@ -328,6 +328,12 @@ layout that makes the lesson feel less polished than the current site standard.
 - A refinement step cannot introduce the feature it refines. Do not let a
   darkening, inking, fill, color, shading, cleanup, or clarification step be
   the first appearance of a major contour, prop, marking, or color area.
+- Once a major element appears, compare every later adjacent frame and reject
+  the sequence if that element disappears and returns without a real physical
+  occlusion.
+- Never make the reader erase a keeper line to add a later foreground object.
+  Reserve food, props, limbs, and other covering silhouettes before drawing
+  compartment dividers, seams, or background structure beneath them.
 - Do not publish adjacent frames where the only difference is a faint line,
   tiny handle, or low-contrast texture that a visitor will miss at card size.
   Combine small actions into one clearer step when needed.
@@ -377,6 +383,10 @@ Before publishing, check:
 - Does the page contain real instruction rather than encouragement alone?
 - Does the finish visibly match the steps?
 - Does each adjacent step frame visibly change at thumbnail size?
+- Does every introduced landmark persist through all later frames unless a
+  documented physical overlap hides it?
+- Do all earlier keeper lines stop before later foreground silhouettes, so the
+  reader never has to erase a taught line to make room?
 - Does the actual saved finish match the approved/reference preview in quality,
   line confidence, color, and completeness?
 - Is the copy specific to this subject and pose?
