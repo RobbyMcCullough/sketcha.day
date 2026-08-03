@@ -1,0 +1,186 @@
+{
+  "schema_version": 2,
+  "slug": "chain-links-in-perspective",
+  "finished": "assets/chain-links-in-perspective-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel graphite-and-colored-pencil contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep exactly five heavy oval chain links on one rising diagonal, alternating face-on and edge-on orientations with four readable interlocks. No broken link, lock, hook, lettering, or extra hardware."
+  },
+  "process_strategy": "Map all five outer and inner link envelopes plus four overlap windows in pale perspective construction, convert those same footprints into alternating metal rings with rear contours stopped at each interlock, add thickness and shadow before color, and limit the final panel to stronger keeper lines and restrained metal shading.",
+  "final_elements": [
+    {
+      "name": "diagonal guide five link envelopes and four overlap windows",
+      "introduced_by_step": 1,
+      "description": "A rising diagonal path with exactly five successively smaller outer and inner oval envelopes and four pale interlock windows."
+    },
+    {
+      "name": "five alternating outer and inner chain-link contours",
+      "introduced_by_step": 2,
+      "description": "Exactly five thick oval metal rings alternating face-on and edge-on while following the same perspective path."
+    },
+    {
+      "name": "four interlocking overlaps and metal thickness bands",
+      "introduced_by_step": 3,
+      "description": "Four readable over-under connections with rear contour segments stopped beneath the neighboring link and slim inner-rim thickness bands."
+    },
+    {
+      "name": "edge hatching and broken cast shadow",
+      "introduced_by_step": 4,
+      "description": "Short directional graphite hatches on the established metal and one broken shadow tucked beneath the nearer three links."
+    },
+    {
+      "name": "restrained blue-gray and warm-ochre pencil tint",
+      "introduced_by_step": 5,
+      "description": "Sparse blue-gray metal tint with small warm-ochre reflected accents, leaving paper and graphite texture visible."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "five alternating outer and inner chain-link contours",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "At each of the four pale overlap windows, the rear link contour stops at the neighboring foreground ring instead of being drawn through and erased later."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/chain-links-in-perspective-step-1.jpg",
+      "step_name": "Map five link envelopes",
+      "visible_job": "Uses pale graphite to place one rising perspective axis, exactly five outer and inner oval link envelopes, alternating orientation guides, four overlap windows, and a broken shadow footprint.",
+      "introduces": [
+        "diagonal guide five link envelopes and four overlap windows"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/chain-links-in-perspective-step-2.jpg",
+      "step_name": "Shape the alternating links",
+      "visible_job": "Wraps the five pale envelopes with thick outer and inner metal-ring contours, preserves their alternating rotations, and keeps every rear contour stopped at its reserved overlap window.",
+      "introduces": [
+        "five alternating outer and inner chain-link contours"
+      ],
+      "requires_prior_elements": [
+        "diagonal guide five link envelopes and four overlap windows"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/chain-links-in-perspective-step-3.jpg",
+      "step_name": "Lock the interlinks",
+      "visible_job": "Clarifies all four over-under connections and adds slim thickness bands to the already established inner rims without moving or redrawing a link.",
+      "introduces": [
+        "four interlocking overlaps and metal thickness bands"
+      ],
+      "requires_prior_elements": [
+        "diagonal guide five link envelopes and four overlap windows",
+        "five alternating outer and inner chain-link contours"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/chain-links-in-perspective-step-4.jpg",
+      "step_name": "Hatch the metal weight",
+      "visible_job": "Adds short graphite edge hatches to the established rings and places one broken cast shadow beneath the nearer three links.",
+      "introduces": [
+        "edge hatching and broken cast shadow"
+      ],
+      "requires_prior_elements": [
+        "five alternating outer and inner chain-link contours",
+        "four interlocking overlaps and metal thickness bands"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/chain-links-in-perspective-step-5.jpg",
+      "step_name": "Glaze the cool metal",
+      "visible_job": "Applies restrained blue-gray and warm-ochre colored pencil to the established metal surfaces while preserving open paper highlights and all four interlocks.",
+      "introduces": [
+        "restrained blue-gray and warm-ochre pencil tint"
+      ],
+      "requires_prior_elements": [
+        "five alternating outer and inner chain-link contours",
+        "four interlocking overlaps and metal thickness bands",
+        "edge hatching and broken cast shadow"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "diagonal guide five link envelopes and four overlap windows"
+      ],
+      "new_occlusions": [
+        "The four front-link segments cover only the rear contour gaps reserved in the pale construction."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "diagonal guide five link envelopes and four overlap windows",
+        "five alternating outer and inner chain-link contours"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "diagonal guide five link envelopes and four overlap windows",
+        "five alternating outer and inner chain-link contours",
+        "four interlocking overlaps and metal thickness bands"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "diagonal guide five link envelopes and four overlap windows",
+        "five alternating outer and inner chain-link contours",
+        "four interlocking overlaps and metal thickness bands",
+        "edge hatching and broken cast shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "diagonal guide five link envelopes and four overlap windows",
+        "five alternating outer and inner chain-link contours",
+        "four interlocking overlaps and metal thickness bands",
+        "edge hatching and broken cast shadow",
+        "restrained blue-gray and warm-ochre pencil tint"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Set the chain finish",
+    "asset": "assets/chain-links-in-perspective-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established contours, deepens existing graphite hatching and shadow, balances the existing blue-gray and ochre tint, and removes distracting pale guides without changing link count, orientation, or overlaps.",
+    "allowed_changes": [
+      "selective keeper-line darkening",
+      "slightly deeper existing graphite hatching and shadow",
+      "light eraser cleanup around established rings",
+      "small paper highlights within existing tinted metal"
+    ]
+  },
+  "rejection_checks": [
+    "Keep exactly five chain links, one rising diagonal, one crop, and one perspective scale in all six panels.",
+    "Every link must keep the same outer contour, inner opening, rotation, and neighbor connection after it appears.",
+    "All four rear-link contour gaps must be reserved before the foreground segments darken; no keeper line may be erased to fake an interlock.",
+    "Do not add a broken link, hook, lock, rope, hand, lettering, logo, decorative border, background scene, or extra hardware.",
+    "The final panel may not introduce a new link, overlap, thickness band, hatch cluster, shadow shape, or color area.",
+    "The finish must look like tactile graphite and colored pencil on paper, not rasterized vector art, polished 3D metal, or a glossy icon."
+  ]
+}

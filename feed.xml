@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw five chain links in perspective</title>
+      <link>https://sketcha.day/tutorials/chain-links-in-perspective.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/chain-links-in-perspective.html</guid>
+      <pubDate>Mon, 03 Aug 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a chain in perspective using five interlocking oval links, four over-under connections, graphite hatching, restrained colored pencil, and a broken cast shadow.</description>
+      <media:content url="https://sketcha.day/assets/chain-links-in-perspective-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a school lunchbox with an apple</title>
       <link>https://sketcha.day/tutorials/school-lunchbox-with-apple.html</link>
@@ -782,6 +790,14 @@
       <pubDate>Tue, 28 Apr 2026 19:00:00 GMT</pubDate>
       <description>Learn how to draw a brass candlestick with a candle using a vertical axis, stacked ellipses, a turned stem, short candle, two wax drips, graphite reflections, and restrained ochre pencil.</description>
       <media:content url="https://sketcha.day/assets/brass-candlestick-with-candle-finished-v1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>How to draw a vintage sewing machine</title>
+      <link>https://sketcha.day/tutorials/vintage-sewing-machine.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/vintage-sewing-machine.html</guid>
+      <pubDate>Mon, 27 Apr 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a vintage sewing machine with an arched cast-iron body, handwheel, spool and thread path, needle, presser foot, folded fabric, wooden base, graphite texture, and restrained colored pencil.</description>
+      <media:content url="https://sketcha.day/assets/vintage-sewing-machine-finished-v1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

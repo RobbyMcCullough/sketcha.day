@@ -1,0 +1,137 @@
+{
+  "schema_version": 2,
+  "slug": "vintage-sewing-machine",
+  "finished": "assets/vintage-sewing-machine-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel graphite-and-colored-pencil contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep one unbranded vintage sewing machine in a stable three-quarter side view with one arched body, one right handwheel, one top spool, a visible thread path, needle and presser foot, fabric under the foot, a wooden base, restrained ornament, and one broken shadow. No lettering, logo, scissors, buttons, or extra notions."
+  },
+  "process_strategy": "Reserve the machine body, wheel, spool, thread route, needle, presser foot, fabric, wooden base, ornament, and shadow in pale construction before darkening the silhouette; clarify the mechanical overlaps before hatching and color; limit the final panel to stronger keeper lines, existing values, and restrained surface cleanup.",
+  "final_elements": [
+    {
+      "name": "pale machine wheel spool needle fabric base ornament and shadow construction",
+      "introduced_by_step": 1,
+      "description": "A three-quarter box-and-arch envelope with reserved handwheel, top spool, thread path, needle, presser foot, fabric, base, ornamental-panel, and shadow footprints."
+    },
+    {
+      "name": "arched cast-iron body needle column wooden platform and side thickness",
+      "introduced_by_step": 2,
+      "description": "One stable vintage machine silhouette with a high arched arm, vertical needle column, visible side thickness, and a shallow rectangular wooden platform."
+    },
+    {
+      "name": "one handwheel one spool thread path needle presser foot and fabric",
+      "introduced_by_step": 3,
+      "description": "One large right-side handwheel, one small spool on the top pin, one continuous thread route, one needle and presser foot, and one folded fabric rectangle passing under the foot."
+    },
+    {
+      "name": "engraved panel graphite hatching and broken cast shadow",
+      "introduced_by_step": 4,
+      "description": "A simple wordless ornamental side panel, short curved graphite hatches on the metal, wood-grain marks on the base, fabric strokes, and one broken tabletop shadow."
+    },
+    {
+      "name": "charcoal burgundy brass blue and warm-wood pencil tint",
+      "introduced_by_step": 5,
+      "description": "Restrained charcoal and burgundy metal, tiny brass hardware accents, muted blue fabric, and warm-brown wood applied over visible graphite and paper highlights."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "one handwheel one spool thread path needle presser foot and fabric",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The body contour, column edge, platform seam, and shadow stop at the pale wheel, spool, thread, needle, foot, and fabric footprints instead of being drawn through and erased later."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/vintage-sewing-machine-step-1.jpg",
+      "step_name": "Block the machine footprint",
+      "visible_job": "Uses pale graphite to place the platform box, arched body, needle column, right handwheel, top spool, thread route, needle, presser foot, fabric, wordless ornament panel, and broken shadow footprint.",
+      "introduces": ["pale machine wheel spool needle fabric base ornament and shadow construction"]
+    },
+    {
+      "step": 2,
+      "asset": "assets/vintage-sewing-machine-step-2.jpg",
+      "step_name": "Shape the iron silhouette",
+      "visible_job": "Wraps the pale guides with the arched cast-iron body, needle column, visible side thickness, and shallow wooden platform while preserving every mechanical and fabric reservation.",
+      "introduces": ["arched cast-iron body needle column wooden platform and side thickness"],
+      "requires_prior_elements": ["pale machine wheel spool needle fabric base ornament and shadow construction"]
+    },
+    {
+      "step": 3,
+      "asset": "assets/vintage-sewing-machine-step-3.jpg",
+      "step_name": "Connect wheel thread and needle",
+      "visible_job": "Clarifies the reserved handwheel, top spool, continuous thread path, needle, presser foot, and folded fabric without shifting the body or drawing hidden platform lines through the fabric.",
+      "introduces": ["one handwheel one spool thread path needle presser foot and fabric"],
+      "requires_prior_elements": ["pale machine wheel spool needle fabric base ornament and shadow construction", "arched cast-iron body needle column wooden platform and side thickness"]
+    },
+    {
+      "step": 4,
+      "asset": "assets/vintage-sewing-machine-step-4.jpg",
+      "step_name": "Hatch the workshop details",
+      "visible_job": "Adds the established wordless ornament, metal edge hatching, wooden-platform grain, fabric folds, and broken tabletop shadow to the same construction.",
+      "introduces": ["engraved panel graphite hatching and broken cast shadow"],
+      "requires_prior_elements": ["arched cast-iron body needle column wooden platform and side thickness", "one handwheel one spool thread path needle presser foot and fabric"]
+    },
+    {
+      "step": 5,
+      "asset": "assets/vintage-sewing-machine-step-5.jpg",
+      "step_name": "Layer the heirloom color",
+      "visible_job": "Applies charcoal and burgundy to the established metal, brass to small hardware, muted blue to the fabric, and warm brown to the platform while preserving graphite texture and open paper highlights.",
+      "introduces": ["charcoal burgundy brass blue and warm-wood pencil tint"],
+      "requires_prior_elements": ["arched cast-iron body needle column wooden platform and side thickness", "one handwheel one spool thread path needle presser foot and fabric", "engraved panel graphite hatching and broken cast shadow"]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": ["pale machine wheel spool needle fabric base ornament and shadow construction"],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": ["pale machine wheel spool needle fabric base ornament and shadow construction", "arched cast-iron body needle column wooden platform and side thickness"],
+      "new_occlusions": ["The handwheel overlaps only its reserved right body edge, and the fabric covers only the platform and foot gaps reserved in step 1."],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": ["pale machine wheel spool needle fabric base ornament and shadow construction", "arched cast-iron body needle column wooden platform and side thickness", "one handwheel one spool thread path needle presser foot and fabric"],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": ["pale machine wheel spool needle fabric base ornament and shadow construction", "arched cast-iron body needle column wooden platform and side thickness", "one handwheel one spool thread path needle presser foot and fabric", "engraved panel graphite hatching and broken cast shadow"],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": ["pale machine wheel spool needle fabric base ornament and shadow construction", "arched cast-iron body needle column wooden platform and side thickness", "one handwheel one spool thread path needle presser foot and fabric", "engraved panel graphite hatching and broken cast shadow", "charcoal burgundy brass blue and warm-wood pencil tint"],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Set the heirloom finish",
+    "asset": "assets/vintage-sewing-machine-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established contours, deepens existing graphite values and shadow, balances the existing limited color, clarifies highlights, and removes distracting pale guides without changing the machine, mechanics, fabric, or perspective.",
+    "allowed_changes": ["selective keeper-line darkening", "slightly deeper existing hatching and shadow", "light eraser cleanup around established forms", "small paper highlights inside existing color areas"]
+  },
+  "rejection_checks": [
+    "Keep one sewing machine, one three-quarter side view, one crop, and one scale in all six panels.",
+    "The arched body, handwheel, spool, thread route, needle, presser foot, fabric, platform, ornament, and shadow must stay in the same positions after they appear.",
+    "Reserve the wheel and fabric overlaps before darkening the body and platform; do not erase keeper lines to fake the assembly.",
+    "Do not add lettering, a logo, a second spool, scissors, buttons, loose notions, a table scene, border, or decorative frame.",
+    "The final panel may not introduce a new mechanism, ornament, fold, shadow shape, or color area.",
+    "The finish must look like tactile graphite and colored pencil on paper, not a rasterized vector, polished product illustration, or glossy AI rendering."
+  ]
+}

@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-02
+- Date: 2026-08-03
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-08-01 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-02 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,26 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-08-03 daily automation added current `chain-links-in-perspective`
+  (August 3 / Day 099) and honest archive `vintage-sewing-machine` (April 27 /
+  Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,
+  cropped JPG masters, WebP derivatives, social cards, and schema-v2 process
+  plans. The chain rates 9.6/10 for its exact five-link rhythm, readable
+  over-under perspective, tactile cool-metal texture, and teachable 25-minute
+  progression. Its first four-link generation was rejected and retained
+  privately. The sewing machine rates 9.7/10 for its unmistakable silhouette,
+  stable wheel/thread/fabric mechanics, rich graphite texture, and balanced
+  heirloom palette; panels 3 and 4 received a targeted repair to remove color
+  that appeared before the planned color stage.
+- Both readiness checks passed ledger, process-plan, frame-delta, derivative,
+  social-card, JSON-LD, internal-link, unused-asset, lab-privacy, and diff
+  checks. Cove's crawler passed, while the in-app browser needed the documented
+  localhost:4173 fallback for 1440x1000 and 390x844 rendered QA. The homepage,
+  99-card library, and both tutorials showed no horizontal overflow, invalid
+  JSON-LD, public lab links, or missing lesson-image alt text. Screenshots are
+  under `/tmp/daily-sister-site-qa-2026-08-03/`. The temporary
+  two-tutorial-per-site backfill cadence remains active until the owner says
+  otherwise.
 - 2026-08-02 daily automation added current `school-lunchbox-with-apple`
   (August 2 / Day 097) and honest archive `brass-candlestick-with-candle`
   (April 28 / Day 001). Both use reviewed six-panel handmade raster pencil

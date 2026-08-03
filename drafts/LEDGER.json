@@ -66,6 +66,11 @@
     "ceramic-mixing-bowl-and-whisk": {
       "status": "published"
     },
+    "chain-links-in-perspective": {
+      "status": "published",
+      "date": "2026-08-03",
+      "note": "Published from approved six-panel raster process sheet; first four-link generation rejected before page integration and retained privately under drafts/chain-links-in-perspective/rejected-v1/."
+    },
     "classic-pickup-truck": {
       "status": "published"
     },
@@ -335,6 +340,11 @@
     "vintage-rotary-telephone": {
       "status": "published",
       "note": "Approved ten-hole dial and two-coil cord contact sheet promoted as the honest 2026-05-02 archive lesson; private cord-loop variants document the fallback review."
+    },
+    "vintage-sewing-machine": {
+      "status": "published",
+      "date": "2026-08-03",
+      "note": "Published as the honest 2026-04-27 archive lesson from an approved repaired six-panel raster process sheet. Panels 3 and 4 were repaired to remove premature fabric color before cropping."
     },
     "vintage-travel-suitcase": {
       "status": "published"

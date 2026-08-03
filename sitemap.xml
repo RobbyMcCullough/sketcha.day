@@ -2,21 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://sketcha.day/</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://sketcha.day/about.html</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://sketcha.day/library.html</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sketcha.day/tutorials/chain-links-in-perspective.html</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/chain-links-in-perspective-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/chain-links-in-perspective-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/chain-links-in-perspective-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/chain-links-in-perspective-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/chain-links-in-perspective-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/chain-links-in-perspective-step-5.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://sketcha.day/tutorials/school-lunchbox-with-apple.html</loc>
@@ -2323,6 +2347,30 @@
     </image:image>
     <image:image>
       <image:loc>https://sketcha.day/assets/brass-candlestick-with-candle-step-5.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sketcha.day/tutorials/vintage-sewing-machine.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-sewing-machine-finished-v1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-sewing-machine-step-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-sewing-machine-step-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-sewing-machine-step-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-sewing-machine-step-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://sketcha.day/assets/vintage-sewing-machine-step-5.webp</image:loc>
     </image:image>
   </url>
 </urlset>
