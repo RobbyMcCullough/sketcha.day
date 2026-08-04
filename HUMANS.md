@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-03
+- Date: 2026-08-04
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-08-02 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-03 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,23 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-08-04 daily automation added current `dragonfly-on-a-cattail`
+  (August 4 / Day 101) and honest archive `vintage-wingback-chair` (April 26 /
+  Day 001). Both use approved six-panel handmade raster contact sheets, cropped
+  JPG masters, WebP derivatives, social cards, and schema-v2 process plans.
+  The dragonfly rates 9.6/10 for four clearly separated wings, six readable
+  legs, airy graphite veins, tactile color, and a stable attainable sequence;
+  its collapsed two-wing/four-leg v1 remains private. The chair rates 9.7/10
+  for unmistakable furniture volume, consistent two-button/three-leg counts,
+  strong upholstery texture, and a well-resolved three-quarter composition;
+  its count-drifting v1 remains private.
+- Both readiness suites passed ledger, process-plan, frame-delta, derivative,
+  social-card, JSON-LD, internal-link, unused-asset, lab-privacy, and diff
+  checks. Direct Cove QA at 1440x1000 and 390x844 covered the homepage,
+  101-card library, and both tutorials with no overflow, broken images, missing
+  alt attributes, invalid JSON-LD, or public lab links. Screenshots are under
+  `/tmp/sister-site-qa-2026-08-04/`. The temporary two-tutorial-per-site
+  backfill cadence remains active until the owner says otherwise.
 - 2026-08-03 daily automation added current `chain-links-in-perspective`
   (August 3 / Day 099) and honest archive `vintage-sewing-machine` (April 27 /
   Day 001). Both use reviewed six-panel handmade raster pencil contact sheets,

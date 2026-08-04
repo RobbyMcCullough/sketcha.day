@@ -1,0 +1,186 @@
+{
+  "schema_version": 2,
+  "slug": "dragonfly-on-a-cattail",
+  "finished": "assets/dragonfly-on-a-cattail-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel graphite-and-colored-pencil contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep one right-facing dragonfly perched sideways on one vertical cattail stem with exactly four transparent wings, six bent legs, a segmented abdomen, one seed head, and restrained summer color."
+  },
+  "process_strategy": "Reserve the cattail, body axis, four wing envelopes, six leg routes, and broken shadow in pale construction; convert those same guides into persistent contours; stop the stem behind the dragonfly's body and gripping legs; add veins, texture, and color before limiting the final panel to keeper-line and shading cleanup.",
+  "final_elements": [
+    {
+      "name": "pale cattail dragonfly wing leg and shadow construction",
+      "introduced_by_step": 1,
+      "description": "A vertical cattail stem and seed-head envelope, one right-facing dragonfly body axis, four wing envelopes, six bent leg routes, and a broken shadow footprint."
+    },
+    {
+      "name": "cattail stem seed head and segmented dragonfly body contours",
+      "introduced_by_step": 2,
+      "description": "One narrow stem with a single brown seed head plus a stable dragonfly head, thorax, and tapered segmented abdomen."
+    },
+    {
+      "name": "four transparent wing contours and six bent legs",
+      "introduced_by_step": 3,
+      "description": "Exactly four long transparent wings and six bent legs, with four contacting the stem and two balancing beneath the thorax without changing the body pose."
+    },
+    {
+      "name": "wing-cell veins body bands cattail texture and broken shadow",
+      "introduced_by_step": 4,
+      "description": "A simplified persistent wing-cell rhythm, abdomen bands, short cattail hatching, and one broken graphite shadow."
+    },
+    {
+      "name": "restrained teal rust and olive colored-pencil accents",
+      "introduced_by_step": 5,
+      "description": "Sparse teal on the body, rust on the seed head, and olive on the stem with open paper preserved in the wings."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "four transparent wing contours and six bent legs",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The cattail stem stops behind the dragonfly thorax and each gripping leg, while the rear wing bases stop beneath the established body instead of being drawn through and erased later."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/dragonfly-on-a-cattail-step-1.jpg",
+      "step_name": "Map the perch and wing span",
+      "visible_job": "Uses pale graphite to place the cattail stem and seed head, dragonfly body axis, four wing envelopes, six leg routes, reserved overlap gaps, and a broken shadow footprint.",
+      "introduces": [
+        "pale cattail dragonfly wing leg and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/dragonfly-on-a-cattail-step-2.jpg",
+      "step_name": "Shape the body and cattail",
+      "visible_job": "Wraps the guides with one cattail stem and seed head plus the dragonfly head, thorax, and tapered segmented abdomen while preserving all wing and leg footprints.",
+      "introduces": [
+        "cattail stem seed head and segmented dragonfly body contours"
+      ],
+      "requires_prior_elements": [
+        "pale cattail dragonfly wing leg and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/dragonfly-on-a-cattail-step-3.jpg",
+      "step_name": "Set four wings and six legs",
+      "visible_job": "Clarifies exactly four transparent wing contours and six bent legs on their reserved routes, with four touching the stem and two balancing below the thorax.",
+      "introduces": [
+        "four transparent wing contours and six bent legs"
+      ],
+      "requires_prior_elements": [
+        "pale cattail dragonfly wing leg and shadow construction",
+        "cattail stem seed head and segmented dragonfly body contours"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/dragonfly-on-a-cattail-step-4.jpg",
+      "step_name": "Build the light wing texture",
+      "visible_job": "Adds a simplified wing-cell vein rhythm, abdomen bands, short seed-head hatching, and the established broken shadow without changing wing or leg counts.",
+      "introduces": [
+        "wing-cell veins body bands cattail texture and broken shadow"
+      ],
+      "requires_prior_elements": [
+        "cattail stem seed head and segmented dragonfly body contours",
+        "four transparent wing contours and six bent legs"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/dragonfly-on-a-cattail-step-5.jpg",
+      "step_name": "Glaze the summer color",
+      "visible_job": "Applies restrained teal, rust, and olive colored pencil to the established body and cattail while leaving the four wings mostly open paper.",
+      "introduces": [
+        "restrained teal rust and olive colored-pencil accents"
+      ],
+      "requires_prior_elements": [
+        "cattail stem seed head and segmented dragonfly body contours",
+        "four transparent wing contours and six bent legs",
+        "wing-cell veins body bands cattail texture and broken shadow"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale cattail dragonfly wing leg and shadow construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale cattail dragonfly wing leg and shadow construction",
+        "cattail stem seed head and segmented dragonfly body contours"
+      ],
+      "new_occlusions": [
+        "The thorax and four contacting legs cover only the cattail gaps reserved in pale construction, and the body covers only the reserved rear-wing bases."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale cattail dragonfly wing leg and shadow construction",
+        "cattail stem seed head and segmented dragonfly body contours",
+        "four transparent wing contours and six bent legs"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale cattail dragonfly wing leg and shadow construction",
+        "cattail stem seed head and segmented dragonfly body contours",
+        "four transparent wing contours and six bent legs",
+        "wing-cell veins body bands cattail texture and broken shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale cattail dragonfly wing leg and shadow construction",
+        "cattail stem seed head and segmented dragonfly body contours",
+        "four transparent wing contours and six bent legs",
+        "wing-cell veins body bands cattail texture and broken shadow",
+        "restrained teal rust and olive colored-pencil accents"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Let the dragonfly shimmer",
+    "asset": "assets/dragonfly-on-a-cattail-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established contours, deepens existing vein and body hatching, balances the existing teal, rust, and olive pencil, cleans pale guides, and preserves every wing, leg, segment, overlap, and shadow.",
+    "allowed_changes": [
+      "selective keeper-line darkening",
+      "slightly deeper existing graphite hatching and shadow",
+      "small paper highlights inside established color areas",
+      "light eraser cleanup around established contours"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one right-facing dragonfly, one vertical cattail, one pose, one crop, and one scale in all six panels.",
+    "Keep exactly four wings and six legs after those routes appear; no wing, leg, seed head, body segment, or shadow may disappear and return.",
+    "The cattail stem and rear wing bases must stop at reserved foreground silhouettes; no keeper line may be erased to fake a grip or overlap.",
+    "Do not add a flower, pond, second insect, extra plant, lettering, label, arrow, number, signature, watermark, or decorative border.",
+    "The final panel may not introduce a wing, leg, vein region, body band, texture cluster, shadow shape, or color area.",
+    "The finish must look like tactile graphite and colored pencil on warm paper, not glossy insect art, photorealism, or rasterized vector illustration."
+  ]
+}

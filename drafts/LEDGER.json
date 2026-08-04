@@ -96,6 +96,11 @@
       "date": "2026-06-17",
       "note": "Process frames never convincingly led to the final sketch; pulled from the Day 007 slot after review. Final art may still be reusable via derived process overlays."
     },
+    "dragonfly-on-a-cattail": {
+      "status": "published",
+      "date": "2026-08-04",
+      "note": "Approved six-panel v2 contact sheet cropped and published for August 4, 2026 after the private v1 rejection collapsed the anatomy into only two readable wings and four readable legs; v2 keeps four distinct wings and six bent legs."
+    },
     "ear-of-corn-with-husks": {
       "status": "published",
       "date": "2026-07-16",
@@ -353,6 +358,11 @@
       "status": "published",
       "date": "2026-07-12",
       "note": "Reviewed six-panel typewriter process promoted after cropped-frame, process-plan, delivery-image, JSON-LD, link, and layout checks."
+    },
+    "vintage-wingback-chair": {
+      "status": "published",
+      "date": "2026-08-04",
+      "note": "Approved six-panel v2 contact sheet cropped and published as the honest April 26, 2026 archive lesson after v1 was rejected for drifting from four planned legs and three planned buttons to only three legs and two buttons; the simplified v2 plan and art hold exactly three visible legs and two tuft buttons throughout."
     },
     "waffle-ice-cream-cone": {
       "status": "published"

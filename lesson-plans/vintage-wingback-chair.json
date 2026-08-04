@@ -1,0 +1,186 @@
+{
+  "schema_version": 2,
+  "slug": "vintage-wingback-chair",
+  "finished": "assets/vintage-wingback-chair-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel graphite-and-colored-pencil contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep one empty vintage wingback chair in a stable three-quarter front view with a tall winged back, two rolled arms, one seat cushion, three visible tapered legs, two tuft buttons, piping, fabric hatching, and one broken shadow."
+  },
+  "process_strategy": "Reserve the tall back, wings, arms, cushion, apron, three visible legs, two button centers, piping, and shadow in pale construction; convert those same footprints into persistent upholstery and wood contours; stop back and apron lines behind the arms, cushion, and legs; and limit the final panel to keeper-line, graphite, and color cleanup.",
+  "final_elements": [
+    {
+      "name": "pale chair back wing arm cushion leg button piping and shadow construction",
+      "introduced_by_step": 1,
+      "description": "A three-quarter chair envelope with a tall back, two wings, two arms, one cushion, apron, three visible leg routes, two button centers, piping routes, and broken shadow footprint."
+    },
+    {
+      "name": "tall winged back seat box and front apron contours",
+      "introduced_by_step": 2,
+      "description": "One stable upholstered back with two side wings, a shallow seat box, and a visible front apron in three-quarter perspective."
+    },
+    {
+      "name": "two rolled arms one seat cushion and three visible tapered legs",
+      "introduced_by_step": 3,
+      "description": "Two rolled arms framing one removable cushion above exactly three visible tapered wooden legs in the three-quarter view."
+    },
+    {
+      "name": "two tuft buttons piping fabric hatching wood grain and broken shadow",
+      "introduced_by_step": 4,
+      "description": "Exactly two back buttons, simple upholstery piping, short directional fabric hatches, sparse leg grain, and one broken graphite shadow."
+    },
+    {
+      "name": "restrained dusty-teal ochre and warm-brown colored-pencil accents",
+      "introduced_by_step": 5,
+      "description": "Dusty teal upholstery, ochre piping accents, and warm-brown legs applied lightly enough to preserve graphite and paper grain."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "two rolled arms one seat cushion and three visible tapered legs",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Back, seat-box, and apron keeper lines stop at the reserved arm, cushion, and front-leg silhouettes; the visible rear-leg top stops behind the established apron instead of being drawn through and erased later."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/vintage-wingback-chair-step-1.jpg",
+      "step_name": "Block the chair proportions",
+      "visible_job": "Uses pale boxes, curves, and center marks to place the tall back, two wings, two arms, cushion, apron, three visible legs, two button centers, piping routes, and broken shadow.",
+      "introduces": [
+        "pale chair back wing arm cushion leg button piping and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/vintage-wingback-chair-step-2.jpg",
+      "step_name": "Shape the winged frame",
+      "visible_job": "Wraps the guides with the tall upholstered back, two side wings, shallow seat box, and front apron while preserving every arm, cushion, leg, button, piping, and shadow reservation.",
+      "introduces": [
+        "tall winged back seat box and front apron contours"
+      ],
+      "requires_prior_elements": [
+        "pale chair back wing arm cushion leg button piping and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/vintage-wingback-chair-step-3.jpg",
+      "step_name": "Fit the arms cushion and legs",
+      "visible_job": "Clarifies two rolled arms, one removable cushion, and exactly three visible tapered legs on their reserved footprints without drawing upholstery or apron lines through them.",
+      "introduces": [
+        "two rolled arms one seat cushion and three visible tapered legs"
+      ],
+      "requires_prior_elements": [
+        "pale chair back wing arm cushion leg button piping and shadow construction",
+        "tall winged back seat box and front apron contours"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/vintage-wingback-chair-step-4.jpg",
+      "step_name": "Stitch the upholstery details",
+      "visible_job": "Adds exactly two tuft buttons, simple piping, short directional fabric hatches, sparse wood grain on the three visible legs, and the established broken shadow.",
+      "introduces": [
+        "two tuft buttons piping fabric hatching wood grain and broken shadow"
+      ],
+      "requires_prior_elements": [
+        "tall winged back seat box and front apron contours",
+        "two rolled arms one seat cushion and three visible tapered legs"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/vintage-wingback-chair-step-5.jpg",
+      "step_name": "Layer the vintage color",
+      "visible_job": "Applies restrained dusty teal to the established upholstery, ochre to piping accents, and warm brown to the three visible legs while preserving graphite hatching and paper highlights.",
+      "introduces": [
+        "restrained dusty-teal ochre and warm-brown colored-pencil accents"
+      ],
+      "requires_prior_elements": [
+        "tall winged back seat box and front apron contours",
+        "two rolled arms one seat cushion and three visible tapered legs",
+        "two tuft buttons piping fabric hatching wood grain and broken shadow"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale chair back wing arm cushion leg button piping and shadow construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale chair back wing arm cushion leg button piping and shadow construction",
+        "tall winged back seat box and front apron contours"
+      ],
+      "new_occlusions": [
+        "The arms and cushion cover only the seat and back gaps reserved in pale construction, while the apron covers only the reserved visible rear-leg top."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale chair back wing arm cushion leg button piping and shadow construction",
+        "tall winged back seat box and front apron contours",
+        "two rolled arms one seat cushion and three visible tapered legs"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale chair back wing arm cushion leg button piping and shadow construction",
+        "tall winged back seat box and front apron contours",
+        "two rolled arms one seat cushion and three visible tapered legs",
+        "two tuft buttons piping fabric hatching wood grain and broken shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale chair back wing arm cushion leg button piping and shadow construction",
+        "tall winged back seat box and front apron contours",
+        "two rolled arms one seat cushion and three visible tapered legs",
+        "two tuft buttons piping fabric hatching wood grain and broken shadow",
+        "restrained dusty-teal ochre and warm-brown colored-pencil accents"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Settle the chair finish",
+    "asset": "assets/vintage-wingback-chair-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established contours, deepens existing upholstery and wood hatching, balances the existing dusty-teal, ochre, and warm-brown pencil, clarifies highlights, and removes distracting pale guides without changing chair structure or counts.",
+    "allowed_changes": [
+      "selective keeper-line darkening",
+      "slightly deeper existing graphite hatching and shadow",
+      "small paper highlights inside established color areas",
+      "light eraser cleanup around established contours"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one empty wingback chair, one three-quarter front view, one crop, and one scale in all six panels.",
+    "Keep two wings, two arms, one cushion, three visible legs, two buttons, and one broken shadow after those elements appear.",
+    "Back, seat, and apron keeper lines must stop at reserved arm, cushion, and leg silhouettes; no taught line may be erased to fake upholstery overlap.",
+    "Do not add a person, blanket, pillow, table, lamp, room, lettering, label, arrow, number, signature, watermark, or decorative border.",
+    "The final panel may not introduce an arm, cushion edge, leg, button, piping route, texture cluster, shadow shape, or color area.",
+    "The finish must look like tactile graphite and colored pencil on warm paper, not a furniture catalog rendering, glossy AI interior art, or rasterized vector illustration."
+  ]
+}
