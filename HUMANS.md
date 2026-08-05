@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-04
+- Date: 2026-08-05
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-08-03 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-04 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,22 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-08-05 daily automation added current
+  `classic-motorcycle-side-view` (August 5 / Day 103) and honest archive
+  `vintage-binoculars-with-strap` (April 25 / Day 001). Both use reviewed
+  six-panel handmade raster pencil contact sheets, cropped JPG masters, WebP
+  derivatives, social cards, and schema-v2 process plans. The motorcycle
+  rates 9.7/10 for a crisp side-view silhouette, convincing spoke and engine
+  detail, restrained road-worn color, and a stable teachable sequence. The
+  binoculars rate 9.7/10 for strong paired perspective, believable lenses and
+  strap overlap, tactile material contrast, and excellent thumbnail clarity.
+- Both readiness suites passed ledger, process-plan, frame-delta, derivative,
+  social-card, JSON-LD, internal-link, unused-asset, lab-privacy, and diff
+  checks. Direct Cove QA at 1440x1000 and 390x844 covered the homepage,
+  103-card library, and both tutorials with no horizontal overflow, visible
+  broken images, invalid JSON-LD, or public lab links. The temporary
+  two-tutorial-per-site backfill cadence remains active until the owner says
+  otherwise.
 - 2026-08-04 daily automation added current `dragonfly-on-a-cattail`
   (August 4 / Day 101) and honest archive `vintage-wingback-chair` (April 26 /
   Day 001). Both use approved six-panel handmade raster contact sheets, cropped

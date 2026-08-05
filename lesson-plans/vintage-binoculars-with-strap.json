@@ -1,0 +1,186 @@
+{
+  "schema_version": 2,
+  "slug": "vintage-binoculars-with-strap",
+  "finished": "assets/vintage-binoculars-with-strap-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel graphite-and-colored-pencil contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep one pair of vintage binoculars in a stable three-quarter view with exactly two tapered barrels, two large objective lenses, two smaller eyepieces, one central hinge, one focus wheel, one continuous leather strap, two attachment points including one visible side ring, one buckle, grip ribs, and one broken tabletop shadow."
+  },
+  "process_strategy": "Reserve both barrel axes, lens ellipses, bridge, eyepieces, focus wheel, strap loop, buckle, attachment points, and shadow in pale construction; convert those same guides into persistent contours; stop the strap behind the barrels and bridge at reserved crossings; add glass, grip, leather texture, and restrained color before limiting the final panel to keeper-line and value cleanup.",
+  "final_elements": [
+    {
+      "name": "pale binocular barrel lens bridge strap and shadow construction",
+      "introduced_by_step": 1,
+      "description": "Two tapered barrel boxes on paired axes, two large objective ellipses, two small eyepiece ellipses, a central bridge, focus wheel, one broad strap loop, two attachment points, one buckle, and a broken shadow footprint."
+    },
+    {
+      "name": "two tapered barrels objective rims eyepieces and central bridge contours",
+      "introduced_by_step": 2,
+      "description": "Exactly two matching tapered binocular barrels, two large front rims, two smaller rear eyepieces, and one central hinge bridge in a stable three-quarter view."
+    },
+    {
+      "name": "focus wheel glass planes strap attachments buckle and continuous loop",
+      "introduced_by_step": 3,
+      "description": "One ridged focus wheel, two objective glass planes, two strap attachment points including one visible side ring and one tucked connection, one buckle, and one continuous leather strap loop fitted to the reserved routes."
+    },
+    {
+      "name": "grip ribs metal highlights leather grain and broken shadow",
+      "introduced_by_step": 4,
+      "description": "Simple persistent grip ribs on both barrels, rim seams, hinge hardware, sparse leather grain, glass highlights, and one broken graphite tabletop shadow."
+    },
+    {
+      "name": "restrained forest-green charcoal brass blue-gray and brown colored-pencil accents",
+      "introduced_by_step": 5,
+      "description": "Sparse forest green and charcoal on the barrels, brass on small hardware, blue gray in both lenses, and warm brown on the strap with open paper highlights."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "two tapered barrels objective rims eyepieces and central bridge contours",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The leather strap stops behind both barrel silhouettes and the central bridge, while the far barrel and eyepiece stop beneath the nearer barrel only at the pale crossings reserved in construction."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/vintage-binoculars-with-strap-step-1.jpg",
+      "step_name": "Map the paired barrels",
+      "visible_job": "Uses pale graphite to place two barrel axes and tapered boxes, two objective ellipses, two eyepiece ellipses, the bridge, focus wheel, strap loop, two attachment points, one buckle, and a broken shadow footprint.",
+      "introduces": [
+        "pale binocular barrel lens bridge strap and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/vintage-binoculars-with-strap-step-2.jpg",
+      "step_name": "Shape the optical body",
+      "visible_job": "Wraps the guides with exactly two tapered barrels, two objective rims, two smaller eyepieces, and one central hinge bridge while preserving every strap and hardware route.",
+      "introduces": [
+        "two tapered barrels objective rims eyepieces and central bridge contours"
+      ],
+      "requires_prior_elements": [
+        "pale binocular barrel lens bridge strap and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/vintage-binoculars-with-strap-step-3.jpg",
+      "step_name": "Connect the glass and strap",
+      "visible_job": "Clarifies one focus wheel, two objective glass planes, two strap attachment points, one buckle, and one continuous leather strap loop on their reserved guides.",
+      "introduces": [
+        "focus wheel glass planes strap attachments buckle and continuous loop"
+      ],
+      "requires_prior_elements": [
+        "pale binocular barrel lens bridge strap and shadow construction",
+        "two tapered barrels objective rims eyepieces and central bridge contours"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/vintage-binoculars-with-strap-step-4.jpg",
+      "step_name": "Build the field textures",
+      "visible_job": "Adds grip ribs to both barrels, rim seams, hinge hardware, sparse leather grain, glass highlights, and the established broken shadow without changing the optics or strap route.",
+      "introduces": [
+        "grip ribs metal highlights leather grain and broken shadow"
+      ],
+      "requires_prior_elements": [
+        "two tapered barrels objective rims eyepieces and central bridge contours",
+        "focus wheel glass planes strap attachments buckle and continuous loop"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/vintage-binoculars-with-strap-step-5.jpg",
+      "step_name": "Layer the expedition color",
+      "visible_job": "Applies restrained forest green, charcoal, brass, blue gray, and warm brown to the established barrels, hardware, glass, and strap while preserving graphite texture and paper highlights.",
+      "introduces": [
+        "restrained forest-green charcoal brass blue-gray and brown colored-pencil accents"
+      ],
+      "requires_prior_elements": [
+        "two tapered barrels objective rims eyepieces and central bridge contours",
+        "focus wheel glass planes strap attachments buckle and continuous loop",
+        "grip ribs metal highlights leather grain and broken shadow"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale binocular barrel lens bridge strap and shadow construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale binocular barrel lens bridge strap and shadow construction",
+        "two tapered barrels objective rims eyepieces and central bridge contours"
+      ],
+      "new_occlusions": [
+        "The strap passes behind only the barrel and bridge gaps reserved in pale construction; the nearer barrel overlaps only the reserved edge of the far barrel."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale binocular barrel lens bridge strap and shadow construction",
+        "two tapered barrels objective rims eyepieces and central bridge contours",
+        "focus wheel glass planes strap attachments buckle and continuous loop"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale binocular barrel lens bridge strap and shadow construction",
+        "two tapered barrels objective rims eyepieces and central bridge contours",
+        "focus wheel glass planes strap attachments buckle and continuous loop",
+        "grip ribs metal highlights leather grain and broken shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale binocular barrel lens bridge strap and shadow construction",
+        "two tapered barrels objective rims eyepieces and central bridge contours",
+        "focus wheel glass planes strap attachments buckle and continuous loop",
+        "grip ribs metal highlights leather grain and broken shadow",
+        "restrained forest-green charcoal brass blue-gray and brown colored-pencil accents"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Bring the binoculars into focus",
+    "asset": "assets/vintage-binoculars-with-strap-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established contours, deepens existing grip, glass, leather, and shadow values, balances the established color, cleans pale guides, and preserves both barrels, all optics, the hinge, hardware, strap route, overlaps, and shadow.",
+    "allowed_changes": [
+      "selective keeper-line darkening",
+      "slightly deeper existing graphite hatching and shadow",
+      "small paper highlights inside established color areas",
+      "light eraser cleanup around established contours"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one pair of binoculars, one three-quarter view, one crop, and one scale in all six panels.",
+    "Keep exactly two barrels, two objective lenses, two eyepieces, one bridge, one focus wheel, one continuous strap, two attachment points, one buckle, and one shadow after those routes appear; no landmark may disappear and return.",
+    "The strap, bridge, near barrel, and far barrel must meet only at reserved overlaps; no keeper line may be erased to fake depth.",
+    "Do not add a case, hands, person, bird, landscape, logo, lettering, label, arrow, number, signature, watermark, or decorative border.",
+    "The final panel may not introduce a lens, eyepiece, hardware part, strap segment, buckle, texture cluster, shadow shape, or color area.",
+    "The finish must look like tactile graphite and colored pencil on warm paper, not glossy product art, photorealism, or rasterized vector illustration."
+  ]
+}

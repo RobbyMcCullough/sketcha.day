@@ -1,0 +1,186 @@
+{
+  "schema_version": 2,
+  "slug": "classic-motorcycle-side-view",
+  "finished": "assets/classic-motorcycle-side-view-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel graphite-and-colored-pencil contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep one left-facing classic motorcycle in a stable side view with exactly two wheels, one fuel tank, one stepped seat, one triangular frame, one single-cylinder engine, one front fork, one handlebar, one round headlamp, two fenders, one exhaust pipe, one chain route, visible spokes, and one broken ground shadow."
+  },
+  "process_strategy": "Reserve both wheel ellipses, the frame triangle, tank, seat, engine, fork, headlamp, fenders, exhaust, chain, and shadow in pale construction; convert those same guides into persistent side-view contours; stop the frame and chain behind the engine and wheel hubs; add hardware, graphite texture, and restrained color before limiting the final panel to keeper-line and value cleanup.",
+  "final_elements": [
+    {
+      "name": "pale motorcycle wheel frame tank seat hardware and shadow construction",
+      "introduced_by_step": 1,
+      "description": "Two equal wheel ellipses on one ground line plus pale routes for the triangular frame, fuel tank, stepped seat, engine block, front fork, handlebar, headlamp, fenders, exhaust, chain, and broken shadow."
+    },
+    {
+      "name": "two wheels frame fork tank seat and fender contours",
+      "introduced_by_step": 2,
+      "description": "Exactly two circular wheels joined by one triangular frame, one slanted front fork, one rounded fuel tank, one stepped seat, and two close-fitting fenders in a stable left-facing side view."
+    },
+    {
+      "name": "engine headlamp handlebar exhaust chain and hub hardware",
+      "introduced_by_step": 3,
+      "description": "One readable single-cylinder engine, round headlamp, compact handlebar, low exhaust pipe, chain route, two hubs, and simple foot controls fitted to the established frame."
+    },
+    {
+      "name": "spoke tread fin cable and broken shadow details",
+      "introduced_by_step": 4,
+      "description": "A simplified persistent spoke rhythm in both wheels, modest tire tread, engine fins, two cable curves, chain links, and one broken graphite ground shadow."
+    },
+    {
+      "name": "restrained navy rust silver and warm-brown colored-pencil accents",
+      "introduced_by_step": 5,
+      "description": "Sparse navy on the tank and fenders, rust on the seat, cool silver-gray on the engine and exhaust, and warm brown on tire sidewalls with open paper highlights."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "engine headlamp handlebar exhaust chain and hub hardware",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Frame tubes stop at the reserved engine silhouette, the chain stops behind both hubs and engine case, the fork stops at the front hub, and the exhaust passes in front only where its route was reserved in construction."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/classic-motorcycle-side-view-step-1.jpg",
+      "step_name": "Map the wheels and machine",
+      "visible_job": "Uses pale graphite to place two equal wheel ellipses, one ground line, the frame triangle, tank, seat, engine, fork, headlamp, fenders, exhaust, chain, and broken shadow footprint.",
+      "introduces": [
+        "pale motorcycle wheel frame tank seat hardware and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/classic-motorcycle-side-view-step-2.jpg",
+      "step_name": "Shape the rolling chassis",
+      "visible_job": "Wraps the guides with exactly two wheels, one triangular frame, the slanted front fork, rounded tank, stepped seat, and two fenders while preserving every hardware route.",
+      "introduces": [
+        "two wheels frame fork tank seat and fender contours"
+      ],
+      "requires_prior_elements": [
+        "pale motorcycle wheel frame tank seat hardware and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/classic-motorcycle-side-view-step-3.jpg",
+      "step_name": "Fit the engine and controls",
+      "visible_job": "Clarifies one single-cylinder engine, one round headlamp, one compact handlebar, the low exhaust, the chain route, both hubs, and simple foot controls on their reserved guides.",
+      "introduces": [
+        "engine headlamp handlebar exhaust chain and hub hardware"
+      ],
+      "requires_prior_elements": [
+        "pale motorcycle wheel frame tank seat hardware and shadow construction",
+        "two wheels frame fork tank seat and fender contours"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/classic-motorcycle-side-view-step-4.jpg",
+      "step_name": "Build the mechanical rhythm",
+      "visible_job": "Adds simplified spokes, modest tire tread, engine fins, two cable curves, chain links, and the established broken shadow without changing the side-view proportions.",
+      "introduces": [
+        "spoke tread fin cable and broken shadow details"
+      ],
+      "requires_prior_elements": [
+        "two wheels frame fork tank seat and fender contours",
+        "engine headlamp handlebar exhaust chain and hub hardware"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/classic-motorcycle-side-view-step-5.jpg",
+      "step_name": "Layer the road-worn color",
+      "visible_job": "Applies restrained navy, rust, cool silver-gray, and warm brown to the established tank, fenders, seat, engine, exhaust, and tires while preserving graphite texture and paper highlights.",
+      "introduces": [
+        "restrained navy rust silver and warm-brown colored-pencil accents"
+      ],
+      "requires_prior_elements": [
+        "two wheels frame fork tank seat and fender contours",
+        "engine headlamp handlebar exhaust chain and hub hardware",
+        "spoke tread fin cable and broken shadow details"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale motorcycle wheel frame tank seat hardware and shadow construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale motorcycle wheel frame tank seat hardware and shadow construction",
+        "two wheels frame fork tank seat and fender contours"
+      ],
+      "new_occlusions": [
+        "The engine covers only the reserved center of the frame triangle; the hubs cover only reserved spoke centers; the exhaust and chain occupy their pale routes without removing established keeper contours."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale motorcycle wheel frame tank seat hardware and shadow construction",
+        "two wheels frame fork tank seat and fender contours",
+        "engine headlamp handlebar exhaust chain and hub hardware"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale motorcycle wheel frame tank seat hardware and shadow construction",
+        "two wheels frame fork tank seat and fender contours",
+        "engine headlamp handlebar exhaust chain and hub hardware",
+        "spoke tread fin cable and broken shadow details"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale motorcycle wheel frame tank seat hardware and shadow construction",
+        "two wheels frame fork tank seat and fender contours",
+        "engine headlamp handlebar exhaust chain and hub hardware",
+        "spoke tread fin cable and broken shadow details",
+        "restrained navy rust silver and warm-brown colored-pencil accents"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Tune the classic finish",
+    "asset": "assets/classic-motorcycle-side-view-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established contours, deepens existing mechanical hatching and shadow, balances the established navy, rust, silver-gray, and brown pencil, cleans pale guides, and preserves every wheel, frame, hardware route, overlap, and shadow.",
+    "allowed_changes": [
+      "selective keeper-line darkening",
+      "slightly deeper existing graphite hatching and shadow",
+      "small paper highlights inside established color areas",
+      "light eraser cleanup around established contours"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one left-facing motorcycle, one side view, one crop, and one scale in all six panels.",
+    "Keep exactly two equal wheels plus the same tank, seat, frame, fork, engine, headlamp, fenders, exhaust, and chain after those routes appear; no landmark may disappear and return.",
+    "Frame tubes, chain, fork, hubs, and exhaust must meet only at reserved overlaps; no keeper line may be erased to fake mechanical assembly.",
+    "Do not add a rider, logo, lettering, brand mark, second vehicle, road scene, label, arrow, number, signature, watermark, or decorative border.",
+    "The final panel may not introduce a wheel, hardware part, spoke region, texture cluster, shadow shape, or color area.",
+    "The finish must look like tactile graphite and colored pencil on warm paper, not glossy concept art, photorealism, or rasterized vector illustration."
+  ]
+}
