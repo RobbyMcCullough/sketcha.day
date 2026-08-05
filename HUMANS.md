@@ -13,6 +13,10 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- Owner direction on 2026-08-05 ended the temporary backfill cadence. Future
+  daily sister-site runs should create exactly one current Sketcha.day lesson
+  and one current Doodlea.day lesson, with no routine backdated tutorials.
+  Existing archive-correction tooling remains available for explicit repairs.
 - 2026-08-05 daily automation added current
   `classic-motorcycle-side-view` (August 5 / Day 103) and honest archive
   `vintage-binoculars-with-strap` (April 25 / Day 001). Both use reviewed
