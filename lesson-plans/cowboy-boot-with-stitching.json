@@ -1,0 +1,191 @@
+{
+  "schema_version": 2,
+  "slug": "cowboy-boot-with-stitching",
+  "finished": "assets/cowboy-boot-with-stitching-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel graphite-and-colored-pencil contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep one right-facing cowboy boot in a stable side view with one pointed toe, one tall gently tapered shaft, one shallow V-cut top, exactly two pull loops, one layered sole, one stacked heel, one curved vamp seam, three stacked mirrored stitch bands, open paper highlights, and one broken ground shadow."
+  },
+  "process_strategy": "Reserve the complete boot envelope, pointed toe, shaft opening, sole, heel, pull loops, vamp seam, stitch routes, highlights, and shadow in pale graphite; turn those same guides into a persistent side-view silhouette; keep the loops behind the shaft rim and the sole and heel below the upper; add leather texture and restrained color before limiting the final panel to keeper-line, value, and highlight cleanup.",
+  "final_elements": [
+    {
+      "name": "pale boot shaft toe sole heel loop stitch and shadow construction",
+      "introduced_by_step": 1,
+      "description": "A light right-facing boot envelope with the tall shaft, pointed toe, V-cut opening, two pull-loop routes, layered sole, stacked heel, vamp seam, three stacked mirrored stitch-band routes, open highlights, and broken shadow footprint."
+    },
+    {
+      "name": "cowboy boot upper pointed toe layered sole and stacked heel contours",
+      "introduced_by_step": 2,
+      "description": "One readable side-view cowboy boot with a gently tapered shaft, angled ankle, pointed toe, layered sole, and blocky stacked heel."
+    },
+    {
+      "name": "V-cut opening two pull loops vamp seam and three mirrored stitch bands",
+      "introduced_by_step": 3,
+      "description": "One shallow V-cut shaft opening, exactly two pull loops tucked behind the rim, one curved vamp seam, and three stacked mirrored decorative stitch bands on the shaft."
+    },
+    {
+      "name": "leather grain welt marks heel layers highlights and broken shadow",
+      "introduced_by_step": 4,
+      "description": "Sparse directional leather grain, short welt stitch marks, three heel layers, open paper highlights, and one broken graphite ground shadow."
+    },
+    {
+      "name": "restrained dusty-indigo ochre and warm-brown colored-pencil accents",
+      "introduced_by_step": 5,
+      "description": "Dusty indigo on the shaft, muted ochre on the vamp, warm brown on the sole and heel, with graphite texture and open paper highlights preserved."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "V-cut opening two pull loops vamp seam and three mirrored stitch bands",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Both pull loops rise only from behind the reserved shaft rim, the vamp seam stops at the boot edges, and every decorative stitch route stays inside the reserved shaft silhouette."
+    },
+    {
+      "foreground_element": "cowboy boot upper pointed toe layered sole and stacked heel contours",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The sole and heel meet only beneath the reserved upper silhouette, and the broken ground shadow stops at the toe, sole, and heel instead of crossing the boot."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cowboy-boot-with-stitching-step-1.jpg",
+      "step_name": "Map the western boot",
+      "visible_job": "Uses pale graphite to place the complete right-facing boot envelope, shaft opening, pointed toe, two pull-loop routes, sole, heel, vamp seam, three mirrored stitch-band routes, open highlights, and broken shadow footprint.",
+      "introduces": [
+        "pale boot shaft toe sole heel loop stitch and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cowboy-boot-with-stitching-step-2.jpg",
+      "step_name": "Shape the boot and heel",
+      "visible_job": "Wraps the guides with one tapered boot upper, pointed toe, layered sole, and stacked heel while preserving the opening, pull-loop, seam, stitch, highlight, and shadow routes.",
+      "introduces": [
+        "cowboy boot upper pointed toe layered sole and stacked heel contours"
+      ],
+      "requires_prior_elements": [
+        "pale boot shaft toe sole heel loop stitch and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cowboy-boot-with-stitching-step-3.jpg",
+      "step_name": "Fit the western details",
+      "visible_job": "Clarifies the V-cut opening, exactly two pull loops, one curved vamp seam, and three stacked mirrored decorative stitch bands on their reserved routes.",
+      "introduces": [
+        "V-cut opening two pull loops vamp seam and three mirrored stitch bands"
+      ],
+      "requires_prior_elements": [
+        "pale boot shaft toe sole heel loop stitch and shadow construction",
+        "cowboy boot upper pointed toe layered sole and stacked heel contours"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cowboy-boot-with-stitching-step-4.jpg",
+      "step_name": "Build the leather texture",
+      "visible_job": "Adds sparse leather grain, short welt marks, three heel layers, open highlights, and the established broken shadow without changing the boot silhouette or counts.",
+      "introduces": [
+        "leather grain welt marks heel layers highlights and broken shadow"
+      ],
+      "requires_prior_elements": [
+        "cowboy boot upper pointed toe layered sole and stacked heel contours",
+        "V-cut opening two pull loops vamp seam and three mirrored stitch bands"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/cowboy-boot-with-stitching-step-5.jpg",
+      "step_name": "Layer the worn leather color",
+      "visible_job": "Applies restrained dusty indigo, muted ochre, and warm brown to the established shaft, vamp, sole, and heel while preserving graphite texture and paper highlights.",
+      "introduces": [
+        "restrained dusty-indigo ochre and warm-brown colored-pencil accents"
+      ],
+      "requires_prior_elements": [
+        "cowboy boot upper pointed toe layered sole and stacked heel contours",
+        "V-cut opening two pull loops vamp seam and three mirrored stitch bands",
+        "leather grain welt marks heel layers highlights and broken shadow"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale boot shaft toe sole heel loop stitch and shadow construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale boot shaft toe sole heel loop stitch and shadow construction",
+        "cowboy boot upper pointed toe layered sole and stacked heel contours"
+      ],
+      "new_occlusions": [
+        "The two pull loops emerge only from behind the reserved shaft rim, and the vamp seam and stitch arches remain inside the established boot upper."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale boot shaft toe sole heel loop stitch and shadow construction",
+        "cowboy boot upper pointed toe layered sole and stacked heel contours",
+        "V-cut opening two pull loops vamp seam and three mirrored stitch bands"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale boot shaft toe sole heel loop stitch and shadow construction",
+        "cowboy boot upper pointed toe layered sole and stacked heel contours",
+        "V-cut opening two pull loops vamp seam and three mirrored stitch bands",
+        "leather grain welt marks heel layers highlights and broken shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale boot shaft toe sole heel loop stitch and shadow construction",
+        "cowboy boot upper pointed toe layered sole and stacked heel contours",
+        "V-cut opening two pull loops vamp seam and three mirrored stitch bands",
+        "leather grain welt marks heel layers highlights and broken shadow",
+        "restrained dusty-indigo ochre and warm-brown colored-pencil accents"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Set the boot in its tracks",
+    "asset": "assets/cowboy-boot-with-stitching-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established contours, deepens existing leather grain and shadow, balances the established indigo, ochre, and brown pencil, clarifies the same highlights, and softens pale guides without changing the boot structure or decorative routes.",
+    "allowed_changes": [
+      "selective keeper-line darkening",
+      "slightly deeper existing leather grain and shadow",
+      "small paper-highlight cleanup inside established color areas",
+      "light eraser cleanup around established contours"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one right-facing cowboy boot, one side view, one crop, and one scale in all six panels.",
+    "Keep one pointed toe, one tapered shaft, one V-cut top, two pull loops, one sole, one stacked heel, one vamp seam, three stacked mirrored stitch bands, and one shadow after those routes appear.",
+    "Pull loops must remain behind the shaft rim, stitch routes must remain inside the shaft, and the shadow must stop at the boot silhouette; no keeper line may be erased to fake an overlap.",
+    "Do not add a second boot, foot, leg, spur, logo, lettering, brand mark, scenery, arrows, labels, numbers, signature, watermark, or decorative border.",
+    "The final panel may not introduce a contour, pull loop, seam, stitch route, welt mark, heel layer, texture cluster, shadow shape, or color area.",
+    "The finish must look like tactile graphite and colored pencil on warm paper, not polished fashion art, photorealism, or rasterized vector illustration."
+  ]
+}

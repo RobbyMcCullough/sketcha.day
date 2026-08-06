@@ -12,6 +12,34 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "cowboy-boot-with-stitching",
+    day: "104",
+    date: "Thursday, August 6",
+    isoDate: "2026-08-06",
+    subject: "a cowboy boot with decorative stitching",
+    headlineSubject: "a cowboy boot<br>with decorative stitching",
+    shortSubject: "a cowboy boot",
+    lessonTitle: "Let's draw a cowboy boot with decorative stitching",
+    description: "Learn how to draw a cowboy boot in side view with a pointed toe, tall shaft, two pull loops, layered sole, stacked heel, vamp seam, mirrored stitching, leather texture, and restrained colored pencil.",
+    intro: "Build one right-facing cowboy boot from a tall shaft and pointed toe, fit the layered sole, stacked heel, pull loops, vamp seam, and decorative stitching onto that same silhouette, then add worn leather texture and restrained western color. The 25-minute side-view study keeps a characterful subject approachable by solving its proportions before the details.",
+    time: 25,
+    difficulty: "Medium",
+    accent: "#3f5b78",
+    finished: "cowboy-boot-with-stitching-finished-v1.jpg",
+    finishedAlt: "Handmade graphite and restrained colored-pencil sketch of one right-facing cowboy boot in side view with one pointed muted-ochre toe, one tall dusty-indigo shaft, one shallow V-cut opening, exactly two pull loops, one curved vamp seam, three stacked mirrored decorative stitch bands, one layered warm-brown sole, one stacked block heel, short welt marks, directional leather grain, open paper highlights, and one broken graphite ground shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Kneaded eraser", "Optional dusty-indigo, muted-ochre, and warm-brown colored pencils"],
+    materialNote: "Use graphite for the complete boot, both pull loops, sole, heel, vamp seam, decorative stitch bands, leather grain, welt marks, highlights, and shadow. Add the restrained indigo, ochre, and brown pencil only after every route is established.",
+    tipLabel: "Sketch tip",
+    steps: [
+      { name: "Map the western boot", text: "Use pale graphite to place the complete right-facing boot envelope, shallow V-cut opening, pointed toe, two pull-loop routes, layered sole, stacked heel, curved vamp seam, three mirrored stitch-band routes, open highlights, and a broken shadow footprint.", tip: "Ghost the tall shaft and long toe envelope before touching down, then compare their heights. Reserve the loops behind the shaft rim and the sole beneath the upper now so no finished line needs erasing later." },
+      { name: "Shape the boot and heel", text: "Wrap the guides with one gently tapered boot upper, angled ankle, pointed toe, layered sole, and blocky stacked heel while preserving every opening, loop, seam, stitch, highlight, and shadow route.", tip: "Rotate the page for the long toe and sole curves, and watch the open wedge below the ankle. Let the heel lean beneath the back of the shaft instead of drifting under the center of the boot." },
+      { name: "Fit the western details", text: "Clarify the shallow V-cut opening, exactly two pull loops, one curved vamp seam, and three stacked mirrored decorative stitch bands on their reserved routes.", tip: "Draw the two sides of each stitch band as a mirrored pair, but keep small handmade differences. Trace the shaft rim with your finger before darkening it so both loops remain visibly tucked behind the opening." },
+      { name: "Build the leather texture", text: "Add sparse directional leather grain, short welt marks, stacked heel layers, open paper highlights, and the established broken graphite shadow without changing the boot silhouette or counts.", tip: "Curve short texture strokes around the shaft and vamp instead of shading straight across them. Keep the welt marks irregular and stop the ground shadow at the toe, sole, and heel." },
+      { name: "Layer the worn leather color", text: "Glaze dusty indigo over the established shaft, muted ochre over the vamp, and warm brown over the sole and heel while preserving graphite texture and open paper highlights.", tip: "Build two light pencil layers in the direction of each leather form. Leave the shaft edge, toe crown, vamp seam, and sole rim lighter so the dark boot stays readable at thumbnail size." },
+      { name: "Set the boot in its tracks", text: "Strengthen selected keeper contours, deepen the existing leather grain and shadow, balance the established indigo, ochre, and brown, clarify the same highlights, and soften only pale guides that distract.", tip: "Count one pointed toe, one shaft, two pull loops, three stitch bands, one sole, one heel, and one shadow before stopping. Change the leather colors if you like, but preserve the side-view structure and overlap order.", image: true }
+    ]
+  },
+  {
     slug: "vintage-binoculars-with-strap",
     day: "001",
     date: "Saturday, April 25",
