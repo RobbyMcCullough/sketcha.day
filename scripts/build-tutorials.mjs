@@ -12,6 +12,34 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "lemon-with-slice-and-leaves",
+    day: "105",
+    date: "Friday, August 7",
+    isoDate: "2026-08-07",
+    subject: "a lemon with a slice and leaves",
+    headlineSubject: "a lemon<br>with a slice and leaves",
+    shortSubject: "a lemon with a slice",
+    lessonTitle: "Let's draw a lemon with a slice and leaves",
+    description: "Learn how to draw a lemon with one cut slice, two leaves, eight citrus segments, rind texture, graphite hatching, a broken shadow, and restrained colored pencil.",
+    intro: "Set one whole lemon behind a cut slice, tuck two leaves around a short stem, and divide the slice into eight juicy segments before adding peel texture and restrained yellow-green color. The 20-minute still life turns a simple fruit into a useful study of overlaps, radial spacing, and curved pencil strokes without polishing away the graphite or paper.",
+    time: 20,
+    difficulty: "Medium",
+    accent: "#d4a62a",
+    finished: "lemon-with-slice-and-leaves-finished-v1.jpg",
+    finishedAlt: "Handmade graphite and restrained colored-pencil sketch of one whole golden-yellow lemon resting on a shallow diagonal with exactly one cut slice leaning against its lower-left side, one short warm-brown stem, exactly two olive-green leaves with simple veins, exactly eight yellow citrus segments inside a doubled rind, sparse peel dimples, curved graphite hatching, open paper highlights, and one broken warm-gray graphite ground shadow",
+    materials: ["Graphite pencil", "Drawing paper", "Kneaded eraser", "Optional lemon-yellow, leaf-green, and warm-ochre colored pencils"],
+    materialNote: "Use graphite for the whole lemon, foreground slice, stem, both leaves, eight segment routes, rind, dimples, hatching, highlights, and shadow. Add the restrained yellow, green, and ochre only after every overlap and segment boundary is established.",
+    tipLabel: "Sketch tip",
+    steps: [
+      { name: "Map the citrus arrangement", text: "Use pale graphite to place one angled lemon envelope, the full foreground slice circle, one short stem, exactly two leaf footprints, eight radial slice divisions, open highlights, and a broken shadow footprint.", tip: "Ghost the lemon oval and slice circle two or three times before touching down. Reserve the entire slice in front of the fruit now, and aim the eight segment guides from one shared center so no keeper line needs erasing later." },
+      { name: "Shape the lemon and slice", text: "Wrap the guides with one tapered whole lemon, one short stem, exactly two leaves, and one circular slice leaning in front while preserving every segment, highlight, and shadow route.", tip: "Rotate the page for the long fruit contour and stop it cleanly behind the slice. Compare the negative spaces above and below each leaf so the pair feels attached to the same stem instead of floating." },
+      { name: "Divide the citrus and leaves", text: "Clarify the doubled rind, exactly eight citrus segments, simple veins in both leaves, and clean overlap breaks on their reserved guides.", tip: "Divide the slice into quarters first, then split each quarter once to get eight wedges. Keep a narrow strip of paper between the segment tips and center so the juicy pulp stays readable at thumbnail size." },
+      { name: "Build the peel texture", text: "Add sparse rind dimples, curved graphite hatching, open paper highlights, and the established broken shadow without changing the fruit, leaf, or segment counts.", tip: "Wrap short hatching around the lemon instead of shading straight across it, and vary the dimple spacing rather than covering every patch. Let the shadow break beneath the slice and fruit so the paper can breathe." },
+      { name: "Layer the sunny citrus color", text: "Glaze lemon yellow over the established fruit and slice, leaf green over both leaves, and warm ochre near the rind and shadow while preserving graphite texture and eight segment boundaries.", tip: "Build two light pencil layers that follow the fruit curve and segment wedges. Leave the upper fruit, rind edge, and leaf midribs lighter so the color stays fresh instead of waxy or flat." },
+      { name: "Brighten the lemon finish", text: "Strengthen selected keeper contours, deepen the existing rind texture and shadow, balance the established yellow, green, and ochre, clarify the same highlights, and soften only pale guides that distract.", tip: "Count one whole lemon, one slice, two leaves, and eight segments before stopping. You can change the leaf tilt or color temperature in your own version, but keep the slice overlap and radial spacing clear.", image: true }
+    ]
+  },
+  {
     slug: "cowboy-boot-with-stitching",
     day: "104",
     date: "Thursday, August 6",

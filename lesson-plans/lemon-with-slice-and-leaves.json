@@ -1,0 +1,191 @@
+{
+  "schema_version": 2,
+  "slug": "lemon-with-slice-and-leaves",
+  "finished": "assets/lemon-with-slice-and-leaves-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed six-panel graphite-and-colored-pencil contact sheet cropped into five cumulative process frames and one finished master.",
+    "notes": "Keep one whole lemon on a shallow diagonal, one cut lemon slice leaning in front, one short stem, exactly two leaves, exactly eight slice segments, sparse rind dimples, open paper highlights, and one broken ground shadow in one stable composition."
+  },
+  "process_strategy": "Reserve the whole lemon, foreground slice, stem, two leaves, eight slice divisions, highlights, and shadow in pale graphite; develop those same envelopes into persistent contours and botanical detail; establish texture and restrained yellow-green color before limiting the final panel to keeper-line, value, and highlight cleanup.",
+  "final_elements": [
+    {
+      "name": "pale lemon slice leaf segment highlight and shadow construction",
+      "introduced_by_step": 1,
+      "description": "Light graphite envelopes for one angled whole lemon, one foreground slice, one short stem, exactly two leaves, eight radial slice divisions, open highlights, and one broken shadow footprint."
+    },
+    {
+      "name": "whole lemon stem two leaves and foreground slice contours",
+      "introduced_by_step": 2,
+      "description": "One dimpled oval lemon with a tapered end, one short stem, exactly two overlapping leaves, and one circular cut slice leaning in front of the fruit."
+    },
+    {
+      "name": "slice rind eight segments leaf veins and overlap breaks",
+      "introduced_by_step": 3,
+      "description": "A doubled slice rind, exactly eight citrus segments, simple veins in both leaves, and clear contour breaks where the slice and leaves overlap the whole lemon."
+    },
+    {
+      "name": "rind dimples curved graphite hatching highlights and broken shadow",
+      "introduced_by_step": 4,
+      "description": "Sparse peel dimples, directional graphite hatching, reserved paper highlights, and one broken graphite ground shadow."
+    },
+    {
+      "name": "restrained lemon-yellow leaf-green and warm-ochre colored-pencil accents",
+      "introduced_by_step": 5,
+      "description": "Layered lemon yellow on the fruit and slice, leaf green on both leaves, warm ochre near the rind and shadow, with graphite texture and paper highlights preserved."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "whole lemon stem two leaves and foreground slice contours",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The whole-lemon contour stops behind the reserved foreground slice, both leaf stems stop at the fruit and stem, and the broken shadow stops at the lemon and slice silhouettes."
+    },
+    {
+      "foreground_element": "slice rind eight segments leaf veins and overlap breaks",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The eight radial segment guides stay inside the reserved slice rim, and no whole-lemon hatching or color is drawn through the foreground slice."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/lemon-with-slice-and-leaves-step-1.jpg",
+      "step_name": "Map the citrus arrangement",
+      "visible_job": "Uses pale graphite to place the whole lemon envelope, foreground slice, short stem, two leaves, eight slice divisions, open highlights, and broken shadow footprint.",
+      "introduces": [
+        "pale lemon slice leaf segment highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/lemon-with-slice-and-leaves-step-2.jpg",
+      "step_name": "Shape the lemon and slice",
+      "visible_job": "Wraps the guides with one angled whole lemon, one short stem, exactly two leaves, and one circular slice leaning in front while preserving every segment, highlight, and shadow route.",
+      "introduces": [
+        "whole lemon stem two leaves and foreground slice contours"
+      ],
+      "requires_prior_elements": [
+        "pale lemon slice leaf segment highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/lemon-with-slice-and-leaves-step-3.jpg",
+      "step_name": "Divide the citrus and leaves",
+      "visible_job": "Clarifies the doubled rind, exactly eight slice segments, simple veins in both leaves, and clean overlap breaks on their reserved guides.",
+      "introduces": [
+        "slice rind eight segments leaf veins and overlap breaks"
+      ],
+      "requires_prior_elements": [
+        "pale lemon slice leaf segment highlight and shadow construction",
+        "whole lemon stem two leaves and foreground slice contours"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/lemon-with-slice-and-leaves-step-4.jpg",
+      "step_name": "Build the peel texture",
+      "visible_job": "Adds sparse rind dimples, curved graphite hatching, open paper highlights, and the established broken shadow without changing the fruit, leaf, or segment counts.",
+      "introduces": [
+        "rind dimples curved graphite hatching highlights and broken shadow"
+      ],
+      "requires_prior_elements": [
+        "whole lemon stem two leaves and foreground slice contours",
+        "slice rind eight segments leaf veins and overlap breaks"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/lemon-with-slice-and-leaves-step-5.jpg",
+      "step_name": "Layer the sunny citrus color",
+      "visible_job": "Applies restrained lemon yellow, leaf green, and warm ochre to the established forms while preserving graphite texture, eight segment boundaries, and open paper highlights.",
+      "introduces": [
+        "restrained lemon-yellow leaf-green and warm-ochre colored-pencil accents"
+      ],
+      "requires_prior_elements": [
+        "whole lemon stem two leaves and foreground slice contours",
+        "slice rind eight segments leaf veins and overlap breaks",
+        "rind dimples curved graphite hatching highlights and broken shadow"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale lemon slice leaf segment highlight and shadow construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale lemon slice leaf segment highlight and shadow construction",
+        "whole lemon stem two leaves and foreground slice contours"
+      ],
+      "new_occlusions": [
+        "The foreground slice covers only the reserved lower fruit contour, and both leaves meet the stem and fruit only at their reserved attachment points."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale lemon slice leaf segment highlight and shadow construction",
+        "whole lemon stem two leaves and foreground slice contours",
+        "slice rind eight segments leaf veins and overlap breaks"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale lemon slice leaf segment highlight and shadow construction",
+        "whole lemon stem two leaves and foreground slice contours",
+        "slice rind eight segments leaf veins and overlap breaks",
+        "rind dimples curved graphite hatching highlights and broken shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale lemon slice leaf segment highlight and shadow construction",
+        "whole lemon stem two leaves and foreground slice contours",
+        "slice rind eight segments leaf veins and overlap breaks",
+        "rind dimples curved graphite hatching highlights and broken shadow",
+        "restrained lemon-yellow leaf-green and warm-ochre colored-pencil accents"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Brighten the lemon finish",
+    "asset": "assets/lemon-with-slice-and-leaves-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established contours, deepens existing graphite texture and shadow, balances the established yellow, green, and ochre pencil, clarifies the same highlights, and softens pale guides without changing the fruit arrangement or counts.",
+    "allowed_changes": [
+      "selective keeper-line darkening",
+      "slightly deeper existing rind texture and shadow",
+      "small paper-highlight cleanup inside established color areas",
+      "light eraser cleanup around established contours"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one whole lemon, one foreground slice, one short stem, two leaves, one crop, and one scale in all six panels.",
+    "Keep exactly eight slice segments after they appear, with one doubled rind and no segment-count drift.",
+    "The whole lemon must stop behind the foreground slice, leaf stems must stop at the fruit, and the shadow must stop at both citrus silhouettes; no keeper line may be erased to fake an overlap.",
+    "Do not add a glass, plate, knife, blossom, second fruit, face, lettering, arrows, labels, numbers, signature, watermark, or decorative border.",
+    "The final panel may not introduce a contour, leaf, segment, dimple cluster, hatch route, shadow shape, highlight, or color area.",
+    "The finish must look like tactile graphite and colored pencil on warm paper, not polished food illustration, photorealism, or rasterized vector art."
+  ]
+}

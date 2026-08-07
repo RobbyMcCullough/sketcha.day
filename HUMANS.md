@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-06
+- Date: 2026-08-07
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-08-05 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-06 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,21 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-08-07 daily automation added one current lesson only:
+  `lemon-with-slice-and-leaves` (August 7 / Day 105). The approved six-panel
+  handmade raster process keeps one whole lemon, one foreground slice, exactly
+  two leaves, and eight slice segments stable from construction through peel
+  texture, restrained color, and final reinforcement. The finished sketch
+  rates 9.5/10 for immediate citrus readability, tactile graphite, clear
+  radial construction, strong thumbnail composition, and a balanced
+  20-minute progression.
+- Readiness passed the ledger, schema-v2 process plan, frame deltas,
+  derivatives, social card, JSON-LD, internal links, unused assets, lab
+  privacy, and diff checks. Browser QA at desktop and 390x844 mobile widths
+  covered the homepage, 105-card library, and tutorial with no overflow,
+  failed tutorial images, invalid JSON-LD, or public lab links. The
+  one-current-lesson-per-site cadence remains active; routine backdated
+  tutorials remain off.
 - 2026-08-06 daily automation added one current lesson only:
   `cowboy-boot-with-stitching` (August 6 / Day 104). The approved six-panel
   handmade raster process moves from pale boot construction through stable
