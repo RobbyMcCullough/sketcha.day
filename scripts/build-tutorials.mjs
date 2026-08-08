@@ -12,6 +12,36 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "kitten-batting-a-ball-of-yarn",
+    day: "106",
+    date: "Saturday, August 8",
+    isoDate: "2026-08-08",
+    subject: "a kitten batting a ball of yarn",
+    headlineSubject: "a kitten<br>batting a ball of yarn",
+    shortSubject: "a playful kitten",
+    lessonTitle: "Let's draw a kitten batting a ball of yarn",
+    description: "Learn how to draw a kitten batting a ball of yarn with a seated pose, one raised paw, wide focused eyes, a curled tail, tabby markings, graphite texture, and restrained colored pencil.",
+    intro: "Seat one playful kitten around a tilted head, rounded chest, two folded haunches, and a tail that curls along the ground, then lift one paw toward a loose strand from the yarn ball. The 25-minute sketch turns a lively animal pose into a sequence of clear masses, overlaps, focused features, soft fur texture, and restrained color without polishing away the graphite or paper.",
+    time: 25,
+    difficulty: "Medium",
+    accent: "#c97845",
+    finished: "kitten-batting-a-ball-of-yarn-finished-v1.jpg",
+    finishedAlt: "Handmade graphite and restrained colored-pencil sketch of one warm-ginger kitten seated in a three-quarter pose facing page left with exactly two triangular ears, two wide eyes focused on one dusty-teal yarn ball, one front paw raised over one loose strand, one front paw planted, two folded hind haunches, one curled tail with three broad tabby bands and a darker tip, three forehead stripes, sparse whiskers, tactile directional fur hatching, rose ear interiors and nose, open paper highlights, and one broken warm-gray ground shadow",
+    materials: ["HB pencil", "2B pencil", "Drawing paper", "Eraser", "Warm-ginger, dusty-teal, rose, and warm-gray colored pencils"],
+    materialNote: "Use light HB graphite to place the complete kitten, both ears, raised and planted paws, two haunches, curled tail, yarn ball, single strand, face, stripes, fur routes, highlights, and shadow. Build darker 2B texture only after the anatomy is stable, then add restrained colored pencil while keeping open paper and graphite grain visible.",
+    tipLabel: "Sketchbook tip",
+    steps: [
+      { name: "Map the playful pose", text: "Use pale graphite to place the tilted head, seated body, exactly two ears, one raised paw, one planted paw, two folded haunches, one curled tail, one yarn-ball circle, the single loose strand, face axes, stripe routes, open highlights, and a broken shadow footprint.", tip: "Ghost the head and body ovals before touching down, then compare the empty triangle between the raised paw, chest, and yarn. Reserve both paws and the full tail curl now so later body lines stop around them instead of becoming marks you must erase." },
+      { name: "Wrap the seated kitten", text: "Add a loose contour for the tilted head, two ears, rounded chest, two folded haunches, raised paw, planted paw, and curled tail while preserving every yarn, face, marking, highlight, and shadow route.", tip: "Simplify the outer contour into a few long arcs instead of drawing fur zigzags immediately. Trace from ear to chest and from haunch to tail with your finger first so the seated weight stays balanced." },
+      { name: "Fit the paws and yarn", text: "Clarify the cheeks, chest, shoulder, haunches, lifted and planted paws, then shape exactly one yarn ball and one loose strand on the reserved routes.", tip: "Build each paw as one soft mitten before adding toes. Stop the chest contour at both front paws, let the strand pass behind only the raised paw, and keep the yarn ball far enough left that the kitten still has breathing room." },
+      { name: "Aim the curious face", text: "Add two wide eyes focused on the yarn, one small nose, a short curious mouth, whisker routes, exactly three forehead stripes, and exactly three unfilled tail-band guides.", tip: "Place both pupils before darkening either one and check their aim against the yarn ball. Keep the nose close to the eye line and use three broad stripe shapes instead of many tiny marks so the expression remains readable." },
+      { name: "Add fur and yarn texture", text: "Place sparse fur groups along the cheeks, chest, haunches, and tail, curve yarn loops around the established ball, add small paw creases, preserve open paper highlights, and establish the broken ground shadow.", tip: "Pull fur marks in the direction each form grows and leave quiet paper between clusters. Wrap the yarn lines around the ball like latitude curves; avoid crossing the outer edge or filling every gap." },
+      { name: "Build the soft graphite values", text: "Layer directional graphite hatching over the established kitten, paws, tail, yarn, and shadow while keeping the eyes, tabby routes, yarn loops, and paper highlights clear.", tip: "Use the side of the 2B pencil for the broad chest and haunch values, then turn to the point for short fur accents. Save the darkest graphite for the pupils, paw overlap, tail bands, and the small contact shadows under the body." },
+      { name: "Layer the playful color", text: "Add restrained warm ginger to the kitten, dusty teal to the yarn, rose to both ear interiors and the nose, and warm gray to the established shadow while preserving graphite texture and open paper highlights.", tip: "Pull the ginger pencil with the fur direction and the teal around the yarn loops. Build two light layers instead of one waxy pass, and leave the muzzle, chest, paws, and eye highlights mostly open paper." },
+      { name: "Settle the playful kitten finish", text: "Strengthen selected established contours, deepen the same graphite and colored-pencil texture, clarify the eyes and paper highlights, and soften only the pale guides that distract.", tip: "Count two ears, one raised paw, one planted paw, two haunches, one curled tail, one yarn ball, one strand, three forehead stripes, and three tail bands, then stop. Change the kitten or yarn colors in your own sketch, but keep the pose and overlap order useful.", image: true }
+    ]
+  },
+  {
     slug: "lemon-with-slice-and-leaves",
     day: "105",
     date: "Friday, August 7",

@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-07
+- Date: 2026-08-08
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-08-06 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-07 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,21 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-08-08 daily automation added one current lesson only:
+  `kitten-batting-a-ball-of-yarn` (August 8 / Day 106). The approved
+  eight-panel handmade raster process keeps one kitten, one raised paw, one
+  planted paw, two folded haunches, one curled tail, and one yarn ball stable
+  from construction through graphite texture, restrained color, and final
+  reinforcement. The finished sketch rates 9.4/10 for readable play,
+  believable pencil texture, stable anatomy, and a strong yarn-focused
+  composition.
+- Readiness passed the ledger, schema-v2 process plan, frame deltas,
+  derivatives, social card, JSON-LD, internal links, unused assets, lab
+  privacy, and diff checks. Browser QA at 1440x1000 and 390x844 covered the
+  homepage, 106-card library, and tutorial with no overflow, failed new lesson
+  images, invalid JSON-LD, missing new-image alt text, or public lab links. The
+  one-current-lesson-per-site cadence remains active; routine backdated
+  tutorials remain off.
 - 2026-08-07 daily automation added one current lesson only:
   `lemon-with-slice-and-leaves` (August 7 / Day 105). The approved six-panel
   handmade raster process keeps one whole lemon, one foreground slice, exactly

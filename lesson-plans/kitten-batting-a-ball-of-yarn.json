@@ -1,0 +1,259 @@
+{
+  "schema_version": 2,
+  "slug": "kitten-batting-a-ball-of-yarn",
+  "finished": "assets/kitten-batting-a-ball-of-yarn-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed eight-panel graphite-and-colored-pencil contact sheet cropped into seven cumulative process frames and one finished master.",
+    "notes": "Keep one seated kitten in a three-quarter pose facing page left, its head tipped toward one yarn ball at lower left, exactly two ears, one raised front paw, one planted front paw, two folded hind haunches, one curled tail, one loose strand, three forehead stripes, three tail bands, open paper highlights, and one broken ground shadow."
+  },
+  "process_strategy": "Use eight cumulative stages so the complete pale pose map, rough silhouette, refined seated anatomy and yarn overlap, facial features and tabby markings, fur and yarn texture, graphite value, restrained color, and final reinforcement each receive a distinct visible job. Reserve the ball, strand, raised paw, planted paw, haunches, and curled tail before dark contours so no keeper line is erased later.",
+  "final_elements": [
+    {
+      "name": "pale kitten pose paw tail yarn face marking highlight and shadow construction",
+      "introduced_by_step": 1,
+      "description": "Pale graphite guides for one tilted kitten head, seated body, two ears, one raised paw, one planted paw, two folded haunches, one curled tail, one yarn ball, one strand route, face axes, three forehead stripes, three tail bands, paper highlights, and one broken shadow."
+    },
+    {
+      "name": "rough kitten head body ear haunch paw and tail silhouette",
+      "introduced_by_step": 2,
+      "description": "A loose handmade silhouette for one seated kitten with a tilted head, two triangular ears, rounded chest, two folded haunches, one raised paw, one planted paw, and one tail curling around page right."
+    },
+    {
+      "name": "refined seated anatomy raised and planted paws yarn ball and single strand",
+      "introduced_by_step": 3,
+      "description": "Clear cheek and chest contours, shoulder and haunch joins, one lifted paw with simple toes, one planted paw, one round yarn ball, and one loose strand curving toward the lifted paw."
+    },
+    {
+      "name": "wide focused eyes nose mouth whiskers three forehead stripes and three tail bands",
+      "introduced_by_step": 4,
+      "description": "Two wide eyes aimed toward the yarn, one small nose, a short curious mouth, whisker routes, exactly three forehead stripes, and exactly three band guides across the curled tail."
+    },
+    {
+      "name": "short fur groups yarn loops paw details paper highlights and broken shadow",
+      "introduced_by_step": 5,
+      "description": "Sparse cheek, chest, haunch, and tail fur groups, curved yarn loops on the established ball, small toe creases, reserved paper highlights, and one broken ground shadow."
+    },
+    {
+      "name": "directional graphite hatching and established value pattern",
+      "introduced_by_step": 6,
+      "description": "Tactile graphite hatching follows the kitten's fur, haunches, paws, tail, yarn ball, and broken shadow while preserving the eyes and paper highlights."
+    },
+    {
+      "name": "restrained warm-ginger dusty-teal rose and warm-gray colored-pencil accents",
+      "introduced_by_step": 7,
+      "description": "Restrained warm ginger on the kitten, dusty teal on the yarn, rose in both ears and nose, and warm gray in the established shadow with graphite grain and open paper preserved."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "refined seated anatomy raised and planted paws yarn ball and single strand",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The chest contour stops at the raised and planted paws, the yarn loops stop at the ball edge, the loose strand stops or passes behind only at the reserved raised-paw overlap, and the shadow stops at the kitten, tail, and yarn silhouettes."
+    },
+    {
+      "foreground_element": "rough kitten head body ear haunch paw and tail silhouette",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The far haunch contour stops behind the chest, the curled tail stops behind the near haunch where reserved, and no finished fur or body line is drawn under the paws or tail."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/kitten-batting-a-ball-of-yarn-step-1.jpg",
+      "step_name": "Map the playful pose",
+      "visible_job": "Uses pale graphite to place the tilted head, seated body, two ears, raised and planted paws, two haunches, curled tail, yarn ball, single strand, face axes, stripe routes, highlights, and broken shadow.",
+      "introduces": [
+        "pale kitten pose paw tail yarn face marking highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/kitten-batting-a-ball-of-yarn-step-2.jpg",
+      "step_name": "Wrap the seated kitten",
+      "visible_job": "Adds a loose contour for the tilted head, two ears, rounded chest, two folded haunches, one raised paw, one planted paw, and one curled tail while preserving every yarn, face, marking, highlight, and shadow route.",
+      "introduces": [
+        "rough kitten head body ear haunch paw and tail silhouette"
+      ],
+      "requires_prior_elements": [
+        "pale kitten pose paw tail yarn face marking highlight and shadow construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/kitten-batting-a-ball-of-yarn-step-3.jpg",
+      "step_name": "Fit the paws and yarn",
+      "visible_job": "Clarifies the cheek, chest, shoulder, haunch, lifted and planted paw contours, then shapes one yarn ball and one loose strand on the reserved routes without adding facial rendering or color.",
+      "introduces": [
+        "refined seated anatomy raised and planted paws yarn ball and single strand"
+      ],
+      "requires_prior_elements": [
+        "pale kitten pose paw tail yarn face marking highlight and shadow construction",
+        "rough kitten head body ear haunch paw and tail silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/kitten-batting-a-ball-of-yarn-step-4.jpg",
+      "step_name": "Aim the curious face",
+      "visible_job": "Adds two wide eyes focused on the yarn, one small nose, a short mouth, whisker routes, exactly three forehead stripes, and exactly three unfilled tail-band guides.",
+      "introduces": [
+        "wide focused eyes nose mouth whiskers three forehead stripes and three tail bands"
+      ],
+      "requires_prior_elements": [
+        "rough kitten head body ear haunch paw and tail silhouette",
+        "refined seated anatomy raised and planted paws yarn ball and single strand"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/kitten-batting-a-ball-of-yarn-step-5.jpg",
+      "step_name": "Add fur and yarn texture",
+      "visible_job": "Adds sparse fur groups, curved yarn loops, small paw creases, open paper highlights, and the established broken shadow without changing the pose, anatomy, or marking counts.",
+      "introduces": [
+        "short fur groups yarn loops paw details paper highlights and broken shadow"
+      ],
+      "requires_prior_elements": [
+        "refined seated anatomy raised and planted paws yarn ball and single strand",
+        "wide focused eyes nose mouth whiskers three forehead stripes and three tail bands"
+      ]
+    },
+    {
+      "step": 6,
+      "asset": "assets/kitten-batting-a-ball-of-yarn-step-6.jpg",
+      "step_name": "Build the soft graphite values",
+      "visible_job": "Layers directional graphite hatching over the established kitten, paws, tail, yarn ball, and shadow while keeping the facial features, markings, yarn routes, and paper highlights clear.",
+      "introduces": [
+        "directional graphite hatching and established value pattern"
+      ],
+      "requires_prior_elements": [
+        "rough kitten head body ear haunch paw and tail silhouette",
+        "refined seated anatomy raised and planted paws yarn ball and single strand",
+        "wide focused eyes nose mouth whiskers three forehead stripes and three tail bands",
+        "short fur groups yarn loops paw details paper highlights and broken shadow"
+      ]
+    },
+    {
+      "step": 7,
+      "asset": "assets/kitten-batting-a-ball-of-yarn-step-7.jpg",
+      "step_name": "Layer the playful color",
+      "visible_job": "Adds restrained warm ginger, dusty teal, rose, and warm gray to the established kitten, yarn, ears, nose, and shadow while preserving graphite texture and paper highlights.",
+      "introduces": [
+        "restrained warm-ginger dusty-teal rose and warm-gray colored-pencil accents"
+      ],
+      "requires_prior_elements": [
+        "wide focused eyes nose mouth whiskers three forehead stripes and three tail bands",
+        "short fur groups yarn loops paw details paper highlights and broken shadow",
+        "directional graphite hatching and established value pattern"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale kitten pose paw tail yarn face marking highlight and shadow construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale kitten pose paw tail yarn face marking highlight and shadow construction",
+        "rough kitten head body ear haunch paw and tail silhouette"
+      ],
+      "new_occlusions": [
+        "The raised paw crosses only the reserved strand segment, the planted paw interrupts only the reserved chest edge, and the curled tail passes behind only the reserved near-haunch area."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale kitten pose paw tail yarn face marking highlight and shadow construction",
+        "rough kitten head body ear haunch paw and tail silhouette",
+        "refined seated anatomy raised and planted paws yarn ball and single strand"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale kitten pose paw tail yarn face marking highlight and shadow construction",
+        "rough kitten head body ear haunch paw and tail silhouette",
+        "refined seated anatomy raised and planted paws yarn ball and single strand",
+        "wide focused eyes nose mouth whiskers three forehead stripes and three tail bands"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale kitten pose paw tail yarn face marking highlight and shadow construction",
+        "rough kitten head body ear haunch paw and tail silhouette",
+        "refined seated anatomy raised and planted paws yarn ball and single strand",
+        "wide focused eyes nose mouth whiskers three forehead stripes and three tail bands",
+        "short fur groups yarn loops paw details paper highlights and broken shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 6,
+      "to_step": 7,
+      "must_persist": [
+        "pale kitten pose paw tail yarn face marking highlight and shadow construction",
+        "rough kitten head body ear haunch paw and tail silhouette",
+        "refined seated anatomy raised and planted paws yarn ball and single strand",
+        "wide focused eyes nose mouth whiskers three forehead stripes and three tail bands",
+        "short fur groups yarn loops paw details paper highlights and broken shadow",
+        "directional graphite hatching and established value pattern"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 7,
+      "to_step": 8,
+      "must_persist": [
+        "pale kitten pose paw tail yarn face marking highlight and shadow construction",
+        "rough kitten head body ear haunch paw and tail silhouette",
+        "refined seated anatomy raised and planted paws yarn ball and single strand",
+        "wide focused eyes nose mouth whiskers three forehead stripes and three tail bands",
+        "short fur groups yarn loops paw details paper highlights and broken shadow",
+        "directional graphite hatching and established value pattern",
+        "restrained warm-ginger dusty-teal rose and warm-gray colored-pencil accents"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Settle the playful kitten finish",
+    "asset": "assets/kitten-batting-a-ball-of-yarn-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established contours, deepens existing graphite and colored-pencil texture, clarifies the same eyes and paper highlights, and softens distracting pale guides without changing the kitten, yarn, pose, anatomy, markings, palette, or composition.",
+    "allowed_changes": [
+      "selective keeper-line darkening",
+      "slightly deeper existing fur yarn and shadow texture",
+      "small paper-highlight and eye clarification",
+      "light eraser cleanup around established contours"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one seated kitten, one yarn ball, one three-quarter pose, one crop, and one scale in all eight panels.",
+    "Keep two ears, one raised paw, one planted paw, two folded haunches, one curled tail, one strand, three forehead stripes, three tail bands, and one shadow after those elements appear.",
+    "Both eyes must remain aimed toward the yarn ball after step 4, and the head tilt, paw positions, tail curl, and yarn route may not drift.",
+    "The chest must stop at both front paws, the tail must pass behind only the reserved haunch, the strand must cross only at the reserved raised-paw overlap, and the shadow must stop at all subject silhouettes.",
+    "Do not add a second kitten, extra limb, extra tail, bow, collar, furniture, window, basket, lettering, arrows, labels, numbers, signature, watermark, or decorative border.",
+    "The final panel may not introduce an ear, paw, limb, facial feature, whisker, stripe, tail band, yarn loop, highlight, hatch cluster, shadow shape, or color area.",
+    "The finish must look like tactile graphite and restrained colored pencil on warm paper, not polished character illustration, photorealism, glossy AI art, or rasterized vector art."
+  ]
+}
