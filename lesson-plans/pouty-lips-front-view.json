@@ -1,0 +1,260 @@
+{
+  "schema_version": 2,
+  "slug": "pouty-lips-front-view",
+  "finished": "assets/pouty-lips-front-view-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One reviewed eight-panel graphite-and-colored-pencil contact sheet cropped into seven cumulative process frames and one finished master.",
+    "notes": "Keep one centered front-view pair of pouty lips with a soft cupid's bow, one continuous mouth seam, one narrow inner opening, restrained upper- and lower-lip crease groups, two oval open-paper highlights plus one broken center paper glow, light philtrum anchors, tactile graphite, restrained dusty-rose color, and no surrounding face, teeth, lettering, labels, arrows, numbers, signature, or watermark."
+  },
+  "process_strategy": "Use eight cumulative stages so the pale lip map, rough silhouette, refined cupid's bow and corners, mouth opening and lip planes, crease and highlight routes, graphite value, restrained color, and final reinforcement each receive a distinct visible job. Reserve the inner opening, two oval highlights, and broken center glow before dark contours so no keeper line or shaded area must be removed later.",
+  "final_elements": [
+    {
+      "name": "pale mouth axis lip envelopes corner opening highlight and philtrum construction",
+      "introduced_by_step": 1,
+      "description": "Pale graphite guides establish one horizontal mouth axis, two corners, upper and lower lip envelopes, the cupid's-bow center, one narrow inner-opening route, two highlight reserves, and light philtrum anchors."
+    },
+    {
+      "name": "rough upper and lower lip silhouette with continuous mouth seam",
+      "introduced_by_step": 2,
+      "description": "A loose handmade contour wraps one upper lip and one fuller lower lip around one continuous mouth seam, with the page-left corner lifted slightly higher for a readable pout."
+    },
+    {
+      "name": "refined cupid's bow asymmetric corners and lower-lip edge",
+      "introduced_by_step": 3,
+      "description": "A soft M-shaped cupid's bow, two distinct corners, the slightly lifted page-left corner, and a clean rounded lower-lip edge clarify the front-view anatomy without polished line art."
+    },
+    {
+      "name": "narrow inner opening upper and lower lip plane breaks",
+      "introduced_by_step": 4,
+      "description": "One narrow negative opening sits between the established lips, with simple plane-break curves that show the upper lip turning inward and the lower lip rolling outward."
+    },
+    {
+      "name": "upper and lower crease groups two oval highlights broken center glow and philtrum accents",
+      "introduced_by_step": 5,
+      "description": "Restrained upper- and lower-lip crease groups, two oval open-paper highlight shapes, one broken center paper glow, and two light philtrum accents add texture while preserving the main silhouette."
+    },
+    {
+      "name": "directional graphite hatching and soft mouth-corner values",
+      "introduced_by_step": 6,
+      "description": "Tactile graphite hatching follows the lip planes, deepens the existing mouth opening and corners, and keeps the center of the lower lip lighter."
+    },
+    {
+      "name": "restrained dusty-rose and muted-plum colored-pencil accents",
+      "introduced_by_step": 7,
+      "description": "Dusty rose lightly warms both lips and muted plum deepens the established opening and corners while graphite grain and both paper highlights remain visible."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "narrow inner opening upper and lower lip plane breaks",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The upper and lower lip shading stops at the reserved mouth opening, and no tooth, tongue, or completed hatch mark is drawn beneath that negative shape."
+    },
+    {
+      "foreground_element": "upper and lower crease groups two oval highlights broken center glow and philtrum accents",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Graphite hatching and colored pencil stop around the two oval highlight reserves and broken center paper glow, while crease groups remain inside the established lip contours."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/pouty-lips-front-view-step-1.jpg",
+      "step_name": "Map the pouty proportions",
+      "visible_job": "Uses pale graphite to place the mouth axis, two corners, upper and lower lip envelopes, cupid's-bow center, inner-opening route, two highlight reserves, and light philtrum anchors.",
+      "introduces": [
+        "pale mouth axis lip envelopes corner opening highlight and philtrum construction"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/pouty-lips-front-view-step-2.jpg",
+      "step_name": "Wrap the lip silhouette",
+      "visible_job": "Adds a loose upper and lower lip contour plus one continuous mouth seam while preserving the corners, opening, highlights, and philtrum routes.",
+      "introduces": [
+        "rough upper and lower lip silhouette with continuous mouth seam"
+      ],
+      "requires_prior_elements": [
+        "pale mouth axis lip envelopes corner opening highlight and philtrum construction"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/pouty-lips-front-view-step-3.jpg",
+      "step_name": "Shape the cupid's bow",
+      "visible_job": "Clarifies the soft cupid's bow, two mouth corners, slightly lifted page-left corner, and rounded lower-lip edge without adding shading or color.",
+      "introduces": [
+        "refined cupid's bow asymmetric corners and lower-lip edge"
+      ],
+      "requires_prior_elements": [
+        "pale mouth axis lip envelopes corner opening highlight and philtrum construction",
+        "rough upper and lower lip silhouette with continuous mouth seam"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/pouty-lips-front-view-step-4.jpg",
+      "step_name": "Open the mouth seam",
+      "visible_job": "Adds one narrow inner opening and simple upper and lower plane-break curves inside the established lip silhouette while keeping both corners fixed.",
+      "introduces": [
+        "narrow inner opening upper and lower lip plane breaks"
+      ],
+      "requires_prior_elements": [
+        "rough upper and lower lip silhouette with continuous mouth seam",
+        "refined cupid's bow asymmetric corners and lower-lip edge"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/pouty-lips-front-view-step-5.jpg",
+      "step_name": "Place creases and highlights",
+      "visible_job": "Adds restrained upper- and lower-lip crease groups, two oval open-paper highlight shapes, one broken center paper glow, and two light philtrum accents without changing the silhouette or opening.",
+      "introduces": [
+        "upper and lower crease groups two oval highlights broken center glow and philtrum accents"
+      ],
+      "requires_prior_elements": [
+        "refined cupid's bow asymmetric corners and lower-lip edge",
+        "narrow inner opening upper and lower lip plane breaks"
+      ]
+    },
+    {
+      "step": 6,
+      "asset": "assets/pouty-lips-front-view-step-6.jpg",
+      "step_name": "Build the graphite volume",
+      "visible_job": "Layers directional graphite hatching over the established lip planes, deepens the same opening and corners, and preserves both highlights and every crease group.",
+      "introduces": [
+        "directional graphite hatching and soft mouth-corner values"
+      ],
+      "requires_prior_elements": [
+        "rough upper and lower lip silhouette with continuous mouth seam",
+        "refined cupid's bow asymmetric corners and lower-lip edge",
+        "narrow inner opening upper and lower lip plane breaks",
+        "upper and lower crease groups two oval highlights broken center glow and philtrum accents"
+      ]
+    },
+    {
+      "step": 7,
+      "asset": "assets/pouty-lips-front-view-step-7.jpg",
+      "step_name": "Layer the soft lip color",
+      "visible_job": "Adds restrained dusty rose and muted plum to the established lips, opening, and corners while preserving graphite grain, the established crease routes, both oval highlights, and the broken center glow.",
+      "introduces": [
+        "restrained dusty-rose and muted-plum colored-pencil accents"
+      ],
+      "requires_prior_elements": [
+        "narrow inner opening upper and lower lip plane breaks",
+        "upper and lower crease groups two oval highlights broken center glow and philtrum accents",
+        "directional graphite hatching and soft mouth-corner values"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale mouth axis lip envelopes corner opening highlight and philtrum construction"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale mouth axis lip envelopes corner opening highlight and philtrum construction",
+        "rough upper and lower lip silhouette with continuous mouth seam"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale mouth axis lip envelopes corner opening highlight and philtrum construction",
+        "rough upper and lower lip silhouette with continuous mouth seam",
+        "refined cupid's bow asymmetric corners and lower-lip edge"
+      ],
+      "new_occlusions": [
+        "The narrow inner opening occupies only the pale reserved route between the existing lip planes; no finished lip detail is covered or removed."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale mouth axis lip envelopes corner opening highlight and philtrum construction",
+        "rough upper and lower lip silhouette with continuous mouth seam",
+        "refined cupid's bow asymmetric corners and lower-lip edge",
+        "narrow inner opening upper and lower lip plane breaks"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale mouth axis lip envelopes corner opening highlight and philtrum construction",
+        "rough upper and lower lip silhouette with continuous mouth seam",
+        "refined cupid's bow asymmetric corners and lower-lip edge",
+        "narrow inner opening upper and lower lip plane breaks",
+        "upper and lower crease groups two oval highlights broken center glow and philtrum accents"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 6,
+      "to_step": 7,
+      "must_persist": [
+        "pale mouth axis lip envelopes corner opening highlight and philtrum construction",
+        "rough upper and lower lip silhouette with continuous mouth seam",
+        "refined cupid's bow asymmetric corners and lower-lip edge",
+        "narrow inner opening upper and lower lip plane breaks",
+        "upper and lower crease groups two oval highlights broken center glow and philtrum accents",
+        "directional graphite hatching and soft mouth-corner values"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 7,
+      "to_step": 8,
+      "must_persist": [
+        "pale mouth axis lip envelopes corner opening highlight and philtrum construction",
+        "rough upper and lower lip silhouette with continuous mouth seam",
+        "refined cupid's bow asymmetric corners and lower-lip edge",
+        "narrow inner opening upper and lower lip plane breaks",
+        "upper and lower crease groups two oval highlights broken center glow and philtrum accents",
+        "directional graphite hatching and soft mouth-corner values",
+        "restrained dusty-rose and muted-plum colored-pencil accents"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Settle the pouty finish",
+    "asset": "assets/pouty-lips-front-view-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established contours, deepens the existing graphite and colored-pencil values, clarifies the same two oval highlights and broken center glow, and softens distracting pale guides without changing the lip silhouette, opening, crease routes, palette, or composition.",
+    "allowed_changes": [
+      "selective keeper-line darkening",
+      "slightly deeper existing lip-plane graphite",
+      "second light colored-pencil pass inside established lip areas",
+      "small paper-highlight clarification",
+      "light eraser cleanup around established contours"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one front-view pair of lips, one centered pose, one crop, and one scale in all eight panels.",
+    "Keep one continuous mouth seam, one narrow inner opening, the established upper- and lower-lip crease groups, two oval highlights, one broken center glow, and two philtrum accents after those elements appear.",
+    "The cupid's bow, corner positions, mouth width, lower-lip fullness, and opening thickness may not drift between panels.",
+    "The inner opening must occupy only its reserved route, and graphite and colored pencil must stop around both highlight reserves.",
+    "Do not add teeth, tongue, nose, full face, makeup tools, lettering, labels, arrows, numbers, signature, watermark, decorative border, or glossy lipstick rendering.",
+    "The final panel may not introduce a contour, opening, corner change, crease, philtrum mark, highlight, hatch route, shadow shape, or color area.",
+    "The finish must look like tactile graphite and restrained colored pencil on warm paper, not a beauty ad, photoreal mouth, glossy digital painting, polished AI art, or rasterized vector drawing."
+  ]
+}

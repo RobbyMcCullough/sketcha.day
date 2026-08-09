@@ -12,6 +12,36 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "pouty-lips-front-view",
+    day: "107",
+    date: "Sunday, August 9",
+    isoDate: "2026-08-09",
+    subject: "pouty lips",
+    headlineSubject: "pouty lips",
+    shortSubject: "pouty lips",
+    lessonTitle: "Let's draw pouty lips",
+    description: "Learn how to draw pouty lips in front view with a soft cupid's bow, a narrow mouth opening, lip-plane creases, graphite hatching, paper highlights, and restrained colored pencil.",
+    intro: "Build one front-view mouth around a light axis, a soft cupid's bow, two corners, and a fuller lower lip, then separate the planes with a narrow opening, directional graphite, and restrained dusty-rose color. The 20-minute study makes a subtle expression approachable by focusing on proportion, negative space, pressure control, and highlights instead of glossy beauty rendering.",
+    time: 20,
+    difficulty: "Easy-medium",
+    accent: "#b76e79",
+    finished: "pouty-lips-front-view-finished-v1.jpg",
+    finishedAlt: "Handmade graphite and restrained colored-pencil study of one centered front-view pair of full pouty lips with one soft cupid's bow, one continuous mouth seam, one narrow shaded opening with no teeth, restrained upper- and lower-lip crease groups, tactile directional graphite hatching, dusty-rose color, muted-plum depth at the opening and corners, two oval open-paper highlights plus one broken center paper glow, two light philtrum accents, visible construction traces, and warm paper tooth",
+    materials: ["HB pencil", "2B pencil", "Drawing paper", "Kneaded eraser", "Dusty-rose and muted-plum colored pencils"],
+    materialNote: "Use pale HB graphite to place the complete mouth axis, both corners, upper and lower lip envelopes, opening, crease routes, highlights, and philtrum accents before strengthening any contour. Build darker 2B value only after the proportions hold, then glaze dusty rose and muted plum lightly enough to keep graphite grain and open paper visible.",
+    tipLabel: "Sketchbook tip",
+    steps: [
+      { name: "Map the pouty proportions", text: "Use pale graphite to place one horizontal mouth axis, two corners, the upper- and lower-lip envelopes, the cupid's-bow center, one narrow opening route, two oval highlight reserves, one broken center glow, and two light philtrum anchors.", tip: "Ghost the mouth width and lower-lip arc before touching down, then compare the empty paper above and below the axis. Reserve the opening and highlights now so later graphite can stop around them instead of becoming marks you must erase." },
+      { name: "Wrap the lip silhouette", text: "Add a loose upper- and lower-lip contour plus one continuous mouth seam while preserving the corners, opening, highlight, crease, and philtrum routes.", tip: "Simplify each lip into two or three long arcs rather than tracing many tiny bumps. Rotate the page for the lower curve and keep your pressure light enough that the first contour still feels adjustable." },
+      { name: "Shape the cupid's bow", text: "Clarify the soft cupid's bow, both mouth corners, and the rounded lower-lip edge without adding shading or color.", tip: "Compare the two peaks against the center dip instead of forcing perfect symmetry. Use the corners as fixed endpoints, then pull each upper-lip arc inward in one relaxed pass." },
+      { name: "Open the mouth seam", text: "Add one narrow inner opening and simple upper- and lower-lip plane breaks inside the established silhouette while keeping both corners and the mouth width fixed.", tip: "Squint at the negative opening before darkening it: it should stay thinner than the lower lip. Work from each corner toward the center and leave teeth and tongue out so the lesson stays about lip form." },
+      { name: "Place creases and highlights", text: "Add restrained crease groups that follow both lip planes, keep two oval highlights and one broken center paper glow open, and reinforce the two light philtrum accents without changing the silhouette or opening.", tip: "Pull the crease marks away from the mouth seam and taper your pressure before each line reaches the lip edge. Group the marks with quiet paper between them so the surface reads as soft rather than scratched." },
+      { name: "Build the graphite volume", text: "Layer directional graphite hatching over the established lip planes, deepen the same opening and corners, and preserve every crease route, both oval highlights, and the broken center glow.", tip: "Use the side of the 2B pencil for broad value and the point only near the seam and corners. Follow the lip curve with each stroke, then stop while the center of the lower lip remains visibly lighter." },
+      { name: "Layer the soft lip color", text: "Glaze dusty rose over the established lips and muted plum into the existing opening and corners while preserving graphite grain, the crease routes, two oval highlights, and broken center glow.", tip: "Build two light colored-pencil passes that wrap with the lip planes instead of one waxy coat. Let the graphite stay darkest at the seam and keep the open paper doing most of the highlight work." },
+      { name: "Settle the pouty finish", text: "Strengthen selected established contours, deepen the same graphite and colored-pencil values, clarify the two oval highlights and broken center glow, and soften only pale guides that distract.", tip: "Trace one continuous mouth seam, check that the narrow opening and both corners still align, then stop before the color becomes glossy or the paper tooth disappears. Change the lip width or color in your own study once the same axis-and-plane method feels clear.", image: true }
+    ]
+  },
+  {
     slug: "kitten-batting-a-ball-of-yarn",
     day: "106",
     date: "Saturday, August 8",

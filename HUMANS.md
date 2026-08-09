@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-08
+- Date: 2026-08-09
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-08-07 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-08 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,20 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-08-09 daily automation added one current lesson only:
+  `pouty-lips-front-view` (August 9 / Day 107). The approved eight-panel
+  handmade raster process keeps one centered mouth, cupid's bow, corners,
+  narrow opening, highlights, and construction axes cumulative through
+  graphite volume, restrained dusty-rose pencil, and final reinforcement. The
+  finished sketch rates 9.3/10 for immediate expression, tactile pencil work,
+  stable anatomy, clear highlights, and an attainable 20-minute progression.
+- Readiness passed the ledger, schema-v2 process plan, frame deltas,
+  derivatives, social card, JSON-LD, internal links, unused assets, lab
+  privacy, and diff checks. Browser QA at 1440x1000 and 390x844 covered the
+  homepage, 107-card library, and tutorial with no overflow, failed lesson
+  images, invalid JSON-LD, or public lab links. The
+  one-current-lesson-per-site cadence remains active; routine backdated
+  tutorials remain off.
 - 2026-08-08 daily automation added one current lesson only:
   `kitten-batting-a-ball-of-yarn` (August 8 / Day 106). The approved
   eight-panel handmade raster process keeps one kitten, one raised paw, one
