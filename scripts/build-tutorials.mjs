@@ -19,6 +19,7 @@ const lessons = [
     subject: "pouty lips",
     headlineSubject: "pouty lips",
     shortSubject: "pouty lips",
+    seoTitlePhrase: "Pouty Lips",
     lessonTitle: "Let's draw pouty lips",
     description: "Learn how to draw pouty lips in front view with a soft cupid's bow, a narrow mouth opening, lip-plane creases, graphite hatching, paper highlights, and restrained colored pencil.",
     intro: "Build one front-view mouth around a light axis, a soft cupid's bow, two corners, and a fuller lower lip, then separate the planes with a narrow opening, directional graphite, and restrained dusty-rose color. The 20-minute study makes a subtle expression approachable by focusing on proportion, negative space, pressure control, and highlights instead of glossy beauty rendering.",
@@ -4328,6 +4329,7 @@ const page = (lesson) => {
   const bareShortSubject = lesson.shortSubject.replace(/^(a|an) /, "");
   const titleArticle = /^[aeiou]/i.test(bareShortSubject) ? "an" : "a";
   const titleSubject = titleCase(bareShortSubject);
+  const seoTitlePhrase = lesson.seoTitlePhrase || `${titleArticle} ${titleSubject}`;
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -4336,7 +4338,7 @@ const page = (lesson) => {
       {
         "@type": "HowTo",
         "@id": `${lessonUrl(lesson)}#howto`,
-        name: `How to Draw ${titleArticle} ${titleSubject}`,
+        name: `How to Draw ${seoTitlePhrase}`,
         description: lesson.description,
         image: [`${siteUrl}/assets/${lesson.finished}`, socialCardUrl(lesson)],
         datePublished: lesson.isoDate,
@@ -4381,11 +4383,11 @@ const page = (lesson) => {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>How to Draw ${titleArticle} ${titleSubject} Step by Step | sketcha.day</title>
+  <title>How to Draw ${seoTitlePhrase} Step by Step | sketcha.day</title>
   <meta name="description" content="${lesson.description}">
   <link rel="canonical" href="https://sketcha.day/tutorials/${lesson.slug}.html">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="How to Draw ${titleArticle} ${titleSubject}, Step by Step">
+  <meta property="og:title" content="How to Draw ${seoTitlePhrase}, Step by Step">
   <meta property="og:description" content="${lesson.description}">
   <meta property="og:url" content="https://sketcha.day/tutorials/${lesson.slug}.html">
   <meta property="og:image" content="${socialCardUrl(lesson)}">
