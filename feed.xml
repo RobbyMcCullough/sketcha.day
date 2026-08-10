@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a school bus</title>
+      <link>https://sketcha.day/tutorials/school-bus-three-quarter-view.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/school-bus-three-quarter-view.html</guid>
+      <pubDate>Mon, 10 Aug 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a school bus in three-quarter view with a perspective box, four side windows, two wheels, front hardware, graphite hatching, and restrained colored pencil.</description>
+      <media:content url="https://sketcha.day/assets/school-bus-three-quarter-view-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw pouty lips</title>
       <link>https://sketcha.day/tutorials/pouty-lips-front-view.html</link>

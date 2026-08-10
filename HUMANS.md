@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-09
+- Date: 2026-08-10
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-08-08 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-09 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,23 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-08-10 daily automation added one current lesson only:
+  `school-bus-three-quarter-view` (August 10 / Day 108). The approved
+  eight-panel handmade raster process keeps one front-left three-quarter bus,
+  four receding side windows, two visible wheels, three roof marker lamps,
+  one side mirror, safety bands, hardware, and ground shadow cumulative from
+  the perspective scaffold through graphite value and restrained yellow
+  pencil. The finished sketch rates 9.5/10 for immediate readability,
+  convincing perspective, tactile pencil texture, stable counts, and a
+  coherent 30-minute challenge.
+- Readiness passed the ledger, schema-v2 process plan, frame deltas,
+  derivatives, social card, JSON-LD, internal links, unused assets, lab
+  privacy, and diff checks. Rendered QA at 1440x1000 and 390x844 covered the
+  homepage, 108-card library, and tutorial with no horizontal overflow,
+  invalid JSON-LD, missing current-image alt text, or browser errors. The
+  browser used localhost:4173 because Cove's certificate had expired. The
+  one-current-lesson-per-site cadence remains active; routine backdated
+  tutorials remain off.
 - 2026-08-09 daily automation added one current lesson only:
   `pouty-lips-front-view` (August 9 / Day 107). The approved eight-panel
   handmade raster process keeps one centered mouth, cupid's bow, corners,

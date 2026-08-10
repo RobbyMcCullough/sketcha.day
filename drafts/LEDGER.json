@@ -250,7 +250,7 @@
     "potted-cactus-flowers": {
       "status": "published"
     },
-  "pouty-lips-front-view": {
+    "pouty-lips-front-view": {
       "status": "published",
       "date": "2026-08-09",
       "note": "Approved contact sheet promoted into the current tutorial after readiness and visual QA."
@@ -285,6 +285,11 @@
       "status": "published",
       "date": "2026-07-11",
       "note": "Slug locked for image generation by preflight; resolve before any new subject."
+    },
+    "school-bus-three-quarter-view": {
+      "status": "published",
+      "date": "2026-08-10",
+      "note": "Approved eight-panel raster contact sheet cropped into seven cumulative graphite-and-colored-pencil steps plus the finished August 10, 2026 lesson."
     },
     "school-lunchbox-with-apple": {
       "status": "published",

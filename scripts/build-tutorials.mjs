@@ -12,6 +12,37 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "school-bus-three-quarter-view",
+    day: "108",
+    date: "Monday, August 10",
+    isoDate: "2026-08-10",
+    subject: "a school bus",
+    headlineSubject: "a school bus",
+    shortSubject: "a school bus",
+    seoTitlePhrase: "a School Bus",
+    lessonTitle: "Let's draw a school bus in three-quarter view",
+    description: "Learn how to draw a school bus in three-quarter view with a perspective box, four side windows, two wheels, front hardware, graphite hatching, and restrained colored pencil.",
+    intro: "Turn one simple perspective box into a front-left three-quarter school bus, then fit the windshield, entry door, four receding side windows, two wheels, and familiar front hardware before adding graphite value and restrained yellow pencil. The 30-minute challenge uses a back-to-school subject to teach long perspective lines, repeated spacing, ellipse control, and material contrast without becoming a technical rendering.",
+    time: 30,
+    difficulty: "Challenge",
+    accent: "#c99524",
+    finished: "school-bus-three-quarter-view-finished-v1.jpg",
+    finishedAlt: "Handmade graphite and restrained colored-pencil sketch of one generic face-free school bus in a front-left three-quarter view with one broad dark windshield, one folding entry-door window, exactly four receding side passenger windows, exactly two visible wheels, two headlights, exactly three muted-red roof marker lamps, one side mirror, two dark horizontal safety bands, one simple front grille and bumper, several small panel seams, tactile directional hatching, school-bus-yellow body color, cool-gray glass and wheel values, open paper highlights, and one broken graphite ground shadow",
+    materials: ["HB pencil", "2B pencil", "Drawing paper", "Kneaded eraser", "School-bus-yellow, muted-red, and cool-gray colored pencils"],
+    materialNote: "Use pale HB graphite to place the complete perspective box, roof and belt lines, two wheel ellipses, windshield, door, four side windows, two headlights, three roof lamps, mirror, two safety bands, grille, bumper, seams, highlights, and shadow before building darker linework. Add 2B value only after the viewpoint holds, then glaze yellow, red, and gray lightly enough to preserve graphite grain and warm paper.",
+    tipLabel: "Sketchbook tip",
+    steps: [
+      { name: "Map the bus perspective", text: "Use pale graphite to place one front-left three-quarter body box, the roof and belt lines, two wheel ellipses, one windshield reserve, one door-window reserve, exactly four side-window reserves, two headlight centers, three roof-lamp centers, one mirror axis, two safety-band routes, a ground line, and a broken shadow footprint.", tip: "Ghost the long roof and lower body edges from the shoulder, then aim both toward the same shallow vanishing direction. Compare the two wheel ellipses and the empty spaces around all four side windows before darkening anything." },
+      { name: "Wrap the bus shell", text: "Build one loose bus silhouette with the short hood, raised roof, long passenger side, two wheel wells, and two visible wheel rings while preserving every pale glazing, hardware, and shadow reserve.", tip: "Draw the roof and lower side in long relaxed passes, then rotate the page for the wheel arches. Keep the front box wider than the receding rear so the three-quarter view reads without extreme distortion." },
+      { name: "Refine the body planes", text: "Clarify the broad front face, long side panel, roof edge, bumper and grille footprint, both wheel wells, and lower body edge without adding glass, hardware detail, value, or color.", tip: "Use the hood corners and front wheel as anchors, then check the narrow side plane above the rear wheel. Simplify the body into a few large arcs and straight runs instead of tracing every small wobble." },
+      { name: "Fit the glass and front hardware", text: "Add one broad front windshield, one folding entry-door window, exactly four receding side passenger windows, two headlights, three roof lamps, the front grille, bumper, and two horizontal safety bands on the reserved routes.", tip: "Place the windshield first, then step the four side windows smaller as they recede. Keep each dark frame aimed with the roof line, and stop both safety bands cleanly at the wheel wells instead of drawing through them." },
+      { name: "Finish the rolling hardware", text: "Add simple hubs and tread accents to both wheels, one side mirror, the door and panel seams, and the reserved broken shadow without changing the glass or front hardware.", tip: "Build each hub from the same ellipse center used in the wheel guide. Trace the mirror arm back to the windshield edge, then break the shadow at both tire contact patches so the bus feels planted rather than pasted onto a dark oval." },
+      { name: "Build the graphite value", text: "Layer directional graphite over the established body planes, glass, tires, grille, hardware, and shadow while preserving every window, lamp, mirror, band, and open-paper highlight.", tip: "Use the side of the 2B pencil for broad glass and shadow value, then switch to the point for the grille and tread. Pull hatching along each body plane and keep the windshield darker than the yellow-painted panels." },
+      { name: "Layer the bus color", text: "Glaze school-bus yellow over the established body, muted red over the three roof lamps, and cool gray over the glass, grille, wheels, and shadow without hiding the graphite grain.", tip: "Build two light colored-pencil passes that follow the bus length instead of one waxy coat. Leave narrow paper gaps along the roof and hood, and let the graphite remain the darkest material in the windows, tires, and grille." },
+      { name: "Send the school bus rolling", text: "Strengthen selected established contours, deepen the same graphite and colored-pencil values, clarify existing paper highlights, and soften only the pale construction guides that distract.", tip: "Count one windshield, one door window, four side windows, two wheels, two headlights, three roof lamps, one mirror, and two safety bands, then stop while the paper tooth still shows. Change the bus color in your own version if you like, but keep the same perspective and spacing method.", image: true }
+    ]
+  },
+  {
     slug: "pouty-lips-front-view",
     day: "107",
     date: "Sunday, August 9",

@@ -1,0 +1,263 @@
+{
+  "schema_version": 2,
+  "slug": "school-bus-three-quarter-view",
+  "finished": "assets/school-bus-three-quarter-view-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One eight-panel graphite-and-colored-pencil contact sheet intended to become seven cumulative process frames and one finished master after full-sheet review.",
+    "notes": "Keep one generic face-free school bus in a stable front-left three-quarter view with the front on the page left and the long passenger side receding right. Include one broad front windshield, one folding entry-door window, exactly four side passenger windows, two visible wheels, two headlights, exactly three roof marker lamps, one side mirror, two horizontal safety bands, front grille and bumper, a broken ground shadow, tactile graphite, restrained school-bus yellow and muted red accents, and no words, logos, route numbers, labels, arrows, signatures, watermarks, extra vehicles, people, or scenery."
+  },
+  "process_strategy": "Use eight cumulative stages so the pale perspective envelope, rough bus shell, refined body and wheel wells, window and door rhythm, safety hardware, graphite value, restrained color, and final reinforcement each have a distinct visible job. Reserve the wheel wells, glazing band, door, lights, mirror, safety bands, and ground shadow before keeper contours or shading so no completed line must be erased later.",
+  "final_elements": [
+    {
+      "name": "pale bus perspective wheel window door hardware and shadow map",
+      "introduced_by_step": 1,
+      "description": "Light graphite establishes one front-left three-quarter box, roof and belt-line guides, two wheel ellipses, one windshield reserve, one door-window reserve, exactly four side-window reserves, headlight and roof-lamp centers, one mirror axis, two safety-band routes, a ground line, and a broken shadow footprint."
+    },
+    {
+      "name": "rough bus shell roof hood side plane and two wheel rings",
+      "introduced_by_step": 2,
+      "description": "Loose handmade contours turn the perspective map into one readable school-bus body with a short hood, raised roof, long passenger side, two wheel wells, and two visible wheel rings."
+    },
+    {
+      "name": "refined front face side body bumper grille and wheel wells",
+      "introduced_by_step": 3,
+      "description": "Cleaner graphite defines the broad front face, long side panel, roof edge, front bumper and grille footprint, both wheel wells, and the lower body edge without adding glass, hardware detail, shading, or color."
+    },
+    {
+      "name": "front windshield door window four side passenger windows headlights three roof lamps grille bumper and safety bands",
+      "introduced_by_step": 4,
+      "description": "One broad front windshield, one folding entry-door window, exactly four receding passenger windows, two headlights, three roof marker lamps, the grille, bumper, and two safety bands are fitted to the established bus body."
+    },
+    {
+      "name": "two detailed wheels one side mirror panel seams and broken shadow",
+      "introduced_by_step": 5,
+      "description": "Two tires receive simple hubs and tread accents, one side mirror extends beside the windshield, door and panel seams settle the body, and one broken ground shadow completes the bus structure before value and color."
+    },
+    {
+      "name": "directional graphite value glass tone tire tone and body-plane hatching",
+      "introduced_by_step": 6,
+      "description": "Directional graphite hatching models the established front and side planes, adds restrained dark glass and tire values, and deepens the existing broken shadow while preserving paper highlights."
+    },
+    {
+      "name": "restrained school-bus yellow muted red and cool-gray colored-pencil accents",
+      "introduced_by_step": 7,
+      "description": "School-bus yellow lightly fills the established body planes, muted red accents the three roof lamps, and cool gray supports the glass, grille, wheels, and shadow while visible graphite and paper tooth remain."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "two detailed wheels one side mirror panel seams and broken shadow",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The body shell and safety bands stop at both reserved wheel wells, the mirror axis stays outside the windshield edge, and the broken shadow stops at the two tire contact patches rather than running through them."
+    },
+    {
+      "foreground_element": "front windshield door window four side passenger windows headlights three roof lamps grille bumper and safety bands",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Body hatching and yellow pencil stop at the reserved windshield, door-window, and four side-window shapes; no finished panel seam or shaded body texture is drawn beneath the glazing."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/school-bus-three-quarter-view-step-1.jpg",
+      "step_name": "Map the bus perspective",
+      "visible_job": "Uses pale graphite to place the three-quarter body box, roof and belt lines, two wheel ellipses, windshield, door, four side-window reserves, light and mirror anchors, safety-band routes, ground line, and broken shadow footprint.",
+      "introduces": [
+        "pale bus perspective wheel window door hardware and shadow map"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/school-bus-three-quarter-view-step-2.jpg",
+      "step_name": "Wrap the bus shell",
+      "visible_job": "Builds one loose bus silhouette with the short hood, raised roof, long side, two wheel wells, and two visible wheel rings while preserving every pale reserve.",
+      "introduces": [
+        "rough bus shell roof hood side plane and two wheel rings"
+      ],
+      "requires_prior_elements": [
+        "pale bus perspective wheel window door hardware and shadow map"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/school-bus-three-quarter-view-step-3.jpg",
+      "step_name": "Refine the body planes",
+      "visible_job": "Clarifies the front face, long side panel, roof edge, bumper and grille footprint, both wheel wells, and lower body edge without adding glass, hardware detail, value, or color.",
+      "introduces": [
+        "refined front face side body bumper grille and wheel wells"
+      ],
+      "requires_prior_elements": [
+        "pale bus perspective wheel window door hardware and shadow map",
+        "rough bus shell roof hood side plane and two wheel rings"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/school-bus-three-quarter-view-step-4.jpg",
+      "step_name": "Fit the glass and front hardware",
+      "visible_job": "Adds one broad front windshield, one folding entry-door window, four receding side windows, two headlights, three roof lamps, the grille, bumper, and two safety bands to the reserved areas.",
+      "introduces": [
+        "front windshield door window four side passenger windows headlights three roof lamps grille bumper and safety bands"
+      ],
+      "requires_prior_elements": [
+        "pale bus perspective wheel window door hardware and shadow map",
+        "refined front face side body bumper grille and wheel wells"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/school-bus-three-quarter-view-step-5.jpg",
+      "step_name": "Finish the rolling hardware",
+      "visible_job": "Adds simple hubs and tread accents to both wheels, one side mirror, the door and panel seams, and the reserved broken shadow without changing the glass or front hardware.",
+      "introduces": [
+        "two detailed wheels one side mirror panel seams and broken shadow"
+      ],
+      "requires_prior_elements": [
+        "rough bus shell roof hood side plane and two wheel rings",
+        "refined front face side body bumper grille and wheel wells",
+        "front windshield door window four side passenger windows headlights three roof lamps grille bumper and safety bands"
+      ]
+    },
+    {
+      "step": 6,
+      "asset": "assets/school-bus-three-quarter-view-step-6.jpg",
+      "step_name": "Build the graphite value",
+      "visible_job": "Layers directional graphite over the established body planes, glass, tires, grille, hardware, and shadow while preserving every window, lamp, mirror, band, and paper highlight.",
+      "introduces": [
+        "directional graphite value glass tone tire tone and body-plane hatching"
+      ],
+      "requires_prior_elements": [
+        "refined front face side body bumper grille and wheel wells",
+        "front windshield door window four side passenger windows headlights three roof lamps grille bumper and safety bands",
+        "two detailed wheels one side mirror panel seams and broken shadow"
+      ]
+    },
+    {
+      "step": 7,
+      "asset": "assets/school-bus-three-quarter-view-step-7.jpg",
+      "step_name": "Layer the bus color",
+      "visible_job": "Adds restrained school-bus yellow to the established body, muted red to the three roof lamps, and cool gray to existing glass, grille, wheels, and shadow without hiding graphite grain.",
+      "introduces": [
+        "restrained school-bus yellow muted red and cool-gray colored-pencil accents"
+      ],
+      "requires_prior_elements": [
+        "refined front face side body bumper grille and wheel wells",
+        "front windshield door window four side passenger windows headlights three roof lamps grille bumper and safety bands",
+        "two detailed wheels one side mirror panel seams and broken shadow",
+        "directional graphite value glass tone tire tone and body-plane hatching"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale bus perspective wheel window door hardware and shadow map"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale bus perspective wheel window door hardware and shadow map",
+        "rough bus shell roof hood side plane and two wheel rings"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale bus perspective wheel window door hardware and shadow map",
+        "rough bus shell roof hood side plane and two wheel rings",
+        "refined front face side body bumper grille and wheel wells"
+      ],
+      "new_occlusions": [
+        "The windshield, entry-door window, and four side windows occupy only the pale Step 1 glazing reserves; they do not cover or remove finished body detail."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale bus perspective wheel window door hardware and shadow map",
+        "rough bus shell roof hood side plane and two wheel rings",
+        "refined front face side body bumper grille and wheel wells",
+        "front windshield door window four side passenger windows headlights three roof lamps grille bumper and safety bands"
+      ],
+      "new_occlusions": [
+        "The detailed wheel interiors stay inside the reserved wheel wells, and the mirror extends from its reserved windshield-side axis; no keeper body contour is erased."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale bus perspective wheel window door hardware and shadow map",
+        "rough bus shell roof hood side plane and two wheel rings",
+        "refined front face side body bumper grille and wheel wells",
+        "front windshield door window four side passenger windows headlights three roof lamps grille bumper and safety bands",
+        "two detailed wheels one side mirror panel seams and broken shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 6,
+      "to_step": 7,
+      "must_persist": [
+        "pale bus perspective wheel window door hardware and shadow map",
+        "rough bus shell roof hood side plane and two wheel rings",
+        "refined front face side body bumper grille and wheel wells",
+        "front windshield door window four side passenger windows headlights three roof lamps grille bumper and safety bands",
+        "two detailed wheels one side mirror panel seams and broken shadow",
+        "directional graphite value glass tone tire tone and body-plane hatching"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 7,
+      "to_step": 8,
+      "must_persist": [
+        "pale bus perspective wheel window door hardware and shadow map",
+        "rough bus shell roof hood side plane and two wheel rings",
+        "refined front face side body bumper grille and wheel wells",
+        "front windshield door window four side passenger windows headlights three roof lamps grille bumper and safety bands",
+        "two detailed wheels one side mirror panel seams and broken shadow",
+        "directional graphite value glass tone tire tone and body-plane hatching",
+        "restrained school-bus yellow muted red and cool-gray colored-pencil accents"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Send the school bus rolling",
+    "asset": "assets/school-bus-three-quarter-view-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established contours, deepens the same graphite and colored-pencil values, clarifies existing paper highlights, and softens distracting pale guides without changing the bus viewpoint, body, windows, wheels, hardware, shadow, or palette.",
+    "allowed_changes": [
+      "selective keeper-line darkening",
+      "slightly deeper existing graphite values",
+      "second light colored-pencil pass inside established body and lamp areas",
+      "small paper-highlight clarification",
+      "light eraser cleanup around established contours"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one generic face-free school bus, one front-left three-quarter viewpoint, one crop, and one scale in all eight panels.",
+    "Keep one front windshield, one door window, exactly four side passenger windows, two visible wheels, two headlights, three roof lamps, one mirror, two safety bands, and one broken shadow after those elements appear.",
+    "The body length, roof height, hood depth, wheel spacing, glazing perspective, and shadow footprint may not drift between panels.",
+    "The window and wheel reserves must prevent finished body hatching, color, bands, or contours from being erased or covered later.",
+    "Do not add readable SCHOOL BUS text, route numbers, logos, people, faces, road signs, other vehicles, buildings, scenery, labels, arrows, numbers, signature, watermark, or decorative border.",
+    "The final panel may not introduce a body contour, window, door, wheel, lamp, mirror, safety band, grille feature, bumper seam, panel joint, shadow shape, hatch route, or color area.",
+    "The finish must remain tactile graphite and restrained colored pencil on warm paper, not photoreal transport art, glossy digital painting, polished AI poster art, or rasterized vector drawing."
+  ]
+}
