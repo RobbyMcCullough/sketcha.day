@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a shooting star over pine hills</title>
+      <link>https://sketcha.day/tutorials/shooting-star-over-pine-hills.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/shooting-star-over-pine-hills.html</guid>
+      <pubDate>Tue, 11 Aug 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a shooting star over pine hills with a diagonal meteor, two glowing wakes, layered ridges, five pines, graphite texture, and restrained colored pencil.</description>
+      <media:content url="https://sketcha.day/assets/shooting-star-over-pine-hills-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a school bus</title>
       <link>https://sketcha.day/tutorials/school-bus-three-quarter-view.html</link>

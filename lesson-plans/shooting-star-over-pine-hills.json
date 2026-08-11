@@ -1,0 +1,199 @@
+{
+  "schema_version": 2,
+  "slug": "shooting-star-over-pine-hills",
+  "finished": "assets/shooting-star-over-pine-hills-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One six-panel graphite-and-colored-pencil contact sheet intended to become five cumulative process frames and one finished master after full-sheet review.",
+    "notes": "Keep one diagonal shooting star with its bright round head on the page right and exactly two tapered wake bands trailing toward the upper left above two layered pine-covered hill ridges. Include exactly five foreground pine silhouettes, exactly three small background stars, a broken foreground texture edge, tactile graphite, restrained indigo-blue and warm-yellow pencil, and no moon, buildings, people, text, labels, arrows, numbers, signature, watermark, border, or extra meteors."
+  },
+  "process_strategy": "Use six cumulative stages so the pale composition map, meteor and rough hill silhouettes, five-pine structure, sky and landscape detail, graphite-and-pencil value, and final reinforcement each have one distinct visible job. Reserve the meteor glow, two wake bands, five pine footprints, three star gaps, and foreground edge before dark hill or sky value so no finished keeper line or shading must be erased later.",
+  "final_elements": [
+    {
+      "name": "pale meteor ridge pine star and foreground composition map",
+      "introduced_by_step": 1,
+      "description": "Light graphite places the meteor diagonal, round head, two wake routes, two hill ridges, exactly five pine footprints, three star centers, and a broken foreground edge."
+    },
+    {
+      "name": "bright meteor head two tapered wake bands and two rough hill silhouettes",
+      "introduced_by_step": 2,
+      "description": "A small bright meteor head and two tapering trails cross above two loose overlapping hill silhouettes while preserving every pale tree and star reserve."
+    },
+    {
+      "name": "two refined hill ridges and exactly five foreground pine silhouettes",
+      "introduced_by_step": 3,
+      "description": "Cleaner graphite settles both ridge contours and builds five varied pine silhouettes along the foreground ridge without covering the meteor or star gaps."
+    },
+    {
+      "name": "three small sky stars pine branch rhythm distant hatching and broken foreground texture",
+      "introduced_by_step": 4,
+      "description": "Exactly three small stars, simple branch strokes on all five pines, sparse distant-ridge hatching, and a broken rock-and-grass foreground edge complete the scene structure."
+    },
+    {
+      "name": "graphite night values indigo-blue hills and warm-yellow meteor accents",
+      "introduced_by_step": 5,
+      "description": "Directional graphite and restrained indigo-blue pencil deepen the established hills and sky pockets while warm yellow touches the established meteor head and wake; paper remains visible through every value."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "two refined hill ridges and exactly five foreground pine silhouettes",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The foreground ridge and its hatching stop at all five reserved pine trunks and branch masses; no finished hill texture is drawn beneath the pine silhouettes."
+    },
+    {
+      "foreground_element": "bright meteor head two tapered wake bands and two rough hill silhouettes",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Sky graphite and indigo pencil stop around the reserved meteor head and both wake bands so their pale glow never requires erased finished shading."
+    },
+    {
+      "foreground_element": "three small sky stars pine branch rhythm distant hatching and broken foreground texture",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Sky value stops around the three reserved star gaps, and foreground hatching stops at the broken rock-and-grass edge established in the map."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/shooting-star-over-pine-hills-step-1.jpg",
+      "step_name": "Map the night-sky diagonal",
+      "visible_job": "Uses pale graphite to place the meteor path, round head, two wake routes, two hill ridges, five pine footprints, three star centers, and broken foreground edge.",
+      "introduces": [
+        "pale meteor ridge pine star and foreground composition map"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/shooting-star-over-pine-hills-step-2.jpg",
+      "step_name": "Shape the meteor and hills",
+      "visible_job": "Builds the bright meteor head, two tapered wake bands, and two loose overlapping hill silhouettes while preserving the pale pine and star reserves.",
+      "introduces": [
+        "bright meteor head two tapered wake bands and two rough hill silhouettes"
+      ],
+      "requires_prior_elements": [
+        "pale meteor ridge pine star and foreground composition map"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/shooting-star-over-pine-hills-step-3.jpg",
+      "step_name": "Plant the five pines",
+      "visible_job": "Refines both hill ridges and builds exactly five foreground pine silhouettes with varied heights inside their reserved footprints.",
+      "introduces": [
+        "two refined hill ridges and exactly five foreground pine silhouettes"
+      ],
+      "requires_prior_elements": [
+        "pale meteor ridge pine star and foreground composition map",
+        "bright meteor head two tapered wake bands and two rough hill silhouettes"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/shooting-star-over-pine-hills-step-4.jpg",
+      "step_name": "Add the quiet sky detail",
+      "visible_job": "Adds exactly three small sky stars, simple branch rhythm to all five pines, sparse distant-ridge hatching, and the broken rock-and-grass foreground texture.",
+      "introduces": [
+        "three small sky stars pine branch rhythm distant hatching and broken foreground texture"
+      ],
+      "requires_prior_elements": [
+        "pale meteor ridge pine star and foreground composition map",
+        "bright meteor head two tapered wake bands and two rough hill silhouettes",
+        "two refined hill ridges and exactly five foreground pine silhouettes"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/shooting-star-over-pine-hills-step-5.jpg",
+      "step_name": "Layer the night values",
+      "visible_job": "Layers directional graphite and restrained indigo-blue pencil over the established hills and sky pockets, then warms the established meteor head and wake with light yellow pencil while preserving paper glow.",
+      "introduces": [
+        "graphite night values indigo-blue hills and warm-yellow meteor accents"
+      ],
+      "requires_prior_elements": [
+        "bright meteor head two tapered wake bands and two rough hill silhouettes",
+        "two refined hill ridges and exactly five foreground pine silhouettes",
+        "three small sky stars pine branch rhythm distant hatching and broken foreground texture"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale meteor ridge pine star and foreground composition map"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale meteor ridge pine star and foreground composition map",
+        "bright meteor head two tapered wake bands and two rough hill silhouettes"
+      ],
+      "new_occlusions": [
+        "The five pine silhouettes occupy only their pale Step 1 reserves along the foreground ridge; no finished hill texture is covered."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale meteor ridge pine star and foreground composition map",
+        "bright meteor head two tapered wake bands and two rough hill silhouettes",
+        "two refined hill ridges and exactly five foreground pine silhouettes"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale meteor ridge pine star and foreground composition map",
+        "bright meteor head two tapered wake bands and two rough hill silhouettes",
+        "two refined hill ridges and exactly five foreground pine silhouettes",
+        "three small sky stars pine branch rhythm distant hatching and broken foreground texture"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale meteor ridge pine star and foreground composition map",
+        "bright meteor head two tapered wake bands and two rough hill silhouettes",
+        "two refined hill ridges and exactly five foreground pine silhouettes",
+        "three small sky stars pine branch rhythm distant hatching and broken foreground texture",
+        "graphite night values indigo-blue hills and warm-yellow meteor accents"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Let the shooting star glow",
+    "asset": "assets/shooting-star-over-pine-hills-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established contours, deepens the same graphite and colored-pencil values, clarifies the reserved meteor and star paper glow, and softens distracting pale guides without changing the meteor, hills, pines, sky details, or palette.",
+    "allowed_changes": [
+      "selective keeper-line darkening",
+      "slightly deeper existing graphite values",
+      "second light indigo-blue and warm-yellow pencil pass inside established areas",
+      "small paper-glow clarification around the established meteor and stars",
+      "light eraser cleanup around established contours"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one diagonal meteor with its head on the page right and two wakes trailing toward the upper left, plus one crop and one scale in all six panels.",
+    "Keep one round meteor head, exactly two wake bands, two hill ridges, exactly five pines, exactly three small stars, and one broken foreground edge after those elements appear.",
+    "The meteor angle, hill contours, pine positions, star positions, and foreground edge may not drift between panels.",
+    "Sky and hill value must stop at the reserved meteor, wake, pine, and star footprints without requiring erased keeper lines.",
+    "Do not add a moon, cabin, tent, person, animal, extra meteor, extra pine, constellation line, readable text, label, arrow, number, signature, watermark, or decorative border.",
+    "The final panel may not introduce a meteor contour, wake band, hill, pine, star, foreground shape, hatch route, or color area.",
+    "The finish must retain believable graphite and colored-pencil tooth rather than vector-clean icon art, glossy AI poster art, digital airbrush gradients, or rasterized vector drawing."
+  ]
+}

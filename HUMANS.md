@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-10
+- Date: 2026-08-11
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-08-09 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-10 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,21 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-08-11 daily automation added one current lesson only:
+  `shooting-star-over-pine-hills` (August 11 / Day 109). The approved
+  six-panel handmade raster process keeps one diagonal shooting star, two
+  tapered wake bands, three open-paper stars, two hill ridges, and five varied
+  pines cumulative from light construction through tactile graphite, indigo
+  pencil, and restrained warm-yellow glow. The finished sketch rates 9.5/10
+  for immediate meteor readability, stable landscape structure, convincing
+  pencil tooth, and a teachable 20-minute progression.
+- Readiness passed the ledger, schema-v2 process plan, frame deltas,
+  derivatives, social card, JSON-LD, internal links, unused assets, lab
+  privacy, and diff checks. Direct Cove QA at 1440x1000 and 390x844 covered
+  the homepage, 109-card library, and tutorial with no horizontal overflow,
+  failed current-lesson images, invalid JSON-LD, public lab links, or browser
+  errors. The one-current-lesson-per-site cadence remains active; routine
+  backdated tutorials remain off.
 - 2026-08-10 daily automation added one current lesson only:
   `school-bus-three-quarter-view` (August 10 / Day 108). The approved
   eight-panel handmade raster process keeps one front-left three-quarter bus,

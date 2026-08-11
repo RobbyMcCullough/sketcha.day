@@ -12,6 +12,35 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "shooting-star-over-pine-hills",
+    day: "109",
+    date: "Tuesday, August 11",
+    isoDate: "2026-08-11",
+    subject: "a shooting star over pine hills",
+    headlineSubject: "a shooting star<br>over pine hills",
+    shortSubject: "a shooting star",
+    seoTitlePhrase: "a Shooting Star over Pine Hills",
+    lessonTitle: "Let's draw a shooting star over pine hills",
+    description: "Learn how to draw a shooting star over pine hills with a diagonal meteor, two glowing wakes, layered ridges, five pines, graphite texture, and restrained colored pencil.",
+    intro: "Sweep one shooting star across a quiet night sky, stack two pine-covered hill ridges beneath it, and preserve the pale meteor glow before building graphite and restrained indigo pencil around the scene. The 20-minute sketch turns a timely summer-sky subject into a practical lesson in diagonal movement, negative-space highlights, value grouping, and varied tree rhythm.",
+    time: 20,
+    difficulty: "Medium",
+    accent: "#52668f",
+    finished: "shooting-star-over-pine-hills-finished-v1.jpg",
+    finishedAlt: "Handmade graphite and restrained colored-pencil sketch of one diagonal shooting star with a small warm-yellow round head on the page right and exactly two tapered yellow wake bands trailing toward the upper left, exactly three small open-paper sky stars, two layered indigo-blue hill ridges, exactly five dark foreground pine trees in varied heights, dense directional graphite night-sky hatching, open warm-paper glow around the meteor and stars, broken rock-and-grass foreground texture, and visible pencil tooth",
+    materials: ["HB pencil", "2B pencil", "Drawing paper", "Kneaded eraser", "Indigo-blue and warm-yellow colored pencils"],
+    materialNote: "Use pale HB graphite to place the complete meteor route, round head, two wake bands, two hill ridges, five pine footprints, three star gaps, and broken foreground edge before strengthening any contour. Build darker 2B value around those reserves, then glaze indigo blue and warm yellow lightly enough to keep the paper glow and graphite grain visible.",
+    tipLabel: "Sketchbook tip",
+    steps: [
+      { name: "Map the night-sky diagonal", text: "Use pale graphite to place one diagonal meteor route, its round head, exactly two wake bands, two hill ridges, exactly five pine footprints, three star centers, and the broken rock-and-grass foreground edge.", tip: "Ghost the meteor diagonal two or three times before touching down, then place the head on the page right and pull both wake routes toward the upper left. Mark all five tree axes and three star gaps now so later shading can stop around them." },
+      { name: "Shape the meteor and hills", text: "Build the small meteor head, two tapered wake bands, and two loose overlapping hill silhouettes while preserving every pale pine, star, glow, and foreground reserve.", tip: "Start both wake bands at the same head and let them narrow together toward the upper left. Pull each ridge in one relaxed uneven pass, then compare the open sky above the nearer and farther hills before adding any trees." },
+      { name: "Plant the five pines", text: "Refine both hill ridges and build exactly five foreground pine silhouettes of varied heights inside their reserved footprints.", tip: "Draw each trunk axis first, then stack short branch groups from the top down while rotating the page for comfortable strokes. Vary the five heights, but keep the branch masses clear of the meteor glow and stop ridge hatching at every trunk." },
+      { name: "Add the quiet sky detail", text: "Add exactly three small background stars, readable branch rhythm to all five pines, sparse hatching on the distant ridge, and the broken rock-and-grass foreground texture.", tip: "Keep each star small and leave warm paper around it. Use fewer marks on the distant hill than the foreground, then group the rocks and grass into broken clusters instead of outlining every blade." },
+      { name: "Layer the night values", text: "Build directional graphite and restrained indigo-blue pencil over the established hills and sky pockets, then warm only the existing meteor head and two wakes with light yellow pencil.", tip: "Hatch around the meteor and three stars instead of shading through them, and change stroke direction slightly between sky and hills. Build two light color passes rather than one waxy coat so the paper tooth keeps the night luminous." },
+      { name: "Let the shooting star glow", text: "Strengthen selected established contours, deepen the same graphite and colored-pencil values, clarify the reserved meteor and star paper glow, and soften only pale guides that distract.", tip: "Count one meteor head, two wakes, two hill ridges, five pines, and three stars before stopping. Try a different hill profile in your own version if you like, but preserve the large diagonal and the open glow that make the shooting star readable.", image: true }
+    ]
+  },
+  {
     slug: "school-bus-three-quarter-view",
     day: "108",
     date: "Monday, August 10",
