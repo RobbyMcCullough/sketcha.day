@@ -1,11 +1,11 @@
 # Human Notes
 
 ## Last Accessed
-- Date: 2026-08-11
+- Date: 2026-08-12
 - Agent harness: Codex
 - Harness project/session name: Daily sketch and doodle lessons
 - Local path: `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day`
-- Previous: 2026-08-10 / Codex / Daily sketch and doodle lessons
+- Previous: 2026-08-11 / Codex / Daily sketch and doodle lessons
 
 ## Project Context
 - Parent project: Daily drawing prompt and tutorial website
@@ -13,6 +13,22 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-08-12 daily automation added one current lesson only:
+  `elephant-calf-with-raised-trunk` (August 12 / Day 110). The approved v2
+  eight-panel handmade raster process keeps one left-facing calf, an
+  upward-curled trunk, one visible ear, four sturdy legs, one eye, one small
+  tusk, a tail, and broken ground shadow cumulative from pale graphite
+  construction through restrained blue-gray and dusty-rose color. The
+  rejected v1 sheet remains private because ear and tusk counts drifted.
+- The finished sketch rates 9.5/10 for immediate readability, tactile pencil
+  tooth, appealing calf proportions, a stable raised-trunk pose, and a
+  substantial but attainable 25-minute progression. Readiness passed the
+  ledger, schema-v2 plan, frame deltas, derivatives, social card, JSON-LD,
+  internal links, unused assets, lab privacy, and diff checks. Rendered QA at
+  1440x1000 and 390x844 covered the homepage, 110-card library, and tutorial
+  with no overflow, broken current images, JSON-LD errors, public lab links,
+  or browser errors. The one-current-lesson-per-site cadence remains active;
+  routine backdated tutorials remain off.
 - 2026-08-11 daily automation added one current lesson only:
   `shooting-star-over-pine-hills` (August 11 / Day 109). The approved
   six-panel handmade raster process keeps one diagonal shooting star, two

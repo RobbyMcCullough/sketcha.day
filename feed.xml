@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw an elephant calf with a raised trunk</title>
+      <link>https://sketcha.day/tutorials/elephant-calf-with-raised-trunk.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/elephant-calf-with-raised-trunk.html</guid>
+      <pubDate>Wed, 12 Aug 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw an elephant calf with a raised trunk using a simple side-view pose, four sturdy legs, one large ear, graphite texture, and restrained colored pencil.</description>
+      <media:content url="https://sketcha.day/assets/elephant-calf-with-raised-trunk-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a shooting star over pine hills</title>
       <link>https://sketcha.day/tutorials/shooting-star-over-pine-hills.html</link>

@@ -1,0 +1,270 @@
+{
+  "schema_version": 2,
+  "slug": "elephant-calf-with-raised-trunk",
+  "finished": "assets/elephant-calf-with-raised-trunk-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "description": "One eight-panel graphite-and-colored-pencil contact sheet intended to become seven cumulative process frames and one finished master after full-sheet review.",
+    "notes": "Keep one young elephant calf in one left-facing side view with its trunk curling upward, exactly one visible near ear with the far ear hidden, four readable legs, one small visible tusk, one tail, soft skin folds, a broken ground shadow, tactile graphite, restrained blue-gray and dusty-rose pencil, and no water spray, tree, grassland scene, text, labels, arrows, numbers, signature, watermark, border, or extra animal."
+  },
+  "process_strategy": "Use eight cumulative stages so the pale pose map, head-body-trunk silhouette, legs and tail, face and anatomy landmarks, skin texture and shadow, graphite value, restrained colored pencil, and final reinforcement each have one distinct visible job. Reserve the visible near-ear overlap, all four leg routes, the tusk, eye, trunk opening, tail, highlights, and ground shadow before dark contours or value so no keeper line must be erased later.",
+  "final_elements": [
+    {
+      "name": "pale elephant pose anatomy highlight and shadow map",
+      "introduced_by_step": 1,
+      "description": "Light graphite places the head and body masses, upward trunk route, two ear footprints, four leg axes, tail route, eye and tusk anchors, paper highlights, and broken ground-shadow footprint."
+    },
+    {
+      "name": "rough calf head body raised trunk and one-ear silhouette",
+      "introduced_by_step": 2,
+      "description": "Loose graphite wraps the map into one young elephant with a rounded forehead, broad body, upward-curled trunk, and one large visible near ear while the far ear stays hidden."
+    },
+    {
+      "name": "four sturdy legs rounded feet and one tufted tail",
+      "introduced_by_step": 3,
+      "description": "Exactly four readable legs settle beneath the body with rounded feet while one slim tail ends in a small tuft."
+    },
+    {
+      "name": "one gentle eye one small tusk trunk opening toenail marks and ear folds",
+      "introduced_by_step": 4,
+      "description": "The calf gains one visible calm eye, one small tusk, the trunk opening, simple rounded toenail marks, and a few large ear-fold routes."
+    },
+    {
+      "name": "sparse skin folds directional hatching and broken ground shadow",
+      "introduced_by_step": 5,
+      "description": "Sparse wrinkles follow the trunk, joints, and belly while directional hatching and one broken shadow establish weight without making the calf photorealistic."
+    },
+    {
+      "name": "layered graphite volume and open-paper highlights",
+      "introduced_by_step": 6,
+      "description": "Broad graphite values turn the established head, ears, body, legs, trunk, and shadow while preserving open-paper highlights and visible tooth."
+    },
+    {
+      "name": "restrained blue-gray body and dusty-rose ear pencil",
+      "introduced_by_step": 7,
+      "description": "Light blue-gray pencil cools the established body and dusty rose warms the near-ear interior without covering the graphite texture."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "rough calf head body raised trunk and one-ear silhouette",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The far ear remains fully hidden behind the head, and the visible near ear overlaps only the head-and-shoulder area marked in the pale map; no finished head or body texture is drawn beneath it."
+    },
+    {
+      "foreground_element": "four sturdy legs rounded feet and one tufted tail",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The belly contour stops at all four reserved leg attachments, far-leg contours stop behind the two near legs, and the ground shadow stops at each planted foot."
+    },
+    {
+      "foreground_element": "one gentle eye one small tusk trunk opening toenail marks and ear folds",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Graphite value and later color stop around the eye, tusk, trunk opening, toenail marks, and paper-highlight routes established in the first map."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/elephant-calf-with-raised-trunk-step-1.jpg",
+      "step_name": "Map the calf gesture",
+      "visible_job": "Uses pale graphite to place the head and body masses, upward trunk route, one visible ear, four leg axes, tail, face anchors, paper highlights, and broken ground-shadow footprint.",
+      "introduces": [
+        "pale elephant pose anatomy highlight and shadow map"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/elephant-calf-with-raised-trunk-step-2.jpg",
+      "step_name": "Wrap the head trunk and ear",
+      "visible_job": "Builds one loose calf silhouette with a rounded head, broad body, upward-curled trunk, and one large visible near ear while preserving every leg, tail, face, highlight, and shadow reserve.",
+      "introduces": [
+        "rough calf head body raised trunk and one-ear silhouette"
+      ],
+      "requires_prior_elements": [
+        "pale elephant pose anatomy highlight and shadow map"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/elephant-calf-with-raised-trunk-step-3.jpg",
+      "step_name": "Stand the calf on four legs",
+      "visible_job": "Adds exactly four sturdy legs with rounded feet plus one slim tufted tail on their reserved routes, keeping far legs visibly behind the near pair.",
+      "introduces": [
+        "four sturdy legs rounded feet and one tufted tail"
+      ],
+      "requires_prior_elements": [
+        "pale elephant pose anatomy highlight and shadow map",
+        "rough calf head body raised trunk and one-ear silhouette"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/elephant-calf-with-raised-trunk-step-4.jpg",
+      "step_name": "Place the gentle face and feet",
+      "visible_job": "Adds one visible calm eye, one small tusk, the trunk opening, simple rounded toenail marks, and a few broad ear folds without changing the pose.",
+      "introduces": [
+        "one gentle eye one small tusk trunk opening toenail marks and ear folds"
+      ],
+      "requires_prior_elements": [
+        "pale elephant pose anatomy highlight and shadow map",
+        "rough calf head body raised trunk and one-ear silhouette",
+        "four sturdy legs rounded feet and one tufted tail"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/elephant-calf-with-raised-trunk-step-5.jpg",
+      "step_name": "Add the skin rhythm and shadow",
+      "visible_job": "Adds sparse wrinkles along the established trunk, joints, belly, and ears, then places directional hatching and the reserved broken ground shadow.",
+      "introduces": [
+        "sparse skin folds directional hatching and broken ground shadow"
+      ],
+      "requires_prior_elements": [
+        "rough calf head body raised trunk and one-ear silhouette",
+        "four sturdy legs rounded feet and one tufted tail",
+        "one gentle eye one small tusk trunk opening toenail marks and ear folds"
+      ]
+    },
+    {
+      "step": 6,
+      "asset": "assets/elephant-calf-with-raised-trunk-step-6.jpg",
+      "step_name": "Build the graphite volume",
+      "visible_job": "Layers broad graphite values over the established calf and shadow while preserving the eye, tusk, folds, toenail marks, and open-paper highlights.",
+      "introduces": [
+        "layered graphite volume and open-paper highlights"
+      ],
+      "requires_prior_elements": [
+        "rough calf head body raised trunk and one-ear silhouette",
+        "four sturdy legs rounded feet and one tufted tail",
+        "one gentle eye one small tusk trunk opening toenail marks and ear folds",
+        "sparse skin folds directional hatching and broken ground shadow"
+      ]
+    },
+    {
+      "step": 7,
+      "asset": "assets/elephant-calf-with-raised-trunk-step-7.jpg",
+      "step_name": "Layer the quiet elephant color",
+      "visible_job": "Glazes restrained blue-gray over the established body and dusty rose inside the established near ear while preserving graphite grain, highlights, and anatomy landmarks.",
+      "introduces": [
+        "restrained blue-gray body and dusty-rose ear pencil"
+      ],
+      "requires_prior_elements": [
+        "rough calf head body raised trunk and one-ear silhouette",
+        "four sturdy legs rounded feet and one tufted tail",
+        "one gentle eye one small tusk trunk opening toenail marks and ear folds",
+        "sparse skin folds directional hatching and broken ground shadow",
+        "layered graphite volume and open-paper highlights"
+      ]
+    }
+  ],
+  "transition_audit": [
+    {
+      "from_step": 1,
+      "to_step": 2,
+      "must_persist": [
+        "pale elephant pose anatomy highlight and shadow map"
+      ],
+      "new_occlusions": [
+        "The visible near ear occupies only its pale Step 1 reserve around the head and shoulder; the far ear remains fully hidden."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 2,
+      "to_step": 3,
+      "must_persist": [
+        "pale elephant pose anatomy highlight and shadow map",
+        "rough calf head body raised trunk and one-ear silhouette"
+      ],
+      "new_occlusions": [
+        "The four legs occupy only the pale attachment routes and the two near legs overlap the far pair without erasing finished body contours."
+      ],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 3,
+      "to_step": 4,
+      "must_persist": [
+        "pale elephant pose anatomy highlight and shadow map",
+        "rough calf head body raised trunk and one-ear silhouette",
+        "four sturdy legs rounded feet and one tufted tail"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 4,
+      "to_step": 5,
+      "must_persist": [
+        "pale elephant pose anatomy highlight and shadow map",
+        "rough calf head body raised trunk and one-ear silhouette",
+        "four sturdy legs rounded feet and one tufted tail",
+        "one gentle eye one small tusk trunk opening toenail marks and ear folds"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 5,
+      "to_step": 6,
+      "must_persist": [
+        "pale elephant pose anatomy highlight and shadow map",
+        "rough calf head body raised trunk and one-ear silhouette",
+        "four sturdy legs rounded feet and one tufted tail",
+        "one gentle eye one small tusk trunk opening toenail marks and ear folds",
+        "sparse skin folds directional hatching and broken ground shadow"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 6,
+      "to_step": 7,
+      "must_persist": [
+        "pale elephant pose anatomy highlight and shadow map",
+        "rough calf head body raised trunk and one-ear silhouette",
+        "four sturdy legs rounded feet and one tufted tail",
+        "one gentle eye one small tusk trunk opening toenail marks and ear folds",
+        "sparse skin folds directional hatching and broken ground shadow",
+        "layered graphite volume and open-paper highlights"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    },
+    {
+      "from_step": 7,
+      "to_step": 8,
+      "must_persist": [
+        "pale elephant pose anatomy highlight and shadow map",
+        "rough calf head body raised trunk and one-ear silhouette",
+        "four sturdy legs rounded feet and one tufted tail",
+        "one gentle eye one small tusk trunk opening toenail marks and ear folds",
+        "sparse skin folds directional hatching and broken ground shadow",
+        "layered graphite volume and open-paper highlights",
+        "restrained blue-gray body and dusty-rose ear pencil"
+      ],
+      "new_occlusions": [],
+      "keeper_lines_removed": []
+    }
+  ],
+  "final_step": {
+    "step_name": "Settle the raised-trunk finish",
+    "asset": "assets/elephant-calf-with-raised-trunk-finished-v1.jpg",
+    "visible_job": "Only strengthens selected established contours, deepens the same graphite and colored-pencil values, clarifies existing paper highlights, and softens distracting pale guides without changing the calf anatomy, pose, folds, shadow, or palette.",
+    "allowed_changes": [
+      "selective keeper-line darkening",
+      "slightly deeper existing graphite values",
+      "second light blue-gray and dusty-rose pencil pass inside established areas",
+      "small open-paper highlight clarification",
+      "light eraser cleanup around established contours"
+    ]
+  },
+  "rejection_checks": [
+    "Keep one left-facing calf, one upward-curled trunk, exactly one visible ear with the far ear hidden, four legs, one visible eye, one small tusk, one tail, one crop, and one scale in all eight panels.",
+    "The trunk route, ear sizes, head-body proportion, leg order, tail position, face, folds, and shadow may not drift between panels.",
+    "Keep all four legs readable after Step 3; no leg may disappear and return, and the far pair must stay behind the near pair.",
+    "Do not add a water spray, tree, grassland scene, second elephant, extra tusk, blanket, readable text, label, arrow, number, signature, watermark, or decorative border.",
+    "The final panel may not introduce an anatomy contour, ear, leg, foot, tail, eye, tusk, trunk opening, fold, shadow shape, hatch route, highlight, or color area.",
+    "The finish must retain believable graphite and colored-pencil tooth rather than photorealistic skin, glossy AI illustration, vector-clean icon art, digital gradients, or rasterized vector drawing."
+  ]
+}

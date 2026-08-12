@@ -12,6 +12,37 @@ const iconLinks = `  <link rel="icon" href="/favicon.ico">
 
 const lessons = [
   {
+    slug: "elephant-calf-with-raised-trunk",
+    day: "110",
+    date: "Wednesday, August 12",
+    isoDate: "2026-08-12",
+    subject: "an elephant calf with a raised trunk",
+    headlineSubject: "an elephant calf<br>with a raised trunk",
+    shortSubject: "an elephant calf",
+    seoTitlePhrase: "an Elephant Calf with a Raised Trunk",
+    lessonTitle: "Let's draw an elephant calf with a raised trunk",
+    description: "Learn how to draw an elephant calf with a raised trunk using a simple side-view pose, four sturdy legs, one large ear, graphite texture, and restrained colored pencil.",
+    intro: "Build one young elephant around a rounded head, broad body, and upward-curled trunk, then settle four sturdy legs beneath the pose before adding the gentle eye, one small tusk, sparse skin folds, graphite volume, and restrained color. The 25-minute sketch turns a trending animal subject into a practical lesson in large masses, leg overlap, directional hatching, and keeping textured surfaces readable without chasing photorealism.",
+    time: 25,
+    difficulty: "Medium",
+    accent: "#667d91",
+    finished: "elephant-calf-with-raised-trunk-finished-v1.jpg",
+    finishedAlt: "Handmade graphite and restrained colored-pencil sketch of one young left-facing elephant calf with one upward-curled trunk, exactly one visible large near ear with a dusty-rose interior, exactly four sturdy legs with rounded feet and simple toenail marks, one gentle visible eye, one small visible tusk, one trunk opening, one slim tufted tail, sparse skin folds, layered blue-gray pencil and graphite texture, open-paper highlights, and one broken graphite ground shadow",
+    materials: ["HB pencil", "2B pencil", "Drawing paper", "Kneaded eraser", "Blue-gray and dusty-rose colored pencils"],
+    materialNote: "Use pale HB graphite to place the complete calf, upward trunk, one visible ear, four leg routes, tail, eye, tusk, trunk opening, toenail marks, folds, highlights, and broken shadow before strengthening any contour. Build the 2B hatching in the direction of each form, then glaze blue gray over the body and dusty rose inside the ear lightly enough to keep the graphite grain and warm paper visible.",
+    tipLabel: "Sketchbook tip",
+    steps: [
+      { name: "Map the calf gesture", text: "Use pale graphite to place the head and body masses, upward trunk route, one visible ear, exactly four leg axes, the tail route, eye and tusk anchors, toenail routes, open-paper highlights, and one broken ground-shadow footprint.", tip: "Ghost the trunk curve and body arc two or three times before touching down, then compare the four leg gaps under the belly. Mark the ear, tusk, eye, feet, and shadow now so later contours and value can stop around them." },
+      { name: "Wrap the head trunk and ear", text: "Build one loose calf silhouette with a rounded head, broad body, upward-curled trunk, and one large visible near ear while preserving every pale leg, tail, face, highlight, and shadow reserve.", tip: "Simplify the outside edge into a few long arcs instead of tracing wrinkles. Rotate the page for the trunk, hide the far ear completely behind the head, and stop the belly contour at all four reserved leg attachments." },
+      { name: "Stand the calf on four legs", text: "Add exactly four sturdy legs with rounded feet plus one slim tufted tail on their reserved routes, keeping the two smaller far legs visibly behind the near pair.", tip: "Block each leg as a soft taper before drawing toes. Compare the negative spaces between the four legs, and let the far pair disappear only where the near legs physically overlap them." },
+      { name: "Place the gentle face and feet", text: "Add one calm visible eye, one small tusk, the trunk opening, simple rounded toenail marks, and a few broad ear folds without changing the pose.", tip: "Place the eye below the forehead arc and aim the small tusk from the reserved mouth corner. Keep the toenail shapes simple and uneven, then pull each ear fold from its attachment toward the outer edge." },
+      { name: "Add the skin rhythm and shadow", text: "Add sparse wrinkles along the established trunk, joints, belly, and ear, then place directional hatching and the reserved broken ground shadow.", tip: "Curve each wrinkle around the form and leave quiet paper between groups. Break the shadow at every planted foot so the calf feels grounded without sitting on a heavy dark oval." },
+      { name: "Build the graphite volume", text: "Layer broad graphite values over the established calf and shadow while preserving the eye, tusk, folds, toenail marks, and open-paper highlights.", tip: "Use the side of the 2B pencil on the body and ear, then turn to the point around the eye, trunk, and feet. Change hatch direction between the head, legs, and belly so the large masses keep their volume." },
+      { name: "Layer the quiet elephant color", text: "Glaze restrained blue-gray pencil over the established body and dusty rose inside the established near ear while preserving graphite grain, highlights, and anatomy landmarks.", tip: "Build two light color passes instead of one waxy coat, following the trunk and body curves. Keep the eye, tusk, toenails, and paper highlights clean, and let graphite remain the darkest material." },
+      { name: "Settle the raised-trunk finish", text: "Strengthen selected established contours, deepen the same graphite and colored-pencil values, clarify existing paper highlights, and soften only pale guides that distract.", tip: "Count one visible ear, four legs, one eye, one tusk, one trunk opening, and one tail before stopping. Try a different ear tint or trunk curl in your own sketch if you like, but keep the leg order and handmade pencil tooth readable.", image: true }
+    ]
+  },
+  {
     slug: "shooting-star-over-pine-hills",
     day: "109",
     date: "Tuesday, August 11",
