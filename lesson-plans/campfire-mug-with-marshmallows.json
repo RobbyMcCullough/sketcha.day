@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "slug": "campfire-mug-with-marshmallows",
+  "finished": "assets/campfire-mug-with-marshmallows-finished-v1.jpg",
+  "source": {"type":"generated-raster-contact-sheet","description":"Approved eight-panel graphite and colored-pencil raster contact sheet.","notes":"Private v1 and v2 sheets were rejected for state/count failures; approved v3 begins with true construction and preserves exactly five stones, two sticks, and three marshmallows."},
+  "process_strategy":"A pale construction map grows through mug silhouette, fire-and-stone structure, sticks and marshmallows, detail, graphite, color, and only final reinforcement.",
+  "construction_contract":{"temporary_guides":"Pale mug masses, handle gesture, flame triangle, five stone circles, two stick axes, three marshmallow boxes, highlight, and shadow map may soften later.","step_1_boundary":"Only pale primitives; no closed mug, fire, stone, stick, or marshmallow contour and no value or color.","step_2_boundary":"Only mug silhouette and handle become closed forms; fire, stones, sticks, and marshmallows remain guides."},
+  "final_elements":[
+    {"name":"pale mug fire and marshmallow construction map","introduced_by_step":1,"description":"Pale geometry establishes the mug, fire, five stones, two sticks, three marshmallows, highlight, and shadow."},
+    {"name":"mug silhouette cream rim and right handle","introduced_by_step":2,"description":"One broad enamel mug with a right C-handle appears behind the campfire."},
+    {"name":"five stones and two-layer flame","introduced_by_step":3,"description":"Exactly five rounded stones form the fire ring with one outer and one inner flame."},
+    {"name":"two crossed sticks and three marshmallows","introduced_by_step":4,"description":"Exactly two sticks cross above the fire and carry exactly three cube marshmallows."},
+    {"name":"mug highlight stone facets and broken shadow","introduced_by_step":5,"description":"One paper highlight, simple stone facets, and a short broken shadow complete the pencil drawing."},
+    {"name":"graphite volume","introduced_by_step":6,"description":"Directional graphite shades only established mug, fire, stones, sticks, marshmallows, and shadow."},
+    {"name":"restrained navy coral gold brown cream and gray pencil","introduced_by_step":7,"description":"Color fills only established forms while graphite tooth remains visible."}
+  ],
+  "overlap_reservations":[{"foreground_element":"two crossed sticks and three marshmallows","reserved_by_step":1,"background_lines_stop_before":"The flame and stone facets stop beneath the two reserved stick routes and three marshmallow boxes."}],
+  "frames":[
+    {"step":1,"asset":"assets/campfire-mug-with-marshmallows-step-1.jpg","step_name":"Map the campfire setup","visible_job":"Places only pale mug, flame, five-stone, two-stick, three-marshmallow, highlight, and shadow guides.","introduces":["pale mug fire and marshmallow construction map"],"must_not_show":["closed mug contour","outlined stones or flame","stick or marshmallow contours","graphite shading or color"]},
+    {"step":2,"asset":"assets/campfire-mug-with-marshmallows-step-2.jpg","step_name":"Wrap the cozy mug","visible_job":"Connects the mug and right handle while preserving all pale campfire guides.","introduces":["mug silhouette cream rim and right handle"],"requires_prior_elements":["pale mug fire and marshmallow construction map"]},
+    {"step":3,"asset":"assets/campfire-mug-with-marshmallows-step-3.jpg","step_name":"Build the fire ring","visible_job":"Adds exactly five stones and the established two-layer flame.","introduces":["five stones and two-layer flame"],"requires_prior_elements":["pale mug fire and marshmallow construction map","mug silhouette cream rim and right handle"]},
+    {"step":4,"asset":"assets/campfire-mug-with-marshmallows-step-4.jpg","step_name":"Cross the roasting sticks","visible_job":"Adds exactly two crossed sticks and exactly three cube marshmallows.","introduces":["two crossed sticks and three marshmallows"],"requires_prior_elements":["five stones and two-layer flame"]},
+    {"step":5,"asset":"assets/campfire-mug-with-marshmallows-step-5.jpg","step_name":"Set the quiet details","visible_job":"Adds the established mug highlight, stone facets, and broken shadow contour.","introduces":["mug highlight stone facets and broken shadow"],"requires_prior_elements":["two crossed sticks and three marshmallows"]},
+    {"step":6,"asset":"assets/campfire-mug-with-marshmallows-step-6.jpg","step_name":"Build graphite warmth","visible_job":"Layers graphite hatching and volume across the established mug, five stones, two flames, two sticks, three marshmallows, and broken shadow while preserving the paper highlight.","introduces":["graphite volume"],"requires_prior_elements":["mug highlight stone facets and broken shadow"]},
+    {"step":7,"asset":"assets/campfire-mug-with-marshmallows-step-7.jpg","step_name":"Layer the firelight color","visible_job":"Adds restrained color only to established mug, fire, stones, sticks, and marshmallows.","introduces":["restrained navy coral gold brown cream and gray pencil"],"requires_prior_elements":["graphite volume"]}
+  ],
+  "transition_audit":[
+    {"from_step":1,"to_step":2,"must_persist":["pale mug fire and marshmallow construction map"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":2,"to_step":3,"must_persist":["pale mug fire and marshmallow construction map","mug silhouette cream rim and right handle"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":3,"to_step":4,"must_persist":["pale mug fire and marshmallow construction map","mug silhouette cream rim and right handle","five stones and two-layer flame"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":4,"to_step":5,"must_persist":["pale mug fire and marshmallow construction map","mug silhouette cream rim and right handle","five stones and two-layer flame","two crossed sticks and three marshmallows"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":5,"to_step":6,"must_persist":["pale mug fire and marshmallow construction map","mug silhouette cream rim and right handle","five stones and two-layer flame","two crossed sticks and three marshmallows","mug highlight stone facets and broken shadow"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":6,"to_step":7,"must_persist":["pale mug fire and marshmallow construction map","mug silhouette cream rim and right handle","five stones and two-layer flame","two crossed sticks and three marshmallows","mug highlight stone facets and broken shadow","graphite volume"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":7,"to_step":8,"must_persist":["pale mug fire and marshmallow construction map","mug silhouette cream rim and right handle","five stones and two-layer flame","two crossed sticks and three marshmallows","mug highlight stone facets and broken shadow","graphite volume","restrained navy coral gold brown cream and gray pencil"],"new_occlusions":[],"keeper_lines_removed":[]}
+  ],
+  "final_step":{"step_name":"Settle the campfire glow","asset":"assets/campfire-mug-with-marshmallows-finished-v1.jpg","visible_job":"Only reinforces established contour, value, color, highlight, and shadow.","allowed_changes":["keeper contour darkening","restrained colored-pencil deepening","shadow reinforcement"]},
+  "rejection_checks":["No closed contour in Step 1.","Exactly five stones, two sticks, and three marshmallows persist in all later frames.","No major element or color first appears in final."]
+}
