@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "slug": "sleepy-red-panda-curled-on-branch",
+  "finished": "assets/sleepy-red-panda-curled-on-branch-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Approved eight-panel handmade raster graphite and colored-pencil contact sheet cropped into JPG masters.",
+    "notes": "Generate only after the shared August 14 lock and this slug preflight pass."
+  },
+  "process_strategy": "A single curled red panda is built from a branch axis and three pale masses, then receives its branch overlap, face, striped tail, graphite texture, restrained color, and final reinforcement without changing pose or countable features.",
+  "final_elements": [
+    {"name":"curled red panda silhouette","introduced_by_step":2,"description":"One left-facing red panda curled into a compact sleeping crescent."},
+    {"name":"branch with fork","introduced_by_step":1,"description":"One diagonal branch and one short fork, reserved behind the panda body."},
+    {"name":"face and ears","introduced_by_step":4,"description":"Two rounded ears, closed eyes, a small nose, and pale cheek-mask shapes."},
+    {"name":"striped tail","introduced_by_step":3,"description":"One broad tail wrapping along the lower body with exactly four pale stripe bands."},
+    {"name":"restrained color and shadow","introduced_by_step":5,"description":"Rust, cream, and cool-gray colored-pencil layers with one broken branch shadow."}
+  ],
+  "overlap_reservations": [
+    {"foreground_element":"curled red panda silhouette","reserved_by_step":1,"background_lines_stop_before":"The branch's keeper lines stop behind the planned belly and tail footprint."},
+    {"foreground_element":"striped tail","reserved_by_step":2,"background_lines_stop_before":"Body texture and branch marks stop at the tail route."}
+  ],
+  "frames": [
+    {"step":1,"asset":"assets/sleepy-red-panda-curled-on-branch-step-1.jpg","step_name":"Map the branch and curl","visible_job":"Place a diagonal branch, its fork, a round head, bean body, tail arc, and shadow footprint in pale graphite.","introduces":["branch with fork"]},
+    {"step":2,"asset":"assets/sleepy-red-panda-curled-on-branch-step-2.jpg","step_name":"Wrap the sleeping body","visible_job":"Connect the head and body into one compact curled panda silhouette while preserving branch and tail reserves.","introduces":["curled red panda silhouette"]},
+    {"step":3,"asset":"assets/sleepy-red-panda-curled-on-branch-step-3.jpg","step_name":"Lay in the tail and paws","visible_job":"Add one wrapping tail, exactly four pale tail stripe bands, and two tucked paw masses.","introduces":["striped tail"]},
+    {"step":4,"asset":"assets/sleepy-red-panda-curled-on-branch-step-4.jpg","step_name":"Settle the sleepy face","visible_job":"Add two ears, closed eyes, nose, cheek masks, and small paw toes.","introduces":["face and ears"]},
+    {"step":5,"asset":"assets/sleepy-red-panda-curled-on-branch-step-5.jpg","step_name":"Glaze the quiet color","visible_job":"Strengthen established graphite texture and add restrained rust, cream, warm brown, and cool-gray colored-pencil layers to existing forms.","introduces":["restrained color and shadow"]}
+  ],
+  "transition_audit": [
+    {"from_step":1,"to_step":2,"must_persist":["branch with fork"],"new_occlusions":["panda silhouette covers the reserved branch middle"],"keeper_lines_removed":[]},
+    {"from_step":2,"to_step":3,"must_persist":["branch with fork","curled red panda silhouette"],"new_occlusions":["tail covers its reserved lower-body route"],"keeper_lines_removed":[]},
+    {"from_step":3,"to_step":4,"must_persist":["branch with fork","curled red panda silhouette","striped tail"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":4,"to_step":5,"must_persist":["branch with fork","curled red panda silhouette","striped tail","face and ears"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":5,"to_step":6,"must_persist":["branch with fork","curled red panda silhouette","striped tail","face and ears","restrained color and shadow"],"new_occlusions":[],"keeper_lines_removed":[]}
+  ],
+  "final_step": {"step_name":"Finish the resting panda","asset":"assets/sleepy-red-panda-curled-on-branch-finished-v1.jpg","visible_job":"Only clarifies established keeper contours, pencil texture, color, and shadow.","allowed_changes":["keeper contour darkening","restrained colored-pencil shading"]},
+  "rejection_checks":["Reject changed pose, tail stripe count, ear count, or branch fork.","Reject a final that first adds facial features, tail stripes, branch texture, color, or shadow.","Reject vector-clean or polished poster-like art; keep visible pencil tooth and handmade variation."]
+}

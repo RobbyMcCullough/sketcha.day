@@ -13,6 +13,16 @@
 - Related folders: Former request referenced `how.todraw.art`; active folder is `sketcha.day`
 
 ## Return Notes
+- 2026-08-14 daily automation added one current lesson only:
+  `sleepy-red-panda-curled-on-branch` (August 14 / Day 112). Its reviewed
+  six-panel handmade raster process moves from sparse graphite construction
+  through a stable curled body, two ears, two tucked paws, one four-striped
+  wrapping tail, quiet face, graphite texture, and restrained color. The
+  finished sketch rates 9.2/10 for an immediate readable curl, tactile pencil
+  tooth, warm character, and a substantial but attainable 25-minute build.
+  Readiness, JSON-LD, delivery images, contact-sheet deltas, desktop/mobile
+  homepage-library-tutorial QA, and diff checks passed. One-current-per-site
+  cadence remains active; routine backfills remain off.
 - 2026-08-12 daily automation added one current lesson only:
   `elephant-calf-with-raised-trunk` (August 12 / Day 110). The approved v2
   eight-panel handmade raster process keeps one left-facing calf, an
