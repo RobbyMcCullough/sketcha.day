@@ -291,6 +291,11 @@
       "date": "2026-07-23",
       "note": "Owner rejected the lesson's editorial appeal: starting blocks were not a compelling subject to draw and were not supported by the verified Google Trends Rising data. Former public assets and page are retained privately for audit."
     },
+    "sailboat-in-a-bottle": {
+      "status": "published",
+      "date": "2026-08-15",
+      "note": "Approved six-panel handmade raster graphite and colored-pencil contact sheet cropped into five cumulative steps and a finished master for the August 15 current lesson."
+    },
     "sandcastle-by-the-shore": {
       "status": "published",
       "date": "2026-07-11",
@@ -378,6 +383,11 @@
       "status": "published",
       "date": "2026-07-11",
       "note": "Slug locked for image generation by preflight; resolve before any new subject."
+    },
+    "vintage-desk-fan": {
+      "status": "rejected-duplicate",
+      "date": "2026-08-15",
+      "note": "Rejected before image generation during the August 15 archive back-check: it duplicates the published old-fashioned-desk-fan core silhouette and drawing problem."
     },
     "vintage-desk-globe": {
       "status": "published",

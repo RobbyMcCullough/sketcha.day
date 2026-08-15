@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "slug": "sailboat-in-a-bottle",
+  "finished": "assets/sailboat-in-a-bottle-finished-v1.jpg",
+  "source": {"type":"generated-raster-master","description":"Planned six-panel handmade graphite and colored-pencil contact sheet.","notes":"August 15 current lesson; selected after rejecting the duplicate desk-fan candidate before image generation."},
+  "process_strategy":"One horizontal glass bottle and a tiny centered sailboat are built from the same light perspective box, then receive the bottle silhouette, boat hull and masts, sails and waterline, glass reflections, restrained color, and final graphite reinforcement without changing the arrangement.",
+  "final_elements":[
+    {"name":"construction guides","introduced_by_step":1,"description":"Pale bottle box, neck axis, hull wedge, two mast routes, waterline, reflection, and shadow reserves."},
+    {"name":"glass bottle silhouette","introduced_by_step":2,"description":"One horizontal rounded bottle with a short neck, rim ellipse, thick base, and cork."},
+    {"name":"sailboat hull and masts","introduced_by_step":3,"description":"One small dark hull with two thin masts seated inside the bottle."},
+    {"name":"two sails and waterline","introduced_by_step":4,"description":"Two simple triangular cream sails above a pale blue waterline inside the bottle."},
+    {"name":"glass reflections and color","introduced_by_step":5,"description":"Two open-paper reflection shapes, pale blue glass tint, warm cork, and a soft gray shadow."}
+  ],
+  "overlap_reservations":[
+    {"foreground_element":"sailboat hull and masts","reserved_by_step":1,"background_lines_stop_before":"The bottle waterline and glass shading stop at the planned hull and mast routes."}
+  ],
+  "frames":[
+    {"step":1,"asset":"assets/sailboat-in-a-bottle-step-1.jpg","step_name":"Map the bottle and boat","visible_job":"Place one long bottle box, neck axis, hull wedge, two mast routes, waterline, reflection, and shadow reserves in pale graphite.","introduces":["construction guides"]},
+    {"step":2,"asset":"assets/sailboat-in-a-bottle-step-2.jpg","step_name":"Shape the glass bottle","visible_job":"Connect the guide into one rounded bottle, short neck, rim ellipse, thick base, and cork while preserving the boat reserves.","introduces":["glass bottle silhouette"]},
+    {"step":3,"asset":"assets/sailboat-in-a-bottle-step-3.jpg","step_name":"Set the little boat","visible_job":"Draw the established small hull and exactly two thin masts inside the glass.","introduces":["sailboat hull and masts"],"requires_prior_elements":["glass bottle silhouette"]},
+    {"step":4,"asset":"assets/sailboat-in-a-bottle-step-4.jpg","step_name":"Raise the two sails","visible_job":"Add exactly two triangular sails and the established waterline, stopping water marks at the hull.","introduces":["two sails and waterline"],"requires_prior_elements":["glass bottle silhouette","sailboat hull and masts"]},
+    {"step":5,"asset":"assets/sailboat-in-a-bottle-step-5.jpg","step_name":"Tint the glass","visible_job":"Add the established reflection gaps, pale blue glass and water tint, warm cork, and soft gray shadow to existing forms.","introduces":["glass reflections and color"],"requires_prior_elements":["glass bottle silhouette","sailboat hull and masts","two sails and waterline"]}
+  ],
+  "transition_audit":[
+    {"from_step":1,"to_step":2,"must_persist":["construction guides"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":2,"to_step":3,"must_persist":["construction guides","glass bottle silhouette"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":3,"to_step":4,"must_persist":["construction guides","glass bottle silhouette","sailboat hull and masts"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":4,"to_step":5,"must_persist":["construction guides","glass bottle silhouette","sailboat hull and masts","two sails and waterline"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":5,"to_step":6,"must_persist":["construction guides","glass bottle silhouette","sailboat hull and masts","two sails and waterline","glass reflections and color"],"new_occlusions":[],"keeper_lines_removed":[]}
+  ],
+  "final_step":{"step_name":"Finish the tiny voyage","asset":"assets/sailboat-in-a-bottle-finished-v1.jpg","visible_job":"Only strengthens established graphite contours, glass tint, color, and shadow.","allowed_changes":["keeper contour darkening","restrained colored-pencil shading"]},
+  "rejection_checks":["Reject a bottle, boat, mast, sail, cork, waterline, reflection, or shadow that first appears in the final panel.","Reject changed bottle perspective, boat scale, two-mast count, or two-sail count.","Reject clean vector-looking or polished poster art; retain paper tooth and handmade graphite variation."]
+}

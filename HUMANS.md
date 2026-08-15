@@ -1,5 +1,13 @@
 # Human Notes
 
+## 2026-08-15 Daily Tutorial
+
+- Added one current lesson only: `sailboat-in-a-bottle` (August 15 / Day 113).
+  Its approved six-panel handmade raster graphite and colored-pencil process
+  keeps the bottle, cork, hull, two masts, two sails, waterline, reflection
+  shapes, and shadow stable from construction through finish. The one-current-
+  lesson-per-site cadence remains active; routine backfills remain off.
+
 ## Last Accessed
 - Date: 2026-08-12
 - Agent harness: Codex
