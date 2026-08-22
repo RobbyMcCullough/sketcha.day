@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "slug": "garden-spider-on-a-web",
+  "finished": "assets/garden-spider-on-a-web-finished-v1.jpg",
+  "source": {"type":"generated-raster-master","description":"Approved handmade raster 3x2 pencil-process contact sheet, cropped only after full-sheet review.","notes":"One centered garden spider on a small radial web; no lettering or embedded UI."},
+  "process_strategy": "Six cumulative panels preserve one spider and web: scaffold, web, body, legs, markings, then only graphite value and restrained color.",
+  "final_elements": [
+    {"name":"radial garden web","introduced_by_step":1,"description":"One oval radial web with eight spoke routes and a loose outer spiral."},
+    {"name":"garden spider","introduced_by_step":1,"description":"One small centered oval-bodied spider with eight bent legs."},
+    {"name":"spider head and abdomen contour","introduced_by_step":3,"description":"The refined small head and oval abdomen on the reserved central body."},
+    {"name":"leaf anchor","introduced_by_step":2,"description":"One small leaf behind the lower web edge, reserved before its contour is drawn."},
+    {"name":"spider markings and color","introduced_by_step":4,"description":"A simple pale abdomen cross, graphite texture, muted rust body, and cool-gray shadow."}
+    ,{"name":"graphite value and restrained color","introduced_by_step":5,"description":"Pencil texture and light muted color applied only to the established spider, leaf, and shadow."}
+  ],
+  "overlap_reservations": [
+    {"foreground_element":"garden spider","reserved_by_step":1,"background_lines_stop_before":"Web spokes stop at the pale oval spider reserve rather than crossing keeper lines through the body."},
+    {"foreground_element":"leaf anchor","reserved_by_step":1,"background_lines_stop_before":"Lower web spiral leaves the small leaf footprint open."}
+  ],
+  "frames": [
+    {"step":1,"asset":"assets/garden-spider-on-a-web-step-1.jpg","step_name":"Map the web and body","visible_job":"Place the oval web envelope, eight spoke routes, spider body reserve, leaf reserve, and shadow footprint in pale graphite.","introduces":["radial garden web","garden spider"]},
+    {"step":2,"asset":"assets/garden-spider-on-a-web-step-2.jpg","step_name":"Spin the web","visible_job":"Connect the established spokes with a loose spiral and draw the one reserved leaf anchor.","introduces":["leaf anchor"],"requires_prior_elements":["radial garden web","garden spider"]},
+    {"step":3,"asset":"assets/garden-spider-on-a-web-step-3.jpg","step_name":"Build the spider","visible_job":"Draw the same small head and oval abdomen on the central reserve.","introduces":["spider head and abdomen contour"],"requires_prior_elements":["radial garden web","garden spider","leaf anchor"]},
+    {"step":4,"asset":"assets/garden-spider-on-a-web-step-4.jpg","step_name":"Bend eight legs","visible_job":"Add exactly eight bent legs and the established simple abdomen cross.","introduces":["spider markings and color"],"requires_prior_elements":["garden spider"]},
+    {"step":5,"asset":"assets/garden-spider-on-a-web-step-5.jpg","step_name":"Set pencil value","visible_job":"Add graphite texture, muted rust pencil color, cool-gray leaf and shadow tint only to established forms.","introduces":["graphite value and restrained color"],"requires_prior_elements":["radial garden web","garden spider","leaf anchor","spider markings and color"]}
+  ],
+  "transition_audit": [
+    {"from_step":1,"to_step":2,"must_persist":["radial garden web","garden spider"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":2,"to_step":3,"must_persist":["radial garden web","garden spider","leaf anchor"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":3,"to_step":4,"must_persist":["radial garden web","garden spider","leaf anchor","spider head and abdomen contour"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":4,"to_step":5,"must_persist":["radial garden web","garden spider","leaf anchor","spider head and abdomen contour","spider markings and color"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":5,"to_step":6,"must_persist":["radial garden web","garden spider","leaf anchor","spider head and abdomen contour","spider markings and color","graphite value and restrained color"],"new_occlusions":[],"keeper_lines_removed":[]}
+  ],
+  "final_step":{"step_name":"Finish the tiny weaver","asset":"assets/garden-spider-on-a-web-finished-v1.jpg","visible_job":"Only clarify established keeper contours, graphite texture, restrained color, and shadow.","allowed_changes":["keeper contour darkening","restrained colored-pencil shading","small texture clarification"]},
+  "rejection_checks":["Reject any panel that changes the spider pose, leg count, web spokes, or leaf position.","Reject a final that introduces legs, web threads, markings, or color absent in an earlier frame.","Reject clean vector-like lines, unteachable detail, or a non-cumulative redraw."]
+}
