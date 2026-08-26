@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a harvest mouse holding wheat</title>
+      <link>https://sketcha.day/tutorials/harvest-mouse-holding-wheat.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/harvest-mouse-holding-wheat.html</guid>
+      <pubDate>Wed, 26 Aug 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a harvest mouse holding wheat with a soft pencil silhouette, two tiny paws, one curved tail, a simple wheat stalk, graphite texture, and restrained color.</description>
+      <media:content url="https://sketcha.day/assets/harvest-mouse-holding-wheat-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a garden spider on a web</title>
       <link>https://sketcha.day/tutorials/garden-spider-on-a-web.html</link>

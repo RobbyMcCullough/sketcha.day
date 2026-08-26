@@ -1,0 +1,39 @@
+{
+  "schema_version": 2,
+  "slug": "harvest-mouse-holding-wheat",
+  "finished": "assets/harvest-mouse-holding-wheat-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Reviewed handmade raster pencil-process contact sheet, cropped only after the full six-panel sequence was approved.",
+    "notes": "One right-facing harvest mouse holds one curved wheat stalk; no lettering, arrows, UI, signatures, or watermarks."
+  },
+  "process_strategy": "Six cumulative panels move from a sparse mouse pose and wheat route to silhouette, ears and paws, wheat head and face, graphite value with restrained color, then a finishing-only pass.",
+  "final_elements": [
+    {"name":"harvest mouse pose","introduced_by_step":1,"description":"One small right-facing mouse with a round head, pear-shaped body, two feet, and a curved tail."},
+    {"name":"wheat stalk route","introduced_by_step":1,"description":"One gently curved wheat stalk held diagonally between the mouse paws."},
+    {"name":"mouse silhouette and tail","introduced_by_step":2,"description":"A single connected mouse silhouette with a long thin tail that curls behind the body."},
+    {"name":"ears paws and face","introduced_by_step":3,"description":"Exactly two rounded ears, two holding paws, one bright eye, one tiny nose, and short whiskers."},
+    {"name":"wheat head and ground shadow","introduced_by_step":4,"description":"One narrow wheat head with paired grains plus one short broken ground shadow beneath the feet."},
+    {"name":"graphite texture and restrained color","introduced_by_step":5,"description":"Soft graphite fur hatching, warm brown mouse tint, ochre wheat tint, and cool-gray shadow applied to established forms."}
+  ],
+  "overlap_reservations": [
+    {"foreground_element":"harvest mouse pose","reserved_by_step":1,"background_lines_stop_before":"The wheat gesture stops at the two pale paw placement ovals instead of crossing through the future hands."},
+    {"foreground_element":"wheat stalk route","reserved_by_step":1,"background_lines_stop_before":"The tail and body contour leave the diagonal stalk route clear so it reads as one held foreground stem."}
+  ],
+  "frames": [
+    {"step":1,"asset":"assets/harvest-mouse-holding-wheat-step-1.jpg","step_name":"Map the mouse and wheat route","visible_job":"Place a pale head circle, pear-shaped body envelope, two foot ovals, two paw ovals, one curved tail gesture, one diagonal wheat route, and a short shadow footprint.","introduces":["harvest mouse pose","wheat stalk route"]},
+    {"step":2,"asset":"assets/harvest-mouse-holding-wheat-step-2.jpg","step_name":"Connect the soft silhouette","visible_job":"Connect only the right-facing head and body into one soft mouse silhouette, then draw the long thin tail while preserving the paw, wheat, face, and shadow guides.","introduces":["mouse silhouette and tail"],"requires_prior_elements":["harvest mouse pose","wheat stalk route"]},
+    {"step":3,"asset":"assets/harvest-mouse-holding-wheat-step-3.jpg","step_name":"Add ears paws and face","visible_job":"Draw exactly two rounded ears, two paws around the established stalk route, one eye, one tiny nose, and short whiskers.","introduces":["ears paws and face"],"requires_prior_elements":["harvest mouse pose","wheat stalk route","mouse silhouette and tail"]},
+    {"step":4,"asset":"assets/harvest-mouse-holding-wheat-step-4.jpg","step_name":"Build the wheat head","visible_job":"Turn the established upper stalk route into one narrow wheat head with paired grains and add the existing short broken ground shadow.","introduces":["wheat head and ground shadow"],"requires_prior_elements":["harvest mouse pose","wheat stalk route","mouse silhouette and tail","ears paws and face"]},
+    {"step":5,"asset":"assets/harvest-mouse-holding-wheat-step-5.jpg","step_name":"Set gentle pencil value","visible_job":"Add soft graphite fur hatching, warm brown mouse tint, ochre wheat tint, and cool-gray shadow only to the established mouse, stalk, wheat head, and ground.","introduces":["graphite texture and restrained color"],"requires_prior_elements":["harvest mouse pose","wheat stalk route","mouse silhouette and tail","ears paws and face","wheat head and ground shadow"]}
+  ],
+  "transition_audit": [
+    {"from_step":1,"to_step":2,"must_persist":["harvest mouse pose","wheat stalk route"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":2,"to_step":3,"must_persist":["harvest mouse pose","wheat stalk route","mouse silhouette and tail"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":3,"to_step":4,"must_persist":["harvest mouse pose","wheat stalk route","mouse silhouette and tail","ears paws and face"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":4,"to_step":5,"must_persist":["harvest mouse pose","wheat stalk route","mouse silhouette and tail","ears paws and face","wheat head and ground shadow"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":5,"to_step":6,"must_persist":["harvest mouse pose","wheat stalk route","mouse silhouette and tail","ears paws and face","wheat head and ground shadow","graphite texture and restrained color"],"new_occlusions":[],"keeper_lines_removed":[]}
+  ],
+  "final_step": {"step_name":"Finish the little harvester","asset":"assets/harvest-mouse-holding-wheat-finished-v1.jpg","visible_job":"Only clarify established keeper contours, graphite texture, restrained color, and the short shadow.","allowed_changes":["keeper contour darkening","restrained colored-pencil shading","small texture clarification"]},
+  "rejection_checks":["Reject any panel where the mouse pose, two ears, two paws, one stalk, or wheat-head placement drifts.","Reject a final that introduces the tail, paws, face, wheat grains, or color absent in an earlier panel.","Reject clean vector-like lines, polished animal art, a detailed first panel, or a non-cumulative redraw."]
+}

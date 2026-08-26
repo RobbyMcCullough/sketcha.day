@@ -1,5 +1,16 @@
 # Human Notes
 
+## 2026-08-26 — Daily tutorial (Codex)
+
+- Added one current lesson only: `harvest-mouse-holding-wheat` (August 26 / Day
+  118). Its approved six-panel handmade raster pencil process stays cumulative:
+  sparse construction, mouse silhouette and tail, ears/paws/face, wheat head,
+  graphite and restrained color, then a finishing-only pass. Finished image
+  rated 9.0/10 for immediate readability, warm character, tactile pencil
+  texture, and an attainable 20-minute build. Readiness and desktop/mobile QA
+  passed. One-current-lesson-per-site cadence remains active; routine
+  backfills remain off.
+
 ## 2026-08-25 — Private-draft cleanup (Codex)
 
 - Recorded the rejected `grapes-on-a-vine` plan and nine-grape contact sheet as
