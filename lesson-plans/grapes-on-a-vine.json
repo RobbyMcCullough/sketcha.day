@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "slug": "grapes-on-a-vine",
+  "finished": "assets/grapes-on-a-vine-finished-v1.jpg",
+  "source": {"type":"generated-raster-master","description":"Approved raster contact sheet cropped from one consistent pencil-sketch process.","notes":"One diagonal vine, one cluster of exactly nine round grapes, two lobed leaves, one curly tendril, open-paper highlights, and a small broken shadow stay stable. The private first sheet was rejected because it missed the original twelve-grape count."},
+  "process_strategy": "Six cumulative pencil panels begin with a grape-cluster scaffold and only add graphite and restrained purple-green color after all fruit and leaves exist.",
+  "final_elements": [
+    {"name":"vine and cluster scaffold","introduced_by_step":1,"description":"One diagonal vine route around a hanging cluster of nine grape circles."},
+    {"name":"nine grapes","introduced_by_step":1,"description":"Exactly nine round grapes in a tapering cluster."},
+    {"name":"two leaves and tendril","introduced_by_step":1,"description":"Two lobed leaves and one short curled tendril attached to the vine."},
+    {"name":"highlights and shadow","introduced_by_step":1,"description":"Small highlight gaps and one broken ground shadow."},
+    {"name":"graphite texture and color","introduced_by_step":5,"description":"Layered graphite, restrained violet, green, and warm-brown pencil texture."}
+  ],
+  "overlap_reservations": [{"foreground_element":"grapes and leaves","reserved_by_step":1,"background_lines_stop_before":"Vine lines stop at each reserved grape and leaf silhouette; leaf veins never continue through a grape."}],
+  "frames": [
+    {"step":1,"asset":"assets/grapes-on-a-vine-step-1.jpg","step_name":"Map the hanging cluster","visible_job":"Place pale vine, nine grape circles, two leaf envelopes, tendril route, highlight gaps, and shadow footprint.","introduces":["vine and cluster scaffold","nine grapes","two leaves and tendril","highlights and shadow"]},
+    {"step":2,"asset":"assets/grapes-on-a-vine-step-2.jpg","step_name":"Connect the vine and fruit","visible_job":"Refine the same vine, nine grape contours, and two leaf silhouettes.","introduces":[],"requires_prior_elements":["vine and cluster scaffold","nine grapes","two leaves and tendril","highlights and shadow"]},
+    {"step":3,"asset":"assets/grapes-on-a-vine-step-3.jpg","step_name":"Shape the leaves and curl","visible_job":"Add leaf lobes, simple veins, and the existing curled tendril.","introduces":[],"requires_prior_elements":["vine and cluster scaffold","two leaves and tendril"]},
+    {"step":4,"asset":"assets/grapes-on-a-vine-step-4.jpg","step_name":"Set the roundness","visible_job":"Add tiny stem seams, established highlight gaps, and the broken shadow.","introduces":[],"requires_prior_elements":["vine and cluster scaffold","nine grapes","two leaves and tendril","highlights and shadow"]},
+    {"step":5,"asset":"assets/grapes-on-a-vine-step-5.jpg","step_name":"Build pencil value","visible_job":"Layer graphite hatching and restrained color on established grapes, vine, leaves, and shadow.","introduces":["graphite texture and color"],"requires_prior_elements":["vine and cluster scaffold","nine grapes","two leaves and tendril","highlights and shadow"]}
+  ],
+  "transition_audit": [
+    {"from_step":1,"to_step":2,"must_persist":["vine and cluster scaffold","nine grapes","two leaves and tendril","highlights and shadow"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":2,"to_step":3,"must_persist":["vine and cluster scaffold","nine grapes","two leaves and tendril","highlights and shadow"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":3,"to_step":4,"must_persist":["vine and cluster scaffold","nine grapes","two leaves and tendril","highlights and shadow"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":4,"to_step":5,"must_persist":["vine and cluster scaffold","nine grapes","two leaves and tendril","highlights and shadow"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":5,"to_step":6,"must_persist":["vine and cluster scaffold","nine grapes","two leaves and tendril","highlights and shadow","graphite texture and color"],"new_occlusions":[],"keeper_lines_removed":[]}
+  ],
+  "final_step":{"step_name":"Settle the ripe grapes","asset":"assets/grapes-on-a-vine-finished-v1.jpg","visible_job":"Only deepen established contour, graphite texture, restrained color, highlights, and shadow.","allowed_changes":["keeper contour darkening","restrained colored-pencil shading","small texture clarification"]},
+  "rejection_checks":["Exactly nine grapes, two leaves, and one tendril persist in all later panels.","No final element appears first in the final frame.","No vine or vein line is erased for a late overlap.","Every adjacent panel has a distinct instructional job."]
+}

@@ -30,6 +30,11 @@
     "astronaut-helmet": {
       "status": "published"
     },
+    "august-20-preflight-probe": {
+      "status": "rejected-quality",
+      "date": "2026-08-20",
+      "note": "Diagnostic preflight probe only; no image generation or draft folder was created. Resolved immediately so it cannot block the next approved lesson."
+    },
     "backyard-pinwheel": {
       "status": "published"
     },
@@ -176,6 +181,11 @@
       "status": "published",
       "date": "2026-07-27",
       "note": "Reviewed six-panel graphite and colored-pencil contact sheet cropped and promoted as the honest 2026-05-04 archive lesson after perspective, tassel, process-plan, and visual-quality checks."
+    },
+    "grapes-on-a-vine": {
+      "status": "rejected-quality",
+      "date": "2026-08-18",
+      "note": "Stopped before publication: first raster sheet was stable but had nine grapes instead of the original twelve-grape plan; its private rejected-v1 sheet is retained. The corrected nine-grape plan needs a fresh same-subject contact sheet and full QA."
     },
     "hanging-wind-chimes": {
       "status": "published"
@@ -451,6 +461,11 @@
       "status": "published",
       "date": "2026-07-17",
       "note": "Reviewed six-panel rocking-horse process promoted as the May 15 archive lesson after crop, anatomy, continuity, process-plan, delivery-image, and page checks."
+    },
+    "woodland-snail-with-tiny-backpack": {
+      "status": "rejected-duplicate",
+      "date": "2026-08-18",
+      "note": "Rejected before image generation: Sketcha already publishes garden-snail, so the same core animal silhouette/category would violate the daily duplicate gate."
     },
     "woolly-sheep-with-bell": {
       "status": "published",

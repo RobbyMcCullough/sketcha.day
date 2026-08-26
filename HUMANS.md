@@ -1,5 +1,12 @@
 # Human Notes
 
+## 2026-08-25 — Private-draft cleanup (Codex)
+
+- Recorded the rejected `grapes-on-a-vine` plan and nine-grape contact sheet as
+  private review material only. It is not a public lesson and needs a new,
+  cumulative sheet before any future owner-authorized repair. The current-only
+  one-lesson-per-site cadence remains active.
+
 ## 2026-08-19 — Daily tutorial (Codex)
 
 - Added one current lesson only: `garden-spider-on-a-web` (August 19 / Day 117). The approved six-panel handmade pencil process holds one centered eight-legged garden spider, oval eight-spoke web, and leaf anchor cumulative from construction through restrained color. Automated readiness passed; one-current-lesson-per-site cadence remains active.
