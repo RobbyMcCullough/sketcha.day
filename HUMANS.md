@@ -1082,6 +1082,11 @@
   proportional drift across early frames.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
+- August 29, 2026: added the current Day 119 ceramic teapot with a lid lesson
+  from an approved six-panel graphite and colored-pencil contact sheet. The
+  finished image rated 9.2/10; readiness and Cove desktop/mobile QA passed.
+- The owner-directed cadence remains exactly one new current lesson per site per
+  run. Do not create routine backdated or archive lessons.
 
 ## 2026-07-30 Daily Lessons
 - Published the owner-requested `anime-eyes-four-styles` as the July 30 / Day
