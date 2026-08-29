@@ -1,5 +1,14 @@
 # Human Notes
 
+## 2026-08-29 — Private daily attempt (Codex)
+
+- No current Sketcha lesson was published. The locked `cicada-on-a-tree-branch`
+  contact sheet was rejected privately because its second panel revealed a
+  finished wing before the planned wing stage; the image service did not return
+  a distinct corrected retry. One-current-lesson-per-site cadence remains
+  active. The next run may choose a new current subject after the rejected
+  draft record is committed.
+
 ## 2026-08-26 — Daily tutorial (Codex)
 
 - Added one current lesson only: `harvest-mouse-holding-wheat` (August 26 / Day
