@@ -131,6 +131,14 @@ python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-
    or get owner direction. Prefer repairing a failed panel (see
    `PROCESS-IMAGE-WORKFLOW.md`) over replacing the whole subject; a subject
    swap after failed art is itself a rejection that must be recorded.
+   During the active daily run, a failed panel, contact sheet, crop, finished
+   image rating, or repairable validation check is a retry condition rather
+   than a terminal stop. Keep the locked slug pending, version and preserve the
+   failed iteration, revise the plan/prompt, and regenerate or repair until all
+   visual, semantic, readiness, and rendered gates pass. If the subject itself
+   remains unsuitable after repeated serious attempts, record it as rejected,
+   preflight one replacement subject, and continue toward the same day's one
+   publishable lesson.
 9. Write or update `lesson-plans/{slug}.json` before creating final page data.
    Start from `lesson-plans/TEMPLATE.json`. The plan must name the finished
    asset, each major finished element, the non-final frame where that element
@@ -424,10 +432,12 @@ Do not publish when assets are missing, text overflows, links are placeholders,
 headlines break after a single character, marker underlines miss the target
 word, or the finished image fails the draw-through test.
 
-Daily lesson publishing is approval-free once this QA passes. The automation
-should still stop instead of publishing when image generation is unavailable, the
-contact sheet fails process review, the finished image scores below 8/10, or any
-validation command fails.
+Daily lesson publishing is approval-free once this QA passes. A failed contact
+sheet, finish below 8/10, or repairable validation failure must trigger another
+repair/regeneration and QA cycle; it does not end the daily run. Stop without a
+lesson only when image generation is genuinely unavailable or malfunctioning
+after distinct retries, the lock or slot guard blocks progress, the worktree is
+unsafe, or an external dependency makes further in-scope repair impossible.
 
 Minimum validation commands:
 

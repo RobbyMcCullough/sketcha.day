@@ -104,6 +104,20 @@ and commit the work only after the lesson passes the quality gates in
 `DAILY-PUBLISHING.md`. Daily lesson automation may publish without a separate
 editorial review once those gates pass.
 
+### Daily Quality-Retry Contract
+
+A failed art review is a rejected **iteration**, not a reason to end the daily
+run. Keep the current slug and daily lock active, preserve the failed sheet
+under `drafts/{slug}/rejected-progressions/`, tighten the plan or prompt, and
+repair a bad panel or regenerate the full sheet. Repeat visual review, crop,
+readiness, and rendered QA until the lesson passes every gate and the saved
+finish scores at least 8/10. If the subject itself proves unsuitable, record it
+as `rejected-quality`, lock one deliberate replacement subject, and continue
+the same current-day run. Never publish weak art to satisfy this persistence
+rule. End without a lesson only for a genuine external blocker such as an
+unavailable or malfunctioning image service, a lock/slot conflict, an unsafe
+worktree, or validation that cannot be repaired in scope.
+
 ## Conventions
 
 - Read `DAILY-PUBLISHING.md` before creating or changing a daily lesson.
