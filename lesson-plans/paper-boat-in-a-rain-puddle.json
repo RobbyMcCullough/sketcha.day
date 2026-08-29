@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "slug": "paper-boat-in-a-rain-puddle",
+  "finished": "assets/paper-boat-in-a-rain-puddle-finished-v1.jpg",
+  "source": {"type":"generated-raster-master","description":"Reviewed handmade raster pencil-process contact sheet, cropped only after the full six-panel sequence was approved.","notes":"One folded paper boat floats in one oval rain puddle with three falling raindrops; no lettering, arrows, UI, signatures, or watermarks."},
+  "process_strategy": "Six cumulative panels build a pale boat envelope and puddle ellipse into folds, rain marks, pencil value, then a finish-only graphite pass.",
+  "final_elements": [
+    {"name":"boat envelope and puddle","introduced_by_step":1,"description":"One centered triangular paper-boat envelope resting inside one wide oval puddle guide."},
+    {"name":"folded boat silhouette","introduced_by_step":2,"description":"One simple left-facing paper boat with a high center peak and two lower hull corners."},
+    {"name":"fold seams and waterline","introduced_by_step":3,"description":"Three short fold seams and one broken waterline that stop cleanly at the boat hull."},
+    {"name":"raindrops and ripples","introduced_by_step":4,"description":"Exactly three diagonal raindrops and two offset ripple arcs outside the hull."},
+    {"name":"graphite value","introduced_by_step":5,"description":"Soft graphite shading on established boat planes, puddle edge, rain marks, and ripples."}
+  ],
+  "overlap_reservations": [{"foreground_element":"folded boat silhouette","reserved_by_step":1,"background_lines_stop_before":"The puddle ellipse is broken behind the reserved boat envelope so no water line must be erased later."}],
+  "frames": [
+    {"step":1,"asset":"assets/paper-boat-in-a-rain-puddle-step-1.jpg","step_name":"Map the boat and puddle","visible_job":"Place a pale triangular boat envelope with one center crease route, a wide broken puddle ellipse, and three tiny diagonal rain placement ticks.","introduces":["boat envelope and puddle"]},
+    {"step":2,"asset":"assets/paper-boat-in-a-rain-puddle-step-2.jpg","step_name":"Fold the boat silhouette","visible_job":"Connect the established envelope into one simple paper-boat outline while keeping fold seams, raindrops, ripples, and graphite shading absent.","introduces":["folded boat silhouette"],"requires_prior_elements":["boat envelope and puddle"]},
+    {"step":3,"asset":"assets/paper-boat-in-a-rain-puddle-step-3.jpg","step_name":"Set the paper folds","visible_job":"Add three short fold seams and complete the already mapped broken waterline without crossing through the hull.","introduces":["fold seams and waterline"],"requires_prior_elements":["boat envelope and puddle","folded boat silhouette"]},
+    {"step":4,"asset":"assets/paper-boat-in-a-rain-puddle-step-4.jpg","step_name":"Add rain and ripples","visible_job":"Turn the three placement ticks into three diagonal raindrops and add two ripple arcs in the established open water around the boat.","introduces":["raindrops and ripples"],"requires_prior_elements":["boat envelope and puddle","folded boat silhouette","fold seams and waterline"]},
+    {"step":5,"asset":"assets/paper-boat-in-a-rain-puddle-step-5.jpg","step_name":"Shade the rainy planes","visible_job":"Lay soft graphite value over the established paper planes, puddle edge, rain marks, and ripples only.","introduces":["graphite value"],"requires_prior_elements":["boat envelope and puddle","folded boat silhouette","fold seams and waterline","raindrops and ripples"]}
+  ],
+  "transition_audit": [
+    {"from_step":1,"to_step":2,"must_persist":["boat envelope and puddle"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":2,"to_step":3,"must_persist":["boat envelope and puddle","folded boat silhouette"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":3,"to_step":4,"must_persist":["boat envelope and puddle","folded boat silhouette","fold seams and waterline"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":4,"to_step":5,"must_persist":["boat envelope and puddle","folded boat silhouette","fold seams and waterline","raindrops and ripples"],"new_occlusions":[],"keeper_lines_removed":[]},
+    {"from_step":5,"to_step":6,"must_persist":["boat envelope and puddle","folded boat silhouette","fold seams and waterline","raindrops and ripples","graphite value"],"new_occlusions":[],"keeper_lines_removed":[]}
+  ],
+  "final_step": {"step_name":"Finish the floating paper boat","asset":"assets/paper-boat-in-a-rain-puddle-finished-v1.jpg","visible_job":"Only strengthen established pencil contours and softly deepen the existing paper planes and rain-darkened puddle.","allowed_changes":["keeper contour darkening","restrained graphite shading","small texture clarification"]},
+  "rejection_checks":["Reject a finished panel that adds a new fold, raindrop, ripple, or water shape absent from an earlier panel.","Reject any sheet where the boat moves, the puddle crosses through the hull, or panels merely darken the same contour.","Reject clean vector-like lines, polished poster rendering, a detailed first panel, or a non-cumulative redraw."]
+}

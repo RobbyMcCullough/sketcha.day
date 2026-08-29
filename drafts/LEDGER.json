@@ -261,6 +261,11 @@
     "paint-palette-and-brush": {
       "status": "published"
     },
+    "paper-boat-in-a-rain-puddle": {
+      "status": "rejected-quality",
+      "date": "2026-08-27",
+      "note": "Two raster contact sheets were reviewed and rejected privately: the first revealed raindrops before their assigned stage; v2 still duplicated the silhouette stage and added more ripple geometry than planned. No public assets or lesson integration created."
+    },
     "parade-drum-with-sticks": {
       "status": "published"
     },
