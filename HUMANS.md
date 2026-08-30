@@ -1,5 +1,15 @@
 # Human Notes
 
+## 2026-08-30 — Daily tutorial (Codex)
+
+- Added one current lesson only: `monarch-butterfly-on-goldenrod` (August 30 /
+  Day 120). The approved eight-panel handmade raster pencil process moves from
+  sparse wing routes through fixed butterfly anatomy, monarch markings,
+  goldenrod, restrained color, and a finishing-only pass. The first contact
+  sheet remains private under `rejected-progressions/`; the repaired finished
+  image rated 9.3/10. One-current-lesson-per-site cadence remains active;
+  routine backfills remain off.
+
 ## 2026-08-30 — Dated daily-task titles (Codex)
 
 - Added a shared daily-run rule: rename each Codex task before preflight as

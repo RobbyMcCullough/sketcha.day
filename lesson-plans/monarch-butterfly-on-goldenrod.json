@@ -1,0 +1,202 @@
+{
+  "schema_version": 4,
+  "slug": "monarch-butterfly-on-goldenrod",
+  "finished": "assets/monarch-butterfly-on-goldenrod-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Reviewed handmade raster graphite and colored-pencil process contact sheet.",
+    "notes": "One top-view monarch resting over one goldenrod spray; no labels, arrows, UI, signatures, watermarks, extra insects, or decorative border."
+  },
+  "process_strategy": "Eight cumulative panels build a body-and-wing scaffold into four stable wings, monarch markings, one three-cluster goldenrod spray, graphite value, and restrained color before a finishing-only pass.",
+  "progression_contract": {
+    "first_frame_max_structural_completion_percent": 25,
+    "minimum_completion_increase_percent": 9,
+    "maximum_darkening_only_transitions": 1,
+    "blank_page_test": "A beginner can copy Panel 1 in under two minutes using one body axis, one small thorax oval, four open wing gesture arcs, one diagonal stem route, and three flower placement circles."
+  },
+  "anchor_map": [
+    {
+      "early_mark": "One vertical body axis with a small thorax oval",
+      "becomes": "The monarch head, thorax, and tapered abdomen",
+      "fixed_relationship": "The four wings attach around the thorax and the abdomen stays centered between the hindwings.",
+      "construction_note": "Pale guide only; no finished body contour in Panel 1."
+    },
+    {
+      "early_mark": "Four open wing gesture arcs",
+      "becomes": "Two broad forewings and two rounded hindwings",
+      "fixed_relationship": "Each arc begins at the thorax and keeps the same outward angle and endpoint through every later panel.",
+      "construction_note": "Open arcs until Panel 2; no closed wing contours in Panel 1."
+    },
+    {
+      "early_mark": "One diagonal stem route with three flower placement circles",
+      "becomes": "One goldenrod spray with exactly three flower clusters",
+      "fixed_relationship": "The center cluster remains directly beneath the butterfly body while the other two branch left and right from the same stem.",
+      "construction_note": "Routes and placement circles only until Panel 5."
+    }
+  ],
+  "final_elements": [
+    {
+      "name": "butterfly and flower construction guides",
+      "introduced_by_step": 1,
+      "established_by_step": 1,
+      "description": "One body axis, thorax oval, four wing arcs, one stem route, and three flower placement circles."
+    },
+    {
+      "name": "four-wing monarch silhouette",
+      "introduced_by_step": 2,
+      "established_by_step": 2,
+      "description": "Exactly two broad forewings and two rounded hindwings arranged symmetrically around the body axis."
+    },
+    {
+      "name": "body antennae and wing veins",
+      "introduced_by_step": 3,
+      "established_by_step": 3,
+      "description": "One small head, textured thorax, tapered abdomen, two antennae, and the main vein routes in all four wings."
+    },
+    {
+      "name": "monarch border and cell markings",
+      "introduced_by_step": 4,
+      "established_by_step": 4,
+      "description": "Broad dark wing borders, divided orange cells, and small pale edge spots mapped before color."
+    },
+    {
+      "name": "goldenrod spray",
+      "introduced_by_step": 5,
+      "established_by_step": 5,
+      "description": "One curved stem with exactly three clustered flower heads and exactly two narrow leaves."
+    },
+    {
+      "name": "graphite texture and restrained color map",
+      "introduced_by_step": 6,
+      "established_by_step": 6,
+      "description": "Graphite texture plus the full orange, black-brown, golden-yellow, and muted-green color decisions."
+    },
+    {
+      "name": "flower detail and broken ground suggestion",
+      "introduced_by_step": 7,
+      "established_by_step": 7,
+      "description": "Small clustered bloom dots, leaf veins, and a faint broken graphite suggestion beneath the spray."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "four-wing monarch silhouette",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "Goldenrod flower and stem keeper lines stop beneath the butterfly body and lower wings; no dark floral detail is drawn through the insect."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "stage_role": "construction",
+      "completion_target_percent": 22,
+      "asset": "assets/monarch-butterfly-on-goldenrod-step-1.jpg",
+      "step_name": "Set the flight symmetry",
+      "visible_job": "Place one body axis, one thorax oval, four open wing arcs, one diagonal stem route, and three flower placement circles.",
+      "construction_primitives": ["one vertical body axis", "one small thorax oval", "four open wing gesture arcs", "one diagonal stem route", "three flower placement circles"],
+      "introduces": ["butterfly and flower construction guides"],
+      "establishes": ["butterfly and flower construction guides"],
+      "adds": ["fixed butterfly symmetry", "fixed flower placement"],
+      "must_not_show": ["closed wing contours", "finished body", "antennae", "wing veins or markings", "flower petals or leaves", "graphite value or color"]
+    },
+    {
+      "step": 2,
+      "stage_role": "silhouette",
+      "completion_target_percent": 38,
+      "asset": "assets/monarch-butterfly-on-goldenrod-step-2.jpg",
+      "step_name": "Shape all four wings",
+      "visible_job": "Connect the four established arcs into two broad forewings and two rounded hindwings without moving their attachment points.",
+      "introduces": ["four-wing monarch silhouette"],
+      "establishes": ["four-wing monarch silhouette"],
+      "adds": ["two forewing contours", "two hindwing contours"],
+      "must_not_show": ["finished body", "antennae", "wing veins or markings", "flower petals or leaves", "graphite value or color"],
+      "requires_prior_elements": ["butterfly and flower construction guides"]
+    },
+    {
+      "step": 3,
+      "stage_role": "major_parts",
+      "completion_target_percent": 52,
+      "asset": "assets/monarch-butterfly-on-goldenrod-step-3.jpg",
+      "step_name": "Build the body and veins",
+      "visible_job": "Add the head, thorax, tapered abdomen, two antennae, and main vein routes inside the established four wings.",
+      "introduces": ["body antennae and wing veins"],
+      "establishes": ["body antennae and wing veins"],
+      "adds": ["three-part body", "two antennae", "main wing veins"],
+      "must_not_show": ["dark monarch borders", "edge spots", "finished flowers or leaves", "graphite value or color"],
+      "requires_prior_elements": ["four-wing monarch silhouette"]
+    },
+    {
+      "step": 4,
+      "stage_role": "features",
+      "completion_target_percent": 66,
+      "asset": "assets/monarch-butterfly-on-goldenrod-step-4.jpg",
+      "step_name": "Map the monarch pattern",
+      "visible_job": "Divide the wings into broad monarch cells, dark border bands, and small pale edge-spot reserves.",
+      "introduces": ["monarch border and cell markings"],
+      "establishes": ["monarch border and cell markings"],
+      "adds": ["wing cell divisions", "dark-border map", "edge-spot reserves"],
+      "must_not_show": ["finished flowers or leaves", "heavy graphite", "orange yellow or green color"],
+      "requires_prior_elements": ["four-wing monarch silhouette", "body antennae and wing veins"]
+    },
+    {
+      "step": 5,
+      "stage_role": "supporting_elements",
+      "completion_target_percent": 78,
+      "asset": "assets/monarch-butterfly-on-goldenrod-step-5.jpg",
+      "step_name": "Grow the goldenrod spray",
+      "visible_job": "Turn the stem route and three placement circles into one branching goldenrod spray with exactly three flower clusters and two narrow leaves.",
+      "introduces": ["goldenrod spray"],
+      "establishes": ["goldenrod spray"],
+      "adds": ["one curved stem", "three flower clusters", "two narrow leaves"],
+      "must_not_show": ["heavy graphite", "completed color fills", "new wing anatomy or markings"],
+      "requires_prior_elements": ["butterfly and flower construction guides", "four-wing monarch silhouette"]
+    },
+    {
+      "step": 6,
+      "stage_role": "ink_and_color_map",
+      "completion_target_percent": 90,
+      "asset": "assets/monarch-butterfly-on-goldenrod-step-6.jpg",
+      "step_name": "Layer migration color",
+      "visible_job": "Add directional graphite and map every orange, black-brown, golden-yellow, and muted-green region on the established butterfly and spray.",
+      "introduces": ["graphite texture and restrained color map"],
+      "establishes": ["graphite texture and restrained color map"],
+      "adds": ["all planned graphite value", "all planned color regions"],
+      "must_not_show": ["new contours", "new flower clusters or leaves", "new wing markings or props"],
+      "requires_prior_elements": ["four-wing monarch silhouette", "body antennae and wing veins", "monarch border and cell markings", "goldenrod spray"]
+    },
+    {
+      "step": 7,
+      "stage_role": "details",
+      "completion_target_percent": 96,
+      "asset": "assets/monarch-butterfly-on-goldenrod-step-7.jpg",
+      "step_name": "Clarify flowers and texture",
+      "visible_job": "Clarify the established bloom dots, leaf veins, wing texture, and faint broken graphite suggestion without adding new forms.",
+      "introduces": ["flower detail and broken ground suggestion"],
+      "establishes": ["flower detail and broken ground suggestion"],
+      "adds": ["clustered bloom dots", "leaf veins", "subtle texture", "broken graphite suggestion"],
+      "must_not_show": ["new contours", "new markings", "new color regions", "extra flowers leaves or insects"],
+      "requires_prior_elements": ["monarch border and cell markings", "goldenrod spray", "graphite texture and restrained color map"]
+    }
+  ],
+  "transition_audit": [
+    {"from_step": 1, "to_step": 2, "must_persist": ["butterfly and flower construction guides"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 2, "to_step": 3, "must_persist": ["butterfly and flower construction guides", "four-wing monarch silhouette"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 3, "to_step": 4, "must_persist": ["butterfly and flower construction guides", "four-wing monarch silhouette", "body antennae and wing veins"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 4, "to_step": 5, "must_persist": ["butterfly and flower construction guides", "four-wing monarch silhouette", "body antennae and wing veins", "monarch border and cell markings"], "new_occlusions": ["The butterfly body and lower wings sit in front of the center goldenrod cluster."], "keeper_lines_removed": []},
+    {"from_step": 5, "to_step": 6, "must_persist": ["butterfly and flower construction guides", "four-wing monarch silhouette", "body antennae and wing veins", "monarch border and cell markings", "goldenrod spray"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 6, "to_step": 7, "must_persist": ["butterfly and flower construction guides", "four-wing monarch silhouette", "body antennae and wing veins", "monarch border and cell markings", "goldenrod spray", "graphite texture and restrained color map"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 7, "to_step": 8, "must_persist": ["butterfly and flower construction guides", "four-wing monarch silhouette", "body antennae and wing veins", "monarch border and cell markings", "goldenrod spray", "graphite texture and restrained color map", "flower detail and broken ground suggestion"], "new_occlusions": [], "keeper_lines_removed": []}
+  ],
+  "final_step": {
+    "step_name": "Finish the migrating monarch",
+    "asset": "assets/monarch-butterfly-on-goldenrod-finished-v1.jpg",
+    "visible_job": "Only strengthen established keeper contours, deepen the mapped graphite and color, and clarify existing edge spots, bloom dots, and highlights.",
+    "allowed_changes": ["keeper contour darkening", "restrained colored-pencil layering", "small texture and highlight clarification"]
+  },
+  "rejection_checks": [
+    "Reject a detailed first panel, a sheet with fewer or more than four stable wings, or shifting wing attachment points.",
+    "Reject a goldenrod spray that changes from exactly three clusters and two leaves after it appears.",
+    "Reject a final that introduces wing cells, edge spots, flowers, leaves, color regions, or another insect absent earlier.",
+    "Reject vector-like linework, glossy poster rendering, repeated darkened tracings, labels, arrows, text, signatures, or watermarks."
+  ]
+}
