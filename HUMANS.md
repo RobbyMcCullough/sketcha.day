@@ -1,5 +1,17 @@
 # Human Notes
 
+## 2026-08-31 — Daily tutorial (Codex)
+
+- Added one current lesson only: `pomegranate-cut-open` (August 31 / Day 121).
+  The approved repaired eight-panel handmade raster pencil process keeps one
+  whole fruit, one overlapping cut half, two five-point crowns, six membrane
+  wedges, and twelve seeds cumulative from sparse construction through
+  restrained color and a finishing-only pass. The first sheet remains private
+  under `rejected-progressions/`; the saved finish rated 9.4/10. Readiness and
+  desktop/mobile rendered QA passed using the localhost fallback. The
+  one-current-lesson-per-site cadence remains active; routine backfills remain
+  off.
+
 ## 2026-08-30 — Daily tutorial (Codex)
 
 - Added one current lesson only: `monarch-butterfly-on-goldenrod` (August 30 /

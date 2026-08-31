@@ -1,0 +1,202 @@
+{
+  "schema_version": 4,
+  "slug": "pomegranate-cut-open",
+  "finished": "assets/pomegranate-cut-open-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Reviewed handmade raster graphite and colored-pencil process contact sheet.",
+    "notes": "One whole pomegranate behind one cut half; no labels, arrows, UI, signatures, watermarks, extra fruit, hands, plate, or decorative border."
+  },
+  "process_strategy": "Eight cumulative panels reserve the whole fruit and foreground cut half from the first frame, establish rind and seed geometry before texture, map every restrained color before the finish, and limit the final panel to reinforcement.",
+  "progression_contract": {
+    "first_frame_max_structural_completion_percent": 25,
+    "minimum_completion_increase_percent": 9,
+    "maximum_darkening_only_transitions": 1,
+    "blank_page_test": "A beginner can copy Panel 1 in under two minutes using one upright fruit envelope, one overlapping half-circle, two crown axes, six open membrane routes, and one broken shadow footprint."
+  },
+  "anchor_map": [
+    {
+      "early_mark": "One upright rounded fruit envelope with a five-point crown axis",
+      "becomes": "The whole pomegranate behind the cut half",
+      "fixed_relationship": "The whole fruit remains left of center and is covered only at its lower-right edge by the foreground half.",
+      "construction_note": "Open envelope and crown ticks only in Panel 1; no finished peel contour."
+    },
+    {
+      "early_mark": "One overlapping foreground circle with a smaller inner rind circle",
+      "becomes": "The cut pomegranate half and pale rind ring",
+      "fixed_relationship": "The half stays lower-right, overlaps the whole fruit, and keeps the same cut face angle and scale.",
+      "construction_note": "Pale circles only in Panel 1; the complete rind contour begins in Panel 2."
+    },
+    {
+      "early_mark": "Six open radial membrane routes and twelve seed placement ticks",
+      "becomes": "Six pale membrane wedges holding exactly twelve ruby seeds",
+      "fixed_relationship": "All routes radiate from one fixed cut-face center and every pair of seeds stays inside its assigned wedge.",
+      "construction_note": "Open routes and ticks only until the membranes and seed ovals are established in later panels."
+    }
+  ],
+  "final_elements": [
+    {
+      "name": "whole-fruit cut-half crown membrane and shadow guides",
+      "introduced_by_step": 1,
+      "established_by_step": 1,
+      "description": "One whole-fruit envelope, one overlapping cut-half circle, two crown axes, six membrane routes, twelve seed ticks, and one broken shadow footprint."
+    },
+    {
+      "name": "whole pomegranate and cut-half silhouettes",
+      "introduced_by_step": 2,
+      "established_by_step": 2,
+      "description": "One upright whole fruit behind one round cut half with a thick visible rind ring."
+    },
+    {
+      "name": "two five-point crowns and six membrane wedges",
+      "introduced_by_step": 3,
+      "established_by_step": 3,
+      "description": "A five-point crown on each fruit and six pale dividing membranes inside the cut face."
+    },
+    {
+      "name": "twelve ruby seed ovals",
+      "introduced_by_step": 4,
+      "established_by_step": 4,
+      "description": "Exactly twelve plump seed ovals arranged as two seeds inside each of the six membrane wedges."
+    },
+    {
+      "name": "peel texture highlights and broken shadow",
+      "introduced_by_step": 5,
+      "established_by_step": 5,
+      "description": "Sparse curved peel hatching, two open-paper peel highlights, tiny seed glints, and one broken graphite shadow."
+    },
+    {
+      "name": "graphite value and restrained pomegranate color map",
+      "introduced_by_step": 6,
+      "established_by_step": 6,
+      "description": "Directional graphite plus muted crimson peel, ruby seeds, warm cream membranes, and cool-gray shadow."
+    },
+    {
+      "name": "seed depth and rind-edge accents",
+      "introduced_by_step": 7,
+      "established_by_step": 7,
+      "description": "Small established seed shadows, rind-edge hatching, crown creases, and clarified paper highlights."
+    }
+  ],
+  "overlap_reservations": [
+    {
+      "foreground_element": "whole pomegranate and cut-half silhouettes",
+      "reserved_by_step": 1,
+      "background_lines_stop_before": "The whole-fruit peel contour, hatching, and shadow stop at the reserved cut-half silhouette; no finished line runs through the foreground fruit."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "stage_role": "construction",
+      "completion_target_percent": 22,
+      "asset": "assets/pomegranate-cut-open-step-1.jpg",
+      "step_name": "Arrange the two fruit forms",
+      "visible_job": "Place one upright whole-fruit envelope, one overlapping cut-half circle, two crown axes, six open membrane routes, twelve seed ticks, and one broken shadow footprint.",
+      "construction_primitives": ["one whole-fruit envelope", "one foreground cut-half circle", "two crown axes", "six open membrane routes", "twelve seed placement ticks", "one broken shadow footprint"],
+      "introduces": ["whole-fruit cut-half crown membrane and shadow guides"],
+      "establishes": ["whole-fruit cut-half crown membrane and shadow guides"],
+      "adds": ["fixed overlap", "fixed cut-face center", "fixed seed count"],
+      "must_not_show": ["finished peel contours", "closed crown points", "membrane wedges", "seed ovals", "graphite value", "colored pencil"]
+    },
+    {
+      "step": 2,
+      "stage_role": "silhouette",
+      "completion_target_percent": 38,
+      "asset": "assets/pomegranate-cut-open-step-2.jpg",
+      "step_name": "Shape the whole and half",
+      "visible_job": "Wrap the guides with one upright whole pomegranate and one round foreground cut half with a thick visible rind ring.",
+      "introduces": ["whole pomegranate and cut-half silhouettes"],
+      "establishes": ["whole pomegranate and cut-half silhouettes"],
+      "adds": ["whole-fruit peel contour", "cut-half outer contour", "inner rind ring"],
+      "must_not_show": ["finished crown points", "closed membrane wedges", "seed ovals", "peel texture", "graphite value", "colored pencil"],
+      "requires_prior_elements": ["whole-fruit cut-half crown membrane and shadow guides"]
+    },
+    {
+      "step": 3,
+      "stage_role": "major_parts",
+      "completion_target_percent": 52,
+      "asset": "assets/pomegranate-cut-open-step-3.jpg",
+      "step_name": "Build crowns and membranes",
+      "visible_job": "Turn both crown axes into five-point crowns and divide the cut face into exactly six pale membrane wedges around the same center.",
+      "introduces": ["two five-point crowns and six membrane wedges"],
+      "establishes": ["two five-point crowns and six membrane wedges"],
+      "adds": ["two crowns", "six membrane wedges"],
+      "must_not_show": ["closed seed ovals", "peel hatching", "seed shadows", "graphite value", "colored pencil"],
+      "requires_prior_elements": ["whole pomegranate and cut-half silhouettes"]
+    },
+    {
+      "step": 4,
+      "stage_role": "features",
+      "completion_target_percent": 67,
+      "asset": "assets/pomegranate-cut-open-step-4.jpg",
+      "step_name": "Place twelve seeds",
+      "visible_job": "Turn the twelve placement ticks into exactly twelve plump seed ovals, with two seeds inside each established membrane wedge.",
+      "introduces": ["twelve ruby seed ovals"],
+      "establishes": ["twelve ruby seed ovals"],
+      "adds": ["twelve seed contours", "six two-seed groups"],
+      "must_not_show": ["peel hatching", "seed shadows", "heavy graphite", "colored pencil"],
+      "requires_prior_elements": ["two five-point crowns and six membrane wedges"]
+    },
+    {
+      "step": 5,
+      "stage_role": "details",
+      "completion_target_percent": 79,
+      "asset": "assets/pomegranate-cut-open-step-5.jpg",
+      "step_name": "Map texture and highlights",
+      "visible_job": "Add sparse curved peel hatching, two peel-highlight reserves, tiny seed glints, crown creases, and the established broken shadow.",
+      "introduces": ["peel texture highlights and broken shadow"],
+      "establishes": ["peel texture highlights and broken shadow"],
+      "adds": ["peel hatching", "two peel highlights", "seed glints", "crown creases", "broken shadow"],
+      "must_not_show": ["completed shading", "completed colored-pencil fills", "new seeds or fruit"],
+      "requires_prior_elements": ["whole pomegranate and cut-half silhouettes", "two five-point crowns and six membrane wedges", "twelve ruby seed ovals"]
+    },
+    {
+      "step": 6,
+      "stage_role": "color_map",
+      "completion_target_percent": 90,
+      "asset": "assets/pomegranate-cut-open-step-6.jpg",
+      "step_name": "Layer the pomegranate color",
+      "visible_job": "Map graphite value, muted crimson peel, ruby seeds, warm cream membranes, and cool-gray shadow over only the established forms.",
+      "introduces": ["graphite value and restrained pomegranate color map"],
+      "establishes": ["graphite value and restrained pomegranate color map"],
+      "adds": ["all planned value", "all planned color regions"],
+      "must_not_show": ["new contours", "new seeds", "new color regions", "extra props"],
+      "requires_prior_elements": ["whole pomegranate and cut-half silhouettes", "two five-point crowns and six membrane wedges", "twelve ruby seed ovals", "peel texture highlights and broken shadow"]
+    },
+    {
+      "step": 7,
+      "stage_role": "refinement",
+      "completion_target_percent": 96,
+      "asset": "assets/pomegranate-cut-open-step-7.jpg",
+      "step_name": "Clarify seed depth and rind",
+      "visible_job": "Clarify established seed shadows, rind-edge hatching, crown creases, graphite grain, and paper highlights without adding forms.",
+      "introduces": ["seed depth and rind-edge accents"],
+      "establishes": ["seed depth and rind-edge accents"],
+      "adds": ["seed depth accents", "rind-edge accents", "highlight clarification"],
+      "must_not_show": ["new contours", "new seeds", "new color regions", "extra fruit leaves or props"],
+      "requires_prior_elements": ["twelve ruby seed ovals", "peel texture highlights and broken shadow", "graphite value and restrained pomegranate color map"]
+    }
+  ],
+  "transition_audit": [
+    {"from_step": 1, "to_step": 2, "must_persist": ["whole-fruit cut-half crown membrane and shadow guides"], "new_occlusions": ["The foreground cut half covers only the reserved lower-right portion of the whole fruit."], "keeper_lines_removed": []},
+    {"from_step": 2, "to_step": 3, "must_persist": ["whole-fruit cut-half crown membrane and shadow guides", "whole pomegranate and cut-half silhouettes"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 3, "to_step": 4, "must_persist": ["whole-fruit cut-half crown membrane and shadow guides", "whole pomegranate and cut-half silhouettes", "two five-point crowns and six membrane wedges"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 4, "to_step": 5, "must_persist": ["whole-fruit cut-half crown membrane and shadow guides", "whole pomegranate and cut-half silhouettes", "two five-point crowns and six membrane wedges", "twelve ruby seed ovals"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 5, "to_step": 6, "must_persist": ["whole-fruit cut-half crown membrane and shadow guides", "whole pomegranate and cut-half silhouettes", "two five-point crowns and six membrane wedges", "twelve ruby seed ovals", "peel texture highlights and broken shadow"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 6, "to_step": 7, "must_persist": ["whole-fruit cut-half crown membrane and shadow guides", "whole pomegranate and cut-half silhouettes", "two five-point crowns and six membrane wedges", "twelve ruby seed ovals", "peel texture highlights and broken shadow", "graphite value and restrained pomegranate color map"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 7, "to_step": 8, "must_persist": ["whole-fruit cut-half crown membrane and shadow guides", "whole pomegranate and cut-half silhouettes", "two five-point crowns and six membrane wedges", "twelve ruby seed ovals", "peel texture highlights and broken shadow", "graphite value and restrained pomegranate color map", "seed depth and rind-edge accents"], "new_occlusions": [], "keeper_lines_removed": []}
+  ],
+  "final_step": {
+    "step_name": "Finish the jewel-toned fruit",
+    "asset": "assets/pomegranate-cut-open-finished-v1.jpg",
+    "visible_job": "Only strengthen established keeper contours, deepen the mapped graphite and color, and clarify the same seeds, membranes, highlights, crowns, and broken shadow.",
+    "allowed_changes": ["keeper contour darkening", "restrained colored-pencil layering", "small established texture and highlight clarification"]
+  },
+  "rejection_checks": [
+    "Reject a detailed first panel, a drifting overlap, or a cut half that changes scale or angle.",
+    "Reject any sequence that changes the two five-point crowns, six membrane wedges, or exactly twelve seeds after those elements appear.",
+    "Reject a final that introduces seeds, membranes, fruit contours, crowns, texture regions, color regions, leaves, a plate, or another prop absent earlier.",
+    "Reject vector-like linework, glossy poster rendering, repeated darkened tracings, labels, arrows, text, signatures, or watermarks."
+  ]
+}
