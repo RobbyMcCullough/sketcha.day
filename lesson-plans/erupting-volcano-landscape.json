@@ -42,10 +42,10 @@
       "description": "One mountain envelope, centered crater ellipse, vertical plume spine, three plume ovals, two lava routes, and two ground arcs."
     },
     {
-      "name": "broken volcanic cone silhouette and open crater rim",
+      "name": "broken volcanic cone silhouette and reserved vent rim",
       "introduced_by_step": 2,
       "established_by_step": 2,
-      "description": "A broad rocky cone with two uneven shoulders and a readable open crater."
+      "description": "A broad rocky cone with two uneven shoulders and two short side-rim keeper arcs that leave the central plume footprint open."
     },
     {
       "name": "stacked eruption plume and two ground ridges",
@@ -80,9 +80,14 @@
   ],
   "overlap_reservations": [
     {
-      "foreground_element": "broken volcanic cone silhouette and open crater rim",
+      "foreground_element": "broken volcanic cone silhouette and reserved vent rim",
       "reserved_by_step": 1,
       "background_lines_stop_before": "Ground-ridge keeper lines stop at the reserved cone silhouette, and the plume begins only at the open crater rather than passing through its rim."
+    },
+    {
+      "foreground_element": "stacked eruption plume and two ground ridges",
+      "reserved_by_step": 2,
+      "background_lines_stop_before": "The two crater-rim keeper arcs stop on either side of the reserved central vent gap, so the Step 3 plume occupies blank paper rather than covering finished crater work."
     }
   ],
   "frames": [
@@ -104,11 +109,11 @@
       "stage_role": "silhouette",
       "completion_target_percent": 38,
       "asset": "assets/erupting-volcano-landscape-step-2.jpg",
-      "step_name": "Shape the cone and crater",
-      "visible_job": "Wrap the envelope with two broken mountain shoulders and shape the centered crater as an open rocky rim.",
-      "introduces": ["broken volcanic cone silhouette and open crater rim"],
-      "establishes": ["broken volcanic cone silhouette and open crater rim"],
-      "adds": ["left mountain shoulder", "right mountain shoulder", "open crater rim"],
+      "step_name": "Shape the cone and reserve the vent",
+      "visible_job": "Wrap the envelope with two broken mountain shoulders, then add only two short crater side-rim arcs and leave the central plume footprint open.",
+      "introduces": ["broken volcanic cone silhouette and reserved vent rim"],
+      "establishes": ["broken volcanic cone silhouette and reserved vent rim"],
+      "adds": ["left mountain shoulder", "right mountain shoulder", "two side-rim keeper arcs", "open central vent gap"],
       "must_not_show": ["closed smoke lobes", "lava banks", "ejected rocks", "rock texture", "graphite value", "colored pencil"],
       "requires_prior_elements": ["volcano crater plume lava and ground construction guides"]
     },
@@ -123,7 +128,7 @@
       "establishes": ["stacked eruption plume and two ground ridges"],
       "adds": ["three plume tiers", "two ground ridges"],
       "must_not_show": ["lava banks", "ejected rocks", "rock planes", "plume curls", "graphite value", "colored pencil"],
-      "requires_prior_elements": ["volcano crater plume lava and ground construction guides", "broken volcanic cone silhouette and open crater rim"]
+      "requires_prior_elements": ["volcano crater plume lava and ground construction guides", "broken volcanic cone silhouette and reserved vent rim"]
     },
     {
       "step": 4,
@@ -136,7 +141,7 @@
       "establishes": ["two lava streams and five ejected rocks"],
       "adds": ["two lava banks", "five ejected rocks"],
       "must_not_show": ["rock-plane hatching", "inner plume curls", "completed shadow", "graphite value", "colored pencil"],
-      "requires_prior_elements": ["volcano crater plume lava and ground construction guides", "broken volcanic cone silhouette and open crater rim", "stacked eruption plume and two ground ridges"]
+      "requires_prior_elements": ["volcano crater plume lava and ground construction guides", "broken volcanic cone silhouette and reserved vent rim", "stacked eruption plume and two ground ridges"]
     },
     {
       "step": 5,
@@ -149,7 +154,7 @@
       "establishes": ["rock planes plume curls and shadow footprint"],
       "adds": ["rock planes", "inner plume curls", "crater hatching", "broken shadow"],
       "must_not_show": ["completed shading", "completed colored-pencil fills", "new landscape forms"],
-      "requires_prior_elements": ["broken volcanic cone silhouette and open crater rim", "stacked eruption plume and two ground ridges", "two lava streams and five ejected rocks"]
+      "requires_prior_elements": ["broken volcanic cone silhouette and reserved vent rim", "stacked eruption plume and two ground ridges", "two lava streams and five ejected rocks"]
     },
     {
       "step": 6,
@@ -162,7 +167,7 @@
       "establishes": ["graphite value and restrained lava color map"],
       "adds": ["all planned value", "all planned color regions"],
       "must_not_show": ["new contours", "new rocks", "new color regions", "extra props"],
-      "requires_prior_elements": ["broken volcanic cone silhouette and open crater rim", "stacked eruption plume and two ground ridges", "two lava streams and five ejected rocks", "rock planes plume curls and shadow footprint"]
+      "requires_prior_elements": ["broken volcanic cone silhouette and reserved vent rim", "stacked eruption plume and two ground ridges", "two lava streams and five ejected rocks", "rock planes plume curls and shadow footprint"]
     },
     {
       "step": 7,
@@ -180,12 +185,12 @@
   ],
   "transition_audit": [
     {"from_step": 1, "to_step": 2, "must_persist": ["volcano crater plume lava and ground construction guides"], "new_occlusions": ["The cone silhouette covers only pale internal envelope guides while preserving the crater, plume, lava, and ground anchors."], "keeper_lines_removed": []},
-    {"from_step": 2, "to_step": 3, "must_persist": ["volcano crater plume lava and ground construction guides", "broken volcanic cone silhouette and open crater rim"], "new_occlusions": [], "keeper_lines_removed": []},
-    {"from_step": 3, "to_step": 4, "must_persist": ["volcano crater plume lava and ground construction guides", "broken volcanic cone silhouette and open crater rim", "stacked eruption plume and two ground ridges"], "new_occlusions": [], "keeper_lines_removed": []},
-    {"from_step": 4, "to_step": 5, "must_persist": ["volcano crater plume lava and ground construction guides", "broken volcanic cone silhouette and open crater rim", "stacked eruption plume and two ground ridges", "two lava streams and five ejected rocks"], "new_occlusions": [], "keeper_lines_removed": []},
-    {"from_step": 5, "to_step": 6, "must_persist": ["volcano crater plume lava and ground construction guides", "broken volcanic cone silhouette and open crater rim", "stacked eruption plume and two ground ridges", "two lava streams and five ejected rocks", "rock planes plume curls and shadow footprint"], "new_occlusions": [], "keeper_lines_removed": []},
-    {"from_step": 6, "to_step": 7, "must_persist": ["volcano crater plume lava and ground construction guides", "broken volcanic cone silhouette and open crater rim", "stacked eruption plume and two ground ridges", "two lava streams and five ejected rocks", "rock planes plume curls and shadow footprint", "graphite value and restrained lava color map"], "new_occlusions": [], "keeper_lines_removed": []},
-    {"from_step": 7, "to_step": 8, "must_persist": ["volcano crater plume lava and ground construction guides", "broken volcanic cone silhouette and open crater rim", "stacked eruption plume and two ground ridges", "two lava streams and five ejected rocks", "rock planes plume curls and shadow footprint", "graphite value and restrained lava color map", "ash depth lava glow and rock-edge accents"], "new_occlusions": [], "keeper_lines_removed": []}
+    {"from_step": 2, "to_step": 3, "must_persist": ["volcano crater plume lava and ground construction guides", "broken volcanic cone silhouette and reserved vent rim"], "new_occlusions": ["The plume fills only the reserved central vent gap; both side-rim keeper arcs remain visible and no finished crater line is covered."], "keeper_lines_removed": []},
+    {"from_step": 3, "to_step": 4, "must_persist": ["volcano crater plume lava and ground construction guides", "broken volcanic cone silhouette and reserved vent rim", "stacked eruption plume and two ground ridges"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 4, "to_step": 5, "must_persist": ["volcano crater plume lava and ground construction guides", "broken volcanic cone silhouette and reserved vent rim", "stacked eruption plume and two ground ridges", "two lava streams and five ejected rocks"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 5, "to_step": 6, "must_persist": ["volcano crater plume lava and ground construction guides", "broken volcanic cone silhouette and reserved vent rim", "stacked eruption plume and two ground ridges", "two lava streams and five ejected rocks", "rock planes plume curls and shadow footprint"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 6, "to_step": 7, "must_persist": ["volcano crater plume lava and ground construction guides", "broken volcanic cone silhouette and reserved vent rim", "stacked eruption plume and two ground ridges", "two lava streams and five ejected rocks", "rock planes plume curls and shadow footprint", "graphite value and restrained lava color map"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 7, "to_step": 8, "must_persist": ["volcano crater plume lava and ground construction guides", "broken volcanic cone silhouette and reserved vent rim", "stacked eruption plume and two ground ridges", "two lava streams and five ejected rocks", "rock planes plume curls and shadow footprint", "graphite value and restrained lava color map", "ash depth lava glow and rock-edge accents"], "new_occlusions": [], "keeper_lines_removed": []}
   ],
   "final_step": {
     "step_name": "Finish the volcanic landscape",

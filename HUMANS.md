@@ -2,6 +2,11 @@
 
 ## 2026-09-01 — Daily tutorial (Codex)
 
+- Corrected Step 2 after owner review: the mountain is now established with
+  two short crater side-rim keepers and an open central vent reservation, so
+  the Step 3 plume grows into blank paper instead of covering finished crater
+  work. The superseded sheet is private under `rejected-progressions/`; the
+  finish and one-current-lesson cadence remain unchanged.
 - Added one current lesson only: `erupting-volcano-landscape` (September 1 /
   Day 122). The approved eight-panel handmade raster pencil process holds one
   broad cone, one centered crater, one three-tier plume, two lava streams,
