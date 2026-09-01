@@ -1,5 +1,15 @@
 # Human Notes
 
+## 2026-09-01 — Daily tutorial (Codex)
+
+- Added one current lesson only: `erupting-volcano-landscape` (September 1 /
+  Day 122). The approved eight-panel handmade raster pencil process holds one
+  broad cone, one centered crater, one three-tier plume, two lava streams,
+  exactly five ejected rocks, two ground ridges, and restrained fiery color
+  cumulative through a finishing-only pass. The saved finish rated 9.2/10;
+  readiness plus desktop/mobile rendered QA passed on Cove. The one-current-
+  lesson-per-site cadence remains active; routine backfills remain off.
+
 ## 2026-08-31 — Daily tutorial (Codex)
 
 - Added one current lesson only: `pomegranate-cut-open` (August 31 / Day 121).
