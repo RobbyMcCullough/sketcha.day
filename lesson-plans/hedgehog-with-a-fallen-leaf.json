@@ -1,0 +1,74 @@
+{
+  "schema_version": 4,
+  "slug": "hedgehog-with-a-fallen-leaf",
+  "finished": "assets/hedgehog-with-a-fallen-leaf-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Reviewed handmade raster graphite and restrained colored-pencil process contact sheet.",
+    "notes": "One right-facing hedgehog beside one fallen maple leaf; no labels, arrows, numbers, UI, signatures, watermarks, mushrooms, flowers, extra animals, or decorative border."
+  },
+  "process_strategy": "Eight cumulative panels lock a low hedgehog bean, face wedge, three visible feet, spine boundary, one fallen leaf, and shadow before texture or color, then reserve the final panel for reinforcement only.",
+  "progression_contract": {
+    "first_frame_max_structural_completion_percent": 24,
+    "minimum_completion_increase_percent": 9,
+    "maximum_darkening_only_transitions": 1,
+    "blank_page_test": "A beginner can copy Panel 1 in under two minutes using one low body bean, one face wedge, three foot ticks, one spine-boundary arc, one leaf envelope with a stem route, and one broken shadow route."
+  },
+  "anchor_map": [
+    {
+      "early_mark": "One low body bean with a pointed face wedge and curved spine boundary",
+      "becomes": "One right-facing hedgehog with a rounded spiny back and small pointed muzzle",
+      "fixed_relationship": "The muzzle points right, the back peaks over the rear half, and the belly stays on the same low baseline in every panel.",
+      "construction_note": "Pale bean, wedge, and boundary only in Panel 1; the outer silhouette begins in Panel 2."
+    },
+    {
+      "early_mark": "Exactly three foot ticks under the body",
+      "becomes": "Exactly three short visible feet attached beneath the same belly, with the far rear foot hidden by the side-view body",
+      "fixed_relationship": "One rear foot and two forward feet touch the shared baseline; none float or swap position.",
+      "construction_note": "Ticks only until the three visible feet are wrapped in Panel 3."
+    },
+    {
+      "early_mark": "One five-lobed leaf envelope with a short stem route at lower right",
+      "becomes": "One fallen muted-orange maple leaf beside the hedgehog nose",
+      "fixed_relationship": "The leaf stays outside the animal silhouette, its stem points toward the nose, and the closest lobe never covers the front foot.",
+      "construction_note": "Pale envelope and stem only until Panel 4."
+    }
+  ],
+  "final_elements": [
+    {"name": "hedgehog leaf foot and shadow construction guides", "introduced_by_step": 1, "established_by_step": 1, "description": "One body bean, face wedge, spine arc, three foot ticks, one five-lobed leaf envelope with stem, and one broken shadow route."},
+    {"name": "low right-facing hedgehog silhouette", "introduced_by_step": 2, "established_by_step": 2, "description": "One rounded spiny back, small pointed muzzle, low belly, and short rear curve."},
+    {"name": "three visible feet one ear eye and nose", "introduced_by_step": 3, "established_by_step": 3, "description": "Exactly three short visible feet on the baseline, one rounded ear, one bright eye, and one dark nose; the far rear foot remains hidden in the side view."},
+    {"name": "five-lobed fallen leaf and face boundary", "introduced_by_step": 4, "established_by_step": 4, "description": "One maple leaf with exactly five broad lobes and a short stem plus one clean boundary between the soft face and spiny coat."},
+    {"name": "grouped spines leaf veins and broken ground shadow", "introduced_by_step": 5, "established_by_step": 5, "description": "Grouped backward-pointing spine clusters, five main leaf veins, two small face hatches, and one broken shadow."},
+    {"name": "graphite value and restrained hedgehog and leaf color map", "introduced_by_step": 6, "established_by_step": 6, "description": "Directional graphite, warm-brown spines, pale-tan face, muted-orange leaf, dark nose and eye, and cool-gray shadow."},
+    {"name": "spine depth leaf accents and paper highlights", "introduced_by_step": 7, "established_by_step": 7, "description": "Small established spine shadows, leaf-edge accents, foot contact darks, and open-paper highlights."}
+  ],
+  "overlap_reservations": [
+    {"foreground_element": "three visible feet one ear eye and nose", "reserved_by_step": 1, "background_lines_stop_before": "The belly keeper line stops at the three reserved visible foot contacts so no finished belly line is erased when the feet are added."}
+  ],
+  "frames": [
+    {"step": 1, "stage_role": "construction", "completion_target_percent": 22, "asset": "assets/hedgehog-with-a-fallen-leaf-step-1.jpg", "step_name": "Map the hedgehog and leaf", "visible_job": "Place one low body bean, pointed face wedge, curved spine boundary, exactly three foot ticks, one five-lobed leaf envelope with a stem route, and one broken shadow route in pale graphite.", "construction_primitives": ["one body bean", "one face wedge", "one spine-boundary arc", "three foot ticks", "one five-lobed leaf envelope", "one leaf stem route", "one broken shadow route"], "introduces": ["hedgehog leaf foot and shadow construction guides"], "establishes": ["hedgehog leaf foot and shadow construction guides"], "adds": ["fixed body pose", "fixed foot contacts", "fixed leaf position", "fixed shadow footprint"], "must_not_show": ["finished hedgehog contour", "closed feet", "ear eye or nose", "closed leaf lobes", "spines", "graphite value", "colored pencil"]},
+    {"step": 2, "stage_role": "silhouette", "completion_target_percent": 37, "asset": "assets/hedgehog-with-a-fallen-leaf-step-2.jpg", "step_name": "Shape the low silhouette", "visible_job": "Wrap the body guides with one rounded spiny back, small pointed muzzle, and low belly that stops at all three visible foot ticks.", "introduces": ["low right-facing hedgehog silhouette"], "establishes": ["low right-facing hedgehog silhouette"], "adds": ["rounded back", "pointed muzzle", "low belly with three gaps"], "must_not_show": ["closed feet", "ear eye or nose", "closed leaf lobes", "spine texture", "graphite value", "colored pencil"], "requires_prior_elements": ["hedgehog leaf foot and shadow construction guides"]},
+    {"step": 3, "stage_role": "major_parts", "completion_target_percent": 52, "asset": "assets/hedgehog-with-a-fallen-leaf-step-3.jpg", "step_name": "Add three feet and the face", "visible_job": "Wrap exactly three short visible feet at the reserved belly gaps, then add one rounded ear, one bright eye, and one dark nose.", "introduces": ["three visible feet one ear eye and nose"], "establishes": ["three visible feet one ear eye and nose"], "adds": ["three visible feet", "one ear", "one eye", "one nose"], "must_not_show": ["closed leaf lobes", "face boundary", "spine texture", "leaf veins", "graphite value", "colored pencil"], "requires_prior_elements": ["hedgehog leaf foot and shadow construction guides", "low right-facing hedgehog silhouette"]},
+    {"step": 4, "stage_role": "features", "completion_target_percent": 65, "asset": "assets/hedgehog-with-a-fallen-leaf-step-4.jpg", "step_name": "Shape the leaf and coat", "visible_job": "Turn the leaf envelope into exactly five broad lobes with one short stem, then add the curved face-to-spine boundary inside the hedgehog.", "introduces": ["five-lobed fallen leaf and face boundary"], "establishes": ["five-lobed fallen leaf and face boundary"], "adds": ["five leaf lobes", "one leaf stem", "one coat boundary"], "must_not_show": ["spine clusters", "leaf veins", "completed shadow", "graphite value", "colored pencil"], "requires_prior_elements": ["hedgehog leaf foot and shadow construction guides", "low right-facing hedgehog silhouette", "three visible feet one ear eye and nose"]},
+    {"step": 5, "stage_role": "details", "completion_target_percent": 78, "asset": "assets/hedgehog-with-a-fallen-leaf-step-5.jpg", "step_name": "Map spines veins and ground", "visible_job": "Add grouped backward-pointing spine clusters, five main leaf veins, two small face hatches, and the established broken ground shadow.", "introduces": ["grouped spines leaf veins and broken ground shadow"], "establishes": ["grouped spines leaf veins and broken ground shadow"], "adds": ["grouped spine routes", "five leaf veins", "two face hatches", "broken shadow"], "must_not_show": ["completed shading", "completed colored-pencil regions", "extra leaves plants or props"], "requires_prior_elements": ["low right-facing hedgehog silhouette", "three visible feet one ear eye and nose", "five-lobed fallen leaf and face boundary"]},
+    {"step": 6, "stage_role": "color_map", "completion_target_percent": 89, "asset": "assets/hedgehog-with-a-fallen-leaf-step-6.jpg", "step_name": "Layer graphite and autumn color", "visible_job": "Map directional graphite, warm-brown spines, pale-tan face, muted-orange leaf, dark eye and nose, and cool-gray shadow over established forms.", "introduces": ["graphite value and restrained hedgehog and leaf color map"], "establishes": ["graphite value and restrained hedgehog and leaf color map"], "adds": ["all planned graphite values", "all planned colored-pencil regions"], "must_not_show": ["new contours", "new spines", "new color regions", "extra scenery"], "requires_prior_elements": ["low right-facing hedgehog silhouette", "three visible feet one ear eye and nose", "five-lobed fallen leaf and face boundary", "grouped spines leaf veins and broken ground shadow"]},
+    {"step": 7, "stage_role": "refinement", "completion_target_percent": 96, "asset": "assets/hedgehog-with-a-fallen-leaf-step-7.jpg", "step_name": "Clarify spine and leaf depth", "visible_job": "Clarify established spine shadows, leaf-edge accents, foot contacts, graphite grain, and open-paper highlights without adding forms.", "introduces": ["spine depth leaf accents and paper highlights"], "establishes": ["spine depth leaf accents and paper highlights"], "adds": ["spine depth", "leaf-edge accents", "foot contact darks", "paper highlights"], "must_not_show": ["new contours", "new leaves", "new color regions", "extra props"], "requires_prior_elements": ["three visible feet one ear eye and nose", "five-lobed fallen leaf and face boundary", "grouped spines leaf veins and broken ground shadow", "graphite value and restrained hedgehog and leaf color map"]}
+  ],
+  "transition_audit": [
+    {"from_step": 1, "to_step": 2, "must_persist": ["hedgehog leaf foot and shadow construction guides"], "new_occlusions": ["The body silhouette wraps only the pale bean and face wedge while preserving all three visible foot gaps and the leaf outside the body."], "keeper_lines_removed": []},
+    {"from_step": 2, "to_step": 3, "must_persist": ["hedgehog leaf foot and shadow construction guides", "low right-facing hedgehog silhouette"], "new_occlusions": ["The three visible feet fill only their reserved belly gaps; no finished belly keeper line is removed."], "keeper_lines_removed": []},
+    {"from_step": 3, "to_step": 4, "must_persist": ["hedgehog leaf foot and shadow construction guides", "low right-facing hedgehog silhouette", "three visible feet one ear eye and nose"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 4, "to_step": 5, "must_persist": ["hedgehog leaf foot and shadow construction guides", "low right-facing hedgehog silhouette", "three visible feet one ear eye and nose", "five-lobed fallen leaf and face boundary"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 5, "to_step": 6, "must_persist": ["hedgehog leaf foot and shadow construction guides", "low right-facing hedgehog silhouette", "three visible feet one ear eye and nose", "five-lobed fallen leaf and face boundary", "grouped spines leaf veins and broken ground shadow"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 6, "to_step": 7, "must_persist": ["hedgehog leaf foot and shadow construction guides", "low right-facing hedgehog silhouette", "three visible feet one ear eye and nose", "five-lobed fallen leaf and face boundary", "grouped spines leaf veins and broken ground shadow", "graphite value and restrained hedgehog and leaf color map"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 7, "to_step": 8, "must_persist": ["hedgehog leaf foot and shadow construction guides", "low right-facing hedgehog silhouette", "three visible feet one ear eye and nose", "five-lobed fallen leaf and face boundary", "grouped spines leaf veins and broken ground shadow", "graphite value and restrained hedgehog and leaf color map", "spine depth leaf accents and paper highlights"], "new_occlusions": [], "keeper_lines_removed": []}
+  ],
+  "final_step": {"step_name": "Finish the autumn hedgehog", "asset": "assets/hedgehog-with-a-fallen-leaf-finished-v1.jpg", "visible_job": "Only strengthen established keeper contours, deepen mapped graphite and restrained color, and clarify the same hedgehog, three visible feet, spines, leaf, highlights, and shadow.", "allowed_changes": ["keeper contour darkening", "restrained colored-pencil layering", "small established spine leaf and highlight clarification"]},
+  "rejection_checks": [
+    "Reject a detailed first panel, a drifting body bean or leaf, or a hedgehog that changes pose, scale, facing direction, foot position, or nose angle.",
+    "Reject missing or extra feet, ears, eyes, noses, leaves, leaf lobes, or a leaf that overlaps a foot after being placed outside the body.",
+    "Reject a final that introduces spines, colors, mushrooms, flowers, extra leaves, extra animals, lettering, or props absent earlier.",
+    "Reject vector-like linework, glossy poster rendering, repeated darkened tracings, labels, arrows, numbers, text, signatures, or watermarks."
+  ]
+}

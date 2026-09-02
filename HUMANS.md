@@ -1,5 +1,17 @@
 # Human Notes
 
+## 2026-09-02 — Daily tutorial (Codex)
+
+- Added one current lesson only: `hedgehog-with-a-fallen-leaf` (September 2 /
+  Day 123). The approved corrected eight-panel handmade raster process moves
+  from sparse body, face, three-foot, leaf-envelope, and shadow guides to one
+  stable side-view hedgehog, exactly three visible feet, one five-lobed fallen
+  leaf, grouped graphite spines, and restrained autumn color before a
+  finishing-only pass. A front-loaded first sheet and the superseded
+  four-tick version remain private under `rejected-progressions/`; the saved
+  finish rated 9.3/10. The one-current-lesson-per-site cadence remains active;
+  routine backfills remain off.
+
 ## 2026-09-01 — Daily tutorial (Codex)
 
 - Corrected Step 2 after owner review: the mountain is now established with

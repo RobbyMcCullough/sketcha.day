@@ -210,6 +210,11 @@
       "date": "2026-08-26",
       "note": "Approved 2026-08-26 six-panel handmade raster pencil process; cropped masters, delivery images, social card, plan, and current tutorial are ready for final QA."
     },
+    "hedgehog-with-a-fallen-leaf": {
+      "status": "published",
+      "date": "2026-09-02",
+      "note": "Approved corrected eight-panel current lesson after rejecting a front-loaded first sheet and a three-foot/four-tick mismatch; the final process keeps three visible feet, one five-lobed leaf, grouped spines, and finishing-only graphite and restrained autumn color."
+    },
     "hiking-backpack-with-rolled-blanket": {
       "status": "published",
       "date": "2026-07-25",
@@ -330,6 +335,11 @@
       "status": "rejected-quality",
       "date": "2026-06-17",
       "note": "Final outpaced the process frames; pulled from the Day 007 slot after review."
+    },
+    "robin-on-a-garden-spade": {
+      "status": "rejected-duplicate",
+      "date": "2026-09-02",
+      "note": "Rejected before image generation: the archive already publishes sparrow-on-a-branch and garden-hand-trowel, so the proposed bird-on-garden-tool subject repeated both category and drawing problem."
     },
     "rocky-shore-lighthouse": {
       "status": "published",
