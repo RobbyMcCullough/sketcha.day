@@ -1,0 +1,75 @@
+{
+  "schema_version": 4,
+  "slug": "clawfoot-bathtub",
+  "finished": "assets/clawfoot-bathtub-finished-v1.jpg",
+  "source": {
+    "type": "generated-raster-master",
+    "description": "Reviewed handmade raster graphite and restrained colored-pencil process contact sheet.",
+    "notes": "One face-free three-quarter-view clawfoot bathtub; no labels, arrows, numbers, UI, signatures, watermarks, towels, plants, bubbles, person, room scene, or decorative border."
+  },
+  "process_strategy": "Eight cumulative panels lock one three-quarter tub envelope, oval rim, faucet anchors, and three visible foot positions before contours, hardware, texture, or color, then reserve the final panel for reinforcement only.",
+  "progression_contract": {
+    "first_frame_max_structural_completion_percent": 24,
+    "minimum_completion_increase_percent": 9,
+    "maximum_darkening_only_transitions": 1,
+    "blank_page_test": "A beginner can copy Panel 1 in under two minutes using one tilted rim ellipse, one shallow tub box, three foot ticks, one faucet route with two handle ticks, and one broken shadow route."
+  },
+  "anchor_map": [
+    {
+      "early_mark": "One tilted rim ellipse over one shallow three-quarter tub box",
+      "becomes": "One long oval bathtub rim and one tapered enamel tub body seen from above and the front-right corner",
+      "fixed_relationship": "The left end stays slightly higher and narrower in perspective, the right end stays closer and broader, and the same center axis holds in every panel.",
+      "construction_note": "Pale ellipse, axis, and box only in Panel 1; the body silhouette begins in Panel 2."
+    },
+    {
+      "early_mark": "Exactly three foot ticks beneath the tub body",
+      "becomes": "Exactly three visible curved claw feet attached beneath the same tub body",
+      "fixed_relationship": "Two feet sit along the nearer lower edge and one far-left foot remains visible behind; none float, swap, or change count.",
+      "construction_note": "Ticks only until the feet are wrapped in Panel 3."
+    },
+    {
+      "early_mark": "One short curved faucet route and two handle ticks on the far-right rim",
+      "becomes": "One arched faucet centered between exactly two cross handles",
+      "fixed_relationship": "All three fixtures remain attached to the far-right rim deck and never move inside the basin or onto the outer wall.",
+      "construction_note": "Open route and ticks only until the fixtures are shaped in Panel 4."
+    }
+  ],
+  "final_elements": [
+    {"name": "tub rim body foot faucet and shadow construction guides", "introduced_by_step": 1, "established_by_step": 1, "description": "One tilted rim ellipse, one shallow body box, three foot ticks, one faucet route, two handle ticks, and one broken shadow route."},
+    {"name": "three-quarter tub silhouette inner basin and rim", "introduced_by_step": 2, "established_by_step": 2, "description": "One long doubled oval rim, one nested inner basin contour, and one tapered outer tub wall in a stable three-quarter view."},
+    {"name": "three visible claw feet", "introduced_by_step": 3, "established_by_step": 3, "description": "Exactly three attached curved feet wrapped into the reserved lower-wall gaps."},
+    {"name": "arched faucet two cross handles and drain", "introduced_by_step": 4, "established_by_step": 4, "description": "One arched faucet, exactly two cross handles on the far-right rim, and one small drain ellipse inside the basin."},
+    {"name": "enamel highlights foot joints and broken ground shadow", "introduced_by_step": 5, "established_by_step": 5, "description": "Exactly two open-paper enamel highlights, small joints on the same three feet, and one broken graphite shadow."},
+    {"name": "graphite value and restrained seafoam brass and cool-gray color map", "introduced_by_step": 6, "established_by_step": 6, "description": "Directional graphite, pale seafoam enamel, restrained warm brass fixtures and feet, and cool-gray basin and ground shadow."},
+    {"name": "enamel depth metal accents and paper highlights", "introduced_by_step": 7, "established_by_step": 7, "description": "Small established rim shadows, foot contact darks, fixture accents, graphite grain, and open-paper highlights."}
+  ],
+  "overlap_reservations": [
+    {"foreground_element": "three visible claw feet", "reserved_by_step": 1, "background_lines_stop_before": "The lower tub wall stops at all three reserved foot contacts so no finished wall keeper line is erased when the feet are added."},
+    {"foreground_element": "arched faucet two cross handles and drain", "reserved_by_step": 1, "background_lines_stop_before": "The far-right rim deck stops around the faucet route and two handle ticks so no finished rim keeper line must be erased for the fixtures."}
+  ],
+  "frames": [
+    {"step": 1, "stage_role": "construction", "completion_target_percent": 22, "asset": "assets/clawfoot-bathtub-step-1.jpg", "step_name": "Map the tub in perspective", "visible_job": "Place one tilted rim ellipse, one shallow three-quarter tub box with center axis, exactly three foot ticks, one curved faucet route with two handle ticks, and one broken shadow route in pale graphite.", "construction_primitives": ["one tilted rim ellipse", "one shallow three-quarter tub box", "one center axis", "three foot ticks", "one curved faucet route", "two handle ticks", "one broken shadow route"], "introduces": ["tub rim body foot faucet and shadow construction guides"], "establishes": ["tub rim body foot faucet and shadow construction guides"], "adds": ["fixed tub perspective", "fixed rim angle", "fixed three foot contacts", "fixed faucet deck", "fixed shadow footprint"], "must_not_show": ["finished tub silhouette", "inner basin contour", "closed claw feet", "closed faucet or handles", "drain", "rim thickness", "graphite value", "colored pencil"]},
+    {"step": 2, "stage_role": "silhouette", "completion_target_percent": 40, "asset": "assets/clawfoot-bathtub-step-2.jpg", "step_name": "Shape the rim basin and body", "visible_job": "Wrap the guides with one doubled oval rim, one nested inner basin contour, and one tapered outer tub wall, leaving gaps at the three foot ticks and around the far-right fixture anchors.", "introduces": ["three-quarter tub silhouette inner basin and rim"], "establishes": ["three-quarter tub silhouette inner basin and rim"], "adds": ["doubled oval rim", "nested inner basin", "tapered tub wall", "three reserved foot gaps", "reserved fixture deck"], "must_not_show": ["closed claw feet", "closed faucet or handles", "drain", "enamel highlights", "graphite value", "colored pencil"], "requires_prior_elements": ["tub rim body foot faucet and shadow construction guides"]},
+    {"step": 3, "stage_role": "major_parts", "completion_target_percent": 53, "asset": "assets/clawfoot-bathtub-step-3.jpg", "step_name": "Add the three claw feet", "visible_job": "Wrap exactly three curved claw feet at the reserved lower-wall gaps while keeping the rim, basin, and body unchanged.", "introduces": ["three visible claw feet"], "establishes": ["three visible claw feet"], "adds": ["three attached claw feet"], "must_not_show": ["closed faucet or handles", "drain", "enamel highlights", "graphite value", "colored pencil"], "requires_prior_elements": ["tub rim body foot faucet and shadow construction guides", "three-quarter tub silhouette inner basin and rim"]},
+    {"step": 4, "stage_role": "features", "completion_target_percent": 66, "asset": "assets/clawfoot-bathtub-step-4.jpg", "step_name": "Fit the faucet and handles", "visible_job": "Shape one arched faucet and exactly two cross handles on the reserved far-right rim deck, then add one small drain ellipse inside the basin.", "introduces": ["arched faucet two cross handles and drain"], "establishes": ["arched faucet two cross handles and drain"], "adds": ["one arched faucet", "two cross handles", "one drain ellipse"], "must_not_show": ["enamel highlights", "foot-joint detail", "completed shadow", "graphite value", "colored pencil"], "requires_prior_elements": ["three-quarter tub silhouette inner basin and rim", "three visible claw feet"]},
+    {"step": 5, "stage_role": "details", "completion_target_percent": 78, "asset": "assets/clawfoot-bathtub-step-5.jpg", "step_name": "Reserve shine and ground", "visible_job": "Add exactly two open-paper enamel highlight shapes, small joints on the same three feet, and the established broken ground shadow.", "introduces": ["enamel highlights foot joints and broken ground shadow"], "establishes": ["enamel highlights foot joints and broken ground shadow"], "adds": ["two enamel highlights", "three foot joints", "broken shadow"], "must_not_show": ["completed shading", "completed colored-pencil regions", "water bubbles towels plants or room details"], "requires_prior_elements": ["three-quarter tub silhouette inner basin and rim", "three visible claw feet", "arched faucet two cross handles and drain"]},
+    {"step": 6, "stage_role": "color_map", "completion_target_percent": 89, "asset": "assets/clawfoot-bathtub-step-6.jpg", "step_name": "Layer enamel and metal color", "visible_job": "Map directional graphite, pale seafoam enamel, restrained warm brass on the established fixtures and feet, and cool gray inside the basin and shadow.", "introduces": ["graphite value and restrained seafoam brass and cool-gray color map"], "establishes": ["graphite value and restrained seafoam brass and cool-gray color map"], "adds": ["all planned graphite values", "all planned colored-pencil regions"], "must_not_show": ["new contours", "new fixtures", "new feet", "new color regions", "extra props"], "requires_prior_elements": ["three-quarter tub silhouette inner basin and rim", "three visible claw feet", "arched faucet two cross handles and drain", "enamel highlights foot joints and broken ground shadow"]},
+    {"step": 7, "stage_role": "refinement", "completion_target_percent": 96, "asset": "assets/clawfoot-bathtub-step-7.jpg", "step_name": "Build enamel and metal depth", "visible_job": "Clarify established rim shadows, foot contacts, fixture accents, graphite grain, and open-paper highlights without adding forms.", "introduces": ["enamel depth metal accents and paper highlights"], "establishes": ["enamel depth metal accents and paper highlights"], "adds": ["rim depth", "foot contact darks", "fixture accents", "paper highlights"], "must_not_show": ["new contours", "new fixtures", "new feet", "new colors", "room details or props"], "requires_prior_elements": ["three visible claw feet", "arched faucet two cross handles and drain", "enamel highlights foot joints and broken ground shadow", "graphite value and restrained seafoam brass and cool-gray color map"]}
+  ],
+  "transition_audit": [
+    {"from_step": 1, "to_step": 2, "must_persist": ["tub rim body foot faucet and shadow construction guides"], "new_occlusions": ["The tub silhouette wraps only the pale box and ellipse while preserving all three foot gaps and the far-right fixture anchors."], "keeper_lines_removed": []},
+    {"from_step": 2, "to_step": 3, "must_persist": ["tub rim body foot faucet and shadow construction guides", "three-quarter tub silhouette inner basin and rim"], "new_occlusions": ["The three claw feet fill only their reserved lower-wall gaps; no finished tub-wall keeper line is removed."], "keeper_lines_removed": []},
+    {"from_step": 3, "to_step": 4, "must_persist": ["tub rim body foot faucet and shadow construction guides", "three-quarter tub silhouette inner basin and rim", "three visible claw feet"], "new_occlusions": ["The faucet and handles fill only their reserved far-right rim-deck spaces; no rim keeper line is removed."], "keeper_lines_removed": []},
+    {"from_step": 4, "to_step": 5, "must_persist": ["tub rim body foot faucet and shadow construction guides", "three-quarter tub silhouette inner basin and rim", "three visible claw feet", "arched faucet two cross handles and drain"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 5, "to_step": 6, "must_persist": ["tub rim body foot faucet and shadow construction guides", "three-quarter tub silhouette inner basin and rim", "three visible claw feet", "arched faucet two cross handles and drain", "enamel highlights foot joints and broken ground shadow"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 6, "to_step": 7, "must_persist": ["tub rim body foot faucet and shadow construction guides", "three-quarter tub silhouette inner basin and rim", "three visible claw feet", "arched faucet two cross handles and drain", "enamel highlights foot joints and broken ground shadow", "graphite value and restrained seafoam brass and cool-gray color map"], "new_occlusions": [], "keeper_lines_removed": []},
+    {"from_step": 7, "to_step": 8, "must_persist": ["tub rim body foot faucet and shadow construction guides", "three-quarter tub silhouette inner basin and rim", "three visible claw feet", "arched faucet two cross handles and drain", "enamel highlights foot joints and broken ground shadow", "graphite value and restrained seafoam brass and cool-gray color map", "enamel depth metal accents and paper highlights"], "new_occlusions": [], "keeper_lines_removed": []}
+  ],
+  "final_step": {"step_name": "Finish the clawfoot bathtub", "asset": "assets/clawfoot-bathtub-finished-v1.jpg", "visible_job": "Only strengthen established keeper contours, deepen mapped graphite and restrained color, and clarify the same tub, three feet, basin, faucet, two handles, drain, highlights, and shadow.", "allowed_changes": ["keeper contour darkening", "restrained colored-pencil layering", "small established enamel metal and shadow clarification"]},
+  "rejection_checks": [
+    "Reject a detailed first panel, drifting rim perspective, or a tub that changes viewpoint, scale, end width, or center axis.",
+    "Reject missing or extra tubs, rims, basins, feet, faucets, handles, drains, highlights, or a fixture that moves off the far-right rim deck.",
+    "Reject a final that introduces water, bubbles, towels, plants, a person, room details, lettering, or props absent earlier.",
+    "Reject vector-like linework, glossy rendering, repeated darkened tracings, labels, arrows, numbers, text, signatures, or watermarks."
+  ]
+}

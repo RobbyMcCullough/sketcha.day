@@ -97,10 +97,20 @@
     "classic-pickup-truck": {
       "status": "published"
     },
+    "clawfoot-bathtub": {
+      "status": "published",
+      "date": "2026-09-03",
+      "note": "Approved eight-panel clawfoot-bathtub process promoted as the 2026-09-03 current lesson after perspective, three-foot, fixture-anchor, crop, process-plan, delivery-image, and rendered-page review."
+    },
     "climbing-carabiner-and-rope": {
       "status": "published",
       "date": "2026-07-22",
       "note": "Approved contact sheet cropped and published as the honest 2026-05-10 archive lesson."
+    },
+    "covered-bridge-over-a-creek": {
+      "status": "rejected-duplicate",
+      "date": "2026-09-03",
+      "note": "Rejected before image generation: Sketcha already publishes suspension-bridge-in-perspective, so another bridge perspective lesson would repeat the core category and drawing problem."
     },
     "cowboy-boot-with-stitching": {
       "status": "published",

@@ -1,5 +1,18 @@
 # Human Notes
 
+## 2026-09-03 — Daily tutorial (Codex)
+
+- Added one current lesson only: `clawfoot-bathtub` (September 3 / Day 124).
+  The approved eight-panel handmade raster process moves from a sparse
+  three-quarter tub map to a stable doubled rim and basin, exactly three
+  attached claw feet, one arched faucet, two cross handles, one drain, two
+  enamel highlights, restrained seafoam and brass color, and a finishing-only
+  pass. The saved finish rated 9.4/10; readiness plus desktop/mobile Cove QA
+  passed. `covered-bridge-over-a-creek` was rejected before art generation as
+  too close to the existing suspension-bridge perspective lesson. The
+  one-current-lesson-per-site cadence remains active; routine backfills remain
+  off.
+
 ## 2026-09-02 — Daily tutorial (Codex)
 
 - Added one current lesson only: `hedgehog-with-a-fallen-leaf` (September 2 /
