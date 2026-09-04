@@ -1,5 +1,17 @@
 # Human Notes
 
+## 2026-09-04 — Daily tutorial (Codex)
+
+- Added one current lesson only: `rolling-pin-with-pastry-dough` (September 4 /
+  Day 125). The approved regenerated eight-panel handmade raster process moves
+  from sparse diagonal construction to one cylindrical rolling pin, exactly two
+  attached handles and collars, one overlapping pastry sheet, three grain marks,
+  two highlights, four flour dashes, two folds, graphite texture, and restrained
+  color before a finishing-only pass. The first front-loaded sheet remains
+  private under `rejected-progressions/`; the saved finish rated 9.3/10.
+  Readiness plus desktop/mobile localhost QA passed. The one-current-lesson-per-
+  site cadence remains active; routine backfills remain off.
+
 ## 2026-09-03 — Daily tutorial (Codex)
 
 - Added one current lesson only: `clawfoot-bathtub` (September 3 / Day 124).
