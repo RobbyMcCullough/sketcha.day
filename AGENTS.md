@@ -127,6 +127,14 @@ worktree, or validation that cannot be repaired in scope.
 
 ## Conventions
 
+- New and corrected process plans use schema v5. Read
+  `PROCESS-IMAGE-WORKFLOW.md` for the current teaching and saved-image review
+  contract. Historical schema acceptance is frozen in
+  `lesson-plans/legacy-schema-slugs.json`; do not add new lessons there.
+- Approve teaching quality separately from finished art. Record every adjacent
+  image transition and review hashes; changed images or instructions require
+  renewed visual review. Passing pixel deltas never proves continuity.
+
 - Read `DAILY-PUBLISHING.md` before creating or changing a daily lesson.
 - Rebuild generated archive pages after changing their lesson data.
 - Keep daily tutorial pages useful without JavaScript.

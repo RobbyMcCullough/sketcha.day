@@ -9,7 +9,8 @@ The tutorial must convincingly produce the finished drawing.
 
 Treat the finished drawing and the instructional steps as one artifact, not as
 separate images about the same subject. Every important contour, proportion,
-pose, marking, and color choice in the finish must appear in a prior step.
+pose, and marking in the finish must appear in a prior step. A final coloring
+step may introduce the palette on established contours.
 
 The sequence must also respect occlusion and drawing economy. Do not ask the
 reader to finish boards, seams, texture, anatomy, or other detail that a later
@@ -22,6 +23,14 @@ that darkens, inks, shades, colors, fills, cleans, or clarifies a shape may not
 be the first frame where that shape appears. If a later step says to darken an
 outline, every major contour being darkened must already be visible in an
 earlier process frame.
+
+## Current process-art contract
+
+Use schema v5 and `PROCESS-IMAGE-WORKFLOW.md` for new or corrected lessons.
+Record an image-specific adjacent-pair review, explicit guide lifecycles, and
+artifact hashes. Teaching quality and finished-art quality each need 8/10;
+unexplained landmark removal or movement is a hard failure. Historical schema
+v1–v4 plans stay readable but do not define new work.
 
 ## Required Workflow
 

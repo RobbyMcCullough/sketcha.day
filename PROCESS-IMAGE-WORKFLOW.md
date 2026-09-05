@@ -1,347 +1,136 @@
 # Process Image Workflow
 
-This workflow is for generating Sketcha.day tutorial process images. It is
-separate from lesson writing, SEO copy, page generation, and daily publishing.
+## Teaching contract (schema v5)
 
-## Recommended Workflow
+Each panel is the next state of ONE drawing on the learner's page. Approve the
+teaching sequence separately from the finish. A high finish score never overrides
+a missing landmark, unexplained erasure, movement, or an unteachable transition.
 
-1. Start with a process plan, not a finished image.
-   - Choose one subject, one pose, one crop, and one scale.
-   - List the final drawing's major visible elements before generating art.
-   - Make an occlusion map before assigning panels: note which regions remain
-     visible in the finish and which will be covered by a later element. Reserve
-     the footprint of any covering element early, and do not render finished
-     detail underneath it. Pale construction may be erased; detailed lines
-     should not be drawn only to disappear in a later frame.
-   - Use plan schema v2 and complete `transition_audit` for every adjacent pair,
-     including the last process frame to the finish. List every previously
-     introduced element under `must_persist`, keep `keeper_lines_removed`
-     empty, and describe any newly created physical overlap in
-     `new_occlusions`.
-   - Once a major element or route appears, it must remain visible in every
-     later panel unless another established form physically covers it. A
-     periscope, handle, limb, prop, or other landmark may not disappear for one
-     panel and return later.
-   - For containers, compartments, folded paper, architecture, or any subject
-     with foreground objects over internal lines, fill `overlap_reservations`
-     before generating. Draw dividers and seams only up to the reserved
-     foreground silhouettes; never teach a keeper line that the reader must
-     erase to add food, props, or other later forms.
-   - For any frame that will darken, ink, fill, color, shade, clean, or clarify
-     existing parts, list those parts in `requires_prior_elements`; they must
-     first appear in an earlier frame.
-   - Decide whether the subject needs 5, 6, 7, or 8 stages.
-   - Generate only for a locked tutorial slug. Acquire the daily run lock first,
-     then lock the slug with the mandatory gate, which fails while any
-     unresolved generated art exists in `drafts/LEDGER.json`:
+1. Start with one or two simple, useful shapes at their final positions.
+   A recognizable partial outline is allowed. Do not scatter detached body parts
+   or introduce facial ticks several steps before they are useful.
+2. Each step has one concrete job, expressed as a small group of drawable strokes.
+   Describe where a line starts, its direction, and where it meets existing work.
+   A learner must understand the addition without seeing future panels.
+3. Use as many steps as the drawing needs, usually 5–7, within 4–8 total.
+   Repeated stage types are allowed. Do not invent percentage-completion targets
+   or pad the sequence with multiple texture/darkening/cleanup passes.
+4. Keeper lines persist. Reserve gaps before adding overlapping arms, paws,
+   stems, handles, or props. Draw the foreground first when that is simpler.
+   Never teach a dark line only to erase it silently in the next panel.
+5. Optional temporary guides have a name, introduction step, replacement/removal
+   step, and an explicit reader instruction for that removal. Until then, they
+   persist at the same anchors. Do not mix guide names with final landmarks.
+6. Every structural contour must appear before the final step. A final coloring
+   step may introduce the palette on established outlines. Color and texture
+   should usually take one useful step, not several nearly identical panels.
+7. Simplify decorative requirements before complicating construction. Count only
+   intentional landmarks; specify each vulnerable landmark separately (left ear,
+   right ear, head tuft), not a giant bundled "face and fur and highlights" entry.
 
-     ```sh
-     python3 scripts/daily-publish-lock.py acquire --current-date YYYY-MM-DD
-     python3 scripts/preflight-image-generation.py --slug {slug} --current-date YYYY-MM-DD --lock-token LOCK_TOKEN
-     ```
+## Site-specific starting point
 
-     Do not create speculative sheets for backup subjects, alternate
-     directions, or ideas that are not intended to become the next validated
-     lesson.
+Sketcha may use connected pencil construction when it teaches proportion or
+perspective. Make every guide's destination and removal explicit. Preserve the
+quiet graphite/colored-pencil medium and readable structure; direct drawing is
+also allowed when it makes the subject easier.
 
-2. Generate one contact sheet first.
-   - Ask for all stages in one grid so the model sees the whole process as one
-     artifact.
-   - Use no captions, numbers, arrows, UI chrome, signatures, or watermarks.
-   - Keep every panel centered at the same scale and angle.
+## Plan before generation
 
-3. Review the contact sheet before cropping.
-   - Reject sheets where the subject, pose, or proportions drift.
-   - Reject sheets where an introduced landmark disappears from any later
-     panel and then returns, even if the first and final panels match.
-   - Reject sheets where a later foreground element requires erasing an earlier
-     keeper line. Repair the earlier panel so its background lines stop at a
-     reserved silhouette.
-   - Reject sheets where adjacent panels are nearly identical.
-   - Reject sheets where the final introduces major structure, color, markings,
-     props, or perspective that was not present earlier.
-   - Reject sheets where an outline, color, fill, shading, or cleanup stage is
-     also the first appearance of the shape being outlined, colored, shaded, or
-     cleaned.
+Use `lesson-plans/TEMPLATE.json` and schema v5 for every new or corrected lesson.
+Existing v1–v4 plans remain readable for historical lessons; they are not templates
+for new work. Do not rename stage labels or adjust estimated percentages merely
+to make a validator pass.
 
-4. Repair before publishing.
-   - A failed review rejects that sheet or panel, not the daily lesson run.
-     Keep the locked slug `pending` while repair is active and continue until
-     one complete sheet passes visual and semantic QA.
-   - If one panel fails, regenerate or edit only that panel using the nearest
-     good panel and the final panel as visual references when the tool supports
-     it.
-   - If several panels fail, regenerate the full contact sheet with tighter
-     stage instructions.
-   - Save every superseded attempt under
-     `drafts/{slug}/rejected-progressions/` with a versioned filename and a
-     short ledger/HUMANS note. Do not confuse a rejected iteration with the
-     final status of the subject.
-   - After each repair or regeneration, re-review the entire sheet, including
-     element counts, stage omissions, anchor continuity, and the final-only
-     change rule. Continue this loop through an approved crop and finish rated
-     at least 8/10.
-   - If the contact sheet is promising but not publishable, crop panels only
-     after the repaired sheet passes QA.
-   - If a generated sheet will not be used, do not generate another subject
-     until the unused sheet is resolved in `drafts/LEDGER.json`: promoted into
-     a tutorial (`published`), documented as `rejected-quality` or
-     `rejected-duplicate` with a note, held as `scheduled` with a
-     `release_date`, or explicitly set aside by the owner. The pre-flight gate
-     enforces this; an unresolved `pending` entry blocks all new generation.
-   - If repeated attempts show that the subject itself cannot produce a clear,
-     attainable lesson, resolve that slug as `rejected-quality`, select and
-     preflight one deliberate replacement subject, and continue the current
-     daily run. Stop only when generation is genuinely unavailable or
-     malfunctioning, the lock/slot gate blocks progress, the worktree is
-     unsafe, or another external dependency makes further repair impossible.
+Write the actual reader instructions before making art. Declare each final
+landmark and when it appears, frame assets, visible additions, and any guide
+lifecycle. For each attached feature, state its fixed connection and reserve any
+overlap gap in the preceding step. The first-step test must explain why a beginner
+can copy it, not merely assert that it takes two minutes.
 
-5. Convert the approved sheet into lesson assets.
-   - Crop non-final panels into `{slug}-step-1.jpg` through
-     `{slug}-step-n.jpg`.
-   - Crop the final panel or a faithful cleaned derivative into
-     `{slug}-finished-v{n}.jpg`.
-   - Fill `lesson-plans/{slug}.json` before publishing so the frame assets,
-     final elements, visible jobs, and final-only changes stay in sync.
-   - The cropped `.jpg` files are the reviewed masters. Build the delivery
-     images the pages actually serve:
+The same-slug correction workflow retains valid finish/later panels where
+possible. If simplifying the design requires a new finish, review that finish
+again and keep the old sheet privately for comparison.
 
-     ```sh
-     python3 scripts/build-image-derivatives.py --slug {slug}
-     python3 scripts/make-social-cards.py --slug {slug}
-     ```
+## Lock and preflight
 
-6. Run the normal daily gates only after image QA.
-   - `python3 scripts/check-process-plan.py {slug}`
-   - `python3 scripts/check-step-deltas.py {slug} --contact-sheet /tmp/{slug}-steps.jpg`
-   - `python3 scripts/check-tutorial-readiness.py {slug}`
+Inspect both worktrees before acquiring the shared run lock. Preserve unrelated
+work; do not mix another run's uncommitted integration into this one.
+Acquire using `python3 scripts/daily-publish-lock.py acquire --current-date YYYY-MM-DD`.
+Then run the duplicate-slot guard and preflight-image-generation for the exact
+slug with that date and lock token. Existing-lesson repairs require the matching
+`--allow-existing-current-slug` or `--allow-existing-backfill-slug` flag.
+Release the token after completion or a stop. No speculative alternate subjects.
 
-## Stage Pattern
+## Generation prompt
 
-Use this six-stage pattern by default:
+Use generated or human-made raster art. Generate a contact sheet first, with all
+panels at identical scale, pose, crop, and landmark positions. A square cell must
+remain square when cropped; never stretch a rectangular cell into a square.
 
-1. Basic construction shapes: circles, ellipses, boxes, axes, gesture lines.
-2. Rough silhouette: simple outside contour over the construction.
-3. Refined contour: cleaner outer shape and main proportions.
-4. Main features: eyes, handles, windows, wheels, folds, or other landmarks.
-5. Secondary details: texture, small forms, line weight, internal shapes.
-6. Final sketch: cleanup, selective shading, and restrained color if needed.
+Use this compact prompt, adapting panel count to the lesson:
 
-Use seven or eight stages for subjects where one of those stages would hide too
-much work. Split complex construction, silhouette, features, or details instead
-of asking the final panel to make a large leap.
+> Make [N] cumulative panels teaching [subject], using [medium]. Every panel
+> continues the same drawing. Keep the same pose, scale, framing, and landmarks.
+> Panel 1: [one or two useful shapes and exact location].
+> Panel 2: keep [existing shapes]; add [specific strokes and attachment points].
+> Repeat this explicit keep/add instruction for every remaining panel.
+> Final: [color/shade the established contours; no new structure].
+> Temporary guides: [none, or exact introduction/removal instructions].
+> Reserved gaps: [locations and future foreground forms].
+> Future features remain absent until their assigned step.
+> No captions, numbers, arrows, borders, signatures, or watermarks.
+> Handmade raster texture; no vector-perfect or glossy rendering.
 
-## Cropping Contact Sheets
+Do not bury this contract under long lists of optional details. If the character
+drifts, use an approved master as a reference and repair the failing panel against
+its adjacent neighbors. Do not lower the opacity of a finished drawing to invent
+earlier stages.
 
-The site already treats the final image as the art for the last written step.
-That means an approved six-panel sheet normally becomes five step images plus
-one finished image:
+## Visual approval: observations, not declarations
 
-- Panel 1 -> `assets/{slug}-step-1.jpg`
-- Panel 2 -> `assets/{slug}-step-2.jpg`
-- Panel 3 -> `assets/{slug}-step-3.jpg`
-- Panel 4 -> `assets/{slug}-step-4.jpg`
-- Panel 5 -> `assets/{slug}-step-5.jpg`
-- Panel 6 -> `assets/{slug}-finished-v1.jpg`
+Inspect the actual saved images, not just a prompt or plan. First view the whole
+sheet, then each adjacent pair at readable size, including the final transition.
+For each pair record:
 
-Crop panels only after the full sheet passes QA or after failed panels have been
-repaired. Keep a copy of the raw approved sheet somewhere outside public
-navigation, such as `drafts/{slug}/{slug}-contact-sheet.png`.
+- The specific visible addition and whether it is substantial enough for a step.
+- Each individual landmark visible in the later frame.
+- Every removed or moved mark. Only explicitly instructed guide removal is allowed.
+- How the written instruction matches what the learner actually has to draw.
 
-Use the cropper for regular grid sheets:
+Inspect Step 1 without later panels: are the shapes useful and their positions
+clear? Then do a draw-through: read one instruction at a time and examine only
+its before/after images. Reject guesswork, moving parts, hidden erasures, unexplained
+new contours, and any step whose real job is only redrawing an earlier picture.
+Check anchors: origin, attachment, overlap order, and final position.
 
-```sh
-python3 scripts/crop-contact-sheet.py drafts/{slug}/{slug}-contact-sheet.png {slug} \
-  --cols 3 --rows 2 --panels 6 --final-panel 6 --finished-version 1
-```
+Rate teaching quality and finished-art quality separately, each at least 8/10.
+Continuity failures are hard failures even if an overall score would exceed 8.
+A failed iteration stays private under `drafts/{slug}/rejected-progressions/`.
+Repair and re-review the entire sequence; do not approve merely because the most
+recently reported defect was fixed.
 
-Rules:
+After crop and copy integration, fill `visual_review` in the plan with actual
+observations and SHA-256 values for every saved JPG, plus the contract hash from
+`process_review.contract_digest`. Hashes tie approval to the reviewed artifacts:
+a later image, instruction, or plan change invalidates approval and requires review.
+The script verifies evidence completeness and freshness; it does NOT see or certify
+the truth of the visual observations. Never auto-fill positive review findings.
 
-- Panels are read left-to-right, top-to-bottom.
-- `--final-panel` is the 1-based panel number that becomes the finished image.
-- Every other exported panel becomes a numbered step image in reading order.
-- The default output size is `1254x1254`, matching the current square asset
-  convention.
-- The default `--trim 8` removes the faint gutters between generated panels.
-  Lower it if the drawing sits close to the panel edge.
-- The script refuses to overwrite existing assets unless `--overwrite` is
-  passed intentionally.
+## Crop, integrate, and verify
 
-For a seven- or eight-panel process, use a matching grid, for example:
+Use `scripts/crop-contact-sheet.py` after visual approval. Check crop boundaries
+and aspect ratio; use square padded cells when needed, never geometric distortion.
+Keep the raw approved sheet in the lesson's private draft folder.
 
-```sh
-python3 scripts/crop-contact-sheet.py drafts/{slug}/{slug}-contact-sheet.png {slug} \
-  --cols 4 --rows 2 --panels 8 --final-panel 8 --finished-version 1
-```
+Update the lesson plan and `scripts/build-tutorials.mjs` together. The written
+instructions must match the saved crops. Build the pages, mark the ledger
+`published`, and record the review only after the images and copy are stable.
 
-## Master Contact Sheet Prompt Template
-
-```text
-Use case: scientific-educational
-Asset type: Sketcha.day tutorial process contact sheet
-Primary request: Create a {panel_count}-panel contact sheet showing how to draw
-{subject_phrase} from construction to finished sketch.
-
-Subject: one consistent {specific_subject_description}. Include these final
-elements: {final_elements}.
-
-Style/medium: clean pencil or ink sketchbook tutorial art on warm off-white
-paper; handmade lines; light blue or pale graphite construction lines in early
-panels; clear dark drawing lines in later panels; restrained color only if
-listed in the subject.
-
-Composition/framing: a neat {grid_layout} grid of equal panels, each panel
-showing the same subject centered at the same scale, crop, and angle. No
-captions and no embedded text. Subtle panel spacing only, no decorative border.
-
-Stage logic:
-Panel 1: {construction_stage}
-Panel 2: {rough_silhouette_stage}
-Panel 3: {refined_contour_stage}
-Panel 4: {main_features_stage}
-Panel 5: {secondary_details_stage}
-Panel 6: {final_stage}
-{optional_extra_panels}
-
-Occlusion and line-economy contract: {name each final element that covers part
-of another form; state the footprint that must be reserved before drawing the
-surrounding structure; list the hidden detail that must never be rendered; and
-require every dark pre-final line to remain visible in the finished panel unless
-it is explicitly a pale erasable construction guide}.
-
-Constraints: every panel must be a plausible next human drawing step;
-construction lines must support the final drawing; each step must add visible
-information; the final panel must clearly result from prior panels; the subject
-must not change type, pose, scale, viewpoint, or major proportions. Any panel
-that darkens, inks, colors, fills, shades, cleans, or clarifies an element must
-only work on elements that appeared in an earlier panel; do not introduce a new
-major contour and finish it in the same late-stage panel.
-
-Avoid: photorealism, glossy illustration style, generic decorative art,
-watercolor wash unless specifically requested, fake UI, labels, arrows,
-numbers, signatures, watermarks, decorative borders, extra props, changing
-viewpoint, changing silhouette, and any new major final detail not established
-in an earlier panel.
-```
-
-## Single-Panel Repair Prompt Template
-
-Use this when one stage fails but the contact sheet is otherwise usable.
-
-```text
-Use case: scientific-educational
-Asset type: replacement panel for a Sketcha.day tutorial process sheet
-Primary request: Regenerate only panel {panel_number} for the {subject_phrase}
-process sequence.
-
-Input images:
-- Good previous panel: use as the exact pose, crop, scale, and construction
-  state to continue from.
-- Good next/final panel: use only for destination proportions and elements.
-
-Panel job: {panel_number} should show {visible_change}. It must be a plausible
-next step between the previous panel and the next panel.
-
-Keep unchanged: subject type, pose, angle, crop, scale, proportions, paper
-color, line style, and all already-established construction marks.
-
-Change only: add {specific_new_lines_or_details}. Do not clean up, shade, color,
-or introduce elements scheduled for later panels.
-
-Avoid: labels, arrows, numbers, text, watermark, decorative border, new props,
-changed perspective, changed anatomy/object design, and final-level rendering.
-```
-
-If the tool cannot use reference images, paste a short visual description of the
-previous and next panels and explicitly state the locked pose, scale, and
-elements.
-
-## QA Checklist
-
-A generated process set passes only when all of these are true:
-
-- The same subject is recognizable in every panel.
-- The subject does not change species, object type, pose, viewpoint, scale, or
-  key proportions.
-- The construction marks logically support the final drawing.
-- Each adjacent panel adds information that is visible at thumbnail size.
-- No panel redraws a different image of the same subject.
-- The final panel could plausibly result from the prior panels.
-- Every major final element appears before the final panel.
-- The final panel adds only cleanup, line confidence, texture, restrained
-  shading, or small finishing marks.
-- No late-stage outline, fill, color, shading, cleanup, or clarification panel
-  is the first appearance of the feature it modifies.
-- No panel spends finished linework on detail that a later element permanently
-  covers. Covering shapes have their footprints reserved early, and only the
-  surrounding structure that survives in the finish is rendered.
-- The sequence is usable without explanatory captions.
-- No embedded text, labels, arrows, fake UI, signatures, or watermarks appear.
-- The style matches Sketcha.day: warm paper, handmade sketch lines, clear
-  readable subject, not photorealistic or glossy.
-
-## Fallback Strategy
-
-Use the least invasive fallback that fixes the failure:
-
-1. Tighten the contact-sheet prompt.
-   - Add a locked pose sentence.
-   - Add a final-elements list.
-   - State which panel first introduces each major element.
-   - Remove optional color or background details until the process is stable.
-
-2. Regenerate or edit failed panels.
-   - Use the previous good panel plus the final panel as references where the
-     image tool supports reference conditioning or image-to-image editing.
-   - Keep the repair prompt narrow: one visible job, no final rendering.
-
-3. Generate final art first, then build process overlays.
-   - Use generated or human-made final raster art as the master.
-   - Create earlier frames by tracing construction, silhouette, contour, and
-     detail passes from that same master.
-   - Export those derived frames as textured raster images.
-
-4. Use a hybrid manual method for hard subjects.
-   - Keep the generated final only if it scores at least 8/10.
-   - Manually or programmatically create construction overlays from the same
-     final drawing.
-   - Do not publish clean vector-looking frames unless the lesson intentionally
-     uses a diagram style.
-
-5. Stop when the saved asset cannot be reviewed.
-   - Do not substitute a nicer unsaved preview for the repository file.
-   - Do not recreate generated art with SVG, canvas, or PIL just to finish a
-     daily run.
-
-## Test Results
-
-Test sheets were generated with the contact-sheet workflow on 2026-06-19 and
-saved under `workflow-tests/process-image-contact-sheets/`.
-
-| Subject | Category | Result | Notes |
-| --- | --- | --- | --- |
-| Teapot | simple object | Pass for workflow test | Strong construction-to-finish logic. Viewpoint, body, spout, handle, lid, and base stay consistent. Useful candidate for crop-and-repair publishing. |
-| Red fox | animal | Conditional pass | The pose stays consistent and the fox remains recognizable, but panels 3-5 jump quickly into polished anatomy and fur. For publication, split facial features, paws, tail, markings, and fur texture into more explicit stages. |
-| Hand saw | tool | Pass for workflow test | Geometric object holds consistency well. The tooth row appears early and stays coherent. Final changes are mostly shading and cleanup. |
-| Lighthouse | building/place | Conditional pass | Tower and rocks stay consistent, but the sequence jumps from construction to detailed lantern room and then to finished windows/door. For publication, use 7-8 panels and introduce windows, door, rocks, railing, and waves earlier. |
-| Sunflower | organic object/plant | Conditional pass | Overall subject, stem, leaves, and flower head are consistent, but the petal count and disk texture become highly detailed late. For publication, add an intermediate petal-overlap stage and a separate seed-texture stage. |
-
-### Recommended Refinements From Tests
-
-- Use the contact-sheet method as the first pass for approval, especially for
-  geometric subjects.
-- For animals and plants, prefer seven or eight panels so anatomy, markings,
-  petals, and texture do not appear as a late jump.
-- For places and scenes, list each final element in the prompt and assign it to
-  a panel before generation.
-- Keep color out of early tests unless color is part of subject recognition.
-- Do not rely on a passing contact sheet alone for daily publishing. Crop,
-  inspect, repair, and run the existing lesson-plan gates before a lesson ships.
-
-## Saved Test Sheets
-
-- `workflow-tests/process-image-contact-sheets/teapot-contact-sheet.png`
-- `workflow-tests/process-image-contact-sheets/red-fox-contact-sheet.png`
-- `workflow-tests/process-image-contact-sheets/hand-saw-contact-sheet.png`
-- `workflow-tests/process-image-contact-sheets/lighthouse-contact-sheet.png`
-- `workflow-tests/process-image-contact-sheets/sunflower-contact-sheet.png`
+Run process-plan validation, step-delta checks, and tutorial readiness. Pixel
+differences are a duplicate-image heuristic: removed lines and shifted drawings
+also change pixels, so a passing result is never semantic approval.
+Run desktop/mobile rendered QA of homepage, library, and tutorial, including
+lazy images and overflow. Commit only intended changes, push using 1Password SSH,
+and verify deployment, live pages, and image hashes. Update HUMANS.md and release
+the lock. The current-only daily cadence remains unchanged.

@@ -1,5 +1,18 @@
 # Human Notes
 
+## 2026-09-05 — Shared teaching workflow improvements (Codex)
+
+- Mirrored schema-v5 saved-image review, explicit temporary-guide lifecycles,
+  simpler process guidance, new template, frozen legacy allowance, and
+  aspect-preserving crops from Doodlea. Added review-freshness and crop tests.
+- Sketcha retains pencil construction when useful; every guide must have a
+  destination and explicit removal instruction. New and corrected plans use
+  schema v5. Existing lesson art was not regenerated.
+- Main work: PROCESS-IMAGE-WORKFLOW.md and scripts/process_review.py.
+  Related repair is the six-step capybara in sibling doodlea.day.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+  Harness: Codex; task: September 5 owner-directed teaching repair.
+
 ## 2026-09-05 — Daily tutorial (Codex)
 
 - Added one current lesson only: `seahorse-curled-around-eelgrass` (September 5 /
