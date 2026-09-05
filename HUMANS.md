@@ -1,5 +1,17 @@
 # Human Notes
 
+## 2026-09-05 — Daily tutorial (Codex)
+
+- Added one current lesson only: `seahorse-curled-around-eelgrass` (September 5 /
+  Day 126). The approved eight-panel v2 handmade raster process moves from a
+  sparse S-curve and fixed tail-stem crossing to one left-facing seahorse with
+  one crown ridge, one dorsal fin, two side fins, seven torso plates, five
+  eelgrass leaves, two bubbles, restrained ochre/teal color, and a finishing-
+  only pass. The first over-complete, anchor-drifting sheet remains private
+  under `rejected-progressions/`; the saved finish rated 9.3/10. Readiness plus
+  desktop/mobile localhost QA passed. The one-current-lesson-per-site cadence
+  remains active; routine backfills remain off.
+
 ## 2026-09-04 — Daily tutorial (Codex)
 
 - Added one current lesson only: `rolling-pin-with-pastry-dough` (September 4 /
