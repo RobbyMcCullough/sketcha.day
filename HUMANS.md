@@ -1,5 +1,17 @@
 # Human Notes
 
+## 2026-09-06 — Daily tutorial (Codex)
+
+- Added one current lesson only: `teddy-bear-with-stitched-patch` (September 6 /
+  Day 127). The approved fifth six-panel schema-v5 raster progression moves
+  from a direct head-and-ear contour through the seated body and paw pads,
+  arms and face, one seven-stitch belly patch, five fur-tick groups, and one
+  restrained color pass. Four earlier contract-mismatched sheets remain private
+  under `rejected-progressions/`. Saved-image review rated teaching 9.1/10 and
+  the finish 9.0/10; readiness and desktop/mobile Cove QA passed. The
+  one-current-lesson-per-site cadence remains active; routine backfills remain
+  off.
+
 ## 2026-09-05 — Shared teaching workflow improvements (Codex)
 
 - Mirrored schema-v5 saved-image review, explicit temporary-guide lifecycles,

@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a teddy bear</title>
+      <link>https://sketcha.day/tutorials/teddy-bear-with-stitched-patch.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/teddy-bear-with-stitched-patch.html</guid>
+      <pubDate>Sun, 06 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a teddy bear with a seated plush shape, stitched belly patch, paw pads, graphite texture, and restrained colored pencil.</description>
+      <media:content url="https://sketcha.day/assets/teddy-bear-with-stitched-patch-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a seahorse</title>
       <link>https://sketcha.day/tutorials/seahorse-curled-around-eelgrass.html</link>

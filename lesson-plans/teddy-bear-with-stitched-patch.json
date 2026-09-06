@@ -1,0 +1,164 @@
+{
+  "schema_version": 5,
+  "slug": "teddy-bear-with-stitched-patch",
+  "finished": "assets/teddy-bear-with-stitched-patch-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One broad head contour and two attached ear circles form a useful, recognizable teddy-bear start in their final positions without detached facial marks.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Planned six-panel handmade graphite and restrained colored-pencil contact sheet; rejected iterations remain private under drafts/teddy-bear-with-stitched-patch/rejected-progressions/."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {"name":"head contour","description":"One broad rounded teddy-bear head in its final centered position.","introduced_by_step":1},
+    {"name":"left ear","description":"One round left ear attached to the upper-left head edge.","introduced_by_step":1},
+    {"name":"right ear","description":"One round right ear attached to the upper-right head edge.","introduced_by_step":1},
+    {"name":"body contour","description":"One seated pear-shaped body attached below the head.","introduced_by_step":2},
+    {"name":"left leg and paw","description":"One short bent left leg ending in an oval paw pad.","introduced_by_step":2},
+    {"name":"right leg and paw","description":"One short bent right leg ending in an oval paw pad.","introduced_by_step":2},
+    {"name":"left paw-pad oval","description":"One large inner oval establishes the left paw pad with the paw outline.","introduced_by_step":2},
+    {"name":"right paw-pad oval","description":"One large inner oval establishes the right paw pad with the paw outline.","introduced_by_step":2},
+    {"name":"left arm","description":"One curved left arm attached at the shoulder and resting against the belly.","introduced_by_step":3},
+    {"name":"right arm","description":"One curved right arm attached at the shoulder and resting against the belly.","introduced_by_step":3},
+    {"name":"muzzle","description":"One horizontal oval muzzle centered low on the head.","introduced_by_step":3},
+    {"name":"left eye","description":"One small dark left eye above the muzzle.","introduced_by_step":3},
+    {"name":"right eye","description":"One small dark right eye above the muzzle.","introduced_by_step":3},
+    {"name":"nose and mouth","description":"One dark triangular nose with a short center line and two shallow mouth curves.","introduced_by_step":3},
+    {"name":"left inner ear","description":"One small inner-ear crescent inside the left ear.","introduced_by_step":4},
+    {"name":"right inner ear","description":"One small inner-ear crescent inside the right ear.","introduced_by_step":4},
+    {"name":"belly patch","description":"One rounded rectangular fabric patch on the lower-right belly.","introduced_by_step":4},
+    {"name":"patch stitches","description":"Exactly seven short stitches cross the patch edge: two at the top, three at the left, and two at the bottom.","introduced_by_step":4},
+    {"name":"center seam","description":"One short vertical seam from the lower muzzle toward the belly.","introduced_by_step":4},
+    {"name":"fur tufts","description":"Exactly five small paired fur ticks around the head and body silhouette.","introduced_by_step":5},
+    {"name":"paw toe marks","description":"Exactly three short toe marks sit above the established oval pad on each visible paw.","introduced_by_step":4},
+    {"name":"ground shadow","description":"One broken cool-gray oval shadow beneath the seated bear.","introduced_by_step":5}
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "step_name": "Draw the head and ears",
+      "instruction": "Near the upper half of the page, draw one broad rounded head. Attach one round ear to each upper corner, keeping the two ear circles similar in size and leaving open paper below for the body.",
+      "asset": "assets/teddy-bear-with-stitched-patch-step-1.jpg",
+      "visible_job": "Establish the final head silhouette and two attached ears.",
+      "adds": ["head contour","left ear","right ear"],
+      "introduces": ["head contour","left ear","right ear"]
+    },
+    {
+      "step": 2,
+      "step_name": "Add the seated body and paws",
+      "instruction": "From beneath the head, sweep two curves outward into a pear-shaped seated body. At the bottom, add one bent leg and oval paw on each side, draw one large inner pad oval inside each paw, then join the paws with a short belly curve.",
+      "asset": "assets/teddy-bear-with-stitched-patch-step-2.jpg",
+      "visible_job": "Attach the seated body and two planted paws to the established head.",
+      "adds": ["body contour","left leg and paw","right leg and paw","left paw-pad oval","right paw-pad oval"],
+      "introduces": ["body contour","left leg and paw","right leg and paw","left paw-pad oval","right paw-pad oval"]
+    },
+    {
+      "step": 3,
+      "step_name": "Place the arms and face",
+      "instruction": "Curve one arm from each shoulder toward the belly. Center a low oval muzzle between two small eyes, then add a triangular nose, one short center line, and two shallow mouth curves.",
+      "asset": "assets/teddy-bear-with-stitched-patch-step-3.jpg",
+      "visible_job": "Add two attached arms and the complete simple teddy-bear face.",
+      "adds": ["left arm","right arm","muzzle","left eye","right eye","nose and mouth"],
+      "introduces": ["left arm","right arm","muzzle","left eye","right eye","nose and mouth"]
+    },
+    {
+      "step": 4,
+      "step_name": "Sew on the patch and seams",
+      "instruction": "Add a small crescent inside each ear. Draw a rounded rectangular patch on the lower-right belly, then cross its edge with exactly seven short stitches: two at the top, three at the left, and two at the bottom. Place one short center seam below the muzzle, then add exactly three short toe marks above each established paw-pad oval.",
+      "asset": "assets/teddy-bear-with-stitched-patch-step-4.jpg",
+      "visible_job": "Add both inner ears, one belly patch, seven stitches, the center seam, and three toe marks on each paw.",
+      "adds": ["left inner ear","right inner ear","belly patch","patch stitches","center seam","paw toe marks"],
+      "introduces": ["left inner ear","right inner ear","belly patch","patch stitches","center seam","paw toe marks"]
+    },
+    {
+      "step": 5,
+      "step_name": "Add fur and the shadow",
+      "instruction": "Break the silhouette with exactly five small fur-tick groups: one on top of the head, one at each cheek, and one at each outer body side. Then draw one broken oval shadow beneath the bear.",
+      "asset": "assets/teddy-bear-with-stitched-patch-step-5.jpg",
+      "visible_job": "Complete the five fur-tick groups and ground shadow before color and shading.",
+      "adds": ["fur tufts","ground shadow"],
+      "introduces": ["fur tufts","ground shadow"]
+    }
+  ],
+  "final_step": {
+    "step_name": "Shade your teddy bear",
+    "instruction": "Layer warm brown colored pencil over the established bear, dusty rose inside the ears and paw pads, muted teal on the patch, and cool gray in the shadow. Deepen the graphite around the muzzle, seams, stitches, and fur ticks while leaving small paper highlights.",
+    "visible_job": "Color and shade only the established contours, seams, patch, paws, fur ticks, face, and shadow.",
+    "asset": "assets/teddy-bear-with-stitched-patch-finished-v1.jpg",
+    "adds": ["warm-brown, dusty-rose, muted-teal, and cool-gray color on established regions"],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 9.1,
+    "finished_art_score": 9.0,
+    "first_step_observation": "The saved first crop contains one broad open-bottom head contour and two attached outer ears in their final positions. The marks are large, connected, and copyable without relying on future facial or body details.",
+    "draw_through_observation": "Reviewed the six saved square crops individually and all five adjacent pairs at readable size. The sequence progresses from head, to seated body and pad ovals, to arms and face, to sewn details, to fur and shadow, then one restrained color pass. Every named landmark remains at the same anchor after introduction; no keeper line disappears or moves.",
+    "contract_sha256": "d923e316f86210e66c373af6e2062c53d5bef1bc4187f9e860e8c7812f3617dd",
+    "asset_sha256": {
+      "assets/teddy-bear-with-stitched-patch-step-1.jpg": "978598bd6b2770a5869c46e875dbd3034715d3891637aac6a09c84666c3fb8c1",
+      "assets/teddy-bear-with-stitched-patch-step-2.jpg": "3f4a9599827ef2634c4cce22c4ae71e77ea6bf9b2fdc70a9543a2936d418b202",
+      "assets/teddy-bear-with-stitched-patch-step-3.jpg": "770bd9ed46764d935a85f7d474737b12d3fa60a4ddc90151438b14d152f37a3d",
+      "assets/teddy-bear-with-stitched-patch-step-4.jpg": "dffd26a759efbbed0436cd7d59166ef3885d35d7cc80d60f22c2debec216c627",
+      "assets/teddy-bear-with-stitched-patch-step-5.jpg": "9ea07c1e8f1fe69fbb7145a413cbb5968285020197f819b84281eb8ab0a9e759",
+      "assets/teddy-bear-with-stitched-patch-finished-v1.jpg": "20f06ff2658d7230fe59300218814207f18b207b49eca28203215c3047a661f9"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_addition": "The seated pear-shaped body connects into the two open head ends; two oval paws, their inner pad ovals, and the short belly curve appear on one baseline.",
+        "instruction_match": "The saved second crop follows the instruction from the open head edges into the body and establishes both paws and pad ovals before any face or arms.",
+        "observed_present": ["head contour","left ear","right ear","body contour","left leg and paw","right leg and paw","left paw-pad oval","right paw-pad oval"],
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_addition": "Two curved arms attach at the shoulders and end against the belly; the oval muzzle, two eyes, triangular nose, center line, and paired mouth curves complete the face.",
+        "instruction_match": "The image adds exactly the arms and facial strokes named by the instruction while retaining the head, ears, body, legs, paws, and pad ovals unchanged.",
+        "observed_present": ["head contour","left ear","right ear","body contour","left leg and paw","right leg and paw","left paw-pad oval","right paw-pad oval","left arm","right arm","muzzle","left eye","right eye","nose and mouth"],
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_addition": "Both inner-ear crescents, the vertical center seam, lower-right rectangular patch, seven edge stitches, and three toe marks above each existing pad oval appear together.",
+        "instruction_match": "The crop shows the requested sewn-detail pass: two top, three left, and two bottom patch stitches, plus six toe marks and no premature fur or shadow.",
+        "observed_present": ["head contour","left ear","right ear","body contour","left leg and paw","right leg and paw","left paw-pad oval","right paw-pad oval","left arm","right arm","muzzle","left eye","right eye","nose and mouth","left inner ear","right inner ear","belly patch","patch stitches","center seam","paw toe marks"],
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_addition": "Five distinct fur-tick groups appear at the top, both cheeks, and both body sides, and one broken graphite shadow appears beneath the paws.",
+        "instruction_match": "The fifth crop adds only the five named fur locations and ground shadow; the face, limbs, pad ovals, toe marks, patch, seam, and seven stitches all remain fixed.",
+        "observed_present": ["head contour","left ear","right ear","body contour","left leg and paw","right leg and paw","left paw-pad oval","right paw-pad oval","left arm","right arm","muzzle","left eye","right eye","nose and mouth","left inner ear","right inner ear","belly patch","patch stitches","center seam","fur tufts","paw toe marks","ground shadow"],
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_addition": "Warm-brown pencil fills the established bear, dusty rose fills the ear and paw-pad regions, muted teal fills the patch, and cool gray deepens the same shadow.",
+        "instruction_match": "The final crop performs the written coloring and value pass only; every contour, seven stitch positions, six toe marks, five fur groups, facial landmark, and limb stays in place.",
+        "observed_present": ["head contour","left ear","right ear","body contour","left leg and paw","right leg and paw","left paw-pad oval","right paw-pad oval","left arm","right arm","muzzle","left eye","right eye","nose and mouth","left inner ear","right inner ear","belly patch","patch stitches","center seam","fur tufts","paw toe marks","ground shadow"],
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
