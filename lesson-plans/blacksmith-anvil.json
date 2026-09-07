@@ -1,0 +1,283 @@
+{
+  "schema_version": 5,
+  "slug": "blacksmith-anvil",
+  "finished": "assets/blacksmith-anvil-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One shallow parallelogram establishes the flat striking face; its four connected edges give every later part a fixed attachment.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel graphite contact sheet, direct additive construction, no temporary guides. Labor Day research: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/ . Archive checked: unlike rolling pin cylinder and wooden hand plane, this teaches a tapered horn and concave iron waist. First sheet rejected: tall proportions, incomplete horn at step 2, changed base outline at step 4. Next attempt uses a squat body and continuous flat base. Approved second sheet with five selected teaching stages (source panels 1,2,4,5,6); omitted redundant body intermediate. Square 402-pixel crop boxes remove blank paper without stretching. Grounding pencil strokes first appear with the base."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "striking face",
+      "introduced_by_step": 1,
+      "description": "One shallow four-sided top plane, fixed above the middle of the page."
+    },
+    {
+      "name": "horn upper curve",
+      "introduced_by_step": 2,
+      "description": "One long upper arc runs from the back left face corner to the left tip."
+    },
+    {
+      "name": "horn lower curve",
+      "introduced_by_step": 2,
+      "description": "One lower horn arc rises from the left tip toward the body and stops at the fixed waist attachment."
+    },
+    {
+      "name": "left waist",
+      "introduced_by_step": 3,
+      "description": "One concave left shoulder bends inward then flares to the left base corner."
+    },
+    {
+      "name": "right waist",
+      "introduced_by_step": 3,
+      "description": "One short heel drop and concave right side flare to the right base corner."
+    },
+    {
+      "name": "base top",
+      "introduced_by_step": 3,
+      "description": "One broad lower line connects the flared waist ends."
+    },
+    {
+      "name": "base front",
+      "introduced_by_step": 3,
+      "description": "One shallow front slab lies directly below the base top."
+    },
+    {
+      "name": "base right return",
+      "introduced_by_step": 3,
+      "description": "One small right return plane connects the slab to the waist."
+    },
+    {
+      "name": "square hole",
+      "introduced_by_step": 4,
+      "description": "One diamond-shaped square hole sits near the rear right of the top."
+    },
+    {
+      "name": "round hole",
+      "introduced_by_step": 4,
+      "description": "One small oval hole sits beside the square hole on the top."
+    },
+    {
+      "name": "upper scratch",
+      "introduced_by_step": 4,
+      "description": "One short diagonal wear scratch on the upper front body."
+    },
+    {
+      "name": "middle scratch",
+      "introduced_by_step": 4,
+      "description": "One short diagonal wear scratch below the upper scratch."
+    },
+    {
+      "name": "lower scratch",
+      "introduced_by_step": 4,
+      "description": "One short diagonal wear scratch below the middle scratch."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 3,
+      "description": "A few loose grounding pencil strokes start below the right base and spread beneath it in the detail step."
+    },
+    {
+      "name": "right body plane",
+      "introduced_by_step": 3,
+      "description": "One inner concave edge joins the right heel underside to the front right base corner."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/blacksmith-anvil-step-1.jpg",
+      "step_name": "Draw the flat striking face",
+      "visible_job": "Draw a wide, shallow parallelogram slightly above the middle of the page. Let its short ends slope up to the right. Keep the front and back long edges nearly parallel; this is the top of the anvil.",
+      "instruction": "Draw a wide, shallow parallelogram slightly above the middle of the page. Let its short ends slope up to the right. Keep the front and back long edges nearly parallel; this is the top of the anvil.",
+      "adds": [
+        "striking face"
+      ],
+      "introduces": [
+        "striking face"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/blacksmith-anvil-step-2.jpg",
+      "step_name": "Attach the pointed horn",
+      "visible_job": "From the back-left corner of the striking face, draw a long shallow curve to a point on the left. Curve back from this point toward the body, stopping below the front-left corner to leave an open connection for the waist. Keep the short left edge of the top as a visible join.",
+      "instruction": "From the back-left corner of the striking face, draw a long shallow curve to a point on the left. Curve back from this point toward the body, stopping below the front-left corner to leave an open connection for the waist. Keep the short left edge of the top as a visible join.",
+      "adds": [
+        "horn upper curve",
+        "horn lower curve"
+      ],
+      "introduces": [
+        "horn upper curve",
+        "horn lower curve"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/blacksmith-anvil-step-3.jpg",
+      "step_name": "Build the waist and heavy base",
+      "visible_job": "Continue the open horn curve down into a short concave left waist, then flare it toward the left foot. From the right top corner, draw a short heel drop, a concave right waist, and a flared right foot. Join the feet with a long line, then add a shallow slab underneath with two short downstrokes and a parallel bottom edge. Add the right return edges from heel to foot and across the base, plus a few light grounding strokes beneath the right foot.",
+      "instruction": "Continue the open horn curve down into a short concave left waist, then flare it toward the left foot. From the right top corner, draw a short heel drop, a concave right waist, and a flared right foot. Join the feet with a long line, then add a shallow slab underneath with two short downstrokes and a parallel bottom edge. Add the right return edges from heel to foot and across the base, plus a few light grounding strokes beneath the right foot.",
+      "adds": [
+        "left waist",
+        "right waist",
+        "base top",
+        "base front",
+        "base right return",
+        "ground shadow",
+        "right body plane"
+      ],
+      "introduces": [
+        "left waist",
+        "right waist",
+        "base top",
+        "base front",
+        "base right return",
+        "ground shadow",
+        "right body plane"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/blacksmith-anvil-step-4.jpg",
+      "step_name": "Add the tool holes and wear",
+      "visible_job": "Near the right end of the top, draw one small diamond-shaped square hole and one small oval hole beside it. Put three diagonal wear scratches on the front body. Lightly hatch the iron and extend the loose ground-shadow strokes beneath the base, keeping the top face pale.",
+      "instruction": "Near the right end of the top, draw one small diamond-shaped square hole and one small oval hole beside it. Put three diagonal wear scratches on the front body. Lightly hatch the iron and extend the loose ground-shadow strokes beneath the base, keeping the top face pale.",
+      "adds": [
+        "square hole",
+        "round hole",
+        "upper scratch",
+        "middle scratch",
+        "lower scratch"
+      ],
+      "introduces": [
+        "square hole",
+        "round hole",
+        "upper scratch",
+        "middle scratch",
+        "lower scratch"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/blacksmith-anvil-finished-v1.jpg",
+    "step_name": "Shade the iron planes",
+    "visible_job": "Shade the established side and base while leaving the top face light.",
+    "instruction": "Use the side of a 2B pencil to deepen the waist and base, following their sloping planes. Darken the two holes and the ground shadow. Leave the striking face light, and glaze a little muted blue-gray over the iron without hiding the graphite grain or the three wear scratches.",
+    "adds": [
+      "graphite value and muted blue-gray on established planes"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.4,
+    "finished_art_score": 8.6,
+    "first_step_observation": "The first crop contains only four connected edges of a shallow top plane; the sloping short sides establish the view without stray guides.",
+    "draw_through_observation": "Five selected stages teach top plane, open horn, connected waist and slab, two holes with three scratches, then value. The body step explicitly includes the right return planes and initial grounding strokes visible in its crop. No erasure is required.",
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "striking face",
+          "horn upper curve",
+          "horn lower curve"
+        ],
+        "observed_addition": "Two horn curves meet at the left point; the lower curve ends open below the original front-left top corner. All four striking-face edges remain visible.",
+        "instruction_match": "The instruction specifies this open lower attachment rather than falsely asking for a closed horn.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "striking face",
+          "horn upper curve",
+          "horn lower curve",
+          "left waist",
+          "right waist",
+          "base top",
+          "base front",
+          "base right return",
+          "ground shadow",
+          "right body plane"
+        ],
+        "observed_addition": "The open horn continues into the left concave waist and flared foot. The right heel has a small end plane, outer waist and inner return edge. A shallow front slab and right return support the body; a few pencil grounding strokes sit under the right foot.",
+        "instruction_match": "The combined instruction names both waist contours, shallow slab, heel-to-foot return and light grounding strokes. The original top and pointed horn remain attached in the same order.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "striking face",
+          "horn upper curve",
+          "horn lower curve",
+          "left waist",
+          "right waist",
+          "base top",
+          "base front",
+          "base right return",
+          "ground shadow",
+          "square hole",
+          "round hole",
+          "upper scratch",
+          "middle scratch",
+          "lower scratch",
+          "right body plane"
+        ],
+        "observed_addition": "A dark diamond hole appears left of a small oval hole on the top right. Three separate ascending diagonal scratches cross the upper front, middle and lower front. Light graphite covers the waist and slab and the grounding strokes extend beneath the full base.",
+        "instruction_match": "The detail instruction includes both holes, three scratches, light initial hatching and extended shadow. Top, horn tip, concave waist edges and slab remain readable.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "striking face",
+          "horn upper curve",
+          "horn lower curve",
+          "left waist",
+          "right waist",
+          "base top",
+          "base front",
+          "base right return",
+          "ground shadow",
+          "square hole",
+          "round hole",
+          "upper scratch",
+          "middle scratch",
+          "lower scratch",
+          "right body plane"
+        ],
+        "observed_addition": "Slate-blue graphite value deepens the broad front and base; the top remains pale. The diamond hole stays left of the oval, all three diagonal scratches remain visible, and both concave returns retain their connections.",
+        "instruction_match": "The last instruction calls only for deepened value and restrained blue-gray on the established iron planes; no new structural contour appears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ],
+    "asset_sha256": {
+      "assets/blacksmith-anvil-step-1.jpg": "8e30244f2710b6b8dd95ea382628983546f053167c114ac9b9b1d0ffd4968a06",
+      "assets/blacksmith-anvil-step-2.jpg": "8019aec744ffaae3628fb7172f51c18ad38cb096aed23d332d9f0fd03455d088",
+      "assets/blacksmith-anvil-step-3.jpg": "9fb4398f020e85b3a099d05bce735989c5820c2998dab7de675985e41c5bead3",
+      "assets/blacksmith-anvil-step-4.jpg": "63f74fee39a1809215da5319f103dcea19f80378da84780bffb1027b129e21ec",
+      "assets/blacksmith-anvil-finished-v1.jpg": "bde6085fc1c39924cc404536f5bd10884f56b1ef05aaf3b1c5724d3ee7fa2271"
+    },
+    "contract_sha256": "e84da65ba551a3d67dc384798350999897879f685ac607f9e64a4675cc88851d"
+  }
+}

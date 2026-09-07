@@ -1,5 +1,13 @@
 # Human Notes
 
+## 2026-09-07 — Daily anvil lesson (Codex)
+
+- Added `blacksmith-anvil`, September 7 / Day 128, five direct graphite steps. Second sheet selected; first failed sheet and unused intermediate remain private. Teaching 8.4/10, finish 8.6/10. Square crops preserve aspect ratio and all landmarks.
+- Readiness passed, including 259 local URLs. Desktop/mobile homepage, library and tutorial QA passed at 1440x1000 and 390x844; layouts rated 8.8/10 desktop and 8.5/10 mobile. Cove certificate expired, so rendered QA used the documented HTTP fallback.
+- One current lesson per site remains active; no routine backfills.
+- Harness: Codex; task: 2026-09-07 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-06 — Daily tutorial (Codex)
 
 - Added one current lesson only: `teddy-bear-with-stitched-patch` (September 6 /
