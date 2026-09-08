@@ -1,0 +1,299 @@
+{
+  "schema_version": 5,
+  "slug": "vintage-light-bulb",
+  "finished": "assets/vintage-light-bulb-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One rounded dome and two tapering sides form an open-bottom glass envelope; the narrow neck gives every later part an obvious attachment.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six cumulative graphite panels; current US past-day Google Trends light-bulb query +200%. Direct keeper contours; no temporary guides. Selected source panels 1,3,4,5,6 as five meaningful steps. Smooth-base intermediate retained privately; the published step draws the threaded base directly."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "glass envelope",
+      "introduced_by_step": 1,
+      "description": "One rounded glass dome narrows into two neck ends at the bottom."
+    },
+    {
+      "name": "base collar",
+      "introduced_by_step": 2,
+      "description": "One shallow closed band connects both neck ends."
+    },
+    {
+      "name": "screw shell",
+      "introduced_by_step": 2,
+      "description": "One short tapered metal base sits directly beneath the collar."
+    },
+    {
+      "name": "contact button",
+      "introduced_by_step": 2,
+      "description": "One small rounded electrical contact closes the bottom of the base."
+    },
+    {
+      "name": "upper thread",
+      "introduced_by_step": 2,
+      "description": "Upper curved diagonal raised band wraps around the metal shell."
+    },
+    {
+      "name": "middle thread",
+      "introduced_by_step": 2,
+      "description": "Middle curved diagonal raised band wraps around the metal shell."
+    },
+    {
+      "name": "lower thread",
+      "introduced_by_step": 2,
+      "description": "Lower curved diagonal raised band wraps around the metal shell."
+    },
+    {
+      "name": "central stem",
+      "introduced_by_step": 3,
+      "description": "One narrow glass stem rises from collar into the lower envelope."
+    },
+    {
+      "name": "left support wire",
+      "introduced_by_step": 3,
+      "description": "One angled wire runs from stem toward the upper left inside the bulb."
+    },
+    {
+      "name": "right support wire",
+      "introduced_by_step": 3,
+      "description": "One angled wire runs from stem toward the upper right inside the bulb."
+    },
+    {
+      "name": "filament",
+      "introduced_by_step": 3,
+      "description": "One small coiled filament joins the two support tips."
+    },
+    {
+      "name": "left reflection",
+      "introduced_by_step": 4,
+      "description": "One long curved reflection follows the upper left glass wall."
+    },
+    {
+      "name": "right reflection",
+      "introduced_by_step": 4,
+      "description": "One shorter curved reflection follows the lower right glass wall."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 4,
+      "description": "One loose horizontal pencil shadow sits beneath the contact button."
+    },
+    {
+      "name": "stem cap",
+      "introduced_by_step": 3,
+      "description": "One small oval cap closes the stem beneath the two support wires."
+    },
+    {
+      "name": "stem center line",
+      "introduced_by_step": 3,
+      "description": "One fine inner line rises through the narrow central glass stem."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/vintage-light-bulb-step-1.jpg",
+      "step_name": "Shape the glass envelope",
+      "visible_job": "Draw a rounded dome above the middle of the page. Bring both sides down and inward into a narrow neck, leaving the bottom open. Keep the widest part above the neck and use two smooth shoulder curves.",
+      "instruction": "Draw a rounded dome above the middle of the page. Bring both sides down and inward into a narrow neck, leaving the bottom open. Keep the widest part above the neck and use two smooth shoulder curves.",
+      "adds": [
+        "glass envelope"
+      ],
+      "introduces": [
+        "glass envelope"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/vintage-light-bulb-step-2.jpg",
+      "step_name": "Draw the threaded metal base",
+      "visible_job": "Join the two open neck ends with a shallow curved collar band. Beneath it, draw a short tapered screw base with three raised diagonal bands, then add one small rounded contact button at the bottom. Let the bands form the side edges of the shell and shade their lower edges lightly.",
+      "instruction": "Join the two open neck ends with a shallow curved collar band. Beneath it, draw a short tapered screw base with three raised diagonal bands, then add one small rounded contact button at the bottom. Let the bands form the side edges of the shell and shade their lower edges lightly.",
+      "adds": [
+        "base collar",
+        "screw shell",
+        "contact button",
+        "upper thread",
+        "middle thread",
+        "lower thread"
+      ],
+      "introduces": [
+        "base collar",
+        "screw shell",
+        "contact button",
+        "upper thread",
+        "middle thread",
+        "lower thread"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/vintage-light-bulb-step-3.jpg",
+      "step_name": "Build the filament inside",
+      "visible_job": "From the center of the collar, raise a narrow glass stem with two sides and a fine center line. Close its top with a small oval cap. Add two support wires angling up and apart from the cap, then join their tips with a short coiled filament. Keep the wires inside the glass outline.",
+      "instruction": "From the center of the collar, raise a narrow glass stem with two sides and a fine center line. Close its top with a small oval cap. Add two support wires angling up and apart from the cap, then join their tips with a short coiled filament. Keep the wires inside the glass outline.",
+      "adds": [
+        "central stem",
+        "left support wire",
+        "right support wire",
+        "filament",
+        "stem cap",
+        "stem center line"
+      ],
+      "introduces": [
+        "central stem",
+        "left support wire",
+        "right support wire",
+        "filament",
+        "stem cap",
+        "stem center line"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/vintage-light-bulb-step-4.jpg",
+      "step_name": "Reserve the glass reflections",
+      "visible_job": "Inside the upper-left glass wall, add one long narrow curved reflection shape. Add a shorter curved reflection on the lower right. Sketch a loose horizontal ground shadow under the contact button.",
+      "instruction": "Inside the upper-left glass wall, add one long narrow curved reflection shape. Add a shorter curved reflection on the lower right. Sketch a loose horizontal ground shadow under the contact button.",
+      "adds": [
+        "left reflection",
+        "right reflection",
+        "ground shadow"
+      ],
+      "introduces": [
+        "left reflection",
+        "right reflection",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/vintage-light-bulb-finished-v1.jpg",
+    "step_name": "Shade glass and warm metal",
+    "visible_job": "Shade the established glass envelope and threaded metal base.",
+    "instruction": "Glaze pale blue-gray along the established glass edges, leaving the middle and both reflections nearly white. Shade the metal shell with ochre pencil, deepen the three threads and contact with graphite, and soften the existing ground shadow.",
+    "adds": [
+      "pale blue-gray glass edge shading and ochre metal"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.6,
+    "finished_art_score": 8.7,
+    "first_step_observation": "The first saved crop contains only an open-bottom bulb contour: rounded crown, left shoulder, right shoulder and two narrow neck ends. It has no detached guides or premature filament.",
+    "draw_through_observation": "Five saved stages teach the empty envelope, complete ribbed base, internal filament assembly, two reflection shapes with grounding, then edge value. Selecting out the smooth-base intermediate removes the need to erase the shell sides. Direct keeper lines persist; no guide removal is needed.",
+    "contract_sha256": "2d7a3311efc4115d978ee36c14ba586afd2c6fa6ca5a9a026d1a74cef3ef6bcf",
+    "asset_sha256": {
+      "assets/vintage-light-bulb-step-1.jpg": "7b0be76bdb5200433df580e1ec77a8f3a8a2df9b06fbd7cee48519c5160c3edd",
+      "assets/vintage-light-bulb-step-2.jpg": "357a4a13800ab693f1288eb4eca9081efa058456ad8f480e04c2c44f61cae410",
+      "assets/vintage-light-bulb-step-3.jpg": "4c1d03c083cb426407a2d92e513eac4076010197e110447711bfeff7842980a7",
+      "assets/vintage-light-bulb-step-4.jpg": "9031985482ffc8c3fd801b2183d508f9d606e51506b075665a351cf07342c6e3",
+      "assets/vintage-light-bulb-finished-v1.jpg": "a4c765033c06cdae3f9be4e9ab82866f45668c41fe37efeb20898ef61f5c2c3d"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "glass envelope",
+          "base collar",
+          "screw shell",
+          "contact button",
+          "upper thread",
+          "middle thread",
+          "lower thread"
+        ],
+        "observed_addition": "A shallow collar connects both neck ends. Three distinct raised diagonal bands form the tapered screw shell and its scalloped side edges; the rounded dark contact sits centered below. The original crown and both shoulder curves persist.",
+        "instruction_match": "The base instruction now draws all three raised bands directly and includes light shading; it does not teach a smooth shell that must later disappear.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "glass envelope",
+          "base collar",
+          "screw shell",
+          "contact button",
+          "upper thread",
+          "middle thread",
+          "lower thread",
+          "central stem",
+          "left support wire",
+          "right support wire",
+          "filament",
+          "stem cap",
+          "stem center line"
+        ],
+        "observed_addition": "A narrow stem rises from the middle of the collar with a fine inner line and oval cap. Left and right support wires rise from that cap to the ends of a compact horizontal coil. Upper, middle and lower screw bands remain separately visible, and the contact retains its small white glint.",
+        "instruction_match": "The copy explicitly names stem sides, center line, oval cap, both sloping wires and the connecting coil. The collar and glass envelope provide fixed attachment references.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "glass envelope",
+          "base collar",
+          "screw shell",
+          "contact button",
+          "upper thread",
+          "middle thread",
+          "lower thread",
+          "central stem",
+          "left support wire",
+          "right support wire",
+          "filament",
+          "stem cap",
+          "stem center line",
+          "left reflection",
+          "right reflection",
+          "ground shadow"
+        ],
+        "observed_addition": "A long enclosed reflection appears along the upper-left glass wall, and a shorter enclosed reflection appears lower right. A loose graphite shadow spreads below the contact. The stem cap, center line, both wires and filament remain intact; all three base bands and the collar keep their outlines.",
+        "instruction_match": "The reflection instruction matches the two newly enclosed white shapes and the grounding strokes, with no new wiring or changes to the base.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "glass envelope",
+          "base collar",
+          "screw shell",
+          "contact button",
+          "upper thread",
+          "middle thread",
+          "lower thread",
+          "central stem",
+          "left support wire",
+          "right support wire",
+          "filament",
+          "stem cap",
+          "stem center line",
+          "left reflection",
+          "right reflection",
+          "ground shadow"
+        ],
+        "observed_addition": "Pale blue-gray pencil follows the crown and both glass sides; the long left and short right reflections remain white at their original walls. Ochre covers the existing collar and three raised base bands. The stem, its cap and center line, left/right wires and complete coil remain dark and connected, and the contact and shadow deepen.",
+        "instruction_match": "The final copy adds only blue-gray glass edge shading, ochre metal, darker threads/contact and a softer existing ground shadow. It preserves the transparent paper center and both reflection shapes.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

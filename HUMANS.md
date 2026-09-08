@@ -1,5 +1,14 @@
 # Human Notes
 
+## 2026-09-08 — Daily light-bulb lesson (Codex)
+
+- Added `vintage-light-bulb`, September 8 / Day 129, five direct graphite steps selected from source panels 1,3,4,5,6. Smooth-base intermediate stays private; teaching the ribbed base directly avoids erasing its sides. Teaching 8.6/10, finish 8.7/10.
+- Readiness passed with 261 local URLs and zero failures. Saved crops reviewed in all four adjacent pairs; schema v5 review carries image/contract hashes. Cove desktop 1440x1000 and mobile 390x844 homepage, library and tutorial QA passed; layouts 8.8/10 desktop and 8.6/10 mobile.
+- Reading-glasses candidate rejected before art because it repeated the archived sunglasses drawing problem. Google Trends US/past-day rising query `how to draw a light bulb` showed +200%; research evidence is in this run's automation folder.
+- One current lesson per site remains active; no routine backfills. Generator changes across older tutorials update the latest-lesson cards only.
+- Harness: Codex; task: 2026-09-08 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-07 — Daily anvil lesson (Codex)
 
 - Added `blacksmith-anvil`, September 7 / Day 128, five direct graphite steps. Second sheet selected; first failed sheet and unused intermediate remain private. Teaching 8.4/10, finish 8.6/10. Square crops preserve aspect ratio and all landmarks.
