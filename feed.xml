@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a stegosaurus</title>
+      <link>https://sketcha.day/tutorials/stegosaurus-side-view.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/stegosaurus-side-view.html</guid>
+      <pubDate>Wed, 09 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a stegosaurus in six pencil steps with a low head, four grounded legs, six stylized back plates, tail spikes and soft olive shading.</description>
+      <media:content url="https://sketcha.day/assets/stegosaurus-side-view-finished-v2.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a light bulb</title>
       <link>https://sketcha.day/tutorials/vintage-light-bulb.html</link>

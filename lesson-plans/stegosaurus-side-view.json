@@ -1,0 +1,569 @@
+{
+  "schema_version": 5,
+  "slug": "stegosaurus-side-view",
+  "finished": "assets/stegosaurus-side-view-finished-v2.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A low rounded head joins one long arched back and tapering tail. The underside remains open, so the learner can attach legs without erasing keeper contours.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel direct graphite contact sheet; September 9 current lesson. No temporary scaffolding. Keep failed iterations private. First sheet rejected: six plates rather than planned seven and unclear far-front toes. Simplified new plan to six plates; fresh full-sheet generation required. Second sheet provides five early frames; finish recolored from saved step 5 to retain both hind-knee folds. Instruction order adjusted to observed early toe marks; no temporary guides."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "head and back contour",
+      "introduced_by_step": 1,
+      "description": "Low head at left joins an arched back and long tapering tail; underside open for legs."
+    },
+    {
+      "name": "near front leg",
+      "introduced_by_step": 2,
+      "description": "Short foreground leg attached below the shoulder."
+    },
+    {
+      "name": "near hind leg",
+      "introduced_by_step": 2,
+      "description": "Broad foreground hind leg attached beneath the rear body."
+    },
+    {
+      "name": "far front leg",
+      "introduced_by_step": 2,
+      "description": "Narrow front leg behind and offset right of the near front leg."
+    },
+    {
+      "name": "far hind leg",
+      "introduced_by_step": 2,
+      "description": "Narrow shaded hind leg behind and to the left of the near hind leg."
+    },
+    {
+      "name": "belly contour",
+      "introduced_by_step": 2,
+      "description": "Low belly connects the two foreground legs without crossing them."
+    },
+    {
+      "name": "back plate 1",
+      "introduced_by_step": 3,
+      "description": "Plate 1 counted from neck left to tail right, fixed to its own back-line base."
+    },
+    {
+      "name": "back plate 2",
+      "introduced_by_step": 3,
+      "description": "Plate 2 counted from neck left to tail right, fixed to its own back-line base."
+    },
+    {
+      "name": "back plate 3",
+      "introduced_by_step": 3,
+      "description": "Plate 3 counted from neck left to tail right, fixed to its own back-line base."
+    },
+    {
+      "name": "back plate 4",
+      "introduced_by_step": 3,
+      "description": "Plate 4 counted from neck left to tail right, fixed to its own back-line base."
+    },
+    {
+      "name": "back plate 5",
+      "introduced_by_step": 3,
+      "description": "Plate 5 counted from neck left to tail right, fixed to its own back-line base."
+    },
+    {
+      "name": "back plate 6",
+      "introduced_by_step": 3,
+      "description": "Plate 6 counted from neck left to tail right, fixed to its own back-line base."
+    },
+    {
+      "name": "eye",
+      "introduced_by_step": 4,
+      "description": "Small dark eye high inside the left-facing head."
+    },
+    {
+      "name": "nostril",
+      "introduced_by_step": 4,
+      "description": "Small nostril near the rounded snout."
+    },
+    {
+      "name": "mouth line",
+      "introduced_by_step": 4,
+      "description": "Short mouth line below the nostril."
+    },
+    {
+      "name": "upper inner tail spike",
+      "introduced_by_step": 4,
+      "description": "Upper spike closer to the body."
+    },
+    {
+      "name": "upper outer tail spike",
+      "introduced_by_step": 4,
+      "description": "Upper spike closer to the tail tip."
+    },
+    {
+      "name": "lower inner tail spike",
+      "introduced_by_step": 4,
+      "description": "Lower spike closer to the body."
+    },
+    {
+      "name": "lower outer tail spike",
+      "introduced_by_step": 4,
+      "description": "Lower spike closer to the tail tip."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "Broken narrow graphite ground beneath all four feet."
+    },
+    {
+      "name": "front toe divisions",
+      "introduced_by_step": 2,
+      "description": "Two toe divisions at the near front foot base."
+    },
+    {
+      "name": "hind toe divisions",
+      "introduced_by_step": 2,
+      "description": "Two toe divisions at the near hind foot base."
+    },
+    {
+      "name": "far hind toe division",
+      "introduced_by_step": 2,
+      "description": "One visible toe division on the far hind foot."
+    },
+    {
+      "name": "front upper knee fold",
+      "introduced_by_step": 5,
+      "description": "Upper curved crease at the front edge of the near foreleg."
+    },
+    {
+      "name": "front lower knee fold",
+      "introduced_by_step": 5,
+      "description": "Lower curved crease beneath the upper near foreleg fold."
+    },
+    {
+      "name": "front cross crease",
+      "introduced_by_step": 5,
+      "description": "Short faint cross crease on the front leg."
+    },
+    {
+      "name": "hind upper knee fold",
+      "introduced_by_step": 5,
+      "description": "Upper curved crease on the near hind leg."
+    },
+    {
+      "name": "hind lower knee fold",
+      "introduced_by_step": 5,
+      "description": "Lower curved crease parallel to the upper hind fold."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/stegosaurus-side-view-step-1.jpg",
+      "step_name": "Draw the head and back",
+      "visible_job": "Start at the small rounded snout on the left, rise gently into the neck, and sweep a broad arch over the back. Taper the line into a long tail on the right, turn around its tip, and stop beneath the tail. Leave the belly and leg area open.",
+      "instruction": "Start at the small rounded snout on the left, rise gently into the neck, and sweep a broad arch over the back. Taper the line into a long tail on the right, turn around its tip, and stop beneath the tail. Leave the belly and leg area open.",
+      "adds": [
+        "head and back contour"
+      ],
+      "introduces": [
+        "head and back contour"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/stegosaurus-side-view-step-2.jpg",
+      "step_name": "Connect the legs and belly",
+      "visible_job": "Below the shoulder, draw a short front leg with a flat foot. Add a wider hind leg below the rear body, join the belly between them, and add two narrower far legs behind the near pair. Stop their upper edges at the body. Add two short toe divisions on each near foot and one on the visible far hind foot; shade both far legs lightly.",
+      "instruction": "Below the shoulder, draw a short front leg with a flat foot. Add a wider hind leg below the rear body, join the belly between them, and add two narrower far legs behind the near pair. Stop their upper edges at the body. Add two short toe divisions on each near foot and one on the visible far hind foot; shade both far legs lightly.",
+      "adds": [
+        "near front leg",
+        "near hind leg",
+        "far front leg",
+        "far hind leg",
+        "belly contour",
+        "front toe divisions",
+        "hind toe divisions",
+        "far hind toe division"
+      ],
+      "introduces": [
+        "near front leg",
+        "near hind leg",
+        "far front leg",
+        "far hind leg",
+        "belly contour",
+        "front toe divisions",
+        "hind toe divisions",
+        "far hind toe division"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/stegosaurus-side-view-step-3.jpg",
+      "step_name": "Raise six back plates",
+      "visible_job": "Starting behind the neck, draw six pointed leaf-like plates attached along the back. Make the third plate tallest, then reduce their size toward the tail. Keep every plate above the back line and add a few light pencil strokes rising inside each one.",
+      "instruction": "Starting behind the neck, draw six pointed leaf-like plates attached along the back. Make the third plate tallest, then reduce their size toward the tail. Keep every plate above the back line and add a few light pencil strokes rising inside each one.",
+      "adds": [
+        "back plate 1",
+        "back plate 2",
+        "back plate 3",
+        "back plate 4",
+        "back plate 5",
+        "back plate 6"
+      ],
+      "introduces": [
+        "back plate 1",
+        "back plate 2",
+        "back plate 3",
+        "back plate 4",
+        "back plate 5",
+        "back plate 6"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/stegosaurus-side-view-step-4.jpg",
+      "step_name": "Add the face and tail spikes",
+      "visible_job": "Place one small dark eye in the head, one nostril near the snout, and a short mouth line beneath it. Near the tail tip, draw four slim pointed spikes fanning away from their fixed attachments, with two above and two below the tail.",
+      "instruction": "Place one small dark eye in the head, one nostril near the snout, and a short mouth line beneath it. Near the tail tip, draw four slim pointed spikes fanning away from their fixed attachments, with two above and two below the tail.",
+      "adds": [
+        "eye",
+        "nostril",
+        "mouth line",
+        "upper inner tail spike",
+        "upper outer tail spike",
+        "lower inner tail spike",
+        "lower outer tail spike"
+      ],
+      "introduces": [
+        "eye",
+        "nostril",
+        "mouth line",
+        "upper inner tail spike",
+        "upper outer tail spike",
+        "lower inner tail spike",
+        "lower outer tail spike"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/stegosaurus-side-view-step-5.jpg",
+      "step_name": "Add knee folds and ground",
+      "visible_job": "Draw two small curved folds at the front edge of each near knee and a short crease across the front leg. Extend the established toe divisions into rounded toe tips without removing their lines. Sketch a narrow broken ground shadow beneath the feet and lightly hatch the underside.",
+      "instruction": "Draw two small curved folds at the front edge of each near knee and a short crease across the front leg. Extend the established toe divisions into rounded toe tips without removing their lines. Sketch a narrow broken ground shadow beneath the feet and lightly hatch the underside.",
+      "adds": [
+        "ground shadow",
+        "front upper knee fold",
+        "front lower knee fold",
+        "front cross crease",
+        "hind upper knee fold",
+        "hind lower knee fold"
+      ],
+      "introduces": [
+        "ground shadow",
+        "front upper knee fold",
+        "front lower knee fold",
+        "front cross crease",
+        "hind upper knee fold",
+        "hind lower knee fold"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/stegosaurus-side-view-finished-v2.jpg",
+    "step_name": "Shade the dinosaur",
+    "visible_job": "Add graphite value and restrained olive and ochre within the established dinosaur contours.",
+    "instruction": "Shade the underside and far legs with soft graphite. Layer muted olive lightly across the body and warm ochre inside the six plates, leaving the upper back pale. Deepen the existing ground shadow and keep the paper grain visible without adding new outlines.",
+    "adds": [
+      "graphite value and restrained olive and ochre color"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.4,
+    "finished_art_score": 8.6,
+    "first_step_observation": "The first crop contains only one long connected head-back-tail silhouette and an open underside. The small snout notch is part of that contour, not a separate guide. A beginner can copy the low head and arch before attaching legs.",
+    "draw_through_observation": "Read all six final instructions against the five saved pairs, then checked the repaired final pair and assembled sequence again. Early toe marks are taught with legs; six plates, four tail spikes, knee folds and ground are present before color. There are no temporary guides or unexplained erased keeper lines.",
+    "contract_sha256": "5208a661d54d3a8142f53d69a9d6b80304b1953df444e6228e9cec7cbede39c8",
+    "asset_sha256": {
+      "assets/stegosaurus-side-view-step-1.jpg": "e77662f6414d961b4ed42762545be23fae2ce00c385bd3995717cc96c0616fb7",
+      "assets/stegosaurus-side-view-step-2.jpg": "a02053f92218cf0a9a45b632c4eafeb328e6d7e41073f1a054932683294768ba",
+      "assets/stegosaurus-side-view-step-3.jpg": "3a64915503ee31711ead4a827774994103edf431650dc1fa27dd751b3f627a9c",
+      "assets/stegosaurus-side-view-step-4.jpg": "beb715281b8e01302f1e2ed7fef2854a21498113f92247f5ca51011f7d05f529",
+      "assets/stegosaurus-side-view-step-5.jpg": "192b1c75119c399f28a4907629f7a2f1f5a3818cade831b1bd74aab108f764fa",
+      "assets/stegosaurus-side-view-finished-v2.jpg": "0b6a4a432c99792d12fc8c52b5ace50312733a3d8805d9e895cd6b0b2b5082af"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "head and back contour",
+          "near front leg",
+          "near hind leg",
+          "far front leg",
+          "far hind leg",
+          "belly contour",
+          "front toe divisions",
+          "hind toe divisions",
+          "far hind toe division"
+        ],
+        "landmark_observations": {
+          "head and back contour": "Low left snout, neck dip, rounded back apex and upturned tail tip remain connected. The open chin and tail underside extend into the legs; no closed belly is erased.",
+          "near front leg": "Left foreground leg joins the shoulder, narrows at knee and ends on a flat foot.",
+          "near hind leg": "Right foreground leg has a broad thigh and flat foot.",
+          "far front leg": "Narrow shaded leg sits behind and to the right of the near front leg.",
+          "far hind leg": "Narrow shaded leg sits behind and to the left of the near hind leg.",
+          "belly contour": "Belly runs between the near legs without crossing either foreground leg.",
+          "front toe divisions": "Two short strokes rise from the near front foot baseline.",
+          "hind toe divisions": "Two short strokes rise from the near hind foot baseline.",
+          "far hind toe division": "One short division is visible at the far hind toe."
+        },
+        "observed_addition": "Four legs and connecting belly fill the reserved opening. Near-foot divisions and a far-hind division arrive with the feet; far legs already have graphite shading.",
+        "instruction_match": "Step 2 now explicitly includes those early toe marks and far-leg shading. Body edges stop at foreground legs, so the learner need not erase them.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "head and back contour",
+          "near front leg",
+          "near hind leg",
+          "far front leg",
+          "far hind leg",
+          "belly contour",
+          "front toe divisions",
+          "hind toe divisions",
+          "far hind toe division",
+          "back plate 1",
+          "back plate 2",
+          "back plate 3",
+          "back plate 4",
+          "back plate 5",
+          "back plate 6"
+        ],
+        "landmark_observations": {
+          "head and back contour": "Low left snout, neck dip, rounded back apex and upturned tail tip remain connected. The open chin and tail underside extend into the legs; no closed belly is erased.",
+          "near front leg": "Left foreground leg joins the shoulder, narrows at knee and ends on a flat foot.",
+          "near hind leg": "Right foreground leg has a broad thigh and flat foot.",
+          "far front leg": "Narrow shaded leg sits behind and to the right of the near front leg.",
+          "far hind leg": "Narrow shaded leg sits behind and to the left of the near hind leg.",
+          "belly contour": "Belly runs between the near legs without crossing either foreground leg.",
+          "front toe divisions": "Two short strokes rise from the near front foot baseline.",
+          "hind toe divisions": "Two short strokes rise from the near hind foot baseline.",
+          "far hind toe division": "One short division is visible at the far hind toe.",
+          "back plate 1": "Small pointed plate at the neck-back rise.",
+          "back plate 2": "Taller plate immediately to the right of plate one.",
+          "back plate 3": "Tallest plate sits above the back apex.",
+          "back plate 4": "Medium plate right of tallest has an upright pointed tip.",
+          "back plate 5": "Smaller plate sits on descending back.",
+          "back plate 6": "Smallest rear plate ends before tail slope; all six attach above the intact back line."
+        },
+        "observed_addition": "Six pointed plates with rising interior graphite strokes attach along the back; third is tallest. Feet, toes and shaded far legs remain.",
+        "instruction_match": "Step 3 names six plates, tallest third, and the interior strokes. Each plate can be added above the retained back without removing a contour.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "head and back contour",
+          "near front leg",
+          "near hind leg",
+          "far front leg",
+          "far hind leg",
+          "belly contour",
+          "front toe divisions",
+          "hind toe divisions",
+          "far hind toe division",
+          "back plate 1",
+          "back plate 2",
+          "back plate 3",
+          "back plate 4",
+          "back plate 5",
+          "back plate 6",
+          "eye",
+          "nostril",
+          "mouth line",
+          "upper inner tail spike",
+          "upper outer tail spike",
+          "lower inner tail spike",
+          "lower outer tail spike"
+        ],
+        "landmark_observations": {
+          "head and back contour": "Low left snout, neck dip, rounded back apex and upturned tail tip remain connected. The open chin and tail underside extend into the legs; no closed belly is erased.",
+          "near front leg": "Left foreground leg joins the shoulder, narrows at knee and ends on a flat foot.",
+          "near hind leg": "Right foreground leg has a broad thigh and flat foot.",
+          "far front leg": "Narrow shaded leg sits behind and to the right of the near front leg.",
+          "far hind leg": "Narrow shaded leg sits behind and to the left of the near hind leg.",
+          "belly contour": "Belly runs between the near legs without crossing either foreground leg.",
+          "front toe divisions": "Two short strokes rise from the near front foot baseline.",
+          "hind toe divisions": "Two short strokes rise from the near hind foot baseline.",
+          "far hind toe division": "One short division is visible at the far hind toe.",
+          "back plate 1": "Small pointed plate at the neck-back rise.",
+          "back plate 2": "Taller plate immediately to the right of plate one.",
+          "back plate 3": "Tallest plate sits above the back apex.",
+          "back plate 4": "Medium plate right of tallest has an upright pointed tip.",
+          "back plate 5": "Smaller plate sits on descending back.",
+          "back plate 6": "Smallest rear plate ends before tail slope; all six attach above the intact back line.",
+          "eye": "One dark eye with small white glint remains behind snout.",
+          "nostril": "Short dark nostril sits in front of and below eye.",
+          "mouth line": "Short smile extends from the existing tiny snout notch inside head.",
+          "upper inner tail spike": "Long upper spike closest to body slopes up-right.",
+          "upper outer tail spike": "Second upper spike sits nearer tail tip.",
+          "lower inner tail spike": "Lower spike closest to body slopes down-right.",
+          "lower outer tail spike": "Second lower spike sits nearer tip; all four use fixed tail attachments."
+        },
+        "observed_addition": "Eye, nostril and extended short mouth appear in head, and four slim tail spikes appear, two up and two down. The six plate bases and leg overlaps remain.",
+        "instruction_match": "Step 4 gives the locations of the small facial strokes and all four spikes. Tail tip remains between spikes; no earlier line is silently removed.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "head and back contour",
+          "near front leg",
+          "near hind leg",
+          "far front leg",
+          "far hind leg",
+          "belly contour",
+          "front toe divisions",
+          "hind toe divisions",
+          "far hind toe division",
+          "back plate 1",
+          "back plate 2",
+          "back plate 3",
+          "back plate 4",
+          "back plate 5",
+          "back plate 6",
+          "eye",
+          "nostril",
+          "mouth line",
+          "upper inner tail spike",
+          "upper outer tail spike",
+          "lower inner tail spike",
+          "lower outer tail spike",
+          "ground shadow",
+          "front upper knee fold",
+          "front lower knee fold",
+          "front cross crease",
+          "hind upper knee fold",
+          "hind lower knee fold"
+        ],
+        "landmark_observations": {
+          "head and back contour": "Low left snout, neck dip, rounded back apex and upturned tail tip remain connected. The open chin and tail underside extend into the legs; no closed belly is erased.",
+          "near front leg": "Left foreground leg joins the shoulder, narrows at knee and ends on a flat foot.",
+          "near hind leg": "Right foreground leg has a broad thigh and flat foot.",
+          "far front leg": "Narrow shaded leg sits behind and to the right of the near front leg.",
+          "far hind leg": "Narrow shaded leg sits behind and to the left of the near hind leg.",
+          "belly contour": "Belly runs between the near legs without crossing either foreground leg.",
+          "front toe divisions": "Two short strokes rise from the near front foot baseline.",
+          "hind toe divisions": "Two short strokes rise from the near hind foot baseline.",
+          "far hind toe division": "One short division is visible at the far hind toe.",
+          "back plate 1": "Small pointed plate at the neck-back rise.",
+          "back plate 2": "Taller plate immediately to the right of plate one.",
+          "back plate 3": "Tallest plate sits above the back apex.",
+          "back plate 4": "Medium plate right of tallest has an upright pointed tip.",
+          "back plate 5": "Smaller plate sits on descending back.",
+          "back plate 6": "Smallest rear plate ends before tail slope; all six attach above the intact back line.",
+          "eye": "One dark eye with small white glint remains behind snout.",
+          "nostril": "Short dark nostril sits in front of and below eye.",
+          "mouth line": "Short smile extends from the existing tiny snout notch inside head.",
+          "upper inner tail spike": "Long upper spike closest to body slopes up-right.",
+          "upper outer tail spike": "Second upper spike sits nearer tail tip.",
+          "lower inner tail spike": "Lower spike closest to body slopes down-right.",
+          "lower outer tail spike": "Second lower spike sits nearer tip; all four use fixed tail attachments.",
+          "ground shadow": "Narrow broken graphite ground added under feet; no additional scenery.",
+          "front upper knee fold": "Upper foreleg fold extends right from its front edge.",
+          "front lower knee fold": "Second short fold below it remains distinct.",
+          "front cross crease": "Small faint cross crease to the right of foreleg folds.",
+          "hind upper knee fold": "Upper hind-leg arc begins just inside thigh front edge.",
+          "hind lower knee fold": "Second parallel hind arc is directly below first."
+        },
+        "observed_addition": "Short knee folds, faint cross crease, underside hatching and narrow ground shadow appear. Existing toe strokes are extended into more rounded tips without losing the divisions.",
+        "instruction_match": "Revised step 5 names knee folds, cross crease, rounded extensions of existing toes, underside hatch and ground. It teaches the actual new marks rather than introducing toes a second time.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "head and back contour",
+          "near front leg",
+          "near hind leg",
+          "far front leg",
+          "far hind leg",
+          "belly contour",
+          "front toe divisions",
+          "hind toe divisions",
+          "far hind toe division",
+          "back plate 1",
+          "back plate 2",
+          "back plate 3",
+          "back plate 4",
+          "back plate 5",
+          "back plate 6",
+          "eye",
+          "nostril",
+          "mouth line",
+          "upper inner tail spike",
+          "upper outer tail spike",
+          "lower inner tail spike",
+          "lower outer tail spike",
+          "ground shadow",
+          "front upper knee fold",
+          "front lower knee fold",
+          "front cross crease",
+          "hind upper knee fold",
+          "hind lower knee fold"
+        ],
+        "landmark_observations": {
+          "head and back contour": "Low left snout, neck dip, rounded back apex and upturned tail tip remain connected. The open chin and tail underside extend into the legs; no closed belly is erased.",
+          "near front leg": "Left foreground leg joins the shoulder, narrows at knee and ends on a flat foot.",
+          "near hind leg": "Right foreground leg has a broad thigh and flat foot.",
+          "far front leg": "Narrow shaded leg sits behind and to the right of the near front leg.",
+          "far hind leg": "Narrow shaded leg sits behind and to the left of the near hind leg.",
+          "belly contour": "Belly runs between the near legs without crossing either foreground leg.",
+          "front toe divisions": "Two short strokes rise from the near front foot baseline.",
+          "hind toe divisions": "Two short strokes rise from the near hind foot baseline.",
+          "far hind toe division": "One short division is visible at the far hind toe.",
+          "back plate 1": "Small pointed plate at the neck-back rise.",
+          "back plate 2": "Taller plate immediately to the right of plate one.",
+          "back plate 3": "Tallest plate sits above the back apex.",
+          "back plate 4": "Medium plate right of tallest has an upright pointed tip.",
+          "back plate 5": "Smaller plate sits on descending back.",
+          "back plate 6": "Smallest rear plate ends before tail slope; all six attach above the intact back line.",
+          "eye": "One dark eye with small white glint remains behind snout.",
+          "nostril": "Short dark nostril sits in front of and below eye.",
+          "mouth line": "Short smile extends from the existing tiny snout notch inside head.",
+          "upper inner tail spike": "Long upper spike closest to body slopes up-right.",
+          "upper outer tail spike": "Second upper spike sits nearer tail tip.",
+          "lower inner tail spike": "Lower spike closest to body slopes down-right.",
+          "lower outer tail spike": "Second lower spike sits nearer tip; all four use fixed tail attachments.",
+          "ground shadow": "Narrow broken graphite ground added under feet; no additional scenery.",
+          "front upper knee fold": "Upper foreleg fold extends right from its front edge.",
+          "front lower knee fold": "Second short fold below it remains distinct.",
+          "front cross crease": "Small faint cross crease to the right of foreleg folds.",
+          "hind upper knee fold": "Upper hind-leg arc begins just inside thigh front edge.",
+          "hind lower knee fold": "Second parallel hind arc is directly below first."
+        },
+        "observed_addition": "Recolored finish v2 adds soft olive body and warm ochre plates. Both hind folds and all foreleg creases survive visibly; six plates retain hatching, four spikes retain their anchors and all foot marks remain.",
+        "instruction_match": "The final instruction adds value and color within prior contours. The repaired finish keeps the exact knee landmarks missing in superseded v1, with no new structural elements.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

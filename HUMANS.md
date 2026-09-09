@@ -1,5 +1,14 @@
 # Human Notes
 
+## 2026-09-09 — Daily stegosaurus-side-view lesson (Codex)
+
+- Added `stegosaurus-side-view`, September 9 / Day 130. Six direct graphite steps. First sheet rejected for plate count; second provides five early frames. Finish v2 recolored from saved step 5 to preserve both hind-knee folds and foreleg creases. Teaching 8.4/10; finish 8.6/10. Six plates, four tail spikes, four legs and toe marks reviewed at their saved anchors.
+- Full readiness passed: 264 Cove URLs, zero failures. Schema v5 saved-image review contains adjacent-pair observations, individual landmarks and current image/contract hashes. No temporary guides.
+- Cove desktop 1440x1000/mobile 390x844 homepage, library and tutorial review passed; no overflow or broken lazy images. Layouts 8.8/10 desktop and 8.6/10 mobile. Lesson text/images remain in static HTML without JavaScript.
+- One current lesson per site remains active; no backfills. Older generated tutorial changes update latest-lesson cards and previous/next navigation. Built-in image generation used; source sheets and omitted/failed iterations remain outside navigation.
+- Harness: Codex; task: 2026-09-09 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-08 — Daily light-bulb lesson (Codex)
 
 - Added `vintage-light-bulb`, September 8 / Day 129, five direct graphite steps selected from source panels 1,3,4,5,6. Smooth-base intermediate stays private; teaching the ribbed base directly avoids erasing its sides. Teaching 8.6/10, finish 8.7/10.
