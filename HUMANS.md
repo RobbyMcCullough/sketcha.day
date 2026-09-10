@@ -1,5 +1,11 @@
 # Human Notes
 
+## 2026-09-10 — Daily great-blue-heron-standing-in-reeds lesson (Codex)
+
+- Added `great-blue-heron-standing-in-reeds`, September 10 / Day 131, with five direct graphite stages and a restrained coloring finish. The approved third sheet preserves two four-toed legs, one long beak, one eye and crown stripe, one three-group folded wing, three single leafy reeds, and three single water marks. Two earlier count/color-mismatched sheets remain private.
+- Schema-v5 saved-image review rates teaching 8.8/10 and finish 8.7/10. Full readiness passed 266 local URLs; desktop 1440x1000 and mobile 390x844 fallback-browser QA passed homepage, library, and tutorial with all lazy images loaded, valid JSON-LD, no overflow, and no public lab links.
+- One current lesson per site remains active; no backfills. Harness: Codex; task: 2026-09-10 — Daily sketch and doodle lessons. Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-09 — Daily stegosaurus-side-view lesson (Codex)
 
 - Added `stegosaurus-side-view`, September 9 / Day 130. Six direct graphite steps. First sheet rejected for plate count; second provides five early frames. Finish v2 recolored from saved step 5 to preserve both hind-knee folds and foreleg creases. Teaching 8.4/10; finish 8.6/10. Six plates, four tail spikes, four legs and toe marks reviewed at their saved anchors.

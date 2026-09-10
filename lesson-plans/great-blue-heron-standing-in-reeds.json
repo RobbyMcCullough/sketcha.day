@@ -1,0 +1,191 @@
+{
+  "schema_version": 5,
+  "slug": "great-blue-heron-standing-in-reeds",
+  "finished": "assets/great-blue-heron-standing-in-reeds-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One small head joins a long S-curved neck in its final upright position. This connected gesture fixes the heron's distinctive height and direction before the larger body and legs arrive.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Planned six-panel cumulative graphite and restrained colored-pencil contact sheet for the September 10 current lesson. No temporary guides; preserve rejected iterations privately."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {"name":"head and S-neck contour","introduced_by_step":1,"description":"Small left-facing head connected to one long S-curved neck in its final position."},
+    {"name":"body and short tail","introduced_by_step":2,"description":"One long oval body attached behind the neck with a short pointed tail."},
+    {"name":"near leg","introduced_by_step":2,"description":"Long near leg descending from the lower body to a foot with three forward toes and one rear toe."},
+    {"name":"far leg","introduced_by_step":2,"description":"Second long leg offset behind the near leg with three forward toes and one rear toe."},
+    {"name":"long pointed beak","introduced_by_step":3,"description":"Long tapered beak projecting left from the head."},
+    {"name":"eye","introduced_by_step":3,"description":"One small dark eye high on the head."},
+    {"name":"dark crown stripe","introduced_by_step":3,"description":"One tapered stripe from above the eye toward the back of the head."},
+    {"name":"folded wing","introduced_by_step":4,"description":"One layered folded wing inside the body with three long feather groups."},
+    {"name":"chest feather edge","introduced_by_step":4,"description":"Short broken feather rhythm along the lower neck and chest."},
+    {"name":"left reed","introduced_by_step":5,"description":"Tall reed rising behind the left side of the bird."},
+    {"name":"right reed","introduced_by_step":5,"description":"Tall reed rising behind the right side of the bird."},
+    {"name":"center reed","introduced_by_step":5,"description":"Shorter reed beside the legs without crossing them."},
+    {"name":"water ripples","introduced_by_step":5,"description":"Exactly three short horizontal ripple marks around the feet."}
+  ],
+  "frames": [
+    {
+      "step":1,
+      "asset":"assets/great-blue-heron-standing-in-reeds-step-1.jpg",
+      "step_name":"Curve the head and neck",
+      "visible_job":"Draw one small left-facing head and continue its lower edge into a long S-curved neck, then return along the back of the neck and stop above the shoulder opening.",
+      "instruction":"Draw one small left-facing head and continue its lower edge into a long S-curved neck. Return along the back of the neck and stop above the shoulder opening, leaving room to attach the body on the right.",
+      "adds":["head and S-neck contour"],
+      "introduces":["head and S-neck contour"]
+    },
+    {
+      "step":2,
+      "asset":"assets/great-blue-heron-standing-in-reeds-step-2.jpg",
+      "step_name":"Attach the body and legs",
+      "visible_job":"Attach one long oval body and short pointed tail behind the neck, then drop two narrow legs from separate lower-body anchors and divide each foot into three forward toes and one rear toe.",
+      "instruction":"Attach one long oval body and a short pointed tail behind the neck. From two separate points under the body, drop the near leg straight down and the far leg slightly back; split each foot into three forward toes and one rear toe.",
+      "adds":["body and short tail","near leg","far leg"],
+      "introduces":["body and short tail","near leg","far leg"]
+    },
+    {
+      "step":3,
+      "asset":"assets/great-blue-heron-standing-in-reeds-step-3.jpg",
+      "step_name":"Add the beak and face",
+      "visible_job":"Extend a long pointed beak from the head, add one small eye, and sweep one dark tapered crown stripe behind it.",
+      "instruction":"From the front of the head, pull two tapering lines left into one long pointed beak. Place one small dark eye above the beak base and sweep one tapered crown stripe from above the eye toward the back of the head.",
+      "adds":["long pointed beak","eye","dark crown stripe"],
+      "introduces":["long pointed beak","eye","dark crown stripe"]
+    },
+    {
+      "step":4,
+      "asset":"assets/great-blue-heron-standing-in-reeds-step-4.jpg",
+      "step_name":"Layer the folded wing",
+      "visible_job":"Draw one folded wing inside the body with three long feather groups and add a short broken feather edge down the chest.",
+      "instruction":"Inside the body, draw one folded wing that follows the back and tapers toward the tail. Divide its lower half into three long feather groups, then add a short broken feather edge down the lower neck and chest.",
+      "adds":["folded wing","chest feather edge"],
+      "introduces":["folded wing","chest feather edge"]
+    },
+    {
+      "step":5,
+      "asset":"assets/great-blue-heron-standing-in-reeds-step-5.jpg",
+      "step_name":"Set the reeds and water",
+      "visible_job":"Add two tall reeds behind the bird, one shorter reed beside the legs, and exactly three short horizontal ripple marks around the feet.",
+      "instruction":"Raise one tall reed behind each side of the heron and a shorter center reed beside the legs, stopping every background line at the bird. Give each reed one narrow leaf, then draw exactly three short horizontal ripple marks around the feet without covering the toes.",
+      "adds":["left reed","right reed","center reed","water ripples"],
+      "introduces":["left reed","right reed","center reed","water ripples"]
+    }
+  ],
+  "final_step": {
+    "asset":"assets/great-blue-heron-standing-in-reeds-finished-v1.jpg",
+    "step_name":"Color the quiet marsh",
+    "visible_job":"Add graphite value and restrained blue-gray, ochre, muted green, and pale blue within the established contours.",
+    "instruction":"Layer blue-gray pencil over the body and folded wing, warm ochre on the established beak and legs, muted green on the three reeds, and pale blue through the three ripple marks. Deepen the crown stripe and feather shadows with graphite while leaving paper highlights visible and adding no new contours.",
+    "adds":["graphite value and restrained blue-gray ochre green and pale-blue color"],
+    "introduces":[]
+  },
+  "visual_review": {
+    "status":"approved",
+    "teaching_score":8.8,
+    "finished_art_score":8.7,
+    "first_step_observation":"The first saved crop contains only one small left-facing head joined to one long upright S-neck. Its open shoulder ends leave a clear attachment point for the body, and no later wing, leg, reed, or water detail appears early.",
+    "draw_through_observation":"Read all six final instructions while comparing every saved adjacent pair. The head and neck, two leg anchors, eight toes, beak, eye, crown stripe, three wing groups, chest edge, three reeds with leaves, and three single ripples stay fixed; the finish adds color and graphite value without new structure.",
+    "contract_sha256":"008fe1b1639c98f49c0f2bfa6966337257858528e27a270efa79779b5fe07600",
+    "asset_sha256":{
+      "assets/great-blue-heron-standing-in-reeds-step-1.jpg":"e1ea3866891a64faa2e89a8ed9cf1e281f3408cfe38a6880a4e19b2d2f059298",
+      "assets/great-blue-heron-standing-in-reeds-step-2.jpg":"70c4b89a005e6d49677efad517da74df9c78305cba5337c616fda56ae4bb362c",
+      "assets/great-blue-heron-standing-in-reeds-step-3.jpg":"e84c9b8709883ebdca24898bc3203d76ffa8b0bc0916d6095e2ebda0411c7a00",
+      "assets/great-blue-heron-standing-in-reeds-step-4.jpg":"08da4cc8894c8cae674399707af6e1683c25b84f929c7a44485976e75ebf3ece",
+      "assets/great-blue-heron-standing-in-reeds-step-5.jpg":"bc52b196e45b0a2f0298887616abc67f340715829b50e3cd00ad6d12daa38ac9",
+      "assets/great-blue-heron-standing-in-reeds-finished-v1.jpg":"60cfd2e2d783bf67a559d4c00c48f6db0223958bef543a7a968b8c6d2c36fd15"
+    },
+    "transitions":[
+      {
+        "from_step":1,"to_step":2,
+        "observed_present":["head and S-neck contour","body and short tail","near leg","far leg"],
+        "landmark_observations":{
+          "head and S-neck contour":"Small left-facing head and both long S-neck edges retain the same bends and open shoulder endpoints.",
+          "body and short tail":"Long oval body joins both shoulder endpoints and tapers into one short right-pointing tail.",
+          "near leg":"Near leg drops from the left lower-body anchor to three forward toes and one rear toe.",
+          "far leg":"Far leg drops from the offset right anchor to three forward toes and one rear toe."
+        },
+        "observed_addition":"One long body, short tail, two separately anchored legs, and four toes per foot fill the reserved lower and right space.",
+        "instruction_match":"Step 2 names the body attachment, separate leg anchors, and three-forward-one-rear toe split visible in the crop.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":2,"to_step":3,
+        "observed_present":["head and S-neck contour","body and short tail","near leg","far leg","long pointed beak","eye","dark crown stripe"],
+        "landmark_observations":{
+          "head and S-neck contour":"The head outline, front neck curve, back neck curve, and shoulder joins remain fixed.",
+          "body and short tail":"Body oval and short pointed tail retain their exact outer silhouette.",
+          "near leg":"Near leg keeps its lower-body anchor, knee bump, and four-toe footprint.",
+          "far leg":"Far leg keeps its offset anchor, knee bump, and four-toe footprint.",
+          "long pointed beak":"Two tapered lines project left from the same head and meet at one sharp point.",
+          "eye":"One dark round eye sits above the beak base.",
+          "dark crown stripe":"Tapered crown stripe follows the skull and extends behind the eye."
+        },
+        "observed_addition":"The long beak, single eye, and attached crown stripe turn the retained generic wading-bird silhouette into a heron.",
+        "instruction_match":"Step 3 accurately places both beak edges, the eye above their base, and the stripe along the skull.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":3,"to_step":4,
+        "observed_present":["head and S-neck contour","body and short tail","near leg","far leg","long pointed beak","eye","dark crown stripe","folded wing","chest feather edge"],
+        "landmark_observations":{
+          "head and S-neck contour":"Head and S-neck keep their original profile and shoulder attachments.",
+          "body and short tail":"Outer body and tail silhouette remain unchanged beneath the new interior wing.",
+          "near leg":"Near leg and all four toes remain at the same anchors.",
+          "far leg":"Far leg and all four toes remain at the same anchors.",
+          "long pointed beak":"Long beak retains its left point and two straight tapered edges.",
+          "eye":"Single eye remains at the same height above the beak.",
+          "dark crown stripe":"Crown stripe remains attached to the skull and sweeps backward.",
+          "folded wing":"One interior wing follows the back and contains three long feather groups aimed toward the tail.",
+          "chest feather edge":"Short broken feather points descend from lower neck into chest."
+        },
+        "observed_addition":"A single layered wing and broken chest-feather rhythm add substantial interior anatomy without changing the outer bird.",
+        "instruction_match":"Step 4 describes the wing path, three feather divisions, and short chest edge exactly as saved.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":4,"to_step":5,
+        "observed_present":["head and S-neck contour","body and short tail","near leg","far leg","long pointed beak","eye","dark crown stripe","folded wing","chest feather edge","left reed","right reed","center reed","water ripples"],
+        "landmark_observations":{
+          "head and S-neck contour":"Complete head and S-neck remain fixed between the three reeds.",
+          "body and short tail":"Body and tail retain their outline while background stalks stay outside them.",
+          "near leg":"Near leg and its four toes remain visible without reed or water crossings.",
+          "far leg":"Far leg and its four toes remain visible without reed or water crossings.",
+          "long pointed beak":"Beak point and two tapered edges remain unchanged.",
+          "eye":"Single dark eye remains clearly visible.",
+          "dark crown stripe":"Crown stripe keeps its attached backward sweep.",
+          "folded wing":"Wing boundary and three feather groups retain their positions.",
+          "chest feather edge":"Broken chest feather rhythm remains visible above the legs.",
+          "left reed":"Tall left graphite stalk stands behind the bird with one narrow attached leaf.",
+          "right reed":"Tall right graphite stalk stands behind the tail with one narrow attached leaf.",
+          "center reed":"Short center graphite stalk stands beside the legs with one narrow attached leaf.",
+          "water ripples":"Exactly three single horizontal graphite marks sit left, between, and right of the feet."
+        },
+        "observed_addition":"Three single leafy stalks and three single ripple marks establish a sparse marsh while preserving the entire bird and toe gaps.",
+        "instruction_match":"Step 5 explicitly counts the same three reeds, three leaves, and three short ripples visible in the monochrome crop.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":5,"to_step":6,
+        "observed_present":["head and S-neck contour","body and short tail","near leg","far leg","long pointed beak","eye","dark crown stripe","folded wing","chest feather edge","left reed","right reed","center reed","water ripples"],
+        "landmark_observations":{
+          "head and S-neck contour":"Same head and long neck receive restrained blue-gray pencil with open paper highlights.",
+          "body and short tail":"Same body and short tail receive blue-gray value without contour changes.",
+          "near leg":"Near leg and all four toes receive ochre while keeping exact anchors.",
+          "far leg":"Far leg and all four toes receive ochre while keeping exact anchors.",
+          "long pointed beak":"Existing pointed beak receives warm ochre inside both retained edges.",
+          "eye":"Existing eye stays round, dark, and readable.",
+          "dark crown stripe":"Existing crown stripe deepens with graphite without changing shape.",
+          "folded wing":"Established wing and three feather groups receive layered blue-gray shading.",
+          "chest feather edge":"Established chest points remain visible through light neck color.",
+          "left reed":"Existing left stalk and leaf receive muted green only.",
+          "right reed":"Existing right stalk and leaf receive muted green only.",
+          "center reed":"Existing center stalk and leaf receive muted green only.",
+          "water ripples":"The same three single ripple marks receive pale blue color."
+        },
+        "observed_addition":"Restrained blue-gray, ochre, green, and pale-blue pencil plus deeper feather graphite finish only the already established forms.",
+        "instruction_match":"Final copy assigns each observed color to an existing region and asks for no new structure, matching the saved finish.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      }
+    ]
+  }
+}
