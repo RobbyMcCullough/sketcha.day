@@ -1,5 +1,14 @@
 # Human Notes
 
+## 2026-09-11 — Daily autumn-birch-tree lesson (Codex)
+
+- Added `autumn-birch-tree`, September 11 / Day 132. Five direct graphite stages preserve exactly three trunks, six branch arms, nine broken bark bands, six airy leaf clusters, six grass tufts, three fallen leaves, and one broken shadow through a restrained color-only finish. Teaching rated 8.8/10; finish rated 8.9/10.
+- Full readiness passed after aligning the schema-v5 plan instructions to the rendered lesson copy: current hashes, all five adjacent transitions, derivatives, social card, 268 Cove/internal URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered desktop 1440x1000 and mobile 390x844 homepage, library, and tutorial QA passed on the documented localhost fallback. No overflow, invalid JSON-LD, public `lab.html` links, or broken images after individual lazy-image scrolling; all 130 library images loaded.
+- One current lesson per site remains active; no backfills. Generated older-page changes refresh day labels, latest-lesson cards, and previous/next navigation.
+- Harness: Codex; task: 2026-09-11 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-10 — Daily great-blue-heron-standing-in-reeds lesson (Codex)
 
 - Added `great-blue-heron-standing-in-reeds`, September 10 / Day 131, with five direct graphite stages and a restrained coloring finish. The approved third sheet preserves two four-toed legs, one long beak, one eye and crown stripe, one three-group folded wing, three single leafy reeds, and three single water marks. Two earlier count/color-mismatched sheets remain private.

@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw an autumn birch tree</title>
+      <link>https://sketcha.day/tutorials/autumn-birch-tree.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/autumn-birch-tree.html</guid>
+      <pubDate>Fri, 11 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw an autumn birch grove with three slender trunks, six branch forks, birch bark bands, six airy leaf clusters, graphite texture, and restrained colored pencil.</description>
+      <media:content url="https://sketcha.day/assets/autumn-birch-tree-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a great blue heron</title>
       <link>https://sketcha.day/tutorials/great-blue-heron-standing-in-reeds.html</link>
