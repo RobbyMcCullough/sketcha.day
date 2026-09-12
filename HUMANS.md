@@ -1,5 +1,14 @@
 # Human Notes
 
+## 2026-09-12 — Daily river-otter lesson (Codex)
+
+- Added `river-otter-floating-on-its-back`, September 12 / Day 133. Five direct graphite stages plus restrained color keep the rounded head, two ears, long body and tail, pale belly boundary, four paws, six hind-toe marks, six whiskers, three ripple groups, eye highlights, and broken shadow at stable anchors. Teaching rated 8.7/10; finish rated 8.8/10.
+- Full readiness passed: schema v5 review, current image/contract hashes, all five adjacent transitions, derivatives, social card, 270 Cove/internal URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered desktop 1440x1000 and mobile 390x844 homepage, library, and tutorial QA passed in Cove. No overflow, invalid JSON-LD, public `lab.html` links, or broken images; all 131 library images loaded after incremental scrolling.
+- One current lesson per site remains active; no backfills. Generated older-page changes refresh day labels, latest-lesson cards, and previous/next navigation.
+- Harness: Codex; task: 2026-09-12 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-11 — Daily autumn-birch-tree lesson (Codex)
 
 - Added `autumn-birch-tree`, September 11 / Day 132. Five direct graphite stages preserve exactly three trunks, six branch arms, nine broken bark bands, six airy leaf clusters, six grass tufts, three fallen leaves, and one broken shadow through a restrained color-only finish. Teaching rated 8.8/10; finish rated 8.9/10.
