@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a pinecone</title>
+      <link>https://sketcha.day/tutorials/pinecone-on-a-pine-branch.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/pinecone-on-a-pine-branch.html</guid>
+      <pubDate>Sun, 13 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a pinecone hanging from a pine branch with overlapping scales, three needle clusters, graphite texture, and restrained colored pencil.</description>
+      <media:content url="https://sketcha.day/assets/pinecone-on-a-pine-branch-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw an otter</title>
       <link>https://sketcha.day/tutorials/river-otter-floating-on-its-back.html</link>

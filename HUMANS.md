@@ -1,5 +1,14 @@
 # Human Notes
 
+## 2026-09-13 — Daily pinecone lesson (Codex)
+
+- Added `pinecone-on-a-pine-branch`, September 13 / Day 134. Five direct graphite stages preserve the slanted branch, hanging cone, overlapping scale rows, exactly three needle clusters, two branch nubs, two highlights, and one broken shadow through the restrained brown, green, and gray finish. Teaching rated 8.8/10; finish rated 8.9/10.
+- Full readiness passed: schema v5 review, current image and contract hashes, all five adjacent transitions, derivatives, social card, 272 internal URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered desktop 1440x1000 and mobile 390x844 homepage, library, and tutorial QA passed on the documented localhost fallback after Cove reported an expired certificate. No overflow, invalid JSON-LD, public `lab.html` links, or broken images; all 132 library images and all 11 tutorial images loaded after scrolling.
+- One current lesson per site remains active; no backfills. Generated older-page changes refresh day labels, latest-lesson cards, and previous/next navigation.
+- Harness: Codex; task: 2026-09-13 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-12 — Daily river-otter lesson (Codex)
 
 - Added `river-otter-floating-on-its-back`, September 12 / Day 133. Five direct graphite stages plus restrained color keep the rounded head, two ears, long body and tail, pale belly boundary, four paws, six hind-toe marks, six whiskers, three ripple groups, eye highlights, and broken shadow at stable anchors. Teaching rated 8.7/10; finish rated 8.8/10.

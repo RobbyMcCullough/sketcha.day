@@ -326,6 +326,11 @@
     "picnic-basket": {
       "status": "published"
     },
+    "pinecone-on-a-pine-branch": {
+      "status": "published",
+      "date": "2026-09-13",
+      "note": "Published as the September 13 current lesson after schema-v5 saved-image review."
+    },
     "pocket-compass": {
       "status": "published"
     },
