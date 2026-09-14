@@ -309,6 +309,11 @@
     "old-fashioned-pocket-watch": {
       "status": "published"
     },
+    "open-box-of-five-crayons": {
+      "status": "published",
+      "date": "2026-09-14",
+      "note": "Published as the current September 14 / Day 135 lesson after schema-v5 saved-image review."
+    },
     "paint-palette-and-brush": {
       "status": "published"
     },
@@ -322,6 +327,11 @@
     },
     "patchwork-kite": {
       "status": "published"
+    },
+    "pencil-sharpener-with-curled-shaving": {
+      "status": "rejected-duplicate",
+      "date": "2026-09-14",
+      "note": "2026-09-14: rejected before plan or art creation because wooden-hand-plane-and-shaving already teaches the same blade-and-curled-shaving drawing problem."
     },
     "picnic-basket": {
       "status": "published"

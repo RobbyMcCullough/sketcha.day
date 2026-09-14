@@ -1,5 +1,14 @@
 # Human Notes
 
+## 2026-09-14 — Daily crayon-box lesson (Codex)
+
+- Added `open-box-of-five-crayons`, September 14 / Day 135. Five direct graphite stages preserve one open three-quarter-view carton, exactly five crayons, two outward flaps, five dark wrapper bands, one blank oval label, two front seams, three wear nicks, two paper highlights, and one broken shadow through the restrained red, orange, yellow, teal, blue, cream, coral, and gray finish. Teaching rated 8.8/10; finish rated 8.9/10.
+- Full readiness passed: schema v5 review, current image and contract hashes, all five adjacent transitions, derivatives, social card, 274 internal URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered desktop 1440x1000 and mobile 390x844 homepage, library, and tutorial QA passed on the documented localhost fallback after Cove reported an expired certificate. No overflow, invalid JSON-LD, public `lab.html` links, or broken images; all 133 library images and all 11 tutorial images loaded after scrolling.
+- Rejected `pencil-sharpener-with-curled-shaving` before plan or art because `wooden-hand-plane-and-shaving` already teaches the same blade-and-curled-shaving problem. One current lesson per site remains active; no backfills.
+- Harness: Codex; task: 2026-09-14 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-13 — Daily pinecone lesson (Codex)
 
 - Added `pinecone-on-a-pine-branch`, September 13 / Day 134. Five direct graphite stages preserve the slanted branch, hanging cone, overlapping scale rows, exactly three needle clusters, two branch nubs, two highlights, and one broken shadow through the restrained brown, green, and gray finish. Teaching rated 8.8/10; finish rated 8.9/10.
