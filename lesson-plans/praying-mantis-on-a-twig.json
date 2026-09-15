@@ -1,0 +1,270 @@
+{
+  "schema_version": 5,
+  "slug": "praying-mantis-on-a-twig",
+  "finished": "assets/praying-mantis-on-a-twig-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One long narrow thorax joined to one tapered abdomen fixes the mantis body angle and leaves clear attachment space for the head and six legs.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Planned as one six-panel cumulative graphite and restrained colored-pencil contact sheet; rejected iterations, if any, remain private under the slug draft folder."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "thorax and tapered abdomen",
+      "introduced_by_step": 1,
+      "description": "One long narrow thorax joined to one gently curved tapered abdomen, angled from lower left to upper right."
+    },
+    {
+      "name": "triangular head and two antennae",
+      "introduced_by_step": 2,
+      "description": "One small triangular head attached to the thorax with exactly two long curved antennae."
+    },
+    {
+      "name": "one visible eye",
+      "introduced_by_step": 2,
+      "description": "One almond-shaped near eye with one small paper highlight."
+    },
+    {
+      "name": "one visible folded foreleg",
+      "introduced_by_step": 3,
+      "description": "One clearly visible bent grasping foreleg attached near the front of the thorax with a row of short inner spines; the far foreleg stays hidden in side view."
+    },
+    {
+      "name": "four walking legs and twig",
+      "introduced_by_step": 4,
+      "description": "Exactly four long walking legs attached beneath the middle and rear body, with their feet meeting one diagonal twig."
+    },
+    {
+      "name": "folded wing and three abdomen bands",
+      "introduced_by_step": 5,
+      "description": "One long folded near wing over the abdomen and exactly three short curved abdomen bands behind it."
+    },
+    {
+      "name": "two twig leaves and broken shadow",
+      "introduced_by_step": 5,
+      "description": "Exactly two simple leaves attached to the twig and one light broken graphite shadow beneath the body."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/praying-mantis-on-a-twig-step-1.jpg",
+      "step_name": "Set the mantis body angle",
+      "visible_job": "Draws the connected narrow thorax and tapered abdomen on one rising diagonal.",
+      "instruction": "Draw one long narrow thorax rising from lower left to upper right, then join its rear end to one gently curved abdomen that tapers to a soft point. Leave the front end open enough for the head and keep clear paper beneath both forms for the legs.",
+      "adds": [
+        "thorax and tapered abdomen"
+      ],
+      "introduces": [
+        "thorax and tapered abdomen"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/praying-mantis-on-a-twig-step-2.jpg",
+      "step_name": "Turn the head and antennae",
+      "visible_job": "Adds the attached triangular head, two curved antennae, and one visible eye.",
+      "instruction": "Attach a small rounded triangle to the front of the thorax and tilt its point slightly downward. Sweep exactly two thin antennae from the top corners, then place one almond-shaped near eye with a tiny open-paper highlight.",
+      "adds": [
+        "triangular head and two antennae",
+        "one visible eye"
+      ],
+      "introduces": [
+        "triangular head and two antennae",
+        "one visible eye"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/praying-mantis-on-a-twig-step-3.jpg",
+      "step_name": "Fold the grasping foreleg",
+      "visible_job": "Adds one angular folded foreleg with a row of short inner spines.",
+      "instruction": "From the front of the thorax, angle one visible upper foreleg section down and forward, fold its lower section back toward the head, and add a short row of inner spines. Let the far foreleg remain hidden in this clean side view.",
+      "adds": [
+        "one visible folded foreleg"
+      ],
+      "introduces": [
+        "one visible folded foreleg"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/praying-mantis-on-a-twig-step-4.jpg",
+      "step_name": "Plant four legs on the twig",
+      "visible_job": "Adds exactly four long walking legs and one diagonal twig behind their feet.",
+      "instruction": "Attach exactly four long walking legs beneath the middle and rear body, bending each once at a clear knee. Draw one diagonal twig behind the feet so every foot meets its upper edge, stopping the twig line wherever a leg overlaps it.",
+      "adds": [
+        "four walking legs and twig"
+      ],
+      "introduces": [
+        "four walking legs and twig"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/praying-mantis-on-a-twig-step-5.jpg",
+      "step_name": "Add wing, bands, and leaves",
+      "visible_job": "Adds one folded wing, three abdomen bands, two twig leaves, and one broken shadow.",
+      "instruction": "Lay one long leaf-shaped folded wing over the near abdomen, add exactly three short curved bands on the exposed rear section, attach exactly two simple leaves to open parts of the twig, and place one light broken graphite shadow beneath the mantis.",
+      "adds": [
+        "folded wing and three abdomen bands",
+        "two twig leaves and broken shadow"
+      ],
+      "introduces": [
+        "folded wing and three abdomen bands",
+        "two twig leaves and broken shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/praying-mantis-on-a-twig-finished-v1.jpg",
+    "step_name": "Shade the watchful mantis",
+    "visible_job": "Layers olive, leaf green, warm brown, and graphite only over established forms.",
+    "instruction": "Layer pale olive over the established body and five visible legs, deepen the folded wing and two leaves with muted green, warm the twig with brown, and reinforce the same broken shadow with graphite. Keep the two antennae, eye highlight, foreleg spines, and three abdomen bands visible without adding contours.",
+    "adds": [
+      "restrained color on established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.5,
+    "finished_art_score": 8.7,
+    "first_step_observation": "The first saved crop contains only one connected long thorax and tapered abdomen on their final rising diagonal. The head end and the paper beneath the body remain open for later attachments, so a learner can place the main proportion without guessing at legs or scenery.",
+    "draw_through_observation": "I compared all six saved crops pairwise at full size. The body, head, antennae, eye, folded foreleg, four walking legs, twig, wing, three abdomen bands, two leaves, and shadow keep their anchors; each step has one readable addition, and the finish adds only restrained color and graphite depth.",
+    "contract_sha256": "584cbae86201f10a6899e431cbb47d70cfdffcff182276a589228b1eb765f4f5",
+    "asset_sha256": {
+      "assets/praying-mantis-on-a-twig-step-1.jpg": "bb782b20cc1c9aeaf5caf755d6a1e64711dbc41afe624e777460ce2a10662e13",
+      "assets/praying-mantis-on-a-twig-step-2.jpg": "f6fd81cdd6b31f7ea6f6d9f809ad43f3e0d67d76bb5acf86f7088f0c501888ee",
+      "assets/praying-mantis-on-a-twig-step-3.jpg": "e3d6403554301b4989038bafcd59ebe22a66c7da216566e60fee44c40a613f05",
+      "assets/praying-mantis-on-a-twig-step-4.jpg": "12a621d608ca6b76355aa3bf53d0144b43cd283efa037eb7f5bdfae4ed458c00",
+      "assets/praying-mantis-on-a-twig-step-5.jpg": "762713e4a1528a5f727e7ece6aa4ae8755a436c19914a7299158d93098dfa7bd",
+      "assets/praying-mantis-on-a-twig-finished-v1.jpg": "a7898deb79e18a0d3db75212f75b9d2f3bba811a216b1851ec615279ed85b234"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "thorax and tapered abdomen",
+          "triangular head and two antennae",
+          "one visible eye"
+        ],
+        "landmark_observations": {
+          "thorax and tapered abdomen": "The narrow thorax, central joint, tapered abdomen, and lower-left to upper-right angle remain fixed.",
+          "triangular head and two antennae": "A small downward-tilted triangular head attaches to the same thorax end, and two separate curved antennae rise from its top edge.",
+          "one visible eye": "One dark almond eye appears within the near head plane with one crisp white highlight."
+        },
+        "observed_addition": "The head, two antennae, and one near eye turn the unchanged body block into a recognizable alert mantis.",
+        "instruction_match": "The copy accurately describes the attached rounded triangle, its downward tilt, two separating antenna curves, and the single highlighted near eye.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "thorax and tapered abdomen",
+          "triangular head and two antennae",
+          "one visible eye",
+          "one visible folded foreleg"
+        ],
+        "landmark_observations": {
+          "thorax and tapered abdomen": "Both connected body forms keep the same length, angle, and joint.",
+          "triangular head and two antennae": "The head outline and both antenna arcs remain at the same anchors.",
+          "one visible eye": "The near eye and its paper highlight remain unchanged.",
+          "one visible folded foreleg": "One prominent foreleg attaches under the front thorax, folds into a clear zigzag, and carries a visible inward row of short spines; the far foreleg stays occluded in profile."
+        },
+        "observed_addition": "One large grasping foreleg fills the reserved front-side gap without shifting the body or head.",
+        "instruction_match": "The instruction matches the visible upper segment, backward fold, inward spines, and deliberately hidden far foreleg.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "thorax and tapered abdomen",
+          "triangular head and two antennae",
+          "one visible eye",
+          "one visible folded foreleg",
+          "four walking legs and twig"
+        ],
+        "landmark_observations": {
+          "thorax and tapered abdomen": "The body diagonal and both outer contours remain fixed above the new legs.",
+          "triangular head and two antennae": "The head and two antennae preserve their shapes and spacing.",
+          "one visible eye": "The same highlighted almond eye remains centered in the near head plane.",
+          "one visible folded foreleg": "The folded front leg keeps its attachment, bend, open center, and spine row.",
+          "four walking legs and twig": "Four separate walking legs attach beneath the middle and rear body, bend at visible knees, and terminate on one diagonal twig whose line passes behind the feet."
+        },
+        "observed_addition": "Four grounded walking legs and one supporting twig occupy the previously clear lower paper and establish the insect's stance.",
+        "instruction_match": "The copy matches the four countable body attachments, knee bends, foot-to-twig contacts, and the twig's behind-the-legs overlap order.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "thorax and tapered abdomen",
+          "triangular head and two antennae",
+          "one visible eye",
+          "one visible folded foreleg",
+          "four walking legs and twig",
+          "folded wing and three abdomen bands",
+          "two twig leaves and broken shadow"
+        ],
+        "landmark_observations": {
+          "thorax and tapered abdomen": "The thorax and tapered abdomen remain at the same angle beneath the newly overlaid wing.",
+          "triangular head and two antennae": "The head silhouette and two antenna curves remain unchanged.",
+          "one visible eye": "The eye and white highlight persist without movement.",
+          "one visible folded foreleg": "The foreleg's joint, folded silhouette, and spine row remain clear.",
+          "four walking legs and twig": "All four walking legs keep their body roots, knee positions, and twig contacts while the twig retains its diagonal.",
+          "folded wing and three abdomen bands": "One long veined wing overlays the near abdomen and stops before the tip, leaving exactly three curved bands visible on the exposed underside.",
+          "two twig leaves and broken shadow": "One leaf attaches near each open end of the twig, and a soft broken shadow appears below the body without covering the feet."
+        },
+        "observed_addition": "The wing, three bands, two attached leaves, and broken shadow complete every structural and setting landmark before color.",
+        "instruction_match": "The copy matches the wing direction, three exposed bands, two leaf attachments, and the light shadow footprint visible in the crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "thorax and tapered abdomen",
+          "triangular head and two antennae",
+          "one visible eye",
+          "one visible folded foreleg",
+          "four walking legs and twig",
+          "folded wing and three abdomen bands",
+          "two twig leaves and broken shadow"
+        ],
+        "landmark_observations": {
+          "thorax and tapered abdomen": "The same body forms receive pale olive while their proportions and joint remain fixed.",
+          "triangular head and two antennae": "The head gains olive tone and both antennae remain in place.",
+          "one visible eye": "The dark eye and single white highlight remain crisp through coloring.",
+          "one visible folded foreleg": "The established folded foreleg and inward spines remain unchanged under pale olive color.",
+          "four walking legs and twig": "All four walking legs retain their bends and twig contacts as the legs turn olive and the twig warm brown.",
+          "folded wing and three abdomen bands": "The existing wing turns muted green while all three exposed abdomen bands remain visible beneath it.",
+          "two twig leaves and broken shadow": "Both established leaves turn muted green and the same broken shadow deepens in graphite without changing footprint."
+        },
+        "observed_addition": "Dry colored pencil follows only the established forms and deepens the existing shadow while preserving paper grain.",
+        "instruction_match": "The final copy assigns the visible olive, muted-green, brown, and graphite treatment and correctly prohibits new contours.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
