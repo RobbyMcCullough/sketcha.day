@@ -1,5 +1,14 @@
 # Human Notes
 
+## 2026-09-15 — Crayon-box Step 1 continuity repair (Codex)
+
+- Repaired published `open-box-of-five-crayons` Step 1 after owner review identified rear-rim, back-wall, inner-edge, and interior-shading detail that Step 2 immediately covered with crayons.
+- The corrected first frame keeps only the persistent front trapezoid and outer-right side plane, leaving the five-crayon insertion area blank. Step 1 and Step 2 copy, schema-v5 observations, hashes, and `dateModified` were renewed; Steps 2–5 and the finished master remain unchanged.
+- The superseded published Step 1 and a rejected stray-line edit are preserved privately under `drafts/open-box-of-five-crayons/`.
+- Full readiness passed: schema-v5 review, five transition deltas, regenerated Step 1 WebP, 274 internal URLs, JSON-LD, asset usage, ledger, and diff checks. Rendered desktop 1440x1000 and mobile 390x844 homepage, library, and tutorial QA passed on the documented fallback server with all 133 library images loaded, no broken images, no overflow, valid JSON-LD, and no public `lab.html` links.
+- Harness: Codex; task: targeted live-lesson correction.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-14 — Daily crayon-box lesson (Codex)
 
 - Added `open-box-of-five-crayons`, September 14 / Day 135. Five direct graphite stages preserve one open three-quarter-view carton, exactly five crayons, two outward flaps, five dark wrapper bands, one blank oval label, two front seams, three wear nicks, two paper highlights, and one broken shadow through the restrained red, orange, yellow, teal, blue, cream, coral, and gray finish. Teaching rated 8.8/10; finish rated 8.9/10.
