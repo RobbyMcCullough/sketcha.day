@@ -1,5 +1,14 @@
 # Human Notes
 
+## 2026-09-16 — Daily classic-barber-pole lesson (Codex)
+
+- Added `classic-barber-pole`, September 16 / Day 137. Five additive graphite stages plus restrained color preserve one upright glass cylinder, two end caps, one top finial, one rounded lower end, exactly three diagonal bands, one right-side bracket and oval mount with two fasteners, two glass highlights, and one broken shadow. Teaching rated 8.8/10; finish rated 8.9/10.
+- Full readiness passed: schema v5 review, current image and contract hashes, all five adjacent transitions, derivatives, social card, 278 local URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered desktop 1440x1000 and mobile 390x844 homepage, library, and tutorial QA passed on the documented localhost fallback because Cove's certificate is expired. No overflow, invalid JSON-LD, public `lab.html` links, or broken images; all 135 library images and all 11 tutorial images loaded after scrolling. Layout rated 9.0/10 desktop and 8.8/10 mobile.
+- One current lesson per site remains active; no backfills. Generated older-page changes refresh day labels, latest-lesson cards, and previous/next navigation.
+- Harness: Codex; task: 2026-09-16 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-15 — Daily praying-mantis lesson (Codex)
 
 - Added `praying-mantis-on-a-twig`, September 15 / Day 136. Five direct graphite stages plus restrained color preserve the rising thorax-and-abdomen angle, triangular head, two antennae, one visible folded grasping foreleg, four walking legs grounded on one twig, one folded wing, three abdomen bands, two leaves, and one broken shadow. Teaching rated 8.5/10; finish rated 8.7/10.

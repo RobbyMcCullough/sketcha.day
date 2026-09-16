@@ -1,0 +1,116 @@
+{
+  "schema_version": 5,
+  "slug": "classic-barber-pole",
+  "finished": "assets/classic-barber-pole-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One tall narrow rounded cylinder fixes the pole's final width, height, and upright axis while leaving the caps, stripes, bracket, and shadow absent.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Planned as one six-panel cumulative graphite and restrained colored-pencil contact sheet; rejected iterations, if any, remain private under the slug draft folder."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {"name":"glass cylinder","introduced_by_step":1,"description":"One tall narrow upright glass cylinder with softly rounded top and bottom edges."},
+    {"name":"top and bottom caps","introduced_by_step":2,"description":"One shallow metal cap attached at each end, one round finial centered above the top cap, and one rounded lower end nested below the bottom cap."},
+    {"name":"three diagonal ribbon bands","introduced_by_step":3,"description":"Exactly three broad diagonal bands wrapping consistently across the cylinder from upper left to lower right."},
+    {"name":"wall bracket and round mount","introduced_by_step":4,"description":"One short bracket attached behind the pole's right side and joined to one oval wall mount with exactly two round fasteners."},
+    {"name":"two glass highlights and broken shadow","introduced_by_step":5,"description":"Exactly two narrow open-paper glass highlights and one broken graphite shadow beneath the pole."}
+  ],
+  "frames": [
+    {"step":1,"asset":"assets/classic-barber-pole-step-1.jpg","step_name":"Raise the glass cylinder","visible_job":"Draws one tall narrow upright cylinder with softly rounded ends.","instruction":"Draw two long nearly parallel sides, then connect them with shallow curved ends to make one tall narrow cylinder. Keep its center upright and leave open paper around both ends and along the right side.","adds":["glass cylinder"],"introduces":["glass cylinder"]},
+    {"step":2,"asset":"assets/classic-barber-pole-step-2.jpg","step_name":"Cap both ends","visible_job":"Adds attached top and bottom metal caps, one top finial, and one rounded lower end.","instruction":"Attach one shallow cap across the top edge and one across the bottom edge, following the cylinder's curve. Center one round finial above the top cap and one rounded end below the bottom cap, keeping every part on the same upright axis.","adds":["top and bottom caps"],"introduces":["top and bottom caps"]},
+    {"step":3,"asset":"assets/classic-barber-pole-step-3.jpg","step_name":"Wrap three ribbon bands","visible_job":"Adds exactly three broad parallel diagonal bands inside the glass cylinder.","instruction":"Inside the glass, draw exactly three broad parallel bands slanting from upper left toward lower right. Curve each band slightly as it meets the cylinder edges so the ribbon appears to wrap around the round form.","adds":["three diagonal ribbon bands"],"introduces":["three diagonal ribbon bands"]},
+    {"step":4,"asset":"assets/classic-barber-pole-step-4.jpg","step_name":"Attach the wall bracket","visible_job":"Adds one short rear bracket, one oval wall mount, and two round fasteners at the right side.","instruction":"From the middle-right back edge, extend one short horizontal bracket and join it to one oval wall mount. Stop the bracket line at the pole edge, then place exactly two round fasteners inside the mount so the glass stays clearly in front.","adds":["wall bracket and round mount"],"introduces":["wall bracket and round mount"]},
+    {"step":5,"asset":"assets/classic-barber-pole-step-5.jpg","step_name":"Reserve shine and ground it","visible_job":"Adds two narrow glass highlights and one broken shadow without changing the structure.","instruction":"Place exactly two narrow vertical highlight gaps along the glass front, one high and one low, then sketch one soft broken shadow beneath the lower cap. Keep all three ribbon bands and the bracket fully readable.","adds":["two glass highlights and broken shadow"],"introduces":["two glass highlights and broken shadow"]}
+  ],
+  "final_step": {
+    "asset": "assets/classic-barber-pole-finished-v1.jpg",
+    "step_name": "Color the turning stripes",
+    "visible_job": "Layers muted red, dusty blue, and cool gray only over established bands, caps, bracket, and shadow.",
+    "instruction": "Alternate muted red and dusty blue through the three established ribbon bands, shade the two caps, finial, rounded lower end, bracket, and wall mount with cool gray, and deepen the same broken shadow. Leave both glass highlights open and add no new contours.",
+    "adds": ["restrained color on established forms"],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.8,
+    "finished_art_score": 8.9,
+    "first_step_observation": "The first saved crop contains only one tall narrow cylinder at its final upright position. Its two long sides and shallow curved ends are easy to copy, while clear paper remains around both ends and on the right for every later attachment.",
+    "draw_through_observation": "I compared all six saved square crops pairwise at readable size. The cylinder, end hardware, three ribbon bands, bracket, two mount fasteners, two highlight gaps, and broken shadow retain their anchors; each transition matches its instruction, and the finish adds only restrained color and value.",
+    "contract_sha256": "be7dc51422a65163d82db17efd9bd82ad9fd7bf3da536365356c962b1d3bd952",
+    "asset_sha256": {
+      "assets/classic-barber-pole-step-1.jpg": "9448f33cf31295ee5c23170ccb45f746b45d8dbb0201b875a09b85f99b74af40",
+      "assets/classic-barber-pole-step-2.jpg": "a9c0eb572341d6dc5458563e3cc2a43ef7db2e8fe05493ca656910944e0c03b0",
+      "assets/classic-barber-pole-step-3.jpg": "6b155c97bad0f695e9813b7f41fae0866bb762ce067ca48cb48f1f32547f85e4",
+      "assets/classic-barber-pole-step-4.jpg": "c6e4cd46e2d99b6f52829e39dba2611224309bcfa12ce3388f7d36c4a53b165d",
+      "assets/classic-barber-pole-step-5.jpg": "e50a3b4e14b9232e70f136d1d48f46b67df472bb52e1d9c99306cf544cc267b4",
+      "assets/classic-barber-pole-finished-v1.jpg": "016691661e0d46ebee35b87a445284a6bcfe7d082187877a0c010a7dce335568"
+    },
+    "transitions": [
+      {
+        "from_step": 1, "to_step": 2,
+        "observed_present": ["glass cylinder", "top and bottom caps"],
+        "landmark_observations": {
+          "glass cylinder": "The same tall cylinder keeps its width, vertical axis, shallow end curves, scale, and crop.",
+          "top and bottom caps": "A shallow cap attaches across each end; the round top finial and rounded lower end are centered on the unchanged cylinder axis."
+        },
+        "observed_addition": "Both end caps and their centered rounded terminals give the unchanged glass cylinder its classic hardware silhouette.",
+        "instruction_match": "The saved change matches the instruction's two caps, upper finial, rounded lower end, curved alignment, and common upright axis.",
+        "unexplained_removals": [], "unexplained_moves": [], "removed_guides": [], "observed_guides": []
+      },
+      {
+        "from_step": 2, "to_step": 3,
+        "observed_present": ["glass cylinder", "top and bottom caps", "three diagonal ribbon bands"],
+        "landmark_observations": {
+          "glass cylinder": "The cylinder sides and end curves remain fixed behind the new interior bands.",
+          "top and bottom caps": "Both caps, the top finial, and rounded lower end keep identical anchors and proportions.",
+          "three diagonal ribbon bands": "Exactly three broad parallel graphite bands appear inside the glass, each descending from upper left to lower right and curving at both cylinder edges."
+        },
+        "observed_addition": "Three evenly spaced diagonal bands fill the previously blank glass without changing the outer cylinder or hardware.",
+        "instruction_match": "The crop shows the requested count, common slant, broad spacing, and curved edge contacts described in the step copy.",
+        "unexplained_removals": [], "unexplained_moves": [], "removed_guides": [], "observed_guides": []
+      },
+      {
+        "from_step": 3, "to_step": 4,
+        "observed_present": ["glass cylinder", "top and bottom caps", "three diagonal ribbon bands", "wall bracket and round mount"],
+        "landmark_observations": {
+          "glass cylinder": "The pole body remains vertical and clearly overlaps the new bracket at the right edge.",
+          "top and bottom caps": "All four end-hardware shapes remain unchanged.",
+          "three diagonal ribbon bands": "All three band envelopes keep their exact positions and widths.",
+          "wall bracket and round mount": "One short horizontal bracket begins behind the middle-right edge and connects to one oval mount containing exactly two round fasteners."
+        },
+        "observed_addition": "The bracket, oval mount, and two fasteners occupy the reserved right-side paper while preserving pole-in-front overlap order.",
+        "instruction_match": "The image matches the right-side origin, short connection, oval mount, two fasteners, and bracket line stopping behind the pole.",
+        "unexplained_removals": [], "unexplained_moves": [], "removed_guides": [], "observed_guides": []
+      },
+      {
+        "from_step": 4, "to_step": 5,
+        "observed_present": ["glass cylinder", "top and bottom caps", "three diagonal ribbon bands", "wall bracket and round mount", "two glass highlights and broken shadow"],
+        "landmark_observations": {
+          "glass cylinder": "The cylinder outline and front plane stay fixed around the new highlight gaps.",
+          "top and bottom caps": "The caps and rounded ends retain the same positions and graphite values.",
+          "three diagonal ribbon bands": "All three bands persist without shifting or losing an edge.",
+          "wall bracket and round mount": "The bracket, mount, and both fasteners remain anchored behind the same right edge.",
+          "two glass highlights and broken shadow": "Two separate slim vertical white gaps appear on the front glass, one high and one low, while one soft broken shadow appears directly beneath the lower end."
+        },
+        "observed_addition": "Two separated highlight reserves and one low broken shadow add glass and grounding cues without altering any structure.",
+        "instruction_match": "The crop matches the requested high and low highlight count, soft shadow placement, and preservation of all three bands and bracket.",
+        "unexplained_removals": [], "unexplained_moves": [], "removed_guides": [], "observed_guides": []
+      },
+      {
+        "from_step": 5, "to_step": 6,
+        "observed_present": ["glass cylinder", "top and bottom caps", "three diagonal ribbon bands", "wall bracket and round mount", "two glass highlights and broken shadow"],
+        "landmark_observations": {
+          "glass cylinder": "The same transparent cylinder boundaries remain visible around the colored ribbons.",
+          "top and bottom caps": "Both caps, top finial, and rounded lower end receive cool gray while retaining their exact contours.",
+          "three diagonal ribbon bands": "The established bands become muted red, dusty blue, and muted red in order, with unchanged edges and spacing.",
+          "wall bracket and round mount": "The bracket and oval mount gain cool gray; both round fasteners remain visible at their original anchors.",
+          "two glass highlights and broken shadow": "Both white highlight gaps remain open and separated, and the same broken shadow deepens beneath the pole."
+        },
+        "observed_addition": "Restrained colored pencil and deeper graphite value follow only the established hardware, ribbons, and shadow while preserving paper tooth.",
+        "instruction_match": "The finish matches the red-blue-red order, cool-gray metal treatment, preserved highlights, deepened existing shadow, and prohibition on new contours.",
+        "unexplained_removals": [], "unexplained_moves": [], "removed_guides": [], "observed_guides": []
+      }
+    ]
+  }
+}
