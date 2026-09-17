@@ -1,5 +1,15 @@
 # Human Notes
 
+## 2026-09-17 — Daily Statue of Liberty lesson (Codex)
+
+- Added `statue-of-liberty-with-torch`, September 17 / Day 138. Five guided graphite stages plus restrained color preserve one waist-up figure, one raised torch arm, one bent tablet arm, one blank tablet, one calm face, one crown band with exactly seven rays, established robe folds, and one broken shadow. Teaching rated 8.9/10; finish rated 9.2/10.
+- Rejected the first generated sheet privately because its square overall canvas produced portrait cells that would distort when cropped. The approved v2 sheet is a true 1536x1024 landscape grid with six square cells; head axes and robe-route lifecycles are explicit and every adjacent transition was reviewed against the saved crops and copy.
+- Full readiness passed: schema v5 review, current image and contract hashes, all five adjacent transitions, derivatives, social card, 280 local URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered desktop 1440x1000 and mobile 390x844 homepage, library, and tutorial QA passed on the documented localhost fallback because Cove was unreachable. No overflow, invalid JSON-LD, public `lab.html` links, or broken images; all 136 library images and all 11 tutorial images loaded after scrolling. Layout rated 9.1/10 desktop and 8.8/10 mobile.
+- One current lesson per site remains active; no backfills. Generated older-page changes refresh day labels, latest-lesson cards, and previous/next navigation.
+- Harness: Codex; task: 2026-09-17 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-16 — Daily classic-barber-pole lesson (Codex)
 
 - Added `classic-barber-pole`, September 16 / Day 137. Five additive graphite stages plus restrained color preserve one upright glass cylinder, two end caps, one top finial, one rounded lower end, exactly three diagonal bands, one right-side bracket and oval mount with two fasteners, two glass highlights, and one broken shadow. Teaching rated 8.8/10; finish rated 8.9/10.

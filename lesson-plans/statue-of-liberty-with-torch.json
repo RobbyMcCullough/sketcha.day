@@ -1,0 +1,269 @@
+{
+  "schema_version": 5,
+  "slug": "statue-of-liberty-with-torch",
+  "finished": "assets/statue-of-liberty-with-torch-finished-v1.jpg",
+  "drawing_mode": "guided",
+  "first_step_test": "One simplified robe torso joined to one small head and neck fixes the figure's final upright pose, scale, and crop while leaving clear paper for the raised torch arm and tablet.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "The first generated sheet was rejected privately because a square overall canvas produced portrait cells that would distort when cropped. The approved second sheet is a true 1536x1024 landscape 3-by-2 grid with six square cells and a stable cumulative graphite process."
+  },
+  "temporary_guides": [
+    {
+      "name": "head center axes",
+      "introduced_by_step": 1,
+      "removed_by_step": 4,
+      "description": "One pale vertical center line and one pale eye line inside the head oval; soften them only after the face is placed in Step 4.",
+      "removal_instruction": "soften only the two head axes after the features replace them"
+    },
+    {
+      "name": "robe drape routes",
+      "introduced_by_step": 1,
+      "removed_by_step": 5,
+      "description": "A few pale diagonal routes across the torso reserve the direction of later robe folds; keep their anchors through Step 4 and strengthen them into folds in Step 5.",
+      "removal_instruction": "soften only unused guide fragments"
+    }
+  ],
+  "final_elements": [
+    {
+      "name": "head neck and robe torso",
+      "introduced_by_step": 1,
+      "description": "One small forward-facing head joined to a narrow neck and simplified upright robe torso in the final crop."
+    },
+    {
+      "name": "raised right arm and torch",
+      "introduced_by_step": 2,
+      "description": "One right arm rising from the figure's right shoulder to one torch handle, shallow bowl, and flame at the upper left of the page."
+    },
+    {
+      "name": "left arm and tablet",
+      "introduced_by_step": 3,
+      "description": "One bent left arm crossing the torso and holding one plain rectangular tablet against the figure's left side."
+    },
+    {
+      "name": "face hair crown and seven rays",
+      "introduced_by_step": 4,
+      "description": "Two eyes, one nose, one closed mouth, wavy side hair, one crown band, and exactly seven separate crown rays."
+    },
+    {
+      "name": "robe folds graphite modeling and broken shadow",
+      "introduced_by_step": 5,
+      "description": "Long robe and sleeve folds following the established routes, graphite modeling on the existing figure, and one broken shadow beneath the bust."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/statue-of-liberty-with-torch-step-1.jpg",
+      "step_name": "Set the head and robe",
+      "visible_job": "Draws one small head and neck joined to one simplified upright robe torso, with pale head axes and robe-drape routes.",
+      "instruction": "Draw a small upright oval for the head, add one pale center line and one pale eye line, then taper two short neck lines into sloping shoulders and one simplified robe torso. Add a few pale diagonal drape routes, keeping clear paper above the right shoulder for the torch.",
+      "adds": [
+        "head neck and robe torso"
+      ],
+      "introduces": [
+        "head neck and robe torso"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/statue-of-liberty-with-torch-step-2.jpg",
+      "step_name": "Raise the torch arm",
+      "visible_job": "Adds one arm rising from the right shoulder to one torch handle, bowl, and flame.",
+      "instruction": "Keep the pale head axes and robe routes. From the figure's right shoulder, draw one arm rising toward the upper left with a narrow sleeve and visible hand. Continue it into one straight ringed torch handle, one shallow bowl, and one simple flame.",
+      "adds": [
+        "raised right arm and torch"
+      ],
+      "introduces": [
+        "raised right arm and torch"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/statue-of-liberty-with-torch-step-3.jpg",
+      "step_name": "Hold the tablet",
+      "visible_job": "Adds one bent left arm and one plain rectangular tablet overlapping the torso.",
+      "instruction": "Keep the pale head axes and robe routes. Bend the left arm across the lower chest and tuck one plain rectangular tablet against the figure's left side. Stop the robe lines behind the forearm and tablet.",
+      "adds": [
+        "left arm and tablet"
+      ],
+      "introduces": [
+        "left arm and tablet"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/statue-of-liberty-with-torch-step-4.jpg",
+      "step_name": "Build the face and crown",
+      "visible_job": "Adds the calm face, wavy side hair, crown band, and exactly seven separated rays.",
+      "instruction": "Use the pale head axes to place two level eyes, a short straight nose, and one calm closed mouth. Add wavy hair, one crown band, and exactly seven separate pointed rays, then soften only the two head axes after the features replace them.",
+      "adds": [
+        "face hair crown and seven rays"
+      ],
+      "introduces": [
+        "face hair crown and seven rays"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/statue-of-liberty-with-torch-step-5.jpg",
+      "step_name": "Model the monument",
+      "visible_job": "Strengthens the established robe and sleeve folds, adds graphite modeling across the existing statue, and places one broken shadow beneath the bust.",
+      "instruction": "Follow the pale routes to draw the long robe and sleeve folds, soften only unused guide fragments, add graphite modeling across the established face, crown, torch, arms, tablet, and cloth, and place one broken shadow beneath the bust.",
+      "adds": [
+        "robe folds graphite modeling and broken shadow"
+      ],
+      "introduces": [
+        "robe folds graphite modeling and broken shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/statue-of-liberty-with-torch-finished-v1.jpg",
+    "step_name": "Color the harbor monument",
+    "visible_job": "Layers muted sea green, warm ochre, and cool gray only over the established graphite statue, flame, and shadow.",
+    "instruction": "Layer muted sea green lightly across the established statue, warm ochre inside the flame, and cool gray in the same broken shadow. Deepen only the existing graphite values, preserve paper highlights, and add no new contours.",
+    "adds": [
+      "restrained color and graphite on established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.9,
+    "finished_art_score": 9.2,
+    "first_step_observation": "The first saved crop contains one small centered head oval with two pale usable axes, a connected neck and shoulder line, one simple robe torso, and a few pale diagonal drape routes. It fixes the final scale and leaves generous upper-left paper for the raised arm and torch without showing later anatomy.",
+    "draw_through_observation": "I inspected the six saved square JPGs as a whole sequence and every adjacent pair at readable size. The head, shoulders, raised arm, torch, bent tablet arm, tablet, face, hair, crown band, seven rays, robe routes, crop, and shadow anchors remain spatially consistent; the two named guide lifecycles match the copy, and the finish changes only value and color.",
+    "contract_sha256": "99ffe78850ed47d56c896e668442b741c9c21fde85ce6839fc2d3717ae47086b",
+    "asset_sha256": {
+      "assets/statue-of-liberty-with-torch-step-1.jpg": "d6ca117fdf26cc4abb8cb734aa63d8fc44a8d9455c03d21ba4eaf061eed81a09",
+      "assets/statue-of-liberty-with-torch-step-2.jpg": "4dd4eaa4237a1e12d419c3f561cb5d25f365021ec7fb181003becd634e622348",
+      "assets/statue-of-liberty-with-torch-step-3.jpg": "87e6abbe9e0083c092db68730284a58c641748145eeb75658c3df7f670836bf1",
+      "assets/statue-of-liberty-with-torch-step-4.jpg": "884e8804c581ef76921a4566fd18fe61ed910801718f9b5a8d2773cf5def721d",
+      "assets/statue-of-liberty-with-torch-step-5.jpg": "5e52cfdc9c11307d2947fa270587dc3e1d35d024eb3e65bf538553cad637d233",
+      "assets/statue-of-liberty-with-torch-finished-v1.jpg": "38c71c6e52540017883a387d62ee49c670515f82169e863792913abfa65c533b"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "head neck and robe torso",
+          "raised right arm and torch"
+        ],
+        "landmark_observations": {
+          "head neck and robe torso": "The same head oval, neck, shoulder span, torso width, diagonal robe routes, scale, and crop remain fixed.",
+          "raised right arm and torch": "One arm grows continuously from the viewer-left shoulder to the visible hand, ringed handle, bowl, and flame; every joint touches."
+        },
+        "observed_addition": "The raised right arm and complete torch occupy the reserved upper-left paper without changing the torso or head.",
+        "instruction_match": "The image matches the shoulder origin, upward direction, connected sleeve and hand, ringed handle, shallow bowl, and simple flame described in Step 2.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": [
+          "head center axes",
+          "robe drape routes"
+        ]
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "head neck and robe torso",
+          "raised right arm and torch",
+          "left arm and tablet"
+        ],
+        "landmark_observations": {
+          "head neck and robe torso": "Head, neck, shoulders, torso, and pale guides retain the same positions.",
+          "raised right arm and torch": "The raised arm, hand, handle, bowl, and flame keep their exact anchors and silhouette.",
+          "left arm and tablet": "One bent left forearm crosses the lower torso and grips one blank rectangular tablet at the same side, with hand and sleeve clearly in front."
+        },
+        "observed_addition": "The bent tablet arm, gripping hand, and blank tablet fill the reserved right side while preserving the earlier figure and torch.",
+        "instruction_match": "The saved change matches the bent arm, tablet placement, and forearm-in-front overlap described in Step 3.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": [
+          "head center axes",
+          "robe drape routes"
+        ]
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "head neck and robe torso",
+          "raised right arm and torch",
+          "left arm and tablet",
+          "face hair crown and seven rays"
+        ],
+        "landmark_observations": {
+          "head neck and robe torso": "The head boundary, neck, shoulders, torso, and robe routes stay fixed while the two face axes are intentionally softened.",
+          "raised right arm and torch": "The full torch arm and flame preserve their pose, joints, and crop.",
+          "left arm and tablet": "The tablet, gripping hand, forearm, and sleeve keep their tilt and overlap order.",
+          "face hair crown and seven rays": "Two level eyes, a short nose, calm mouth, side hair, crown band, and exactly seven clearly separated rays appear at the head anchors."
+        },
+        "observed_addition": "The calm face, wavy hair, crown band, and seven rays replace the head axes without disturbing the body, torch, or tablet.",
+        "instruction_match": "The crop shows the requested facial features and exact seven-ray count, and only the named head axes disappear after serving their placement job.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [
+          "head center axes"
+        ],
+        "observed_guides": [
+          "robe drape routes"
+        ]
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "head neck and robe torso",
+          "raised right arm and torch",
+          "left arm and tablet",
+          "face hair crown and seven rays",
+          "robe folds graphite modeling and broken shadow"
+        ],
+        "landmark_observations": {
+          "head neck and robe torso": "The figure silhouette and torso anchors remain fixed as the pale drape routes become modeled cloth.",
+          "raised right arm and torch": "Arm, hand, handle, bowl, and flame retain the same geometry while receiving graphite value.",
+          "left arm and tablet": "Tablet, hand, forearm, and sleeve remain fixed and gain only value and fold definition.",
+          "face hair crown and seven rays": "Face, hair, crown band, and all seven rays stay in the same positions and gain graphite modeling.",
+          "robe folds graphite modeling and broken shadow": "Long sleeve and torso folds follow the earlier routes, unused guide fragments soften, and one broken shadow appears directly beneath the bust."
+        },
+        "observed_addition": "Graphite modeling turns the pale established forms into a readable monument, establishes the cloth folds, and grounds the bust with one broken shadow.",
+        "instruction_match": "The image matches the fold direction, guide cleanup, all-over graphite modeling, shadow placement, fixed contours, and preserved seven rays in Step 5.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [
+          "robe drape routes"
+        ],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "head neck and robe torso",
+          "raised right arm and torch",
+          "left arm and tablet",
+          "face hair crown and seven rays",
+          "robe folds graphite modeling and broken shadow"
+        ],
+        "landmark_observations": {
+          "head neck and robe torso": "The established head, neck, shoulders, torso, and robe silhouette remain unchanged beneath muted sea green.",
+          "raised right arm and torch": "The raised arm and torch geometry stays fixed; sea green follows the arm and warm ochre stays inside the established flame.",
+          "left arm and tablet": "The left arm, hand, blank tablet, and overlaps remain unchanged under restrained color.",
+          "face hair crown and seven rays": "The calm face, hair, crown band, and exactly seven rays keep their shape and positions.",
+          "robe folds graphite modeling and broken shadow": "The same folds and broken shadow persist; existing values deepen while open-paper highlights remain visible."
+        },
+        "observed_addition": "Restrained sea green, warm ochre, and cool gray layer over the completed graphite structure without introducing any new contour.",
+        "instruction_match": "The finish follows the named palette and existing values, preserves paper highlights, and obeys the instruction to add no new structure.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
