@@ -1,0 +1,154 @@
+{
+  "schema_version": 5,
+  "slug": "pirate-sailing-ship-at-sea",
+  "finished": "assets/pirate-sailing-ship-at-sea-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One long gunwale curve and one connected keel curve make a useful boat hull in its final position, with open paper above for the mast and sails.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel graphite and restrained colored-pencil contact sheet for the September 19, 2026 current lesson. The first sheet was rejected because unplanned cabin windows appeared early and the four sail seams were not reliably countable; the approved second sheet is saved as the contact-sheet master."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {"name": "ship hull", "introduced_by_step": 1, "description": "One left-facing wooden hull formed by a long upper gunwale, raised bow, short stern, and connected curved keel."},
+    {"name": "center mast", "introduced_by_step": 2, "description": "One upright mast attached at the middle of the established hull."},
+    {"name": "bow deck and stern cabin", "introduced_by_step": 2, "description": "One short bow-deck line and one small raised stern cabin attached within the hull."},
+    {"name": "two yardarms", "introduced_by_step": 3, "description": "Two horizontal yardarms crossing the same center mast."},
+    {"name": "two square sails", "introduced_by_step": 3, "description": "One broad upper sail and one broader lower sail hanging from the two yardarms."},
+    {"name": "bowsprit and three rigging lines", "introduced_by_step": 3, "description": "One diagonal bowsprit from the raised bow and exactly three taut rigging routes connecting mast, bow, and stern."},
+    {"name": "forked pennant", "introduced_by_step": 4, "description": "One small forked pennant attached at the mast top."},
+    {"name": "three portholes", "introduced_by_step": 4, "description": "Exactly three round portholes aligned across the established hull."},
+    {"name": "four sail seams", "introduced_by_step": 4, "description": "Exactly two curved seam lines on each of the two established sails."},
+    {"name": "three wave bands", "introduced_by_step": 5, "description": "Exactly three broken wave bands overlapping the bottom edge of the hull without moving it."},
+    {"name": "two cloud wisps", "introduced_by_step": 5, "description": "Exactly two small cloud wisps placed in open sky beside the sails."},
+    {"name": "two sail highlights", "introduced_by_step": 5, "description": "Exactly two open-paper highlight shapes reserved inside the established sails."}
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/pirate-sailing-ship-at-sea-step-1.jpg",
+      "step_name": "Shape the pirate ship hull",
+      "visible_job": "Draw one long upper gunwale with a raised bow, then connect its ends with one deep curved keel and a short upright stern.",
+      "instruction": "Across the lower half of the page, pull one long gunwale curve that rises at the left bow. Drop a short stern at the right and return beneath it with one deep keel curve to meet the bow.",
+      "adds": ["ship hull"],
+      "introduces": ["ship hull"]
+    },
+    {
+      "step": 2,
+      "asset": "assets/pirate-sailing-ship-at-sea-step-2.jpg",
+      "step_name": "Raise the mast and decks",
+      "visible_job": "Attach one center mast to the hull, then add one short bow-deck line and one small raised stern cabin.",
+      "instruction": "Stand one straight mast from the middle of the gunwale. Add a short deck line behind the raised bow, then build one low blank rectangular cabin above the right stern without changing the keel.",
+      "adds": ["center mast", "bow deck and stern cabin"],
+      "introduces": ["center mast", "bow deck and stern cabin"]
+    },
+    {
+      "step": 3,
+      "asset": "assets/pirate-sailing-ship-at-sea-step-3.jpg",
+      "step_name": "Hang the sails and rigging",
+      "visible_job": "Cross the mast with two yardarms, hang two billowing square sails, extend one bowsprit, and connect exactly three rigging lines.",
+      "instruction": "Cross the mast with a short upper yardarm and a longer lower one. Hang one curved square sail from each, extend one diagonal bowsprit from the bow, and join mast, bow, and stern with exactly three taut rigging lines.",
+      "adds": ["two yardarms", "two square sails", "bowsprit and three rigging lines"],
+      "introduces": ["two yardarms", "two square sails", "bowsprit and three rigging lines"]
+    },
+    {
+      "step": 4,
+      "asset": "assets/pirate-sailing-ship-at-sea-step-4.jpg",
+      "step_name": "Add the pirate details",
+      "visible_job": "Attach one forked pennant, place exactly three hull portholes, and curve two seam lines across each established sail.",
+      "instruction": "Attach one small forked pennant at the mast top. Space exactly three round portholes across the hull, then draw exactly two shallow curved seams on each sail so the cloth feels full of wind.",
+      "adds": ["forked pennant", "three portholes", "four sail seams"],
+      "introduces": ["forked pennant", "three portholes", "four sail seams"]
+    },
+    {
+      "step": 5,
+      "asset": "assets/pirate-sailing-ship-at-sea-step-5.jpg",
+      "step_name": "Set the ship in rolling water",
+      "visible_job": "Add exactly three broken wave bands, two cloud wisps, two open-paper sail highlights, and light directional graphite-blue tone around the unchanged ship.",
+      "instruction": "Overlap the lower hull with exactly three broken wave bands and shade them lightly in desaturated blue. Add exactly two small cloud wisps, softly shade the established sail folds, and reserve one narrow open-paper highlight inside each sail.",
+      "adds": ["three wave bands", "two cloud wisps", "two sail highlights", "light graphite-blue atmosphere"],
+      "introduces": ["three wave bands", "two cloud wisps", "two sail highlights"]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/pirate-sailing-ship-at-sea-finished-v1.jpg",
+    "step_name": "Shade the ship under full sail",
+    "visible_job": "Layer graphite and restrained brown, red, blue, and cool-gray pencil over the established ship, sails, pennant, portholes, waves, and clouds without adding structure.",
+    "instruction": "Shade the hull warm brown, the pennant muted red, the waves restrained blue, and the sail folds and clouds cool gray. Deepen the three portholes and rigging with graphite, preserve both sail highlights, and add no new shapes.",
+    "adds": ["graphite and restrained color on established forms"],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.8,
+    "finished_art_score": 8.7,
+    "first_step_observation": "Step 1 is independently copyable: one rising gunwale, one short stern, and one returning keel form a useful final-position hull with ample open paper for the rig above.",
+    "draw_through_observation": "Reading the copy beside each saved crop reproduces the visible progression: fixed hull, attached mast and blank cabin, sails and rigging, countable pirate details, water and atmosphere, then restrained color. No instruction relies on a future panel or hides an erasure.",
+    "contract_sha256": "8f1b3ac7693e04d314a92787c0c7a0c6058e651b54cb868a36f1134ed53bf61d",
+    "asset_sha256": {
+      "assets/pirate-sailing-ship-at-sea-step-1.jpg": "bd4fc844b5f39d68697f2118e437b628ee4b2732549c9467bc0f81af6ea09113",
+      "assets/pirate-sailing-ship-at-sea-step-2.jpg": "05cc74206c34eef218897385ff1f24ce53784bfa7b0fad99ea4894daff828e52",
+      "assets/pirate-sailing-ship-at-sea-step-3.jpg": "034838cd9218c663fec6ddae795600d52f3a3193260a0367f08f4460a77d6f54",
+      "assets/pirate-sailing-ship-at-sea-step-4.jpg": "8601b00ed2c898d0171c9f195792b4c0cf4692f6d57f3e5eaf427b39132f810c",
+      "assets/pirate-sailing-ship-at-sea-step-5.jpg": "caff42231e25011c952bdf0621fe1d2d825f71140816f43bb8c46b75225d25a0",
+      "assets/pirate-sailing-ship-at-sea-finished-v1.jpg": "0d4ce8e22eac7bbdcb59e8be50aacde86702b0150a8453b36c0e93177aa68098"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": ["ship hull", "center mast", "bow deck and stern cabin"],
+        "observed_addition": "The second crop keeps the same gunwale, stern, and keel, then attaches one centered mast, a short raised bow deck, and one blank stern cabin.",
+        "instruction_match": "The visible mast begins at the stated gunwale point, both deck additions sit above the unchanged hull, and the cabin remains blank as instructed.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": ["ship hull", "center mast", "bow deck and stern cabin", "two yardarms", "two square sails", "bowsprit and three rigging lines"],
+        "observed_addition": "The third crop preserves the blank cabin and hull anchors while adding two yardarms, two billowing sails, one left bowsprit, and three taut rigging routes.",
+        "instruction_match": "Both sails hang from the stated yardarms, the bowsprit leaves the raised bow, and the three rigging lines meet the mast, bow, and stern endpoints described in the copy.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": ["ship hull", "center mast", "bow deck and stern cabin", "two yardarms", "two square sails", "bowsprit and three rigging lines", "forked pennant", "three portholes", "four sail seams"],
+        "observed_addition": "The fourth crop adds one forked mast-top pennant, exactly three aligned circular hull portholes, and exactly two curved interior seams on each established sail.",
+        "instruction_match": "The counts and locations match the instruction: three portholes remain on the large hull, four seams follow the sail curves, and the stern cabin stays blank.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": ["ship hull", "center mast", "bow deck and stern cabin", "two yardarms", "two square sails", "bowsprit and three rigging lines", "forked pennant", "three portholes", "four sail seams", "three wave bands", "two cloud wisps", "two sail highlights"],
+        "observed_addition": "The fifth crop adds three staggered broken wave bands at the lower hull, two separate cloud wisps, one white highlight per sail, and light directional graphite-blue atmosphere.",
+        "instruction_match": "The waves overlap only the hull bottom, both clouds occupy open sky, and the subtle sail tone follows the established seam curves while preserving two white highlights.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": ["ship hull", "center mast", "bow deck and stern cabin", "two yardarms", "two square sails", "bowsprit and three rigging lines", "forked pennant", "three portholes", "four sail seams", "three wave bands", "two cloud wisps", "two sail highlights"],
+        "observed_addition": "The finish deepens warm brown across the existing hull and cabin, muted red on the pennant, cool gray in sails and clouds, blue in the same waves, and graphite in the same portholes and rigging.",
+        "instruction_match": "Only established regions receive stronger value and restrained color; both sail highlights, every anchor, the blank cabin, all four seams, three portholes, and three wave bands remain intact.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

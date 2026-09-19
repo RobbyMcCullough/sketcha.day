@@ -1,5 +1,15 @@
 # Human Notes
 
+## 2026-09-19 — Daily pirate sailing ship lesson (Codex)
+
+- Added `pirate-sailing-ship-at-sea`, September 19 / Day 140. Five direct graphite stages plus restrained color preserve one curved hull, one center mast, one blank stern cabin, two square sails with exactly four seams, one bowsprit, exactly three rigging lines, exactly three hull portholes, three broken wave bands, two cloud wisps, and two sail highlights. Teaching rated 8.8/10; finish rated 8.7/10.
+- Rejected the first contact sheet privately because two unplanned cabin windows appeared before the detail step and the sail-seam count was unreliable. The approved second sheet keeps the cabin blank, delays the three portholes and four seams until step 4, and preserves hull, mast, sail, rigging, and overlap anchors through the finish.
+- Full readiness passed: fresh schema-v5 contract and image hashes, all five adjacent transitions, derivatives, social card, 284 local URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered QA passed on the HTTP fallback at 1440×1000 and 390×844 for homepage, library, and tutorial. Explicit scroll-and-wait checks loaded all 11 homepage images, all 138 library images, and all 11 tutorial images at both breakpoints; JSON-LD parsed, `lab.html` stayed unlinked, and no horizontal overflow appeared.
+- The one-current-lesson-per-site cadence remains active. No routine archive lesson was created.
+- Harness: Codex; task: 2026-09-19 — Daily sketch and doodle lessons.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-18 — Daily old stone well lesson (Codex)
 
 - Added `old-stone-well-with-bucket`, September 18 / Day 139. Five direct graphite stages plus restrained color preserve one oval stone rim and wall, exactly two rear posts, one top beam, one connected spindle and right crank, one centered rope and hanging bucket, staggered masonry, exactly three grass tufts, and one broken shadow. Teaching rated 8.5/10; finish rated 8.8/10.
