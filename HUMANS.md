@@ -1,5 +1,13 @@
 # Human Notes
 
+## 2026-09-18 — Daily old stone well lesson (Codex)
+
+- Added `old-stone-well-with-bucket`, September 18 / Day 139. Five direct graphite stages plus restrained color preserve one oval stone rim and wall, exactly two rear posts, one top beam, one connected spindle and right crank, one centered rope and hanging bucket, staggered masonry, exactly three grass tufts, and one broken shadow. Teaching rated 8.5/10; finish rated 8.8/10.
+- The approved six-panel sheet and every saved adjacent crop were reviewed against schema v5 copy. Post, spindle, rope, handle, bucket, rim, masonry, grass, and shadow anchors persist; the final panel adds only warm-gray, brown, muted-green, and cool-graphite treatment.
+- Full readiness passed: fresh contract/image hashes, all five transitions, derivatives, social card, 282 local URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered QA passed at 1440×1000 and 390×844 for the homepage, library, and tutorial: all lazy images loaded after scrolling, links and JSON-LD were valid, and no horizontal overflow or headline clipping appeared.
+- The one-current-lesson-per-site cadence remains active. No routine archive lesson was created.
+
 ## 2026-09-17 — Daily Statue of Liberty lesson (Codex)
 
 - Added `statue-of-liberty-with-torch`, September 17 / Day 138. Five guided graphite stages plus restrained color preserve one waist-up figure, one raised torch arm, one bent tablet arm, one blank tablet, one calm face, one crown band with exactly seven rays, established robe folds, and one broken shadow. Teaching rated 8.9/10; finish rated 9.2/10.

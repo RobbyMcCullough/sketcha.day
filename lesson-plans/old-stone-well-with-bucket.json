@@ -1,0 +1,242 @@
+{
+  "schema_version": 5,
+  "slug": "old-stone-well-with-bucket",
+  "finished": "assets/old-stone-well-with-bucket-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One wide rim ellipse joined to a short tapered wall fixes the well opening, width, and final ground position in a copyable first step.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel contact sheet planned for one consistent graphite and restrained colored-pencil well; rejected iterations stay private."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "oval stone rim and tapered well wall",
+      "introduced_by_step": 1,
+      "description": "One wide oval rim joined to a short masonry wall in its final position."
+    },
+    {
+      "name": "two rear posts and top crossbeam",
+      "introduced_by_step": 2,
+      "description": "Two upright timber posts rise behind the rim and support one horizontal beam."
+    },
+    {
+      "name": "crank spindle handle rope and bucket",
+      "introduced_by_step": 3,
+      "description": "One spindle crosses the posts with one right crank, one centered rope, and one small bucket hanging inside the opening."
+    },
+    {
+      "name": "stone joints and wood grain",
+      "introduced_by_step": 4,
+      "description": "Staggered masonry joints, rim blocks, and restrained timber grain clarify materials."
+    },
+    {
+      "name": "grass tufts and broken ground shadow",
+      "introduced_by_step": 5,
+      "description": "Exactly three grass tufts and one broken shadow ground the well."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/old-stone-well-with-bucket-step-1.jpg",
+      "step_name": "Shape the well opening",
+      "visible_job": "Draws one wide oval rim and joins it to a short tapered wall.",
+      "instruction": "Draw one wide shallow oval, echo its lower edge to make the thick stone rim, then drop two short sides and join them with one curved lower edge for the wall.",
+      "adds": [
+        "oval stone rim and tapered well wall"
+      ],
+      "introduces": [
+        "oval stone rim and tapered well wall"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/old-stone-well-with-bucket-step-2.jpg",
+      "step_name": "Raise the timber frame",
+      "visible_job": "Adds two rear posts and one crossbeam behind the established rim.",
+      "instruction": "From behind the left and right rim edges, raise exactly two upright posts and bridge their tops with one thick horizontal beam. Stop every hidden post line at the stone rim.",
+      "adds": [
+        "two rear posts and top crossbeam"
+      ],
+      "introduces": [
+        "two rear posts and top crossbeam"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/old-stone-well-with-bucket-step-3.jpg",
+      "step_name": "Hang the bucket",
+      "visible_job": "Adds the connected spindle, crank, rope, and bucket inside the opening.",
+      "instruction": "Run one spindle between the posts, bend one short crank from its right end, drop one rope from the spindle center, and attach the rope to one small bucket hanging inside the oval opening.",
+      "adds": [
+        "crank spindle handle rope and bucket"
+      ],
+      "introduces": [
+        "crank spindle handle rope and bucket"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/old-stone-well-with-bucket-step-4.jpg",
+      "step_name": "Build the stone and wood texture",
+      "visible_job": "Adds staggered stone joints, rim blocks, and restrained wood grain.",
+      "instruction": "Divide the wall into broad staggered stones, split the rim into chunky blocks, and pull a few grain lines along both posts and the top beam without crossing the rope or bucket.",
+      "adds": [
+        "stone joints and wood grain"
+      ],
+      "introduces": [
+        "stone joints and wood grain"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/old-stone-well-with-bucket-step-5.jpg",
+      "step_name": "Ground the old well",
+      "visible_job": "Adds three grass tufts and one broken ground shadow around the completed structure.",
+      "instruction": "Place exactly three small grass tufts around the base and one soft broken shadow beneath the wall. Keep the crank, rope, bucket, masonry joints, and timber connections fully readable.",
+      "adds": [
+        "grass tufts and broken ground shadow"
+      ],
+      "introduces": [
+        "grass tufts and broken ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/old-stone-well-with-bucket-finished-v1.jpg",
+    "step_name": "Shade the weathered well",
+    "visible_job": "Colors and shades only the established stone, timber, grass, bucket, opening, and shadow.",
+    "instruction": "Layer warm gray over the established stones, brown along the timber and bucket, muted green through the same three grass tufts, and cool graphite inside the opening and existing shadow. Add no new contours.",
+    "adds": [
+      "restrained graphite and colored-pencil finish"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.5,
+    "finished_art_score": 8.8,
+    "first_step_observation": "The first saved crop gives the learner one wide shallow rim ellipse, a clearly echoed inner edge, and a short joined wall in the final position. Those connected shapes establish the opening, width, ground height, and usable empty space for the later timber frame.",
+    "draw_through_observation": "I inspected the full six-cell sheet and all six saved JPGs at readable size, then compared every adjacent pair with its written instruction. The rim, wall, two posts, top beam, spindle, crank, centered rope, attached bucket, masonry, three grass tufts, and shadow keep coherent anchors and overlap order; the finish adds restrained color and value without new structure.",
+    "contract_sha256": "599af35480cadeed8396a98e1cb5d807b4008bbbeaf350a3eb5d68609db9ac73",
+    "asset_sha256": {
+      "assets/old-stone-well-with-bucket-step-1.jpg": "c42fc8323a59cb1559e2f70bf3cb598549ee1e9c6b4e6642e07910175821b6c0",
+      "assets/old-stone-well-with-bucket-step-2.jpg": "eb810044d9d7c4d418bc051f40be963a1ccf3bd423303c08c6f065f5923053ad",
+      "assets/old-stone-well-with-bucket-step-3.jpg": "f03288bbcf3a1ce021f223056e1cf9c8f27c396b5bd8ef5cc716418cdc7126fb",
+      "assets/old-stone-well-with-bucket-step-4.jpg": "ca24e899c077ff45e3847c961dfb12033854cb49792152334a26704529379516",
+      "assets/old-stone-well-with-bucket-step-5.jpg": "99840ad7d0c6dfd4184b9085e62d83ddeb75b1ecf64753a125c6161e61d2eff2",
+      "assets/old-stone-well-with-bucket-finished-v1.jpg": "a56b35778343363a2552cec581fee8639484c9d0a7228b3e08d46859ccaea71c"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "oval stone rim and tapered well wall",
+          "two rear posts and top crossbeam"
+        ],
+        "landmark_observations": {
+          "oval stone rim and tapered well wall": "The same wide oval opening, rim thickness, wall sides, lower curve, scale, and crop remain visible.",
+          "two rear posts and top crossbeam": "Exactly two posts rise from behind the rear rim and touch one horizontal beam; hidden lower post edges stop at the rim."
+        },
+        "observed_addition": "Two upright timber posts and one connected top beam fill the reserved upper paper while the original well body remains fixed.",
+        "instruction_match": "The crop matches the instruction to raise two posts behind the left and right rim edges, bridge them at the top, and preserve the front rim overlap.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "oval stone rim and tapered well wall",
+          "two rear posts and top crossbeam",
+          "crank spindle handle rope and bucket"
+        ],
+        "landmark_observations": {
+          "oval stone rim and tapered well wall": "The rim, opening, wall sides, and lower edge retain their position and proportions.",
+          "two rear posts and top crossbeam": "Both posts keep their spacing and remain attached to the same beam behind the rim.",
+          "crank spindle handle rope and bucket": "One spindle touches both posts, one crank attaches at the right, and one centered rope runs continuously into the bucket handle inside the opening."
+        },
+        "observed_addition": "The spindle, right crank, wrapped center rope, and one hanging bucket create a fully connected lifting mechanism without changing the frame.",
+        "instruction_match": "The saved image shows each requested connection from post to spindle, crank, rope, handle, and bucket at the stated center position.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "oval stone rim and tapered well wall",
+          "two rear posts and top crossbeam",
+          "crank spindle handle rope and bucket",
+          "stone joints and wood grain"
+        ],
+        "landmark_observations": {
+          "oval stone rim and tapered well wall": "The established rim and wall silhouette remain while broad blocks subdivide the same surfaces.",
+          "two rear posts and top crossbeam": "Both post anchors and the beam stay connected as restrained grain darkens their existing shapes.",
+          "crank spindle handle rope and bucket": "The spindle, crank, rope centerline, handle attachment, and bucket remain readable at the same functional anchors.",
+          "stone joints and wood grain": "Chunky rim blocks, staggered wall courses, inner-rim hatching, and lengthwise timber grain appear without crossing the bucket or rope."
+        },
+        "observed_addition": "Broad staggered masonry and wood grain turn the plain structure into recognizable stone and timber while preserving all hardware.",
+        "instruction_match": "The visible change matches the requested rim blocks, offset stone courses, and restrained grain lines, including clear stops at overlapping parts.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "oval stone rim and tapered well wall",
+          "two rear posts and top crossbeam",
+          "crank spindle handle rope and bucket",
+          "stone joints and wood grain",
+          "grass tufts and broken ground shadow"
+        ],
+        "landmark_observations": {
+          "oval stone rim and tapered well wall": "The complete stone body and opening keep the same crop and front edge.",
+          "two rear posts and top crossbeam": "The timber frame stays fixed with both posts behind the rim.",
+          "crank spindle handle rope and bucket": "All connected lifting parts remain intact and centered.",
+          "stone joints and wood grain": "The same masonry joints and wood grain persist without disappearing.",
+          "grass tufts and broken ground shadow": "Exactly three separate tufts appear at left, center front, and right, with one soft broken shadow under the wall."
+        },
+        "observed_addition": "Three countable grass tufts and one light broken ground shadow anchor the completed well to the page.",
+        "instruction_match": "The image matches the exact three-tuft count and broken-shadow placement while preserving every named structural landmark.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "oval stone rim and tapered well wall",
+          "two rear posts and top crossbeam",
+          "crank spindle handle rope and bucket",
+          "stone joints and wood grain",
+          "grass tufts and broken ground shadow"
+        ],
+        "landmark_observations": {
+          "oval stone rim and tapered well wall": "Warm-gray pencil follows the established rim blocks and wall stones without changing their contours.",
+          "two rear posts and top crossbeam": "Brown pencil follows both posts and the same top beam while their attachments remain fixed.",
+          "crank spindle handle rope and bucket": "The spindle, crank, rope, bucket handle, and bucket keep their shapes and connections under restrained brown and graphite.",
+          "stone joints and wood grain": "Existing joints and grain remain visible through the color layers.",
+          "grass tufts and broken ground shadow": "The same three tufts receive muted green and the same broken ground area receives cool graphite."
+        },
+        "observed_addition": "Restrained warm gray, brown, muted green, and cool graphite deepen only established regions and retain visible paper tooth.",
+        "instruction_match": "The finish uses the named palette on the named forms, preserves all counts and anchors, and introduces no new contour or prop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
