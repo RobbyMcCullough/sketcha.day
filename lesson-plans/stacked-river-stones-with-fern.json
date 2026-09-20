@@ -1,0 +1,137 @@
+{
+  "schema_version": 5,
+  "slug": "stacked-river-stones-with-fern",
+  "finished": "assets/stacked-river-stones-with-fern-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One broad low stone and one smaller overlapping stone establish the stack's center, weight, and final footprint without detached guides.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "The first two sheets failed count and early-color checks; the third sheet needed a two-leaf tip repair but still drifted between early stones. The approved finish became the stable raster master, and Steps 1-4 were derived backward with targeted image edits while Step 5 and the finish retain the approved master geometry."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {"name":"broad bottom stone","introduced_by_step":1,"description":"One broad flattened river stone centered low on the page."},
+    {"name":"middle stone","introduced_by_step":1,"description":"One smaller rounded stone overlapping the upper edge of the bottom stone."},
+    {"name":"top stone","introduced_by_step":2,"description":"One small oval stone balanced on the middle stone."},
+    {"name":"three contact seams","introduced_by_step":2,"description":"Three short dark contact accents: two between stones and one beneath the bottom stone."},
+    {"name":"fern stem","introduced_by_step":3,"description":"One curved fern stem rising from behind the stack toward the upper right."},
+    {"name":"eight fern leaflets","introduced_by_step":3,"description":"Exactly eight alternating leaflets attached along the fern stem."},
+    {"name":"stone contour arcs","introduced_by_step":4,"description":"A sparse group of short curved surface arcs following the roundness of all three stones."},
+    {"name":"three small pebbles","introduced_by_step":4,"description":"Exactly three small pebbles grouped beside the stack."},
+    {"name":"broken ground shadow","introduced_by_step":5,"description":"One soft broken graphite shadow grounding the stones and pebbles."},
+    {"name":"restrained gray green and ochre color","introduced_by_step":5,"description":"Established color regions on the stones, fern, pebbles, and shadow before the final refinement."}
+  ],
+  "frames": [
+    {
+      "step":1,
+      "asset":"assets/stacked-river-stones-with-fern-step-1.jpg",
+      "step_name":"Stack the first two stones",
+      "visible_job":"Draw one broad low stone and overlap it with one smaller rounded middle stone.",
+      "instruction":"Draw a wide flattened oval low on the page, then overlap its upper edge with a smaller rounded stone. Keep both silhouettes slightly uneven and let the middle stone sit just left of center.",
+      "adds":["broad bottom stone","middle stone"],
+      "introduces":["broad bottom stone","middle stone"]
+    },
+    {
+      "step":2,
+      "asset":"assets/stacked-river-stones-with-fern-step-2.jpg",
+      "step_name":"Balance the top stone",
+      "visible_job":"Add one small top stone and three short contact seams.",
+      "instruction":"Place one small oval stone on the middle stone, leaning slightly right. Darken a short contact accent beneath the top stone, another beneath the middle stone, and one under the broad base.",
+      "adds":["top stone","three contact seams"],
+      "introduces":["top stone","three contact seams"]
+    },
+    {
+      "step":3,
+      "asset":"assets/stacked-river-stones-with-fern-step-3.jpg",
+      "step_name":"Grow the fern sprig",
+      "visible_job":"Raise one curved stem from behind the stones and attach exactly eight leaflets.",
+      "instruction":"Start behind the left side of the middle stone and sweep one stem up toward the upper right. Attach exactly eight alternating leaflets along it, making them gradually smaller near the tip.",
+      "adds":["fern stem","eight fern leaflets"],
+      "introduces":["fern stem","eight fern leaflets"]
+    },
+    {
+      "step":4,
+      "asset":"assets/stacked-river-stones-with-fern-step-4.jpg",
+      "step_name":"Add stone rhythm and pebbles",
+      "visible_job":"Place sparse contour arcs across the three stones and exactly three small pebbles beside the base.",
+      "instruction":"Add a few short curved surface arcs across each stone, following its roundness without filling the forms. Group exactly three small pebbles near the lower-right edge without touching the stack.",
+      "adds":["stone contour arcs","three small pebbles"],
+      "introduces":["stone contour arcs","three small pebbles"]
+    },
+    {
+      "step":5,
+      "asset":"assets/stacked-river-stones-with-fern-step-5.jpg",
+      "step_name":"Set the quiet values",
+      "visible_job":"Add the broken ground shadow and establish restrained gray, green, and ochre regions.",
+      "instruction":"Lay one broken graphite shadow beneath the stack and pebbles. Glaze the three stones with separate cool-gray and warm-ochre tones, then tint the stem and eight leaflets muted green while leaving paper highlights open.",
+      "adds":["broken ground shadow","restrained gray green and ochre color"],
+      "introduces":["broken ground shadow","restrained gray green and ochre color"]
+    }
+  ],
+  "final_step": {
+    "asset":"assets/stacked-river-stones-with-fern-finished-v1.jpg",
+    "step_name":"Deepen the natural finish",
+    "visible_job":"Strengthen only the established contacts, contour arcs, fern veins, color, and broken shadow.",
+    "instruction":"Deepen the three contact accents and existing contour arcs with 2B graphite. Reinforce the established gray, ochre, and muted-green color lightly, add fine veins inside the eight existing leaflets, and soften the existing broken shadow without adding new forms.",
+    "adds":["stronger established graphite and colored-pencil texture"],
+    "introduces":[]
+  },
+  "visual_review": {
+    "status":"approved",
+    "teaching_score":8.6,
+    "finished_art_score":8.5,
+    "first_step_observation":"Step 1 is independently useful: one broad low stone and one smaller overlapping stone establish the final footprint, weight, and left-of-center balance without detached guides or future details.",
+    "draw_through_observation":"The saved master-derived crops now follow the copy in order: two fixed stones, the same stack with its top stone and contacts, one anchored eight-leaf fern, surface arcs and three pebbles, restrained color and shadow, then deeper value. The exact stone silhouettes and fern attachment persist after introduction, with no hidden erasure or unexplained move.",
+    "contract_sha256":"0412a23e9159ea7391fc5208801b26850cfafb857c5960c38fdf57fffbce77ba",
+    "asset_sha256":{
+      "assets/stacked-river-stones-with-fern-step-1.jpg":"b5bee9edaabf70fd7cb1d9977ff6ea7cacae88b3e8c8f42b6cc9678e5e264256",
+      "assets/stacked-river-stones-with-fern-step-2.jpg":"c3d76526762f081f483747ebc4a40d1464b1a94c3d6e68dee39e96d11b665d7c",
+      "assets/stacked-river-stones-with-fern-step-3.jpg":"5b20546f8c6d2a75057682ea0566c1c6cecba7be9bbe5cd9b9c1daab8040148b",
+      "assets/stacked-river-stones-with-fern-step-4.jpg":"06d3f3e1dd54946c69367c6ef4cf2f13084fcdada4e9567a10e3732dba4a80f2",
+      "assets/stacked-river-stones-with-fern-step-5.jpg":"7300a6122459a0c68e6504ef7cf376e3dc4e3ce2489699cab23c01ebd6a0874b",
+      "assets/stacked-river-stones-with-fern-finished-v1.jpg":"35b78725510fbac213285933aaeca81830c853d5809f55e3763fdc1cc5cc7e0a"
+    },
+    "transitions":[
+      {
+        "from_step":1,
+        "to_step":2,
+        "observed_present":["broad bottom stone","middle stone","top stone","three contact seams"],
+        "observed_addition":"The second crop preserves the exact broad bottom and rounded middle stones, then adds one small right-leaning top stone and three darker supporting contact accents.",
+        "instruction_match":"The top stone lands on the stated middle-stone contact, and the three dark accents sit beneath the top, middle, and base exactly where the copy directs.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":2,
+        "to_step":3,
+        "observed_present":["broad bottom stone","middle stone","top stone","three contact seams","fern stem","eight fern leaflets"],
+        "observed_addition":"The third crop keeps all three stone silhouettes and contacts while adding one curved stem from behind the middle stone and exactly eight alternating leaflets.",
+        "instruction_match":"The stem begins at the specified hidden attachment, rises upper right, and carries four leaflets on each side with the smallest forms near the bare tip.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":3,
+        "to_step":4,
+        "observed_present":["broad bottom stone","middle stone","top stone","three contact seams","fern stem","eight fern leaflets","stone contour arcs","three small pebbles"],
+        "observed_addition":"The fourth crop preserves the full stack and eight-leaf sprig, then adds sparse curved surface arcs across all three stones and exactly three unequal pebbles at lower right.",
+        "instruction_match":"Every arc follows its stone's roundness and the three separate pebbles occupy the open lower-right area without touching or obscuring the stack.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":4,
+        "to_step":5,
+        "observed_present":["broad bottom stone","middle stone","top stone","three contact seams","fern stem","eight fern leaflets","stone contour arcs","three small pebbles","broken ground shadow","restrained gray green and ochre color"],
+        "observed_addition":"The fifth crop retains every contour, leaflet, and pebble while adding one broken graphite shadow, cool and warm stone glazes, and muted green within the established sprig.",
+        "instruction_match":"Color stays inside the existing forms, all eight leaflets and three pebbles remain countable, and the broken shadow grounds rather than replaces any earlier line.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      },
+      {
+        "from_step":5,
+        "to_step":6,
+        "observed_present":["broad bottom stone","middle stone","top stone","three contact seams","fern stem","eight fern leaflets","stone contour arcs","three small pebbles","broken ground shadow","restrained gray green and ochre color"],
+        "observed_addition":"The finish deepens graphite contacts, existing surface texture, muted stone color, leaflet veins, and the same broken shadow without introducing another object or contour.",
+        "instruction_match":"Only established regions gain stronger value; three stones, eight leaflets, three pebbles, the fixed stem attachment, sparse arcs, and paper highlights all remain in place.",
+        "unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]
+      }
+    ]
+  }
+}

@@ -1,5 +1,15 @@
 # Human Notes
 
+## 2026-09-20 — Daily stacked river stones lesson (Codex)
+
+- Added `stacked-river-stones-with-fern`, September 20 / Day 141. Five direct graphite stages plus restrained color preserve three balanced stones, one fern sprig with eight leaves, three small pebbles, curved contour marks, stable contact points, and one broken shadow. Teaching rated 8.6/10; finish rated 8.5/10.
+- Rejected three generated progression variants privately for leaf-count, contour-count, and stone-silhouette drift. The approved sequence is derived from the reviewed final master so stone silhouettes, contact points, fern attachment, leaf count, pebble positions, contour marks, and shadow anchors remain stable through every adjacent transition.
+- Full readiness passed: fresh schema-v5 contract and image hashes, all five adjacent transitions, derivatives, social card, 286 URLs with zero failures, JSON-LD, asset usage, ledger, and clean diff checks.
+- Rendered QA passed on the HTTP fallback at 1440×1000 and 390×844 for homepage, library, and tutorial. The current lesson appeared in the library, JSON-LD was present, `lab.html` stayed unlinked, and no broken images or horizontal overflow appeared. Layout rated 8.9/10 desktop and 8.7/10 mobile.
+- The one-current-lesson-per-site cadence remains active. No routine archive lesson was created.
+- Harness: Codex; intended task title: 2026-09-20 — Daily sketch and doodle lessons (the runtime did not expose task renaming).
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-19 — Daily pirate sailing ship lesson (Codex)
 
 - Added `pirate-sailing-ship-at-sea`, September 19 / Day 140. Five direct graphite stages plus restrained color preserve one curved hull, one center mast, one blank stern cabin, two square sails with exactly four seams, one bowsprit, exactly three rigging lines, exactly three hull portholes, three broken wave bands, two cloud wisps, and two sail highlights. Teaching rated 8.8/10; finish rated 8.7/10.
