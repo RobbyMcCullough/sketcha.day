@@ -1,5 +1,12 @@
 # Human Notes
 
+## 2026-09-24 — September 21 peace dove closeout (Codex)
+
+- Integrated the previously approved `peace-dove-with-olive-branch` current lesson for September 21 / Day 142. Its schema-v5 review records teaching 8.8/10 and finish 8.7/10, with fixed wings, three tail feathers, a beak-held twig, and seven leaves across six saved frames.
+- Rechecked the saved sheet, finished crop, plan hashes, ledger, generated page copy, and all adjacent step deltas. The local fallback preview loaded all five step WebPs and the finished image; desktop and mobile homepage, library, and tutorial had no horizontal overflow, and the tutorial JSON-LD parsed.
+- Kept the one-current-lesson-per-site cadence. No September 22–24 archive or backfill lessons were created. Generated Python bytecode is ignored so future validation does not leave a dirty worktree. Seven rejected iteration images remain in their private draft folder, but Dropbox has offloaded their bytes; that exact folder is ignored until it can be hydrated and reviewed for archival.
+- Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-20 — Daily stacked river stones lesson (Codex)
 
 - Added `stacked-river-stones-with-fern`, September 20 / Day 141. Five direct graphite stages plus restrained color preserve three balanced stones, one fern sprig with eight leaves, three small pebbles, curved contour marks, stable contact points, and one broken shadow. Teaching rated 8.6/10; finish rated 8.5/10.

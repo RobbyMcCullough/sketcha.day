@@ -1,0 +1,58 @@
+{
+  "schema_version": 5,
+  "slug": "peace-dove-with-olive-branch",
+  "finished": "assets/peace-dove-with-olive-branch-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One continuous head-and-body contour fixes the dove's left-facing flight direction, chest, back, and open attachment space for both wings without asking the learner to place disconnected parts.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Planned six-panel handmade graphite contact sheet for the September 21 current lesson. Keep one left-facing dove, two fixed wings, one tail, one beak-held olive branch with seven leaves, restrained blue-gray and olive pencil, and no final-only structure. Preserve rejected iterations privately."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {"name":"head and body contour","introduced_by_step":1,"description":"One continuous left-facing dove contour from rounded head through chest, belly, back, and neck, with reserved gaps for the wings."},
+    {"name":"raised near wing and three tail feathers","introduced_by_step":2,"description":"One broad wing attached high on the back and three tapered tail feathers joined at the rear body."},
+    {"name":"lower far wing beak and eye","introduced_by_step":3,"description":"One narrower far wing attached behind the lower body, one short beak, and one calm almond eye."},
+    {"name":"olive branch with seven leaves","introduced_by_step":4,"description":"One curved twig held at the beak tip with exactly seven alternating olive leaves."},
+    {"name":"feather groups contour marks and broken shadow","introduced_by_step":5,"description":"Five long near-wing feather divisions, three far-wing divisions, light body contour marks, and one broken shadow beneath the flight path."},
+    {"name":"restrained blue gray olive and warm brown color","introduced_by_step":5,"description":"Blue-gray pencil on the dove, olive green on seven leaves, warm brown on the twig, and cool graphite in the shadow."}
+  ],
+  "frames": [
+    {"step":1,"asset":"assets/peace-dove-with-olive-branch-step-1.jpg","step_name":"Shape the flying dove","visible_job":"Draw one continuous left-facing head-and-body contour, keeping a rounded chest, tapered rear body, and two clean wing attachment gaps.","instruction":"Start at the forehead, curve around the head into the breast and belly, taper toward the tail base, then return along the back to the neck. Leave one broad gap high on the back and a shorter gap beneath the body for the two wings.","adds":["head and body contour"],"introduces":["head and body contour"]},
+    {"step":2,"asset":"assets/peace-dove-with-olive-branch-step-2.jpg","step_name":"Lift the near wing and tail","visible_job":"Attach one broad raised wing at the upper gap and exactly three tapered tail feathers at the rear body.","instruction":"From the high back gap, sweep one broad wing upward and back, then return it to the same attachment with a shallow inner edge. At the rear body, fan exactly three tapered tail feathers from one shared base.","adds":["raised near wing","three tail feathers"],"introduces":["raised near wing and three tail feathers"]},
+    {"step":3,"asset":"assets/peace-dove-with-olive-branch-step-3.jpg","step_name":"Add the far wing and face","visible_job":"Attach the narrower far wing beneath the body, then add one short beak and one calm almond eye.","instruction":"Use the lower reserved gap to attach one narrower wing sweeping down and right behind the body. Add one short pointed beak at the face and one small almond eye with its pupil aimed forward.","adds":["lower far wing","beak","eye"],"introduces":["lower far wing beak and eye"]},
+    {"step":4,"asset":"assets/peace-dove-with-olive-branch-step-4.jpg","step_name":"Place the olive branch","visible_job":"Run one curved twig from the beak and attach exactly seven alternating olive leaves.","instruction":"Touch one slender curved twig to the beak tip and angle it down toward the lower left. Attach exactly seven narrow leaves in an alternating rhythm, keeping every stem joint visible and the first leaf clear of the dove's face.","adds":["olive twig","seven olive leaves"],"introduces":["olive branch with seven leaves"]},
+    {"step":5,"asset":"assets/peace-dove-with-olive-branch-step-5.jpg","step_name":"Set feathers and quiet color","visible_job":"Divide the established wings into feather groups, add sparse body contour marks and a broken shadow, then layer restrained blue-gray, olive, brown, and graphite.","instruction":"Pull five long feather divisions through the raised wing and three through the lower wing, following each wing's sweep. Add a few curved body marks and one broken shadow beneath the bird, then layer pale blue gray on the dove, olive on all seven leaves, warm brown on the twig, and cool graphite in the shadow.","adds":["five near-wing feather divisions","three far-wing feather divisions","body contour marks","broken shadow","restrained color"],"introduces":["feather groups contour marks and broken shadow","restrained blue gray olive and warm brown color"]}
+  ],
+  "final_step": {
+    "asset":"assets/peace-dove-with-olive-branch-finished-v1.jpg",
+    "step_name":"Deepen the peaceful flight",
+    "visible_job":"Only deepen established contours, feather groups, restrained color, open-paper highlights, and the existing broken shadow.",
+    "instruction":"Deepen selected chest, wing, tail, beak, eye, twig, and leaf edges with 2B graphite. Reinforce the established blue-gray, olive, and warm-brown pencil lightly, preserve the open highlights, and soften the same broken shadow without adding any new contour.",
+    "adds":["keeper contour darkening","restrained value deepening","open paper highlight clarification"],
+    "introduces":[]
+  },
+  "visual_review": {
+    "status":"approved",
+    "teaching_score":8.8,
+    "finished_art_score":8.7,
+    "first_step_observation":"Step 1 is independently copyable: one clean continuous contour fixes the final left-facing head, chest, belly, back, and tail base while two obvious open gaps reserve the exact wing attachments.",
+    "draw_through_observation":"I inspected all six saved square crops pairwise at full size. The dove keeps one head-and-body silhouette, two fixed wing attachments, three tail feathers, one beak and eye, one beak-held twig, and exactly seven leaves. The repaired sheet removes premature color from Steps 1–4; Step 5 adds only the planned feather groups, body marks, shadow, and restrained color, and the finish only deepens those established regions.",
+    "contract_sha256":"1e377e5d5f7b52f9c528928ed6f74d0e100729cb41d3297283c86b4623a9f88f",
+    "asset_sha256":{
+      "assets/peace-dove-with-olive-branch-step-1.jpg":"087d29eb2d1327e58ad44f516358eaa736d3b3ff7e4323a449e1df2a19106008",
+      "assets/peace-dove-with-olive-branch-step-2.jpg":"6dba94d4698f5e9b102f4ecb1bc43ddaf3cc250f61da19a9eabff66c17380437",
+      "assets/peace-dove-with-olive-branch-step-3.jpg":"43b6d9fd79aacd1100cfb9eb3ae954d246f07bfaf2044dcb839898e8cee0bf29",
+      "assets/peace-dove-with-olive-branch-step-4.jpg":"8f263dc754134b1305eaac1c1d67ce365f19a6dfb0e09afecddf2a4244192515",
+      "assets/peace-dove-with-olive-branch-step-5.jpg":"d79676be24237a0e3084dbc86bfcc4fe18bbd3bcb8da3b136cbacbcfc8e4c07a",
+      "assets/peace-dove-with-olive-branch-finished-v1.jpg":"4108b2c2a336fb67c6a8151e14e41b75e8950d84fdacd524cf18811f1455d4bb"
+    },
+    "transitions":[
+      {"from_step":1,"to_step":2,"observed_present":["head and body contour","raised near wing and three tail feathers"],"observed_addition":"The second crop preserves the exact open head-and-body contour, attaches one broad raised wing at the upper gap, and fans exactly three tail feathers from the same rear base.","instruction_match":"The raised wing begins and ends at the reserved upper-back gap, the lower gap stays open, and all three tail feathers share the rear-body attachment described by the copy.","unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]},
+      {"from_step":2,"to_step":3,"observed_present":["head and body contour","raised near wing and three tail feathers","lower far wing beak and eye"],"observed_addition":"The third crop keeps the near wing and three tail feathers unchanged, closes the lower gap with one down-swept far wing, and adds one short beak and calm almond eye.","instruction_match":"The new far wing sits behind the belly at the stated lower attachment, while the beak and forward-looking eye occupy only the established head without moving its contour.","unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]},
+      {"from_step":3,"to_step":4,"observed_present":["head and body contour","raised near wing and three tail feathers","lower far wing beak and eye","olive branch with seven leaves"],"observed_addition":"The fourth crop preserves the complete graphite dove and adds one curved twig touching the beak with exactly seven alternating outlined leaves and visible stem joints.","instruction_match":"The branch angles down toward the lower left, its first leaf clears the face, and all seven leaf shapes stay uncolored as required for this step.","unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]},
+      {"from_step":4,"to_step":5,"observed_present":["head and body contour","raised near wing and three tail feathers","lower far wing beak and eye","olive branch with seven leaves","feather groups contour marks and broken shadow","restrained blue gray olive and warm brown color"],"observed_addition":"The fifth crop keeps both wing silhouettes, three tail feathers, beak, eye, twig, and seven leaves while adding five raised-wing divisions, three lower-wing divisions, sparse body marks, a broken shadow, and restrained color.","instruction_match":"Blue gray stays within the dove, olive within the seven leaves, brown on the same twig, and graphite in the new broken shadow; no new silhouette or attachment appears.","unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]},
+      {"from_step":5,"to_step":6,"observed_present":["head and body contour","raised near wing and three tail feathers","lower far wing beak and eye","olive branch with seven leaves","feather groups contour marks and broken shadow","restrained blue gray olive and warm brown color"],"observed_addition":"The finished crop deepens selected outer contours, existing feather divisions, established blue-gray, olive, and brown pencil, and the same broken shadow while preserving open highlights.","instruction_match":"Only the existing values and keeper edges become stronger; the two wings, three tail feathers, five and three feather divisions, seven leaves, twig route, eye, beak, and shadow remain fixed.","unexplained_removals":[],"unexplained_moves":[],"removed_guides":[],"observed_guides":[]}
+    ]
+  }
+}

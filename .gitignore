@@ -5,3 +5,5 @@ node_modules/
 dist/
 tmp/
 *.log
+__pycache__/
+drafts/peace-dove-with-olive-branch/rejected-progressions/
