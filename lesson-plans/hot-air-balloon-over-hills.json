@@ -1,0 +1,223 @@
+{
+  "schema_version": 5,
+  "slug": "hot-air-balloon-over-hills",
+  "finished": "assets/hot-air-balloon-over-hills-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One large pear-shaped envelope gives the learner a recognizable balloon in its final position and leaves a clear opening for the basket below.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel graphite and restrained colored-pencil contact sheet on paper. Same balloon, basket, ropes, hill horizon, and two clouds in fixed positions throughout."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "balloon envelope and neck",
+      "introduced_by_step": 1,
+      "description": "One tall rounded balloon envelope narrowing to an open neck at bottom center."
+    },
+    {
+      "name": "basket and suspension ropes",
+      "introduced_by_step": 2,
+      "description": "One small wicker basket centered below the neck, joined by exactly two sloping suspension ropes."
+    },
+    {
+      "name": "balloon panel seams and burner",
+      "introduced_by_step": 3,
+      "description": "Four curved lengthwise panel seams inside the envelope and one small burner between neck and basket."
+    },
+    {
+      "name": "rolling hills and two clouds",
+      "introduced_by_step": 4,
+      "description": "Two low overlapping hill contours beneath the balloon and exactly two small clouds clear of the silhouette."
+    },
+    {
+      "name": "basket rim and light cloud hill shading",
+      "introduced_by_step": 4,
+      "description": "A narrow second line at the basket top and light graphite on both clouds and hills, all within established silhouettes."
+    },
+    {
+      "name": "basket weave and pencil hatching",
+      "introduced_by_step": 5,
+      "description": "Sparse crisscross basket weave, contour hatching on balloon and hills, and one short basket shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/hot-air-balloon-over-hills-step-1.jpg",
+      "step_name": "Shape the balloon",
+      "visible_job": "Draw the single tall balloon envelope and narrow open neck.",
+      "instruction": "Start at the rounded crown, curve down both sides to a narrow open neck, and leave the bottom center clear for the basket connection.",
+      "adds": [
+        "balloon envelope and neck"
+      ],
+      "introduces": [
+        "balloon envelope and neck"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/hot-air-balloon-over-hills-step-2.jpg",
+      "step_name": "Hang the basket",
+      "visible_job": "Add one centered basket and exactly two ropes attached to the neck.",
+      "instruction": "Place a small tapered basket directly below the open neck. Join its top corners to the neck with two sloping ropes, keeping the space between them open.",
+      "adds": [
+        "basket and suspension ropes"
+      ],
+      "introduces": [
+        "basket and suspension ropes"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/hot-air-balloon-over-hills-step-3.jpg",
+      "step_name": "Divide the envelope",
+      "visible_job": "Add four curved panel seams and a small burner between the ropes.",
+      "instruction": "Pull four long curved seams from the crown toward the neck, following the round form. Set a small burner directly above the basket between the two ropes.",
+      "adds": [
+        "balloon panel seams and burner"
+      ],
+      "introduces": [
+        "balloon panel seams and burner"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/hot-air-balloon-over-hills-step-4.jpg",
+      "step_name": "Place the hills",
+      "visible_job": "Add two overlapping hills, exactly two clouds, a narrow basket rim, and light graphite within the new landscape.",
+      "instruction": "Sweep two gently overlapping hill lines across the lower paper below the basket. Draw one cloud to each side of the balloon, then add a narrow rim to the existing basket and lightly shade inside the clouds and hills.",
+      "adds": [
+        "rolling hills and two clouds",
+        "basket rim and light cloud hill shading"
+      ],
+      "introduces": [
+        "rolling hills and two clouds",
+        "basket rim and light cloud hill shading"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/hot-air-balloon-over-hills-step-5.jpg",
+      "step_name": "Add pencil texture",
+      "visible_job": "Add crisscross basket weave, deepen form hatching on balloon and hills, and place one short shadow under the basket.",
+      "instruction": "Cross a few short pencil strokes on the basket, darken the existing hill hatching and add light strokes along each balloon panel, then place one short shadow directly beneath the suspended basket.",
+      "adds": [
+        "basket weave and pencil hatching"
+      ],
+      "introduces": [
+        "basket weave and pencil hatching"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/hot-air-balloon-over-hills-finished-v1.jpg",
+    "step_name": "Color the flight",
+    "visible_job": "Layer restrained color and deepen only established contours and shadows.",
+    "instruction": "Use muted ochre, rust, and blue pencil inside the existing balloon panels, warm brown in the basket, and pale green on the two hills. Deepen selected graphite edges without adding new forms.",
+    "adds": [
+      "restrained color on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.3,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved crop shows only one open pear-shaped envelope. Its two lower endpoints are level and leave a useful centered route for the basket; the learner can copy the broad crown and paired narrowing sides without seeing later panels.",
+    "draw_through_observation": "I viewed the full six-panel sheet, then every saved square JPG from Step 1 through the finish. The crown, tapered sides, basket center, two rope contacts, four seam paths, burner, two clouds and two hill contours stay anchored through adjacent crops. No temporary guides are used. Step 4 adds a small rim and early light shade, now stated in the plan. The finish colors established regions while retaining visible graphite grain.",
+    "contract_sha256": "fab8043b77989666f29be7091df4b31078eb080e466f64cdec19d878eeac1001",
+    "asset_sha256": {
+      "assets/hot-air-balloon-over-hills-step-1.jpg": "0cffb9cf03378a2631abff2396f0d8d7f6c901f959fafaf8ee236bfd795eeb76",
+      "assets/hot-air-balloon-over-hills-step-2.jpg": "ef02a9d8046240f531e2803fb432e01bb7d6027167fce3e933ba0534da61f418",
+      "assets/hot-air-balloon-over-hills-step-3.jpg": "9abace3865c9c094a22d5a80a235ea5908c76d4ca098bf3f1203caaca0250772",
+      "assets/hot-air-balloon-over-hills-step-4.jpg": "ed66997bd4fbf9a935c668814de39eef59dd707a120993c261d25eb204905065",
+      "assets/hot-air-balloon-over-hills-step-5.jpg": "515a0cdc842762f2db54134742fb4a683da5f2d1000f9c51c190160a6503b90d",
+      "assets/hot-air-balloon-over-hills-finished-v1.jpg": "bed8fdd2405341c2b3119c1c0a053d01eb5ea51bd89c9454a5dfdfb0ddd81961"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "balloon envelope and neck",
+          "basket and suspension ropes"
+        ],
+        "observed_addition": "The second saved crop extends the two open envelope ends into two sloping rope routes meeting the top corners of a plain centered trapezoid basket; the round crown and side bends stay in place.",
+        "instruction_match": "The copy asks for a centered basket and two connections from the established throat. No seam, burner, hill, cloud, weave or color appears yet.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "balloon envelope and neck",
+          "basket and suspension ropes",
+          "balloon panel seams and burner"
+        ],
+        "observed_addition": "The third crop preserves the envelope, basket and both rope contacts. Four curved seams run from crown to neck, and one small burner hangs between the ropes above the basket.",
+        "instruction_match": "The four seams follow the envelope curvature and the burner stays inside the reserved open space; the basket outline and rope attachments remain fixed.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "balloon envelope and neck",
+          "basket and suspension ropes",
+          "balloon panel seams and burner",
+          "rolling hills and two clouds",
+          "basket rim and light cloud hill shading"
+        ],
+        "observed_addition": "The fourth crop keeps the balloon, four seams, two ropes, burner and basket in the same positions. Two low hill contours cross below the basket, one cloud sits left and one right, and a narrow basket rim and light landscape hatching appear.",
+        "instruction_match": "The clouds clear the envelope and the hills stay beneath the suspended basket; the added basket rim and light shade are stated in the revised instruction.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "balloon envelope and neck",
+          "basket and suspension ropes",
+          "balloon panel seams and burner",
+          "rolling hills and two clouds",
+          "basket rim and light cloud hill shading",
+          "basket weave and pencil hatching"
+        ],
+        "observed_addition": "The fifth crop retains both hills, both clouds and all balloon hardware. Basket crisscross weave, stronger curved graphite hatching on envelope and hills, and one dark oval shadow below the basket are visible.",
+        "instruction_match": "The hatching follows the established panel and hill contours, the basket weave stays inside the existing trapezoid, and the shadow is directly below it.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "balloon envelope and neck",
+          "basket and suspension ropes",
+          "balloon panel seams and burner",
+          "rolling hills and two clouds",
+          "basket rim and light cloud hill shading",
+          "basket weave and pencil hatching"
+        ],
+        "observed_addition": "The finished crop retains the envelope silhouette, four seams, two rope routes, burner, basket weave, two clouds, two hills and one shadow at the same anchors; dry ochre, blue, rust, brown and green pencil covers the established regions.",
+        "instruction_match": "The final instruction only colors and deepens existing shapes. The graphite texture remains visible through color and no new object, seam, cloud or hill appears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

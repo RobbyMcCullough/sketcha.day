@@ -1,5 +1,11 @@
 # Human Notes
 
+## 2026-09-25 — Current hot-air balloon lesson (Codex)
+
+- Added Day 143 `hot-air-balloon-over-hills` for September 25 with six cumulative graphite and restrained colored-pencil frames. The first sheet was rejected for premature basket texture and a closed throat; the approved sheet keeps one open envelope, a centered basket, two rope routes, four seams, one burner, two clouds, two hills, and a short shadow.
+- Saved-crop review rated teaching 8.3/10 and finish 8.2/10. Full readiness passed, including 290 internal URLs, five adjacent deltas, schema-v5 hashes, derivatives, JSON-LD, unused assets, and diff checks. Desktop/mobile homepage, library, and tutorial QA passed on the documented HTTP fallback because Cove had an invalid certificate.
+- The one-current-lesson-per-site cadence remains active. No archive/backfill lesson was created. Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-24 — September 21 peace dove closeout (Codex)
 
 - Integrated the previously approved `peace-dove-with-olive-branch` current lesson for September 21 / Day 142. Its schema-v5 review records teaching 8.8/10 and finish 8.7/10, with fixed wings, three tail feathers, a beak-held twig, and seven leaves across six saved frames.
