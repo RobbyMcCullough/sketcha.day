@@ -1,0 +1,25 @@
+{
+  "schema_version": 5,
+  "slug": "cracked-geode-with-crystals",
+  "finished": "assets/cracked-geode-with-crystals-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A low uneven shell with a flat resting edge fixes the geode's scale and stance before any interior detail.",
+  "source": {"type": "generated-raster-master", "notes": "One reviewed six-panel handmade graphite and restrained colored-pencil contact sheet; rejected iterations retained privately."},
+  "temporary_guides": [],
+  "final_elements": [
+    {"name":"outer shell", "introduced_by_step":1, "description":"One low, irregular oval rock silhouette with a short flat bottom in its final position."},
+    {"name":"inset cavity", "introduced_by_step":2, "description":"One scalloped inset opening inside the shell, with a continuous visible rock rim."},
+    {"name":"five crystals", "introduced_by_step":3, "description":"Exactly five unequal triangular crystal points rooted along the bottom of the cavity; their tips stay fixed."},
+    {"name":"crystal facets", "introduced_by_step":4, "description":"One or two straight facet edges inside each of the five existing crystal points."},
+    {"name":"shell texture", "introduced_by_step":5, "description":"Sparse graphite grain on the existing outer shell and a short broken ground shadow beneath its flat base."}
+  ],
+  "frames": [
+    {"step":1,"asset":"assets/cracked-geode-with-crystals-step-1.jpg","step_name":"Set the rock silhouette","visible_job":"Draw one low irregular oval with a short flat bottom.","instruction":"Begin left of center, curve over three small uneven bumps, come down the right side, and join the ends with a short flat resting edge. Keep the top open inside for the cavity.","adds":["outer shell"],"introduces":["outer shell"]},
+    {"step":2,"asset":"assets/cracked-geode-with-crystals-step-2.jpg","step_name":"Open the cavity","visible_job":"Add one scalloped inset opening and a visible thickness of stone around it.","instruction":"Inside the outer shell, start near the upper left and sweep a shallow scalloped oval toward the upper right, then close it above the flat base. Leave an uneven band of rock between this opening and the outside edge.","adds":["inset cavity"],"introduces":["inset cavity"]},
+    {"step":3,"asset":"assets/cracked-geode-with-crystals-step-3.jpg","step_name":"Grow five crystal points","visible_job":"Add five unequal triangular points rooted along the lower inside edge.","instruction":"From the lower edge of the cavity, draw five attached triangles: short, tall, middle, tall, short. Return each side to the same lower edge and leave gaps between their tips.","adds":["five crystals"],"introduces":["five crystals"]},
+    {"step":4,"asset":"assets/cracked-geode-with-crystals-step-4.jpg","step_name":"Mark the facets","visible_job":"Place straight inner facet edges within the five established points.","instruction":"Inside each of the five triangles, draw one slim straight line from its tip toward its base; add a second line only to the two tallest points. Keep all five outer crystal edges in place.","adds":["crystal facets"],"introduces":["crystal facets"]},
+    {"step":5,"asset":"assets/cracked-geode-with-crystals-step-5.jpg","step_name":"Texture the stone","visible_job":"Add sparse shell stipples and a short broken ground shadow.","instruction":"Scatter a few uneven pencil dots and short hatches on the outer rock band, then place a short broken graphite shadow directly below the flat base. Do not mark over the crystal facets.","adds":["shell texture"],"introduces":["shell texture"]}
+  ],
+  "final_step": {"asset":"assets/cracked-geode-with-crystals-finished-v1.jpg","step_name":"Shade the finished geode","visible_job":"Deepen existing keeper edges and shade only established shell and crystal facets.","instruction":"Darken selected shell edges with 2B. Add restrained gray-brown pencil to the rock rim and pale violet and blue to alternating existing crystal facets, leaving paper highlights and the five point silhouettes unchanged.","adds":["graphite and restrained colored-pencil shading on established shapes"],"introduces":[]},
+  "visual_review": {"status":"pending","teaching_score":0,"finished_art_score":0,"first_step_observation":"","draw_through_observation":"","contract_sha256":"","asset_sha256":{},"transitions":[]}
+}

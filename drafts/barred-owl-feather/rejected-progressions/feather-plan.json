@@ -1,0 +1,25 @@
+{
+  "schema_version": 5,
+  "slug": "barred-owl-feather",
+  "finished": "assets/barred-owl-feather-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One gently curving shaft and short quill establish the feather's direction and scale without a detached part.",
+  "source": {"type":"generated-raster-master","notes":"Six-panel handmade graphite and restrained brown colored-pencil raster contact sheet; geode replacement documented separately in the draft ledger."},
+  "temporary_guides": [],
+  "final_elements": [
+    {"name":"shaft and quill","introduced_by_step":1,"description":"One gently curving central shaft with a short tapered quill at the lower end."},
+    {"name":"left vane","introduced_by_step":2,"description":"One broad left vane with a softly notched outside edge attached from quill shoulder to tip."},
+    {"name":"right vane","introduced_by_step":3,"description":"One slightly narrower right vane attached at the same top tip and lower quill shoulder."},
+    {"name":"barb strokes","introduced_by_step":4,"description":"Several short diagonal graphite strokes running from the shaft toward both established outside edges."},
+    {"name":"dark crossbars","introduced_by_step":5,"description":"Exactly four paired dark transverse bands across existing vane areas, interrupted at the shaft."}
+  ],
+  "frames": [
+    {"step":1,"asset":"assets/barred-owl-feather-step-1.jpg","step_name":"Set the shaft","visible_job":"Draw one curving central shaft and short tapered quill.","instruction":"From the lower center, draw a narrow quill upward into one gently left-curving shaft. Let it taper to a tip near the upper center so both vanes can attach to the same line.","adds":["shaft and quill"],"introduces":["shaft and quill"]},
+    {"step":2,"asset":"assets/barred-owl-feather-step-2.jpg","step_name":"Shape the left vane","visible_job":"Add the broad left vane against the shaft.","instruction":"Starting at the shaft tip, sweep a long soft curve out to the left and back toward the quill shoulder. Give its lower edge one shallow notch, then join it to the shaft without crossing the quill.","adds":["left vane"],"introduces":["left vane"]},
+    {"step":3,"asset":"assets/barred-owl-feather-step-3.jpg","step_name":"Complete the right vane","visible_job":"Add a narrower right vane between the same tip and quill shoulder.","instruction":"From the same top tip, curve down the right side a little closer to the shaft than on the left. Turn gently inward at the base and attach above the quill shoulder.","adds":["right vane"],"introduces":["right vane"]},
+    {"step":4,"asset":"assets/barred-owl-feather-step-4.jpg","step_name":"Trace the barbs","visible_job":"Add short diagonal barb strokes within the two vane silhouettes.","instruction":"Pull short light strokes from the shaft outward on both sides, slanting down toward the edges. Stop each stroke inside the contour so the outside silhouette stays open and readable.","adds":["barb strokes"],"introduces":["barb strokes"]},
+    {"step":5,"asset":"assets/barred-owl-feather-step-5.jpg","step_name":"Place four barred bands","visible_job":"Shade exactly four paired transverse bands across the existing vanes.","instruction":"Working from top to bottom, place four spaced pairs of short dark graphite bands across the vanes. Leave the shaft clear and follow the barbs' diagonal slant rather than drawing ruler-straight stripes.","adds":["dark crossbars"],"introduces":["dark crossbars"]}
+  ],
+  "final_step":{"asset":"assets/barred-owl-feather-finished-v1.jpg","step_name":"Shade the owl feather","visible_job":"Layer restrained brown and cream color on established vanes and deepen existing band edges.","instruction":"Glaze warm brown and cream colored pencil along the existing vanes, preserve the four paired graphite bars, and darken only selected shaft and barb strokes. Leave narrow paper highlights in the quill and between bands.","adds":["restrained brown and cream shading on established shapes"],"introduces":[]},
+  "visual_review":{"status":"pending","teaching_score":0,"finished_art_score":0,"first_step_observation":"","draw_through_observation":"","contract_sha256":"","asset_sha256":{},"transitions":[]}
+}

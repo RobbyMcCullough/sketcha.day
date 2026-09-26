@@ -1,5 +1,12 @@
 # Human Notes
 
+## 2026-09-26 — Current old iron horseshoe lesson (Codex)
+
+- Added Day 144 `old-iron-horseshoe` for September 26. Six cumulative handmade graphite and cool-gray pencil crops keep the outer and inner U, six individually checked nail holes, one toe groove, wear hatches, and a broken shadow fixed through the finish. Teaching rated 8.5/10 and saved finish 8.2/10: a clear, attainable 20-minute object study with visible pencil grain.
+- Rejected `cracked-geode-with-crystals` after three sheets changed crystal bases and lower cavity marks. Rejected `barred-owl-feather` after three sheets moved the later vane tip. Their failed sheets and plans remain private under `drafts/`, with ledger entries marked `rejected-quality`; neither became a public lesson.
+- Schema-v5 visual review and full readiness passed, including 292 internal URLs, five adjacent deltas, derivatives, JSON-LD, asset usage, and diff checks. Cove was unreachable; the documented HTTP preview passed desktop/mobile homepage, library, and tutorial checks with no overflow or broken images. The one-current-lesson-per-site cadence remains active; no archive/backfill lesson was created.
+- Harness: Codex; task: 2026-09-26 — Daily sketch and doodle lessons. Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-25 — Current hot-air balloon lesson (Codex)
 
 - Added Day 143 `hot-air-balloon-over-hills` for September 25 with six cumulative graphite and restrained colored-pencil frames. The first sheet was rejected for premature basket texture and a closed throat; the approved sheet keeps one open envelope, a centered basket, two rope routes, four seams, one burner, two clouds, two hills, and a short shadow.

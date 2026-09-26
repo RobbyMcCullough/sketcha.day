@@ -1,0 +1,268 @@
+{
+  "schema_version": 5,
+  "slug": "old-iron-horseshoe",
+  "finished": "assets/old-iron-horseshoe-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One broad open U contour establishes the horseshoe's fixed opening, symmetry, and two ends.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Reviewed six-panel handmade graphite and restrained cool-gray pencil contact sheet. Earlier geode and feather subjects were rejected privately for continuity."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "outer U",
+      "introduced_by_step": 1,
+      "description": "One broad upright U-shaped outside contour with two open tips at equal height."
+    },
+    {
+      "name": "inner U",
+      "introduced_by_step": 2,
+      "description": "One narrower nested U-shaped opening that joins the two blunt end faces, making a thick iron band."
+    },
+    {
+      "name": "left upper nail hole",
+      "introduced_by_step": 3,
+      "description": "Upper oval on left arm below its open end."
+    },
+    {
+      "name": "left middle nail hole",
+      "introduced_by_step": 3,
+      "description": "Middle oval on left arm."
+    },
+    {
+      "name": "left lower nail hole",
+      "introduced_by_step": 3,
+      "description": "Lower oval on left arm above the toe."
+    },
+    {
+      "name": "right upper nail hole",
+      "introduced_by_step": 3,
+      "description": "Upper oval on right arm below its open end."
+    },
+    {
+      "name": "right middle nail hole",
+      "introduced_by_step": 3,
+      "description": "Middle oval on right arm."
+    },
+    {
+      "name": "right lower nail hole",
+      "introduced_by_step": 3,
+      "description": "Lower oval on right arm above the toe."
+    },
+    {
+      "name": "toe groove",
+      "introduced_by_step": 4,
+      "description": "One shallow curved groove centered around the bottom toe of the existing band."
+    },
+    {
+      "name": "metal wear",
+      "introduced_by_step": 5,
+      "description": "Short uneven graphite hatches along the outer iron edge and one broken ground shadow beneath the toe."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/old-iron-horseshoe-step-1.jpg",
+      "step_name": "Draw the outer U",
+      "visible_job": "Set one broad outside U with two open tips.",
+      "instruction": "Place two open tips at the same height, then curve down the left arm, around a broad bottom toe, and back up the right arm. Keep the center completely open.",
+      "adds": [
+        "outer U"
+      ],
+      "introduces": [
+        "outer U"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/old-iron-horseshoe-step-2.jpg",
+      "step_name": "Give the iron thickness",
+      "visible_job": "Nest an inner U and join the two open end faces.",
+      "instruction": "Inside the first U, follow its curve with a second U about a finger-width away. Stop at the two upper ends and close each blunt end with a short line so the iron reads as one solid band.",
+      "adds": [
+        "inner U"
+      ],
+      "introduces": [
+        "inner U"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/old-iron-horseshoe-step-3.jpg",
+      "step_name": "Place six nail holes",
+      "visible_job": "Add three small ovals down each arm of the existing band.",
+      "instruction": "Draw three small oval nail holes along the left arm and three matching ovals along the right. Space them evenly and keep every hole fully inside the band.",
+      "adds": [
+        "left upper nail hole",
+        "left middle nail hole",
+        "left lower nail hole",
+        "right upper nail hole",
+        "right middle nail hole",
+        "right lower nail hole"
+      ],
+      "introduces": [
+        "left upper nail hole",
+        "left middle nail hole",
+        "left lower nail hole",
+        "right upper nail hole",
+        "right middle nail hole",
+        "right lower nail hole"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/old-iron-horseshoe-step-4.jpg",
+      "step_name": "Mark the toe groove",
+      "visible_job": "Add a shallow curved wear groove at the lower toe.",
+      "instruction": "Around the bottom inside of the U, add one shallow curved groove that follows the toe without touching the nail holes. Leave both end faces and all six holes unchanged.",
+      "adds": [
+        "toe groove"
+      ],
+      "introduces": [
+        "toe groove"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/old-iron-horseshoe-step-5.jpg",
+      "step_name": "Show the worn surface",
+      "visible_job": "Add sparse edge hatches and a short broken shadow under the toe.",
+      "instruction": "Place a few short uneven hatches on the outside of the iron band, then sketch a broken horizontal shadow directly below the rounded toe. Keep the openings clear.",
+      "adds": [
+        "metal wear"
+      ],
+      "introduces": [
+        "metal wear"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/old-iron-horseshoe-finished-v1.jpg",
+    "step_name": "Shade the old iron",
+    "visible_job": "Deepen only established contours and add restrained cool-gray colored-pencil value.",
+    "instruction": "Layer cool gray lightly across the existing band, deepen selected graphite edges and six hole rims, and place a few warm-brown touches on the established wear hatches. Leave narrow paper highlights along the iron; do not change the U shape.",
+    "adds": [
+      "restrained gray pencil shading on established iron"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.5,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved crop has one broad outer U with two open tips at similar height and a rounded lower toe. Its large center opening gives a beginner a clear, copyable proportion before the inner band is drawn.",
+    "draw_through_observation": "I viewed the whole six-panel sheet and each saved JPG adjacent pair, including the finish. The left and right outer arcs, bottom toe, nested opening, three hole sites per arm, and toe groove stay in their respective positions. No temporary guides are used. The finished gray and brown value stays on established iron; graphite and paper tooth remain visible.",
+    "contract_sha256": "1c95c8d40faab29774138d1430627874a4b87e913fc0376a7485b8fc27dd7516",
+    "asset_sha256": {
+      "assets/old-iron-horseshoe-step-1.jpg": "bb651b56b82da96eb9cdcf33da7916bd7350a9ad3ee1d26f94feef5578ff3472",
+      "assets/old-iron-horseshoe-step-2.jpg": "aed5de08a907575b348d5c970732dc9729efee084e2094a053acc82833d2eba9",
+      "assets/old-iron-horseshoe-step-3.jpg": "76180a4ebaeac76ccf86523641fb430b95831034b880b65d0db04b035d78eaa1",
+      "assets/old-iron-horseshoe-step-4.jpg": "465602bcd5217e465c58ff502b3f1a703465d09efafba6ed600219e4533fbf31",
+      "assets/old-iron-horseshoe-step-5.jpg": "3c4e15852f5d955a395fdbc799ebe481790c1d652411be7fd4ef9f675b4289c1",
+      "assets/old-iron-horseshoe-finished-v1.jpg": "e91839fc1fd45530f51bc31aa029425c82ac287a04fc86e18e4dda2963551c98"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "outer U",
+          "inner U"
+        ],
+        "observed_addition": "The second crop keeps the same outside left and right arcs and bottom toe; an inner U appears inside them and short end caps close both top arms. The center stays open.",
+        "instruction_match": "The instruction asks for a parallel inner curve and two end caps. It matches the new band thickness without changing the first outside U.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "outer U",
+          "inner U",
+          "left upper nail hole",
+          "left middle nail hole",
+          "left lower nail hole",
+          "right upper nail hole",
+          "right middle nail hole",
+          "right lower nail hole"
+        ],
+        "observed_addition": "The third crop keeps both U contours and end faces. Three oval holes appear down the left arm and three down the right, each inside the band: upper, middle and lower on each side.",
+        "instruction_match": "The step copy specifies six holes and three per arm; all six positions are visible and no toe groove or shadow has arrived.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "outer U",
+          "inner U",
+          "left upper nail hole",
+          "left middle nail hole",
+          "left lower nail hole",
+          "right upper nail hole",
+          "right middle nail hole",
+          "right lower nail hole",
+          "toe groove"
+        ],
+        "observed_addition": "The fourth crop retains the outer and inner U, both end faces, and each of the six hole positions. One shallow curved graphite groove appears at the lower toe between the two lower holes.",
+        "instruction_match": "The instruction places a centered groove below the opening and clear of the lower left and lower right holes; the image shows that exact addition.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "outer U",
+          "inner U",
+          "left upper nail hole",
+          "left middle nail hole",
+          "left lower nail hole",
+          "right upper nail hole",
+          "right middle nail hole",
+          "right lower nail hole",
+          "toe groove",
+          "metal wear"
+        ],
+        "observed_addition": "The fifth crop retains both U contours, six hole rims and the toe groove. Short uneven wear hatches appear along both arms and the toe, with one broken graphite shadow directly below the toe.",
+        "instruction_match": "The copy calls for worn hatches and a broken shadow under the toe; the shell of the horseshoe and all six holes remain legible.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "outer U",
+          "inner U",
+          "left upper nail hole",
+          "left middle nail hole",
+          "left lower nail hole",
+          "right upper nail hole",
+          "right middle nail hole",
+          "right lower nail hole",
+          "toe groove",
+          "metal wear"
+        ],
+        "observed_addition": "The saved finish keeps the U silhouette, two end faces, six individual holes, curved toe groove and broken shadow. Cool gray fills the established band, with tiny warm-brown rust touches and open paper highlights; no new object appears.",
+        "instruction_match": "The final instruction specifies cool gray, warm-brown touches on established wear marks and selected dark edges; it matches the saved finish without adding a structural contour.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
