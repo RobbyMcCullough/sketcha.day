@@ -1,0 +1,268 @@
+{
+  "schema_version": 5,
+  "slug": "wooden-hourglass-with-sand",
+  "finished": "assets/wooden-hourglass-with-sand-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The two matching shallow plates establish the hourglass height, width, and shared center before any glass curves are added.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Planned cumulative graphite and restrained warm-brown pencil contact sheet; review pending."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "upper plate",
+      "introduced_by_step": 1,
+      "description": "Shallow oval wooden top plate, centered above lower plate."
+    },
+    {
+      "name": "lower plate",
+      "introduced_by_step": 1,
+      "description": "Matching shallow oval wooden bottom plate directly below."
+    },
+    {
+      "name": "left glass wall",
+      "introduced_by_step": 2,
+      "description": "Smooth inward curve from upper plate to narrow waist and outward to lower plate."
+    },
+    {
+      "name": "right glass wall",
+      "introduced_by_step": 2,
+      "description": "Mirrored curve keeping the central neck open."
+    },
+    {
+      "name": "left upright",
+      "introduced_by_step": 3,
+      "description": "Narrow straight wooden post outside the left glass wall, joining both plates."
+    },
+    {
+      "name": "right upright",
+      "introduced_by_step": 3,
+      "description": "Matching post outside the right glass wall, joining both plates."
+    },
+    {
+      "name": "top sand pile",
+      "introduced_by_step": 4,
+      "description": "Small tapered sand mound in the upper bulb, ending at the waist."
+    },
+    {
+      "name": "bottom sand pile",
+      "introduced_by_step": 4,
+      "description": "Broad low mound resting inside lower bulb."
+    },
+    {
+      "name": "falling sand stream",
+      "introduced_by_step": 4,
+      "description": "Single thin broken stream through the narrow waist, joining the two piles."
+    },
+    {
+      "name": "plate grain and shadow",
+      "introduced_by_step": 5,
+      "description": "Sparse wood-grain strokes on both plates and a short broken ground shadow below."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/wooden-hourglass-with-sand-step-1.jpg",
+      "step_name": "Place the wooden plates",
+      "visible_job": "Draw two centered shallow oval plates, one near the top and one near the bottom; keep their widths equal and leave open space between.",
+      "instruction": "Draw one shallow oval plate near the top of the page and a matching plate directly below. Give both a narrow front edge, keep their centers aligned, and leave a tall open gap.",
+      "adds": [
+        "upper plate",
+        "lower plate"
+      ],
+      "introduces": [
+        "upper plate",
+        "lower plate"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/wooden-hourglass-with-sand-step-2.jpg",
+      "step_name": "Curve the glass bulbs",
+      "visible_job": "From the inner edges of the upper plate, pull two curved glass walls inward to a narrow waist, then outward to meet the lower plate.",
+      "instruction": "From just inside the top plate, curve both glass sides inward to a narrow central opening, then outward to land on the lower plate. Keep the left and right curves balanced.",
+      "adds": [
+        "left glass wall",
+        "right glass wall"
+      ],
+      "introduces": [
+        "left glass wall",
+        "right glass wall"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/wooden-hourglass-with-sand-step-3.jpg",
+      "step_name": "Join the wooden uprights",
+      "visible_job": "Draw one slim upright outside each glass wall, joining the same top and bottom plates without crossing the glass.",
+      "instruction": "Add one slim straight post outside each glass side. Each post begins under the top plate and ends on the lower plate without crossing the glass.",
+      "adds": [
+        "left upright",
+        "right upright"
+      ],
+      "introduces": [
+        "left upright",
+        "right upright"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/wooden-hourglass-with-sand-step-4.jpg",
+      "step_name": "Set the sand in motion",
+      "visible_job": "Build a small tapered sand mound above the waist and a broad shallow mound below, then add one broken falling stream through the opening.",
+      "instruction": "Place a small tapered sand pile in the upper bulb, a broad low pile in the lower bulb, and a thin broken stream through the waist. Keep every mark inside the glass.",
+      "adds": [
+        "top sand pile",
+        "bottom sand pile",
+        "falling sand stream"
+      ],
+      "introduces": [
+        "top sand pile",
+        "bottom sand pile",
+        "falling sand stream"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/wooden-hourglass-with-sand-step-5.jpg",
+      "step_name": "Add quiet wood grain",
+      "visible_job": "Add only a few short grain strokes on the two plates and a broken shadow directly beneath the lower plate.",
+      "instruction": "Lay a few short grain strokes along both plates and sketch one broken graphite shadow below the lower plate. Leave the two posts and sand contours fixed.",
+      "adds": [
+        "plate grain and shadow"
+      ],
+      "introduces": [
+        "plate grain and shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/wooden-hourglass-with-sand-finished-v1.jpg",
+    "step_name": "Shade the hourglass",
+    "visible_job": "Strengthen existing keeper lines and add restrained graphite and warm-brown pencil tone only within established plates, posts, glass, sand, and shadow.",
+    "instruction": "Deepen selected existing graphite contours. Layer warm-brown pencil on the two plates and posts, muted ochre on both sand piles and stream, and pale graphite around the glass edges. Preserve paper highlights.",
+    "adds": [
+      "graphite and warm-brown shading on established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.4,
+    "finished_art_score": 8.3,
+    "first_step_observation": "The first saved crop contains two equal-width shallow plates centered one above the other, with a large clear vertical gap. Their positions give a beginner the frame height and symmetry before the bulb curves.",
+    "draw_through_observation": "I reviewed the full six-cell raster contact sheet and every saved square JPG in adjacent order. The upper and lower plate rims remain fixed, the glass waist stays central, and each outside post joins the same plates. Both sand piles and the falling route appear before the warm-brown and ochre finish. No temporary guides are used.",
+    "contract_sha256": "b898552ccb1beec0787e5f1db6700b53b56f7b109f2f81f4dbc3df2a18c98217",
+    "asset_sha256": {
+      "assets/wooden-hourglass-with-sand-step-1.jpg": "035d3c41f07932c8f3239a27e6ca721de9fa2a3b789a9013a42cfcdb736b27b1",
+      "assets/wooden-hourglass-with-sand-step-2.jpg": "915ecf1b75d25391117297bf36d39c7a1ff76a9bf43b15fe94d552b542eed47e",
+      "assets/wooden-hourglass-with-sand-step-3.jpg": "fb5aec6f15b4616d5117221ba9426a0d858e46b852ede5ed3f0059b4b95669d5",
+      "assets/wooden-hourglass-with-sand-step-4.jpg": "813c9972b14c917bd5afc6fcdaceef4da7a0a35b01cbb46bfa9787f06620d22d",
+      "assets/wooden-hourglass-with-sand-step-5.jpg": "283d5bcef34b3e8b46201247f9da8f7b2a1a716e3f1513f1d3a6a91ce2476c3f",
+      "assets/wooden-hourglass-with-sand-finished-v1.jpg": "9f546c306e2b8028bafd961f956210004dcdc1a1923c2f9a075f83c2a7f7c4fa"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "upper plate",
+          "lower plate",
+          "left glass wall",
+          "right glass wall"
+        ],
+        "observed_addition": "The two shallow oval plates retain the same horizontal centers and widths; the left and right glass walls now run from beneath the upper plate through one open waist to the lower plate.",
+        "instruction_match": "The copy starts both bulb curves just inside the top plate, narrows them at the middle, and lands them on the bottom plate; no post or sand appears early.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "upper plate",
+          "lower plate",
+          "left glass wall",
+          "right glass wall",
+          "left upright",
+          "right upright"
+        ],
+        "observed_addition": "Both plates and both glass walls remain at their established anchors. One slim left post and one slim right post now bridge the underside of the top plate to the top of the lower plate outside the glass.",
+        "instruction_match": "The instruction names both outside posts and their two plate attachments; neither new post crosses the glass contour.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "upper plate",
+          "lower plate",
+          "left glass wall",
+          "right glass wall",
+          "left upright",
+          "right upright",
+          "top sand pile",
+          "bottom sand pile",
+          "falling sand stream"
+        ],
+        "observed_addition": "The paired plates, glass walls, and two outside posts persist. A tapered upper pile ends above the central neck, a wider lower pile rests on the lower glass floor, and small falling dots occupy the same central route.",
+        "instruction_match": "The copy asks for these three separate sand marks inside the existing vessel, and each appears before any coloring.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "upper plate",
+          "lower plate",
+          "left glass wall",
+          "right glass wall",
+          "left upright",
+          "right upright",
+          "top sand pile",
+          "bottom sand pile",
+          "falling sand stream",
+          "plate grain and shadow"
+        ],
+        "observed_addition": "The plates, glass curves, posts, upper and lower sand piles, and falling dots retain their positions. Extra short grain strokes strengthen the plate surfaces and a broken graphite shadow appears below the lower plate.",
+        "instruction_match": "The step asks for sparse plate grain and a ground shadow; the sand and glass remain structurally the same.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "upper plate",
+          "lower plate",
+          "left glass wall",
+          "right glass wall",
+          "left upright",
+          "right upright",
+          "top sand pile",
+          "bottom sand pile",
+          "falling sand stream",
+          "plate grain and shadow"
+        ],
+        "observed_addition": "Both plates, two posts, two glass sides, two sand piles, falling stream, grain, and ground shadow remain in the same places. Warm brown colors the wood, ochre colors the existing sand, graphite clarifies the glass edge and shadow; no new object appears.",
+        "instruction_match": "The final instruction only shades and strengthens established shapes, matching the saved color transition and leaving the glass mostly white.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

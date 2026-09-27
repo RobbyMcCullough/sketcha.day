@@ -1,5 +1,12 @@
 # Human Notes
 
+## 2026-09-27 — Daily wooden hourglass lesson (Codex)
+
+- Added current Sketcha Day 145 `wooden-hourglass-with-sand`, September 27. Teaching 8.4/10; finish 8.3/10. Six saved crops preserve two plates, paired glass curves, two posts, both sand piles, falling stream, grain, and shadow through the color finish. No temporary guides.
+- Schema-v5 review with five adjacent observations and artifact hashes passed. Readiness checked 294 internal URLs with zero failures; Cove desktop/mobile homepage, library, and tutorial QA passed with all tutorial images loaded and no overflow.
+- One current lesson per site remains the cadence; no archive/backfill work. Harness: Codex; task: 2026-09-27 — Daily sketch and doodle lessons.
+
+
 ## 2026-09-26 — Current old iron horseshoe lesson (Codex)
 
 - Added Day 144 `old-iron-horseshoe` for September 26. Six cumulative handmade graphite and cool-gray pencil crops keep the outer and inner U, six individually checked nail holes, one toe groove, wear hatches, and a broken shadow fixed through the finish. Teaching rated 8.5/10 and saved finish 8.2/10: a clear, attainable 20-minute object study with visible pencil grain.
