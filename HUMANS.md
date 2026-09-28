@@ -1,5 +1,11 @@
 # Human Notes
 
+## 2026-09-28 — Current weathered garden gate lesson (Codex)
+
+- Added Sketcha Day 146 `weathered-wooden-garden-gate` for September 28. Teaching 8.3/10; saved finish 8.2/10. Six handmade graphite and restrained-color crops keep the two posts, level rails, three slats, rear diagonal brace, two hinges, right latch, three path stones, grass tufts, and shadow anchored. Small grass marks and light wood grain visible early are explicitly taught; no temporary guides.
+- Reviewed the full sheet and all five adjacent saved-crop pairs, including finish; schema-v5 image and contract hashes passed. Readiness checked 296 URLs with zero failures on the HTTP fallback. Desktop/mobile homepage, library, and tutorial rendered with no overflow; all 11 tutorial images loaded, JSON-LD parsed, and lab stayed unlinked.
+- Exactly one current lesson per site remains the cadence; no routine archive/backfill work. Harness: Codex; task: 2026-09-28 — Daily sketch and doodle lessons. Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-27 — Daily wooden hourglass lesson (Codex)
 
 - Added current Sketcha Day 145 `wooden-hourglass-with-sand`, September 27. Teaching 8.4/10; finish 8.3/10. Six saved crops preserve two plates, paired glass curves, two posts, both sand piles, falling stream, grain, and shadow through the color finish. No temporary guides.

@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a garden gate</title>
+      <link>https://sketcha.day/tutorials/weathered-wooden-garden-gate.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/weathered-wooden-garden-gate.html</guid>
+      <pubDate>Mon, 28 Sep 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a weathered wooden garden gate with three slats, a diagonal brace, two hinges, a latch, path stones, and restrained pencil color.</description>
+      <media:content url="https://sketcha.day/assets/weathered-wooden-garden-gate-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw an hourglass</title>
       <link>https://sketcha.day/tutorials/wooden-hourglass-with-sand.html</link>
