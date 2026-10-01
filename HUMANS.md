@@ -1,5 +1,11 @@
 # Human Notes
 
+## 2026-10-01 — Owner correction to raincoat process (Codex)
+
+- Corrected existing Sketcha Day 148 `raincoat-on-a-wall-hook` at its current slug. Step 1 now shows only the broad coat body envelope; Step 2 attaches two cuffed sleeves; Step 3 adds the open hood and wall peg; Step 4 adds the placket, four buttons, and pockets; Step 5 adds cords, folds, and shadow; the finish colors established contours. The prior hood-first art and failed shifted candidates remain in private rejected-progressions.
+- Repaired Steps 1–3 against the later coat geometry so the hem, side seams, shoulder joins, and hood anchors stay fixed. Manually reviewed all five saved transitions including finish; teaching 8.3/10 and saved finish 8.2/10, with fresh schema-v5 contract/image hashes and no temporary guides. Readiness passed (300 URLs), all 11 tutorial images loaded, and desktop/mobile homepage, library, and raincoat page rendered without overflow.
+- This is a correction to the one October 1 lesson, not a new daily slot. The one-current-lesson-per-site cadence remains active; Doodlea Day 137 `surprised-cartoon-pumpkin` is unchanged. Harness: Codex; task: 2026-10-01 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
 ## 2026-10-01 — Current hanging raincoat lesson (Codex)
 
 - Added Sketcha Day 148 `raincoat-on-a-wall-hook` for October 1. Six saved graphite and mustard-pencil crops keep the wall peg, hood, loose body, two cuffs, four buttons, two pockets, two hood cords, inner hood fold, and wall shadow at stable anchors. Repaired Step 2 underarm gaps and side seams before approval; the rejected sheet remains private.
