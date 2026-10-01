@@ -1,5 +1,11 @@
 # Human Notes
 
+## 2026-10-01 — Current hanging raincoat lesson (Codex)
+
+- Added Sketcha Day 148 `raincoat-on-a-wall-hook` for October 1. Six saved graphite and mustard-pencil crops keep the wall peg, hood, loose body, two cuffs, four buttons, two pockets, two hood cords, inner hood fold, and wall shadow at stable anchors. Repaired Step 2 underarm gaps and side seams before approval; the rejected sheet remains private.
+- Teaching 8.2/10 and saved finish 8.2/10. Schema-v5 review records all five adjacent transitions, individual landmarks, no temporary guides, and current image/contract hashes. Readiness passed (300 URLs); desktop/mobile home, library, and tutorial rendered without overflow, and all eleven tutorial images loaded.
+- Current-only cadence remains active: exactly one new current lesson per site per run, with no routine archive/backfill work. Sister: Doodlea.day Day 137 `surprised-cartoon-pumpkin`.
+
 ## 2026-10-01 — Recovery of September 29 lesson and gate correction (Codex)
 
 - Validated and integrated the previously uncommitted September 29 current lesson, Day 147 `winding-forest-trail`: six saved graphite/soft-color frames preserve path edges, foreground trees, inward branches, two distant trees, three grass tufts, and two stones. Teaching 8.2/10; saved finish 8.2/10. Schema-v5 hashes, all five transitions, readiness (298 URLs), and desktop/mobile homepage, library, and tutorial QA passed; all 11 tutorial images loaded.

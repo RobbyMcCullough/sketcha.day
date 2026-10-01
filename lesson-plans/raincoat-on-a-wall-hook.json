@@ -1,0 +1,293 @@
+{
+  "schema_version": 5,
+  "slug": "raincoat-on-a-wall-hook",
+  "finished": "assets/raincoat-on-a-wall-hook-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The fixed peg and hood opening are connected at the top center, so a beginner can locate the hanging point and the coat's scale before adding fabric.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Approved six-panel graphite raster sheet combines five original generated cells and a generated Step 2 repair. The first sheet had a shifting side seam and is preserved under rejected-progressions."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "wall peg",
+      "introduced_by_step": 1,
+      "description": "One small horizontal peg and round mounting plate above the coat."
+    },
+    {
+      "name": "hood outline",
+      "introduced_by_step": 1,
+      "description": "Soft pointed hood and inner face opening hanging from the peg."
+    },
+    {
+      "name": "coat body",
+      "introduced_by_step": 2,
+      "description": "Two slightly flared sides and a curved hem attached beneath the hood."
+    },
+    {
+      "name": "left sleeve",
+      "introduced_by_step": 3,
+      "description": "Sleeve drops leftward from the left shoulder and ends in a cuff."
+    },
+    {
+      "name": "right sleeve",
+      "introduced_by_step": 3,
+      "description": "Sleeve drops rightward from the right shoulder and ends in a cuff."
+    },
+    {
+      "name": "front placket",
+      "introduced_by_step": 4,
+      "description": "Narrow vertical opening down the center of the body."
+    },
+    {
+      "name": "four buttons",
+      "introduced_by_step": 4,
+      "description": "Four small separated round buttons along the left placket edge."
+    },
+    {
+      "name": "left pocket",
+      "introduced_by_step": 4,
+      "description": "One slanted pocket flap on the left lower body."
+    },
+    {
+      "name": "right pocket",
+      "introduced_by_step": 4,
+      "description": "One slanted pocket flap on the right lower body."
+    },
+    {
+      "name": "hood drawstrings",
+      "introduced_by_step": 5,
+      "description": "Two short cords descend from the hood opening over the upper chest."
+    },
+    {
+      "name": "fabric folds",
+      "introduced_by_step": 5,
+      "description": "A few short fold lines below both shoulders and beside the pockets."
+    },
+    {
+      "name": "wall shadow",
+      "introduced_by_step": 5,
+      "description": "One light pencil shadow to the lower right of the hanging coat."
+    },
+    {
+      "name": "inner hood fold",
+      "introduced_by_step": 5,
+      "description": "One short curved interior fold line at the lower hood opening."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/raincoat-on-a-wall-hook-step-1.jpg",
+      "step_name": "Place the peg and hood",
+      "visible_job": "Set one small fixed wall peg and a connected hood opening below it.",
+      "instruction": "Draw a small round wall plate near the top center and let a short peg drop in front of it. From just below the peg, draw a softly pointed hood and a smaller U-shaped opening inside; let the hood meet the hanging point.",
+      "adds": [
+        "wall peg",
+        "hood outline"
+      ],
+      "introduces": [
+        "wall peg",
+        "hood outline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/raincoat-on-a-wall-hook-step-2.jpg",
+      "step_name": "Hang the coat body",
+      "visible_job": "Add shoulders, gently flared side seams, and one curved hem.",
+      "instruction": "From each lower hood corner, slope a shoulder outward. Leave a small open break at each shoulder for a sleeve, then draw the torso side seams from the future underarms with a slight flare and join them with a shallow curved hem.",
+      "adds": [
+        "coat body"
+      ],
+      "introduces": [
+        "coat body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/raincoat-on-a-wall-hook-step-3.jpg",
+      "step_name": "Add both loose sleeves",
+      "visible_job": "Attach a drooping sleeve with a cuff at each reserved shoulder gap.",
+      "instruction": "At the left shoulder gap, draw a loose sleeve slanting down and left to a short cuff; return its inner edge to the body at the underarm. Repeat on the right, keeping the cuffs outside the torso side seams.",
+      "adds": [
+        "left sleeve",
+        "right sleeve"
+      ],
+      "introduces": [
+        "left sleeve",
+        "right sleeve"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/raincoat-on-a-wall-hook-step-4.jpg",
+      "step_name": "Mark the front details",
+      "visible_job": "Draw the center placket, four buttons, and two slanted pocket flaps.",
+      "instruction": "Run two close lines from the hood opening toward the hem for the placket. Place four separate buttons inside it. Draw one short slanted pocket flap on each lower side, clear of the center opening.",
+      "adds": [
+        "front placket",
+        "four buttons",
+        "left pocket",
+        "right pocket"
+      ],
+      "introduces": [
+        "front placket",
+        "four buttons",
+        "left pocket",
+        "right pocket"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/raincoat-on-a-wall-hook-step-5.jpg",
+      "step_name": "Suggest soft fabric and shadow",
+      "visible_job": "Add two hood cords, the inner hood fold, a few short fabric creases, and faint wall shadow.",
+      "instruction": "Drop two short drawstrings from the hood opening and add a short inner-hood fold across its lower opening. Add a few small fabric creases beside the shoulders and pockets, then shade lightly down and right of the hem without moving the coat outline.",
+      "adds": [
+        "hood drawstrings",
+        "fabric folds",
+        "wall shadow",
+        "inner hood fold"
+      ],
+      "introduces": [
+        "hood drawstrings",
+        "fabric folds",
+        "wall shadow",
+        "inner hood fold"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/raincoat-on-a-wall-hook-finished-v1.jpg",
+    "step_name": "Shade the raincoat",
+    "visible_job": "Deepen the existing graphite contours and add restrained mustard yellow pencil to the drawn fabric.",
+    "instruction": "Keep the peg and all coat contours where they are. Darken the hood opening, cuffs, placket, and pocket edges, then layer soft mustard-yellow pencil over the hood, body, and sleeves, leaving paper highlights on the folds.",
+    "adds": [
+      "graphite and mustard color on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved crop places one small mounted peg at the top center and a connected pointed hood below it. The open U-shaped face opening fixes the hanging point and coat width; the lower page stays empty for a beginner to extend the fabric.",
+    "draw_through_observation": "I reviewed the complete corrected sheet and all five adjacent saved JPG pairs, including the colored finish. The repaired Step 2 reserves each sleeve gap while retaining the later torso side edges; the left and right sleeves attach at those gaps and return at their underarms. Four buttons and two pockets are added only in Step 4, two cords and the inner hood fold in Step 5, and the finish colors those established contours. No temporary guides, unexplained removals, or material moves were observed.",
+    "contract_sha256": "8b96aabd52222d6ebc250a7b010a9a66c2e122f6c5e4c4853b7e67369c1d5dc9",
+    "asset_sha256": {
+      "assets/raincoat-on-a-wall-hook-step-1.jpg": "106ca3411e8f938f0315d9e40e515c98a7d302bca478cc55361c1e467475cdcf",
+      "assets/raincoat-on-a-wall-hook-step-2.jpg": "bbaaf5d2575559719279bec4c46021f3f677b9f4914d15037aba42db84fb23fa",
+      "assets/raincoat-on-a-wall-hook-step-3.jpg": "9c4487a1e2373ce8b827b93718193c85e14adf266255318365c8f012d99912f3",
+      "assets/raincoat-on-a-wall-hook-step-4.jpg": "6a375d53ec848d556710cf0c18e05bd9b7189ad4f2e863b11ae5e9650e4df184",
+      "assets/raincoat-on-a-wall-hook-step-5.jpg": "629aae34e0054876b7ea780166eed5ebe1f05947e1a2af53bfed5aa7ab872f41",
+      "assets/raincoat-on-a-wall-hook-finished-v1.jpg": "ceae1e9b6e5d236f81415bb93ee51fbcd3b396bcde2baa0330bbc7f48d38fe0f"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "wall peg",
+          "hood outline",
+          "coat body"
+        ],
+        "observed_addition": "The round peg and pointed hood retain their top-center anchor. Two shoulder slopes and the flared torso side seams appear, with a curved hem and small open breaks at both future sleeve joins.",
+        "instruction_match": "The Step 2 instruction asks for shoulders, underarm-starting sides, reserved sleeve breaks, and one hem; those are the saved additions.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "wall peg",
+          "hood outline",
+          "coat body",
+          "left sleeve",
+          "right sleeve"
+        ],
+        "observed_addition": "The peg, hood, shoulder slopes, torso sides, and hem remain at the same anchors. A left sleeve and cuff extend down-left from the reserved gap; a right sleeve and cuff extend down-right, each returning to its existing underarm side seam.",
+        "instruction_match": "Step 3 names each shoulder gap, the drooping sleeve direction, cuff, and return to the body. The repaired Step 2 side seams remain visible beneath the new sleeves.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "wall peg",
+          "hood outline",
+          "coat body",
+          "left sleeve",
+          "right sleeve",
+          "front placket",
+          "four buttons",
+          "left pocket",
+          "right pocket"
+        ],
+        "observed_addition": "Both cuffed sleeves, fixed hood, and flared torso persist. A narrow front placket appears from the hood opening to the hem with four individually visible buttons; one slanted lower pocket flap appears on each side.",
+        "instruction_match": "Step 4 calls for the paired placket lines, four buttons inside, and two slanted pocket flaps clear of the center opening, matching the new saved strokes.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "wall peg",
+          "hood outline",
+          "coat body",
+          "left sleeve",
+          "right sleeve",
+          "front placket",
+          "four buttons",
+          "left pocket",
+          "right pocket",
+          "hood drawstrings",
+          "fabric folds",
+          "wall shadow",
+          "inner hood fold"
+        ],
+        "observed_addition": "The four buttons, placket, two pocket flaps, sleeve cuffs, hood, and wall peg stay fixed. Two short cords descend beside the hood opening; a short curved inner-hood fold, small creases, and faint shadow below/right appear.",
+        "instruction_match": "Step 5 explicitly teaches both cords, the inner hood fold, limited fabric creases, and the wall shadow seen in the crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "wall peg",
+          "hood outline",
+          "coat body",
+          "left sleeve",
+          "right sleeve",
+          "front placket",
+          "four buttons",
+          "left pocket",
+          "right pocket",
+          "hood drawstrings",
+          "fabric folds",
+          "wall shadow",
+          "inner hood fold"
+        ],
+        "observed_addition": "The peg, hood, two cuffs, placket, all four buttons, both pockets, both cords, inner hood fold, and faint wall shadow remain. Mustard pencil hatching fills the established hood and coat fabric while selected graphite edges darken; no new structural contour appears.",
+        "instruction_match": "The final instruction only darkens existing edges and colors established fabric, which is the observed final change.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
