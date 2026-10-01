@@ -1,5 +1,11 @@
 # Human Notes
 
+## 2026-10-01 — Recovery of September 29 lesson and gate correction (Codex)
+
+- Validated and integrated the previously uncommitted September 29 current lesson, Day 147 `winding-forest-trail`: six saved graphite/soft-color frames preserve path edges, foreground trees, inward branches, two distant trees, three grass tufts, and two stones. Teaching 8.2/10; saved finish 8.2/10. Schema-v5 hashes, all five transitions, readiness (298 URLs), and desktop/mobile homepage, library, and tutorial QA passed; all 11 tutorial images loaded.
+- Corrected the owner-noted high-fidelity start of September 28 Day 146 `weathered-wooden-garden-gate`. Six new raster crops start with light connected post/rail contours, then add three slats and a rear brace, defer grain and hardware to Step 4, ground the gate in Step 5, and color existing contours in the finish. Preserved old masters and failed framing sheet privately; teaching 8.4/10, saved finish 8.2/10. Fresh schema-v5 observations and hashes, readiness (303 URLs), and rendered desktop/mobile gate QA passed.
+- Current-only cadence remains active: exactly one new current lesson per site per run, with no routine archive/backfill work. Harness: Codex; task: 2026-10-01 — Daily sketch and doodle lessons. Local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day; sister: doodlea.day.
+
 ## 2026-09-28 — Current weathered garden gate lesson (Codex)
 
 - Added Sketcha Day 146 `weathered-wooden-garden-gate` for September 28. Teaching 8.3/10; saved finish 8.2/10. Six handmade graphite and restrained-color crops keep the two posts, level rails, three slats, rear diagonal brace, two hinges, right latch, three path stones, grass tufts, and shadow anchored. Small grass marks and light wood grain visible early are explicitly taught; no temporary guides.

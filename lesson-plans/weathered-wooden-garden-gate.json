@@ -3,10 +3,10 @@
   "slug": "weathered-wooden-garden-gate",
   "finished": "assets/weathered-wooden-garden-gate-finished-v1.jpg",
   "drawing_mode": "direct",
-  "first_step_test": "The left post and attached top rail establish the gate's height, width, and a useful connected corner at its final position.",
+  "first_step_test": "A beginner can place one pointed left post and two light rail edges at their final positions; the blank interiors keep the first job to a connected gate corner.",
   "source": {
     "type": "generated-raster-master",
-    "notes": "Built-in image generation made a 1536x1024 six-panel raster sheet. The approved saved crops show early light wood grain and small grass base marks; all later landmarks remain anchored."
+    "notes": "Owner-directed gate correction: built-in raster image editing produced a revised six-panel contact sheet from the original gate artwork. The original high-fidelity early sheet and all six old JPG masters are preserved privately under rejected-progressions. The current saved sequence starts with light construction, adds slats and brace, then introduces weathered grain and hardware before ground details and restrained color."
   },
   "temporary_guides": [],
   "final_elements": [
@@ -75,9 +75,9 @@
     {
       "step": 1,
       "asset": "assets/weathered-wooden-garden-gate-step-1.jpg",
-      "step_name": "Set the gate corner",
-      "visible_job": "Draw the left post with its pointed cap, connected top rail, light wood grain, and a small base grass mark.",
-      "instruction": "Draw a tall left post with a pointed cap and light vertical grain. From its upper third, pull a level top rail rightward with a little grain, leaving its far end open. Mark a small grass tuft at the post base.",
+      "step_name": "Sketch the gate corner",
+      "visible_job": "Lightly outline the pointed left post and one connected top rail at their final positions, with a small base grass mark.",
+      "instruction": "With light HB pressure, draw the tall left post and its pointed cap. From the upper third, pull two level lines to the right for the top rail, leaving its far end open. Add a tiny grass tuft at the post base; leave the wood interiors blank.",
       "adds": [
         "left post",
         "top rail",
@@ -92,9 +92,9 @@
     {
       "step": 2,
       "asset": "assets/weathered-wooden-garden-gate-step-2.jpg",
-      "step_name": "Close the frame",
-      "visible_job": "Join the matching right post and bottom rail, with light wood grain and a small right base grass mark.",
-      "instruction": "At the top rail's open end, draw a matching right post. Link the posts with one lower horizontal rail and lightly grain both. Mark a small grass tuft at the right base.",
+      "step_name": "Close the light frame",
+      "visible_job": "Outline the matching right post and lower rail, keeping both posts and rails lightly drawn and untextured.",
+      "instruction": "At the open top-rail end, lightly outline a matching right post and pointed cap. Link the posts with two low level lines for the bottom rail, then add a tiny right-base grass tuft. Keep the wood blank for now.",
       "adds": [
         "right post",
         "bottom rail",
@@ -109,9 +109,9 @@
     {
       "step": 3,
       "asset": "assets/weathered-wooden-garden-gate-step-3.jpg",
-      "step_name": "Build the gate boards",
-      "visible_job": "Place exactly three evenly spaced slats inside the frame and one diagonal brace behind them.",
-      "instruction": "Divide the space between the rails into three upright slats. Draw one diagonal brace from the lower left toward the upper right, stopping where boards cover it.",
+      "step_name": "Build the boards and brace",
+      "visible_job": "Place exactly three slats between the rails and one diagonal brace behind them, with only faint grain suggestions.",
+      "instruction": "Between the rails, draw exactly three evenly spaced upright slats. Draw one rising diagonal brace from lower left to upper right, stopping its edges whenever a slat covers it. Add only a few faint grain strokes along the new boards.",
       "adds": [
         "three vertical slats",
         "diagonal brace"
@@ -124,12 +124,13 @@
     {
       "step": 4,
       "asset": "assets/weathered-wooden-garden-gate-step-4.jpg",
-      "step_name": "Hang the hardware",
-      "visible_job": "Add two hinges on the left post and a simple latch at the upper right.",
-      "instruction": "Place one iron hinge beside each rail on the left post. At the top rail's right end, draw one short latch over the right post.",
+      "step_name": "Add hardware and wood grain",
+      "visible_job": "Add two hinges and one latch, then develop the weathered graphite grain and knots on the established wood.",
+      "instruction": "At the left post, draw one iron hinge beside each rail. Add one short latch across the upper-right join. Follow the length of the established posts, rails, slats, and brace with uneven graphite grain and a few knots; keep every contour and overlap fixed.",
       "adds": [
         "two hinges",
-        "latch"
+        "latch",
+        "weathered graphite wood grain"
       ],
       "introduces": [
         "two hinges",
@@ -165,18 +166,18 @@
   },
   "visual_review": {
     "status": "approved",
-    "teaching_score": 8.3,
+    "teaching_score": 8.4,
     "finished_art_score": 8.2,
-    "first_step_observation": "The first saved crop establishes a tall pointed left post and one attached level top rail. Their corner fixes the height and width of the future gate; light grain and a small left-base grass mark are already visible and now taught in Step 1.",
-    "draw_through_observation": "I inspected the full 3x2 contact sheet and all five adjacent saved-JPG pairs. Both post bases and the rail heights remain fixed; the three slats and diagonal brace keep their overlap order, hardware remains aligned to the rails, and the path stones, grass, and shadow persist through the colored finish. No temporary guides appear or require removal.",
-    "contract_sha256": "53e3f3eb6955eadb412b7fea5b6e95dde2a4cdb824b2abfd78f93a5b10e78659",
+    "first_step_observation": "The saved first JPG contains one pale pointed left post, an attached open-ended upper rail, and a tiny left-base grass mark. Blank wood interiors and light graphite contours make its height, width, and connection copyable before texture is attempted.",
+    "draw_through_observation": "I reviewed the revised full six-panel sheet and all five adjacent saved-JPG pairs. Left and right post bases, the two rail heights, exactly three slats, the rising brace behind them, two left hinges, the right latch, three path stones, and both grass bases stay at their intended anchors. Step 4 visibly adds the deferred wood grain; the finish colors established contours only. No temporary guides were used or removed.",
+    "contract_sha256": "d3ead50a40dc3b8efafa89cd94f3f61eef4814ddaed202841c17cef8e3234b17",
     "asset_sha256": {
-      "assets/weathered-wooden-garden-gate-step-1.jpg": "263152124feea0a7113c1c60416cb7c71170d605301c03635d0ec184f56f5401",
-      "assets/weathered-wooden-garden-gate-step-2.jpg": "ca29a4c2109a3addfc835b5531eb285459ec261f428394465225ec96fd1238e2",
-      "assets/weathered-wooden-garden-gate-step-3.jpg": "fe7d9efd439666e7666320a67ee8e95d698cec2fb4890b2aed6da218d9145aa2",
-      "assets/weathered-wooden-garden-gate-step-4.jpg": "645c5a4e2a8c8902ffecea7816d14fed66eeb79c5119e0d202ac6482957cd406",
-      "assets/weathered-wooden-garden-gate-step-5.jpg": "5c28fd1a6b4454376ed3031eccd620ab638e19e984a7d6161aa51128b9542333",
-      "assets/weathered-wooden-garden-gate-finished-v1.jpg": "c4257be38dead557c7ae4a926fd8c9c0cc0771ecd750d0a3616c3a66bcefed52"
+      "assets/weathered-wooden-garden-gate-step-1.jpg": "697d208208174548128237b23a166a940b8a812c88a604ed10b569dc168f953d",
+      "assets/weathered-wooden-garden-gate-step-2.jpg": "f15bb8bc9172d2dc1a05b4c7ad3eb7f1196805aeed6b208e4a14ab34f4b66af3",
+      "assets/weathered-wooden-garden-gate-step-3.jpg": "c3ac4bea0c5a2b56dd6c71d22bbd95a39ff4eed2e4f437248f9c1d459c72312f",
+      "assets/weathered-wooden-garden-gate-step-4.jpg": "8a152e282b97d200a8bc026431485123bef1f35df3d61924ea295c0165fa87c8",
+      "assets/weathered-wooden-garden-gate-step-5.jpg": "29c6650162478ce79dddd77bd17cf3626b806af33af996e1a26ee5944ce76820",
+      "assets/weathered-wooden-garden-gate-finished-v1.jpg": "c04af902a074919ba734a76750c1c0f9b0fc2943446f6fa866778d3c7cefe200"
     },
     "transitions": [
       {
@@ -190,8 +191,8 @@
           "bottom rail",
           "right grass tuft"
         ],
-        "observed_addition": "The left post and its top rail stay at the same height and width. A matching right post attaches at the open rail end, a bottom rail closes the frame, and a small right-base grass mark appears.",
-        "instruction_match": "The second instruction names the right-post attachment, lower connecting rail, light grain, and right grass; those are the visible additions.",
+        "observed_addition": "The pale left post, pointed cap, open-ended top rail, and tiny left-base grass remain. A matching pointed right post joins the rail end; two lower horizontal edges connect the posts, and a tiny right-base grass mark appears. Both wood interiors stay blank.",
+        "instruction_match": "Step 2 tells the reader to attach the right post at the open rail end and draw the low two-line rail with light pressure; the saved crop shows those strokes and no premature grain.",
         "unexplained_removals": [],
         "unexplained_moves": [],
         "removed_guides": [],
@@ -210,8 +211,8 @@
           "three vertical slats",
           "diagonal brace"
         ],
-        "observed_addition": "Both posts and rails retain their corners. Exactly three slats fill separate positions between the rails, while one brace rises from lower left to upper right behind their faces with clean stopped overlaps.",
-        "instruction_match": "The third instruction asks for three uprights and a rear brace; the image shows that count and the brace remains behind the boards.",
+        "observed_addition": "The two posts and two rails retain their corners and blank interiors. Exactly three upright slats appear between the rails. One brace rises lower-left to upper-right behind them, visible only in the four gaps, with a few faint lengthwise grain suggestions.",
+        "instruction_match": "Step 3 calls for three spaced slats, a brace stopped at every foreground slat, and only faint grain; those are the visible additions, with the established rail and post anchors still clear.",
         "unexplained_removals": [],
         "unexplained_moves": [],
         "removed_guides": [],
@@ -232,8 +233,8 @@
           "two hinges",
           "latch"
         ],
-        "observed_addition": "The three slats and rear brace keep the same attachments. One hinge arrives at the upper left rail and a second at the lower left rail; one horizontal latch reaches the right post at the upper rail.",
-        "instruction_match": "The fourth instruction places two hinges at rail heights and one right latch. No board or brace needs to move to fit them.",
+        "observed_addition": "The three slats remain in separate slots and the rising brace remains behind them. One upper and one lower hinge attach to the left post at rail heights; the latch crosses the upper-right join. Uneven grain and a few knots now darken the existing posts, rails, slats, and brace.",
+        "instruction_match": "Step 4 explicitly places both hinges, the right latch, and the deferred graphite grain; the darker wood is now taught rather than appearing in Step 1. No structural board is added or removed.",
         "unexplained_removals": [],
         "unexplained_moves": [],
         "removed_guides": [],
@@ -256,8 +257,8 @@
           "three path stones",
           "broken ground shadow"
         ],
-        "observed_addition": "Gate, brace, both hinges, and latch remain fixed. Three flattened stones appear in a receding stack below the lower rail; both existing base grass tufts grow outward and a short broken shadow grounds them.",
-        "instruction_match": "The fifth instruction calls for the three stones, fuller grass from existing marks, and a shadow. The image makes those additions without covering the gate.",
+        "observed_addition": "Both pointed posts, two rails, three slats, rear brace, two hinges, and latch retain their attachments. The existing base grass grows beside each post. Three flattened stones appear in front of the gate in receding order, with broken graphite ground shading beneath.",
+        "instruction_match": "Step 5 asks for three flat path stones, larger grass from the two existing tufts, and a broken shadow; the saved crop adds those ground marks while keeping the gate fixed.",
         "unexplained_removals": [],
         "unexplained_moves": [],
         "removed_guides": [],
@@ -280,8 +281,8 @@
           "three path stones",
           "broken ground shadow"
         ],
-        "observed_addition": "All two posts, two rails, three slats, rear brace, two hinges, latch, three stones, both grass tufts, and broken shadow remain at the same anchors. Warm brown touches existing wood; gray and green shade existing stone, iron, and grass.",
-        "instruction_match": "The final instruction adds restrained color and selected graphite value to established marks. The last saved crop introduces no new contour or prop.",
+        "observed_addition": "The same two posts, rails, three slats, rear brace, two hinges, latch, three stones, enlarged base grass, and broken ground shadow remain. Warm brown shades existing wood, cool gray shades iron and stones, and muted green follows the established grass.",
+        "instruction_match": "The final instruction calls for restrained color and selected graphite emphasis on the already drawn wood, hardware, stones, grass, and shadow. No new structural contour or prop appears in the saved finish.",
         "unexplained_removals": [],
         "unexplained_moves": [],
         "removed_guides": [],

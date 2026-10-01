@@ -1,0 +1,299 @@
+{
+  "schema_version": 5,
+  "slug": "winding-forest-trail",
+  "finished": "assets/winding-forest-trail-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The two uneven path edges set the foreground width and a central destination; a beginner can copy the large curves before adding trees.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Built-in image generation produced a six-panel 1536x1024 raster sheet; first iteration rejected for premature foliage and path shift. Second sheet reviewed as candidate."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "left path edge",
+      "introduced_by_step": 1,
+      "description": "A curved trail edge beginning at the lower left and tapering toward the central bend."
+    },
+    {
+      "name": "right path edge",
+      "introduced_by_step": 1,
+      "description": "A second trail edge beginning at the lower right and narrowing beside the left edge."
+    },
+    {
+      "name": "left foreground trunk",
+      "introduced_by_step": 2,
+      "description": "One tall left tree trunk rooted outside the left path edge."
+    },
+    {
+      "name": "right foreground trunk",
+      "introduced_by_step": 2,
+      "description": "One tall right tree trunk rooted outside the right path edge."
+    },
+    {
+      "name": "left inward branch",
+      "introduced_by_step": 2,
+      "description": "One inward fork connected to the upper left foreground trunk; present before leaves."
+    },
+    {
+      "name": "left branch and canopy",
+      "introduced_by_step": 3,
+      "description": "Loose leaves attached to the established left inward branch."
+    },
+    {
+      "name": "right branch and canopy",
+      "introduced_by_step": 3,
+      "description": "Loose leaves attached to the right upper branch."
+    },
+    {
+      "name": "right inward branch",
+      "introduced_by_step": 3,
+      "description": "One inward fork connected to the upper right foreground trunk."
+    },
+    {
+      "name": "two distant trunks",
+      "introduced_by_step": 4,
+      "description": "Two slimmer upright trunks beyond the path bend."
+    },
+    {
+      "name": "distant canopy line",
+      "introduced_by_step": 4,
+      "description": "One broken foliage line behind the narrow end of the path."
+    },
+    {
+      "name": "three ground tufts",
+      "introduced_by_step": 5,
+      "description": "Three small grass tufts beside the existing path edges."
+    },
+    {
+      "name": "two path stones",
+      "introduced_by_step": 5,
+      "description": "Two flat stones within the lower path."
+    },
+    {
+      "name": "broken ground shade",
+      "introduced_by_step": 5,
+      "description": "Light graphite hatching beneath the trunks and beside the path."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/winding-forest-trail-step-1.jpg",
+      "step_name": "Shape the winding path",
+      "visible_job": "Near the page bottom, draw two long uneven curves from the lower left and lower right. Bring them close together at a bend above center, leaving a narrow opening into the distance.",
+      "instruction": "Near the page bottom, draw two long uneven curves from the lower left and lower right. Bring them close together at a bend above center, leaving a narrow opening into the distance.",
+      "adds": [
+        "left path edge",
+        "right path edge"
+      ],
+      "introduces": [
+        "left path edge",
+        "right path edge"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/winding-forest-trail-step-2.jpg",
+      "step_name": "Plant the near trees and left fork",
+      "visible_job": "Add two rooted foreground trunks and one inward left branch, leaving leaves and the right branch for the next frame.",
+      "instruction": "Outside each lower path edge, draw one tall rooted trunk. Fork one branch inward from the upper left trunk; keep the right trunk bare for now.",
+      "adds": [
+        "left foreground trunk",
+        "right foreground trunk",
+        "left inward branch"
+      ],
+      "introduces": [
+        "left foreground trunk",
+        "right foreground trunk",
+        "left inward branch"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/winding-forest-trail-step-3.jpg",
+      "step_name": "Leaf the near branches",
+      "visible_job": "Attach a right inward branch and small leaf clusters to both established near trees.",
+      "instruction": "Fork one branch inward from the upper right trunk. Add loose small leaf clusters along that branch and the existing left fork, keeping both trees rooted beside the same trail edges.",
+      "adds": [
+        "right inward branch",
+        "left branch and canopy",
+        "right branch and canopy"
+      ],
+      "introduces": [
+        "right inward branch",
+        "left branch and canopy",
+        "right branch and canopy"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/winding-forest-trail-step-4.jpg",
+      "step_name": "Set the distant woods",
+      "visible_job": "Beyond the narrow bend, place two slim upright trunks and one broken distant canopy line. Keep these marks smaller and lighter than the foreground trees.",
+      "instruction": "Beyond the narrow bend, place two slim upright trunks and one broken distant canopy line. Keep these marks smaller and lighter than the foreground trees.",
+      "adds": [
+        "two distant trunks",
+        "distant canopy line"
+      ],
+      "introduces": [
+        "two distant trunks",
+        "distant canopy line"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/winding-forest-trail-step-5.jpg",
+      "step_name": "Texture the trail",
+      "visible_job": "Add three anchored grass tufts, two stones in the lower path, and scattered pale ground texture around the existing forest floor.",
+      "instruction": "Set three grass tufts beside the existing trail: one left of the near bend, one by the right bend, and one at the right trunk base. Place two flat stones inside the lower path, then scatter very light ground hatching without changing either trail edge.",
+      "adds": [
+        "three ground tufts",
+        "two path stones",
+        "broken ground shade"
+      ],
+      "introduces": [
+        "three ground tufts",
+        "two path stones",
+        "broken ground shade"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/winding-forest-trail-finished-v1.jpg",
+    "step_name": "Shade the forest path",
+    "visible_job": "Shade the established trees, foliage, path, stones, grass, and faint ground texture with restrained colored pencil; no new contour.",
+    "instruction": "Deepen selected existing trunk, branch, and stone lines. Shade the foliage and grass muted green and the trunks and path warm brown, leaving the distant woods and path center light.",
+    "adds": [
+      "graphite shading and restrained color on established regions"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The saved first crop has only two confident S-curved trail edges. They begin wide at the two lower corners and narrow toward the center bend, giving a learner useful perspective anchors before any trees.",
+    "draw_through_observation": "I inspected the full second raster sheet and each of the five adjacent saved-JPG pairs, including the finish. The two path curves, both foreground trunk bases, their inward forks, two distant trunks, three grass tufts, and two path stones retain their placements. The final frame colors existing marks with paper tooth. No temporary guides appear, so none need removal.",
+    "contract_sha256": "6e290f519a7b22f24741a3b08e733413ebf88e29eb48ffa2853fd1d1e5851ae7",
+    "asset_sha256": {
+      "assets/winding-forest-trail-step-1.jpg": "bb984aa60655c37a087bff4b85cdacab777c12a129be4cbfbd9efe5f2bdd14af",
+      "assets/winding-forest-trail-step-2.jpg": "a155c145750567995572cc4e1d15cac2e92c9e08247d5e77c5d03e95bc5aa1b0",
+      "assets/winding-forest-trail-step-3.jpg": "1f4057a6ab537be85af44e9d89f360c7af18ed3bbb12027b6fb4001954370aaa",
+      "assets/winding-forest-trail-step-4.jpg": "3d0cb631ab3a1e36518b7be5a00816f8238863d19280d41010738d65e6b61ab6",
+      "assets/winding-forest-trail-step-5.jpg": "c58be4908b213067e5d3e0097afba5abff47d5edcfe4914349b9945e8e21d9bc",
+      "assets/winding-forest-trail-finished-v1.jpg": "baece8b2d1abf622dfe807482ed1836492ba4f3430e70accdadf4e7e35bb0023"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "left path edge",
+          "right path edge",
+          "left foreground trunk",
+          "right foreground trunk",
+          "left inward branch"
+        ],
+        "observed_addition": "Both S-curved trail edges stay anchored at the bottom corners and center bend. Two rooted trunks appear outside those edges; an inward fork attaches to the left trunk above mid-height. The right trunk is bare.",
+        "instruction_match": "The second instruction explicitly names both trunk bases and the left fork seen in the crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "left path edge",
+          "right path edge",
+          "left foreground trunk",
+          "right foreground trunk",
+          "left inward branch",
+          "left branch and canopy",
+          "right branch and canopy",
+          "right inward branch"
+        ],
+        "observed_addition": "The left branch stays connected to the left trunk, both trail curves and trunk bases remain fixed, and a new inward branch attaches to the right trunk. Small leaf clusters grow on both branches.",
+        "instruction_match": "The third instruction asks for the right fork and leaves on both attached branches, exactly the visible additions.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "left path edge",
+          "right path edge",
+          "left foreground trunk",
+          "right foreground trunk",
+          "left inward branch",
+          "left branch and canopy",
+          "right branch and canopy",
+          "right inward branch",
+          "two distant trunks",
+          "distant canopy line"
+        ],
+        "observed_addition": "The near forks, leaf clusters, trunk bases, and trail bend persist. Two pale slim trees appear beyond the bend, with a low broken foliage line behind them.",
+        "instruction_match": "The fourth instruction places the smaller pale trunks and distant canopy behind the existing near trees.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "left path edge",
+          "right path edge",
+          "left foreground trunk",
+          "right foreground trunk",
+          "left inward branch",
+          "left branch and canopy",
+          "right branch and canopy",
+          "right inward branch",
+          "two distant trunks",
+          "distant canopy line",
+          "three ground tufts",
+          "two path stones",
+          "broken ground shade"
+        ],
+        "observed_addition": "Both distant trees and the broken canopy remain at their anchors. One tuft appears left of the trail, one beside its right bend, and one at the right foreground trunk; two flat stones arrive inside the lower trail with sparse ground hatching.",
+        "instruction_match": "The fifth instruction names all three grass positions, both stones, and light hatching without changing the trail outline.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "left path edge",
+          "right path edge",
+          "left foreground trunk",
+          "right foreground trunk",
+          "left inward branch",
+          "left branch and canopy",
+          "right branch and canopy",
+          "right inward branch",
+          "two distant trunks",
+          "distant canopy line",
+          "three ground tufts",
+          "two path stones",
+          "broken ground shade"
+        ],
+        "observed_addition": "The two path edges, two near trunks and forks, near leaves, two distant trees, three tufts, and both stones remain in place. Brown and green pencil shade those established marks and the already hatched ground.",
+        "instruction_match": "The finish instruction calls only for selective darkening and restrained color over established contours; no new structural landmark appears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
