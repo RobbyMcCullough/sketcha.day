@@ -1,5 +1,11 @@
 # Human Notes
 
+## 2026-10-02 — Daily sketch lesson blocked by process-art continuity (Codex)
+
+- Worktrees were clean before the shared lock; the October 2 slot was open. `wicker-picnic-basket-with-apples` was rejected before art because the archive already has `picnic-basket`.
+- Preflighted `hanging-bat-upside-down` for the current Sketcha lesson. Three generated raster contact sheets shifted the branch, foot, body, or wing anchors between rows, even after targeted image edits. All sheets and the schema-v5 plan are private under `drafts/hanging-bat-upside-down/`; its ledger entry is `rejected-quality`. No public assets, page, lesson score, commit, or push resulted.
+- The one-current-lesson-per-site cadence remains active; no archive lesson was made. Harness: Codex; task: 2026-10-02 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
 ## 2026-10-01 — Owner correction to raincoat process (Codex)
 
 - Corrected existing Sketcha Day 148 `raincoat-on-a-wall-hook` at its current slug. Step 1 now shows only the broad coat body envelope; Step 2 attaches two cuffed sleeves; Step 3 adds the open hood and wall peg; Step 4 adds the placket, four buttons, and pockets; Step 5 adds cords, folds, and shadow; the finish colors established contours. The prior hood-first art and failed shifted candidates remain in private rejected-progressions.

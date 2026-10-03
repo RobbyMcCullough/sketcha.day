@@ -1,0 +1,36 @@
+{
+  "schema_version": 5,
+  "slug": "hanging-bat-upside-down",
+  "finished": "assets/hanging-bat-upside-down-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A short level branch and a centered upside-down pear body joined by two hooked feet give a useful silhouette and fixed hanging anchor.",
+  "source": {"type": "generated-raster-master", "notes": "Six-panel handmade graphite contact sheet; save rejected iterations privately."},
+  "temporary_guides": [],
+  "final_elements": [
+    {"name":"branch", "introduced_by_step":1, "description":"One nearly horizontal branch across the upper third."},
+    {"name":"left hooked foot", "introduced_by_step":1, "description":"Left hook grips the underside of the branch and joins the body."},
+    {"name":"right hooked foot", "introduced_by_step":1, "description":"Right hook grips the underside of the branch and joins the body."},
+    {"name":"inverted pear body", "introduced_by_step":1, "description":"Centered hanging body with narrow rump above and broad head below."},
+    {"name":"left folded wing", "introduced_by_step":2, "description":"Scalloped left wing attaches to left shoulder and tucks beside body."},
+    {"name":"right folded wing", "introduced_by_step":2, "description":"Scalloped right wing attaches to right shoulder and tucks beside body."},
+    {"name":"left pointed ear", "introduced_by_step":3, "description":"Left ear rises from lower head side in inverted pose."},
+    {"name":"right pointed ear", "introduced_by_step":3, "description":"Right ear mirrors the left without perfect symmetry."},
+    {"name":"left eye", "introduced_by_step":3, "description":"Small sleepy eye on left side of face."},
+    {"name":"right eye", "introduced_by_step":3, "description":"Small sleepy eye on right side of face."},
+    {"name":"nose and smile", "introduced_by_step":3, "description":"Tiny triangular nose with short relaxed mouth."},
+    {"name":"wing folds", "introduced_by_step":4, "description":"Two short folds on each established wing."},
+    {"name":"branch leaves", "introduced_by_step":4, "description":"Two leaves attached at right branch end."},
+    {"name":"body fur ticks", "introduced_by_step":5, "description":"Three restrained fur clusters inside body."},
+    {"name":"branch grain", "introduced_by_step":5, "description":"Two short grain marks on branch."},
+    {"name":"groundless branch shadow", "introduced_by_step":5, "description":"Short soft graphite shade directly under branch."}
+  ],
+  "frames": [
+    {"step":1,"asset":"assets/hanging-bat-upside-down-step-1.jpg","step_name":"Hang the body from the branch","visible_job":"Place level branch, two attached hooked feet, and centered inverted pear body.","instruction":"Ghost a nearly level branch across the upper third, then draw it lightly. Drop two short hooked feet from its underside and connect them to a centered upside-down pear body. Leave broad empty gaps at both shoulders for folded wings.","adds":["branch","left hooked foot","right hooked foot","inverted pear body"],"introduces":["branch","left hooked foot","right hooked foot","inverted pear body"]},
+    {"step":2,"asset":"assets/hanging-bat-upside-down-step-2.jpg","step_name":"Fold the two wings","visible_job":"Attach left and right scalloped wings at the reserved shoulders.","instruction":"From each upper shoulder gap, sweep a wing outward and down, then return its scalloped edge toward the lower body. Keep both roots attached and leave the face area open.","adds":["left folded wing","right folded wing"],"introduces":["left folded wing","right folded wing"]},
+    {"step":3,"asset":"assets/hanging-bat-upside-down-step-3.jpg","step_name":"Give the bat a face","visible_job":"Add two pointed ears, two sleepy eyes, a tiny nose, and a short smile.","instruction":"Connect one pointed ear to each lower head edge. Center two small sleepy eyes below the wing roots, then place a tiny triangular nose and short smile between them.","adds":["left pointed ear","right pointed ear","left eye","right eye","nose and smile"],"introduces":["left pointed ear","right pointed ear","left eye","right eye","nose and smile"]},
+    {"step":4,"asset":"assets/hanging-bat-upside-down-step-4.jpg","step_name":"Describe wings and branch","visible_job":"Add short folds inside both wings and two attached leaves at right branch end.","instruction":"Pull two short folds from each wing root toward its scalloped edge. At the right branch tip, attach two simple leaves with short stems; stop their contours where they meet the wood.","adds":["wing folds","branch leaves"],"introduces":["wing folds","branch leaves"]},
+    {"step":5,"asset":"assets/hanging-bat-upside-down-step-5.jpg","step_name":"Add quiet pencil texture","visible_job":"Add three body fur clusters, two branch grain marks, and a short branch shadow.","instruction":"Place three small fur-tick clusters inside the body, two short grain marks on the branch, and a soft graphite shade just below the branch. Keep the face and wings clear enough to read at a glance.","adds":["body fur ticks","branch grain","groundless branch shadow"],"introduces":["body fur ticks","branch grain","groundless branch shadow"]}
+  ],
+  "final_step": {"asset":"assets/hanging-bat-upside-down-finished-v1.jpg","step_name":"Warm the hanging bat","visible_job":"Darken established keeper lines and layer restrained brown-gray and blue-gray pencil within existing contours.","instruction":"Strengthen the same branch, feet, body, wing, ear, and face contours. Layer light brown-gray on the body and blue-gray on the wings, leaving paper tooth visible; do not add new anatomy or scenery.","adds":["restrained color on established forms"],"introduces":[]},
+  "visual_review": {"status":"pending","teaching_score":0,"finished_art_score":0,"first_step_observation":"","draw_through_observation":"","contract_sha256":"","asset_sha256":{},"transitions":[]}
+}
