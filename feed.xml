@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cinnamon roll with icing</title>
+      <link>https://sketcha.day/tutorials/cinnamon-roll-with-icing.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/cinnamon-roll-with-icing.html</guid>
+      <pubDate>Sat, 03 Oct 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cinnamon roll with two icing ribbons, an exposed cinnamon spiral, a shallow plate, and warm colored-pencil shading.</description>
+      <media:content url="https://sketcha.day/assets/cinnamon-roll-with-icing-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a raincoat on a wall hook</title>
       <link>https://sketcha.day/tutorials/raincoat-on-a-wall-hook.html</link>

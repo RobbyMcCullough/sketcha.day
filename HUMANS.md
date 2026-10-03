@@ -1,5 +1,11 @@
 # Human Notes
 
+## 2026-10-03 — Current cinnamon roll lesson (Codex)
+
+- Added Sketcha Day 149, `cinnamon-roll-with-icing`, for October 3. A five-panel graphite and dry colored-pencil lesson keeps the pastry oval and side, two icing bands, exposed spiral, plate rim, and shadow anchored. V1 was rejected for silent spiral erasure; V2 for an icing count mismatch. The approved third sheet and both rejected attempts remain private in `drafts/`.
+- Saved square crops were checked in every adjacent pair including the color finish. No temporary guides; teaching 8.2/10 and finish 8.2/10. Schema-v5 image/contract hashes and readiness passed (301 URLs). Fallback localhost rendered QA passed on home, library, and tutorial at desktop and mobile widths with all new images loaded, valid JSON-LD, and no horizontal overflow. The one-current-lesson-per-site cadence remains active.
+- Harness: Codex; task: 2026-10-03 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
 ## 2026-10-02 — Daily sketch lesson blocked by process-art continuity (Codex)
 
 - Worktrees were clean before the shared lock; the October 2 slot was open. `wicker-picnic-basket-with-apples` was rejected before art because the archive already has `picnic-basket`.

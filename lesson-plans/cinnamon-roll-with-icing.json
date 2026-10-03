@@ -1,0 +1,187 @@
+{
+  "schema_version": 5,
+  "slug": "cinnamon-roll-with-icing",
+  "finished": "assets/cinnamon-roll-with-icing-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A broad tilted oval top and short curved side give a beginner the roll's full footprint and height before any small detail.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Third generated five-panel graphite and dry colored-pencil sheet approved after V1 spiral-erasure and V2 icing-count failures. The raw approved sheet and margin-normalized crop source remain private in drafts."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "roll top oval",
+      "introduced_by_step": 1,
+      "description": "Wide tilted oval centered on the page, with a small open gap at the near rim for the pastry side."
+    },
+    {
+      "name": "pastry side",
+      "introduced_by_step": 1,
+      "description": "Short curved side wall attached beneath the near rim, closing at a shallow lower arc."
+    },
+    {
+      "name": "single cinnamon spiral",
+      "introduced_by_step": 3,
+      "description": "One continuous loose spiral inside the top oval, ending at the center."
+    },
+    {
+      "name": "two icing ribbons",
+      "introduced_by_step": 2,
+      "description": "Two broad irregular white icing bands crossing the roll top, with exposed dough between them."
+    },
+    {
+      "name": "plate rim and shadow",
+      "introduced_by_step": 4,
+      "description": "One shallow plate ellipse behind the roll with a broken shadow beneath it."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cinnamon-roll-with-icing-step-1.jpg",
+      "step_name": "Set the roll's footprint",
+      "visible_job": "Draw the tilted oval top and attached shallow pastry side.",
+      "instruction": "Lightly draw a wide tilted oval in the center. Leave a small gap along the near edge, then drop two short side curves from that gap and join them with a shallow lower arc.",
+      "adds": [
+        "roll top oval",
+        "pastry side"
+      ],
+      "introduces": [
+        "roll top oval",
+        "pastry side"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cinnamon-roll-with-icing-step-2.jpg",
+      "step_name": "Reserve two icing ribbons",
+      "visible_job": "Outline two irregular icing ribbons on the blank roll top.",
+      "instruction": "Across the empty oval top, outline two broad wavy icing ribbons from the far rim toward the near rim. Keep their interiors blank and leave a wide uncovered middle strip for the cinnamon swirl.",
+      "adds": [
+        "two icing ribbons"
+      ],
+      "introduces": [
+        "two icing ribbons"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cinnamon-roll-with-icing-step-3.jpg",
+      "step_name": "Turn the exposed cinnamon spiral",
+      "visible_job": "Add visible spiral segments and light cinnamon hatching in the open dough between the two icing bands.",
+      "instruction": "Curl a broad spiral through the uncovered dough, lifting the pencil at each icing edge and continuing at the matching point beyond it. Hatch the exposed cinnamon strip lightly, without marking the white icing.",
+      "adds": [
+        "single cinnamon spiral"
+      ],
+      "introduces": [
+        "single cinnamon spiral"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cinnamon-roll-with-icing-step-4.jpg",
+      "step_name": "Set the roll on a plate",
+      "visible_job": "Add one shallow plate rim and a small broken cast shadow.",
+      "instruction": "Behind the pastry side, draw a shallow plate ellipse whose front edge passes below the roll. Add a short broken shadow under the base, keeping the roll in exactly the same place.",
+      "adds": [
+        "plate rim and shadow"
+      ],
+      "introduces": [
+        "plate rim and shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cinnamon-roll-with-icing-finished-v1.jpg",
+    "step_name": "Shade warm pastry and cinnamon",
+    "visible_job": "Shade established forms with graphite, ochre and warm brown while leaving the three icing ribbons as paper.",
+    "instruction": "Glaze the pastry side golden ochre and the exposed spiral warm brown with visible pencil grain. Deepen the existing underside and plate shadow in graphite; leave both icing ribbons pale and add no new contours.",
+    "adds": [
+      "color and shading on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The saved first square crop shows a wide tilted pastry top and attached shallow side at final size, with only faint surface pencil grain and no icing, spiral, plate, or color. The single connected footprint gives a beginner an immediately copyable start.",
+    "draw_through_observation": "Reading each instruction against its saved before and after crop yields two reserved icing ribbons, exposed cinnamon spiral and hatching, plate and shadow, then dry colored-pencil shading. The same pastry rim, side wall, ribbon edges, and spiral anchors persist; no temporary guides are used.",
+    "contract_sha256": "d25f7e62e1b4ea398f2f53688c417b57c7ea68755c40cffd2814f1f469f95308",
+    "asset_sha256": {
+      "assets/cinnamon-roll-with-icing-step-1.jpg": "21d32bfc9d24da0558c55d7fa1e2ab4a5a8e54eb6d124b69aa8e3798d14c9b20",
+      "assets/cinnamon-roll-with-icing-step-2.jpg": "f3f53f9c4aaa51dee321c4aaf799e948917cde7b3d9181341a0111431ed2560d",
+      "assets/cinnamon-roll-with-icing-step-3.jpg": "3281a2904fcffde4d513ee093c99c3d331dceff6f021bb220f79345bd37c8261",
+      "assets/cinnamon-roll-with-icing-step-4.jpg": "c0c53bf16ccc050121e1398d949573e76768c5c7412a688d04b66f0a698cc19b",
+      "assets/cinnamon-roll-with-icing-finished-v1.jpg": "e1c23d79dfd947454086d331b14e583895dbe6cadfe307bff4c05fb7ae27943f"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "roll top oval",
+          "pastry side",
+          "two icing ribbons"
+        ],
+        "observed_addition": "Two broad white icing ribbons run from the far roll rim toward the near rim. The tilted top oval and attached shallow side keep their positions; both ribbon interiors remain clear paper.",
+        "instruction_match": "The Step 2 instruction asks for exactly these two separated ribbons on the formerly empty top; no spiral is visible yet.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "roll top oval",
+          "pastry side",
+          "single cinnamon spiral",
+          "two icing ribbons"
+        ],
+        "observed_addition": "Visible graphite segments of one cinnamon spiral and light hatching fill the exposed dough, stopping at both fixed icing edges. The side wall and top rim persist.",
+        "instruction_match": "The Step 3 instruction asks for the interrupted spiral and exposed-dough hatching. The two ribbon interiors stay white as instructed.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "roll top oval",
+          "pastry side",
+          "single cinnamon spiral",
+          "two icing ribbons",
+          "plate rim and shadow"
+        ],
+        "observed_addition": "A shallow plate rim appears behind and below the same pastry base and a broken cast shadow appears underneath. The spiral and both icing bands remain at their previous anchors.",
+        "instruction_match": "The Step 4 instruction asks for the plate edge and shadow only; the existing pastry, ribbons, and spiral remain copyable.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "roll top oval",
+          "pastry side",
+          "single cinnamon spiral",
+          "two icing ribbons",
+          "plate rim and shadow"
+        ],
+        "observed_addition": "Golden ochre pencil fills the established pastry side and warm brown colors the exposed spiral. Graphite deepens the existing underside and plate shadow, while both icing bands stay white.",
+        "instruction_match": "The finish performs only the stated color and value pass; no plate, ribbon, spiral, or pastry contour is newly introduced.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
