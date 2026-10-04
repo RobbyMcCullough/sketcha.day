@@ -1,0 +1,243 @@
+{
+  "schema_version": 5,
+  "slug": "knitted-mitten-with-snowflake",
+  "finished": "assets/knitted-mitten-with-snowflake-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The full mitten outline, thumb and attached cuff show the complete object at final size; a beginner can copy its two connected shapes without later repositioning.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel raster contact sheet; rejected squirrel subject recorded privately before this replacement."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "mitten silhouette",
+      "introduced_by_step": 1,
+      "description": "One rounded mitten outline with a left thumb in its final position."
+    },
+    {
+      "name": "cuff",
+      "introduced_by_step": 1,
+      "description": "One attached wide cuff band at the straight wrist."
+    },
+    {
+      "name": "cuff ribs",
+      "introduced_by_step": 2,
+      "description": "Six vertical rib strokes within the cuff."
+    },
+    {
+      "name": "thumb seam",
+      "introduced_by_step": 2,
+      "description": "One short inner seam at the thumb base."
+    },
+    {
+      "name": "snowflake motif",
+      "introduced_by_step": 3,
+      "description": "One six-armed motif centered on the palm."
+    },
+    {
+      "name": "stitch marks",
+      "introduced_by_step": 4,
+      "description": "Two rows of V stitches and four fingertip dashes."
+    },
+    {
+      "name": "yarn tail",
+      "introduced_by_step": 5,
+      "description": "One short loose strand attached to the cuff corner."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "One broken oval graphite shadow below the mitten."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/knitted-mitten-with-snowflake-step-1.jpg",
+      "step_name": "Shape the mitten",
+      "visible_job": "mitten silhouette and cuff",
+      "instruction": "Draw one rounded mitten silhouette with a thumb opening outward on the left and a straight wrist end; place a separate wide cuff band at the wrist.",
+      "adds": [
+        "mitten silhouette and cuff"
+      ],
+      "introduces": [
+        "mitten silhouette",
+        "cuff"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/knitted-mitten-with-snowflake-step-2.jpg",
+      "step_name": "Divide the cuff",
+      "visible_job": "Add six short vertical rib lines inside the cuff and one inner seam tracing the thumb base without changing its outline.",
+      "instruction": "Add six short vertical rib lines inside the cuff and one inner seam tracing the thumb base without changing its outline.",
+      "adds": [
+        "cuff ribs and thumb seam"
+      ],
+      "introduces": [
+        "cuff ribs",
+        "thumb seam"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/knitted-mitten-with-snowflake-step-3.jpg",
+      "step_name": "Place a snowflake",
+      "visible_job": "Add one six-armed snowflake at the center of the mitten palm while leaving its outer outline untouched.",
+      "instruction": "At the middle of the palm draw one small six-armed snowflake, leaving clear space around the thumb and outer mitten edge.",
+      "adds": [
+        "snowflake motif"
+      ],
+      "introduces": [
+        "snowflake motif"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/knitted-mitten-with-snowflake-step-4.jpg",
+      "step_name": "Add knitted stitches",
+      "visible_job": "Draw two staggered rows of small V stitches below the snowflake and four short diagonal stitch marks near the fingertip curve.",
+      "instruction": "Draw two staggered rows of small V stitches below the snowflake and four short diagonal stitch marks near the fingertip curve.",
+      "adds": [
+        "stitch marks"
+      ],
+      "introduces": [
+        "stitch marks"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/knitted-mitten-with-snowflake-step-5.jpg",
+      "step_name": "Ground the mitten",
+      "visible_job": "yarn tail and shadow",
+      "instruction": "Add a short loose yarn tail from one cuff corner and one broken oval shadow beneath the mitten. Keep every earlier contour fixed.",
+      "adds": [
+        "yarn tail and shadow"
+      ],
+      "introduces": [
+        "yarn tail",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/knitted-mitten-with-snowflake-finished-v1.jpg",
+    "step_name": "Shade the knit",
+    "visible_job": "Add soft graphite and muted blue pencil within the established mitten and cuff, preserving the stitch marks and snowflake.",
+    "instruction": "Shade the existing mitten with pale blue-gray pencil, darken the cuff ribs and stitches with graphite, and keep the snowflake light. Add no new outline or motif.",
+    "adds": [
+      "color and value within established regions"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved square crop shows a complete rounded mitten, a separate attached cuff and a left-facing thumb at their final size. Its blank palm gives a beginner a clear place for the later motif; no temporary guide is present.",
+    "draw_through_observation": "Reading one instruction at a time against the six saved square crops shows ribs and a thumb seam, then the palm snowflake, two stitch rows and four fingertip dashes, yarn and shadow, and finally blue-gray shading. The thumb, cuff, palm curve and all prior decorations stay anchored, and there are no guide removals.",
+    "contract_sha256": "3d3ad83ef1a8daad26cb15a3756cb8568661f0a6efc156ab3d4258252896ff70",
+    "asset_sha256": {
+      "assets/knitted-mitten-with-snowflake-step-1.jpg": "52058404e6c07f24b267e9c5a72cd830250e27ab92e3c55b082580ab77f0605b",
+      "assets/knitted-mitten-with-snowflake-step-2.jpg": "09b8cd3041e1baf3736e2d19e1f4953880d13690a19fb7b102286791d19b139e",
+      "assets/knitted-mitten-with-snowflake-step-3.jpg": "8ed2911a4353407d046911d7ee92de0b16ba4da74dc0c516826a5c9800c777e3",
+      "assets/knitted-mitten-with-snowflake-step-4.jpg": "057f8657744e4017221940edb9d3ba635d9976cabd0548691bbe31b04df24395",
+      "assets/knitted-mitten-with-snowflake-step-5.jpg": "c5f3e211ba2d26cd985b55a8cab384611ac50dd1fe12aae657a0e91c3e1d9712",
+      "assets/knitted-mitten-with-snowflake-finished-v1.jpg": "451c157e6ed7c5bf5946e2ce15cd0c99f605a4c371067315698167ca653b99c4"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "mitten silhouette",
+          "cuff",
+          "cuff ribs",
+          "thumb seam"
+        ],
+        "observed_addition": "Six cuff rib strokes and one thumb-base seam appear inside the original mitten and cuff. The left thumb tip, rounded fingertip, cuff corners, and cuff angle remain at their earlier anchors.",
+        "instruction_match": "Step 2 asks for the visible ribs and short inner seam; it does not ask the learner to redraw the outside edge.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "mitten silhouette",
+          "cuff",
+          "cuff ribs",
+          "thumb seam",
+          "snowflake motif"
+        ],
+        "observed_addition": "One six-armed snowflake appears in the open palm, centered above the cuff. The same six ribs, thumb seam, thumb tip, cuff corners, and rounded fingertip remain visible.",
+        "instruction_match": "Step 3 asks for the single palm snowflake and leaves both cuff and thumb clear, matching this crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "mitten silhouette",
+          "cuff",
+          "cuff ribs",
+          "thumb seam",
+          "snowflake motif",
+          "stitch marks"
+        ],
+        "observed_addition": "Two staggered rows of V stitches appear below the snowflake and four diagonal marks appear near the fingertip. The six snowflake arms, cuff ribs, thumb seam, and outer shape remain fixed.",
+        "instruction_match": "Step 4 directs two V rows and four fingertip dashes, exactly the new marks visible in the saved crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "mitten silhouette",
+          "cuff",
+          "cuff ribs",
+          "thumb seam",
+          "snowflake motif",
+          "stitch marks",
+          "yarn tail",
+          "ground shadow"
+        ],
+        "observed_addition": "A loose yarn strand attaches at the left cuff corner and a broken graphite shadow sits beneath the cuff. The snowflake, V rows, four fingertip dashes, thumb seam and six cuff ribs remain.",
+        "instruction_match": "Step 5 names the attached strand and low shadow; earlier decoration and the mitten silhouette remain available to copy.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "mitten silhouette",
+          "cuff",
+          "cuff ribs",
+          "thumb seam",
+          "snowflake motif",
+          "stitch marks",
+          "yarn tail",
+          "ground shadow"
+        ],
+        "observed_addition": "Pale blue-gray pencil fills the established thumb, palm and cuff with visible paper tooth; the existing graphite shadow deepens. The motif, two V rows, four fingertip marks, six ribs and yarn stay in place.",
+        "instruction_match": "The final instruction is a color and value pass on existing contours; it adds no structural or decorative mark.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

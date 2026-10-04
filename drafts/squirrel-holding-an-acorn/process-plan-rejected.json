@@ -1,0 +1,138 @@
+{
+  "schema_version": 5,
+  "slug": "squirrel-holding-an-acorn",
+  "finished": "assets/squirrel-holding-an-acorn-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The left-pointing muzzle, head and seated haunch form one useful squirrel silhouette. The open chest-to-haunch gap reserves the later arm and acorn without erasing a keeper line.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Contact sheet first; saved crops reviewed before publication."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "head and body",
+      "introduced_by_step": 1,
+      "description": "One connected left-facing pointed muzzle, head and pear haunch, with a front gap reserved for the arm."
+    },
+    {
+      "name": "rear foot",
+      "introduced_by_step": 1,
+      "description": "One flat rear foot beneath the seated haunch; toe lines are clarified in Step 3."
+    },
+    {
+      "name": "curled tail",
+      "introduced_by_step": 2,
+      "description": "One large tail rises from the right haunch and curls inward at the top."
+    },
+    {
+      "name": "two ears",
+      "introduced_by_step": 3,
+      "description": "Two pointed ears attach to the top of the fixed head."
+    },
+    {
+      "name": "acorn and forepaws",
+      "introduced_by_step": 4,
+      "description": "One capped acorn and two forepaws occupy the reserved chest gap."
+    },
+    {
+      "name": "face",
+      "introduced_by_step": 4,
+      "description": "One almond eye, nose dot and short cheek curve on the existing muzzle."
+    },
+    {
+      "name": "fur texture and shadow",
+      "introduced_by_step": 5,
+      "description": "Sparse chest and tail hatches, acorn-cap marks and one broken ground shadow."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/squirrel-holding-an-acorn-step-1.jpg",
+      "step_name": "Shape the squirrel",
+      "visible_job": "Draw one left-facing head with a short pointed muzzle. Continue the back into a pear-shaped haunch, leave a clear gap down the front for the future arm, and add one flat rear foot below the haunch.",
+      "instruction": "Draw one left-facing head with a short pointed muzzle. Continue the back into a pear-shaped haunch, leave a clear gap down the front for the future arm, and add one flat rear foot below the haunch.",
+      "adds": [
+        "head and body"
+      ],
+      "introduces": [
+        "head and body",
+        "rear foot"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/squirrel-holding-an-acorn-step-2.jpg",
+      "step_name": "Curl the tail",
+      "visible_job": "From the right edge of the haunch sweep one broad tail upward and inward. Return its lower edge to the same haunch without moving the head or foot.",
+      "instruction": "From the right edge of the haunch sweep one broad tail upward and inward. Return its lower edge to the same haunch without moving the head or foot.",
+      "adds": [
+        "curled tail"
+      ],
+      "introduces": [
+        "curled tail"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/squirrel-holding-an-acorn-step-3.jpg",
+      "step_name": "Add ears and toes",
+      "visible_job": "Attach exactly two pointed ears to the head crown and add two short toe divisions inside the existing rear foot. Keep the chest opening blank.",
+      "instruction": "Attach exactly two pointed ears to the head crown and add two short toe divisions inside the existing rear foot. Keep the chest opening blank.",
+      "adds": [
+        "two ears"
+      ],
+      "introduces": [
+        "two ears"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/squirrel-holding-an-acorn-step-4.jpg",
+      "step_name": "Give it an acorn",
+      "visible_job": "In the reserved chest gap, draw one forearm reaching around a capped acorn, then a second small paw behind it. Put one almond eye, tiny nose dot and cheek stroke on the fixed head.",
+      "instruction": "In the reserved chest gap, draw one forearm reaching around a capped acorn, then a second small paw behind it. Put one almond eye, tiny nose dot and cheek stroke on the fixed head.",
+      "adds": [
+        "acorn and forepaws"
+      ],
+      "introduces": [
+        "acorn and forepaws",
+        "face"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/squirrel-holding-an-acorn-step-5.jpg",
+      "step_name": "Texture fur and ground",
+      "visible_job": "Use short strokes along the existing chest and tail curves, hatch the acorn cap, and place one broken shadow below the rear foot.",
+      "instruction": "Use short strokes along the existing chest and tail curves, hatch the acorn cap, and place one broken shadow below the rear foot.",
+      "adds": [
+        "fur texture and shadow"
+      ],
+      "introduces": [
+        "fur texture and shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/squirrel-holding-an-acorn-finished-v1.jpg",
+    "step_name": "Shade the squirrel",
+    "visible_job": "Deepen existing pencil contours and shade the established fur and acorn with restrained warm brown; add no structural contour.",
+    "instruction": "Shade inside the established fur with short warm-brown pencil strokes, keeping the chest light. Deepen the existing tail curl, acorn cap and ground shadow without adding contours.",
+    "adds": [
+      "color and value in established regions"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "pending",
+    "teaching_score": 0,
+    "finished_art_score": 0,
+    "first_step_observation": "",
+    "draw_through_observation": "",
+    "contract_sha256": "",
+    "asset_sha256": {},
+    "transitions": []
+  }
+}

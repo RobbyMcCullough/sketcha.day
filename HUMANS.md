@@ -1,3 +1,8 @@
+## 2026-10-04 — Current knitted mitten lesson (Codex)
+
+- Added Sketcha Day 150, `knitted-mitten-with-snowflake`, for October 4. Six saved pencil crops keep the thumb, cuff, six ribs, snowflake, stitch rows, yarn and shadow fixed through restrained blue-gray color. Teaching 8.2/10 and finish 8.2/10. The earlier squirrel subject was rejected for contour drift; its attempts remain private.
+- Schema-v5 review and readiness passed (304 URLs). Cove-rendered home, library and tutorial passed at 1440×1000 and 390×844 with loaded images, valid JSON-LD and no horizontal overflow. The one-current-lesson-per-site cadence remains active; no archive lesson was made. Harness: Codex; task: 2026-10-04 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
 # Human Notes
 
 ## 2026-10-03 — Current cinnamon roll lesson (Codex)
