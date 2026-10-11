@@ -1,3 +1,9 @@
+## 2026-10-11 — Current handbell lesson (Codex)
+
+- Added Sketcha Day 151, `small-handbell-with-ribbon`, for October 11. Six saved graphite and colored-pencil crops keep the bell dome, oval rim, centered wooden grip and clapper, two ribbon loops and tails, curved band, and shadow fixed through warm brass color. No temporary guides; the ribbon physically overlaps only its handle and bell attachment.
+- Reviewed all five adjacent saved-crop pairs including finish. Teaching 8.3/10 and saved finish 8.3/10. Schema-v5 hashes and readiness passed (306 internal URLs); Cove-rendered home, library, and tutorial passed at 1440×1000 and 390×844, with all new images loaded, valid JSON-LD, and no horizontal overflow.
+- Resolved the prior October 5 rejected moth draft as a separate preserved commit before starting. One-current-lesson-per-site cadence remains active; no archive/backfill lesson. Harness: Codex; task: 2026-10-11 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
 ## 2026-10-05 — Current moth lesson blocked by process-art continuity (Codex)
 
 - Both clean worktrees passed open-slot and ledger checks under the shared daily lock. A barn-owl candidate was rejected at preflight because it was already published. Preflighted `moth-on-a-windowpane` for planned Sketcha Day 151, October 5.

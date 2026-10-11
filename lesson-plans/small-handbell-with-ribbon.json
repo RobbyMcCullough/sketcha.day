@@ -1,0 +1,234 @@
+{
+  "schema_version": 5,
+  "slug": "small-handbell-with-ribbon",
+  "finished": "assets/small-handbell-with-ribbon-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The bell dome and lower oval rim form a readable, connected object at its final scale; a beginner can ghost two long curves and close the small ellipse.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Approved six-panel generated raster contact sheet at drafts/small-handbell-with-ribbon/small-handbell-with-ribbon-contact-sheet.png; no rejected iterations."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "flared bell body",
+      "introduced_by_step": 1,
+      "description": "One centered bell dome widening to a flared lower edge at its final position."
+    },
+    {
+      "name": "lower oval rim",
+      "introduced_by_step": 1,
+      "description": "One narrow open oval attached to the lower bell edge."
+    },
+    {
+      "name": "wooden handle",
+      "introduced_by_step": 2,
+      "description": "One short upright handle attached at the top center of the dome, with rounded knob."
+    },
+    {
+      "name": "inner rim and clapper",
+      "introduced_by_step": 3,
+      "description": "A second short inner rim arc and one small clapper hanging from the center, visible below the bell."
+    },
+    {
+      "name": "tied ribbon",
+      "introduced_by_step": 4,
+      "description": "One simple two-loop ribbon tied around the upper handle with two short tails."
+    },
+    {
+      "name": "single engraved band",
+      "introduced_by_step": 5,
+      "description": "One narrow curved decorative band across the lower bell body."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "One broken oval graphite shadow directly below the bell."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/small-handbell-with-ribbon-step-1.jpg",
+      "step_name": "Shape the bell",
+      "visible_job": "flared bell body, lower oval rim",
+      "instruction": "Draw the dome from a small top shoulder down to two broad sides, flare each side outward, then join the bottom with a shallow oval rim.",
+      "adds": [
+        "flared bell body",
+        "lower oval rim"
+      ],
+      "introduces": [
+        "flared bell body",
+        "lower oval rim"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/small-handbell-with-ribbon-step-2.jpg",
+      "step_name": "Attach the handle",
+      "visible_job": "Attach the short wooden handle and rounded top knob at the dome center.",
+      "instruction": "From the bell top center, raise one short straight wooden grip and round its upper knob. Keep the dome and rim fixed.",
+      "adds": [
+        "wooden handle"
+      ],
+      "introduces": [
+        "wooden handle"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/small-handbell-with-ribbon-step-3.jpg",
+      "step_name": "Hang the clapper",
+      "visible_job": "Add a short inner back-rim arc, shade the opening, and hang one small round clapper from a centered stem.",
+      "instruction": "Inside the lower oval, add a shorter back-rim arc and lightly shade the opening. Suspend one little round clapper on a straight central stem so its lower edge sits just below the opening.",
+      "adds": [
+        "inner rim and clapper"
+      ],
+      "introduces": [
+        "inner rim and clapper"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/small-handbell-with-ribbon-step-4.jpg",
+      "step_name": "Tie a small ribbon",
+      "visible_job": "Tie one two-loop ribbon around the handle and lay both short tails over the bell shoulder.",
+      "instruction": "Wrap one narrow knot around the upper grip; draw one loop to each side and two short tails that stop above the bell shoulder.",
+      "adds": [
+        "tied ribbon"
+      ],
+      "introduces": [
+        "tied ribbon"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/small-handbell-with-ribbon-step-5.jpg",
+      "step_name": "Mark brass and the surface",
+      "visible_job": "single engraved band, ground shadow",
+      "instruction": "Add one gently curved engraved band just above the lower rim, then sketch one broken oval shadow under the clapper.",
+      "adds": [
+        "single engraved band",
+        "ground shadow"
+      ],
+      "introduces": [
+        "single engraved band",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/small-handbell-with-ribbon-finished-v1.jpg",
+    "step_name": "Shade the handbell",
+    "visible_job": "Warm brass and muted red pencil color on established contours, restrained graphite darkening and no new structure.",
+    "instruction": "Layer warm brass over the established bell, brown on the handle and muted red on the tied ribbon. Deepen the existing rim, clapper, band, and shadow with graphite; preserve all earlier contours.",
+    "adds": [
+      "warm brass, brown, and muted red color on established regions"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.3,
+    "finished_art_score": 8.3,
+    "first_step_observation": "The first saved square crop shows one complete flared dome and attached oval rim at the final scale, with clear open space above for the centered grip. Its two long sides are easy to ghost and close without any temporary guide.",
+    "draw_through_observation": "I compared every adjacent saved JPG pair with its instruction. The fixed dome and rim gain a handle, then an inner opening and clapper, tied ribbon, curved band and shadow, and finally pencil color. The knot and tails physically overlap short handle and dome strokes; no unexplained landmark disappears or changes attachment. No temporary guides are used.",
+    "contract_sha256": "fe29ea1cc235e918c1db1acc657610817d09090f2319a6a537aa76d4edeadfac",
+    "asset_sha256": {
+      "assets/small-handbell-with-ribbon-step-1.jpg": "d0f991ea7f69ef34d80da7f61d99b31ac20c772a8c7a02bc9674a7c8e2882827",
+      "assets/small-handbell-with-ribbon-step-2.jpg": "3ffe1e54ac72d52852a1e2183a7e140a81ec9d470bac5289ecba028ffd6900a1",
+      "assets/small-handbell-with-ribbon-step-3.jpg": "77923fc3b4e69bde786d8c497e719700dc76865cde227068ce308fd3ff646b3f",
+      "assets/small-handbell-with-ribbon-step-4.jpg": "96fa61fc18eee43782188e0d5f7dae24952208b5352c83b47a52267e7dc16238",
+      "assets/small-handbell-with-ribbon-step-5.jpg": "2becc2b1d7f63002becc074571aea2be86b9fad14b12d78a63460a89a951197e",
+      "assets/small-handbell-with-ribbon-finished-v1.jpg": "377b5439318e2933db4db8baafbbc09f5b0fb1b2b0b7359c64dfa8a6b2074ec7"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "flared bell body",
+          "lower oval rim",
+          "wooden handle"
+        ],
+        "observed_addition": "The short wooden handle and round knob join the bell dome at its existing top center. The flared left and right edges and oval rim remain in place.",
+        "instruction_match": "Step 2 asks for the centered attached grip and knob; both are visible without changing the Step 1 bell.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "flared bell body",
+          "lower oval rim",
+          "wooden handle",
+          "inner rim and clapper"
+        ],
+        "observed_addition": "A short inner arc and graphite tone appear inside the same oval opening; one round clapper hangs from a central stem below it. The handle, dome sides and rim persist.",
+        "instruction_match": "Step 3 now asks for the shaded opening, inner arc and centered clapper, which match the saved crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "flared bell body",
+          "lower oval rim",
+          "wooden handle",
+          "inner rim and clapper",
+          "tied ribbon"
+        ],
+        "observed_addition": "Two ribbon loops meet at one knot around the handle, and two tails overlap the dome shoulders. The handle knob, dome, oval rim, dark opening and hanging clapper remain visible; the knot physically covers a short handle section.",
+        "instruction_match": "Step 4 tells the reader to tie the loops and tails around the fixed grip; the only hidden handle strokes are under the new ribbon.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "flared bell body",
+          "lower oval rim",
+          "wooden handle",
+          "inner rim and clapper",
+          "tied ribbon",
+          "single engraved band",
+          "ground shadow"
+        ],
+        "observed_addition": "One curved band is added just above the lower rim, and a separate broken graphite shadow sits under the clapper. The two ribbon loops, two tails, handle knob and centered clapper remain fixed.",
+        "instruction_match": "Step 5 names exactly the new band and shadow and leaves the earlier handbell and ribbon available to copy.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "flared bell body",
+          "lower oval rim",
+          "wooden handle",
+          "inner rim and clapper",
+          "tied ribbon",
+          "single engraved band",
+          "ground shadow"
+        ],
+        "observed_addition": "Warm brass fills the existing bell, brown fills the wooden handle and muted red fills the existing ribbon. The oval rim, inner opening, clapper, curved band, two loops, two tails and broken shadow persist with deeper graphite; no new contour appears.",
+        "instruction_match": "The final instruction calls for those three colors and graphite strengthening on established forms, matching the saved finish.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
