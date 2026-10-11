@@ -1,0 +1,161 @@
+{
+  "schema_version": 5,
+  "slug": "moth-on-a-windowpane",
+  "finished": "assets/moth-on-a-windowpane-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A small central head, tapered body, and two connected upper wing arcs fix the moth's size and symmetry without guessing detached parts.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Four generated raster attempts (three sheets and one targeted edit) repeatedly shifted wing/head anchors between rows or introduced later-stage details early. No approved contact sheet or public art; image-generation continuity blocker on 2026-10-05."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "head and tapered body",
+      "introduced_by_step": 1,
+      "description": "Round head above a narrow vertical abdomen, fixed at page center."
+    },
+    {
+      "name": "left upper wing",
+      "introduced_by_step": 1,
+      "description": "Broad upper wing arcs from the left shoulder and returns to the body."
+    },
+    {
+      "name": "right upper wing",
+      "introduced_by_step": 1,
+      "description": "Mirrors the left upper wing at the same height."
+    },
+    {
+      "name": "left lower wing",
+      "introduced_by_step": 2,
+      "description": "Rounded lobe attached below the left upper wing."
+    },
+    {
+      "name": "right lower wing",
+      "introduced_by_step": 2,
+      "description": "Rounded lobe attached below the right upper wing."
+    },
+    {
+      "name": "left antenna",
+      "introduced_by_step": 3,
+      "description": "Short feathery antenna rising from the left side of the head."
+    },
+    {
+      "name": "right antenna",
+      "introduced_by_step": 3,
+      "description": "Short feathery antenna rising from the right side of the head."
+    },
+    {
+      "name": "window crossbars",
+      "introduced_by_step": 4,
+      "description": "One vertical and one horizontal faint window bar, interrupted behind the moth."
+    },
+    {
+      "name": "four wing eyespots",
+      "introduced_by_step": 5,
+      "description": "One small paired spot in each of the four wings."
+    },
+    {
+      "name": "wing veins",
+      "introduced_by_step": 5,
+      "description": "A few short graphite veins radiating from the body into each wing."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/moth-on-a-windowpane-step-1.jpg",
+      "step_name": "Place the moth's center and upper wings",
+      "visible_job": "Draw the fixed head, tapered body, and two broad upper wing outlines.",
+      "instruction": "Draw a small round head and tapered body at the center. From each shoulder, sweep a wide upper wing outward and back toward the abdomen at matching heights.",
+      "adds": [
+        "head and tapered body",
+        "left upper wing",
+        "right upper wing"
+      ],
+      "introduces": [
+        "head and tapered body",
+        "left upper wing",
+        "right upper wing"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/moth-on-a-windowpane-step-2.jpg",
+      "step_name": "Attach the lower wings",
+      "visible_job": "Add two smaller rounded lower wing lobes below the upper wings.",
+      "instruction": "From each lower shoulder, curve a smaller rounded lobe outward, then bring it back to the lower body. Keep both upper wings unchanged.",
+      "adds": [
+        "left lower wing",
+        "right lower wing"
+      ],
+      "introduces": [
+        "left lower wing",
+        "right lower wing"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/moth-on-a-windowpane-step-3.jpg",
+      "step_name": "Add two antennae",
+      "visible_job": "Grow a short feathery antenna from each side of the head.",
+      "instruction": "Draw two short antenna stems upward from the head. Add a few tiny feather strokes along each stem, leaving the four wing contours in place.",
+      "adds": [
+        "left antenna",
+        "right antenna"
+      ],
+      "introduces": [
+        "left antenna",
+        "right antenna"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/moth-on-a-windowpane-step-4.jpg",
+      "step_name": "Set the window behind it",
+      "visible_job": "Place a faint vertical and horizontal window bar behind the moth.",
+      "instruction": "Draw a light vertical bar above and below the moth, stopping at its wing edges. Add a horizontal bar to either side, also stopping where the wings overlap it.",
+      "adds": [
+        "window crossbars"
+      ],
+      "introduces": [
+        "window crossbars"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/moth-on-a-windowpane-step-5.jpg",
+      "step_name": "Mark the wings",
+      "visible_job": "Add four separate small eyespots and a few veins inside the existing wings.",
+      "instruction": "Put one small oval eyespot in each of the four wings. Draw a few short veins from the body toward the edges, stopping before the outlines.",
+      "adds": [
+        "four wing eyespots",
+        "wing veins"
+      ],
+      "introduces": [
+        "four wing eyespots",
+        "wing veins"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/moth-on-a-windowpane-finished-v1.jpg",
+    "step_name": "Shade the moth softly",
+    "visible_job": "Deepen the existing keeper lines and shade within the four wing shapes.",
+    "instruction": "Deepen the head, body and four wing edges, then add restrained graphite and warm gray pencil shading inside the established wings. Leave the eyespots and window bars readable; add no new structure.",
+    "adds": [
+      "shading on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "pending",
+    "teaching_score": 0,
+    "finished_art_score": 0,
+    "first_step_observation": "",
+    "draw_through_observation": "",
+    "contract_sha256": "",
+    "asset_sha256": {},
+    "transitions": []
+  }
+}

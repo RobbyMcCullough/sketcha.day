@@ -1,3 +1,9 @@
+## 2026-10-05 — Current moth lesson blocked by process-art continuity (Codex)
+
+- Both clean worktrees passed open-slot and ledger checks under the shared daily lock. A barn-owl candidate was rejected at preflight because it was already published. Preflighted `moth-on-a-windowpane` for planned Sketcha Day 151, October 5.
+- Three generated contact sheets and one targeted edit shifted moth/wing anchors between rows or introduced finish details early. The schema-v5 plan and all failed raster attempts remain private. No approved crop, public asset, lesson page, rating, commit, or push resulted.
+- The one-current-lesson-per-site cadence remains active; no archive lesson was made. Harness: Codex; task: 2026-10-05 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
 ## 2026-10-04 — Current knitted mitten lesson (Codex)
 
 - Added Sketcha Day 150, `knitted-mitten-with-snowflake`, for October 4. Six saved pencil crops keep the thumb, cuff, six ribs, snowflake, stitch rows, yarn and shadow fixed through restrained blue-gray color. Teaching 8.2/10 and finish 8.2/10. The earlier squirrel subject was rejected for contour drift; its attempts remain private.
