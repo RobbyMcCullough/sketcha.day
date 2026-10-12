@@ -1,3 +1,8 @@
+## 2026-10-11 — Daily duplicate-slot guard repair (Codex)
+
+- The scheduled 10:00 Pacific rerun found the already published October 11 pair and needed no authentication. Its duplicate-slot script incorrectly reported an open date because it missed inline JSON-style lesson records.
+- Updated the parser to handle both inline JSON and older multiline JavaScript objects, with a regression test. It now reads 148 lessons, blocks the occupied October 11 slot, accepts the exact-slug correction flag, and leaves October 12 open. No lesson art or page content changed. One-current-lesson-per-site cadence remains active. Harness: Codex; task: 2026-10-11 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
 ## 2026-10-11 — Current handbell lesson (Codex)
 
 - Added Sketcha Day 151, `small-handbell-with-ribbon`, for October 11. Six saved graphite and colored-pencil crops keep the bell dome, oval rim, centered wooden grip and clapper, two ribbon loops and tails, curved band, and shadow fixed through warm brass color. No temporary guides; the ribbon physically overlaps only its handle and bell attachment.
