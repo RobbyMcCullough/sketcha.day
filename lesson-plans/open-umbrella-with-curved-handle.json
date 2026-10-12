@@ -1,0 +1,232 @@
+{
+  "schema_version": 5,
+  "slug": "open-umbrella-with-curved-handle",
+  "finished": "assets/open-umbrella-with-curved-handle-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The complete shallow canopy silhouette is one connected outline at its final scale; four broad scallops give a beginner clear landing points for later ribs.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First approved six-panel generated raster contact sheet at drafts/open-umbrella-with-curved-handle/open-umbrella-with-curved-handle-contact-sheet.png; four scallops and three ribs are shown consistently."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "canopy silhouette",
+      "introduced_by_step": 1,
+      "description": "A broad shallow dome with five fixed scallops across its lower edge."
+    },
+    {
+      "name": "canopy seams",
+      "introduced_by_step": 2,
+      "description": "Three light pencil ribs radiating from the top center to the four joins between the scallops."
+    },
+    {
+      "name": "center shaft",
+      "introduced_by_step": 3,
+      "description": "A straight slender shaft from the canopy center down to a fixed lower endpoint."
+    },
+    {
+      "name": "curved wooden hook",
+      "introduced_by_step": 4,
+      "description": "A J-shaped handle curling left from the lower shaft, with its end turned upward."
+    },
+    {
+      "name": "top ferrule",
+      "introduced_by_step": 4,
+      "description": "A short pointed tip directly above the canopy center."
+    },
+    {
+      "name": "three rain drops",
+      "introduced_by_step": 5,
+      "description": "Three separate teardrops outside the canopy, two on the left and one on the right."
+    },
+    {
+      "name": "broken ground shadow",
+      "introduced_by_step": 5,
+      "description": "One loose graphite shadow directly beneath the hooked handle."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/open-umbrella-with-curved-handle-step-1.jpg",
+      "step_name": "Shape the canopy",
+      "visible_job": "Draw a wide, shallow dome, then close its lower edge with four gentle scallops. Keep the top center and the three scallop joins clear.",
+      "instruction": "Draw a wide, shallow dome, then close its lower edge with four gentle scallops. Keep the top center and the three scallop joins clear.",
+      "adds": [
+        "canopy silhouette"
+      ],
+      "introduces": [
+        "canopy silhouette"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/open-umbrella-with-curved-handle-step-2.jpg",
+      "step_name": "Place the canopy seams",
+      "visible_job": "From the fixed top center, draw three light ribs down to the four joins between the four scallops. Keep the outside edge unchanged.",
+      "instruction": "From the fixed top center, draw three light ribs down to the three joins between the four scallops. Keep the outside edge unchanged.",
+      "adds": [
+        "canopy seams"
+      ],
+      "introduces": [
+        "canopy seams"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/open-umbrella-with-curved-handle-step-3.jpg",
+      "step_name": "Drop the center shaft",
+      "visible_job": "From beneath the top center, draw a thin straight shaft down through the middle scallop to a point well below the canopy. Keep it centered.",
+      "instruction": "From beneath the top center, draw a thin straight shaft down through the middle scallop to a point well below the canopy. Leave its rounded lower endpoint ready for the hook to overlap.",
+      "adds": [
+        "center shaft"
+      ],
+      "introduces": [
+        "center shaft"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/open-umbrella-with-curved-handle-step-4.jpg",
+      "step_name": "Curl the wooden handle",
+      "visible_job": "At the lower shaft, curve a J-shaped wooden handle left and upward. Add a short pointed ferrule above the same canopy center.",
+      "instruction": "Wrap the J-shaped wooden hook over the shaft\u2019s lower endpoint, curling left and upward. Add a short ferrule above the same canopy center.",
+      "adds": [
+        "curved wooden hook",
+        "top ferrule"
+      ],
+      "introduces": [
+        "curved wooden hook",
+        "top ferrule"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/open-umbrella-with-curved-handle-step-5.jpg",
+      "step_name": "Add rain and a shadow",
+      "visible_job": "Add three pale-blue raindrops outside the canopy and a broken graphite shadow beneath the hook.",
+      "instruction": "Draw two pale-blue raindrops to the left of the canopy and one to the right. Sketch one broken graphite shadow directly under the hook.",
+      "adds": [
+        "three rain drops",
+        "broken ground shadow"
+      ],
+      "introduces": [
+        "three rain drops",
+        "broken ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/open-umbrella-with-curved-handle-finished-v1.jpg",
+    "step_name": "Shade the open umbrella",
+    "visible_job": "Add muted red and gold pencil bands across the existing canopy, warm brown to the hook, and deeper graphite without moving any line.",
+    "instruction": "Shade the canopy in muted red and gold bands: red on both narrow outer edges and the left center section, gold in the remaining spaces. Color the hook brown, preserve the three pale-blue drops, and deepen selected ribs and shadow without new contours.",
+    "adds": [
+      "color within established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The saved first square crop has one complete broad canopy with four scallops at final scale. Its three lower joins give clear landing points for later ribs; no future shaft, tip, drops, or shadow intrude.",
+    "draw_through_observation": "I read each instruction against consecutive saved JPG crops. The same four-scallop canopy gains three ribs, then a centered shaft; the hook covers only the reserved shaft endpoint and a ferrule caps the crown. Three drops and a ground shadow arrive before restrained color. No temporary guides are used; no unexplained anchor shift or removal was observed.",
+    "contract_sha256": "274d48d32f171864e0e624210d5eeedbf7e8b539477454644e8768cc861807ab",
+    "asset_sha256": {
+      "assets/open-umbrella-with-curved-handle-step-1.jpg": "be95c25625dfda2f84f118012e327317130a5cf8d7f07b425f114211b0030e3f",
+      "assets/open-umbrella-with-curved-handle-step-2.jpg": "e9ad7932da1547b3ab86ad90e7a29c6ab72cd28518adc52fcbbb06b02959a20f",
+      "assets/open-umbrella-with-curved-handle-step-3.jpg": "a56d5df980543045c6e8287edf6b9afeec36b90395627fdaecc1c10c06b4a666",
+      "assets/open-umbrella-with-curved-handle-step-4.jpg": "bd8b1640632019cb2ed70a5d6e94d461ded4df34520a98876a753a3f43527374",
+      "assets/open-umbrella-with-curved-handle-step-5.jpg": "8a08626c93c7ff5172a2eb240fba65059f3c3b459a8119dbe35a6669f96870db",
+      "assets/open-umbrella-with-curved-handle-finished-v1.jpg": "bf2450d7ab97ea664691258bded8757e9533d8f2c4382034b7d84af44c4df9d3"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "canopy silhouette",
+          "canopy seams"
+        ],
+        "observed_addition": "Three ribs now fan from the same crown to the left, middle, and right scallop joins; all four scallops and both canopy tips remain visible.",
+        "instruction_match": "Step 2 names the three fixed joins and the saved image shows those exact rib endpoints.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "canopy silhouette",
+          "canopy seams",
+          "center shaft"
+        ],
+        "observed_addition": "A narrow vertical shaft meets the middle scallop join and stops below the canopy with a small rounded end. The dome, four scallops, and three ribs remain anchored.",
+        "instruction_match": "Step 3 asks for the centered shaft and reserves its lower end for the following overlap.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "canopy silhouette",
+          "canopy seams",
+          "center shaft",
+          "curved wooden hook",
+          "top ferrule"
+        ],
+        "observed_addition": "The graphite J hook wraps over the former lower shaft tip and curls left; a short ferrule caps the same crown. The canopy endpoints, three ribs, and straight shaft stay fixed.",
+        "instruction_match": "Step 4 explicitly covers the reserved shaft endpoint with the hook and places the ferrule on the existing centerline.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "canopy silhouette",
+          "canopy seams",
+          "center shaft",
+          "curved wooden hook",
+          "top ferrule",
+          "three rain drops",
+          "broken ground shadow"
+        ],
+        "observed_addition": "Two pale-blue drops appear outside the left canopy edge and one outside the right, while a broken graphite shadow sits below the hook. The ferrule, four scallops, three ribs, shaft, and J hook persist.",
+        "instruction_match": "Step 5 specifies the two-left one-right drop positions and the separate ground shadow.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "canopy silhouette",
+          "canopy seams",
+          "center shaft",
+          "curved wooden hook",
+          "top ferrule",
+          "three rain drops",
+          "broken ground shadow"
+        ],
+        "observed_addition": "Muted red fills both outer canopy edges and the left-center section; gold fills the other spaces. Brown fills the fixed J hook, the three earlier blue drops persist, and the shadow and ribs darken without new structure.",
+        "instruction_match": "The final instruction names the observed color placement and preserves every earlier contour and drop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

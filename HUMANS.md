@@ -1,3 +1,8 @@
+## 2026-10-12 — Current open umbrella lesson (Codex)
+
+- Added Sketcha Day 152, `open-umbrella-with-curved-handle`, for October 12. The six saved pencil crops keep four canopy scallops, three ribs, centered shaft, left-curling hook, top ferrule, three raindrops, and ground shadow anchored through restrained color. A curled maple leaf candidate was rejected as a duplicate at preflight before art.
+- Reviewed the full sheet and every adjacent saved crop including finish: teaching 8.1/10, saved finish 8.1/10, no temporary guides. Schema-v5 image and contract hashes and readiness passed. Cove home, library, and tutorial passed at 1440×1000 and 390×844 with new images loaded, valid JSON-LD, and no horizontal overflow. One-current-lesson-per-site cadence remains active; no archive/backfill lesson. Harness: Codex; task: 2026-10-12 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
 ## 2026-10-11 — Daily duplicate-slot guard repair (Codex)
 
 - The scheduled 10:00 Pacific rerun found the already published October 11 pair and needed no authentication. Its duplicate-slot script incorrectly reported an open date because it missed inline JSON-style lesson records.
