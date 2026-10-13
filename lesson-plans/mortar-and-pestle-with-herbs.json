@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "mortar-and-pestle-with-herbs",
+  "finished": "assets/mortar-and-pestle-with-herbs-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A wide rim ellipse joined to a tapering bowl and small foot establishes the vessel's final footprint before anything overlaps it.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Cumulative six-panel graphite and colored-pencil sheet on paper; review saved crops before approval."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "mortar rim and bowl",
+      "introduced_by_step": 1,
+      "description": "Wide tilted oval rim connected to a tapering stone bowl at center."
+    },
+    {
+      "name": "mortar foot",
+      "introduced_by_step": 2,
+      "description": "Short oval foot centered under the bowl."
+    },
+    {
+      "name": "pestle",
+      "introduced_by_step": 3,
+      "description": "Diagonal pestle entering the bowl from upper right, tip hidden behind the near rim."
+    },
+    {
+      "name": "herb sprig",
+      "introduced_by_step": 4,
+      "description": "One short herb stem rising from the left rim with three individually readable leaves."
+    },
+    {
+      "name": "stone grooves and shadow",
+      "introduced_by_step": 5,
+      "description": "Three short curved stone texture grooves on the visible bowl and a broken ground shadow under the foot."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/mortar-and-pestle-with-herbs-step-1.jpg",
+      "step_name": "Shape the mortar",
+      "visible_job": "Draw the wide oval rim and tapering bowl in their final positions.",
+      "instruction": "Draw a broad shallow rim ellipse at center. From its left and right edges, curve two sides inward and join them with a rounded bowl bottom.",
+      "adds": [
+        "mortar rim and bowl"
+      ],
+      "introduces": [
+        "mortar rim and bowl"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/mortar-and-pestle-with-herbs-step-2.jpg",
+      "step_name": "Set the stone foot",
+      "visible_job": "Add a short oval foot directly beneath the same bowl.",
+      "instruction": "Center a low oval foot under the rounded bottom, letting its top edge disappear behind the bowl. Keep the wide rim and both sides unchanged.",
+      "adds": [
+        "mortar foot"
+      ],
+      "introduces": [
+        "mortar foot"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/mortar-and-pestle-with-herbs-step-3.jpg",
+      "step_name": "Lean in the pestle",
+      "visible_job": "Add one diagonal pestle through the bowl opening without moving the rim.",
+      "instruction": "From inside the bowl opening, draw two parallel slanting edges rising to the upper right and cap them with a rounded handle end. Stop the lower tip behind the near rim.",
+      "adds": [
+        "pestle"
+      ],
+      "introduces": [
+        "pestle"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/mortar-and-pestle-with-herbs-step-4.jpg",
+      "step_name": "Tuck in the herbs",
+      "visible_job": "Place one left-side stem and three separate leaves at fixed rim attachments.",
+      "instruction": "From the left side of the bowl opening, lift a short stem up-left. Attach three pointed leaves along it, keeping their bases joined to the stem and clear of the pestle.",
+      "adds": [
+        "herb sprig"
+      ],
+      "introduces": [
+        "herb sprig"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/mortar-and-pestle-with-herbs-step-5.jpg",
+      "step_name": "Mark stone and table",
+      "visible_job": "Add three shallow grooves to the bowl and one broken shadow under the foot.",
+      "instruction": "Curve three short grooves across the exposed bowl wall, then place a broken graphite shadow directly beneath the foot. Keep all earlier contours in place.",
+      "adds": [
+        "stone grooves and shadow"
+      ],
+      "introduces": [
+        "stone grooves and shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/mortar-and-pestle-with-herbs-finished-v1.jpg",
+    "step_name": "Shade stone and herbs",
+    "visible_job": "Layer warm gray and muted green on established forms; darken existing pencil edges only.",
+    "instruction": "Shade the mortar and pestle with warm gray pencil, the three leaves muted green, and deepen the existing grooves and shadow. Keep the paper grain open and add no new contours.",
+    "adds": [
+      "restrained color and graphite value"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved crop is a broad shallow oval rim joined to a tapering stone bowl in its final central position. It offers an easy width and depth reference; the foot, pestle, herb, grooves, and shadow are absent.",
+    "draw_through_observation": "I read the six instructions beside all five adjacent saved JPG pairs. The foot attaches beneath the fixed bowl, the pestle enters through the same near-rim opening, and the three-leaf stem attaches on the left. Three front grooves and the under-foot shadow appear before gray and green coloring. No temporary guides or unexplained line removals or anchor shifts were observed.",
+    "contract_sha256": "eef7195909ce1cfeb3d1e8873055389ede4ecb51e9ef768da2139aff0b19570e",
+    "asset_sha256": {
+      "assets/mortar-and-pestle-with-herbs-step-1.jpg": "640b2ae8cd952e49cca5d0a1480986c9073589553fe9b47bffed21e11bc5211a",
+      "assets/mortar-and-pestle-with-herbs-step-2.jpg": "fa46a8e6be27e273d0e6ef42cc08d377119001100f272a80559e075d972b21d4",
+      "assets/mortar-and-pestle-with-herbs-step-3.jpg": "62d9a4d2887cee64cd3d05bd161568bd6591fbb328207cb21a5345de08bcc6a2",
+      "assets/mortar-and-pestle-with-herbs-step-4.jpg": "676742b1a308773cb7137e84a25708ee14653824405d15f252d479d677bfbec0",
+      "assets/mortar-and-pestle-with-herbs-step-5.jpg": "c9edd7ba247455032c422614bbb0644d5e0d94369e73241cdbae947e42bc8602",
+      "assets/mortar-and-pestle-with-herbs-finished-v1.jpg": "871a97c43e6752ec76ded2dfa842b52f4bbe4179a76af113130a61f88a59ab1d"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "mortar rim and bowl",
+          "mortar foot"
+        ],
+        "observed_addition": "A short oval foot appears directly under the bowl, its hidden upper edge touching the same rounded bottom; the wide rim and both tapered sides stay fixed.",
+        "instruction_match": "The second instruction places the foot on the established bowl centerline.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "mortar rim and bowl",
+          "mortar foot",
+          "pestle"
+        ],
+        "observed_addition": "One thick pestle rises diagonally toward the upper right from inside the opening. Its lower tip stops behind the near rim; bowl and foot are still in place.",
+        "instruction_match": "The third instruction describes the upper-right slant, rounded end, and near-rim overlap.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "mortar rim and bowl",
+          "mortar foot",
+          "pestle",
+          "herb sprig"
+        ],
+        "observed_addition": "One herb stem emerges at the left interior rim, with three separate pointed leaves attached: left, top, and right. The pestle stays at its earlier angle.",
+        "instruction_match": "The fourth instruction gives the left attachment, one stem, three leaves, and separation from the pestle.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "mortar rim and bowl",
+          "mortar foot",
+          "pestle",
+          "herb sprig",
+          "stone grooves and shadow"
+        ],
+        "observed_addition": "Three curved grooves now cross the visible front wall and a broken ground shadow hugs the centered foot. Rim, pestle, and all three leaves retain their positions.",
+        "instruction_match": "The fifth instruction asks for exactly these three grooves and one under-foot shadow.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "mortar rim and bowl",
+          "mortar foot",
+          "pestle",
+          "herb sprig",
+          "stone grooves and shadow"
+        ],
+        "observed_addition": "Warm gray settles over the existing stone and pestle; muted green fills the same three leaves. The same three grooves and broken foot shadow darken, with no added structure.",
+        "instruction_match": "The final instruction limits the change to those colors and existing graphite marks.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

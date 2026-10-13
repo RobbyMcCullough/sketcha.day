@@ -1815,3 +1815,7 @@
   screenshots under `/tmp/daily-sketch-doodle-qa-2026-06-30/`.
 - The temporary two-tutorial-per-site backfill cadence is still active until the
   owner says otherwise.
+## 2026-10-13 — Current mortar and pestle lesson (Codex)
+
+- Added Sketcha Day 153, `mortar-and-pestle-with-herbs`, for October 13. The six saved graphite crops retain the centered stone bowl and foot, right-leaning pestle, left herb sprig with three leaves, three front grooves, and under-foot shadow through restrained color.
+- Reviewed the full sheet and all five saved adjacent pairs including finish; no temporary guides or unexplained moves. Teaching 8.2/10 and saved finish 8.1/10. Schema-v5 hashes and readiness passed; Cove desktop/mobile home, library, and tutorial QA showed valid JSON-LD, loaded lesson images, and no horizontal overflow. The one-current-lesson-per-site cadence remains active with no routine backfill. Harness: Codex; task: 2026-10-13 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
