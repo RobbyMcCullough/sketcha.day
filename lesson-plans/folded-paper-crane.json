@@ -1,0 +1,243 @@
+{
+  "schema_version": 5,
+  "slug": "folded-paper-crane",
+  "finished": "assets/folded-paper-crane-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The slim central body diamond fixes both the bird's size and the two wing roots while leaving paper for neck and tail.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "One cumulative handmade-pencil contact sheet on paper; review every saved crop before publication."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "central folded body",
+      "introduced_by_step": 1,
+      "description": "One small horizontal diamond at page center, pointed left and right."
+    },
+    {
+      "name": "near raised wing",
+      "introduced_by_step": 2,
+      "description": "One tall triangular wing rooted along the body's upper middle edge."
+    },
+    {
+      "name": "long neck",
+      "introduced_by_step": 3,
+      "description": "One narrow rising neck attached at the left body point."
+    },
+    {
+      "name": "head and beak",
+      "introduced_by_step": 3,
+      "description": "One small bent head and pointed beak at the neck tip."
+    },
+    {
+      "name": "pointed tail",
+      "introduced_by_step": 4,
+      "description": "One tapered tail attached at the right body point."
+    },
+    {
+      "name": "far wing",
+      "introduced_by_step": 4,
+      "description": "One shorter triangular wing behind and to the right of the near wing."
+    },
+    {
+      "name": "fold creases",
+      "introduced_by_step": 5,
+      "description": "Three short creases across established paper planes."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "One light broken shadow below the bird."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/folded-paper-crane-step-1.jpg",
+      "step_name": "Place the folded body",
+      "visible_job": "Draw one slim horizontal diamond in the center.",
+      "instruction": "Draw a small horizontal diamond just below page center, with its left and right points level. Leave open paper above for the wings.",
+      "adds": [
+        "central folded body"
+      ],
+      "introduces": [
+        "central folded body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/folded-paper-crane-step-2.jpg",
+      "step_name": "Raise the near wing",
+      "visible_job": "Attach one tall triangular wing to the body top.",
+      "instruction": "From the body's upper left shoulder, lift a long diagonal to a high point. Bring its other edge down to the upper right shoulder to make a single triangular wing.",
+      "adds": [
+        "near raised wing"
+      ],
+      "introduces": [
+        "near raised wing"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/folded-paper-crane-step-3.jpg",
+      "step_name": "Fold the neck and beak",
+      "visible_job": "Extend the left side into a narrow neck with one bent head and beak.",
+      "instruction": "Raise one neck edge from the left body point and the other from the near wing's left root. Bend their tips forward into a small head and sharp left-pointing beak.",
+      "adds": [
+        "long neck",
+        "head and beak"
+      ],
+      "introduces": [
+        "long neck",
+        "head and beak"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/folded-paper-crane-step-4.jpg",
+      "step_name": "Add tail and far wing",
+      "visible_job": "Attach the pointed tail at right and a shorter far wing behind the near one.",
+      "instruction": "Extend a narrow pointed tail from the body's right tip. Behind the near wing, lift a shorter triangular far wing from the upper right shoulder, keeping its root hidden by the near wing.",
+      "adds": [
+        "pointed tail",
+        "far wing"
+      ],
+      "introduces": [
+        "pointed tail",
+        "far wing"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/folded-paper-crane-step-5.jpg",
+      "step_name": "Mark folds and shadow",
+      "visible_job": "Draw three short fold creases and one broken shadow under the crane.",
+      "instruction": "Add three short crease strokes inside the established body and wings. Shade a soft broken shadow directly beneath the body, touching its lowest point.",
+      "adds": [
+        "fold creases",
+        "ground shadow"
+      ],
+      "introduces": [
+        "fold creases",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/folded-paper-crane-finished-v1.jpg",
+    "step_name": "Shade the paper crane",
+    "visible_job": "Shade the existing paper planes without adding structure.",
+    "instruction": "Layer pale blue-gray pencil on the established wings and body, deepen the existing creases with graphite, and soften the same ground shadow. Leave one broad white paper face on the near wing.",
+    "adds": [
+      "blue-gray shading on established paper planes"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved square crop shows one slim central diamond with level pointed ends and open paper above. It fixes body width, neck side, tail side, and wing attachment positions without requiring a hidden future shape.",
+    "draw_through_observation": "I viewed the six saved square crops in order and compared every adjacent pair against the written steps. The body corners, near wing roots, left neck attachment, head, beak, right tail, shorter far wing, three creases, and shadow retain their anchors; no temporary guides are used. The blue-gray finish shades existing planes only.",
+    "contract_sha256": "2e5ebe5d76f70c01e5ba951d4a4486c253429504e6c995b15c579a36647aeb92",
+    "asset_sha256": {
+      "assets/folded-paper-crane-step-1.jpg": "fe3a07df2e7ad32ad2ac4a0d1f471fda662bc35fc2e93815d03d70eb2c5bc551",
+      "assets/folded-paper-crane-step-2.jpg": "d63b0f182e34ebf41f34e905fa5e01dca4918344f06960c4e79cac601520b832",
+      "assets/folded-paper-crane-step-3.jpg": "6add41a8379bff17133dd0a986160f6d09d8d787d0404794d2f1334d13ce6000",
+      "assets/folded-paper-crane-step-4.jpg": "5598494e9418da0d480b09adbf97a24e497f51d6a21d82df1eef6d9e3229d430",
+      "assets/folded-paper-crane-step-5.jpg": "cf6f7f6c9279dd6c4d38c6cae77cbfa8a4fbe7d18364492fd862e4919c3ab48c",
+      "assets/folded-paper-crane-finished-v1.jpg": "2d2adc96db4ba5598d2f4bfd04071ca3ca7a1f6b307de74c9fec4ae5bd3541c9"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "central folded body",
+          "near raised wing"
+        ],
+        "observed_addition": "The tall near-wing triangle rises from the two upper body shoulders; the slim diamond remains level and fully visible.",
+        "instruction_match": "The image follows the two wing strokes described, with the apex high above the same body diamond.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "central folded body",
+          "near raised wing",
+          "long neck",
+          "head and beak"
+        ],
+        "observed_addition": "A narrow neck attaches at the left body point and left wing root; the bent head and left-pointing beak appear while body and near wing persist.",
+        "instruction_match": "The written left-side attachment and bent beak match the new pencil strokes visible in the third crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "central folded body",
+          "near raised wing",
+          "long neck",
+          "head and beak",
+          "pointed tail",
+          "far wing"
+        ],
+        "observed_addition": "A pointed tail grows from the right body point, and a shorter far wing appears behind the near wing; neck, beak, body, and near wing remain.",
+        "instruction_match": "The two new right-side triangles occupy the reserved space and keep the near wing in front as instructed.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "central folded body",
+          "near raised wing",
+          "long neck",
+          "head and beak",
+          "pointed tail",
+          "far wing",
+          "fold creases",
+          "ground shadow"
+        ],
+        "observed_addition": "Three light crease strokes appear on the near wing, far wing, and body; a soft broken graphite shadow sits below the unchanged crane.",
+        "instruction_match": "The crease and shadow instruction matches the new marks; no structural contour is redrawn or lost.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "central folded body",
+          "near raised wing",
+          "long neck",
+          "head and beak",
+          "pointed tail",
+          "far wing",
+          "fold creases",
+          "ground shadow"
+        ],
+        "observed_addition": "Blue-gray pencil fills existing neck, far wing, tail, and lower body planes while the near wing stays white; all creases and the shadow deepen.",
+        "instruction_match": "The last instruction describes shading established regions only; the saved finish adds no wing, beak, or tail geometry.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
