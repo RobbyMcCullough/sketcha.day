@@ -1,0 +1,283 @@
+{
+  "schema_version": 5,
+  "slug": "closed-padlock-with-keyhole",
+  "finished": "assets/closed-padlock-with-keyhole-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A rounded rectangular lock body in its final position gives a beginner the width, height, and centerline needed for the shackle and keyhole.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "A current-day replacement after the magnifying-glass draft failed three contact-sheet attempts; no vector art."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "rounded lock body",
+      "introduced_by_step": 1,
+      "description": "One broad rounded rectangular metal case centered low on the paper."
+    },
+    {
+      "name": "arched shackle",
+      "introduced_by_step": 2,
+      "description": "One thick upside-down U rises behind the top of the case and meets it at two fixed points."
+    },
+    {
+      "name": "keyhole circle",
+      "introduced_by_step": 3,
+      "description": "One small circle centered on the front case."
+    },
+    {
+      "name": "keyhole slot",
+      "introduced_by_step": 3,
+      "description": "A narrow tapered opening hangs directly below the keyhole circle."
+    },
+    {
+      "name": "case seam",
+      "introduced_by_step": 4,
+      "description": "One short horizontal line sits near the bottom of the case."
+    },
+    {
+      "name": "left rivet",
+      "introduced_by_step": 4,
+      "description": "One small dot sits left of the keyhole and above the seam."
+    },
+    {
+      "name": "right rivet",
+      "introduced_by_step": 4,
+      "description": "One matching dot sits right of the keyhole and above the seam."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "One broken oval shadow lies directly beneath the case."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/closed-padlock-with-keyhole-step-1.jpg",
+      "step_name": "Shape the lock case",
+      "visible_job": "Draw a broad rounded rectangle a little below the page center. Keep its upper edge level and its corners softly curved.",
+      "instruction": "Draw a broad rounded rectangle a little below the page center. Keep its upper edge level and its corners softly curved.",
+      "adds": [
+        "rounded lock body"
+      ],
+      "introduces": [
+        "rounded lock body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/closed-padlock-with-keyhole-step-2.jpg",
+      "step_name": "Raise the shackle",
+      "visible_job": "Behind the case, draw a thick upside-down U from two points along the top edge. Keep its lower ends hidden behind the case instead of crossing the front.",
+      "instruction": "Behind the case, draw a thick upside-down U from two points along the top edge. Keep its lower ends hidden behind the case instead of crossing the front.",
+      "adds": [
+        "arched shackle"
+      ],
+      "introduces": [
+        "arched shackle"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/closed-padlock-with-keyhole-step-3.jpg",
+      "step_name": "Cut the keyhole",
+      "visible_job": "Center a small dark circle on the case front, then hang a narrow tapered slot directly from its lower edge. Keep both shapes inside the case.",
+      "instruction": "Center a small dark circle on the case front, then hang a narrow tapered slot directly from its lower edge. Keep both shapes inside the case.",
+      "adds": [
+        "keyhole circle",
+        "keyhole slot"
+      ],
+      "introduces": [
+        "keyhole circle",
+        "keyhole slot"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/closed-padlock-with-keyhole-step-4.jpg",
+      "step_name": "Mark seam and rivets",
+      "visible_job": "Run one short horizontal seam near the case bottom. Place one small rivet dot to either side of the keyhole above the seam.",
+      "instruction": "Run one short horizontal seam near the case bottom. Place one small rivet dot to either side of the keyhole above the seam.",
+      "adds": [
+        "case seam",
+        "left rivet",
+        "right rivet"
+      ],
+      "introduces": [
+        "case seam",
+        "left rivet",
+        "right rivet"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/closed-padlock-with-keyhole-step-5.jpg",
+      "step_name": "Ground the metal",
+      "visible_job": "Sketch one broken oval shadow directly below the case, leaving white gaps. Leave the shackle, keyhole, seam and two rivets where they are.",
+      "instruction": "Sketch one broken oval shadow directly below the case, leaving white gaps. Leave the shackle, keyhole, seam and two rivets where they are.",
+      "adds": [
+        "ground shadow"
+      ],
+      "introduces": [
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/closed-padlock-with-keyhole-finished-v1.jpg",
+    "step_name": "Shade the padlock",
+    "visible_job": "Shade only the established case and shackle with warm-gray graphite, deepen the keyhole and existing shadow.",
+    "instruction": "Shade the established case and shackle with warm-gray pencil, leaving a slim paper highlight along the upper right. Deepen the existing keyhole and shadow; add no new contours.",
+    "adds": [
+      "warm-gray shading on established metal and shadow"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved crop gives a single wide rounded case, centered low with ample space above. Its straight top and curved corners are easy to copy and fix the width and attachment zone for the shackle.",
+    "draw_through_observation": "I viewed the full sheet and each saved crop in order, comparing all five adjacent pairs including the finish. The case, arch attachments, centered hole, tapered slot, seam, two rivets and ground shadow keep their relationships; the last frame only deepens graphite on existing forms. No temporary guides are used.",
+    "contract_sha256": "1e5debae88143740607eeba200168b38819f43c522a1f6935f6950dec985d0eb",
+    "asset_sha256": {
+      "assets/closed-padlock-with-keyhole-step-1.jpg": "6d585f30e7f62f495194ce51b8f6da20b11b23f4720be713919fd5e4da47466a",
+      "assets/closed-padlock-with-keyhole-step-2.jpg": "154711c9d8b1f60556fa14c4b19807599b4199f71802328332132835709e8830",
+      "assets/closed-padlock-with-keyhole-step-3.jpg": "3b3ab177afab9d7161c2383da589c14311c5a9f9cf6e122d9f9d0c463c9a1217",
+      "assets/closed-padlock-with-keyhole-step-4.jpg": "ad0ce081b20e6502f18a8d7c77bda169ad5ce841a8dfbd711064be752f18b520",
+      "assets/closed-padlock-with-keyhole-step-5.jpg": "413908d859707eaebfd2a5609ed553bf6849c3e0a895132199bdbb8a8cbbf708",
+      "assets/closed-padlock-with-keyhole-finished-v1.jpg": "1b6dd110c993f0c3faf7798aebb89e2ea4fd6e36abd631883626bff399655115"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "rounded lock body",
+          "arched shackle"
+        ],
+        "landmark_observations": {
+          "rounded lock body": "The same broad case keeps both rounded upper corners, lower edge, width and centerline.",
+          "arched shackle": "A single thick upside-down U meets the case at two top points, with both lower ends hidden behind its front."
+        },
+        "observed_addition": "One thick arch grows from behind the established top edge.",
+        "instruction_match": "The instruction raises a U from two top points behind the case, exactly as the saved crop shows.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "rounded lock body",
+          "arched shackle",
+          "keyhole circle",
+          "keyhole slot"
+        ],
+        "landmark_observations": {
+          "rounded lock body": "The case still has the same top edge, four rounded corners and bottom position.",
+          "arched shackle": "The arch retains its width and its two hidden connections behind the top edge.",
+          "keyhole circle": "One dark circular opening is centered on the case front.",
+          "keyhole slot": "One narrow tapered slot attaches directly below the circular opening."
+        },
+        "observed_addition": "A centered circular keyhole and attached tapered slot appear inside the case.",
+        "instruction_match": "The instruction centers a round hole then hangs a tapered slot below it; both are visible.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "rounded lock body",
+          "arched shackle",
+          "keyhole circle",
+          "keyhole slot",
+          "case seam",
+          "left rivet",
+          "right rivet"
+        ],
+        "landmark_observations": {
+          "rounded lock body": "The broad front and four curved corners continue to surround all new details.",
+          "arched shackle": "The same arch remains seated behind the two top-edge connections.",
+          "keyhole circle": "The small dark circle remains centered above the front seam.",
+          "keyhole slot": "The tapered slot stays directly below the circle, without splitting or moving.",
+          "case seam": "One horizontal line now crosses the lower case below the keyhole.",
+          "left rivet": "One small round rivet sits left of the keyhole, above the seam.",
+          "right rivet": "One matching round rivet sits right of the keyhole, above the seam."
+        },
+        "observed_addition": "A lower horizontal seam and two level rivets appear on the case front.",
+        "instruction_match": "The instruction places one low seam and one rivet on each side; the crop shows exactly those three additions.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "rounded lock body",
+          "arched shackle",
+          "keyhole circle",
+          "keyhole slot",
+          "case seam",
+          "left rivet",
+          "right rivet",
+          "ground shadow"
+        ],
+        "landmark_observations": {
+          "rounded lock body": "The case keeps its rounded rectangle and lower seam while a shadow appears below.",
+          "arched shackle": "The U still joins the case at the same two top positions.",
+          "keyhole circle": "The centered circular hole persists in the front.",
+          "keyhole slot": "The tapered slot remains attached beneath the circular hole.",
+          "case seam": "The low line stays below the hole and both rivets.",
+          "left rivet": "The left dot remains above the seam and left of the hole.",
+          "right rivet": "The right dot remains above the seam and right of the hole.",
+          "ground shadow": "A broken soft graphite oval now touches the ground directly below the case base."
+        },
+        "observed_addition": "One broken graphite shadow appears below the established case.",
+        "instruction_match": "The instruction grounds the lock with a broken oval; the new marks sit immediately under the base.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "rounded lock body",
+          "arched shackle",
+          "keyhole circle",
+          "keyhole slot",
+          "case seam",
+          "left rivet",
+          "right rivet",
+          "ground shadow"
+        ],
+        "landmark_observations": {
+          "rounded lock body": "The same rounded case gains broad graphite value without a new edge.",
+          "arched shackle": "The same arch gains darker side graphite while retaining both case attachments.",
+          "keyhole circle": "The centered circle remains the darkest small front feature.",
+          "keyhole slot": "The slot stays attached below the circle with the same taper.",
+          "case seam": "The same single seam remains visible through the new shading.",
+          "left rivet": "The left round rivet remains visible in its original front position.",
+          "right rivet": "The right round rivet remains visible at the matching height.",
+          "ground shadow": "The earlier broken shadow is deepened under the same case footprint."
+        },
+        "observed_addition": "Broad graphite shading darkens the existing metal and shadow, preserving every contour.",
+        "instruction_match": "The final instruction shades established metal and shadow; the saved finish adds no structural feature.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

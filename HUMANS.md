@@ -1,3 +1,8 @@
+## 2026-10-14 — Current closed padlock lesson (Codex)
+
+- Added Sketcha Day 154, `closed-padlock-with-keyhole`, for October 14. Six saved pencil crops introduce the rounded case, attached shackle, centered keyhole and slot, seam and two rivets, ground shadow, then graphite shading. Teaching and saved finish each 8.1/10; all five adjacent pairs, landmarks, no temporary guides, image hashes and contract hash were reviewed. A pocket-compass duplicate was rejected before art. Three magnifying-glass sheets failed registration or stage timing and remain private with a rejected-quality ledger entry.
+- Schema-v5 readiness passed; Cove home, library and tutorial passed at 1440×1000 and 390×844 with images loaded, valid JSON-LD and no horizontal overflow. One-current-lesson-per-site cadence remains active; no backfill. Harness: Codex; task: 2026-10-14 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
 ## 2026-10-12 — Current open umbrella lesson (Codex)
 
 - Added Sketcha Day 152, `open-umbrella-with-curved-handle`, for October 12. The six saved pencil crops keep four canopy scallops, three ribs, centered shaft, left-curling hook, top ferrule, three raindrops, and ground shadow anchored through restrained color. A curled maple leaf candidate was rejected as a duplicate at preflight before art.

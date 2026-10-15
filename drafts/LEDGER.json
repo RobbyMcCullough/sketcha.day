@@ -133,6 +133,11 @@
       "date": "2026-07-22",
       "note": "Approved contact sheet cropped and published as the honest 2026-05-10 archive lesson."
     },
+    "closed-padlock-with-keyhole": {
+      "status": "published",
+      "date": "2026-10-14",
+      "note": "Six saved pencil crops reviewed through final graphite shading; alignment-edit iteration rejected for excessive vertical shift. Current Sketcha Day 154."
+    },
     "covered-bridge-over-a-creek": {
       "status": "rejected-duplicate",
       "date": "2026-09-03",
@@ -316,6 +321,11 @@
       "date": "2026-08-01",
       "note": "Approved six-panel raster contact sheet cropped into the August 1 current lesson after full continuity review."
     },
+    "magnifying-glass-over-a-leaf": {
+      "status": "rejected-quality",
+      "date": "2026-10-14",
+      "note": "Three serious contact-sheet attempts remained unsuitable: original shifted the lens, leaf and handle between rows; targeted edit changed scale; regeneration introduced green fill before the taught coloring step. Private sheets and plan preserved, no public lesson."
+    },
     "mailbox-with-flag": {
       "status": "published"
     },
@@ -347,6 +357,11 @@
       "status": "rejected-quality",
       "date": "2026-10-05",
       "note": "Four generated raster attempts (three sheets and one targeted edit) repeatedly shifted wing/head anchors between rows or introduced later-stage details early. No approved contact sheet or public art; image-generation continuity blocker on 2026-10-05."
+    },
+    "old-brass-compass": {
+      "status": "rejected-duplicate",
+      "date": "2026-10-14",
+      "note": "Rejected before art because published pocket-compass teaches the same round case, dial, and needle drawing problem."
     },
     "old-fashioned-bicycle-basket": {
       "status": "published"

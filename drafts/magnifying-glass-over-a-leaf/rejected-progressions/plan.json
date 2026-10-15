@@ -1,0 +1,147 @@
+{
+  "schema_version": 5,
+  "slug": "magnifying-glass-over-a-leaf",
+  "finished": "assets/magnifying-glass-over-a-leaf-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One tilted circular lens with a double rim establishes the size and fixed position; a beginner can copy it before any interior detail.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Contact sheet generated for this current lesson; rejected iterations, if any, remain private."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "lens outer circle",
+      "introduced_by_step": 1,
+      "description": "One slightly tilted large circle centered above the page middle."
+    },
+    {
+      "name": "lens inner rim",
+      "introduced_by_step": 1,
+      "description": "A second circle just inside the first, concentric and open to paper."
+    },
+    {
+      "name": "handle",
+      "introduced_by_step": 2,
+      "description": "One narrow handle starts at the lower-right rim and points to the lower right; its joint stays fixed."
+    },
+    {
+      "name": "leaf outline",
+      "introduced_by_step": 3,
+      "description": "One pointed oval leaf sits inside the lens, angled from upper left to lower right."
+    },
+    {
+      "name": "leaf center vein",
+      "introduced_by_step": 3,
+      "description": "A vein follows the long axis of the leaf without crossing its outline."
+    },
+    {
+      "name": "leaf side veins",
+      "introduced_by_step": 4,
+      "description": "Exactly four short side veins branch from the center vein, two on either side."
+    },
+    {
+      "name": "glass glint",
+      "introduced_by_step": 5,
+      "description": "One narrow unfilled curved highlight sits inside the upper-left rim."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "A light broken shadow sits directly below the handle tip."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/magnifying-glass-over-a-leaf-step-1.jpg",
+      "step_name": "Circle the lens",
+      "visible_job": "Draw one slightly tilted circle above the middle of your page, then run a second circle just inside it to make a narrow metal rim.",
+      "instruction": "Draw one slightly tilted circle above the middle of your page, then run a second circle just inside it to make a narrow metal rim.",
+      "adds": [
+        "lens outer circle",
+        "lens inner rim"
+      ],
+      "introduces": [
+        "lens outer circle",
+        "lens inner rim"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/magnifying-glass-over-a-leaf-step-2.jpg",
+      "step_name": "Attach the handle",
+      "visible_job": "At the lower-right edge of the rim, draw two parallel strokes diagonally down-right and round their far ends into a grip. Keep the ring intact at the joint.",
+      "instruction": "At the lower-right edge of the rim, draw two parallel strokes diagonally down-right and round their far ends into a grip. Keep the ring intact at the joint.",
+      "adds": [
+        "handle"
+      ],
+      "introduces": [
+        "handle"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/magnifying-glass-over-a-leaf-step-3.jpg",
+      "step_name": "Set the leaf and center vein",
+      "visible_job": "Inside the glass opening, draw a pointed oval leaf angled from upper left toward the lower-right rim. Add its long center vein and short stem, stopping the stem at the inner edge.",
+      "instruction": "Inside the glass opening, draw a pointed oval leaf angled from upper left toward the lower-right rim. Add its long center vein and short stem, stopping the stem at the inner edge.",
+      "adds": [
+        "leaf outline",
+        "leaf center vein"
+      ],
+      "introduces": [
+        "leaf outline",
+        "leaf center vein"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/magnifying-glass-over-a-leaf-step-4.jpg",
+      "step_name": "Branch four side veins",
+      "visible_job": "From the existing center vein, branch exactly four short curved veins, two on each side. Stop each short of the leaf edge and leave the rim and handle untouched.",
+      "instruction": "From the existing center vein, branch exactly four short curved veins, two on each side. Stop each short of the leaf edge and leave the rim and handle untouched.",
+      "adds": [
+        "leaf side veins"
+      ],
+      "introduces": [
+        "leaf side veins"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/magnifying-glass-over-a-leaf-step-5.jpg",
+      "step_name": "Show glass and ground",
+      "visible_job": "Place one narrow, unfilled curved glass glint inside the upper-left rim, ending close to the leaf tip. Lay a broken graphite shadow just under the handle tip; keep the leaf and rim contours in place.",
+      "instruction": "Place one narrow, unfilled curved glass glint inside the upper-left rim, ending close to the leaf tip. Lay a broken graphite shadow just under the handle tip; keep the leaf and rim contours in place.",
+      "adds": [
+        "glass glint",
+        "ground shadow"
+      ],
+      "introduces": [
+        "glass glint",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/magnifying-glass-over-a-leaf-finished-v1.jpg",
+    "step_name": "Shade metal and leaf",
+    "visible_job": "Shade established rim and handle in warm gray, leaf in muted green, and deepen its four veins and existing shadow.",
+    "instruction": "Shade the rim and handle lightly with warm gray pencil. Glaze the leaf muted green around its existing vein lines, preserve the glass glint as paper, and deepen the established shadow without adding contours.",
+    "adds": [
+      "warm-gray and green shading on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "pending",
+    "teaching_score": 0,
+    "finished_art_score": 0,
+    "first_step_observation": "",
+    "draw_through_observation": "",
+    "contract_sha256": "",
+    "asset_sha256": {},
+    "transitions": []
+  }
+}
