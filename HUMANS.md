@@ -1,3 +1,8 @@
+## 2026-10-15 — Current folded paper crane lesson (Codex)
+
+- Added Sketcha Day 155, `folded-paper-crane`, for October 15. Six saved pencil crops add a level body diamond, tall near wing, left neck and beak, right tail and shorter far wing, three fold creases and shadow, then restrained blue-gray shading. The finish keeps every structural contour in its prior position.
+- Reviewed the full sheet and every adjacent saved crop against the instructions. No temporary guides; teaching 8.2/10 and saved finish 8.1/10. Schema-v5 image and contract hashes and readiness passed. Cove home, library and tutorial rendered at 1440×1000 and 390×844 with the new images loaded, valid JSON-LD and no horizontal overflow. One-current-lesson-per-site cadence remains active; no backfill. Harness: Codex; task: 2026-10-15 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
 ## 2026-10-14 — Current closed padlock lesson (Codex)
 
 - Added Sketcha Day 154, `closed-padlock-with-keyhole`, for October 14. Six saved pencil crops introduce the rounded case, attached shackle, centered keyhole and slot, seam and two rivets, ground shadow, then graphite shading. Teaching and saved finish each 8.1/10; all five adjacent pairs, landmarks, no temporary guides, image hashes and contract hash were reviewed. A pocket-compass duplicate was rejected before art. Three magnifying-glass sheets failed registration or stage timing and remain private with a rejected-quality ledger entry.
@@ -1824,7 +1829,3 @@
 
 - Added Sketcha Day 153, `mortar-and-pestle-with-herbs`, for October 13. The six saved graphite crops retain the centered stone bowl and foot, right-leaning pestle, left herb sprig with three leaves, three front grooves, and under-foot shadow through restrained color.
 - Reviewed the full sheet and all five saved adjacent pairs including finish; no temporary guides or unexplained moves. Teaching 8.2/10 and saved finish 8.1/10. Schema-v5 hashes and readiness passed; Cove desktop/mobile home, library, and tutorial QA showed valid JSON-LD, loaded lesson images, and no horizontal overflow. The one-current-lesson-per-site cadence remains active with no routine backfill. Harness: Codex; task: 2026-10-13 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
-## 2026-10-15 — Current folded paper crane lesson (Codex)
-
-- Added Sketcha Day 155, `folded-paper-crane`, for October 15. Six saved pencil crops add a level body diamond, tall near wing, left neck and beak, right tail and shorter far wing, three fold creases and shadow, then restrained blue-gray shading. The finish keeps every structural contour in its prior position.
-- Reviewed the full sheet and every adjacent saved crop against the instructions. No temporary guides; teaching 8.2/10 and saved finish 8.1/10. Schema-v5 image and contract hashes and readiness passed. Cove home, library and tutorial rendered at 1440×1000 and 390×844 with the new images loaded, valid JSON-LD and no horizontal overflow. One-current-lesson-per-site cadence remains active; no backfill. Harness: Codex; task: 2026-10-15 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
