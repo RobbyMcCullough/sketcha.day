@@ -1,0 +1,216 @@
+{
+  "schema_version": 5,
+  "slug": "tea-strainer-with-chain",
+  "finished": "assets/tea-strainer-with-chain-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The slightly oval metal ball fixes the size and tilt; a beginner can copy its single contour before any small hardware.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Approved first five-panel generated raster sheet after reviewing all panels. A second iteration was rejected for six holes crossing the seam and excess chain links."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "infuser ball",
+      "introduced_by_step": 1,
+      "description": "One round, slightly tilted perforated metal ball in its final position."
+    },
+    {
+      "name": "split seam",
+      "introduced_by_step": 2,
+      "description": "Curved seam across the lower middle of the ball."
+    },
+    {
+      "name": "hinge",
+      "introduced_by_step": 2,
+      "description": "Small hinge at the left end of the seam."
+    },
+    {
+      "name": "clasp",
+      "introduced_by_step": 2,
+      "description": "Small clasp at the right end of the seam."
+    },
+    {
+      "name": "six perforations",
+      "introduced_by_step": 3,
+      "description": "Six dark small holes in two rows of three on the upper shell."
+    },
+    {
+      "name": "top ring",
+      "introduced_by_step": 4,
+      "description": "Small ring attached at the ball top."
+    },
+    {
+      "name": "three chain links",
+      "introduced_by_step": 4,
+      "description": "Three linked narrow ovals curving to the upper right."
+    },
+    {
+      "name": "end hook",
+      "introduced_by_step": 4,
+      "description": "Small open hook at the chain end."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/tea-strainer-with-chain-step-1.jpg",
+      "step_name": "Draw the infuser ball",
+      "visible_job": "Draw one slightly oval circle, tilted a little to the right. Close the contour cleanly.",
+      "instruction": "Draw one slightly oval circle, tilted a little to the right. Close the contour cleanly.",
+      "adds": [
+        "infuser ball"
+      ],
+      "introduces": [
+        "infuser ball"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/tea-strainer-with-chain-step-2.jpg",
+      "step_name": "Fit the two halves",
+      "visible_job": "Draw a shallow curved seam across the lower middle. Add a tiny hinge at its left end and a clasp at its right end.",
+      "instruction": "Draw a shallow curved seam across the lower middle. Add a tiny hinge at its left end and a clasp at its right end.",
+      "adds": [
+        "split seam",
+        "hinge",
+        "clasp"
+      ],
+      "introduces": [
+        "split seam",
+        "hinge",
+        "clasp"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/tea-strainer-with-chain-step-3.jpg",
+      "step_name": "Pierce the upper shell",
+      "visible_job": "Place six small holes in two rows of three above the seam, spacing each so the metal remains visible between them.",
+      "instruction": "Place six small holes in two rows of three above the seam, spacing each so the metal remains visible between them.",
+      "adds": [
+        "six perforations"
+      ],
+      "introduces": [
+        "six perforations"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/tea-strainer-with-chain-step-4.jpg",
+      "step_name": "Attach the hanging chain",
+      "visible_job": "Add a small ring at the top of the ball. From it draw three linked ovals curving up and right, then an open hook at the free end.",
+      "instruction": "Add a small ring at the top of the ball. From it draw three linked ovals curving up and right, then an open hook at the free end.",
+      "adds": [
+        "top ring",
+        "three chain links",
+        "end hook"
+      ],
+      "introduces": [
+        "top ring",
+        "three chain links",
+        "end hook"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/tea-strainer-with-chain-finished-v1.jpg",
+    "step_name": "Shade the metal",
+    "visible_job": "Shade the established ball and hardware and add a soft cast shadow.",
+    "instruction": "Layer soft graphite beneath the seam and along the right edge of the ball. Keep a white highlight at upper left; darken the existing holes, chain and hook. Add a soft cast shadow immediately below the ball.",
+    "adds": [
+      "graphite shading on established metal"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved crop contains only one lightly wobbly oval ball contour centered low enough to leave room for the chain. Its closed outline gives a beginner a fixed metal shell and clear scale.",
+    "draw_through_observation": "I compared all five saved square crops in order. The ball edge, left hinge, right clasp, six separate upper holes, top ring, three linked ovals and open hook keep their positions. No temporary guides appear. The last image shades the established shell and adds only a ground shadow.",
+    "contract_sha256": "cc4ae520f1b9030cb889241c36bb8bcaae628b1f53cc2b26154daa60420c9ed0",
+    "asset_sha256": {
+      "assets/tea-strainer-with-chain-step-1.jpg": "588bc965e825465f1909e16ab0a00bbe115f31ffe11e83e8329aca9bb2ab861d",
+      "assets/tea-strainer-with-chain-step-2.jpg": "931bd7abd23ac99f414255d01730a4417c6860df072d79ee1363514e77902aa4",
+      "assets/tea-strainer-with-chain-step-3.jpg": "00a24cb5a4882423a4f43274d1930cc9c5d8e43d50732fecb1805794578c4442",
+      "assets/tea-strainer-with-chain-step-4.jpg": "58eb3e8e053c6c6ed37d96f57ff09de0ff73f406b16f77242519667dfed69f6b",
+      "assets/tea-strainer-with-chain-finished-v1.jpg": "19c61a055b513f1d6db7bf75814d2cb1a253d7ea069c778413d51855ecbe044a"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "infuser ball",
+          "split seam",
+          "hinge",
+          "clasp"
+        ],
+        "observed_addition": "The curved double seam crosses the lower third of the same ball; a tiny round hinge lands on its left edge and a rectangular clasp on its right edge.",
+        "instruction_match": "The saved second crop follows the instruction to fit the two halves and attach hardware at the seam ends.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "infuser ball",
+          "split seam",
+          "hinge",
+          "clasp",
+          "six perforations"
+        ],
+        "observed_addition": "Six small dark holes appear above the seam in two staggered rows of three; the ball, seam, hinge and clasp stay visible.",
+        "instruction_match": "The saved third crop matches the instruction to space six upper-shell perforations.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "infuser ball",
+          "split seam",
+          "hinge",
+          "clasp",
+          "six perforations",
+          "top ring",
+          "three chain links",
+          "end hook"
+        ],
+        "observed_addition": "One ring grows from the ball top; three linked narrow ovals arc to the upper right and meet one open hook. All six holes and seam hardware remain.",
+        "instruction_match": "The saved fourth crop matches the top-ring, three-link and free-hook instruction.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "infuser ball",
+          "split seam",
+          "hinge",
+          "clasp",
+          "six perforations",
+          "top ring",
+          "three chain links",
+          "end hook"
+        ],
+        "observed_addition": "Soft graphite darkens the right and lower shell, the existing seam and chain; a pale upper-left highlight and soft shadow under the ball give volume without new structure.",
+        "instruction_match": "The finished crop matches the shading and ground-shadow instruction; no new contour is required.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

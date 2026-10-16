@@ -1,3 +1,8 @@
+## 2026-10-16 — Current tea strainer lesson (Codex)
+
+- Added Sketcha Day 156, `tea-strainer-with-chain`, for October 16. Five saved pencil crops build a fixed oval metal shell, split seam with hinge and clasp, six upper holes, top ring with three links and hook, then graphite shading. An alternate sheet with holes across the seam and extra links remains private as a rejected progression.
+- Reviewed every saved adjacent pair including the finish; no temporary guides or unexplained moves. Teaching 8.2/10, saved finish 8.1/10. Schema-v5 hashes and readiness passed; Cove home, library and tutorial passed at 1440×1000 and 390×844 with loaded images, valid JSON-LD and no overflow. One-current-lesson-per-site cadence remains active, without backfill. Harness: Codex; task: 2026-10-16 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
 ## 2026-10-15 — Current folded paper crane lesson (Codex)
 
 - Added Sketcha Day 155, `folded-paper-crane`, for October 15. Six saved pencil crops add a level body diamond, tall near wing, left neck and beak, right tail and shorter far wing, three fold creases and shadow, then restrained blue-gray shading. The finish keeps every structural contour in its prior position.
