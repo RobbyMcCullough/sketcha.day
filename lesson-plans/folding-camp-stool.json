@@ -1,0 +1,194 @@
+{
+  "schema_version": 5,
+  "slug": "folding-camp-stool",
+  "finished": "assets/folding-camp-stool-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The shallow canvas seat fixes the stool width and tilt with one copyable trapezoid before the crossing legs are attached.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Approved first five-panel generated raster contact sheet after full-sheet and saved-crop adjacent-pair review."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "canvas seat",
+      "introduced_by_step": 1,
+      "description": "One shallow, slightly sagging canvas trapezoid across the upper center."
+    },
+    {
+      "name": "front diagonal leg",
+      "introduced_by_step": 2,
+      "description": "One straight wooden leg from the seat's upper-left underside down to the lower-right foot, with its right foot."
+    },
+    {
+      "name": "rear diagonal leg",
+      "introduced_by_step": 3,
+      "description": "One straight wooden leg from the seat's upper-right underside down to the lower-left foot, passing behind the front leg, with its left foot."
+    },
+    {
+      "name": "center pivot",
+      "introduced_by_step": 4,
+      "description": "One small round hinge at the crossed legs' center."
+    },
+    {
+      "name": "seat seams",
+      "introduced_by_step": 4,
+      "description": "Two short stitched seam lines near the canvas seat ends."
+    },
+    {
+      "name": "ground line",
+      "introduced_by_step": 4,
+      "description": "A broken pencil ground line directly below the two established feet."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/folding-camp-stool-step-1.jpg",
+      "step_name": "Shape the canvas seat",
+      "visible_job": "Draw one shallow canvas trapezoid with a gently sagging lower edge.",
+      "instruction": "Draw a long shallow trapezoid across the upper center. Bow its lower edge down slightly so the canvas looks taut but flexible.",
+      "adds": [
+        "canvas seat"
+      ],
+      "introduces": [
+        "canvas seat"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/folding-camp-stool-step-2.jpg",
+      "step_name": "Drop the front leg",
+      "visible_job": "Attach one diagonal wooden leg from the left seat underside to the lower-right foot.",
+      "instruction": "From the underside of the seat's left end, draw two close diagonal lines down to the lower right. Close them with a short flat foot.",
+      "adds": [
+        "front diagonal leg"
+      ],
+      "introduces": [
+        "front diagonal leg"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/folding-camp-stool-step-3.jpg",
+      "step_name": "Cross the rear leg",
+      "visible_job": "Attach the opposite diagonal leg behind the front one, keeping the crossing hidden at its overlap.",
+      "instruction": "From the seat's right underside, angle a second narrow leg down left. Stop its two edges where the front leg covers them, then resume below the crossing and finish at a flat left foot.",
+      "adds": [
+        "rear diagonal leg"
+      ],
+      "introduces": [
+        "rear diagonal leg"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/folding-camp-stool-step-4.jpg",
+      "step_name": "Mark the pivot and seams",
+      "visible_job": "Add a center pivot, two stitched seat seams, and a broken ground line.",
+      "instruction": "Place one small round pivot on the front leg at the crossing. Stitch a short seam near each canvas end and sketch a broken ground line below the two existing feet.",
+      "adds": [
+        "center pivot",
+        "seat seams",
+        "ground line"
+      ],
+      "introduces": [
+        "center pivot",
+        "seat seams",
+        "ground line"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/folding-camp-stool-finished-v1.jpg",
+    "step_name": "Shade the folding stool",
+    "visible_job": "Shade established canvas and wood and soften the ground line into a shadow.",
+    "instruction": "Shade the existing seat with muted olive pencil and the two wooden legs with warm brown. Soften the broken ground line into a broad graphite shadow; deepen the same pivot and seams without adding new parts.",
+    "adds": [
+      "shading on established seat and legs"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved crop shows only a long, shallow canvas seat with rolled ends and a slight sag. It establishes stool width and leaves clear space below for the crossing legs.",
+    "draw_through_observation": "I inspected the full five-panel sheet and all five saved crops in order. The seat, front leg, rear leg, two feet, center pivot, and two end seams stay at the same anchors. No temporary guide appears; the last crop only adds color and turns the broken ground line into soft shadow.",
+    "contract_sha256": "a02b1924037068f9eb5d082b8cc8479160f2e3f23cea07c1e07bb7a2d174dd33",
+    "asset_sha256": {
+      "assets/folding-camp-stool-step-1.jpg": "1241329cef9f8413cea262c6413e8ea51c5965562e37e4f18890f6b0e813abb3",
+      "assets/folding-camp-stool-step-2.jpg": "90dcd339ea642b33f429f9859b1ce47a7ff14c268ba8956d0c3be974020da834",
+      "assets/folding-camp-stool-step-3.jpg": "5c3b968211c1695acc46a501a09135722dd3c678b04d9bd7bba79e68ee786176",
+      "assets/folding-camp-stool-step-4.jpg": "dbc82cbd25e8182edca8db90618bd85a219e3bc3ba2eed7c99194bb09048f2a5",
+      "assets/folding-camp-stool-finished-v1.jpg": "5bc49eaf4cadf56b9b04bffd529c8a8f4f6cc497687633147bf9e6f293edb38b"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "canvas seat",
+          "front diagonal leg"
+        ],
+        "observed_addition": "The same sagging seat and both rolled ends stay fixed; one narrow graphite-and-wood-grain leg descends from the left underside to a flat right foot.",
+        "instruction_match": "The saved second crop matches the instruction to attach one diagonal leg at the left seat end and finish its right foot.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "canvas seat",
+          "front diagonal leg",
+          "rear diagonal leg"
+        ],
+        "observed_addition": "The seat and front leg remain; a second diagonal descends from the right underside toward a new left foot, with both edges interrupted where the front leg passes over it.",
+        "instruction_match": "The saved third crop follows the instruction to cross the rear leg behind the first while keeping the front leg and right foot visible.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "canvas seat",
+          "front diagonal leg",
+          "rear diagonal leg",
+          "center pivot",
+          "seat seams",
+          "ground line"
+        ],
+        "observed_addition": "Both crossed legs and their feet persist. A small round pivot appears on the front crossing, short dashed stitch marks appear near each seat end, and a broken horizontal ground line runs beneath the feet.",
+        "instruction_match": "The saved fourth crop matches the pivot, two seam, and ground-line instruction; the seat and leg anchors remain in place.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "canvas seat",
+          "front diagonal leg",
+          "rear diagonal leg",
+          "center pivot",
+          "seat seams",
+          "ground line"
+        ],
+        "observed_addition": "The same seat, two crossing legs, two feet, center pivot, and end seams remain. Olive pencil fills the seat, brown pencil shades the legs, and the broken ground line softens into a graphite shadow.",
+        "instruction_match": "The finished crop follows the color and shading instruction; softening the ground line is explicitly taught and adds no structural part.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
