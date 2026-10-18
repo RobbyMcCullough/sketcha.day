@@ -1,3 +1,8 @@
+## 2026-10-18 — Current open pocketknife lesson (Codex)
+
+- Added Sketcha Day 158, `open-pocketknife-with-wooden-handle`, for October 18. Two generated sheets and a targeted edit shifted the handle/hinge and remain private. A five-panel raster progression was derived by removing later pencil layers from one generated master; the saved crops keep the handle, bolster, three fasteners, blade point, and nail nick fixed.
+- Reviewed every adjacent saved crop including finish, with no temporary guides or unexplained moves. Teaching 8.1/10 and saved finish 8.1/10. Schema-v5 hashes, readiness, and Cove home/library/tutorial desktop and mobile QA passed with loaded new images, valid JSON-LD, no overflow, and lab noindex retained. One-current-lesson-per-site cadence remains active, without backfill. Harness: Codex; task: 2026-10-18 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
 ## 2026-10-16 — Current tea strainer lesson (Codex)
 
 - Added Sketcha Day 156, `tea-strainer-with-chain`, for October 16. Five saved pencil crops build a fixed oval metal shell, split seam with hinge and clasp, six upper holes, top ring with three links and hook, then graphite shading. An alternate sheet with holes across the seam and extra links remains private as a rejected progression.

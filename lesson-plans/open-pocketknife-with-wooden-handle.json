@@ -1,0 +1,217 @@
+{
+  "schema_version": 5,
+  "slug": "open-pocketknife-with-wooden-handle",
+  "finished": "assets/open-pocketknife-with-wooden-handle-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The first saved crop shows a long rounded handle with its narrow metal bolster already fitted at the right; these two connected forms set the horizontal pose and a fixed hinge for the later blade.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Two generated six-panel sheets shifted the handle/hinge and were preserved as rejected iterations. The approved five-panel contact sheet derives cumulative raster crops by removing later pencil layers from one generated master, with its generated finish retained."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "wooden handle outline",
+      "introduced_by_step": 1,
+      "description": "Long rounded handle on the left, horizontal with a gently bowed top and bottom, ending at a squared right hinge."
+    },
+    {
+      "name": "metal bolster band",
+      "introduced_by_step": 1,
+      "description": "Narrow vertical metal band wrapping the right end of the handle."
+    },
+    {
+      "name": "pivot circle",
+      "introduced_by_step": 2,
+      "description": "Single small pivot circle centered on the metal bolster."
+    },
+    {
+      "name": "open blade outline",
+      "introduced_by_step": 3,
+      "description": "One tapered blade extending right from the fixed pivot, straight back above and curved cutting edge below, ending in one point."
+    },
+    {
+      "name": "blade nail nick",
+      "introduced_by_step": 3,
+      "description": "One short curved nail nick near the base of the blade."
+    },
+    {
+      "name": "handle rivets",
+      "introduced_by_step": 2,
+      "description": "Exactly two small rivets along the left wooden handle."
+    },
+    {
+      "name": "wood grain strokes",
+      "introduced_by_step": 4,
+      "description": "Exactly three short flowing grain marks following the handle."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 4,
+      "description": "One broken pale ground shadow beneath the handle and blade."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/open-pocketknife-with-wooden-handle-step-1.jpg",
+      "step_name": "Shape the handle and bolster",
+      "visible_job": "Draw one long handle and its narrow right-end metal band.",
+      "instruction": "Draw a long narrow handle across the lower middle, rounded on the left and squared at the right. Wrap a narrow metal bolster band around its right end; leave the page open to the right for the blade.",
+      "adds": [
+        "wooden handle outline",
+        "metal bolster band"
+      ],
+      "introduces": [
+        "wooden handle outline",
+        "metal bolster band"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/open-pocketknife-with-wooden-handle-step-2.jpg",
+      "step_name": "Place the three fasteners",
+      "visible_job": "Add one pivot circle in the bolster and two small handle rivets.",
+      "instruction": "Center a small pivot circle inside the metal band. Add exactly two smaller rivet circles along the wooden handle, one near the rounded left tip and one halfway toward the bolster.",
+      "adds": [
+        "pivot circle",
+        "handle rivets"
+      ],
+      "introduces": [
+        "pivot circle",
+        "handle rivets"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/open-pocketknife-with-wooden-handle-step-3.jpg",
+      "step_name": "Open the blade",
+      "visible_job": "Extend one tapered blade rightward and place its short nail nick.",
+      "instruction": "From the bolster, pull a nearly straight blade back to the right and taper it to a point. Curve the lower cutting edge back to the hinge, then add one short dark nail nick near the upper blade edge.",
+      "adds": [
+        "open blade outline",
+        "blade nail nick"
+      ],
+      "introduces": [
+        "open blade outline",
+        "blade nail nick"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/open-pocketknife-with-wooden-handle-step-4.jpg",
+      "step_name": "Add grain and a ground shadow",
+      "visible_job": "Add flowing wood grain and a broken shadow below the knife.",
+      "instruction": "Follow the handle with three broad, wavering wood-grain strokes. Sketch one broken graphite shadow directly below the handle and blade, leaving the blade point and all three fasteners clear.",
+      "adds": [
+        "wood grain strokes",
+        "ground shadow"
+      ],
+      "introduces": [
+        "wood grain strokes",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/open-pocketknife-with-wooden-handle-finished-v1.jpg",
+    "step_name": "Shade the pocketknife",
+    "visible_job": "Shade established wood and metal forms without adding structural contours.",
+    "instruction": "Layer muted warm brown on the existing wooden handle and soft graphite along the metal bolster and blade underside. Deepen the same rivets, nick, and shadow without adding new parts.",
+    "adds": [
+      "shading on established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved crop has a long rounded handle and a narrow bolster fixed at its right end. Its simple horizontal pose leaves blank paper to the right for the blade; no detached guide is present.",
+    "draw_through_observation": "I inspected the five saved JPGs in order. The handle ends, bolster, pivot, two handle rivets, blade tip, and nail nick remain in their positions. The layer-removal fallback uses one generated raster master for the outline stages. No temporary guides are used. The finish only colors and shades existing forms.",
+    "contract_sha256": "7823b088a89cc28108ee1e3ef376cf81ce6811a8a43d925935a8897d0bb24a28",
+    "asset_sha256": {
+      "assets/open-pocketknife-with-wooden-handle-step-1.jpg": "be8e43d6b8a822903f4405ccc47f6e31505644034c82c9f704ae1376c205da03",
+      "assets/open-pocketknife-with-wooden-handle-step-2.jpg": "ddbbd551c4a1577c52ad1432214985700987fa2493fe09d649e03cd6f29774d2",
+      "assets/open-pocketknife-with-wooden-handle-step-3.jpg": "77b9bb00a2cfa3b98b1f06d30f35e0edb534beee28e3fe31642975d49caf93bb",
+      "assets/open-pocketknife-with-wooden-handle-step-4.jpg": "a5349963770664d273edb4e3ac25707f6196f937b252dce9e3a26023552ef2d3",
+      "assets/open-pocketknife-with-wooden-handle-finished-v1.jpg": "176a4ff08f94f243ad67c34250c2421661d2bd80e0f75688f7c430aca8426d70"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "wooden handle outline",
+          "metal bolster band",
+          "pivot circle",
+          "handle rivets"
+        ],
+        "observed_addition": "The unchanged rounded handle and right bolster gain one circle inside the band and exactly two smaller rivets, one near the left end and one at mid-handle.",
+        "instruction_match": "The second saved crop follows the instruction for one pivot and two spaced handle fasteners.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "wooden handle outline",
+          "metal bolster band",
+          "pivot circle",
+          "handle rivets",
+          "open blade outline",
+          "blade nail nick"
+        ],
+        "observed_addition": "The same two rivets and pivot persist; one slim blade extends from the band to a single right point, with a dark short nail nick near its upper edge.",
+        "instruction_match": "The third saved crop matches the rightward blade contour and one nail nick while preserving the handle hardware.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "wooden handle outline",
+          "metal bolster band",
+          "pivot circle",
+          "handle rivets",
+          "open blade outline",
+          "blade nail nick",
+          "wood grain strokes",
+          "ground shadow"
+        ],
+        "observed_addition": "The handle, bolster, three fasteners, blade point, and nick persist. Three flowing grain strokes appear inside the handle and one broken shadow grows directly below.",
+        "instruction_match": "The fourth saved crop matches the taught grain and shadow, without adding a new structural part.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "wooden handle outline",
+          "metal bolster band",
+          "pivot circle",
+          "handle rivets",
+          "open blade outline",
+          "blade nail nick",
+          "wood grain strokes",
+          "ground shadow"
+        ],
+        "observed_addition": "The same outline and all three circles remain. Warm brown pencil fills the wood; soft graphite shades the same band and blade and darkens the existing ground shadow.",
+        "instruction_match": "The finish follows the coloring and shading instruction; it introduces no new contour or hardware.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
