@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw an open matchbox</title>
+      <link>https://sketcha.day/tutorials/open-matchbox-with-three-matches.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/open-matchbox-with-three-matches.html</guid>
+      <pubDate>Mon, 19 Oct 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw an open matchbox with a sliding tray, three matchsticks, a blank label, a striking strip, and warm pencil shading.</description>
+      <media:content url="https://sketcha.day/assets/open-matchbox-with-three-matches-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw an open pocketknife</title>
       <link>https://sketcha.day/tutorials/open-pocketknife-with-wooden-handle.html</link>

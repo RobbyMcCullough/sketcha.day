@@ -1,3 +1,8 @@
+## 2026-10-19 — Current open matchbox lesson (Codex)
+
+- Added Sketcha Day 159, `open-matchbox-with-three-matches`, for October 19. Rejected `metal-pencil-sharpener-with-shaving` before art because its curled-shaving problem repeated an earlier rejected candidate and the wooden hand plane. The approved contact sheet uses cells 1–4 and 6; the fifth cell repeated the sleeve details and was omitted from the public sequence.
+- All four saved adjacent pairs, including the finish, were reviewed for one fixed sleeve, sliding tray, three separate matches, blank label, striking strip, and shadow. No temporary guides or unexplained structural moves. Teaching 8.1/10; saved finish 8.2/10. Schema-v5 hashes and readiness passed; Cove home, library, and tutorial rendered at desktop and mobile widths with new images loaded, valid JSON-LD, and no overflow. Current-only one-lesson-per-site cadence remains active. Harness: Codex; task: 2026-10-19 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
 ## 2026-10-18 — Current open pocketknife lesson (Codex)
 
 - Added Sketcha Day 158, `open-pocketknife-with-wooden-handle`, for October 18. Two generated sheets and a targeted edit shifted the handle/hinge and remain private. A five-panel raster progression was derived by removing later pencil layers from one generated master; the saved crops keep the handle, bolster, three fasteners, blade point, and nail nick fixed.

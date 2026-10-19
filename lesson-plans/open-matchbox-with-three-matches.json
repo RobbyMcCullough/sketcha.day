@@ -1,0 +1,214 @@
+{
+  "schema_version": 5,
+  "slug": "open-matchbox-with-three-matches",
+  "finished": "assets/open-matchbox-with-three-matches-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A small tilted rectangular sleeve with visible thickness fixes the matchbox pose and leaves open space at its right end for the tray.",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "notes": "Generated six-cell pencil sheet. The fifth cell only repeats the fourth, so the saved teaching sequence uses cells 1\u20134 and 6; preserve one sleeve, one partly pulled tray, and exactly three matches at fixed anchors."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "outer sleeve",
+      "introduced_by_step": 1,
+      "description": "One shallow matchbox sleeve angled gently upward to the right, with a rectangular front face and short visible left and lower edges."
+    },
+    {
+      "name": "sliding inner tray",
+      "introduced_by_step": 2,
+      "description": "One shallow open tray pulled halfway right from the sleeve, with a continuous rim and visible inside floor."
+    },
+    {
+      "name": "left match",
+      "introduced_by_step": 3,
+      "description": "One slim match in the tray, angled toward upper right, with a small dark head."
+    },
+    {
+      "name": "middle match",
+      "introduced_by_step": 3,
+      "description": "A second separate match parallel to the first, with its own small head."
+    },
+    {
+      "name": "right match",
+      "introduced_by_step": 3,
+      "description": "A third separate match parallel to the first two, with its own small head."
+    },
+    {
+      "name": "sleeve label panel",
+      "introduced_by_step": 4,
+      "description": "One inset blank label rectangle on the broad sleeve face, without lettering."
+    },
+    {
+      "name": "striking strip",
+      "introduced_by_step": 4,
+      "description": "One narrow textured strip along the visible lower sleeve side."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 4,
+      "description": "One broken pencil shadow beneath the sleeve and pulled tray."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/open-matchbox-with-three-matches-step-1.jpg",
+      "step_name": "Set the sleeve angle",
+      "visible_job": "Draw a shallow tilted sleeve with its front face and short thickness edges.",
+      "instruction": "Draw a short horizontal rectangle tilted slightly upward to the right. Echo its lower and left edges to give the cardboard sleeve a little thickness; leave its right end clear for the tray.",
+      "adds": [
+        "outer sleeve"
+      ],
+      "introduces": [
+        "outer sleeve"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/open-matchbox-with-three-matches-step-2.jpg",
+      "step_name": "Pull out the tray",
+      "visible_job": "Add one shallow open tray emerging halfway from the sleeve's right end.",
+      "instruction": "From the sleeve's open right edge, extend a shallow tray about half a box length. Draw the raised rim first, then join its inner floor; keep the rim visible so the matches have a place to rest.",
+      "adds": [
+        "sliding inner tray"
+      ],
+      "introduces": [
+        "sliding inner tray"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/open-matchbox-with-three-matches-step-3.jpg",
+      "step_name": "Lay in three matches",
+      "visible_job": "Place exactly three separate matchsticks with heads inside the fixed tray.",
+      "instruction": "Lay three slim, nearly parallel sticks across the tray floor, each slanting slightly toward the upper right. Give each one a small rounded head; count all three before adding texture.",
+      "adds": [
+        "left match",
+        "middle match",
+        "right match"
+      ],
+      "introduces": [
+        "left match",
+        "middle match",
+        "right match"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/open-matchbox-with-three-matches-step-4.jpg",
+      "step_name": "Mark the sleeve surfaces",
+      "visible_job": "Add a blank inset label, a narrow striking strip, and a broken shadow.",
+      "instruction": "Inset a blank label rectangle on the broad sleeve face. Along the narrow lower side, add a rough striking strip. With the side of the pencil, place a broken shadow just below the box.",
+      "adds": [
+        "sleeve label panel",
+        "striking strip",
+        "ground shadow"
+      ],
+      "introduces": [
+        "sleeve label panel",
+        "striking strip",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/open-matchbox-with-three-matches-finished-v1.jpg",
+    "step_name": "Warm the matchbox finish",
+    "visible_job": "Shade established cardboard, wood, match heads, and shadow without introducing new contours.",
+    "instruction": "Layer muted ochre on the sleeve and sticks, dusty red on the three existing heads, and graphite on the striking strip and shadow. Strengthen only the contours already in place.",
+    "adds": [
+      "color and shading on established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved JPG shows one shallow sleeve with a broad face, short left thickness, lower side, and open dark right end. Its tilt and right-side space make the tray addition understandable without a guide.",
+    "draw_through_observation": "I inspected all five saved JPGs at readable size. The left sleeve corner, sleeve opening, tray rim, three distinct match heads, inset blank label, lower striking strip, and shadow retain their roles and attachment order. There are no temporary guides. The final colors existing forms only; small hand-drawn line irregularities do not change the box structure.",
+    "contract_sha256": "286c93a725152b6dfc549b893fcb9278b376a30a7e797612f3e0f00da4c72094",
+    "asset_sha256": {
+      "assets/open-matchbox-with-three-matches-step-1.jpg": "18b0212801aa022d3a219869c1118dff4df9f4331c133cd205aa8ebabe48cf16",
+      "assets/open-matchbox-with-three-matches-step-2.jpg": "eb13597c2c45c7e6b5c238c793db2c7a6db4f2d11b66b32f47877f42911e29be",
+      "assets/open-matchbox-with-three-matches-step-3.jpg": "d89b487364839c550c2593aa623772a925ab98b88730950d96c179415e2a3ab6",
+      "assets/open-matchbox-with-three-matches-step-4.jpg": "1ee08bf4fd338d0c7eb47904475525dcc38f5c0f84d9af5e3a7b2742ee566172",
+      "assets/open-matchbox-with-three-matches-finished-v1.jpg": "a8ce04778c04c57cbb8655fc6b6c239679eb37d2a0d8ecb027cb6a65738754f6"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "outer sleeve",
+          "sliding inner tray"
+        ],
+        "observed_addition": "A shallow open tray now extends right from the sleeve's dark opening, with a raised far wall, front rim, and visible floor; the sleeve remains the same left-hand box.",
+        "instruction_match": "The new rim and floor match the instruction to pull the tray halfway from the sleeve; no matches appear yet.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "outer sleeve",
+          "sliding inner tray",
+          "left match",
+          "middle match",
+          "right match"
+        ],
+        "observed_addition": "The sleeve and tray remain, and three parallel wooden sticks with three separate dark rounded heads appear inside the tray, arranged top, middle, and bottom.",
+        "instruction_match": "The saved crop teaches exactly three matches resting on the existing tray floor, as the written third step directs.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "outer sleeve",
+          "sliding inner tray",
+          "left match",
+          "middle match",
+          "right match",
+          "sleeve label panel",
+          "striking strip",
+          "ground shadow"
+        ],
+        "observed_addition": "The three match heads stay countable; a blank inset label appears on the sleeve face, a dark textured striking strip fills its lower side, and a pale broken shadow sits under the box.",
+        "instruction_match": "These additions match the label, striking-strip, and shadow actions in step four; the label contains no text or new prop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "outer sleeve",
+          "sliding inner tray",
+          "left match",
+          "middle match",
+          "right match",
+          "sleeve label panel",
+          "striking strip",
+          "ground shadow"
+        ],
+        "observed_addition": "Warm ochre fills the existing sleeve and three sticks, dusty red colors the same three heads, and graphite deepens the striking strip and established ground shadow.",
+        "instruction_match": "The finished crop follows the coloring instruction and keeps the blank label, tray rim, three heads, and lower strip in the same structural arrangement.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
