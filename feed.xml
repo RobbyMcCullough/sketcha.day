@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a cracked walnut</title>
+      <link>https://sketcha.day/tutorials/cracked-walnut-with-kernel.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/cracked-walnut-with-kernel.html</guid>
+      <pubDate>Tue, 20 Oct 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a cracked walnut half with an open shell, uneven rim, four-lobed kernel, curved ridges, and warm pencil shading.</description>
+      <media:content url="https://sketcha.day/assets/cracked-walnut-with-kernel-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw an open matchbox</title>
       <link>https://sketcha.day/tutorials/open-matchbox-with-three-matches.html</link>

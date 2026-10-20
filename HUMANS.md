@@ -1,3 +1,8 @@
+## 2026-10-20 — Current cracked walnut lesson (Codex)
+
+- Added Sketcha Day 160, `cracked-walnut-with-kernel`, for October 20. The first sheet drifted in its kernel; a second generated raster sheet was registered by whole-cell translation without changing drawn shapes, then cropped. Two original iterations remain private.
+- All four saved adjacent pairs, including the finish, were reviewed for one open shell, uneven rim and inner lip, four kernel lobes, three ridges, and a broken shadow. No temporary guides or unexplained structural removals. Teaching 8.1/10; saved finish 8.2/10 for readable pencil texture and attainable natural detail. Schema-v5 hashes and readiness passed. Fallback localhost home, library, and tutorial QA passed at desktop and mobile widths; Cove had an invalid local certificate. Current-only one-lesson-per-site cadence remains active. Harness: Codex; task: 2026-10-20 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
 ## 2026-10-19 — Current open matchbox lesson (Codex)
 
 - Added Sketcha Day 159, `open-matchbox-with-three-matches`, for October 19. Rejected `metal-pencil-sharpener-with-shaving` before art because its curled-shaving problem repeated an earlier rejected candidate and the wooden hand plane. The approved contact sheet uses cells 1–4 and 6; the fifth cell repeated the sleeve details and was omitted from the public sequence.

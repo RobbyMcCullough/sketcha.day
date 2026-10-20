@@ -1,0 +1,176 @@
+{
+  "schema_version": 5,
+  "slug": "cracked-walnut-with-kernel",
+  "finished": "assets/cracked-walnut-with-kernel-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A broad U-shaped shell cup with two raised ends fixes the walnut's width, base, and open top without requiring the learner to erase a closed oval.",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "notes": "Two generated sheets were reviewed. The first drifted in the kernel. The second was registered by translating whole raster cells 3-5 only, preserving their drawing pixels and scale; the original sheets remain private in rejected-progressions."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "outer shell cup",
+      "introduced_by_step": 1,
+      "description": "One wide rough U-shaped walnut half, its open top reserved."
+    },
+    {
+      "name": "broken rim and inner lip",
+      "introduced_by_step": 2,
+      "description": "One gently uneven upper rim joining the two shell ends and a shallow inner lip immediately below it."
+    },
+    {
+      "name": "four-lobed kernel",
+      "introduced_by_step": 3,
+      "description": "One walnut kernel with four rounded lobes seated inside the open rim."
+    },
+    {
+      "name": "shell ridges and ground shadow",
+      "introduced_by_step": 4,
+      "description": "Three short curved shell ridges and one broken ground shadow, clear of the kernel."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/cracked-walnut-with-kernel-step-1.jpg",
+      "step_name": "Set the open shell cup",
+      "visible_job": "Draw one wide rough U-shaped half shell with two raised ends and an open top.",
+      "instruction": "Start at the left upper end, curve down through a broad base, then rise to a matching right end. Leave the top open for the rim and kernel.",
+      "adds": [
+        "outer shell cup"
+      ],
+      "introduces": [
+        "outer shell cup"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/cracked-walnut-with-kernel-step-2.jpg",
+      "step_name": "Break the rim",
+      "visible_job": "Join the two ends with a gently uneven upper rim and add a shallow parallel inner lip below it.",
+      "instruction": "Connect the open ends with a low, slightly uneven pencil line. Echo that route just inside the cup to show the shell thickness.",
+      "adds": [
+        "broken rim and inner lip"
+      ],
+      "introduces": [
+        "broken rim and inner lip"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/cracked-walnut-with-kernel-step-3.jpg",
+      "step_name": "Nest the kernel",
+      "visible_job": "Add one four-lobed kernel rising above the established rim without moving the shell.",
+      "instruction": "Inside the rim, draw two rounded upper lobes and two smaller lower lobes that meet at a short center crease. Keep the kernel seated in the cup.",
+      "adds": [
+        "four-lobed kernel"
+      ],
+      "introduces": [
+        "four-lobed kernel"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/cracked-walnut-with-kernel-step-4.jpg",
+      "step_name": "Texture and ground the shell",
+      "visible_job": "Add three curved ridges to the outer shell and one broken shadow below its base.",
+      "instruction": "Pull three short ridges down the cup, following its curve. Set a broken pencil shadow beneath the base without changing the kernel or rim.",
+      "adds": [
+        "shell ridges and ground shadow"
+      ],
+      "introduces": [
+        "shell ridges and ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/cracked-walnut-with-kernel-finished-v1.jpg",
+    "step_name": "Shade the walnut",
+    "visible_job": "Apply warm brown and graphite value only to the established shell, kernel, ridges, and shadow.",
+    "instruction": "Shade the existing shell warm brown, leave pale paper on the kernel's raised lobes, and deepen the fixed rim and broken shadow with graphite.",
+    "adds": [
+      "warm brown and graphite shading in established regions"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved crop contains one broad U-shaped shell with raised left and right ends and open space above. Its low base and clear opening make the next rim stroke copyable without erasure.",
+    "draw_through_observation": "I examined all five saved JPGs in order. The open cup, shallow rim and inner lip, two upper and two lower kernel lobes, three outer ridges, and broken ground shadow retain their relative anchors after whole-cell registration. No temporary guides were used. The color finish stays on established forms; small handmade line irregularities remain.",
+    "contract_sha256": "f4770e67a04d61c2e41dbe507d2bd12d540fb6080f9154dc7ac50f668ac6615f",
+    "asset_sha256": {
+      "assets/cracked-walnut-with-kernel-step-1.jpg": "8f60fc49633c7adb204607e51b1f82f37b40f930d997183a3a04d8f468d3bee0",
+      "assets/cracked-walnut-with-kernel-step-2.jpg": "275a39611dafed71d020a92e8e98f24025450f45e75dbff07b18b2f9bc081523",
+      "assets/cracked-walnut-with-kernel-step-3.jpg": "82865247fb774e838d97ca9ed8faa2bb92381a3c43c2864b587691896abfb416",
+      "assets/cracked-walnut-with-kernel-step-4.jpg": "ed26e431fa62f7b4e147084629fae15b4b1b1cefba41f9a375592b99ec178ec8",
+      "assets/cracked-walnut-with-kernel-finished-v1.jpg": "d9ca6ac8cf45ecfdb40809a9447030423f728f24dd45b6556e5831dbbfff99a6"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "outer shell cup",
+          "broken rim and inner lip"
+        ],
+        "observed_addition": "The open shell receives a low uneven top rim and a second close line for its inner lip; both endpoints still attach to the same raised cup ends.",
+        "instruction_match": "The two new routes match the written rim-and-thickness step, with the central opening still empty.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "outer shell cup",
+          "broken rim and inner lip",
+          "four-lobed kernel"
+        ],
+        "observed_addition": "Two large upper kernel lobes and two smaller lower lobes join at a dark center crease inside the fixed shell and rise above its open rim.",
+        "instruction_match": "The saved third crop teaches the one four-lobed kernel described in step three, seated on the prior inner lip.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "outer shell cup",
+          "broken rim and inner lip",
+          "four-lobed kernel",
+          "shell ridges and ground shadow"
+        ],
+        "observed_addition": "Three long curved ridges now mark the front of the same shell, soft graphite texture reaches its sides, and one broken shadow appears under the base.",
+        "instruction_match": "The visible ridges and shadow match step four while the four kernel lobes, rim ends, and cup base persist.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "outer shell cup",
+          "broken rim and inner lip",
+          "four-lobed kernel",
+          "shell ridges and ground shadow"
+        ],
+        "observed_addition": "Warm brown pencil fills the existing cup, pale ochre warms all four kernel lobes, and graphite darkens the same rim, ridges, and broken shadow.",
+        "instruction_match": "The finish colors and deepens the earlier drawing as directed; it adds no new shell, kernel, or prop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
