@@ -1,3 +1,7 @@
+## 2026-10-21 — Current fishbowl lesson (Codex)
+
+- Added Sketcha Day 161, `fishbowl-with-one-goldfish`, for October 21. Two generated sheets failed fish-size or finish continuity; the third reference-guided raster sheet supplied six approved crops. The single fish, forked tail, waterline, three floor pebbles, and two plant leaves were checked across every adjacent pair, including the finish; no temporary guides. Teaching 8.1/10, saved finish 8.1/10. Schema-v5 hashes and readiness passed. Cove showed a browser certificate error, so localhost homepage, library, and tutorial QA passed at desktop and 390px mobile widths with loaded hero, valid JSON-LD, and no overflow. Current-only one-lesson-per-site cadence remains active. Harness: Codex; task: 2026-10-21 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
 ## 2026-10-20 — Current cracked walnut lesson (Codex)
 
 - Added Sketcha Day 160, `cracked-walnut-with-kernel`, for October 20. The first sheet drifted in its kernel; a second generated raster sheet was registered by whole-cell translation without changing drawn shapes, then cropped. Two original iterations remain private.

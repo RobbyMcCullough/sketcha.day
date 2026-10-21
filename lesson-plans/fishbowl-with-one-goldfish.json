@@ -1,0 +1,214 @@
+{
+  "schema_version": 5,
+  "slug": "fishbowl-with-one-goldfish",
+  "finished": "assets/fishbowl-with-one-goldfish-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A wide shallow oval rim and one curved glass bowl beneath it establish the opening, symmetry, and fixed space for the fish without an erasure.",
+  "source": {
+    "type": "generated-raster-contact-sheet",
+    "notes": "Three generated raster sheets reviewed; first rejected for changing fish contour between panels 3 and 4, second for fish scale drift and weak finish. Third reference-guided edit approved after full-sheet and saved-crop review; two failed sheets remain private."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "oval opening and round glass bowl",
+      "introduced_by_step": 1,
+      "description": "A shallow oval at the top of one round bowl, with curved sides meeting a short flat base."
+    },
+    {
+      "name": "waterline and inner glass rim",
+      "introduced_by_step": 2,
+      "description": "One gently curved waterline inside the bowl and one close echo of the upper rim."
+    },
+    {
+      "name": "single goldfish body and forked tail",
+      "introduced_by_step": 3,
+      "description": "One small right-facing fish oval below the waterline, with one attached forked tail on its left."
+    },
+    {
+      "name": "fish eye and two fins",
+      "introduced_by_step": 4,
+      "description": "One eye in the fish head, one dorsal fin, and one lower fin attached to the same body."
+    },
+    {
+      "name": "three pebbles and two-leaf plant",
+      "introduced_by_step": 5,
+      "description": "Exactly three pebbles on the bowl floor and one rooted water plant with exactly two leaves, clear of the fish."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/fishbowl-with-one-goldfish-step-1.jpg",
+      "step_name": "Shape the glass bowl",
+      "visible_job": "Draw one shallow top oval and one round bowl tapering into a short flat base.",
+      "instruction": "Set a shallow horizontal oval high on the page. From its left and right ends, bow two glass sides outward and bring them down to a short flat base.",
+      "adds": [
+        "oval opening and round glass bowl"
+      ],
+      "introduces": [
+        "oval opening and round glass bowl"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/fishbowl-with-one-goldfish-step-2.jpg",
+      "step_name": "Set the water level",
+      "visible_job": "Add a curved waterline inside the glass and echo the upper opening with a thin inner rim.",
+      "instruction": "Draw one gentle waterline across the upper third of the bowl, touching the inside glass sides. Echo the top oval with a close, light inner rim.",
+      "adds": [
+        "waterline and inner glass rim"
+      ],
+      "introduces": [
+        "waterline and inner glass rim"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/fishbowl-with-one-goldfish-step-3.jpg",
+      "step_name": "Place one fish",
+      "visible_job": "Add one right-facing oval fish and one forked tail beneath the fixed waterline.",
+      "instruction": "Below the waterline, draw one small oval pointing right. From its left end, open a forked tail into the empty left side of the bowl.",
+      "adds": [
+        "single goldfish body and forked tail"
+      ],
+      "introduces": [
+        "single goldfish body and forked tail"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/fishbowl-with-one-goldfish-step-4.jpg",
+      "step_name": "Finish the fish shape",
+      "visible_job": "Attach one dorsal fin and one lower fin, then place one eye near the fish's right-facing nose.",
+      "instruction": "Raise a small dorsal fin from the fish's top edge and hang one lower fin below its belly. Put one dark eye near the right tip without moving the body or tail.",
+      "adds": [
+        "fish eye and two fins"
+      ],
+      "introduces": [
+        "fish eye and two fins"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/fishbowl-with-one-goldfish-step-5.jpg",
+      "step_name": "Ground the bowl",
+      "visible_job": "Add exactly three floor pebbles and a rooted two-leaf plant, then tint its leaves muted green.",
+      "instruction": "Along the bowl floor, draw three separate round pebbles. From the gap beside them, raise one short plant stem and branch it into exactly two leaves below the fish. Tint those leaves lightly green.",
+      "adds": [
+        "three pebbles and two-leaf plant",
+        "light green on the new leaves"
+      ],
+      "introduces": [
+        "three pebbles and two-leaf plant"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/fishbowl-with-one-goldfish-finished-v1.jpg",
+    "step_name": "Shade the fishbowl",
+    "visible_job": "Add restrained blue, orange, green, and graphite shading to established shapes only.",
+    "instruction": "Tint the existing water pale blue, the fish warm orange, and the two plant leaves muted green. Deepen the same glass rim, three pebbles, and base with light graphite; leave paper highlights on the bowl.",
+    "adds": [
+      "restrained color and graphite on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved crop has a shallow top oval joined to the round glass sides and a short flat base. These fixed landmarks make the next waterline easy to place without erasing the vessel.",
+    "draw_through_observation": "I examined all six saved JPGs in order, including the colored finish. The oval rim and base stay registered; one fish keeps a right-facing nose and a left forked tail, then gains one eye and two fins. Exactly three pebbles and two attached plant leaves appear before the finish. No temporary guides or unexplained structural removals occur; the paper grain and pencil strokes remain visible.",
+    "contract_sha256": "0bf75d6fb21937924e56df36c7cc91ca60668bbfb5c29ed48fd7de6accef697d",
+    "asset_sha256": {
+      "assets/fishbowl-with-one-goldfish-step-1.jpg": "c7f212a644eb2ecb7bc6c8caa1b82ab1bc279156773164e2154d8f315e298233",
+      "assets/fishbowl-with-one-goldfish-step-2.jpg": "12075b7d5bef1bf82a30178490277a3d106421eec207bf8c877cdf56bff8ad4a",
+      "assets/fishbowl-with-one-goldfish-step-3.jpg": "a5ae8663aa4cca492bbd17f03287e8fc9fb7248fa4cbeb18fbc36ac44d5cf4e9",
+      "assets/fishbowl-with-one-goldfish-step-4.jpg": "8e0736eebe2d33d455fb8efdff5922583fc614a391ee7fbd2af459545bb8df1b",
+      "assets/fishbowl-with-one-goldfish-step-5.jpg": "773aae812e5e8aef85fbc854419c9fbd2a30be9218d7de4f93516e8ace9c5810",
+      "assets/fishbowl-with-one-goldfish-finished-v1.jpg": "5892aa96b7d9ba21b672d8244ace62ccb88db82b9a4977b487c771ea2177d009"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "oval opening and round glass bowl",
+          "waterline and inner glass rim"
+        ],
+        "observed_addition": "The fixed round glass contour and flat base remain; one close inner rim and one curved waterline now span the upper third.",
+        "instruction_match": "The new inner rim and waterline match the second instruction and leave the bowl center empty.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "oval opening and round glass bowl",
+          "waterline and inner glass rim",
+          "single goldfish body and forked tail"
+        ],
+        "observed_addition": "One right-facing almond fish body and attached forked left tail appear below the same waterline; rim, sides and base remain in place.",
+        "instruction_match": "The fish oval and forked tail occupy the central water space described in step three.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "oval opening and round glass bowl",
+          "waterline and inner glass rim",
+          "single goldfish body and forked tail",
+          "fish eye and two fins"
+        ],
+        "observed_addition": "One dark eye appears near the right nose, with a dorsal fin joined to the top and one lower fin joined below the same fish body.",
+        "instruction_match": "The eye and two fins match step four; the forked tail joint and pointed nose keep their prior positions.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "oval opening and round glass bowl",
+          "waterline and inner glass rim",
+          "single goldfish body and forked tail",
+          "fish eye and two fins",
+          "three pebbles and two-leaf plant"
+        ],
+        "observed_addition": "Exactly three separate pebbles now sit across the floor; one rooted stem rises into exactly two muted-green leaves beneath the fish.",
+        "instruction_match": "The three stones, two new leaves and light green tint match step five while keeping the fish clear.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "oval opening and round glass bowl",
+          "waterline and inner glass rim",
+          "single goldfish body and forked tail",
+          "fish eye and two fins",
+          "three pebbles and two-leaf plant"
+        ],
+        "observed_addition": "Pale blue fills the established water, warm orange fills the same fish and forked tail, and graphite deepens the fixed glass rim, three pebbles and base.",
+        "instruction_match": "The final coloring follows the named regions without adding a second fish, extra plant leaf, stone or structural contour.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
