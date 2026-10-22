@@ -429,6 +429,11 @@
       "date": "2026-10-12",
       "note": "Approved six-panel umbrella sheet, all five saved-crop transitions, teaching and finished art 8.1/10; public lesson built for Day 152."
     },
+    "origami-crane-on-a-table": {
+      "status": "published",
+      "date": "2026-10-22",
+      "note": "Approved six-panel cumulative graphite crane sheet; saved transitions and schema-v5 review passed."
+    },
     "paint-palette-and-brush": {
       "status": "published"
     },
@@ -460,6 +465,11 @@
       "status": "published",
       "date": "2026-09-13",
       "note": "Published as the September 13 current lesson after schema-v5 saved-image review."
+    },
+    "pinecone-on-a-twig": {
+      "status": "rejected-duplicate",
+      "date": "2026-10-22",
+      "note": "Rejected before image generation: published pinecone-on-a-pine-branch already teaches the same core pinecone silhouette and repeated-scale drawing problem. No art created."
     },
     "pirate-sailing-ship-at-sea": {
       "status": "published",

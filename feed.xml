@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw an origami crane on a table</title>
+      <link>https://sketcha.day/tutorials/origami-crane-on-a-table.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/origami-crane-on-a-table.html</guid>
+      <pubDate>Thu, 22 Oct 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw an origami crane with a folded diamond body, two raised wings, a bent beak, pointed tail, and soft graphite shading.</description>
+      <media:content url="https://sketcha.day/assets/origami-crane-on-a-table-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a fishbowl with one goldfish</title>
       <link>https://sketcha.day/tutorials/fishbowl-with-one-goldfish.html</link>

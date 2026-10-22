@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "origami-crane-on-a-table",
+  "finished": "assets/origami-crane-on-a-table-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One small horizontal folded body fixes the scale and the two attachment tips while leaving open paper for both wings, neck, and tail.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-cell cumulative graphite contact sheet; review before crop."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "folded body",
+      "introduced_by_step": 1,
+      "description": "Draw a small horizontal kite-shaped folded body at page center, with a pointed left and right end."
+    },
+    {
+      "name": "near wing",
+      "introduced_by_step": 2,
+      "description": "From the upper-left edge of the body, lift a broad triangular wing upward and outward, returning its lower edge to the body center."
+    },
+    {
+      "name": "far wing",
+      "introduced_by_step": 3,
+      "description": "Behind the first wing, lift a slimmer triangular far wing toward the upper right, meeting the same body seam."
+    },
+    {
+      "name": "neck and head",
+      "introduced_by_step": 4,
+      "description": "From the right body tip, angle a slender neck upward and bend its tip down into a short pointed beak."
+    },
+    {
+      "name": "tail and fold seams",
+      "introduced_by_step": 5,
+      "description": "From the left body tip, raise a narrow pointed tail. Follow the faint fold route within each wing, then rub a small graphite shadow below the body."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/origami-crane-on-a-table-step-1.jpg",
+      "step_name": "Draw the folded body",
+      "visible_job": "Draw a small horizontal kite-shaped folded body at page center, with a pointed left and right end.",
+      "instruction": "Draw a small horizontal kite-shaped folded body at page center, with a pointed left and right end.",
+      "adds": [
+        "folded body"
+      ],
+      "introduces": [
+        "folded body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/origami-crane-on-a-table-step-2.jpg",
+      "step_name": "Draw the near wing",
+      "visible_job": "From the upper-left edge of the body, lift a broad triangular wing upward and outward, returning its lower edge to the body center.",
+      "instruction": "From the upper-left edge of the body, lift a broad triangular wing upward and outward, returning its lower edge to the body center.",
+      "adds": [
+        "near wing"
+      ],
+      "introduces": [
+        "near wing"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/origami-crane-on-a-table-step-3.jpg",
+      "step_name": "Draw the far wing",
+      "visible_job": "Behind the first wing, lift a slimmer triangular far wing toward the upper right, meeting the same body seam.",
+      "instruction": "Behind the first wing, lift a slimmer triangular far wing toward the upper right, meeting the same body seam.",
+      "adds": [
+        "far wing"
+      ],
+      "introduces": [
+        "far wing"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/origami-crane-on-a-table-step-4.jpg",
+      "step_name": "Draw the neck and head",
+      "visible_job": "From the right body tip, angle a slender neck upward and bend its tip down into a short pointed beak.",
+      "instruction": "From the right body tip, angle a slender neck upward and bend its tip down into a short pointed beak.",
+      "adds": [
+        "neck and head"
+      ],
+      "introduces": [
+        "neck and head"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/origami-crane-on-a-table-step-5.jpg",
+      "step_name": "Draw the tail and fold seams",
+      "visible_job": "Add the pointed tail from the left tip, reinforce the faint wing fold routes, and place a soft shadow beneath the body.",
+      "instruction": "From the left body tip, raise a narrow pointed tail. Follow the faint fold route within each wing, then rub a small graphite shadow below the body.",
+      "adds": [
+        "tail and fold seams"
+      ],
+      "introduces": [
+        "tail and fold seams"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/origami-crane-on-a-table-finished-v1.jpg",
+    "step_name": "Shade the folded paper",
+    "visible_job": "Darken the established edges and add restrained graphite on the existing wing planes and shadow.",
+    "instruction": "Use a soft pencil along the existing fold seams, shade one side of each wing lightly, and deepen the small shadow without adding new contours.",
+    "adds": [
+      "graphite shading on established paper planes"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved crop contains one small horizontal four-point folded-paper body with a center seam; its fixed side tips leave space for the neck and tail and its top leaves open paper for both wings.",
+    "draw_through_observation": "I inspected all six saved crops in order and compared each adjacent pair. The horizontal diamond body keeps its anchors; the near and far wings rise separately; the neck and beak join the right tip; the tail joins the left tip before final shading. Faint fold routes persist as paper creases, with no temporary guides or unexplained lost contours.",
+    "contract_sha256": "fd5c8f17449c4e0cd750611f26dc3a0f4b29dfced05f869daaeb5d2e86748b2d",
+    "asset_sha256": {
+      "assets/origami-crane-on-a-table-step-1.jpg": "2eba44c5c1b00e5cde53cf5ac392e9a921c639b9793b472357794fd9c3c3658e",
+      "assets/origami-crane-on-a-table-step-2.jpg": "5402aca892b3dac4b8c32dc512bafabb548fff7fdb0752ff0a93370d7fc579a3",
+      "assets/origami-crane-on-a-table-step-3.jpg": "27a7236376788233b0c2ef5279d2fee41308266adfbbb57f2be75ad78414bfb5",
+      "assets/origami-crane-on-a-table-step-4.jpg": "96bb26f02f109455f65d621f7466f5a71e898910b8dd5254ef9865b6b4ab4e6c",
+      "assets/origami-crane-on-a-table-step-5.jpg": "238c9ccb1066c885656be0c958d2b2a6dcee9eef249963cfa86a9d492735973d",
+      "assets/origami-crane-on-a-table-finished-v1.jpg": "c76f7bb6e8025051b4baf9fa802e674a8e9e58227705b39f4f5f741bb9cd0378"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "folded body",
+          "near wing"
+        ],
+        "observed_addition": "The fixed diamond body and its left, right, top and lower points remain; one tall near wing rises from the upper-left body edge and returns to the center seam.",
+        "instruction_match": "This is the broad triangular wing described in step two; no existing body edge disappears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "folded body",
+          "near wing",
+          "far wing"
+        ],
+        "observed_addition": "The body and near wing retain their anchors; a narrower far wing rises behind the center seam to an upper-right point.",
+        "instruction_match": "The second wing matches step three and stays behind the near wing.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "folded body",
+          "near wing",
+          "far wing",
+          "neck and head"
+        ],
+        "observed_addition": "The two wing tips and diamond body remain; a slender right neck rises from the right body tip and bends into a pointed beak.",
+        "instruction_match": "The neck and beak are the only new structure requested in step four.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "folded body",
+          "near wing",
+          "far wing",
+          "neck and head",
+          "tail and fold seams"
+        ],
+        "observed_addition": "The fixed wings, neck, beak and body remain; a slim left tail extends upward and a soft ground shadow appears below. Faint wing crease routes become easier to read.",
+        "instruction_match": "The tail, crease emphasis and shadow match the fifth instruction; the shadow is below the existing body.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "folded body",
+          "near wing",
+          "far wing",
+          "neck and head",
+          "tail and fold seams"
+        ],
+        "observed_addition": "The same two wings, right neck and beak, left tail, body diamond and shadow remain; graphite fills the established wing planes and strengthens the same shadow.",
+        "instruction_match": "The final instruction is shading only; no new contour is introduced.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
