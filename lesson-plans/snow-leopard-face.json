@@ -1,0 +1,245 @@
+{
+  "schema_version": 5,
+  "slug": "snow-leopard-face",
+  "finished": "assets/snow-leopard-face-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A broad, slightly flattened head outline fixes the face center and leaves both top corners open for the ears; a beginner can copy this single connected contour before judging small features.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Cumulative graphite and restrained colored-pencil contact sheet; review before crop."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "head outline",
+      "introduced_by_step": 1,
+      "description": "One broad rounded feline head outline with wide cheeks and a short chin, centered on the page."
+    },
+    {
+      "name": "left ear",
+      "introduced_by_step": 2,
+      "description": "One rounded triangular ear attached at the left opening of the head top."
+    },
+    {
+      "name": "right ear",
+      "introduced_by_step": 2,
+      "description": "One matching rounded triangular ear attached at the right opening of the head top."
+    },
+    {
+      "name": "muzzle pads and chin",
+      "introduced_by_step": 3,
+      "description": "Two rounded muzzle pads meet at center above the already drawn chin."
+    },
+    {
+      "name": "left eye",
+      "introduced_by_step": 4,
+      "description": "One pale almond eye above the left muzzle pad, tilted slightly toward center."
+    },
+    {
+      "name": "right eye",
+      "introduced_by_step": 4,
+      "description": "One pale almond eye above the right muzzle pad, tilted slightly toward center."
+    },
+    {
+      "name": "nose and mouth",
+      "introduced_by_step": 4,
+      "description": "A small inverted triangular nose and short split mouth centered between the muzzle pads."
+    },
+    {
+      "name": "fur markings and whiskers",
+      "introduced_by_step": 5,
+      "description": "Loose broken rosettes on forehead and cheeks, deeper inner ear fur, and four long whiskers from each muzzle side."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/snow-leopard-face-step-1.jpg",
+      "step_name": "Shape the broad feline face",
+      "visible_job": "Set the wide cheek contours and short chin in one centered head shape.",
+      "instruction": "Start high on the left cheek, curve down through a short rounded chin and up the right cheek. Leave two small openings along the top edge where the ears will attach.",
+      "adds": [
+        "head outline"
+      ],
+      "introduces": [
+        "head outline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/snow-leopard-face-step-2.jpg",
+      "step_name": "Attach both rounded ears",
+      "visible_job": "Connect two rounded triangular ears to the two top openings and hatch their interiors.",
+      "instruction": "From each top opening, rise into a rounded triangle and return to the forehead. Keep the ears at the same height, and hatch their interiors with short strokes.",
+      "adds": [
+        "left ear",
+        "right ear"
+      ],
+      "introduces": [
+        "left ear",
+        "right ear"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/snow-leopard-face-step-3.jpg",
+      "step_name": "Build the soft muzzle",
+      "visible_job": "Place two touching rounded muzzle pads within the lower face.",
+      "instruction": "Draw a small rounded pad on each side of the face center, letting them meet beneath the nose space. Keep the already drawn chin curve below them.",
+      "adds": [
+        "muzzle pads and chin"
+      ],
+      "introduces": [
+        "muzzle pads and chin"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/snow-leopard-face-step-4.jpg",
+      "step_name": "Set the steady gaze",
+      "visible_job": "Add the two almond eyes, central nose, and short split mouth.",
+      "instruction": "Place one tilted almond eye above each muzzle pad. Between the pads draw a small inverted triangle for the nose, then a short line down to the two halves of the mouth.",
+      "adds": [
+        "left eye",
+        "right eye",
+        "nose and mouth"
+      ],
+      "introduces": [
+        "left eye",
+        "right eye",
+        "nose and mouth"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/snow-leopard-face-step-5.jpg",
+      "step_name": "Mark the snow leopard fur",
+      "visible_job": "Add broken rosette markings, deepen the inner ear fur, and draw four whiskers from each side.",
+      "instruction": "Scatter open, broken rosettes across the forehead and cheeks, following the head curve. Deepen the existing inner ear hatching, then pull four long whiskers from each side of the muzzle.",
+      "adds": [
+        "fur markings and whiskers"
+      ],
+      "introduces": [
+        "fur markings and whiskers"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/snow-leopard-face-finished-v1.jpg",
+    "step_name": "Shade the winter coat",
+    "visible_job": "Layer cool gray, pale cream, and muted blue-gray through established areas without adding structure.",
+    "instruction": "Shade the established face with pale cool-gray pencil, warm the muzzle and inner ears with cream, and deepen existing rosettes and eye edges with graphite. Leave small paper highlights in both eyes.",
+    "adds": [
+      "restrained color and graphite value within established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved crop shows one broad, centered head contour with wide cheeks and low chin; two clean upper gaps give the learner exact ear attachment sites without a distracting face scaffold.",
+    "draw_through_observation": "I inspected all six saved JPG crops in order. The head anchors and both ears stay stable, the two muzzle pads establish the low face, the paired eyes and central nose follow, and broken coat markings plus four whiskers per side precede final shading. There are no temporary guides or unexplained structural removals.",
+    "contract_sha256": "4593c28e70b90da365a5496a5baf07ba5b91e69dae47e1570e189d39985b1170",
+    "asset_sha256": {
+      "assets/snow-leopard-face-step-1.jpg": "7aa992850398e725eb4a690c03846a9366868ab8bfdf00ce90902c2237115d83",
+      "assets/snow-leopard-face-step-2.jpg": "181e257344d498eada82f7e6781426ea6910541175a3346a3afb6a7a74efc8ef",
+      "assets/snow-leopard-face-step-3.jpg": "08983eb771a50aff3bc1bf0c57e7007bb21246daeed2dadcf8f20bca604f6fc8",
+      "assets/snow-leopard-face-step-4.jpg": "cd0bd252f9b313330b08dae3023bcb4c4d32f7b2a30d6fbc61a9bb79cc1f8016",
+      "assets/snow-leopard-face-step-5.jpg": "68713ebe8a31659fcce49c1d68c9df98dfb80224bf32d31b9063d21eadf2ce1b",
+      "assets/snow-leopard-face-finished-v1.jpg": "1e38b92d48e56fb89d451aeb92ff906c01db4b5d3bd3cfdcd9b0b9af35ef5ffb"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "head outline",
+          "left ear",
+          "right ear"
+        ],
+        "observed_addition": "The broad left and right cheek contour and low chin stay at their original anchors; a left ear and a right ear now join the two upper gaps, each with visible interior hatching.",
+        "instruction_match": "The second instruction attaches and hatches both ears; no head edge is erased or shifted.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "head outline",
+          "left ear",
+          "right ear",
+          "muzzle pads and chin"
+        ],
+        "observed_addition": "The same two ears and cheek contour persist; two separate rounded muzzle pads are added low inside the face and touch at the center above the original chin.",
+        "instruction_match": "The third instruction places the paired muzzle pads while retaining the already drawn chin.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "head outline",
+          "left ear",
+          "right ear",
+          "muzzle pads and chin",
+          "left eye",
+          "right eye",
+          "nose and mouth"
+        ],
+        "observed_addition": "Both ears, cheek contours and two muzzle pads remain fixed; a left almond eye, right almond eye, centered triangular nose and split mouth appear in the reserved face space.",
+        "instruction_match": "The fourth instruction names the two eye positions, nose and split mouth visible in this saved crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "head outline",
+          "left ear",
+          "right ear",
+          "muzzle pads and chin",
+          "left eye",
+          "right eye",
+          "nose and mouth",
+          "fur markings and whiskers"
+        ],
+        "observed_addition": "The left eye, right eye, nose, mouth, both muzzle pads and both ears remain; broken forehead and cheek markings, stronger ear hatching and four long whiskers on each side are added.",
+        "instruction_match": "The fifth instruction matches the loose spots and four whiskers on each side; the face landmarks do not move.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "head outline",
+          "left ear",
+          "right ear",
+          "muzzle pads and chin",
+          "left eye",
+          "right eye",
+          "nose and mouth",
+          "fur markings and whiskers"
+        ],
+        "observed_addition": "The same ear pair, two eyes, nose, mouth, two muzzle pads, broken markings and four whiskers on each side remain; cool gray and cream pencil shading fills the established coat and the existing edges gain fur texture.",
+        "instruction_match": "The final instruction shades established regions and deepens existing marks; no new structural part appears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
