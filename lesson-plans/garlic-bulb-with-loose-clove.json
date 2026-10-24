@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "garlic-bulb-with-loose-clove",
+  "finished": "assets/garlic-bulb-with-loose-clove-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The squat bulb outline and narrow upper neck give a clear final-position envelope with room for ribs and a separate loose clove to the right.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Approved third six-cell handmade pencil sheet; first sheet hid the bulb contour with the clove, second was retired after the root-count plan was simplified. Both rejected sheets remain private."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "bulb outline",
+      "introduced_by_step": 1,
+      "description": "One squat garlic bulb, broad at the base and tapering to the neck, at a fixed center-left position."
+    },
+    {
+      "name": "neck and center seam",
+      "introduced_by_step": 2,
+      "description": "A short papery neck and central curved lobe seam attached to the bulb."
+    },
+    {
+      "name": "side lobe seams",
+      "introduced_by_step": 3,
+      "description": "One curved seam on each side of the central lobe, stopping at the bulb base."
+    },
+    {
+      "name": "loose clove",
+      "introduced_by_step": 4,
+      "description": "One crescent clove resting to the lower right, separate from the bulb."
+    },
+    {
+      "name": "roots and shadow",
+      "introduced_by_step": 5,
+      "description": "A small tuft of short roots under the bulb and one broken ground shadow under both forms."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/garlic-bulb-with-loose-clove-step-1.jpg",
+      "step_name": "Shape the garlic bulb",
+      "visible_job": "Draw a squat bulb outline with a narrow opening at the top.",
+      "instruction": "Start near the upper center, curve out to a broad left shoulder and rounded base, then rise around the right shoulder. Leave a short opening for the neck.",
+      "adds": [
+        "bulb outline"
+      ],
+      "introduces": [
+        "bulb outline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/garlic-bulb-with-loose-clove-step-2.jpg",
+      "step_name": "Lift the papery neck",
+      "visible_job": "Join the top opening with a short neck and draw the central lobe seam.",
+      "instruction": "Join the two upper ends with a short jagged neck. Pull one curved center seam down from the neck to the low center of the bulb.",
+      "adds": [
+        "neck and center seam"
+      ],
+      "introduces": [
+        "neck and center seam"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/garlic-bulb-with-loose-clove-step-3.jpg",
+      "step_name": "Divide the outer cloves",
+      "visible_job": "Add a curved side seam on each side of the central lobe.",
+      "instruction": "Add one bowed seam from each side of the neck toward the bulb base. Keep both inside the original outline and the central lobe widest.",
+      "adds": [
+        "side lobe seams"
+      ],
+      "introduces": [
+        "side lobe seams"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/garlic-bulb-with-loose-clove-step-4.jpg",
+      "step_name": "Set one loose clove",
+      "visible_job": "Draw a separate tapered clove at the lower right.",
+      "instruction": "At the lower right, draw a small crescent clove with its pointed tip angled up and its blunt root end aimed toward the bulb. Leave a clear paper gap between them.",
+      "adds": [
+        "loose clove"
+      ],
+      "introduces": [
+        "loose clove"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/garlic-bulb-with-loose-clove-step-5.jpg",
+      "step_name": "Root the study",
+      "visible_job": "Add a small root tuft below the bulb and a broken ground shadow.",
+      "instruction": "Pull a small tuft of short root strokes from the bulb base. Add a broken pencil shadow under the bulb and separate clove without joining their outlines.",
+      "adds": [
+        "roots and shadow"
+      ],
+      "introduces": [
+        "roots and shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/garlic-bulb-with-loose-clove-finished-v1.jpg",
+    "step_name": "Shade the papery garlic",
+    "visible_job": "Shade the established bulb lobes, clove, roots, and shadow without new structural lines.",
+    "instruction": "Shade the established bulb and loose clove with soft graphite and a little warm ochre pencil. Preserve pale paper on their raised faces and deepen the existing shadow.",
+    "adds": [
+      "graphite and warm ochre shading"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved crop provides one squat rounded bulb envelope with two open top ends; its low base, widest shoulders, and empty center make the next lobe seams easy to place.",
+    "draw_through_observation": "All six saved crops were inspected in order. The left and right bulb shoulders, center seam, paired side seams, separate lower-right clove, root tuft and broken shadow remain at consistent anchors. The clove leaves a visible gap from the bulb; the final crop shades established contours only. No temporary guides or unexplained structural losses appear.",
+    "contract_sha256": "d93b585a05edea3287f01b688cda86e08eb12f60dd2538c266b9ec978b5e94de",
+    "asset_sha256": {
+      "assets/garlic-bulb-with-loose-clove-step-1.jpg": "d20a4cf21d1cc93b79e11b4e9782eff04e8692906d8ed6a1c0ea94b514ed742d",
+      "assets/garlic-bulb-with-loose-clove-step-2.jpg": "14d700a46db22e930317fd37d1f3ab4829685413bd15c30491ccb142edc98baf",
+      "assets/garlic-bulb-with-loose-clove-step-3.jpg": "fdf8963ec08e9795fb2e0e8a5a89725a195f7e070574642d9ae27e0316f7c295",
+      "assets/garlic-bulb-with-loose-clove-step-4.jpg": "b38863bd9770b16c05a7ec06d34233b2b8279900a6a3c7ee353d68cf6a22b4ee",
+      "assets/garlic-bulb-with-loose-clove-step-5.jpg": "8e829542f69045981fd874353a7cd92a4ef8c845caea79a673296988f19f5857",
+      "assets/garlic-bulb-with-loose-clove-finished-v1.jpg": "4a4810e9483d03b9e522bf530ce99b52aab48f1582c5714e61149ba417c00f5d"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "bulb outline",
+          "neck and center seam"
+        ],
+        "observed_addition": "The same squat bulb outline persists while a short jagged neck closes its top gap and one curved seam descends through the central lobe.",
+        "instruction_match": "The second instruction names the jagged neck and curved central seam visible in the crop; the outer shoulders and base remain.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "bulb outline",
+          "neck and center seam",
+          "side lobe seams"
+        ],
+        "observed_addition": "The outer bulb and central lobe remain; one bowed seam appears to the left and one to the right, both ending at the existing base.",
+        "instruction_match": "The third instruction teaches the two side seams shown, with the central lobe still broad and no contour removed.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "bulb outline",
+          "neck and center seam",
+          "side lobe seams",
+          "loose clove"
+        ],
+        "observed_addition": "The bulb outline, neck, and three visible lobe seams persist. One small crescent clove appears at lower right with a clear paper gap from the bulb.",
+        "instruction_match": "The fourth instruction places exactly one loose clove across a gap; its blunt root end points toward the established bulb without hiding its contour.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "bulb outline",
+          "neck and center seam",
+          "side lobe seams",
+          "loose clove",
+          "roots and shadow"
+        ],
+        "observed_addition": "The bulb, all lobe seams, and separate crescent clove persist. A short irregular root tuft emerges below the bulb and a broken graphite shadow sits beneath both forms.",
+        "instruction_match": "The fifth instruction adds the visible root tuft and broken shadow without joining or moving the two object outlines.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "bulb outline",
+          "neck and center seam",
+          "side lobe seams",
+          "loose clove",
+          "roots and shadow"
+        ],
+        "observed_addition": "The fixed bulb, neck, center and side seams, loose clove, root tuft, and broken shadow remain; soft graphite and warm ochre now model their established surfaces.",
+        "instruction_match": "The final instruction shades existing forms and deepens the same shadow; no new structural element appears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

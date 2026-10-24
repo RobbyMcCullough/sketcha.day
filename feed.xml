@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a garlic bulb with a loose clove</title>
+      <link>https://sketcha.day/tutorials/garlic-bulb-with-loose-clove.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/garlic-bulb-with-loose-clove.html</guid>
+      <pubDate>Sat, 24 Oct 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a garlic bulb with papery neck, curved clove seams, one loose clove, root tuft, and soft pencil shading.</description>
+      <media:content url="https://sketcha.day/assets/garlic-bulb-with-loose-clove-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a snow leopard face</title>
       <link>https://sketcha.day/tutorials/snow-leopard-face.html</link>

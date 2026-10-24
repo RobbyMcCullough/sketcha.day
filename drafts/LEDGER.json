@@ -258,6 +258,11 @@
       "date": "2026-05-08",
       "note": "Published from the reviewed July 24 six-panel pencil contact sheet as an honest archive lesson."
     },
+    "garlic-bulb-with-loose-clove": {
+      "status": "published",
+      "date": "2026-10-24",
+      "note": "Day 164; third six-crop sheet approved after overlap and root-count revisions; teaching 8.2, saved finish 8.2."
+    },
     "graceful-swan-on-water": {
       "status": "published",
       "date": "2026-07-22",
@@ -321,6 +326,11 @@
       "status": "published",
       "date": "2026-10-04",
       "note": "Current Day 150 lesson; saved six-crop review approved, all other readiness gates passed before this ledger transition."
+    },
+    "lace-up-hiking-boot": {
+      "status": "rejected-duplicate",
+      "date": "2026-10-24",
+      "note": "Rejected before art: rain-boot-with-puddle already teaches the boot silhouette and sole."
     },
     "leaping-bottlenose-dolphin": {
       "status": "published"
