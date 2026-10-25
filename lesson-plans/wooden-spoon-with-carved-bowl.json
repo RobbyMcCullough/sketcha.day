@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "wooden-spoon-with-carved-bowl",
+  "finished": "assets/wooden-spoon-with-carved-bowl-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One broad open bowl outline fixes the scale, tilt, and attachment gap for the handle; a beginner can copy it before adding any detail.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Contact sheet pending visual review."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "spoon bowl",
+      "introduced_by_step": 1,
+      "description": "Draw a wide tilted oval bowl at the upper left, leaving a narrow gap at its lower-right edge for the handle."
+    },
+    {
+      "name": "spoon handle",
+      "introduced_by_step": 2,
+      "description": "From the two open bowl ends, draw two gently converging lines toward the lower right and round their tip."
+    },
+    {
+      "name": "inner bowl",
+      "introduced_by_step": 3,
+      "description": "Inside the bowl, echo its oval with a shallow inner curve, keeping the rim narrowest where the handle joins."
+    },
+    {
+      "name": "wood grain",
+      "introduced_by_step": 4,
+      "description": "Add three short curved grain lines along the handle and two small crescent marks inside the bowl."
+    },
+    {
+      "name": "cast shadow",
+      "introduced_by_step": 5,
+      "description": "Put a broken cast shadow just below the bowl and handle, leaving white paper between shadow and outer contour."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/wooden-spoon-with-carved-bowl-step-1.jpg",
+      "step_name": "Outline the spoon bowl",
+      "visible_job": "Draw a wide tilted oval bowl at the upper left, leaving a narrow gap at its lower-right edge for the handle.",
+      "instruction": "Draw a wide tilted oval bowl at the upper left, leaving a narrow gap at its lower-right edge for the handle.",
+      "adds": [
+        "spoon bowl"
+      ],
+      "introduces": [
+        "spoon bowl"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/wooden-spoon-with-carved-bowl-step-2.jpg",
+      "step_name": "Pull the long handle",
+      "visible_job": "From the two open bowl ends, draw two gently converging lines toward the lower right and round their tip.",
+      "instruction": "From the two open bowl ends, draw two gently converging lines toward the lower right and round their tip.",
+      "adds": [
+        "spoon handle"
+      ],
+      "introduces": [
+        "spoon handle"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/wooden-spoon-with-carved-bowl-step-3.jpg",
+      "step_name": "Carve the inner rim",
+      "visible_job": "Inside the bowl, echo its oval with a shallow inner curve, keeping the rim narrowest where the handle joins.",
+      "instruction": "Inside the bowl, echo its oval with a shallow inner curve, keeping the rim narrowest where the handle joins.",
+      "adds": [
+        "inner bowl"
+      ],
+      "introduces": [
+        "inner bowl"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/wooden-spoon-with-carved-bowl-step-4.jpg",
+      "step_name": "Mark the wood grain",
+      "visible_job": "Add three short curved grain lines along the handle and two small crescent marks inside the bowl.",
+      "instruction": "Add three short curved grain lines along the handle and two small crescent marks inside the bowl.",
+      "adds": [
+        "wood grain"
+      ],
+      "introduces": [
+        "wood grain"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/wooden-spoon-with-carved-bowl-step-5.jpg",
+      "step_name": "Ground the spoon",
+      "visible_job": "Put a broken cast shadow just below the bowl and handle, leaving white paper between shadow and outer contour.",
+      "instruction": "Put a broken cast shadow just below the bowl and handle, leaving white paper between shadow and outer contour.",
+      "adds": [
+        "cast shadow"
+      ],
+      "introduces": [
+        "cast shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/wooden-spoon-with-carved-bowl-finished-v1.jpg",
+    "step_name": "Shade the carved wood",
+    "visible_job": "Shade established bowl, handle, grain and shadow with warm brown colored pencil and graphite.",
+    "instruction": "Layer warm brown pencil along the established bowl and handle, leaving a pale highlight in the bowl; deepen the existing ground shadow with soft graphite.",
+    "adds": [
+      "restrained shading"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The first saved crop has one tilted open bowl oval at upper left, with its lower-right gap reserved for a handle; it is simple to copy and fixes the final scale.",
+    "draw_through_observation": "All six saved crops were inspected in sequence. The same tilted bowl, lower-right joint, long tapered handle, inner rim, five small grain marks and broken shadow stay in place. No temporary guides or unexplained structural disappearance appears; final adds warm pencil shading to established contours only.",
+    "contract_sha256": "cb2844ea48b20f1415bafa5717ca040b11b72da4d05931120a0949e9c563ecb1",
+    "asset_sha256": {
+      "assets/wooden-spoon-with-carved-bowl-step-1.jpg": "db81b4281417e10897b37c37d0470e1e19302386aa568e70675178ce66efff5e",
+      "assets/wooden-spoon-with-carved-bowl-step-2.jpg": "727085d238718aeaea045e07436669d8de00061481a412d2d930594141542f8c",
+      "assets/wooden-spoon-with-carved-bowl-step-3.jpg": "88bd50043933b3e79f943d37bafa6955ccd8a94ced7704de20d4f783f9065f54",
+      "assets/wooden-spoon-with-carved-bowl-step-4.jpg": "0ca02d8e465e31cd9c2a47846ee7d4e9e0d6ee315f0b40824b24fddb67ae7b4d",
+      "assets/wooden-spoon-with-carved-bowl-step-5.jpg": "59fbb7c207b3bbf4a42b392aa62c6ed2a96f7beca403a81fae47d6e0f936caa2",
+      "assets/wooden-spoon-with-carved-bowl-finished-v1.jpg": "839f2c0e4718b4ca49870264e5eda12c118e6528ae77529cdf999ab667e5e757"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "spoon bowl",
+          "spoon handle"
+        ],
+        "observed_addition": "The original open bowl oval stays fixed while two handle edges extend diagonally down-right to one rounded tip.",
+        "instruction_match": "The second instruction describes both lines beginning at the original bowl gap.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "spoon bowl",
+          "spoon handle",
+          "inner bowl"
+        ],
+        "observed_addition": "The fixed bowl and long handle remain; one inner bowl curve appears just inside the outer oval.",
+        "instruction_match": "The third instruction explains the shallow recessed rim visible in the crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "spoon bowl",
+          "spoon handle",
+          "inner bowl",
+          "wood grain"
+        ],
+        "observed_addition": "The inner rim stays; three short grain curves appear along the handle and two crescent marks in the bowl.",
+        "instruction_match": "The fourth instruction names the exact handle and bowl grain marks.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "spoon bowl",
+          "spoon handle",
+          "inner bowl",
+          "wood grain",
+          "cast shadow"
+        ],
+        "observed_addition": "All five grain marks persist and a broken graphite shadow appears below the spoon, with paper between contour and shadow.",
+        "instruction_match": "The fifth instruction teaches the shadow placement shown in the crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "spoon bowl",
+          "spoon handle",
+          "inner bowl",
+          "wood grain",
+          "cast shadow"
+        ],
+        "observed_addition": "The bowl, handle, grain and shadow retain their anchors; warm brown pencil fills the wood and graphite deepens the existing shadow.",
+        "instruction_match": "The final instruction shades established shapes and preserves the pale bowl highlight.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

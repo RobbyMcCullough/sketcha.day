@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a carved wooden spoon</title>
+      <link>https://sketcha.day/tutorials/wooden-spoon-with-carved-bowl.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/wooden-spoon-with-carved-bowl.html</guid>
+      <pubDate>Sun, 25 Oct 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a carved wooden spoon with an oval bowl, slender handle, wood grain, cast shadow, and warm pencil shading.</description>
+      <media:content url="https://sketcha.day/assets/wooden-spoon-with-carved-bowl-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a garlic bulb with a loose clove</title>
       <link>https://sketcha.day/tutorials/garlic-bulb-with-loose-clove.html</link>
