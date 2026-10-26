@@ -1873,3 +1873,8 @@
 
 - Added Sketcha Day 157, `folding-camp-stool`, for October 17 from one approved five-panel graphite contact sheet. The saved crops retain the sagging canvas seat, two crossed wooden legs and feet, center pivot, and two stitched seams; the broken ground line is deliberately softened into the finished shadow.
 - Reviewed the full sheet and every saved adjacent pair, including finish: teaching 8.2/10, saved finish 8.2/10, no guides or unexplained moves. Schema-v5 hashes and readiness passed; fallback localhost home, library, and tutorial QA passed at 1440×1000 and 390×844 with loaded images, valid JSON-LD, and no horizontal overflow. One-current-lesson-per-site cadence remains active, with no routine backfill. Harness: Codex; task: 2026-10-17 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
+## 2026-10-26 — Current open-book lesson (Codex)
+
+- Added Day 166, `open-book-with-pressed-leaf`, for October 26. Five reviewed saved raster crops retain both pages, center gutter, page stack, one five-lobed leaf, stem, fine veins, and shadow. A first sheet was rejected privately because veins appeared too early.
+- Teaching 8.1/10; saved finish 8.1/10 for a readable handmade pencil study with restrained autumn color. Schema-v5 review hashes and readiness passed. Fallback localhost home, library, and tutorial desktop/mobile QA passed. Current-only one-lesson-per-site cadence remains active, with no routine backfill. Harness: Codex; task: 2026-10-26 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.

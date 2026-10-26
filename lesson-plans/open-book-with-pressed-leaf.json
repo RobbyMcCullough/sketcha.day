@@ -1,0 +1,206 @@
+{
+  "schema_version": 5,
+  "slug": "open-book-with-pressed-leaf",
+  "finished": "assets/open-book-with-pressed-leaf-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "Two page outlines meeting at one central gutter fix the book's width and perspective before small details.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Five-panel second generated contact sheet approved after first sheet was rejected for an early leaf-vein step. Raw approved sheet and rejected sheet retained privately."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "left page",
+      "introduced_by_step": 1,
+      "description": "Left open page fans from center gutter to a low outer corner."
+    },
+    {
+      "name": "right page",
+      "introduced_by_step": 1,
+      "description": "Right open page mirrors the left with a slightly lifted outer corner."
+    },
+    {
+      "name": "page thickness",
+      "introduced_by_step": 2,
+      "description": "Two short lower edges and a lightly curved bottom stack show paper thickness."
+    },
+    {
+      "name": "pressed leaf",
+      "introduced_by_step": 3,
+      "description": "One five-lobed maple leaf lies diagonally on the right page, attached to a short stem."
+    },
+    {
+      "name": "leaf veins",
+      "introduced_by_step": 3,
+      "description": "One midrib and four side veins stay inside the fixed leaf outline."
+    },
+    {
+      "name": "page details",
+      "introduced_by_step": 4,
+      "description": "A few faint parallel page lines and a small broken cast shadow stay subordinate to the leaf."
+    },
+    {
+      "name": "fine leaf branches",
+      "introduced_by_step": 4,
+      "description": "A few delicate vein branches inside the fixed five-lobed leaf."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/open-book-with-pressed-leaf-step-1.jpg",
+      "step_name": "Open the book",
+      "visible_job": "Draw two broad page outlines joining at the same center gutter.",
+      "instruction": "Mark a low center gutter, sweep one page outline left and one right, then bring both lower edges back to the gutter. Keep the right page slightly lifted.",
+      "adds": [
+        "left page",
+        "right page"
+      ],
+      "introduces": [
+        "left page",
+        "right page"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/open-book-with-pressed-leaf-step-2.jpg",
+      "step_name": "Give the pages thickness",
+      "visible_job": "Add the visible lower page stack without moving the upper page edges.",
+      "instruction": "Under each lower page edge, draw a short parallel curve and connect its outside tip to the page above; keep the central gutter in place.",
+      "adds": [
+        "page thickness"
+      ],
+      "introduces": [
+        "page thickness"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/open-book-with-pressed-leaf-step-3.jpg",
+      "step_name": "Lay down the leaf",
+      "visible_job": "Place one five-lobed maple leaf and its veins on the right page.",
+      "instruction": "On the right page, draw one gently tilted five-lobed maple leaf, its stem toward the lower gutter, then add a central midrib and four light side veins. Leave clear paper between leaf tips and page edges.",
+      "adds": [
+        "pressed leaf",
+        "leaf veins"
+      ],
+      "introduces": [
+        "pressed leaf",
+        "leaf veins"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/open-book-with-pressed-leaf-step-4.jpg",
+      "step_name": "Suggest pages and ground",
+      "visible_job": "Add two left-page lines, fine leaf branches, and a broken shadow beneath the book.",
+      "instruction": "Add two short, faint parallel lines on the open left page, a few fine vein branches within the leaf, and a broken horizontal shadow beneath the page stack. Keep all five leaf lobes visible.",
+      "adds": [
+        "page details",
+        "fine leaf branches"
+      ],
+      "introduces": [
+        "page details",
+        "fine leaf branches"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/open-book-with-pressed-leaf-finished-v1.jpg",
+    "step_name": "Shade the pressed leaf",
+    "visible_job": "Shade established page folds, leaf and ground without adding structure.",
+    "instruction": "Glaze the existing leaf with muted russet and ochre pencil, deepen the gutter and ground shadow with soft graphite, and keep the page faces mostly white.",
+    "adds": [
+      "restrained shading"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved crop contains only two broad page faces joined at a low center gutter; its simple outline fixes width and page placement for a beginner.",
+    "draw_through_observation": "All five saved crops were read in order. Left and right page corners, central gutter, lower stack, single five-lobed leaf and stem keep their anchors. No temporary guides appear; the finish colors and shades contours already taught.",
+    "contract_sha256": "16998b612a4fddaf680a6fdd2e1c4e53c9758a799a82f2bc05d7d042990c728c",
+    "asset_sha256": {
+      "assets/open-book-with-pressed-leaf-step-1.jpg": "d9d77b0fb349206f8e05b821af64bfb1319bd3df70062c952db0066e0ccf3e9f",
+      "assets/open-book-with-pressed-leaf-step-2.jpg": "1b503843166330f0f40bbd0b2ebde3e19543f01aac42d2ea22c47b4c5c61a885",
+      "assets/open-book-with-pressed-leaf-step-3.jpg": "bfe5650fc0d7f4881c5b3634f5dbed2fc3fec6c04d30a57e323c2942e6dd0061",
+      "assets/open-book-with-pressed-leaf-step-4.jpg": "9f36e84e148b3d3455e1f2b4810ed8be5b5f360d217be0910d7bf626bb3b657a",
+      "assets/open-book-with-pressed-leaf-finished-v1.jpg": "667de9697bf0bcfce8df0f88155b86c07b1c2c3ab9a6117e833e61d4c746c9af"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "left page",
+          "right page",
+          "page thickness"
+        ],
+        "observed_addition": "The two page faces and central gutter stay fixed; thin lower stack curves appear below both original lower edges.",
+        "instruction_match": "The second instruction describes parallel lower edges, matching the new stack without redrawing the page faces.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "left page",
+          "right page",
+          "page thickness",
+          "pressed leaf",
+          "leaf veins"
+        ],
+        "observed_addition": "Both page faces and the lower stack persist; one five-lobed leaf and its stem appear on the right page, with a midrib and four major vein paths.",
+        "instruction_match": "The third instruction places the whole leaf and its major veins within the existing right page.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "left page",
+          "right page",
+          "page thickness",
+          "pressed leaf",
+          "leaf veins",
+          "page details",
+          "fine leaf branches"
+        ],
+        "observed_addition": "The book and five leaf lobes remain; two short lines appear on the left page, fine vein branches appear inside the leaf, and a broken shadow appears below the stack.",
+        "instruction_match": "The fourth instruction names the left-page lines, subtle internal veins, and ground shadow visible in this crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "left page",
+          "right page",
+          "page thickness",
+          "pressed leaf",
+          "leaf veins",
+          "page details",
+          "fine leaf branches"
+        ],
+        "observed_addition": "The page corners, gutter, stack, two left-page lines, five-lobed leaf, stem and existing shadow remain; russet and ochre fill the leaf while graphite deepens the fold and ground.",
+        "instruction_match": "The final instruction calls for color and shading on established geometry; no new structural contour appears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
