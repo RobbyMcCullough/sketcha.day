@@ -1,0 +1,195 @@
+{
+  "schema_version": 5,
+  "slug": "pocket-watch-with-open-lid",
+  "finished": "assets/pocket-watch-with-open-lid-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One large round case and small left hinge tab fix scale and leave blank space for its attached open lid.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First generated five-cell graphite contact sheet approved; cropped with 25-pixel trim to exclude generator grid lines. Raw sheet retained privately."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "watch case",
+      "introduced_by_step": 1,
+      "description": "One round metal watch case centered slightly right, with a small left hinge tab."
+    },
+    {
+      "name": "open lid",
+      "introduced_by_step": 2,
+      "description": "One tilted oval lid attached at the case left hinge, without crossing the case outline."
+    },
+    {
+      "name": "dial ring",
+      "introduced_by_step": 3,
+      "description": "One smaller concentric dial ring inside the case."
+    },
+    {
+      "name": "watch hands",
+      "introduced_by_step": 3,
+      "description": "Two different-length hands meeting at the dial center."
+    },
+    {
+      "name": "top winding knob",
+      "introduced_by_step": 4,
+      "description": "One small ridged winding knob attached at twelve o\u2019clock."
+    },
+    {
+      "name": "dial ticks and shadow",
+      "introduced_by_step": 4,
+      "description": "Sparse hour ticks within the ring and a short broken shadow beneath case and lid."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/pocket-watch-with-open-lid-step-1.jpg",
+      "step_name": "Draw the watch case",
+      "visible_job": "Draw the round case and small left hinge tab.",
+      "instruction": "Draw one broad round case slightly right of page center and a small hinge tab on its left edge. Leave blank paper to the left for the lid.",
+      "adds": [
+        "watch case"
+      ],
+      "introduces": [
+        "watch case"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/pocket-watch-with-open-lid-step-2.jpg",
+      "step_name": "Swing open the lid",
+      "visible_job": "From the left hinge gap, draw one tilted oval lid to the left and a narrow inner rim; keep the original watch case in place.",
+      "instruction": "From the left hinge gap, draw one tilted oval lid to the left and a narrow inner rim; keep the original watch case in place.",
+      "adds": [
+        "open lid"
+      ],
+      "introduces": [
+        "open lid"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/pocket-watch-with-open-lid-step-3.jpg",
+      "step_name": "Set the clock face",
+      "visible_job": "Inside the case, add a smaller round dial ring. From its center, draw one short hand toward two o\u2019clock and one longer hand toward ten o\u2019clock.",
+      "instruction": "Inside the case, add a smaller round dial ring. From its center, draw one short hand toward two o\u2019clock and one longer hand toward ten o\u2019clock.",
+      "adds": [
+        "dial ring",
+        "watch hands"
+      ],
+      "introduces": [
+        "dial ring",
+        "watch hands"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/pocket-watch-with-open-lid-step-4.jpg",
+      "step_name": "Add the winding details",
+      "visible_job": "At the case top, attach a short ridged winding knob. Mark a few short hour ticks inside the dial and put broken shadow strokes below case and lid.",
+      "instruction": "At the case top, attach a short ridged winding knob. Mark a few short hour ticks inside the dial and put broken shadow strokes below case and lid.",
+      "adds": [
+        "top winding knob",
+        "dial ticks and shadow"
+      ],
+      "introduces": [
+        "top winding knob",
+        "dial ticks and shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/pocket-watch-with-open-lid-finished-v1.jpg",
+    "step_name": "Shade the old watch",
+    "visible_job": "Shade the existing case, open lid, dial, knob and ground with warm graphite; add no new structure.",
+    "instruction": "Darken the established case and lid rims with 2B pencil, shade one side of the existing dial and knob, and soften the broken ground shadow. Leave a small paper highlight on the metal.",
+    "adds": [
+      "restrained graphite shading"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved crop contains a round case and small left hinge tab, with blank paper for the lid; a beginner can set scale from this one form.",
+    "draw_through_observation": "All five saved crops show one case at the same scale. The left lid remains hinged, dial ring and both hands stay centered, the knob and ticks appear before finish, and shading adds no contour. No temporary guides appear.",
+    "contract_sha256": "fcd9f152170d54b47e58f95a9e871c2d188b1aa43f8ca689b741eb2a75196e69",
+    "asset_sha256": {
+      "assets/pocket-watch-with-open-lid-step-1.jpg": "5231d47fb1664e86093ea6c4c81296237b27db5d2478158607f6bba25378c826",
+      "assets/pocket-watch-with-open-lid-step-2.jpg": "6ca864e567116f87f491a7dca8961822c4f394697988f126d5cb374ac46bce00",
+      "assets/pocket-watch-with-open-lid-step-3.jpg": "7b01267e66e1629da4b455dad1ae384b67abebd08089e492c3ac009c172f7ce5",
+      "assets/pocket-watch-with-open-lid-step-4.jpg": "9645b599e42dea78c79376bea40eb0c259e170f529237c224d1564925a25b40e",
+      "assets/pocket-watch-with-open-lid-finished-v1.jpg": "09f3a271f5fe9ebeb31675e33cf8c053b3eb57001adcc48b4ea0f381e610ca36"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "watch case",
+          "open lid"
+        ],
+        "observed_addition": "The round case and left hinge tab stay fixed; one tilted oval lid with an inner rim attaches at the tab.",
+        "instruction_match": "The lid instruction follows the visible hinge and introduces only the left oval.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "watch case",
+          "open lid",
+          "dial ring",
+          "watch hands"
+        ],
+        "observed_addition": "The case, hinge, lid and its inner rim persist; one concentric dial ring and two unequal hands appear inside the case.",
+        "instruction_match": "The dial instruction matches the two hands meeting at the dial center.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "watch case",
+          "open lid",
+          "dial ring",
+          "watch hands",
+          "top winding knob",
+          "dial ticks and shadow"
+        ],
+        "observed_addition": "The left lid, case, dial ring and both hands persist; a ridged knob appears at top, sparse hour ticks enter the ring and a broken shadow appears below.",
+        "instruction_match": "The winding-detail instruction names the knob, ticks and broken ground marks shown.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "watch case",
+          "open lid",
+          "dial ring",
+          "watch hands",
+          "top winding knob",
+          "dial ticks and shadow"
+        ],
+        "observed_addition": "The same lid, case, dial, two hands, knob, ticks and shadow persist; graphite deepens the lid interior, case rim and ground.",
+        "instruction_match": "The final instruction shades established forms and does not call for a new structure.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

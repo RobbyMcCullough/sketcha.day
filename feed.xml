@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a pocket watch with an open lid</title>
+      <link>https://sketcha.day/tutorials/pocket-watch-with-open-lid.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/pocket-watch-with-open-lid.html</guid>
+      <pubDate>Tue, 27 Oct 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw an open pocket watch with a hinged lid, round dial, two clock hands, winding knob, and soft graphite shading.</description>
+      <media:content url="https://sketcha.day/assets/pocket-watch-with-open-lid-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw an open book with a pressed leaf</title>
       <link>https://sketcha.day/tutorials/open-book-with-pressed-leaf.html</link>
