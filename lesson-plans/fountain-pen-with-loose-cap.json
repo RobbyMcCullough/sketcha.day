@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "fountain-pen-with-loose-cap",
+  "finished": "assets/fountain-pen-with-loose-cap-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A single long tapered barrel fixes the diagonal direction and leaves a clear open attachment for the nib.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First sheet rejected for duplicated late steps; second six-panel graphite sheet selected for saved-crop review."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "pen barrel",
+      "introduced_by_step": 1,
+      "description": "Long diagonal tapered barrel running upper left to lower right, with clear lower nib attachment."
+    },
+    {
+      "name": "nib and slit",
+      "introduced_by_step": 2,
+      "description": "One pointed metal nib attached to barrel lower right, with center slit."
+    },
+    {
+      "name": "loose cap",
+      "introduced_by_step": 3,
+      "description": "One separate tapered cap lying parallel to left of pen, with opening rim."
+    },
+    {
+      "name": "cap clip",
+      "introduced_by_step": 4,
+      "description": "One short curved clip attached along cap outer side."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "One broken shadow below pen and cap."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/fountain-pen-with-loose-cap-step-1.jpg",
+      "step_name": "Place the pen barrel",
+      "visible_job": "Draw one long slightly tapered pen barrel diagonally from upper left toward lower right, leaving its lower end open for the nib.",
+      "instruction": "Draw one long slightly tapered pen barrel diagonally from upper left toward lower right, leaving its lower end ready for the nib.",
+      "adds": [
+        "pen barrel"
+      ],
+      "introduces": [
+        "pen barrel"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/fountain-pen-with-loose-cap-step-2.jpg",
+      "step_name": "Attach the nib",
+      "visible_job": "From the two open barrel edges, taper a pointed metal nib toward the lower right and draw one short slit down its center.",
+      "instruction": "From the lower barrel end, taper a pointed metal nib toward the lower right and draw one short slit down its center.",
+      "adds": [
+        "nib and slit"
+      ],
+      "introduces": [
+        "nib and slit"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/fountain-pen-with-loose-cap-step-3.jpg",
+      "step_name": "Set down the cap",
+      "visible_job": "To the left of the pen, draw a separate narrow cap parallel to the barrel; close its upper tip and add a small oval opening at its lower end.",
+      "instruction": "To the left of the pen, draw a separate narrow cap parallel to the barrel; close its upper tip and add a small oval opening at its lower end.",
+      "adds": [
+        "loose cap"
+      ],
+      "introduces": [
+        "loose cap"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/fountain-pen-with-loose-cap-step-4.jpg",
+      "step_name": "Attach the cap clip",
+      "visible_job": "Attach one curved clip to the cap side while keeping both objects in place.",
+      "instruction": "From the cap upper band, pull one slender curved clip down its outer side and round its end; leave the pen and nib untouched.",
+      "adds": [
+        "cap clip"
+      ],
+      "introduces": [
+        "cap clip"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/fountain-pen-with-loose-cap-step-5.jpg",
+      "step_name": "Ground the pen and cap",
+      "visible_job": "Add a broken cast shadow below the existing pen and cap.",
+      "instruction": "With the side of the pencil, add a broken cast shadow below both objects, darkest near the cap opening and nib. Keep the pen, cap and clip unchanged.",
+      "adds": [
+        "ground shadow"
+      ],
+      "introduces": [
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/fountain-pen-with-loose-cap-finished-v1.jpg",
+    "step_name": "Shade the fountain pen",
+    "visible_job": "Shade the existing barrel, nib, cap and ground; add no structural contours.",
+    "instruction": "Deepen the established barrel and cap edges with 2B pencil, shade one side of the nib and soften the existing ground shadow. Leave small paper highlights.",
+    "adds": [
+      "restrained graphite shading"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.2,
+    "first_step_observation": "Saved crop 1 fixes a long diagonal pen body with a lower grip and open paper to its left; the end ring gives a clear nib attachment.",
+    "draw_through_observation": "The six saved square crops retain the barrel diagonal and the nib tip. The separate cap appears parallel in crop 3, its curved clip appears in crop 4, the broken shadow appears in crop 5, and final graphite shade adds no structural contour. No temporary guides occur.",
+    "contract_sha256": "4e8f44793f12164bb02852f455be71aebb05c3b9224cc349a92ccf74e977723d",
+    "asset_sha256": {
+      "assets/fountain-pen-with-loose-cap-step-1.jpg": "c83ba6a61591663eb5c8ccc2ca302b3724b7f2370ca11fd2d1c62f5ba723e845",
+      "assets/fountain-pen-with-loose-cap-step-2.jpg": "6e74b258eccea1be258e04f2c5040f3eab6b2d3c62b54272075dbe46e0316335",
+      "assets/fountain-pen-with-loose-cap-step-3.jpg": "b61f4369801a9ed34085b005a8ecc95f8ea7e92893a7d7f2013bf014702173fb",
+      "assets/fountain-pen-with-loose-cap-step-4.jpg": "c5a9ce41f97b8514ce13f335efeabc6c4c9b1114843124a68fa21a27c3359fcc",
+      "assets/fountain-pen-with-loose-cap-step-5.jpg": "9f8d0d5638861d1f2b17512ae80b5f27d6c39ee3824350b16cf3b0ee0656d5c5",
+      "assets/fountain-pen-with-loose-cap-finished-v1.jpg": "6ab07df6031eb05349781ed003f79c2488442353882ca8981e0525fa2d331f3e"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "pen barrel",
+          "nib and slit"
+        ],
+        "observed_addition": "The pen barrel and lower grip stay at the same diagonal; a pointed nib with central slit joins the lower end.",
+        "instruction_match": "The nib instruction follows the existing end ring.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "pen barrel",
+          "nib and slit",
+          "loose cap"
+        ],
+        "observed_addition": "The pen and nib remain; a separate cap appears to the left, parallel to the barrel, with an oval lower opening.",
+        "instruction_match": "The cap instruction matches the left parallel loose object.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "pen barrel",
+          "nib and slit",
+          "loose cap",
+          "cap clip"
+        ],
+        "observed_addition": "The pen, nib and cap stay fixed; a long curved clip attaches at the cap upper band and runs down its side.",
+        "instruction_match": "The clip instruction follows its visible cap attachment.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "pen barrel",
+          "nib and slit",
+          "loose cap",
+          "cap clip",
+          "ground shadow"
+        ],
+        "observed_addition": "The barrel, pointed nib, cap and clip remain; a broken soft shadow now grounds both objects.",
+        "instruction_match": "The shadow instruction describes the new pencil strokes below both objects.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "pen barrel",
+          "nib and slit",
+          "loose cap",
+          "cap clip",
+          "ground shadow"
+        ],
+        "observed_addition": "All five landmarks remain in place; dark graphite shading develops the barrel and cap with paper highlights, and strengthens the existing shadow.",
+        "instruction_match": "The finish instruction only deepens existing shapes and shadow.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
