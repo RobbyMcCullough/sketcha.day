@@ -1,0 +1,225 @@
+{
+  "schema_version": 5,
+  "slug": "paper-lantern-hanging-from-branch",
+  "finished": "assets/paper-lantern-hanging-from-branch-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One bowed branch fixes the top anchor and leaves clear paper below for the hanging lantern.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First raster sheet rejected for lantern position shift when tassel appeared; second sheet approved and cropped into six saved states."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "branch",
+      "introduced_by_step": 1,
+      "description": "One short branch entering from upper left and bending toward upper center."
+    },
+    {
+      "name": "hanging cord",
+      "introduced_by_step": 2,
+      "description": "One short vertical cord dropping from the branch tip to the lantern top."
+    },
+    {
+      "name": "lantern body",
+      "introduced_by_step": 2,
+      "description": "One rounded oval paper lantern centered below the cord, with top and bottom rims."
+    },
+    {
+      "name": "paper ribs",
+      "introduced_by_step": 3,
+      "description": "Four gently bowed vertical ribs spanning between the two rims."
+    },
+    {
+      "name": "tassel",
+      "introduced_by_step": 4,
+      "description": "One narrow tassel attached below the bottom rim with three separate strands."
+    },
+    {
+      "name": "two leaves",
+      "introduced_by_step": 5,
+      "description": "Two small leaves growing from the branch left of the cord."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/paper-lantern-hanging-from-branch-step-1.jpg",
+      "step_name": "Set the branch",
+      "visible_job": "Draw a bowed branch from the upper left toward the upper center.",
+      "instruction": "Pull a slightly bowed branch from the upper left toward the page center, stopping above the open space for the lantern.",
+      "adds": [
+        "branch"
+      ],
+      "introduces": [
+        "branch"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/paper-lantern-hanging-from-branch-step-2.jpg",
+      "step_name": "Hang the lantern",
+      "visible_job": "Drop a short cord from the branch and attach a rounded lantern body with top and bottom rims.",
+      "instruction": "From the branch tip, drop a short vertical cord. Place a small top rim below it, bow both sides out into a round lantern and meet a smaller bottom rim.",
+      "adds": [
+        "hanging cord",
+        "lantern body"
+      ],
+      "introduces": [
+        "hanging cord",
+        "lantern body"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/paper-lantern-hanging-from-branch-step-3.jpg",
+      "step_name": "Curve the paper ribs",
+      "visible_job": "Add four curved ribs between the existing top and bottom rims.",
+      "instruction": "Run four light curved ribs from the top rim down to the bottom rim, spacing them across the rounded body.",
+      "adds": [
+        "paper ribs"
+      ],
+      "introduces": [
+        "paper ribs"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/paper-lantern-hanging-from-branch-step-4.jpg",
+      "step_name": "Add the tassel",
+      "visible_job": "Attach a slim tassel with three strands beneath the bottom rim.",
+      "instruction": "From the lower rim, draw a short knot and three hanging strands that taper at different lengths.",
+      "adds": [
+        "tassel"
+      ],
+      "introduces": [
+        "tassel"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/paper-lantern-hanging-from-branch-step-5.jpg",
+      "step_name": "Leaf the branch",
+      "visible_job": "Add two leaves on the left branch without shifting the lantern.",
+      "instruction": "Attach two small pointed leaves to the branch left of the hanging cord; keep their stems short and their tips facing outward.",
+      "adds": [
+        "two leaves"
+      ],
+      "introduces": [
+        "two leaves"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/paper-lantern-hanging-from-branch-finished-v1.jpg",
+    "step_name": "Shade the lantern",
+    "visible_job": "Shade the existing paper ribs, branch, leaves and tassel without new contours.",
+    "instruction": "Use soft graphite across the existing lantern ribs, deepen the branch underside and tassel, and leave a pale central paper glow.",
+    "adds": [
+      "restrained graphite shading"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.1,
+    "first_step_observation": "Saved crop 1 contains only a forked branch high across the page; its right tip leaves a clear vertical hanging point and open lower-right paper.",
+    "draw_through_observation": "Six saved square crops keep the branch tip, cord, round lantern rims, four interior ribs, tassel knot and three strands at stable anchors. The two leaves are added only in crop 5. Final graphite develops existing surfaces without a new contour; no temporary guides occur.",
+    "contract_sha256": "92e28878787c9fb273a13e924f34d7d7e92c6f20ed7942bbb37e54e126537467",
+    "asset_sha256": {
+      "assets/paper-lantern-hanging-from-branch-step-1.jpg": "b36ce71ae4095b79411371ac7173c4bf161fcf771b0c0c680f2cc886e3924291",
+      "assets/paper-lantern-hanging-from-branch-step-2.jpg": "800971f16f23b19cdf7bcba54bb298d0b58deaf3be880ef948f69cc7374edada",
+      "assets/paper-lantern-hanging-from-branch-step-3.jpg": "877fe024208fe191ed550c0388e031dff81f585a853c6acf8c02eb9e2606c9db",
+      "assets/paper-lantern-hanging-from-branch-step-4.jpg": "9443dfc363cee7b8cede2a27d682533859e0582f02fba5a45bb05b375875451b",
+      "assets/paper-lantern-hanging-from-branch-step-5.jpg": "7751c6b5a5ef9b5a3fab59e95fbe0a5b9fab4f9f1c4c6379a216576839ff3f8d",
+      "assets/paper-lantern-hanging-from-branch-finished-v1.jpg": "87df1e2ada6b1f188d9f996b383779c092243170ddd5135c21b71c14c5fb8efb"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "branch",
+          "hanging cord",
+          "lantern body"
+        ],
+        "observed_addition": "The forked branch stays high and fixed; a short cord drops from its right tip to a top rim, and a round body meets the bottom rim.",
+        "instruction_match": "The hanging instruction matches the new cord and large empty lantern body.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "branch",
+          "hanging cord",
+          "lantern body",
+          "paper ribs"
+        ],
+        "observed_addition": "Branch, cord and both rims remain; four interior curved ribs are newly drawn between those rims.",
+        "instruction_match": "The four-rib instruction matches the visible addition.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "branch",
+          "hanging cord",
+          "lantern body",
+          "paper ribs",
+          "tassel"
+        ],
+        "observed_addition": "The branch, cord, body and four ribs remain in place; a small knot and three strands extend below the bottom rim.",
+        "instruction_match": "The tassel instruction uses the reserved space below the lantern.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "branch",
+          "hanging cord",
+          "lantern body",
+          "paper ribs",
+          "tassel",
+          "two leaves"
+        ],
+        "observed_addition": "The lantern, four ribs, cord and three tassel strands remain; one leaf rises above and another hangs below the branch left of the cord.",
+        "instruction_match": "The leaf instruction matches both visible leaves and their attachment.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "branch",
+          "hanging cord",
+          "lantern body",
+          "paper ribs",
+          "tassel",
+          "two leaves"
+        ],
+        "observed_addition": "All branch, cord, rim, rib, leaf and tassel contours remain; textured graphite darkens the branch and lantern sides and shades both leaves and three strands.",
+        "instruction_match": "The finish instruction only shades already established forms.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
