@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "curled-feather-on-paper",
+  "finished": "assets/curled-feather-on-paper-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "One gently bowed central shaft gives the feather a clear axis and leaves room on both sides for its unequal vane.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First sheet rejected because square output gave rectangular cells; second 3:2 landscape sheet reviewed and cropped into six square raster states."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "curved central shaft",
+      "introduced_by_step": 1,
+      "description": "One continuous, slightly bowed quill rising diagonally from lower left to upper right."
+    },
+    {
+      "name": "left vane",
+      "introduced_by_step": 2,
+      "description": "One broad left feather edge connected at the shaft base and tapered to the existing tip."
+    },
+    {
+      "name": "right vane",
+      "introduced_by_step": 3,
+      "description": "One narrower right edge that returns from the same tip to the shaft base."
+    },
+    {
+      "name": "three vane notches",
+      "introduced_by_step": 4,
+      "description": "Three small open notches along the right edge, with short barbs turning toward the shaft."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "One broken graphite shadow beneath the lower quill and vane."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/curled-feather-on-paper-step-1.jpg",
+      "step_name": "Set the quill",
+      "visible_job": "Draw one rising curved shaft from lower left to upper right.",
+      "instruction": "Start low on the left and draw a gently bowed line toward an upper-right tip; thicken only its lower end into a short quill.",
+      "adds": [
+        "curved central shaft"
+      ],
+      "introduces": [
+        "curved central shaft"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/curled-feather-on-paper-step-2.jpg",
+      "step_name": "Sweep the left vane",
+      "visible_job": "Add the broad left edge from quill base to the fixed upper tip.",
+      "instruction": "From the quill base, sweep one long convex edge left of the shaft and bring it into the existing upper tip.",
+      "adds": [
+        "left vane"
+      ],
+      "introduces": [
+        "left vane"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/curled-feather-on-paper-step-3.jpg",
+      "step_name": "Close the right vane",
+      "visible_job": "Add the narrower right edge from tip to quill base.",
+      "instruction": "From that same upper tip, curve a narrower edge down the right side and return it to the quill base without moving the shaft.",
+      "adds": [
+        "right vane"
+      ],
+      "introduces": [
+        "right vane"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/curled-feather-on-paper-step-4.jpg",
+      "step_name": "Break the vane edge",
+      "visible_job": "Cut three small right-edge notches and draw short barbs inward.",
+      "instruction": "Leave three tiny gaps along the right edge and pull a few short slanted barbs from those gaps toward the shaft.",
+      "adds": [
+        "three vane notches"
+      ],
+      "introduces": [
+        "three vane notches"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/curled-feather-on-paper-step-5.jpg",
+      "step_name": "Ground the feather",
+      "visible_job": "Add a broken shadow beneath the quill and lower vane.",
+      "instruction": "Lay a few short horizontal graphite strokes beneath the lower quill and left vane, leaving white paper between them.",
+      "adds": [
+        "ground shadow"
+      ],
+      "introduces": [
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/curled-feather-on-paper-finished-v1.jpg",
+    "step_name": "Shade the feather",
+    "visible_job": "Shade existing vane and shadow without adding structure.",
+    "instruction": "Use light graphite strokes from the shaft toward both edges, darken the quill and broken ground shadow, and leave narrow paper highlights.",
+    "adds": [
+      "restrained graphite shading"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.1,
+    "first_step_observation": "Saved first crop shows only a curved diagonal shaft and short quill; it fixes both endpoints and leaves open paper on each side for the vanes.",
+    "draw_through_observation": "The six saved square crops retain the quill and tip at fixed anchors. The broad left vane appears in crop 2, narrow right vane in crop 3, three right-edge breaks in crop 4, and a broken shadow in crop 5. Finish shades those established forms without new structure; there are no temporary guides.",
+    "contract_sha256": "df336b2f806bae5937338e2e30ba7c92bf71e838c1c978d1b801a745c6429c7a",
+    "asset_sha256": {
+      "assets/curled-feather-on-paper-step-1.jpg": "d07f067d58a608f851fec62975bcf09716b413b459ce73091d13a5418425d854",
+      "assets/curled-feather-on-paper-step-2.jpg": "afa421bb7a8173b51f0408cbf0933b56f7aa132d6c07f60709990af2fee2ce3d",
+      "assets/curled-feather-on-paper-step-3.jpg": "17fb1d1f4e8d7d644347d4475a02ff99b6cf7aa669a22100fa175c9cbbb2111d",
+      "assets/curled-feather-on-paper-step-4.jpg": "144abe7dba93cc331ff26d769d6ac89c7e8a80e1dbe506b168610ea61a76aa3d",
+      "assets/curled-feather-on-paper-step-5.jpg": "e605a10a3a0320dc42bee44e3109e3d14def61d883853afb9564a840f64ae55b",
+      "assets/curled-feather-on-paper-finished-v1.jpg": "57874e995351367fc61bfb382058a9638034424ca2d1dbddc9892826b25c72df"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "curved central shaft",
+          "left vane"
+        ],
+        "observed_addition": "The curved shaft and short quill remain fixed; one broad left edge rises from the base to the same upper tip.",
+        "instruction_match": "The left-vane instruction matches the newly visible long outer curve.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "curved central shaft",
+          "left vane",
+          "right vane"
+        ],
+        "observed_addition": "The shaft and broad left edge remain; a narrower right edge closes the vane from the same tip to the quill.",
+        "instruction_match": "The right-vane instruction matches the newly enclosed asymmetric shape.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "curved central shaft",
+          "left vane",
+          "right vane",
+          "three vane notches"
+        ],
+        "observed_addition": "The quill and both vane edges remain; three small right-edge interruptions and short inward barbs break the otherwise smooth contour.",
+        "instruction_match": "The notch instruction matches the three visible breaks on the right edge.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "curved central shaft",
+          "left vane",
+          "right vane",
+          "three vane notches",
+          "ground shadow"
+        ],
+        "observed_addition": "The feather, shaft, and three right-edge breaks remain; a soft broken graphite shadow appears beneath the lower quill and vane.",
+        "instruction_match": "The ground instruction matches the new shadow placement without changing the feather.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "curved central shaft",
+          "left vane",
+          "right vane",
+          "three vane notches",
+          "ground shadow"
+        ],
+        "observed_addition": "All feather contours, the three notches, quill and broken shadow persist; directional graphite strokes darken the established vanes and ground.",
+        "instruction_match": "The finish instruction matches shading only, with no new contour or guide removal.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
