@@ -1,0 +1,241 @@
+{
+  "schema_version": 5,
+  "slug": "crescent-moon-over-rooftops",
+  "finished": "assets/crescent-moon-over-rooftops-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A single low roof ridge and eave are easy to place and establish the height and central gap for the later gable and moon.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Contact sheet first; preserve rejected progressions privately."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "left roofline",
+      "introduced_by_step": 1,
+      "description": "A low left roof ridge and descending eave in final position."
+    },
+    {
+      "name": "right roofline",
+      "introduced_by_step": 2,
+      "description": "A taller right gable, clearly separate from the left roof."
+    },
+    {
+      "name": "chimney",
+      "introduced_by_step": 3,
+      "description": "A short chimney rising from the left roof."
+    },
+    {
+      "name": "crescent moon",
+      "introduced_by_step": 4,
+      "description": "One slim crescent above the gap between the roofs."
+    },
+    {
+      "name": "two lit windows",
+      "introduced_by_step": 5,
+      "description": "One small four-pane window on each building face."
+    },
+    {
+      "name": "roof tiles and sky hatching",
+      "introduced_by_step": 5,
+      "description": "Short tile seams and sparse hatch marks around the moon, without new architecture."
+    },
+    {
+      "name": "first left-roof tile seam",
+      "introduced_by_step": 4,
+      "description": "One short seam on the left eave, added with the crescent and retained."
+    },
+    {
+      "name": "light eave shadow",
+      "introduced_by_step": 5,
+      "description": "A pale graphite band just below both roof edges that is deepened in the finish."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/crescent-moon-over-rooftops-step-1.jpg",
+      "step_name": "Place the left roof",
+      "visible_job": "Draw two close roof-edge lines rising from the left edge to a low peak, then sloping down to the right eave. Drop one short wall edge beneath it and keep the center gap open.",
+      "instruction": "Draw two close roof-edge lines rising from the left edge to a low peak, then sloping down to the right eave. Drop one short wall edge beneath it and keep the center gap open.",
+      "adds": [
+        "left roofline"
+      ],
+      "introduces": [
+        "left roofline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/crescent-moon-over-rooftops-step-2.jpg",
+      "step_name": "Raise the right gable",
+      "visible_job": "On the right, draw two close sloping roof-edge lines up to a peak higher than the left roof, then down toward the page edge. Drop a short wall edge below its left eave.",
+      "instruction": "On the right, draw two close sloping roof-edge lines up to a peak higher than the left roof, then down toward the page edge. Drop a short wall edge below its left eave.",
+      "adds": [
+        "right roofline"
+      ],
+      "introduces": [
+        "right roofline"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/crescent-moon-over-rooftops-step-3.jpg",
+      "step_name": "Add the chimney",
+      "visible_job": "On the left slope, lift two short verticals and cap them with a narrow top. Stop the roof stroke at the chimney so the lines do not cross.",
+      "instruction": "On the left slope, lift two short verticals and cap them with a narrow top. Stop the roof stroke at the chimney so the lines do not cross.",
+      "adds": [
+        "chimney"
+      ],
+      "introduces": [
+        "chimney"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/crescent-moon-over-rooftops-step-4.jpg",
+      "step_name": "Curve the crescent",
+      "visible_job": "Add the slender crescent above the roof gap and one short tile seam on the left eave.",
+      "instruction": "Above the gap between the roofs, sweep a broad C curve and a tighter curve that meets it at both pointed tips. Mark the first short tile seam near the left eave.",
+      "adds": [
+        "crescent moon",
+        "first left-roof tile seam"
+      ],
+      "introduces": [
+        "crescent moon",
+        "first left-roof tile seam"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/crescent-moon-over-rooftops-step-5.jpg",
+      "step_name": "Set windows and night marks",
+      "visible_job": "Add one four-pane window beneath each roof, several short tile seams and three sky-hatch groups; lightly shade immediately below the eaves.",
+      "instruction": "Put one small four-pane window beneath each roof. Divide both eaves with a few short tile seams, place three loose hatch groups around the moon, and lay pale graphite just under the roof edges.",
+      "adds": [
+        "two lit windows",
+        "roof tiles and sky hatching",
+        "light eave shadow"
+      ],
+      "introduces": [
+        "two lit windows",
+        "roof tiles and sky hatching",
+        "light eave shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/crescent-moon-over-rooftops-finished-v1.jpg",
+    "step_name": "Shade the quiet night",
+    "visible_job": "Deepen the existing eave shadow and shade the established sky and house faces, leaving the crescent and four-pane windows white.",
+    "instruction": "With the side of a 2B pencil, deepen the already started shadow below both eaves and build dark graphite across the sky and house faces. Leave the crescent, its soft halo, and all eight window panes pale. Add no new contours.",
+    "adds": [
+      "graphite value on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The first saved crop shows a low left ridge with paired eave strokes and one short wall edge, all on mostly blank paper; its peak fixes the height and central gap.",
+    "draw_through_observation": "The six saved square crops retain fixed roof peaks, chimney, moon, and two four-pane windows. One early left tile seam is named in step four; the fifth crop adds remaining details and a pale eave shadow. The finish deepens existing value only. No temporary guides appear.",
+    "contract_sha256": "9f5710498bb506316a6980d986cc3c37f909ec553e3e8845d744d4eeab84681d",
+    "asset_sha256": {
+      "assets/crescent-moon-over-rooftops-step-1.jpg": "4e1624f40e7a82281600ea7ce9bf2a3e0f68ef839e6502a34447124159ec5066",
+      "assets/crescent-moon-over-rooftops-step-2.jpg": "6b740712ffc6c025a5f1bf68815ed00d55db24e3da22df584ee80381ebcbca53",
+      "assets/crescent-moon-over-rooftops-step-3.jpg": "6509ffdd1af8bdc550a79019732cffa3902836ae3b89d45f569cfaa70593b6c4",
+      "assets/crescent-moon-over-rooftops-step-4.jpg": "3be1427f722bb76c5a53cdbc9a18093271d45d03b16981fb07d1c7c0fd897328",
+      "assets/crescent-moon-over-rooftops-step-5.jpg": "308a07b54852272c5bca025733d43574ea85cada3a2f97d802f490d905c4e561",
+      "assets/crescent-moon-over-rooftops-finished-v1.jpg": "1ae6d69996a97c8616059eff112811ce14bca379cc573efd45bfd847ba1646ed"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "left roofline",
+          "right roofline"
+        ],
+        "observed_addition": "The low left roof ridge, eave and near wall stay fixed; the higher right gable and near wall appear with a clear gap between buildings.",
+        "instruction_match": "The right-gable instruction matches the new two slopes and wall edge.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "left roofline",
+          "right roofline",
+          "chimney"
+        ],
+        "observed_addition": "Both separate roof peaks and wall edges persist; a capped short chimney now rises behind the left roof without a roof line crossing its shaft.",
+        "instruction_match": "The chimney instruction matches the added upright and capped rectangle.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "left roofline",
+          "right roofline",
+          "chimney",
+          "crescent moon",
+          "first left-roof tile seam"
+        ],
+        "observed_addition": "The left ridge, right ridge and chimney remain anchored; a slim two-curve crescent appears above their gap, alongside one short left-eave tile seam.",
+        "instruction_match": "The crescent and first-seam instruction names both visible additions.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "left roofline",
+          "right roofline",
+          "chimney",
+          "crescent moon",
+          "two lit windows",
+          "roof tiles and sky hatching",
+          "first left-roof tile seam",
+          "light eave shadow"
+        ],
+        "observed_addition": "Both roof peaks, chimney and moon remain; one four-pane window appears on each house, with short tile seams, three sky-hatch groups and light value under the eaves.",
+        "instruction_match": "The windows, seams, hatch and pale eave-shadow instructions match the saved fifth crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "left roofline",
+          "right roofline",
+          "chimney",
+          "crescent moon",
+          "two lit windows",
+          "roof tiles and sky hatching",
+          "first left-roof tile seam",
+          "light eave shadow"
+        ],
+        "observed_addition": "Both peaks, chimney, crescent, two four-pane windows, tile seams and three hatch groups persist; broad graphite darkens the sky and house faces while the moon and eight panes stay pale.",
+        "instruction_match": "The finish instruction calls for exactly this value change on established contours, with no new structure.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

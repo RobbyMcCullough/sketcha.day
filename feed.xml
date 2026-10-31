@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a crescent moon over rooftops</title>
+      <link>https://sketcha.day/tutorials/crescent-moon-over-rooftops.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/crescent-moon-over-rooftops.html</guid>
+      <pubDate>Sat, 31 Oct 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a crescent moon over two rooftops with a chimney, small lit windows, simple tile seams and rich graphite night shading.</description>
+      <media:content url="https://sketcha.day/assets/crescent-moon-over-rooftops-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a curled feather on paper</title>
       <link>https://sketcha.day/tutorials/curled-feather-on-paper.html</link>
