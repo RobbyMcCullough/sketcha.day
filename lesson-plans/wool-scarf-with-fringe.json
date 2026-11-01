@@ -1,0 +1,223 @@
+{
+  "schema_version": 5,
+  "slug": "wool-scarf-with-fringe",
+  "finished": "assets/wool-scarf-with-fringe-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A broad curved scarf loop and two short neck edges give a beginner a simple fixed center for the hanging ends.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Contact sheet first; reject inconsistent iterations privately."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "center neck loop",
+      "introduced_by_step": 1,
+      "description": "One soft U-shaped folded scarf loop near the upper center, with an open lower crossing."
+    },
+    {
+      "name": "left hanging end",
+      "introduced_by_step": 2,
+      "description": "A wide fabric strip drops down-left from behind the loop, ending in a slanted hem."
+    },
+    {
+      "name": "right hanging end",
+      "introduced_by_step": 3,
+      "description": "A second wide strip drops down-right from the loop, ending in a slanted hem at about the same height as the left."
+    },
+    {
+      "name": "two hem bands",
+      "introduced_by_step": 4,
+      "description": "A narrow stripe just above each hanging hem."
+    },
+    {
+      "name": "six fringe tassels",
+      "introduced_by_step": 4,
+      "description": "Three separate short tassels hang from each hem, six in all."
+    },
+    {
+      "name": "fabric folds",
+      "introduced_by_step": 5,
+      "description": "A few curved fold strokes inside the loop and along both hanging ends."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/wool-scarf-with-fringe-step-1.jpg",
+      "step_name": "Curve the neck loop",
+      "visible_job": "Draw a broad U-shaped fold near the upper center with two close edges and leave its lower crossing open.",
+      "instruction": "Near the upper center, draw a wide curved U for the scarf fold. Echo its inner edge with a shorter curve and leave an open gap below for the two ends.",
+      "adds": [
+        "center neck loop"
+      ],
+      "introduces": [
+        "center neck loop"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/wool-scarf-with-fringe-step-2.jpg",
+      "step_name": "Drop the left end",
+      "visible_job": "Add a broad strip falling diagonally left from behind the loop to a slanted hem.",
+      "instruction": "From behind the left side of the loop, pull two gently wavering lines down-left and join them with a slanted hem. Keep the strip wide enough for a narrow band.",
+      "adds": [
+        "left hanging end"
+      ],
+      "introduces": [
+        "left hanging end"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/wool-scarf-with-fringe-step-3.jpg",
+      "step_name": "Drop the right end",
+      "visible_job": "Add a right strip from the right edge of the loop, ending at about the same height as the left hem.",
+      "instruction": "Start at the right edge of the loop and draw a second broad strip down-right. Close it with a slanted hem about level with the left hem; keep the two ends separate.",
+      "adds": [
+        "right hanging end"
+      ],
+      "introduces": [
+        "right hanging end"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/wool-scarf-with-fringe-step-4.jpg",
+      "step_name": "Band and fringe both hems",
+      "visible_job": "Place one band above each hem and exactly three distinct fringe tassels under each.",
+      "instruction": "Draw a stripe just above each hem. Hang three short separated tassels from the left hem and three from the right, counting six before adding texture.",
+      "adds": [
+        "two hem bands",
+        "six fringe tassels"
+      ],
+      "introduces": [
+        "two hem bands",
+        "six fringe tassels"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/wool-scarf-with-fringe-step-5.jpg",
+      "step_name": "Indicate soft fabric folds",
+      "visible_job": "Add a few curved fold lines inside the neck loop and on both hanging ends.",
+      "instruction": "Inside the loop, add two shallow curved fold marks. Pull one or two light folds down each hanging end, following its fabric direction without changing the outer edges.",
+      "adds": [
+        "fabric folds"
+      ],
+      "introduces": [
+        "fabric folds"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/wool-scarf-with-fringe-finished-v1.jpg",
+    "step_name": "Shade the knit",
+    "visible_job": "Deepen the established folds with soft graphite hatching and a restrained muted red pencil on the two bands.",
+    "instruction": "Shade the underside of the loop and the existing folds with light graphite hatching. Add muted red to the two hem bands and a few broken knit strokes inside the established strips; leave white paper for highlights.",
+    "adds": [
+      "graphite and muted red on established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The first saved crop has only two nested handmade U curves at the upper center, leaving clear white space below for the two hanging ends.",
+    "draw_through_observation": "Six saved square crops build one fixed scarf: left end, right end, two bands and six tassels, then interior folds before graphite texture and muted red band color. No temporary guides appear; each earlier keeper contour remains legible.",
+    "contract_sha256": "42db30a01cb676bc555353d6561dcecad4cd25b43cb6e7bc114a0bfbb88eadb8",
+    "asset_sha256": {
+      "assets/wool-scarf-with-fringe-step-1.jpg": "c03f670763aa830b50e3f9a9d994342d4b055c0ac258c2d1ee0ce3204d6aa8ca",
+      "assets/wool-scarf-with-fringe-step-2.jpg": "f6f1edd494acd217ec6bf10df63e357188d106005ecb6b94cce6ee03731f4ca1",
+      "assets/wool-scarf-with-fringe-step-3.jpg": "4325f79e44d929ffced6917ac4897ba6634b871f433b5882966ee2ac1c10e88b",
+      "assets/wool-scarf-with-fringe-step-4.jpg": "59f1adc1cb270887f75742a1a94337e4d193ea6806614b20fb541b108e9cb152",
+      "assets/wool-scarf-with-fringe-step-5.jpg": "9c624d85f0731417dabd55080b105dbb18377fa0232671b4a374d8eef987441d",
+      "assets/wool-scarf-with-fringe-finished-v1.jpg": "3ba045b5c3e7a51efa79fd57114770c484d43f0f2cc87f3a08a9880d24443ae7"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "center neck loop",
+          "left hanging end"
+        ],
+        "observed_addition": "The upper loop stays at the same anchor while one wide left strip falls from its left shoulder to a slanted hem.",
+        "instruction_match": "The left-strip instruction matches its two descending edges and slanted hem.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "center neck loop",
+          "left hanging end",
+          "right hanging end"
+        ],
+        "observed_addition": "The loop and left strip stay fixed; a separate right strip descends from the right shoulder to a hem at about the same height.",
+        "instruction_match": "The right-strip instruction matches the new separate end and its level slanted hem.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "center neck loop",
+          "left hanging end",
+          "right hanging end",
+          "two hem bands",
+          "six fringe tassels"
+        ],
+        "observed_addition": "Both strips and the loop remain; each hem gains one narrow band and three separate tassels, six tassels across the sheet.",
+        "instruction_match": "The band-and-fringe instruction matches two bands with three tassels on each hem.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "center neck loop",
+          "left hanging end",
+          "right hanging end",
+          "two hem bands",
+          "six fringe tassels",
+          "fabric folds"
+        ],
+        "observed_addition": "Both bands and all six tassels remain; two shallow curves appear within the loop and light long folds inside both ends.",
+        "instruction_match": "The fold instruction matches the added curves without a changed outer edge.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "center neck loop",
+          "left hanging end",
+          "right hanging end",
+          "two hem bands",
+          "six fringe tassels",
+          "fabric folds"
+        ],
+        "observed_addition": "All six tassels, both bands, both ends and the loop remain as graphite hatching fills the established fabric and muted red fills the bands.",
+        "instruction_match": "The final instruction matches graphite value and muted red in established regions; no new structural contour appears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
