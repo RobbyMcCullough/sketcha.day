@@ -1,0 +1,222 @@
+{
+  "schema_version": 5,
+  "slug": "glass-marble-with-ribbon-swirl",
+  "finished": "assets/glass-marble-with-ribbon-swirl-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A single hand-drawn circle fixes the marble's size and final position, so every interior line has a visible boundary to follow.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Five-panel handmade pencil contact sheet; rejected iterations, if any, remain in drafts."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "outer marble circle",
+      "introduced_by_step": 1,
+      "description": "One uneven round graphite outline centered on the page."
+    },
+    {
+      "name": "ribbon front edge",
+      "introduced_by_step": 2,
+      "description": "One flowing S curve from upper-left interior to lower-right interior."
+    },
+    {
+      "name": "ribbon rear edge",
+      "introduced_by_step": 3,
+      "description": "A parallel S curve that gives the central ribbon its width and meets the outer rim at both ends."
+    },
+    {
+      "name": "two ribbon fold marks",
+      "introduced_by_step": 4,
+      "description": "Two short curved fold lines within the ribbon, one above and one below center."
+    },
+    {
+      "name": "two glass highlights",
+      "introduced_by_step": 5,
+      "description": "Two short curved highlight gaps near the upper-right and lower-left inner rim."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "One short broken oval graphite shadow directly beneath the marble."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/glass-marble-with-ribbon-swirl-step-1.jpg",
+      "step_name": "Sketch the marble circle",
+      "visible_job": "Draw one imperfect round outer contour.",
+      "instruction": "Lightly draw a round marble in the middle of the page with a slightly uneven pencil line; keep its lower edge just above where the shadow will sit.",
+      "adds": [
+        "outer marble circle"
+      ],
+      "introduces": [
+        "outer marble circle"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/glass-marble-with-ribbon-swirl-step-2.jpg",
+      "step_name": "Curve the ribbon through it",
+      "visible_job": "Add the first flowing inner S curve.",
+      "instruction": "Start at the upper-left inside rim and sweep a gentle S curve through the middle to the lower-right rim.",
+      "adds": [
+        "ribbon front edge"
+      ],
+      "introduces": [
+        "ribbon front edge"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/glass-marble-with-ribbon-swirl-step-3.jpg",
+      "step_name": "Give the ribbon width",
+      "visible_job": "Add a second parallel S curve with fixed endpoints.",
+      "instruction": "Run a second S curve beside the first, leaving a broad ribbon between them; join its ends near the same upper-left and lower-right rim points.",
+      "adds": [
+        "ribbon rear edge"
+      ],
+      "introduces": [
+        "ribbon rear edge"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/glass-marble-with-ribbon-swirl-step-4.jpg",
+      "step_name": "Mark the ribbon folds",
+      "visible_job": "Add two short curved fold lines within the ribbon.",
+      "instruction": "Place one short curved fold above the ribbon center and another below it, both staying between the two long ribbon edges.",
+      "adds": [
+        "two ribbon fold marks"
+      ],
+      "introduces": [
+        "two ribbon fold marks"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/glass-marble-with-ribbon-swirl-step-5.jpg",
+      "step_name": "Place light and shadow",
+      "visible_job": "Add two slim glass reflections and one broken shadow under the marble.",
+      "instruction": "Trace two slim curved glass reflections, one near the upper-right inner rim and one near the lower-left inner rim. Sketch a broken oval shadow beneath the circle.",
+      "adds": [
+        "two glass highlights",
+        "ground shadow"
+      ],
+      "introduces": [
+        "two glass highlights",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/glass-marble-with-ribbon-swirl-finished-v1.jpg",
+    "step_name": "Shade the glass and ribbon",
+    "visible_job": "Shade existing contours and the established ribbon and shadow without adding structure.",
+    "instruction": "Deepen the lower rim and broken shadow with graphite. Shade the established ribbon lightly with muted blue pencil, keeping both reflection areas pale and every earlier curve visible.",
+    "adds": [
+      "graphite and muted blue shading on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The first saved square crop contains only one imperfect centered graphite circle, leaving a clear interior for the swirl and white space beneath for its shadow.",
+    "draw_through_observation": "Six saved square crops build one fixed marble from circle to two S ribbon edges, two fold marks, two reflection marks and one broken shadow before restrained graphite and blue pencil shading. No temporary guides or unexplained structural loss appear.",
+    "contract_sha256": "35bf35b4747a0e81f6a81c2509b47078eef02e7afd9762f2bf3526b5b437be58",
+    "asset_sha256": {
+      "assets/glass-marble-with-ribbon-swirl-step-1.jpg": "aa0023de2796aad2b7db980a8eb12c46eba1b48c3e83479b4132f54268c46f93",
+      "assets/glass-marble-with-ribbon-swirl-step-2.jpg": "d02b2b66365e11862da46eecc4be72ad3f27c5a15790191c111324643010a3db",
+      "assets/glass-marble-with-ribbon-swirl-step-3.jpg": "1b758131e1cf82ca27d2f6ba656a84d8bca9fbb6e6437294dd0a1b1da5942297",
+      "assets/glass-marble-with-ribbon-swirl-step-4.jpg": "533e5f21efac3fe7282bc1c7226e6c6534d22dd6b98decfcad521a0d38c45ea8",
+      "assets/glass-marble-with-ribbon-swirl-step-5.jpg": "dd130e4c07b434792dc7d0f6c5ae0024d5391592be7fdb9a3e1432b746c4cfa7",
+      "assets/glass-marble-with-ribbon-swirl-finished-v1.jpg": "e4afbfbc2de1600ce32c6523e918f81588b4b4ad127d8ea32da3450215c9d76c"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "outer marble circle",
+          "ribbon front edge"
+        ],
+        "observed_addition": "The circle stays centered while one long S curve runs from its upper-left inner rim to the lower-right inner rim.",
+        "instruction_match": "The second instruction matches this single new sweeping curve.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "outer marble circle",
+          "ribbon front edge",
+          "ribbon rear edge"
+        ],
+        "observed_addition": "The same circle and first S remain; a parallel S starts near the upper-left rim and ends beside the first at the lower-right rim, defining one broad ribbon.",
+        "instruction_match": "The third instruction matches the second fixed ribbon edge.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "outer marble circle",
+          "ribbon front edge",
+          "ribbon rear edge",
+          "two ribbon fold marks"
+        ],
+        "observed_addition": "Both long ribbon edges persist; one short inner bend appears in the upper ribbon and one in its lower bend.",
+        "instruction_match": "The fourth instruction matches the two small folds inside the ribbon.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "outer marble circle",
+          "ribbon front edge",
+          "ribbon rear edge",
+          "two ribbon fold marks",
+          "two glass highlights",
+          "ground shadow"
+        ],
+        "observed_addition": "The circle, ribbon and two folds persist; one upper-right reflection, one lower-left reflection and a broken oval shadow below the circle appear.",
+        "instruction_match": "The fifth instruction matches both reflections and the shadow, with white paper beside the reflection strokes.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "outer marble circle",
+          "ribbon front edge",
+          "ribbon rear edge",
+          "two ribbon fold marks",
+          "two glass highlights",
+          "ground shadow"
+        ],
+        "observed_addition": "All contours, folds, reflections and the broken shadow persist; muted blue pencil fills the ribbon and graphite darkens the rim and shadow.",
+        "instruction_match": "The final instruction adds only color and value on established geometry.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
