@@ -1,0 +1,232 @@
+{
+  "schema_version": 5,
+  "slug": "vintage-postage-stamp-with-mountain",
+  "finished": "assets/vintage-postage-stamp-with-mountain-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A small upright perimeter gives the learner a fixed picture window with enough room to add the mountains without moving the edge.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "One contact sheet is required; rejected iterations remain private."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "irregular stamp perimeter",
+      "introduced_by_step": 1,
+      "description": "A small upright rectangular edge with softened tooth-like notches and four fixed corners."
+    },
+    {
+      "name": "inner frame",
+      "introduced_by_step": 2,
+      "description": "A single narrow inset rectangle following the stamp perimeter."
+    },
+    {
+      "name": "rear mountain ridge",
+      "introduced_by_step": 3,
+      "description": "A tall central peak with a smaller right shoulder inside the frame."
+    },
+    {
+      "name": "front foothill",
+      "introduced_by_step": 4,
+      "description": "A low overlapping contour across the lower third."
+    },
+    {
+      "name": "sun disc",
+      "introduced_by_step": 4,
+      "description": "A small open circle in the upper-right sky."
+    },
+    {
+      "name": "two pine trees",
+      "introduced_by_step": 5,
+      "description": "Two small dark pines on the left foothill."
+    },
+    {
+      "name": "broken ground shadow",
+      "introduced_by_step": 5,
+      "description": "A short shadow below the stamp."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/vintage-postage-stamp-with-mountain-step-1.jpg",
+      "step_name": "Set the stamp edge",
+      "visible_job": "Draw the small upright stamp perimeter with gently uneven tooth-like notches and four stable corners.",
+      "instruction": "Begin at the upper-left corner, travel clockwise around a small upright rectangle, and make the edge lightly tooth-like. Close at your starting corner, leaving generous white paper around it.",
+      "adds": [
+        "irregular stamp perimeter"
+      ],
+      "introduces": [
+        "irregular stamp perimeter"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/vintage-postage-stamp-with-mountain-step-2.jpg",
+      "step_name": "Inset the picture frame",
+      "visible_job": "Add one inset rectangular picture border.",
+      "instruction": "About a pencil width inside the outer edge, draw a narrow rectangular frame. Keep its top and side margins even and close its lower edge above the bottom teeth.",
+      "adds": [
+        "inner frame"
+      ],
+      "introduces": [
+        "inner frame"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/vintage-postage-stamp-with-mountain-step-3.jpg",
+      "step_name": "Raise the mountain",
+      "visible_job": "Add the rear ridge with one tall peak and right shoulder.",
+      "instruction": "Within the frame, climb from the lower left toward a tall peak near the center, descend to a smaller shoulder on the right, and meet the right border. Keep the line inside the picture window.",
+      "adds": [
+        "rear mountain ridge"
+      ],
+      "introduces": [
+        "rear mountain ridge"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/vintage-postage-stamp-with-mountain-step-4.jpg",
+      "step_name": "Place hill and sun",
+      "visible_job": "Add a low overlapping foothill and a small upper-right sun.",
+      "instruction": "Sweep a shallow foothill from the lower-left window edge to the lower-right edge, crossing in front of the mountain base. Draw a small circle in the open upper-right sky.",
+      "adds": [
+        "front foothill",
+        "sun disc"
+      ],
+      "introduces": [
+        "front foothill",
+        "sun disc"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/vintage-postage-stamp-with-mountain-step-5.jpg",
+      "step_name": "Plant two pines and ground",
+      "visible_job": "Add two pines on the left hill and a broken shadow below the stamp.",
+      "instruction": "On the left foothill, draw two small tapered pines rooted to the existing line. Add a short broken graphite shadow directly beneath the lower edge.",
+      "adds": [
+        "two pine trees",
+        "broken ground shadow"
+      ],
+      "introduces": [
+        "two pine trees",
+        "broken ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/vintage-postage-stamp-with-mountain-finished-v1.jpg",
+    "step_name": "Shade the small landscape",
+    "visible_job": "Deepen established mountain faces, pines and ground shadow with graphite; add restrained cool blue pencil inside the mountain and sky without adding contours.",
+    "instruction": "Use a 2B pencil to shade one side of the existing mountain ridge and both small pines. Add pale blue pencil within the established sky and mountain shapes, leaving the sun and margin white. Deepen the existing broken ground shadow.",
+    "adds": [
+      "graphite and pale blue shading on established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved square crop contains only a centered lightly uneven toothed stamp perimeter with four clear corners and a generous empty picture window.",
+    "draw_through_observation": "Six saved square crops keep one fixed toothed stamp and picture window. The mountain, hill, sun, two pines and ground shadow arrive in the written order before pale blue and graphite shading. No guides are used or erased.",
+    "contract_sha256": "6f31cd4af5ce5a87fba6f1b19ae2cc696e7b6155354313bd445afe26cdbcb0ab",
+    "asset_sha256": {
+      "assets/vintage-postage-stamp-with-mountain-step-1.jpg": "17c5a010d46172cf09e330d480103a78048319f558ab38878f486ac927ab096a",
+      "assets/vintage-postage-stamp-with-mountain-step-2.jpg": "3913328b61da6ab627435dc3f6a27c186ac433a0fa438ae35272d572bb097328",
+      "assets/vintage-postage-stamp-with-mountain-step-3.jpg": "519536cc6d7d43c276f7930cce26f62bb5f2e949207c00e7c47e001460c571c6",
+      "assets/vintage-postage-stamp-with-mountain-step-4.jpg": "a389eff3e133e8f80141fd5478a98b039735db3229426d0eecaa00d5c7748ad3",
+      "assets/vintage-postage-stamp-with-mountain-step-5.jpg": "5b547898a8440620437399320ae1aa1b9421a70620869ee6e1f7414b89157dd6",
+      "assets/vintage-postage-stamp-with-mountain-finished-v1.jpg": "b80deeb15df1e2b01daf105fe829738d9786401782b6283f5db3899b705d06fd"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "irregular stamp perimeter",
+          "inner frame"
+        ],
+        "observed_addition": "The toothed outer rectangle retains its four corners while one straight inset picture frame appears inside it.",
+        "instruction_match": "The second instruction matches the new inner frame and its even margins.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "irregular stamp perimeter",
+          "inner frame",
+          "rear mountain ridge"
+        ],
+        "observed_addition": "Both fixed rectangles remain; a tall central ridge rises from the left inner edge, bends over a peak, and slopes into a smaller right shoulder. Light interior mountain facet strokes also appear.",
+        "instruction_match": "The third instruction names the ridge route; its light facet strokes are part of the same mountain addition.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "irregular stamp perimeter",
+          "inner frame",
+          "rear mountain ridge",
+          "front foothill",
+          "sun disc"
+        ],
+        "observed_addition": "The frame and mountain stay fixed; a shallow foothill crosses the lower window and an open sun circle appears in the upper-right sky.",
+        "instruction_match": "The fourth instruction covers both the low overlapping hill and the small sun.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "irregular stamp perimeter",
+          "inner frame",
+          "rear mountain ridge",
+          "front foothill",
+          "sun disc",
+          "two pine trees",
+          "broken ground shadow"
+        ],
+        "observed_addition": "The same sun, mountain and foothill remain; two separately countable pines stand on the left hill and a short broken shadow appears below the stamp.",
+        "instruction_match": "The fifth instruction places both trees on the existing hill and adds the ground shadow.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "irregular stamp perimeter",
+          "inner frame",
+          "rear mountain ridge",
+          "front foothill",
+          "sun disc",
+          "two pine trees",
+          "broken ground shadow"
+        ],
+        "observed_addition": "All four stamp corners, inner frame, mountain ridge, low hill, sun, both pines and broken shadow persist. Graphite darkens the right mountain face and pines, and pale blue pencil fills established sky and mountain space.",
+        "instruction_match": "The finish instruction matches value and color only; no new structural contour appears.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
