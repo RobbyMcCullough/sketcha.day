@@ -1910,3 +1910,8 @@
 
 - Added Day 166, `open-book-with-pressed-leaf`, for October 26. Five reviewed saved raster crops retain both pages, center gutter, page stack, one five-lobed leaf, stem, fine veins, and shadow. A first sheet was rejected privately because veins appeared too early.
 - Teaching 8.1/10; saved finish 8.1/10 for a readable handmade pencil study with restrained autumn color. Schema-v5 review hashes and readiness passed. Fallback localhost home, library, and tutorial desktop/mobile QA passed. Current-only one-lesson-per-site cadence remains active, with no routine backfill. Harness: Codex; task: 2026-10-26 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
+## 2026-11-04 — Current binder clip lesson (Codex)
+
+- Added Day 175 `metal-binder-clip-with-folded-handles` for November 4. Rejected a first private sheet because the left wire loop shifted; approved a six-crop graphite sequence with a fixed trapezoid body, lip, two separate wire handles, center crease and ground shadow before finishing.
+- Every saved adjacent pair including finish was reviewed: teaching 8.1/10, saved finish 8.0/10, no guides or unexplained landmark loss. Schema-v5 hashes, readiness, diff checks and Cove desktop/mobile homepage, library and tutorial QA passed. The one-current-lesson-per-site cadence remains active; no routine backfill. Harness: Codex; task: 2026-11-04 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.

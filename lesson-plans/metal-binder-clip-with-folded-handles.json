@@ -1,0 +1,222 @@
+{
+  "schema_version": 5,
+  "slug": "metal-binder-clip-with-folded-handles",
+  "finished": "assets/metal-binder-clip-with-folded-handles-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The trapezoid fixes the clip width, height, and flat lower edge, leaving both upper corners available for the two wire handles.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Review the complete cumulative contact sheet before cropping; rejected iterations remain private."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "spring body",
+      "introduced_by_step": 1,
+      "description": "One front-facing metal trapezoid with a narrower straight top and wider flat base."
+    },
+    {
+      "name": "rolled top lip",
+      "introduced_by_step": 2,
+      "description": "One narrow horizontal folded lip just below the top edge."
+    },
+    {
+      "name": "left wire handle",
+      "introduced_by_step": 3,
+      "description": "One thin loop rising from the upper-left hinge and folding inward above the body."
+    },
+    {
+      "name": "right wire handle",
+      "introduced_by_step": 4,
+      "description": "A separate thin loop rising from the upper-right hinge and folding inward beside the left loop."
+    },
+    {
+      "name": "center seam",
+      "introduced_by_step": 5,
+      "description": "One short central crease below the lip."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "A short broken shadow directly below the base."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/metal-binder-clip-with-folded-handles-step-1.jpg",
+      "step_name": "Shape the clip body",
+      "visible_job": "Draw one modest trapezoid with a narrow top and wider flat bottom.",
+      "instruction": "Sketch a short horizontal top edge, angle both sides outward, and connect them with a wider flat base. Leave open paper above the two top corners for the wire handles.",
+      "adds": [
+        "spring body"
+      ],
+      "introduces": [
+        "spring body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/metal-binder-clip-with-folded-handles-step-2.jpg",
+      "step_name": "Fold the top lip",
+      "visible_job": "Add a narrow horizontal rolled lip inside the upper edge.",
+      "instruction": "Run one shallow line just below the top edge and join its ends to the upper corners. Keep the broad front face clear.",
+      "adds": [
+        "rolled top lip"
+      ],
+      "introduces": [
+        "rolled top lip"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/metal-binder-clip-with-folded-handles-step-3.jpg",
+      "step_name": "Raise the left handle",
+      "visible_job": "Attach one thin bent wire loop to the upper-left corner.",
+      "instruction": "From the left upper corner, lift a slim wire loop above the clip, curve it inward, and return it near the same hinge. Keep the loop open in the middle.",
+      "adds": [
+        "left wire handle"
+      ],
+      "introduces": [
+        "left wire handle"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/metal-binder-clip-with-folded-handles-step-4.jpg",
+      "step_name": "Raise the right handle",
+      "visible_job": "Attach a separate matching wire loop to the upper-right corner.",
+      "instruction": "Repeat the bent loop from the right upper corner, folding it inward beside the left wire without merging their two open centers.",
+      "adds": [
+        "right wire handle"
+      ],
+      "introduces": [
+        "right wire handle"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/metal-binder-clip-with-folded-handles-step-5.jpg",
+      "step_name": "Set the crease and shadow",
+      "visible_job": "Add a short center crease and broken base shadow.",
+      "instruction": "Place one short vertical crease beneath the folded lip, then sketch two or three light horizontal shadow strokes immediately below the flat base.",
+      "adds": [
+        "center seam",
+        "ground shadow"
+      ],
+      "introduces": [
+        "center seam",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/metal-binder-clip-with-folded-handles-finished-v1.jpg",
+    "step_name": "Shade the metal",
+    "visible_job": "Deepen the established body and wires with graphite without adding contours.",
+    "instruction": "Use the side of a 2B pencil to darken the existing trapezoid, leaving a slim paper highlight near one edge. Strengthen the two wire loops, lip, crease, and broken shadow without changing their positions.",
+    "adds": [
+      "graphite shading on established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The first saved crop has one centered narrow-top, wide-base trapezoid with stable corners and blank paper above both hinges.",
+    "draw_through_observation": "Six saved square crops show one binder clip with a stable body and lip, separate left then right wire loops, a center crease and short ground shadow before graphite finishing. No temporary guides are introduced or removed.",
+    "contract_sha256": "60aa7049f141bcfc1d00b512dd6acea79db6e438b0f2040b77b97d575be647d9",
+    "asset_sha256": {
+      "assets/metal-binder-clip-with-folded-handles-step-1.jpg": "62c25ee684a043f194c74e57f894897ae59baca90bf9f23cb4f5451197f6238f",
+      "assets/metal-binder-clip-with-folded-handles-step-2.jpg": "d8eec0f68a25d23ca178446daec25427c83702ecc320f9a5c45aeb9b88239fa5",
+      "assets/metal-binder-clip-with-folded-handles-step-3.jpg": "8fc7cffc7457eb103087c9ae3f6f78000bb823f8da144273b382bb0fa47edccf",
+      "assets/metal-binder-clip-with-folded-handles-step-4.jpg": "b2353ffee64c92a07383e0577642bd057d2edb0854408b43022689f3c2f995a7",
+      "assets/metal-binder-clip-with-folded-handles-step-5.jpg": "7e30bcde4c9cfe07345c61cca54912f9c33d5dc62b6b0b62ba597eedd3e2c3e4",
+      "assets/metal-binder-clip-with-folded-handles-finished-v1.jpg": "6e788da40925aeaa0bf157589d6caf97d60f06cedc60dff54a3019f460fbf2be"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "spring body",
+          "rolled top lip"
+        ],
+        "observed_addition": "The same slanted trapezoid remains fixed; a narrow graphite fold runs along its short top edge without changing the base.",
+        "instruction_match": "The second instruction draws only the lip just below the established top edge.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "spring body",
+          "rolled top lip",
+          "left wire handle"
+        ],
+        "observed_addition": "The body and lip persist; one open left wire loop rises from the left top hinge and returns beside it.",
+        "instruction_match": "The third instruction names the left hinge and the single open wire loop visible in this crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "spring body",
+          "rolled top lip",
+          "left wire handle",
+          "right wire handle"
+        ],
+        "observed_addition": "The left loop keeps its height and left hinge; a separate right loop rises from the right hinge with two open centers.",
+        "instruction_match": "The fourth instruction adds only the right wire at its own hinge beside the retained left loop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "spring body",
+          "rolled top lip",
+          "left wire handle",
+          "right wire handle",
+          "center seam",
+          "ground shadow"
+        ],
+        "observed_addition": "Both wire loops, body and lip remain; one short center crease drops from the lip and broken shadow strokes sit under the wide base.",
+        "instruction_match": "The fifth instruction covers the new short central crease and broken base shadow.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "spring body",
+          "rolled top lip",
+          "left wire handle",
+          "right wire handle",
+          "center seam",
+          "ground shadow"
+        ],
+        "observed_addition": "The two separate wire loops, top lip, centered crease and wide base persist; graphite fills the existing body while leaving a paper highlight and deepening the existing shadow.",
+        "instruction_match": "The finish instruction shades established metal and wire contours only; it does not require a new feature.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
