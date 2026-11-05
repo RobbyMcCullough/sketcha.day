@@ -1,0 +1,222 @@
+{
+  "schema_version": 5,
+  "slug": "pocket-flashlight-with-wrist-strap",
+  "finished": "assets/pocket-flashlight-with-wrist-strap-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A slightly diagonal tapered barrel gives a beginner the flashlight's full length and leaves a clear left opening for the head and right endpoint for the strap.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel handmade pencil contact sheet; record any rejected versions here."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "tapered barrel",
+      "introduced_by_step": 1,
+      "description": "One diagonal flashlight body, wide at upper left and narrow at lower right."
+    },
+    {
+      "name": "head ring",
+      "introduced_by_step": 2,
+      "description": "Short flared head joined to the wide left barrel end."
+    },
+    {
+      "name": "lens ellipse",
+      "introduced_by_step": 3,
+      "description": "One oval lens nested in the left-facing head."
+    },
+    {
+      "name": "side switch",
+      "introduced_by_step": 4,
+      "description": "One small oblong switch on the upper side of the barrel."
+    },
+    {
+      "name": "wrist strap",
+      "introduced_by_step": 5,
+      "description": "One tiny attachment ring and a loose loop at the narrow right tail end."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 5,
+      "description": "A few broken pencil strokes below the barrel and strap."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/pocket-flashlight-with-wrist-strap-step-1.jpg",
+      "step_name": "Sketch the barrel",
+      "visible_job": "Draw the tapered diagonal barrel.",
+      "instruction": "Draw two lightly uneven lines from upper left toward lower right, narrowing as they go. Join them at the right tail but leave the wider left end open for the head.",
+      "adds": [
+        "tapered barrel"
+      ],
+      "introduces": [
+        "tapered barrel"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/pocket-flashlight-with-wrist-strap-step-2.jpg",
+      "step_name": "Flare the head",
+      "visible_job": "Attach a short wider head at the open left end.",
+      "instruction": "From the two open left barrel edges, flare outward a little and join their tips with a curved front rim. Keep the barrel in the same diagonal position.",
+      "adds": [
+        "head ring"
+      ],
+      "introduces": [
+        "head ring"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/pocket-flashlight-with-wrist-strap-step-3.jpg",
+      "step_name": "Set the lens",
+      "visible_job": "Nest one oval lens inside the front rim.",
+      "instruction": "Inside the curved left head rim, draw one smaller tilted oval, leaving a slim band of metal visible around it.",
+      "adds": [
+        "lens ellipse"
+      ],
+      "introduces": [
+        "lens ellipse"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/pocket-flashlight-with-wrist-strap-step-4.jpg",
+      "step_name": "Place the switch",
+      "visible_job": "Add one small side switch.",
+      "instruction": "On the upper middle of the barrel, draw one short rounded oblong switch, following the barrel diagonal and keeping it away from the head.",
+      "adds": [
+        "side switch"
+      ],
+      "introduces": [
+        "side switch"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/pocket-flashlight-with-wrist-strap-step-5.jpg",
+      "step_name": "Loop the wrist strap",
+      "visible_job": "Attach one tiny ring and loose strap loop, plus broken ground shadow.",
+      "instruction": "At the narrow right tail, make a tiny attachment ring. Run two slim strap lines into one loose loop and return them to that ring. Add three short broken shadow strokes beneath the flashlight.",
+      "adds": [
+        "wrist strap",
+        "ground shadow"
+      ],
+      "introduces": [
+        "wrist strap",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/pocket-flashlight-with-wrist-strap-finished-v1.jpg",
+    "step_name": "Shade the flashlight",
+    "visible_job": "Shade only the established metal, lens, strap, and shadow.",
+    "instruction": "Use soft graphite to darken the existing head and lower barrel, leave a white glint inside the lens, and deepen the established strap and three broken shadow strokes without adding new contours.",
+    "adds": [
+      "graphite shade in established shapes"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.2,
+    "finished_art_score": 8.1,
+    "first_step_observation": "The first saved square crop shows only two diagonal pencil barrel edges joined at the narrow right tail; the wide left end is open for the head.",
+    "draw_through_observation": "Six saved crops retain a single flashlight at fixed diagonal scale: barrel, flared head, nested lens, one side switch, one tail ring and loop, and three ground strokes. No temporary guides were used or removed; only graphite value changes at finish.",
+    "contract_sha256": "ec3aeff19874211762ce9388eedfb9b969b81c54479f1e0f7426c3b84c747f61",
+    "asset_sha256": {
+      "assets/pocket-flashlight-with-wrist-strap-step-1.jpg": "a5fd04fe7af42c830af77365ae6052e01a5204d4a7c3f1fdfd32c780b41e8885",
+      "assets/pocket-flashlight-with-wrist-strap-step-2.jpg": "56ec8250196363ead3017d0d707001d222da75122e9c1b12519832e5f3c68782",
+      "assets/pocket-flashlight-with-wrist-strap-step-3.jpg": "630617f51fcab2bc72f53b6427f1ed19da01d262f67a0102c4b3f46e58c3b88c",
+      "assets/pocket-flashlight-with-wrist-strap-step-4.jpg": "2494701a78e6833f4e728c07845cd2fc89855ba10ddb8fa858e8581dea8330a1",
+      "assets/pocket-flashlight-with-wrist-strap-step-5.jpg": "774a8c3f6732e8f2244d835f4487a10ec2c2d34563755182950eb46866523fdb",
+      "assets/pocket-flashlight-with-wrist-strap-finished-v1.jpg": "442629a0397f51be445da541a0c2c2f1bc09da72b3a577b1e638f8690e0287f0"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "tapered barrel",
+          "head ring"
+        ],
+        "observed_addition": "The two barrel edges and right tail persist; a short flared head joins the previously open left end at the same diagonal.",
+        "instruction_match": "The second instruction attaches the flared head to the open left barrel ends.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "tapered barrel",
+          "head ring",
+          "lens ellipse"
+        ],
+        "observed_addition": "The flared head and barrel persist; a second smaller tilted oval appears inside the front rim to leave an even metal band.",
+        "instruction_match": "The third instruction adds only the inset oval lens within the existing rim.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "tapered barrel",
+          "head ring",
+          "lens ellipse",
+          "side switch"
+        ],
+        "observed_addition": "Head, inset lens and barrel stay fixed; one rounded oblong switch appears on the upper middle barrel.",
+        "instruction_match": "The fourth instruction places the short switch on the established upper barrel.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "tapered barrel",
+          "head ring",
+          "lens ellipse",
+          "side switch",
+          "wrist strap",
+          "ground shadow"
+        ],
+        "observed_addition": "The same barrel, head, lens and switch remain; a tiny tail ring holds one loose strap loop, and three separated graphite shadows appear below.",
+        "instruction_match": "The fifth instruction names the tiny tail ring, one attached loop and three broken shadows visible in this crop.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "tapered barrel",
+          "head ring",
+          "lens ellipse",
+          "side switch",
+          "wrist strap",
+          "ground shadow"
+        ],
+        "observed_addition": "The head, lens, switch, tail ring, single strap loop and three shadows retain their anchors; graphite shades established surfaces and leaves one pale lens glint.",
+        "instruction_match": "The finish instruction shades existing metal, lens, strap and ground strokes without asking for new structure.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
