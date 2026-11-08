@@ -231,6 +231,11 @@
       "date": "2026-10-15",
       "note": "Approved six-panel cumulative pencil process; five saved adjacent transitions and schema-v5 review hashes recorded for current Day 155."
     },
+    "folded-trail-map-with-marked-route": {
+      "status": "published",
+      "date": "2026-11-08",
+      "note": "Approved third six-panel contact sheet after two rejected sparse/flat iterations; 2026-11-08 current lesson."
+    },
     "folding-camp-stool": {
       "status": "published",
       "date": "2026-10-17",
@@ -825,6 +830,11 @@
     },
     "wooden-clothespin": {
       "status": "published"
+    },
+    "wooden-clothespin-with-coil-spring": {
+      "status": "rejected-duplicate",
+      "date": "2026-11-08",
+      "note": "November 8 candidate rejected before art: existing wooden-clothespin lesson covers the same core subject and drawing problem."
     },
     "wooden-hand-plane-and-shaving": {
       "status": "published"

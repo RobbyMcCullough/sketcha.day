@@ -1,0 +1,129 @@
+{
+  "schema_version": 5,
+  "slug": "wooden-clothespin-with-coil-spring",
+  "finished": "assets/wooden-clothespin-with-coil-spring-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "Two long connected wooden rails at a diagonal give the learner the full length and jaw position without a loose guide.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Five-panel handmade graphite contact sheet; review before cropping."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "upper wooden rail",
+      "introduced_by_step": 1,
+      "description": "Long upper tapered wooden half from lower-left handle to upper-right jaw."
+    },
+    {
+      "name": "lower wooden rail",
+      "introduced_by_step": 1,
+      "description": "Parallel lower wooden half meeting the upper half at the pinched jaw."
+    },
+    {
+      "name": "jaw notch",
+      "introduced_by_step": 2,
+      "description": "Short V opening at the upper-right biting end."
+    },
+    {
+      "name": "coil spring",
+      "introduced_by_step": 3,
+      "description": "Small metal spiral centered where the rails cross."
+    },
+    {
+      "name": "spring arms",
+      "introduced_by_step": 3,
+      "description": "Two short metal wire arms touching their respective wooden rails."
+    },
+    {
+      "name": "wood grain",
+      "introduced_by_step": 4,
+      "description": "A few short strokes following each wood rail."
+    },
+    {
+      "name": "ground shadow",
+      "introduced_by_step": 4,
+      "description": "One broken shadow beneath the lower-left handle."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/wooden-clothespin-with-coil-spring-step-1.jpg",
+      "step_name": "Place the wooden halves",
+      "visible_job": "Draw both wooden halves at their fixed diagonal and leave a small center gap.",
+      "instruction": "Draw two long tapered wooden halves on one rising diagonal, keeping their lower-left handles apart and their upper-right jaw ends close.",
+      "adds": [
+        "upper wooden rail",
+        "lower wooden rail"
+      ],
+      "introduces": [
+        "upper wooden rail",
+        "lower wooden rail"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/wooden-clothespin-with-coil-spring-step-2.jpg",
+      "step_name": "Cut the jaw notch",
+      "visible_job": "Add the fixed jaw notch.",
+      "instruction": "At the narrow upper-right tip, draw a short V bite between the two rails without shifting either handle.",
+      "adds": [
+        "jaw notch"
+      ],
+      "introduces": [
+        "jaw notch"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/wooden-clothespin-with-coil-spring-step-3.jpg",
+      "step_name": "Wrap the coil spring",
+      "visible_job": "Add the central coil and two attached metal arms.",
+      "instruction": "At the crossing near the middle, sketch one small wire spiral and extend one wire arm onto each wooden half.",
+      "adds": [
+        "coil spring",
+        "spring arms"
+      ],
+      "introduces": [
+        "coil spring",
+        "spring arms"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/wooden-clothespin-with-coil-spring-step-4.jpg",
+      "step_name": "Show grain and contact shadow",
+      "visible_job": "Add grain and the short ground shadow.",
+      "instruction": "Add a few short grain strokes within each wooden half, then put one broken shadow under the lower-left handle.",
+      "adds": [
+        "wood grain",
+        "ground shadow"
+      ],
+      "introduces": [
+        "wood grain",
+        "ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/wooden-clothespin-with-coil-spring-finished-v1.jpg",
+    "step_name": "Shade the clothespin",
+    "visible_job": "Darken established graphite contours and shade the same rails, coil, and shadow without adding structure.",
+    "instruction": "Use 2B to shade the established wooden rails lightly, darken the coil and its two arms, and soften the existing ground shadow.",
+    "adds": [
+      "graphite on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "pending",
+    "teaching_score": 0,
+    "finished_art_score": 0,
+    "first_step_observation": "",
+    "draw_through_observation": "",
+    "contract_sha256": "",
+    "asset_sha256": {},
+    "transitions": []
+  }
+}

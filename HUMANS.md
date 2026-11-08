@@ -1919,3 +1919,9 @@
 
 - Added Day 175 `metal-binder-clip-with-folded-handles` for November 4. Rejected a first private sheet because the left wire loop shifted; approved a six-crop graphite sequence with a fixed trapezoid body, lip, two separate wire handles, center crease and ground shadow before finishing.
 - Every saved adjacent pair including finish was reviewed: teaching 8.1/10, saved finish 8.0/10, no guides or unexplained landmark loss. Schema-v5 hashes, readiness, diff checks and Cove desktop/mobile homepage, library and tutorial QA passed. The one-current-lesson-per-site cadence remains active; no routine backfill. Harness: Codex; task: 2026-11-04 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha.day.
+
+## 2026-11-08 — Current folded trail map lesson (Codex)
+
+- Added Day 179 `folded-trail-map-with-marked-route` in isolated checkout `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha-day-2026-11-08` because the main checkout retains the unrelated November 6 pending brass door knocker draft and public art. Those original files were not changed.
+- Rejected an initial clothespin candidate as an archive duplicate before art; rejected two map sheets privately for sparse/flat finishes. Six saved graphite crops retain one paper outline, two folds, dotted route, two peaks, river, start circle, destination triangle and compass before restrained shading/color. Teaching 8.1/10; saved finish 8.0/10.
+- Schema-v5 review hashes, readiness, diff check and localhost desktop/mobile homepage, library and tutorial QA passed. One-current-lesson-per-site cadence remains active; no routine backfill. Harness: Codex; task: 2026-11-08 — Daily sketch and doodle lessons.

@@ -1,0 +1,253 @@
+{
+  "schema_version": 5,
+  "slug": "folded-trail-map-with-marked-route",
+  "finished": "assets/folded-trail-map-with-marked-route-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A loose three-panel zigzag outer contour gives the reader the width and fold positions of a folded paper map immediately.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First five-panel sheet rejected as too sparse; second six-panel sheet rejected because finish lacked enough tactile folded-paper character. Third iteration pending."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "paper silhouette",
+      "introduced_by_step": 1,
+      "description": "One uneven landscape rectangle in the final position."
+    },
+    {
+      "name": "first fold crease",
+      "introduced_by_step": 2,
+      "description": "Left vertical zigzag crease."
+    },
+    {
+      "name": "second fold crease",
+      "introduced_by_step": 2,
+      "description": "Right vertical zigzag crease."
+    },
+    {
+      "name": "winding route",
+      "introduced_by_step": 3,
+      "description": "One dotted winding route across the three panels."
+    },
+    {
+      "name": "mountain pair",
+      "introduced_by_step": 4,
+      "description": "Two small separate triangular mountain icons in upper-left map area."
+    },
+    {
+      "name": "river bend",
+      "introduced_by_step": 4,
+      "description": "One short curved river near lower-right map area."
+    },
+    {
+      "name": "start circle",
+      "introduced_by_step": 5,
+      "description": "Small open start circle at route left end."
+    },
+    {
+      "name": "destination triangle",
+      "introduced_by_step": 5,
+      "description": "Small destination triangle at route right end."
+    },
+    {
+      "name": "compass rose",
+      "introduced_by_step": 5,
+      "description": "Tiny four-point compass rose in the upper center of the middle panel."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/folded-trail-map-with-marked-route-step-1.jpg",
+      "step_name": "Place the paper",
+      "visible_job": "Draw the final paper silhouette.",
+      "instruction": "Draw one broad landscape rectangle with gently uneven edges. Keep its top and bottom almost parallel.",
+      "adds": [
+        "paper silhouette"
+      ],
+      "introduces": [
+        "paper silhouette"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/folded-trail-map-with-marked-route-step-2.jpg",
+      "step_name": "Bend two folds",
+      "visible_job": "Add two paper creases inside the fixed outline.",
+      "instruction": "Inside the rectangle, draw two widely spaced vertical zigzag creases. Keep the same outer paper edge; the folds divide it into three panels.",
+      "adds": [
+        "first fold crease",
+        "second fold crease"
+      ],
+      "introduces": [
+        "first fold crease",
+        "second fold crease"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/folded-trail-map-with-marked-route-step-3.jpg",
+      "step_name": "Wind the trail",
+      "visible_job": "Add one route crossing all three panels.",
+      "instruction": "From the lower left, draw one broken winding route across both creases to the upper right. Leave room at both endpoints for markers.",
+      "adds": [
+        "winding route"
+      ],
+      "introduces": [
+        "winding route"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/folded-trail-map-with-marked-route-step-4.jpg",
+      "step_name": "Sketch terrain",
+      "visible_job": "Add two peaks and one river bend in fixed places.",
+      "instruction": "Above the route on the left panel, draw two small mountain peaks. Below the route on the right panel, draw one short curved river bend.",
+      "adds": [
+        "mountain pair",
+        "river bend"
+      ],
+      "introduces": [
+        "mountain pair",
+        "river bend"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/folded-trail-map-with-marked-route-step-5.jpg",
+      "step_name": "Mark the map",
+      "visible_job": "Add two endpoint symbols and one compass rose.",
+      "instruction": "Put a small open circle at the route\u2019s left end and a tiny triangle at the right end. In the open middle panel draw a little four-point compass rose.",
+      "adds": [
+        "start circle",
+        "destination triangle",
+        "compass rose"
+      ],
+      "introduces": [
+        "start circle",
+        "destination triangle",
+        "compass rose"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/folded-trail-map-with-marked-route-finished-v1.jpg",
+    "step_name": "Shade and color the map",
+    "visible_job": "Add pale pencil shading to the existing folds and restrained color to established route, peaks, and river.",
+    "instruction": "Shade one side of each established crease with light HB. Trace the existing dotted route in muted red, tint the two peaks moss green, and the river pale blue; keep the paper mostly white.",
+    "adds": [
+      "shading and color on established marks"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The first saved square crop shows one broad, slightly wavy landscape paper rectangle only. Its stable outer edges and roomy interior give a beginner a clear first shape.",
+    "draw_through_observation": "Six saved crops keep the paper outline, two fixed fold creases and one dotted route, then add exactly two peaks, one river, endpoint circle and triangle, and one four-point compass before final graphite and colored-pencil shading. No temporary guides were used or removed; no unexplained structural movement or erasure is visible.",
+    "contract_sha256": "861e9e4a394b75f045d72936ad75565a5ca45e3e9b517932e5c4b56be30eaf89",
+    "asset_sha256": {
+      "assets/folded-trail-map-with-marked-route-step-1.jpg": "72da48309b8680aaf777b08a8915badfbd895817b34c682426e9079ffbaccee4",
+      "assets/folded-trail-map-with-marked-route-step-2.jpg": "b1ef75c291abee5510b504465f1553904352505b55dc25125e641ef46ca0d492",
+      "assets/folded-trail-map-with-marked-route-step-3.jpg": "48135fe0f0b7d2976777945eaebb63892a13833d2bbb6ea9b141f28be5d8ae70",
+      "assets/folded-trail-map-with-marked-route-step-4.jpg": "be44c7487c4b80b4ee1f1b16ad1f0d82f4148fdc5bc2033d372e16262838a6b1",
+      "assets/folded-trail-map-with-marked-route-step-5.jpg": "8408048aa8584fb7e8f195388b39ca11e26dc0df974a976fa8ef84c6c546f531",
+      "assets/folded-trail-map-with-marked-route-finished-v1.jpg": "2fb63f0498c3cd8c340c936a66b4585b1a120ad91a3f22a911d95bad4883ebed"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "paper silhouette",
+          "first fold crease",
+          "second fold crease"
+        ],
+        "observed_addition": "The same wavy outer paper edge stays at the same anchors; two separate zigzag creases divide it into three panels.",
+        "instruction_match": "The second instruction places exactly two creases inside the established outline.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "paper silhouette",
+          "first fold crease",
+          "second fold crease",
+          "winding route"
+        ],
+        "observed_addition": "The outer edge and both folds persist; one separated dotted trail begins low left, crosses both creases and ends high right.",
+        "instruction_match": "The third instruction draws the one dotted trail across the three panels.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "paper silhouette",
+          "first fold crease",
+          "second fold crease",
+          "winding route",
+          "mountain pair",
+          "river bend"
+        ],
+        "observed_addition": "The map, folds and dotted route persist; two distinct triangular peaks appear high left and one two-line river bend appears low right.",
+        "instruction_match": "The fourth instruction adds the two peaks and river away from the route.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "paper silhouette",
+          "first fold crease",
+          "second fold crease",
+          "winding route",
+          "mountain pair",
+          "river bend",
+          "start circle",
+          "destination triangle",
+          "compass rose"
+        ],
+        "observed_addition": "The same peaks, river, route, folds and outer edge persist; one open circle caps the left route end, one triangle caps the right end and a four-point compass appears in the open center panel.",
+        "instruction_match": "The fifth instruction locates both endpoints and the compass in the blank middle space.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "paper silhouette",
+          "first fold crease",
+          "second fold crease",
+          "winding route",
+          "mountain pair",
+          "river bend",
+          "start circle",
+          "destination triangle",
+          "compass rose"
+        ],
+        "observed_addition": "All nine named landmarks retain their positions; soft graphite shades the paper folds, existing route dots turn muted red, the two peaks gain green and the river blue.",
+        "instruction_match": "The final instruction shades and colors only established paper planes and marks.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
