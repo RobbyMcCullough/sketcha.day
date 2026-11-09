@@ -6,7 +6,15 @@
     <atom:link href="https://sketcha.day/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily sketch lessons that build drawing confidence through small, repeatable pencil practice.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Nov 2026 19:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:00:00 GMT</lastBuildDate>
+    <item>
+      <title>How to draw a chess rook on a square</title>
+      <link>https://sketcha.day/tutorials/chess-rook-on-a-square.html</link>
+      <guid isPermaLink="true">https://sketcha.day/tutorials/chess-rook-on-a-square.html</guid>
+      <pubDate>Mon, 09 Nov 2026 19:00:00 GMT</pubDate>
+      <description>Learn how to draw a chess rook with a low base, tapered stone shaft, three castle battlements, one board square and soft graphite shading.</description>
+      <media:content url="https://sketcha.day/assets/chess-rook-on-a-square-finished-v1.jpg" medium="image" />
+    </item>
     <item>
       <title>How to draw a folded trail map with a marked route</title>
       <link>https://sketcha.day/tutorials/folded-trail-map-with-marked-route.html</link>

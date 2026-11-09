@@ -1,0 +1,225 @@
+{
+  "schema_version": 5,
+  "slug": "chess-rook-on-a-square",
+  "finished": "assets/chess-rook-on-a-square-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The low oval and short curved rim set the rook width and its fixed base on the page; a beginner can copy them before judging the height.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First six-cell sheet rejected because closed turret disappeared. From revised sheet, saved panels 1, 2, 4, 5, 6 were selected into a five-cell raster contact sheet, omitting the redundant closed-top panel 3. Original rejected sheet remains private."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "bottom base oval",
+      "introduced_by_step": 1,
+      "description": "One shallow horizontal oval centered below the rook, in its final position."
+    },
+    {
+      "name": "base rim",
+      "introduced_by_step": 1,
+      "description": "Two short curves make a low pedestal above the bottom oval."
+    },
+    {
+      "name": "tapered shaft",
+      "introduced_by_step": 2,
+      "description": "Two gently inward-sloping sides rise from the base rim to the neck."
+    },
+    {
+      "name": "neck collar",
+      "introduced_by_step": 3,
+      "description": "One narrow curved band caps the shaft."
+    },
+    {
+      "name": "turret bowl",
+      "introduced_by_step": 3,
+      "description": "A broader open-top turret rises above the collar and connects directly to battlements."
+    },
+    {
+      "name": "three battlements",
+      "introduced_by_step": 3,
+      "description": "Three squared stone tabs on the top silhouette with two open notches."
+    },
+    {
+      "name": "front stone seams",
+      "introduced_by_step": 4,
+      "description": "Two short staggered stone seams on the shaft."
+    },
+    {
+      "name": "board square",
+      "introduced_by_step": 4,
+      "description": "One lightly tilted quadrilateral below and behind the rook base."
+    },
+    {
+      "name": "contact shadow",
+      "introduced_by_step": 4,
+      "description": "A broken graphite oval shadow under the base within the square."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/chess-rook-on-a-square-step-1.jpg",
+      "step_name": "Set the rook base",
+      "visible_job": "Place the shallow oval and low pedestal rim.",
+      "instruction": "Draw a shallow oval near the lower center. Add a short curve above it and connect the ends to make a low pedestal.",
+      "adds": [
+        "bottom base oval",
+        "base rim"
+      ],
+      "introduces": [
+        "bottom base oval",
+        "base rim"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/chess-rook-on-a-square-step-2.jpg",
+      "step_name": "Raise the tapered shaft",
+      "visible_job": "Add two gently sloping tower sides and their curved top.",
+      "instruction": "From the inner ends of the pedestal, pull two gently inward-sloping sides upward and join their tops with a light curve.",
+      "adds": [
+        "tapered shaft"
+      ],
+      "introduces": [
+        "tapered shaft"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/chess-rook-on-a-square-step-3.jpg",
+      "step_name": "Build the castle top",
+      "visible_job": "Add the neck collar, wider turret face, and three connected battlements.",
+      "instruction": "Wrap a narrow collar around the shaft top. Widen into a shallow turret above it, then draw three square tabs separated by two open notches as one continuous top edge.",
+      "adds": [
+        "neck collar",
+        "turret bowl",
+        "three battlements"
+      ],
+      "introduces": [
+        "neck collar",
+        "turret bowl",
+        "three battlements"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/chess-rook-on-a-square-step-4.jpg",
+      "step_name": "Set it on a square",
+      "visible_job": "Add two shaft seams, a tilted board square and contact shadow.",
+      "instruction": "Mark two short staggered stone seams on the shaft. Draw one tilted square behind the base and shade a broken contact oval beneath it.",
+      "adds": [
+        "front stone seams",
+        "board square",
+        "contact shadow"
+      ],
+      "introduces": [
+        "front stone seams",
+        "board square",
+        "contact shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/chess-rook-on-a-square-finished-v1.jpg",
+    "step_name": "Shade the stone rook",
+    "visible_job": "Darken existing keeper contours and add restrained graphite shading without new structure.",
+    "instruction": "Strengthen the existing battlements, collar, shaft, and base with 2B pencil. Hatch the right side and deepen the marked contact shadow; leave the board square pale.",
+    "adds": [
+      "graphite shading on established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.0,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The first saved square crop has one centered shallow oval and a short curved rim above it; the open paper above leaves an easy width anchor for a new learner.",
+    "draw_through_observation": "Five selected saved crops retain the same pedestal, tapered shaft, collar, three battlements and two notches, then add two shaft seams, one board square and a broken contact shadow before right-side graphite hatching. The initially generated closed-turret panel was omitted because its top would have required an unexplained erasure. No temporary guides appear or disappear in the approved five-crop sequence.",
+    "contract_sha256": "fd79d130e19bcf7443c08a63c15944f868dd375696d21663bc3f5de857bbcecb",
+    "asset_sha256": {
+      "assets/chess-rook-on-a-square-step-1.jpg": "0bd2806c6560a3464679116271ef7551eca2c23794b6507456afb170933a91a9",
+      "assets/chess-rook-on-a-square-step-2.jpg": "3f3847a6ca8a118d9d0ded730613a110d9013fcc8b9c2ab7bf1b7a7f6977302b",
+      "assets/chess-rook-on-a-square-step-3.jpg": "77dfa422e3cae4926012cf83d5f53d27d3bd2bcc318930ed22980a4e1eb596b3",
+      "assets/chess-rook-on-a-square-step-4.jpg": "62a79740726636825cacd98cf5f20089adfd4004df2792de2562eb5e2a26b45e",
+      "assets/chess-rook-on-a-square-finished-v1.jpg": "a7757b2d7c3922893e95bf27dea61f0f1b79c42921fcdf34a56743c64a688f47"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "bottom base oval",
+          "base rim",
+          "tapered shaft"
+        ],
+        "observed_addition": "The same low pedestal keeps its width and position; two sloping sides rise to a short curved shaft top.",
+        "instruction_match": "The second instruction starts both sides at the established pedestal and closes their tops.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "bottom base oval",
+          "base rim",
+          "tapered shaft",
+          "neck collar",
+          "turret bowl",
+          "three battlements"
+        ],
+        "observed_addition": "The base and tapered shaft stay fixed; a narrow neck band and broad castle face appear above, capped by three square tabs and two open notches. The earlier shaft top is covered by the new collar.",
+        "instruction_match": "The third instruction wraps the collar around the shaft top and builds the turret with three tabs.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "bottom base oval",
+          "base rim",
+          "tapered shaft",
+          "neck collar",
+          "turret bowl",
+          "three battlements",
+          "front stone seams",
+          "board square",
+          "contact shadow"
+        ],
+        "observed_addition": "The complete rook remains at the same anchors; two staggered seams appear on the shaft, and a lightly tilted square and broken contact shadow appear behind the base.",
+        "instruction_match": "The fourth instruction names the two seams, the square behind the rook, and the shadow below it.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "bottom base oval",
+          "base rim",
+          "tapered shaft",
+          "neck collar",
+          "turret bowl",
+          "three battlements",
+          "front stone seams",
+          "board square",
+          "contact shadow"
+        ],
+        "observed_addition": "The three tabs, two notches, collar, seams, board corners and base anchors persist; graphite darkens the right turret and shaft and deepens the same contact shadow.",
+        "instruction_match": "The final instruction shades only existing stone planes and shadow while leaving the board square pale.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
