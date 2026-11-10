@@ -1,0 +1,264 @@
+{
+  "schema_version": 5,
+  "slug": "drawstring-pouch-with-tassels",
+  "finished": "assets/drawstring-pouch-with-tassels-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A soft squat pouch body with an open gathered top fixes the silhouette and leaves room for the cord channel and hanging tassels.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel handmade pencil contact sheet; review saved sheet and crops before approval."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "pouch body",
+      "introduced_by_step": 1,
+      "description": "A squat rounded pouch body with a softly flattened bottom and open top."
+    },
+    {
+      "name": "gathered neck",
+      "introduced_by_step": 2,
+      "description": "Two short inward shoulders pinch into the gathered opening."
+    },
+    {
+      "name": "top opening",
+      "introduced_by_step": 2,
+      "description": "A narrow curved opening joins the gathered shoulders."
+    },
+    {
+      "name": "cord channel",
+      "introduced_by_step": 3,
+      "description": "Two shallow parallel arcs run around the upper pouch below the opening."
+    },
+    {
+      "name": "left cord",
+      "introduced_by_step": 4,
+      "description": "One loose cord emerges from the left channel opening and hangs down."
+    },
+    {
+      "name": "right cord",
+      "introduced_by_step": 4,
+      "description": "One loose cord emerges from the right channel opening and hangs down."
+    },
+    {
+      "name": "left tassel",
+      "introduced_by_step": 4,
+      "description": "A small tapered tassel ends the left cord."
+    },
+    {
+      "name": "right tassel",
+      "introduced_by_step": 4,
+      "description": "A small tapered tassel ends the right cord."
+    },
+    {
+      "name": "center seam",
+      "introduced_by_step": 5,
+      "description": "A short broken vertical seam sits on the front center."
+    },
+    {
+      "name": "two lower folds",
+      "introduced_by_step": 5,
+      "description": "Two separate light folds rise from the bottom corners."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/drawstring-pouch-with-tassels-step-1.jpg",
+      "step_name": "Shape the pouch",
+      "visible_job": "Draw a squat soft-sided pouch with a gently flattened bottom. Leave a gap across the top center for its gathered neck.",
+      "instruction": "Draw a squat soft-sided pouch with a gently flattened bottom. Leave a gap across the top center for its gathered neck.",
+      "adds": [
+        "pouch body"
+      ],
+      "introduces": [
+        "pouch body"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/drawstring-pouch-with-tassels-step-2.jpg",
+      "step_name": "Gather the top",
+      "visible_job": "From the upper left and right body ends, bend two short shoulders inward; join them with a narrow curved opening.",
+      "instruction": "From the upper left and right body ends, bend two short shoulders inward; join them with a narrow curved opening.",
+      "adds": [
+        "gathered neck",
+        "top opening"
+      ],
+      "introduces": [
+        "gathered neck",
+        "top opening"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/drawstring-pouch-with-tassels-step-3.jpg",
+      "step_name": "Add the cord channel",
+      "visible_job": "Just below the opening, draw two shallow parallel arcs across the pouch front, ending at the side shoulders.",
+      "instruction": "Just below the opening, draw two shallow parallel arcs across the pouch front, ending at the side shoulders.",
+      "adds": [
+        "cord channel"
+      ],
+      "introduces": [
+        "cord channel"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/drawstring-pouch-with-tassels-step-4.jpg",
+      "step_name": "Hang two tassels",
+      "visible_job": "From the left and right channel ends, draw one loose cord down each side. Finish each cord with a small tapered tassel.",
+      "instruction": "From the left and right channel ends, draw one loose cord down each side. Finish each cord with a small tapered tassel.",
+      "adds": [
+        "left cord",
+        "right cord",
+        "left tassel",
+        "right tassel"
+      ],
+      "introduces": [
+        "left cord",
+        "right cord",
+        "left tassel",
+        "right tassel"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/drawstring-pouch-with-tassels-step-5.jpg",
+      "step_name": "Mark the fabric folds",
+      "visible_job": "Add a short broken seam at the front center and one light upward fold from each bottom corner. Keep all three marks inside the pouch.",
+      "instruction": "Add a short broken seam at the front center and one light upward fold from each bottom corner. Keep all three marks inside the pouch.",
+      "adds": [
+        "center seam",
+        "two lower folds"
+      ],
+      "introduces": [
+        "center seam",
+        "two lower folds"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/drawstring-pouch-with-tassels-finished-v1.jpg",
+    "step_name": "Shade the linen pouch",
+    "visible_job": "Darken established seams and edges, add restrained graphite shading and warm ochre on the existing fabric only.",
+    "instruction": "Deepen the established outlines and folds with 2B. Shade the pouch lightly with graphite and a touch of warm ochre, leaving paper-white highlights.",
+    "adds": [
+      "graphite and ochre shading on established fabric"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.3,
+    "finished_art_score": 8.2,
+    "first_step_observation": "The first saved crop is a centered squat pouch body with a flattened base and a deliberate top gap; the gap gives beginners clear endpoints for the gathered opening.",
+    "draw_through_observation": "Every adjacent saved JPG was compared at readable size. The lower body, upper shoulder anchors, channel arcs, two hanging cords and two tassels persist. The final frame shades existing fabric with visible pencil grain. There are no temporary guides, unexplained removals, or moved landmarks.",
+    "contract_sha256": "e47a4ad8f8966c4fd8e12873c46105f52dd43918ba5d2d1bc9455bc064263ab4",
+    "asset_sha256": {
+      "assets/drawstring-pouch-with-tassels-step-1.jpg": "0c2cdcd5c16a8f24aac2a57d8fe69fc88f8f44cffa223ab9dbd4797e74b7e01f",
+      "assets/drawstring-pouch-with-tassels-step-2.jpg": "9963055e47ae2d4aee9cdfac5350523dbd495323680eccb9e912af79fed32a75",
+      "assets/drawstring-pouch-with-tassels-step-3.jpg": "74626541f9be2155df4e1e13dce0c2af0fa936ac9503bc04ff0e5aacd6145e31",
+      "assets/drawstring-pouch-with-tassels-step-4.jpg": "ec17cdb1128f12809d5ff546e442a68f4e3c3a1baf463da017291002cb9b727e",
+      "assets/drawstring-pouch-with-tassels-step-5.jpg": "07dfcd605ab9b7e2ba5fd2f00a80aeeed607a499a908076e2e0b20654c1ca373",
+      "assets/drawstring-pouch-with-tassels-finished-v1.jpg": "31c1ac7a677531f8aca5a4c00046680653a9e0286972b601a70a89522873e8df"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "pouch body",
+          "gathered neck",
+          "top opening"
+        ],
+        "observed_addition": "The squat pouch body and flattened bottom stay fixed; two inward gathered shoulders and a narrow curved opening join the two reserved top endpoints.",
+        "instruction_match": "The opening instruction joins the two original upper ends without relocating the pouch.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "pouch body",
+          "gathered neck",
+          "top opening",
+          "cord channel"
+        ],
+        "observed_addition": "The body, both shoulders and top opening stay in place; two shallow parallel arcs add the cord channel below the opening.",
+        "instruction_match": "The channel instruction places its two arcs between the existing upper shoulders.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "pouch body",
+          "gathered neck",
+          "top opening",
+          "cord channel",
+          "left cord",
+          "right cord",
+          "left tassel",
+          "right tassel"
+        ],
+        "observed_addition": "The same body, opening and channel remain; one cord leaves each side and ends in one separate tapered tassel. Exactly two cords and two tassels are visible.",
+        "instruction_match": "The cord instruction names both side exits and the two tassel endings.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "pouch body",
+          "gathered neck",
+          "top opening",
+          "cord channel",
+          "left cord",
+          "right cord",
+          "left tassel",
+          "right tassel",
+          "center seam",
+          "two lower folds"
+        ],
+        "observed_addition": "Both cords and tassels retain their anchors; a short broken center seam and one set of light folds at each bottom corner appear inside the body.",
+        "instruction_match": "The fold instruction locates the center seam and the two lower corner fold groups.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "pouch body",
+          "gathered neck",
+          "top opening",
+          "cord channel",
+          "left cord",
+          "right cord",
+          "left tassel",
+          "right tassel",
+          "center seam",
+          "two lower folds"
+        ],
+        "observed_addition": "All pouch contours, two cords, two tassels, center seam and lower folds remain; graphite and warm ochre darken only established fabric and tassels.",
+        "instruction_match": "The final instruction shades existing forms without introducing a structural line.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
