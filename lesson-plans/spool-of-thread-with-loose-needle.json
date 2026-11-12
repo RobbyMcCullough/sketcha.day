@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "spool-of-thread-with-loose-needle",
+  "finished": "assets/spool-of-thread-with-loose-needle-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A top ellipse and two tapering sides establish the spool's position and axis without requiring later details.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel graphite contact sheet; inspect before crop."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "spool top ellipse and sides",
+      "introduced_by_step": 1,
+      "description": "Tilted top rim and two sides descending to the base."
+    },
+    {
+      "name": "bottom flange",
+      "introduced_by_step": 2,
+      "description": "Curved lower lip closing the spool."
+    },
+    {
+      "name": "wound thread bands",
+      "introduced_by_step": 3,
+      "description": "Three curved wraps between the flanges."
+    },
+    {
+      "name": "loose thread tail",
+      "introduced_by_step": 4,
+      "description": "One continuous thread leaves the right side and curls onto paper."
+    },
+    {
+      "name": "diagonal needle",
+      "introduced_by_step": 5,
+      "description": "One thin needle lies to the lower right with eye and pointed tip."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/spool-of-thread-with-loose-needle-step-1.jpg",
+      "step_name": "Place the spool",
+      "visible_job": "Draw the tilted top ellipse and two connected sides.",
+      "instruction": "Draw a shallow oval near the upper middle of the page. From its left and right edges, pull two sides down toward the base.",
+      "adds": [
+        "spool top ellipse and sides"
+      ],
+      "introduces": [
+        "spool top ellipse and sides"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/spool-of-thread-with-loose-needle-step-2.jpg",
+      "step_name": "Close the lower flange",
+      "visible_job": "Join the two sides with a curved lower flange.",
+      "instruction": "Connect the two side ends with a broad shallow lower curve to form the spool flange.",
+      "adds": [
+        "bottom flange"
+      ],
+      "introduces": [
+        "bottom flange"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/spool-of-thread-with-loose-needle-step-3.jpg",
+      "step_name": "Wrap the thread",
+      "visible_job": "Add three curved thread bands across the central barrel.",
+      "instruction": "Between the top and lower flanges, draw three gently curved horizontal wraps that follow the spool's rounded body.",
+      "adds": [
+        "wound thread bands"
+      ],
+      "introduces": [
+        "wound thread bands"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/spool-of-thread-with-loose-needle-step-4.jpg",
+      "step_name": "Let a strand unwind",
+      "visible_job": "Add a continuous thread tail leaving the right side and curling on the paper.",
+      "instruction": "From the right edge just above the lower flange, pull one thin thread strand rightward and let it curl toward the lower center.",
+      "adds": [
+        "loose thread tail"
+      ],
+      "introduces": [
+        "loose thread tail"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/spool-of-thread-with-loose-needle-step-5.jpg",
+      "step_name": "Set down the needle",
+      "visible_job": "Add one diagonal needle beside the existing thread curl.",
+      "instruction": "To the right of the spool, draw a slender diagonal needle pointing down-right. Close its upper end with a tiny eye; keep the point sharp.",
+      "adds": [
+        "diagonal needle"
+      ],
+      "introduces": [
+        "diagonal needle"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/spool-of-thread-with-loose-needle-finished-v1.jpg",
+    "step_name": "Shade the sewing tools",
+    "visible_job": "Shade established spool, thread, and needle contours without new structure.",
+    "instruction": "Shade the established top and side planes with graphite, darken the three thread wraps selectively, and add a short soft cast shadow beneath the spool.",
+    "adds": [
+      "graphite shading"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The first saved crop has one centered shallow top ellipse with two sides descending at fixed anchors; a beginner can place the spool axis before the lower flange.",
+    "draw_through_observation": "Viewed the six-cell approved sheet and saved finish at readable size. The ellipse, sides, lower flange, three thread bands, loose tail and separate needle retain their positions. No temporary guides appear. The repaired final removes the unwanted top hole and shades existing geometry.",
+    "contract_sha256": "3a5d0e411d3c5077b7bf657286105966e17b6e8f09ed5369d893113292add2ce",
+    "asset_sha256": {
+      "assets/spool-of-thread-with-loose-needle-step-1.jpg": "0093465e3556be5050e7c83e0b1ad828af36a9c75335c192b01ef27ca93c90f3",
+      "assets/spool-of-thread-with-loose-needle-step-2.jpg": "f80788110dffe4944b6be2169dbdad001e418b8c537849c3a82f0ed979aff570",
+      "assets/spool-of-thread-with-loose-needle-step-3.jpg": "cc51ae215ccf626be95cf61498029bc1fccd44f1eaa630ec95f855b08c5f9319",
+      "assets/spool-of-thread-with-loose-needle-step-4.jpg": "7aa95b2c1b2d80066d773ddd655dfe77785b2c686f8e3bbcc34336ebdb2edaf2",
+      "assets/spool-of-thread-with-loose-needle-step-5.jpg": "0ec89b6840fc2ee555d5e3e2d0adea5ef75afcd07eb040fc227d879ffc2aa7f8",
+      "assets/spool-of-thread-with-loose-needle-finished-v1.jpg": "8175311094dfde8a3bcc92399b39561c4a4ec5070bf00e55c4493f6222e54840"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "spool top ellipse and sides",
+          "bottom flange"
+        ],
+        "observed_addition": "The original top ellipse and both sides stay at the same anchors; a broad bottom curve closes the lower flange.",
+        "instruction_match": "The lower-flange instruction connects the two existing side ends and creates no detached part.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "spool top ellipse and sides",
+          "bottom flange",
+          "wound thread bands"
+        ],
+        "observed_addition": "The top ellipse, sides and lower flange remain; three gently curved bands now cross the spool barrel.",
+        "instruction_match": "The wrap instruction gives the barrel as the location and calls for three curved bands.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "spool top ellipse and sides",
+          "bottom flange",
+          "wound thread bands",
+          "loose thread tail"
+        ],
+        "observed_addition": "All spool contours and three bands remain; a single thin tail leaves the right lower edge and curls down toward center.",
+        "instruction_match": "The strand instruction identifies the exit just above the lower flange and its curl direction.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "spool top ellipse and sides",
+          "bottom flange",
+          "wound thread bands",
+          "loose thread tail",
+          "diagonal needle"
+        ],
+        "observed_addition": "The spool and continuous loose strand remain; one thin diagonal needle appears to the right, eye uppermost and tip lower-right.",
+        "instruction_match": "The needle instruction names its separate right-side position, diagonal direction, eye and tip.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "spool top ellipse and sides",
+          "bottom flange",
+          "wound thread bands",
+          "loose thread tail",
+          "diagonal needle"
+        ],
+        "observed_addition": "All five structural landmarks remain at their anchors; graphite grain and a short base shadow add value without changing their contours.",
+        "instruction_match": "The finishing instruction shades the top, sides, wraps and existing base without asking for a new shape.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
