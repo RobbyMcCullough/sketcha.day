@@ -1937,3 +1937,8 @@
 - Added Day 179 `folded-trail-map-with-marked-route` in isolated checkout `/Users/mybbor/Library/CloudStorage/Dropbox/websites/sketcha-day-2026-11-08` because the main checkout retains the unrelated November 6 pending brass door knocker draft and public art. Those original files were not changed.
 - Rejected an initial clothespin candidate as an archive duplicate before art; rejected two map sheets privately for sparse/flat finishes. Six saved graphite crops retain one paper outline, two folds, dotted route, two peaks, river, start circle, destination triangle and compass before restrained shading/color. Teaching 8.1/10; saved finish 8.0/10.
 - Schema-v5 review hashes, readiness, diff check and localhost desktop/mobile homepage, library and tutorial QA passed. One-current-lesson-per-site cadence remains active; no routine backfill. Harness: Codex; task: 2026-11-08 — Daily sketch and doodle lessons.
+
+## 2026-11-13 — Current garden trowel lesson (Codex)
+
+- Added Day 184 `garden-trowel-with-soil` for November 13 from a six-panel graphite contact sheet. Saved crops retain the blade, neck, grip, mound and three crumbs; teaching 8.1/10, finish 8.0/10. The one-current-lesson-per-site cadence remains active, with no backfill.
+- Readiness passed against the localhost fallback because Cove serves the older Sketcha checkout. Original main checkout and its pending November 6 brass-door-knocker draft remain untouched; this work is in the clean daily worktree.

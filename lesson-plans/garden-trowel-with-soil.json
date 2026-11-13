@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "garden-trowel-with-soil",
+  "finished": "assets/garden-trowel-with-soil-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The pointed scoop fixes the tool angle and gives the neck a clear attachment.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel pencil contact sheet; review before cropping."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "trowel blade",
+      "introduced_by_step": 1,
+      "description": "Draw a pointed scoop as two gently curved sides meeting at a rounded tip."
+    },
+    {
+      "name": "blade neck",
+      "introduced_by_step": 2,
+      "description": "From the broad top of the blade, draw a narrow neck that meets both blade shoulders."
+    },
+    {
+      "name": "wooden handle",
+      "introduced_by_step": 3,
+      "description": "From the narrow neck, add a small collar and a rounded wooden grip angled up-right; close its top."
+    },
+    {
+      "name": "soil mound",
+      "introduced_by_step": 4,
+      "description": "Under the blade tip, sketch a low irregular mound with a clear contact point."
+    },
+    {
+      "name": "loose soil crumbs",
+      "introduced_by_step": 5,
+      "description": "Add three small soil crumbs beside the mound and two short grain marks inside the handle."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/garden-trowel-with-soil-step-1.jpg",
+      "step_name": "Shape the scoop",
+      "visible_job": "Draw a pointed scoop as two gently curved sides meeting at a rounded tip.",
+      "instruction": "Draw a pointed scoop as two gently curved sides meeting at a rounded tip.",
+      "adds": [
+        "trowel blade"
+      ],
+      "introduces": [
+        "trowel blade"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/garden-trowel-with-soil-step-2.jpg",
+      "step_name": "Attach the neck",
+      "visible_job": "From the broad top of the blade, draw a narrow neck that meets both blade shoulders.",
+      "instruction": "From the broad top of the blade, draw a narrow neck that meets both blade shoulders.",
+      "adds": [
+        "blade neck"
+      ],
+      "introduces": [
+        "blade neck"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/garden-trowel-with-soil-step-3.jpg",
+      "step_name": "Draw the grip",
+      "visible_job": "From the narrow neck, add a small collar and a rounded wooden grip angled up-right; close its top.",
+      "instruction": "From the narrow neck, add a small collar and a rounded wooden grip angled up-right; close its top.",
+      "adds": [
+        "wooden handle"
+      ],
+      "introduces": [
+        "wooden handle"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/garden-trowel-with-soil-step-4.jpg",
+      "step_name": "Set the soil",
+      "visible_job": "Under the blade tip, sketch a low irregular mound with a clear contact point.",
+      "instruction": "Under the blade tip, sketch a low irregular mound with a clear contact point.",
+      "adds": [
+        "soil mound"
+      ],
+      "introduces": [
+        "soil mound"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/garden-trowel-with-soil-step-5.jpg",
+      "step_name": "Add small details",
+      "visible_job": "Add three small soil crumbs beside the mound and two short grain marks inside the handle.",
+      "instruction": "Add three small soil crumbs beside the mound and two short grain marks inside the handle.",
+      "adds": [
+        "loose soil crumbs"
+      ],
+      "introduces": [
+        "loose soil crumbs"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/garden-trowel-with-soil-finished-v1.jpg",
+    "step_name": "Shade the trowel",
+    "visible_job": "Darken existing contours and add light graphite shade within the blade, handle, and soil.",
+    "instruction": "Darken the keeper lines, shade one side of the blade and grip, and hatch the soil mound lightly.",
+    "adds": [
+      "graphite shading"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The pointed open scoop fixes the diagonal tool angle and leaves two shoulder ends for the neck.",
+    "draw_through_observation": "I compared the full six-cell sheet and every saved crop. The scoop, neck, collar, grip, mound, three crumbs and two grip marks stay at their anchors; no temporary guides appear. The finish adds graphite texture only.",
+    "contract_sha256": "c6f30eb8b9fdf2c188abaef96e7dd8dc927a1608da883d7477be6b1d394a5053",
+    "asset_sha256": {
+      "assets/garden-trowel-with-soil-step-1.jpg": "2ce4496c54da4a75a60d16a962370c7d51a4eba1711d874a25e99a22fd36e7a1",
+      "assets/garden-trowel-with-soil-step-2.jpg": "fe9bfd0183f3145c1af1e8cea2d00071942d5a16faf07df0650d5262ca04885c",
+      "assets/garden-trowel-with-soil-step-3.jpg": "7950dc5c9305dfd3f9f56db09eedeb3ad31177218836803966b8b8d71b4fbd0c",
+      "assets/garden-trowel-with-soil-step-4.jpg": "5bbbb328682bb9b1b8b6d201676d7d50e34f7f557d8337508b79d2e7a2c655d5",
+      "assets/garden-trowel-with-soil-step-5.jpg": "28bfcbb5fc9a6be7d1c1e70418c9ed4642ca0002c1a58c24dfe005af756efb01",
+      "assets/garden-trowel-with-soil-finished-v1.jpg": "3a32ac668c43cbed4b855aecb496551670879093fe2412cf9fda253568a78930"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "trowel blade",
+          "blade neck"
+        ],
+        "observed_addition": "The scoop keeps its tip and shoulders; a narrow neck joins both upper shoulder ends.",
+        "instruction_match": "From the broad top of the blade, draw a narrow neck that meets both blade shoulders.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "trowel blade",
+          "blade neck",
+          "wooden handle"
+        ],
+        "observed_addition": "The scoop and neck persist; a collar and rounded grip extend up-right from the neck.",
+        "instruction_match": "From the narrow neck, add a small collar and a rounded wooden grip angled up-right; close its top.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "trowel blade",
+          "blade neck",
+          "wooden handle",
+          "soil mound"
+        ],
+        "observed_addition": "The blade, neck and grip persist; a low irregular mound meets the blade tip.",
+        "instruction_match": "Under the blade tip, sketch a low irregular mound with a clear contact point.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "trowel blade",
+          "blade neck",
+          "wooden handle",
+          "soil mound",
+          "loose soil crumbs"
+        ],
+        "observed_addition": "All tool and mound outlines persist; three crumbs appear to the right and two grain marks inside the grip.",
+        "instruction_match": "Add three small soil crumbs beside the mound and two short grain marks inside the handle.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "trowel blade",
+          "blade neck",
+          "wooden handle",
+          "soil mound",
+          "loose soil crumbs"
+        ],
+        "observed_addition": "All five landmarks persist; graphite shades established blade, grip and mound contours without new structure.",
+        "instruction_match": "Darken the keeper lines, shade one side of the blade and grip, and hatch the soil mound lightly.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
