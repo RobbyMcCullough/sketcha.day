@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "safety-pin-with-open-clasp",
+  "finished": "assets/safety-pin-with-open-clasp-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The diagonal spine and complete lower coil fix the pin angle and leave a clear start for its open arm.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "First sheet rejected privately because the open bend closed into a coil. Second six-panel generated raster sheet approved after full and saved-crop review."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "wire spine and coil",
+      "introduced_by_step": 1,
+      "description": "One long diagonal spine attached to one complete round lower coil."
+    },
+    {
+      "name": "open pointed arm",
+      "introduced_by_step": 2,
+      "description": "One straight pointed arm rises from the coil and stays open."
+    },
+    {
+      "name": "clasp housing",
+      "introduced_by_step": 3,
+      "description": "One folded metal clasp attached to the top of the spine."
+    },
+    {
+      "name": "two clasp glints and one coil glint",
+      "introduced_by_step": 4,
+      "description": "Two short parallel glints on the clasp and one small coil glint."
+    },
+    {
+      "name": "broken ground shadow",
+      "introduced_by_step": 5,
+      "description": "One soft broken horizontal shadow under the coil."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/safety-pin-with-open-clasp-step-1.jpg",
+      "step_name": "Draw the spine and coil",
+      "visible_job": "One diagonal spine ends in a complete lower coil.",
+      "instruction": "Draw a long diagonal spine down-right and loop its lower end into one complete round coil.",
+      "adds": [
+        "wire spine and coil"
+      ],
+      "introduces": [
+        "wire spine and coil"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/safety-pin-with-open-clasp-step-2.jpg",
+      "step_name": "Raise the open point",
+      "visible_job": "One pointed arm rises from the coil.",
+      "instruction": "From the coil, pull a straight slim arm upward and taper it to a point, leaving a wide gap to the spine top.",
+      "adds": [
+        "open pointed arm"
+      ],
+      "introduces": [
+        "open pointed arm"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/safety-pin-with-open-clasp-step-3.jpg",
+      "step_name": "Fold the clasp",
+      "visible_job": "One hook clasp attaches to the top spine end.",
+      "instruction": "At the top end of the spine, draw a folded hook clasp with its opening facing the pointed arm.",
+      "adds": [
+        "clasp housing"
+      ],
+      "introduces": [
+        "clasp housing"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/safety-pin-with-open-clasp-step-4.jpg",
+      "step_name": "Leave metal glints",
+      "visible_job": "Two clasp glints and one coil glint appear.",
+      "instruction": "Add two short parallel glints inside the clasp and one tiny curved glint inside the coil.",
+      "adds": [
+        "two clasp glints and one coil glint"
+      ],
+      "introduces": [
+        "two clasp glints and one coil glint"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/safety-pin-with-open-clasp-step-5.jpg",
+      "step_name": "Set the ground shadow",
+      "visible_job": "A broken shadow appears under the coil.",
+      "instruction": "Shade a broken horizontal shadow below the pin, darkest under the coil.",
+      "adds": [
+        "broken ground shadow"
+      ],
+      "introduces": [
+        "broken ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/safety-pin-with-open-clasp-finished-v1.jpg",
+    "step_name": "Shade the metal",
+    "visible_job": "Graphite shading strengthens existing forms without new contours.",
+    "instruction": "Strengthen the established spine, arm, coil, and clasp with 2B graphite, leaving the existing glints pale and deepening the existing ground shadow.",
+    "adds": [
+      "graphite shading"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.0,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The first saved crop has a complete round coil connected to a long diagonal spine at the final anchors; the open space reserves the pin arm.",
+    "draw_through_observation": "I compared the full second sheet and six saved crops in order. The spine and coil anchors, rising point, folded clasp, three glints, and ground shadow persist. No guides or moved structural lines appear. The last crop only deepens established graphite.",
+    "contract_sha256": "c7a506a59107b78726b6d8359feab7fcb7df40ae4cae732a37cbf6e51e25e94e",
+    "asset_sha256": {
+      "assets/safety-pin-with-open-clasp-step-1.jpg": "d0acc5d12a41eae507c7278c7234f8efeee5bf7e561e9c25d9767e4cae79c014",
+      "assets/safety-pin-with-open-clasp-step-2.jpg": "e22ce5adad8657826139eaaca74e3f300d067bfca5881aea638d4ad85ef89526",
+      "assets/safety-pin-with-open-clasp-step-3.jpg": "3133bec62dafc35112e5f213725ce59804e29bf71e50e3808ea3b11c76dc8fca",
+      "assets/safety-pin-with-open-clasp-step-4.jpg": "19e2a71824a04253c5fd3c7cd6fce48593c203a036ce5a297a18722ea09198fc",
+      "assets/safety-pin-with-open-clasp-step-5.jpg": "d6375a73b5afe48d3e33d3c6b2edbed9eab9997d9b3da6fbce07fb4594e46733",
+      "assets/safety-pin-with-open-clasp-finished-v1.jpg": "a743f421aae7ad3583ecca2ad9f85ab2bde035d4a77ba273f4d8838d2626942f"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "wire spine and coil",
+          "open pointed arm"
+        ],
+        "observed_addition": "The spine and complete coil remain fixed; one slim pointed arm rises from the coil and stops short of the clasp end.",
+        "instruction_match": "From the coil, pull a straight slim arm upward and taper it to a point, leaving a wide gap to the spine top.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "wire spine and coil",
+          "open pointed arm",
+          "clasp housing"
+        ],
+        "observed_addition": "Spine, coil and pointed arm remain; a folded hook clasp attaches to the spine top.",
+        "instruction_match": "At the top end of the spine, draw a folded hook clasp with its opening facing the pointed arm.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "wire spine and coil",
+          "open pointed arm",
+          "clasp housing",
+          "two clasp glints and one coil glint"
+        ],
+        "observed_addition": "All pin contours remain; two short glints appear in the clasp and one inside the coil.",
+        "instruction_match": "Add two short parallel glints inside the clasp and one tiny curved glint inside the coil.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "wire spine and coil",
+          "open pointed arm",
+          "clasp housing",
+          "two clasp glints and one coil glint",
+          "broken ground shadow"
+        ],
+        "observed_addition": "All metal and glints remain; a broken horizontal shadow appears under the coil.",
+        "instruction_match": "Shade a broken horizontal shadow below the pin, darkest under the coil.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "wire spine and coil",
+          "open pointed arm",
+          "clasp housing",
+          "two clasp glints and one coil glint",
+          "broken ground shadow"
+        ],
+        "observed_addition": "The spine, coil, point, clasp, three glints and shadow remain; graphite darkens the existing contours and shadow.",
+        "instruction_match": "Strengthen the established spine, arm, coil, and clasp with 2B graphite, leaving the existing glints pale and deepening the existing ground shadow.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
