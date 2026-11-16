@@ -1945,3 +1945,7 @@
 
 ## 2026-11-15 — Current open safety pin lesson (Codex)
 - Added Day 186 `safety-pin-with-open-clasp` for November 15. First generated sheet was rejected because its bend silently became a closed coil; approved second six-panel graphite sheet retains the spine, complete coil, pointed arm, clasp, three glints and shadow. Every saved adjacent crop including the finish was reviewed: teaching 8.0/10, finished image 8.0/10 for clear metal silhouette, pencil grain, stable anchors and attainable detail. Schema-v5 hashes, localhost readiness, links, JSON-LD and diff checks passed. The one-current-lesson-per-site cadence remains active, with no backfill. Harness: Codex; task: 2026-11-15 — Daily sketch and doodle lessons; local path: /Users/mybbor/Library/CloudStorage/Dropbox/websites/.sketcha-day-2026-11-10.
+
+## 2026-11-16 — Current hanging bird feeder lesson (Codex)
+
+- Added Sketcha Day 187, `hanging-bird-feeder`, for November 16. Six cumulative graphite crops retain peaked roof and hanger, two posts and tray, seed mound, perched bird, wing and eye through restrained shading. Teaching 8.1/10; saved finish 8.0/10 for legible pencil texture and a useful 20-minute subject. Schema-v5 review hashes, localhost readiness, JSON-LD, links and diff check passed; Cove points at original dirty checkout. One-current-lesson-per-site cadence remains active; no backfill. Harness: Codex; task: 2026-11-16 — Daily sketch and doodle lessons; publishing worktree: /Users/mybbor/Library/CloudStorage/Dropbox/websites/.sketcha-day-2026-11-10.

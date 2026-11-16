@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "hanging-bird-feeder",
+  "finished": "assets/hanging-bird-feeder-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The first connected silhouette fixes the subject in its final position and is easy to copy before details.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Six-panel contact sheet; visual review pending."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "feeder roof and hanger",
+      "introduced_by_step": 1,
+      "description": "One peaked roof with a curved wire rising from its apex."
+    },
+    {
+      "name": "feeder tray and posts",
+      "introduced_by_step": 2,
+      "description": "Two side posts connect roof ends to a shallow tray."
+    },
+    {
+      "name": "seed opening",
+      "introduced_by_step": 3,
+      "description": "One open center window and small seed pile inside tray."
+    },
+    {
+      "name": "perched bird",
+      "introduced_by_step": 4,
+      "description": "One small bird perched on right tray rim with tail outside."
+    },
+    {
+      "name": "wing and eye",
+      "introduced_by_step": 5,
+      "description": "One curved wing and one visible eye on the bird."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/hanging-bird-feeder-step-1.jpg",
+      "step_name": "Set the roof and hanger",
+      "visible_job": "Peaked roof and connected hanging wire",
+      "instruction": "Draw two sloping roof edges meeting at a peak; loop one wire upward from that peak.",
+      "adds": [
+        "feeder roof and hanger"
+      ],
+      "introduces": [
+        "feeder roof and hanger"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/hanging-bird-feeder-step-2.jpg",
+      "step_name": "Build the feeder body",
+      "visible_job": "Two posts and shallow tray",
+      "instruction": "Drop a post from each roof end and join their bottoms with a shallow tray curve.",
+      "adds": [
+        "feeder tray and posts"
+      ],
+      "introduces": [
+        "feeder tray and posts"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/hanging-bird-feeder-step-3.jpg",
+      "step_name": "Open the seed bay",
+      "visible_job": "Center opening and seed pile",
+      "instruction": "Leave the middle between posts open; sketch a low seed mound resting on the tray.",
+      "adds": [
+        "seed opening"
+      ],
+      "introduces": [
+        "seed opening"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/hanging-bird-feeder-step-4.jpg",
+      "step_name": "Perch a bird",
+      "visible_job": "Small bird, beak, and tail",
+      "instruction": "Place a small oval bird on the right rim; add its short beak and a tail pointing out.",
+      "adds": [
+        "perched bird"
+      ],
+      "introduces": [
+        "perched bird"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/hanging-bird-feeder-step-5.jpg",
+      "step_name": "Give the bird detail",
+      "visible_job": "Add the curved bird wing and tiny visible eye",
+      "instruction": "Add a curved wing inside the bird oval and a tiny eye above its beak.",
+      "adds": [
+        "wing and eye"
+      ],
+      "introduces": [
+        "wing and eye"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/hanging-bird-feeder-finished-v1.jpg",
+    "step_name": "Shade the feeder",
+    "visible_job": "Restrained graphite on established forms",
+    "instruction": "Darken existing roof, posts, tray, seeds and bird; shade lightly with visible pencil grain.",
+    "adds": [
+      "shading on established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.1,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The saved first crop has a complete peaked roof and a curved hanger joined at the apex; its location leaves the full body area empty below.",
+    "draw_through_observation": "Viewed the full raster sheet and six saved square crops. Roof and hanger stay at fixed anchors; posts and tray, seed mound, bird silhouette, then wing and eye are added cumulatively. No temporary guides, moved lines, or unexplained removals. The finish shades those contours only.",
+    "contract_sha256": "77fbfc2be5b81c5bd7498aff509c0803db60c7c882c9672ee423df14a2459137",
+    "asset_sha256": {
+      "assets/hanging-bird-feeder-step-1.jpg": "a3732ac403a5271b246ea6a8bb1a19fb5f45ce93240494808019a46f81dd40d0",
+      "assets/hanging-bird-feeder-step-2.jpg": "79ebdca0457859dca643580d6f929a51e898e7a9ad75d48a5c0424d96404fa36",
+      "assets/hanging-bird-feeder-step-3.jpg": "9843d33a85d9ac98cf937b9abfd9d9db0caa10cfbd44d04539d8cf9c36374949",
+      "assets/hanging-bird-feeder-step-4.jpg": "04ddf276dc9290aa44bf62bcd26c4464a2ef4e13aee11d2e99e270ad41da28fb",
+      "assets/hanging-bird-feeder-step-5.jpg": "eb6ec7ceef6cc8fca4f61726e7787cb163661bf8c480e8488733b7c8ee566789",
+      "assets/hanging-bird-feeder-finished-v1.jpg": "c3384542828372cf556f7680dd628c7f2d3dc36b01e8ca921e5c7c050873f0b0"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "feeder roof and hanger",
+          "feeder tray and posts"
+        ],
+        "observed_addition": "The roof and hanger persist; two posts descend from the roof and meet a shallow tray.",
+        "instruction_match": "Drop a post from each roof end and join their bottoms with a shallow tray curve.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "feeder roof and hanger",
+          "feeder tray and posts",
+          "seed opening"
+        ],
+        "observed_addition": "Posts and tray persist; a low seed pile appears inside the bay.",
+        "instruction_match": "Leave the middle between posts open; sketch a low seed mound resting on the tray.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "feeder roof and hanger",
+          "feeder tray and posts",
+          "seed opening",
+          "perched bird"
+        ],
+        "observed_addition": "Feeder and seeds persist; the small bird appears on the right rim with beak and tail.",
+        "instruction_match": "Place a small oval bird on the right rim; add its short beak and a tail pointing out.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "feeder roof and hanger",
+          "feeder tray and posts",
+          "seed opening",
+          "perched bird",
+          "wing and eye"
+        ],
+        "observed_addition": "The bird stays perched at the same anchor; one curved wing and tiny eye appear.",
+        "instruction_match": "Add a curved wing inside the bird oval and a tiny eye above its beak.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "feeder roof and hanger",
+          "feeder tray and posts",
+          "seed opening",
+          "perched bird",
+          "wing and eye"
+        ],
+        "observed_addition": "All feeder and bird contours persist; roof underside, posts, tray, seeds and bird gain restrained graphite tone.",
+        "instruction_match": "Darken existing roof, posts, tray, seeds and bird; shade lightly with visible pencil grain.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
