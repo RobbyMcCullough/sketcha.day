@@ -1949,3 +1949,7 @@
 ## 2026-11-16 — Current hanging bird feeder lesson (Codex)
 
 - Added Sketcha Day 187, `hanging-bird-feeder`, for November 16. Six cumulative graphite crops retain peaked roof and hanger, two posts and tray, seed mound, perched bird, wing and eye through restrained shading. Teaching 8.1/10; saved finish 8.0/10 for legible pencil texture and a useful 20-minute subject. Schema-v5 review hashes, localhost readiness, JSON-LD, links and diff check passed; Cove points at original dirty checkout. One-current-lesson-per-site cadence remains active; no backfill. Harness: Codex; task: 2026-11-16 — Daily sketch and doodle lessons; publishing worktree: /Users/mybbor/Library/CloudStorage/Dropbox/websites/.sketcha-day-2026-11-10.
+
+## 2026-11-17 — Private pending lesson (Codex)
+
+- folded-pocket-knife-with-wood-handle has a reviewed six-panel raster sheet and saved crops; teaching and finish each scored at least 8/10. Readiness passed, but browser desktop/mobile QA was unavailable. Lesson remains private and pending; no commit or push. One-current-lesson-per-site cadence remains active; no backfill.

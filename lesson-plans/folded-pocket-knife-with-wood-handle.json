@@ -1,0 +1,224 @@
+{
+  "schema_version": 5,
+  "slug": "folded-pocket-knife-with-wood-handle",
+  "finished": "assets/folded-pocket-knife-with-wood-handle-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "The long closed handle gives a beginner a stable axis for attaching the blade and pivot.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Contact sheet pending review."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "wood handle outline",
+      "introduced_by_step": 1,
+      "description": "wood handle outline in a fixed position"
+    },
+    {
+      "name": "pivot circle",
+      "introduced_by_step": 2,
+      "description": "pivot circle in a fixed position"
+    },
+    {
+      "name": "folded blade",
+      "introduced_by_step": 3,
+      "description": "folded blade in a fixed position"
+    },
+    {
+      "name": "blade nail nick",
+      "introduced_by_step": 3,
+      "description": "Small oval nick inside folded blade."
+    },
+    {
+      "name": "three handle rivets",
+      "introduced_by_step": 4,
+      "description": "three handle rivets in a fixed position"
+    },
+    {
+      "name": "wood grain and ground shadow",
+      "introduced_by_step": 5,
+      "description": "wood grain and ground shadow in a fixed position"
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/folded-pocket-knife-with-wood-handle-step-1.jpg",
+      "step_name": "Shape the handle",
+      "visible_job": "Draw one long rounded wood handle tilted gently upward to the right.",
+      "instruction": "Draw one long rounded wood handle tilted gently upward to the right.",
+      "adds": [
+        "wood handle outline"
+      ],
+      "introduces": [
+        "wood handle outline"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/folded-pocket-knife-with-wood-handle-step-2.jpg",
+      "step_name": "Set the pivot",
+      "visible_job": "Place a small circle at the left end of the handle, centered between its edges.",
+      "instruction": "Place a small circle at the left end of the handle, centered between its edges.",
+      "adds": [
+        "pivot circle"
+      ],
+      "introduces": [
+        "pivot circle"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/folded-pocket-knife-with-wood-handle-step-3.jpg",
+      "step_name": "Fold in the blade",
+      "visible_job": "From the pivot, draw a short curved blade lying above the handle, with its tip stopping near the right end. Add a small oval nail nick inside the blade.",
+      "instruction": "From the pivot, draw a short curved blade lying above the handle, with its tip stopping near the right end. Add a small oval nail nick inside the blade.",
+      "adds": [
+        "folded blade",
+        "blade nail nick"
+      ],
+      "introduces": [
+        "folded blade",
+        "blade nail nick"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/folded-pocket-knife-with-wood-handle-step-4.jpg",
+      "step_name": "Place three rivets",
+      "visible_job": "Add three small rivets along the middle of the handle, spaced toward the right of the pivot.",
+      "instruction": "Add three small rivets along the middle of the handle, spaced toward the right of the pivot.",
+      "adds": [
+        "three handle rivets"
+      ],
+      "introduces": [
+        "three handle rivets"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/folded-pocket-knife-with-wood-handle-step-5.jpg",
+      "step_name": "Mark grain and shadow",
+      "visible_job": "Add two short wood-grain curves inside the handle and a broken shadow below it.",
+      "instruction": "Add two short wood-grain curves inside the handle and a broken shadow below it.",
+      "adds": [
+        "wood grain and ground shadow"
+      ],
+      "introduces": [
+        "wood grain and ground shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/folded-pocket-knife-with-wood-handle-finished-v1.jpg",
+    "step_name": "Shade the pocket knife",
+    "visible_job": "Darken existing lines and shade established wood and steel.",
+    "instruction": "Use warm brown pencil on the wood and soft graphite on the blade without changing the contours.",
+    "adds": [
+      "shading on established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.0,
+    "finished_art_score": 8.0,
+    "first_step_observation": "Saved first crop has one complete tilted handle with clear ends and ample space above for the folded blade.",
+    "draw_through_observation": "Viewed full raster sheet and each saved square crop. Handle, left pivot, folded blade and nick, three rivets, grain and shadow remain in position; final frame deepens existing tones. No temporary guides.",
+    "contract_sha256": "426567b44bbe533024e2af482f883f35306c3f5d7fde7e7dd842109c5dfd28be",
+    "asset_sha256": {
+      "assets/folded-pocket-knife-with-wood-handle-step-1.jpg": "ee8d207ec52b92ad0900d79b7fef03728ae386b9342cc572c8ab950eb4b8eb14",
+      "assets/folded-pocket-knife-with-wood-handle-step-2.jpg": "0441bb75941af81b4c6110f3607c943d2ec6cf895617a5ee48fa94d5b9aa29b1",
+      "assets/folded-pocket-knife-with-wood-handle-step-3.jpg": "bcb214f88736a2b97b5d88b868fd3f450defe6ae12402d4f01900cbb4fd89770",
+      "assets/folded-pocket-knife-with-wood-handle-step-4.jpg": "90a489d488e2a5950d610fffeb9d8f4eb96d4cd5062df16409b18e6385a114d4",
+      "assets/folded-pocket-knife-with-wood-handle-step-5.jpg": "75f88f9e07be905c78ae240acbed352c2c71af0e90d097a7bce882e26519746e",
+      "assets/folded-pocket-knife-with-wood-handle-finished-v1.jpg": "878434e77eed862449d67ac091a6f54fb6da932495b096f5f941a6525326fc08"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "wood handle outline",
+          "pivot circle"
+        ],
+        "observed_addition": "Left pivot circle appears at fixed handle end; the handle persists.",
+        "instruction_match": "Place a small circle at the left end of the handle, centered between its edges.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "wood handle outline",
+          "pivot circle",
+          "folded blade",
+          "blade nail nick"
+        ],
+        "observed_addition": "Folded steel blade and its oval nick appear above the same handle; pivot stays fixed.",
+        "instruction_match": "From the pivot, draw a short curved blade lying above the handle, with its tip stopping near the right end. Add a small oval nail nick inside the blade.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "wood handle outline",
+          "pivot circle",
+          "folded blade",
+          "blade nail nick",
+          "three handle rivets"
+        ],
+        "observed_addition": "Three small rivets appear along the existing handle; blade, nick and pivot remain.",
+        "instruction_match": "Add three small rivets along the middle of the handle, spaced toward the right of the pivot.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "wood handle outline",
+          "pivot circle",
+          "folded blade",
+          "blade nail nick",
+          "three handle rivets",
+          "wood grain and ground shadow"
+        ],
+        "observed_addition": "Two grain curves and broken ground shadow appear; all metal and rivets persist.",
+        "instruction_match": "Add two short wood-grain curves inside the handle and a broken shadow below it.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "wood handle outline",
+          "pivot circle",
+          "folded blade",
+          "blade nail nick",
+          "three handle rivets",
+          "wood grain and ground shadow"
+        ],
+        "observed_addition": "Existing wood, steel and shadow darken with pencil texture; no new contours appear.",
+        "instruction_match": "Use warm brown pencil on the wood and soft graphite on the blade without changing the contours.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

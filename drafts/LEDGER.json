@@ -241,6 +241,11 @@
       "date": "2026-10-15",
       "note": "Approved six-panel cumulative pencil process; five saved adjacent transitions and schema-v5 review hashes recorded for current Day 155."
     },
+    "folded-pocket-knife-with-wood-handle": {
+      "status": "pending",
+      "date": "2026-11-17",
+      "note": "2026-11-17: art and readiness passed; rendered browser QA unavailable. Do not publish until desktop/mobile review is complete."
+    },
     "folded-trail-map-with-marked-route": {
       "status": "published",
       "date": "2026-11-08",
