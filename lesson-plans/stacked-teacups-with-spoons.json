@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "stacked-teacups-with-spoons",
+  "finished": "assets/stacked-teacups-with-spoons-finished-v1.jpg",
+  "drawing_mode": "guided",
+  "first_step_test": "Two offset cup rims establish the upper and lower cups at their final positions.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "One generated handmade graphite six-panel contact sheet saved privately; square cells cropped without distortion."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "upper cup rim",
+      "introduced_by_step": 1,
+      "description": "Sketch a shallow oval rim for the upper cup, then a second wider rim below it, offset slightly right."
+    },
+    {
+      "name": "upper cup bowl and handle",
+      "introduced_by_step": 2,
+      "description": "Curve down from the upper rim to form its bowl; attach a C handle to its right edge."
+    },
+    {
+      "name": "lower cup rim and bowl",
+      "introduced_by_step": 3,
+      "description": "From the lower rim, curve down to form the second cup bowl, keeping it behind the upper cup."
+    },
+    {
+      "name": "lower cup handle and saucer",
+      "introduced_by_step": 4,
+      "description": "Attach a C handle to the lower cup and draw a broad saucer oval beneath it."
+    },
+    {
+      "name": "two teaspoons",
+      "introduced_by_step": 5,
+      "description": "Lay one narrow teaspoon beside each cup, with oval bowls and slim handles."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/stacked-teacups-with-spoons-step-1.jpg",
+      "step_name": "Upper Cup Rim",
+      "visible_job": "Sketch a shallow oval rim for the upper cup, then a second wider rim below it, offset slightly right.",
+      "instruction": "Sketch a shallow oval rim for the upper cup, then a second wider rim below it, offset slightly right.",
+      "adds": [
+        "upper cup rim"
+      ],
+      "introduces": [
+        "upper cup rim"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/stacked-teacups-with-spoons-step-2.jpg",
+      "step_name": "Upper Cup Bowl And Handle",
+      "visible_job": "Curve down from the upper rim to form its bowl; attach a C handle to its right edge.",
+      "instruction": "Curve down from the upper rim to form its bowl; attach a C handle to its right edge.",
+      "adds": [
+        "upper cup bowl and handle"
+      ],
+      "introduces": [
+        "upper cup bowl and handle"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/stacked-teacups-with-spoons-step-3.jpg",
+      "step_name": "Lower Cup Rim And Bowl",
+      "visible_job": "From the lower rim, curve down to form the second cup bowl in front of the upper cup.",
+      "instruction": "From the lower rim, curve down to form the second cup bowl in front of the upper cup.",
+      "adds": [
+        "lower cup rim and bowl"
+      ],
+      "introduces": [
+        "lower cup rim and bowl"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/stacked-teacups-with-spoons-step-4.jpg",
+      "step_name": "Lower Cup Handle And Saucer",
+      "visible_job": "Attach a C handle to the lower cup and draw a broad saucer oval beneath it.",
+      "instruction": "Attach a C handle to the lower cup and draw a broad saucer oval beneath it.",
+      "adds": [
+        "lower cup handle and saucer"
+      ],
+      "introduces": [
+        "lower cup handle and saucer"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/stacked-teacups-with-spoons-step-5.jpg",
+      "step_name": "Two Teaspoons",
+      "visible_job": "Lay one narrow teaspoon beside each cup, with oval bowls and slim handles.",
+      "instruction": "Lay one narrow teaspoon beside each cup, with oval bowls and slim handles.",
+      "adds": [
+        "two teaspoons"
+      ],
+      "introduces": [
+        "two teaspoons"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/stacked-teacups-with-spoons-finished-v1.jpg",
+    "step_name": "Shade the cups",
+    "visible_job": "Darken existing edges and shade the cups and saucer with pencil grain.",
+    "instruction": "Darken the keeper contours and add restrained pencil shading inside the established cups and saucer.",
+    "adds": [
+      "shading on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.0,
+    "finished_art_score": 8.0,
+    "first_step_observation": "Two separate oval rims establish the upper cup left and above the lower rim; each has room for a bowl.",
+    "draw_through_observation": "Reviewed six square saved crops in order. Both rims, upper and lower bowls, both right handles, saucer and two teaspoons stay at fixed anchors. Lower cup overlaps the upper cup; no temporary guides. Finish adds only graphite shading.",
+    "contract_sha256": "7059a04c3662bcce924d1a3413296f5c0fe2b601f9ab414c4b8bda019cb0bfdc",
+    "asset_sha256": {
+      "assets/stacked-teacups-with-spoons-step-1.jpg": "75929cf16934d5785f08b97dbef4a063246c389a1ce573eae099e632c6822af3",
+      "assets/stacked-teacups-with-spoons-step-2.jpg": "cbe134e15d0b7d5d332f18496c86a4ad4c312c097cee545aa758b145301a15a0",
+      "assets/stacked-teacups-with-spoons-step-3.jpg": "ed08770ef15e0b89651b4c07c1a65db2dd19695736439f34c319c5e5f099c053",
+      "assets/stacked-teacups-with-spoons-step-4.jpg": "b1dff4035172d87e89576dddc636e6b7e627b7a30fd566ba7a21ba9ffc52432f",
+      "assets/stacked-teacups-with-spoons-step-5.jpg": "2765cbeb28e2d6eac9352f80539cc70b00ad3902faffb7392fd10e4978aefabd",
+      "assets/stacked-teacups-with-spoons-finished-v1.jpg": "3026e019b18204b9147e673904483328cdb0eadd89d4d6d5b3eebc1cf9356f5b"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "upper cup rim",
+          "upper cup bowl and handle"
+        ],
+        "observed_addition": "The upper bowl and its right handle join the unchanged upper rim; lower rim stays below.",
+        "instruction_match": "Curve down from the upper rim to form its bowl; attach a C handle to its right edge.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "upper cup rim",
+          "upper cup bowl and handle",
+          "lower cup rim and bowl"
+        ],
+        "observed_addition": "The lower bowl grows from its existing rim while the upper bowl and handle remain fixed.",
+        "instruction_match": "From the lower rim, curve down to form the second cup bowl in front of the upper cup.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "upper cup rim",
+          "upper cup bowl and handle",
+          "lower cup rim and bowl",
+          "lower cup handle and saucer"
+        ],
+        "observed_addition": "The lower right handle and broad saucer appear; both cups keep their positions.",
+        "instruction_match": "Attach a C handle to the lower cup and draw a broad saucer oval beneath it.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "upper cup rim",
+          "upper cup bowl and handle",
+          "lower cup rim and bowl",
+          "lower cup handle and saucer",
+          "two teaspoons"
+        ],
+        "observed_addition": "Two teaspoon bowls and slim handles appear on the saucer beside the established cups.",
+        "instruction_match": "Lay one narrow teaspoon beside each cup, with oval bowls and slim handles.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "upper cup rim",
+          "upper cup bowl and handle",
+          "lower cup rim and bowl",
+          "lower cup handle and saucer",
+          "two teaspoons"
+        ],
+        "observed_addition": "Graphite shading deepens both cup bowls, rims, handles, saucer and spoons without new structure.",
+        "instruction_match": "Darken the keeper contours and add restrained pencil shading inside the established cups and saucer.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}
