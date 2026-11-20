@@ -125,6 +125,10 @@
 
 # Human Notes
 
+## 2026-11-20 — Pending lesson publication (Codex)
+
+- Restored November 17 Day 188 `folded-pocket-knife-with-wood-handle` from its approved raster sheet and schema-v5 plan in the clean publishing worktree. Desktop/mobile local tutorial QA and readiness passed; one-current-lesson-per-site cadence remains active. Original main checkout remains untouched.
+
 ## 2026-10-03 — Current cinnamon roll lesson (Codex)
 
 - Added Sketcha Day 149, `cinnamon-roll-with-icing`, for October 3. A five-panel graphite and dry colored-pencil lesson keeps the pastry oval and side, two icing bands, exposed spiral, plate rim, and shadow anchored. V1 was rejected for silent spiral erasure; V2 for an icing count mismatch. The approved third sheet and both rejected attempts remain private in `drafts/`.
