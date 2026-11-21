@@ -1,0 +1,126 @@
+{
+  "schema_version": 5,
+  "slug": "folded-umbrella-with-hook-handle",
+  "finished": "assets/folded-umbrella-with-hook-handle-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A long narrow folded canopy establishes the umbrella axis and gives a clear place for the handle.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Planned handmade graphite six-panel raster sheet; review pending."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "folded canopy",
+      "introduced_by_step": 1,
+      "description": "Draw a long narrow tapered folded canopy leaning down to the right, with a pointed top and scalloped lower edge."
+    },
+    {
+      "name": "fold ribs",
+      "introduced_by_step": 2,
+      "description": "Add three long light fold lines inside the canopy from tip to lower edge."
+    },
+    {
+      "name": "shaft and hook handle",
+      "introduced_by_step": 3,
+      "description": "Extend a straight shaft below the canopy and curve it into one hooked handle."
+    },
+    {
+      "name": "binding strap",
+      "introduced_by_step": 4,
+      "description": "Wrap a narrow band across the middle of the folded canopy and add a small button."
+    },
+    {
+      "name": "top ferrule and tip",
+      "introduced_by_step": 5,
+      "description": "Add a small cap above the canopy and a pointed ferrule at its top."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/folded-umbrella-with-hook-handle-step-1.jpg",
+      "step_name": "Folded Canopy",
+      "visible_job": "Draw a long narrow tapered folded canopy leaning down to the right, with a pointed top and scalloped lower edge.",
+      "instruction": "Draw a long narrow tapered folded canopy leaning down to the right, with a pointed top and scalloped lower edge.",
+      "adds": [
+        "folded canopy"
+      ],
+      "introduces": [
+        "folded canopy"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/folded-umbrella-with-hook-handle-step-2.jpg",
+      "step_name": "Fold Ribs",
+      "visible_job": "Add three long light fold lines inside the canopy from tip to lower edge.",
+      "instruction": "Add three long light fold lines inside the canopy from tip to lower edge.",
+      "adds": [
+        "fold ribs"
+      ],
+      "introduces": [
+        "fold ribs"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/folded-umbrella-with-hook-handle-step-3.jpg",
+      "step_name": "Shaft And Hook Handle",
+      "visible_job": "Extend a straight shaft below the canopy and curve it into one hooked handle.",
+      "instruction": "Extend a straight shaft below the canopy and curve it into one hooked handle.",
+      "adds": [
+        "shaft and hook handle"
+      ],
+      "introduces": [
+        "shaft and hook handle"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/folded-umbrella-with-hook-handle-step-4.jpg",
+      "step_name": "Binding Strap",
+      "visible_job": "Wrap a narrow band across the middle of the folded canopy and add a small button.",
+      "instruction": "Wrap a narrow band across the middle of the folded canopy and add a small button.",
+      "adds": [
+        "binding strap"
+      ],
+      "introduces": [
+        "binding strap"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/folded-umbrella-with-hook-handle-step-5.jpg",
+      "step_name": "Top Ferrule And Tip",
+      "visible_job": "Add a small cap above the canopy and a pointed ferrule at its top.",
+      "instruction": "Add a small cap above the canopy and a pointed ferrule at its top.",
+      "adds": [
+        "top ferrule and tip"
+      ],
+      "introduces": [
+        "top ferrule and tip"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/folded-umbrella-with-hook-handle-finished-v1.jpg",
+    "step_name": "Shade the umbrella",
+    "visible_job": "Shade established folds and handle with graphite.",
+    "instruction": "Darken the existing canopy ribs and add light pencil shading within its folds and along the hook.",
+    "adds": [
+      "graphite shading"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "pending",
+    "teaching_score": 0,
+    "finished_art_score": 0,
+    "first_step_observation": "",
+    "draw_through_observation": "",
+    "contract_sha256": "",
+    "asset_sha256": {},
+    "transitions": []
+  }
+}

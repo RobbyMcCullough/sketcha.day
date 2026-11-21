@@ -1,0 +1,126 @@
+{
+  "schema_version": 5,
+  "slug": "coiled-garden-hose-with-nozzle",
+  "finished": "assets/coiled-garden-hose-with-nozzle-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A single broad coil in its final position gives the learner a stable diameter and a clear opening for the hose end.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Planned six-panel handmade graphite raster contact sheet; pending generation and saved-crop review."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "main hose coil",
+      "introduced_by_step": 1,
+      "description": "Draw one broad oval hose loop, open at the lower right so the line can continue outward."
+    },
+    {
+      "name": "inner coil edge",
+      "introduced_by_step": 2,
+      "description": "Add a parallel inner curve around the loop to establish hose thickness without closing the outlet."
+    },
+    {
+      "name": "hose tail",
+      "introduced_by_step": 3,
+      "description": "Extend the open lower-right end into a short curved tail that rises toward the nozzle."
+    },
+    {
+      "name": "nozzle grip",
+      "introduced_by_step": 4,
+      "description": "Attach a small angled pistol-grip body to the tail with a narrow connector collar."
+    },
+    {
+      "name": "spray head and trigger",
+      "introduced_by_step": 5,
+      "description": "Add a flared head at the upper nozzle tip and a short trigger inside the grip."
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/coiled-garden-hose-with-nozzle-step-1.jpg",
+      "step_name": "Main Hose Coil",
+      "visible_job": "Draw one broad oval hose loop, open at the lower right so the line can continue outward.",
+      "instruction": "Draw one broad oval hose loop, open at the lower right so the line can continue outward.",
+      "adds": [
+        "main hose coil"
+      ],
+      "introduces": [
+        "main hose coil"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/coiled-garden-hose-with-nozzle-step-2.jpg",
+      "step_name": "Inner Coil Edge",
+      "visible_job": "Add a parallel inner curve around the loop to establish hose thickness without closing the outlet.",
+      "instruction": "Add a parallel inner curve around the loop to establish hose thickness without closing the outlet.",
+      "adds": [
+        "inner coil edge"
+      ],
+      "introduces": [
+        "inner coil edge"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/coiled-garden-hose-with-nozzle-step-3.jpg",
+      "step_name": "Hose Tail",
+      "visible_job": "Extend the open lower-right end into a short curved tail that rises toward the nozzle.",
+      "instruction": "Extend the open lower-right end into a short curved tail that rises toward the nozzle.",
+      "adds": [
+        "hose tail"
+      ],
+      "introduces": [
+        "hose tail"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/coiled-garden-hose-with-nozzle-step-4.jpg",
+      "step_name": "Nozzle Grip",
+      "visible_job": "Attach a small angled pistol-grip body to the tail with a narrow connector collar.",
+      "instruction": "Attach a small angled pistol-grip body to the tail with a narrow connector collar.",
+      "adds": [
+        "nozzle grip"
+      ],
+      "introduces": [
+        "nozzle grip"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/coiled-garden-hose-with-nozzle-step-5.jpg",
+      "step_name": "Spray Head And Trigger",
+      "visible_job": "Add a flared head at the upper nozzle tip and a short trigger inside the grip.",
+      "instruction": "Add a flared head at the upper nozzle tip and a short trigger inside the grip.",
+      "adds": [
+        "spray head and trigger"
+      ],
+      "introduces": [
+        "spray head and trigger"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/coiled-garden-hose-with-nozzle-finished-v1.jpg",
+    "step_name": "Shade the hose",
+    "visible_job": "Darken keeper contours and add restrained graphite shading to the established hose and nozzle.",
+    "instruction": "Darken the established coil and nozzle contours; shade beneath the coil with light graphite strokes.",
+    "adds": [
+      "graphite shading on established contours"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "pending",
+    "teaching_score": 0,
+    "finished_art_score": 0,
+    "first_step_observation": "",
+    "draw_through_observation": "",
+    "contract_sha256": "",
+    "asset_sha256": {},
+    "transitions": []
+  }
+}

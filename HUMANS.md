@@ -1960,3 +1960,6 @@
 
 ## 2026-11-20 daily lesson
 - Clean publishing worktree: Day 189, `stacked-teacups-with-spoons`. Six square graphite crops reviewed, teaching/finish 8.0/8.0; schema-v5 readiness and desktop/mobile QA passed. One-current-lesson-per-site cadence remains active. Original main checkout with older pending brass-door-knocker work was left untouched.
+
+## 2026-11-21 daily run
+- No Sketcha lesson published. `coiled-garden-hose-with-nozzle` and `folded-umbrella-with-hook-handle` were rejected for generated-panel contour replacement or movement. Plans and failed sheets are retained privately with rejected-quality ledger notes; no public assets. One-current-lesson-per-site cadence remains active. Original main checkout's older pending brass door knocker draft remains untouched.
