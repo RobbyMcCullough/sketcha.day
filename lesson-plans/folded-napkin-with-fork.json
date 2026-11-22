@@ -1,0 +1,213 @@
+{
+  "schema_version": 5,
+  "slug": "folded-napkin-with-fork",
+  "finished": "assets/folded-napkin-with-fork-finished-v1.jpg",
+  "drawing_mode": "direct",
+  "first_step_test": "A folded triangular napkin establishes the two overlapping cloth edges in their final position.",
+  "source": {
+    "type": "generated-raster-master",
+    "notes": "Approved third six-panel handmade raster contact sheet after two fork redraw failures and one targeted edit; rejected versions retained privately."
+  },
+  "temporary_guides": [],
+  "final_elements": [
+    {
+      "name": "napkin triangle",
+      "introduced_by_step": 1,
+      "description": "Folded triangular cloth silhouette with hem edge"
+    },
+    {
+      "name": "diagonal fold",
+      "introduced_by_step": 2,
+      "description": "One diagonal overlap within the established triangle"
+    },
+    {
+      "name": "four-tine fork",
+      "introduced_by_step": 3,
+      "description": "Complete separate fork with four narrow tines to the right"
+    },
+    {
+      "name": "stitched hem",
+      "introduced_by_step": 4,
+      "description": "Short dashed hem marks inside two cloth edges"
+    },
+    {
+      "name": "cast shadow",
+      "introduced_by_step": 5,
+      "description": "Soft broken shadow below the napkin and fork"
+    }
+  ],
+  "frames": [
+    {
+      "step": 1,
+      "asset": "assets/folded-napkin-with-fork-step-1.jpg",
+      "step_name": "Shape the napkin",
+      "visible_job": "Draw a tall folded napkin triangle, with a narrow doubled bottom and right hem.",
+      "instruction": "Draw a tall folded napkin triangle, with a narrow doubled bottom and right hem.",
+      "adds": [
+        "napkin triangle"
+      ],
+      "introduces": [
+        "napkin triangle"
+      ]
+    },
+    {
+      "step": 2,
+      "asset": "assets/folded-napkin-with-fork-step-2.jpg",
+      "step_name": "Fold one corner",
+      "visible_job": "From the low left point, draw one diagonal fold toward the right edge.",
+      "instruction": "From the low left point, draw one diagonal fold toward the right edge.",
+      "adds": [
+        "diagonal fold"
+      ],
+      "introduces": [
+        "diagonal fold"
+      ]
+    },
+    {
+      "step": 3,
+      "asset": "assets/folded-napkin-with-fork-step-3.jpg",
+      "step_name": "Draw the fork",
+      "visible_job": "Beside the napkin, draw a complete slim fork with a rounded handle and four separate tines.",
+      "instruction": "Beside the napkin, draw a complete slim fork with a rounded handle and four separate tines.",
+      "adds": [
+        "four-tine fork"
+      ],
+      "introduces": [
+        "four-tine fork"
+      ]
+    },
+    {
+      "step": 4,
+      "asset": "assets/folded-napkin-with-fork-step-4.jpg",
+      "step_name": "Mark the hem",
+      "visible_job": "Add short dashed seam marks inside the upper-left and right napkin edges.",
+      "instruction": "Add short dashed seam marks inside the upper-left and right napkin edges.",
+      "adds": [
+        "stitched hem"
+      ],
+      "introduces": [
+        "stitched hem"
+      ]
+    },
+    {
+      "step": 5,
+      "asset": "assets/folded-napkin-with-fork-step-5.jpg",
+      "step_name": "Ground the objects",
+      "visible_job": "Shade a soft broken cast shadow beneath the napkin and fork.",
+      "instruction": "Shade a soft broken cast shadow beneath the napkin and fork.",
+      "adds": [
+        "cast shadow"
+      ],
+      "introduces": [
+        "cast shadow"
+      ]
+    }
+  ],
+  "final_step": {
+    "asset": "assets/folded-napkin-with-fork-finished-v1.jpg",
+    "step_name": "Shade the folds",
+    "visible_job": "Add pale blue-gray pencil shading within the established cloth planes and deepen the existing graphite fork.",
+    "instruction": "Shade the two established napkin planes lightly in blue-gray, and darken the fork and existing ground shadow.",
+    "adds": [
+      "shading inside established forms"
+    ],
+    "introduces": []
+  },
+  "visual_review": {
+    "status": "approved",
+    "teaching_score": 8.0,
+    "finished_art_score": 8.0,
+    "first_step_observation": "The triangular napkin silhouette and doubled hem are clear and leave room for the fork on the right.",
+    "draw_through_observation": "Reviewed six saved square crops in order: triangle, diagonal fold, complete four-tine fork, seam dashes, shadow, and pale shading. No guides, removals or moving anchors.",
+    "contract_sha256": "dd86e983a2401e404024eb7ecbb4ec45e99b53bf316401b4d29edc00d1b5586b",
+    "asset_sha256": {
+      "assets/folded-napkin-with-fork-step-1.jpg": "1d861f4f1a5d478329b59929c0f8c49bf90fbac3800af474786d6d49edb54d3f",
+      "assets/folded-napkin-with-fork-step-2.jpg": "0769182c5a0a93e9bfe6232d48b90b41a0f90b1d2aedb643d66bb88f4e78548d",
+      "assets/folded-napkin-with-fork-step-3.jpg": "442f65595b670da6f8f5a70f53d65e4472d9b989a8d58a76cae331ddb54e9f00",
+      "assets/folded-napkin-with-fork-step-4.jpg": "c715853c4dc9f80422753e33940f5ebecf24f5c169b2626d194a250b321cd702",
+      "assets/folded-napkin-with-fork-step-5.jpg": "8a23225fd44f46e5c2a2c05e8ea5a592db5c8412e7df3c9d9dc5df31efeb3980",
+      "assets/folded-napkin-with-fork-finished-v1.jpg": "e50881fdbd43c563a11a492fa2ba8bff8767ce576240a467cc1a3cd4455cd98f"
+    },
+    "transitions": [
+      {
+        "from_step": 1,
+        "to_step": 2,
+        "observed_present": [
+          "napkin triangle",
+          "diagonal fold"
+        ],
+        "observed_addition": "The diagonal cloth fold appears while the triangular napkin outline and doubled hem remain in place.",
+        "instruction_match": "From the low left point, draw one diagonal fold toward the right edge.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 2,
+        "to_step": 3,
+        "observed_present": [
+          "napkin triangle",
+          "diagonal fold",
+          "four-tine fork"
+        ],
+        "observed_addition": "A complete fork with four tines appears to the right; the napkin triangle and fold retain their anchors.",
+        "instruction_match": "Beside the napkin, draw a complete slim fork with a rounded handle and four separate tines.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 3,
+        "to_step": 4,
+        "observed_present": [
+          "napkin triangle",
+          "diagonal fold",
+          "four-tine fork",
+          "stitched hem"
+        ],
+        "observed_addition": "Dashed hem stitching appears inside the upper-left and right edges; the fork and fold remain.",
+        "instruction_match": "Add short dashed seam marks inside the upper-left and right napkin edges.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 4,
+        "to_step": 5,
+        "observed_present": [
+          "napkin triangle",
+          "diagonal fold",
+          "four-tine fork",
+          "stitched hem",
+          "cast shadow"
+        ],
+        "observed_addition": "Soft broken shadow appears beneath the napkin and fork; all contours and seams remain fixed.",
+        "instruction_match": "Shade a soft broken cast shadow beneath the napkin and fork.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      },
+      {
+        "from_step": 5,
+        "to_step": 6,
+        "observed_present": [
+          "napkin triangle",
+          "diagonal fold",
+          "four-tine fork",
+          "stitched hem",
+          "cast shadow"
+        ],
+        "observed_addition": "Pale blue-gray fills only existing cloth planes; the existing fork and cast shadow darken.",
+        "instruction_match": "Shade the two established napkin planes lightly in blue-gray, and darken the fork and existing ground shadow.",
+        "unexplained_removals": [],
+        "unexplained_moves": [],
+        "removed_guides": [],
+        "observed_guides": []
+      }
+    ]
+  }
+}

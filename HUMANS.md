@@ -1960,3 +1960,6 @@
 
 ## 2026-11-20 daily lesson
 - Clean publishing worktree: Day 189, `stacked-teacups-with-spoons`. Six square graphite crops reviewed, teaching/finish 8.0/8.0; schema-v5 readiness and desktop/mobile QA passed. One-current-lesson-per-site cadence remains active. Original main checkout with older pending brass-door-knocker work was left untouched.
+
+## 2026-11-22 daily return note
+- Codex desktop automation prepared the current Day 190 pencil lesson, `folded-napkin-with-fork`, in the clean sibling-parent worktree `.sketcha-day-2026-11-22`. Six saved crops and rendered home, library, and tutorial pages were reviewed at desktop and mobile widths; two rejected sheets and an edit were retained privately. The original main checkout's pending brass-door-knocker draft remains untouched. The one-current-lesson-per-site cadence remains active.
